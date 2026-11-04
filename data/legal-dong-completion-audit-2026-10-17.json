@@ -1,0 +1,2384 @@
+{
+  "scope": "258개 미확보 명칭의 수집·표제 선택 검사. 역사적 사실 전체 검증·현행 법정동 목록 확정·필지 동일성 검증이 아님.",
+  "targetCount": 258,
+  "sources": 258,
+  "passages": 258,
+  "directHtmlReceipts": 257,
+  "webOnlyReceipts": 1,
+  "unknownRights": 257,
+  "kogl1": 1,
+  "originalTextAdded": 0,
+  "expectedTotals": {
+    "sources": 524,
+    "passages": 638,
+    "scopes": 492,
+    "captures": 479,
+    "legalNamesWithText": 467,
+    "legalNamesWithoutText": 0,
+    "guWithText": 25,
+    "assets": 20,
+    "facts": 21,
+    "originalSources": 123,
+    "rightsChecked": 136
+  },
+  "byDistrict": {
+    "gu-강남구": 11,
+    "gu-동작구": 3,
+    "gu-마포구": 1,
+    "gu-서대문구": 10,
+    "gu-성동구": 5,
+    "gu-성북구": 32,
+    "gu-영등포구": 25,
+    "gu-용산구": 24,
+    "gu-종로구": 76,
+    "gu-중구": 71
+  },
+  "evidence": [
+    {
+      "regionId": "dong-강남구-논현동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%85%BC%ED%98%84%EB%8F%99",
+      "sourceHash": "f005b29606c52e6567405cf50085d7f0758f8b44f6c10675acd0ee885f7295e8",
+      "sourceHeading": "논현동(論峴洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-강남구-대치동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8C%80%EC%B9%98%EB%8F%99",
+      "sourceHash": "8b222347da79f24b00a05033713d332793535426a7d3e79810a3d8358b672c6e",
+      "sourceHeading": "대치동(大峙洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-강남구-도곡동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%84%EA%B3%A1%EB%8F%99",
+      "sourceHash": "820b5ee184b99bb07066ce7079aa8a0ddb4182a85771d206e98d26331f163e30",
+      "sourceHeading": "도곡동(道谷洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-강남구-삼성동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%BC%EC%84%B1%EB%8F%99",
+      "sourceHash": "e651e0b1836c079800952a02023439d0b76638e30c7dc5df7f561055c1cae635",
+      "sourceHeading": "삼성동(三成洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-강남구-수서동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%88%98%EC%84%9C%EB%8F%99",
+      "sourceHash": "72f2c908ac983c6daecfa2eaeebfc6625a2af490b3d03d164dabfcdeb82a70c5",
+      "sourceHeading": "수서동(水西洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-강남구-신사동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%8B%A0%EC%82%AC%EB%8F%99",
+      "sourceHash": "4dc5421f741b831c77ccd6aad8d09bd0953242e125a958eefd9390ff28ffd423",
+      "sourceHeading": "신사동(新沙洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box1"
+    },
+    {
+      "regionId": "dong-강남구-압구정동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%95%95%EA%B5%AC%EC%A0%95%EB%8F%99",
+      "sourceHash": "0c96ad550ca24b62268f6d237b04241a70b1e1caedfaca8a40c1474a7653af2a",
+      "sourceHeading": "압구정동(狎鷗亭洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-강남구-역삼동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%97%AD%EC%82%BC%EB%8F%99",
+      "sourceHash": "87627389bf10b594768a979fc183a710370f5430114aa06629248134c394a216",
+      "sourceHeading": "역삼동(驛三洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-강남구-일원동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%BC%EC%9B%90%EB%8F%99",
+      "sourceHash": "37841779aa6a693d4dc8058bc5c8baeb93ecc3a7208a78a03b20f08c59b6dd54",
+      "sourceHeading": "일원동(逸院洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-강남구-자곡동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9E%90%EA%B3%A1%EB%8F%99",
+      "sourceHash": "ef5c2e4b6bee078648a19be9a3b8c964156d4079d7784881090817e73abd30e2",
+      "sourceHeading": "자곡동(紫谷洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-강남구-청담동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B2%AD%EB%8B%B4%EB%8F%99",
+      "sourceHash": "9bc7fdad5fd0426fd37686461db252e1820bd0fdad890e19c5058f5f3eea3bbe",
+      "sourceHeading": "청담동(淸潭洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-동작구-동작동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%9E%91%EB%8F%99",
+      "sourceHash": "94231859422b6eb7ff19cbeb1461f7c194e2c28b7c3a02a7ce28b62b7a048056",
+      "sourceHeading": "동작동(銅雀洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-동작구-본동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B3%B8%EB%8F%99",
+      "sourceHash": "73e1c67ef72764ec37e362e9c24f36a10d50f844b83af382ab23edf5b97021fa",
+      "sourceHeading": "본동(本洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-동작구-상도1동",
+      "sourceUrl": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201225",
+      "sourceHash": "1d5fe56bccc41f04510922698c0aa9080a1c7d86f77caa9f9b541cc06b4646d2",
+      "sourceHeading": "행정구역 연혁",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + Dongjak 1980 legal-dong list containing 상도제1동",
+      "sourceBlock": ""
+    },
+    {
+      "regionId": "dong-마포구-노고산동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%85%B8%EA%B3%A0%EC%82%B0%EB%8F%99",
+      "sourceHash": "38038c6fa7ea9e44bcf31a46e4ae8747582391bf478172ab78e6bcfd926a3e77",
+      "sourceHeading": "노고산동(老姑山洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-냉천동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%83%89%EC%B2%9C%EB%8F%99",
+      "sourceHash": "c18dda17280429b6ca8b5a4983c1b3744575be19da55a4d060f840f310f3e195",
+      "sourceHeading": "냉천동(冷泉洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-대신동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8C%80%EC%8B%A0%EB%8F%99",
+      "sourceHash": "d9167f4907526d10f065c62af78366289163f7849660c0964d3193c1004b5d4b",
+      "sourceHeading": "대신동(大新洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-대현동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8C%80%ED%98%84%EB%8F%99",
+      "sourceHash": "30f56911f480fec9aab6828aa3023db3c6e47e7c3df2a212801324af990d591f",
+      "sourceHeading": "대현동(大峴洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-미근동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AF%B8%EA%B7%BC%EB%8F%99",
+      "sourceHash": "785c586ce01cc105555f3637056979cd4354e735e70284a92a7d351f179cd0ef",
+      "sourceHeading": "미근동(渼芹洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-봉원동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B4%89%EC%9B%90%EB%8F%99",
+      "sourceHash": "beb058de12e95129ab0992463be88741fbc4d9428539d4d51095b612015587e7",
+      "sourceHeading": "봉원동(奉元洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-영천동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%81%EC%B2%9C%EB%8F%99",
+      "sourceHash": "7371dc5faef4bbfde78bfd7671c1d5906fc49115dad5552e7bb8c67b8aa1c318",
+      "sourceHeading": "영천동(靈泉洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-옥천동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%A5%EC%B2%9C%EB%8F%99",
+      "sourceHash": "7bba7ea3e636aa9557f865dbfb16aac3a8f217aa55eafecf0b2d8dd46cbd35bc",
+      "sourceHeading": "옥천동(玉川洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-창천동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B0%BD%EC%B2%9C%EB%8F%99",
+      "sourceHash": "216dfbd8df78f926d6c536eb45f1bb3b7a2335f34a82195d758acff6642f826a",
+      "sourceHeading": "창천동(滄川洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-합동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%A9%EB%8F%99",
+      "sourceHash": "b01f0088e0d661a03b440472c70f2695c87cf737a61ea2caa33b3877829c1cd4",
+      "sourceHeading": "합동(蛤洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-서대문구-현저동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%98%84%EC%A0%80%EB%8F%99",
+      "sourceHash": "6741cd23fdf414737c1e614b4af4986be515e64ca342d455cd48871ec7439ea4",
+      "sourceHeading": "현저동(峴底洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성동구-금호동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B8%88%ED%98%B8%EB%8F%991%EA%B0%80",
+      "sourceHash": "be87ab7ad892c9d006ac720e9d4b53bcaeb6ef6cc7eddda5400cc5faabbb63ca",
+      "sourceHeading": "금호동1가(金湖洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성동구-금호동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B8%88%ED%98%B8%EB%8F%992%EA%B0%80",
+      "sourceHash": "72add639bf9e73d39e22c9e5e2d1999027c5cec7845f38ad325da5a6f1fa9159",
+      "sourceHeading": "금호동2가(金湖洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성동구-금호동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B8%88%ED%98%B8%EB%8F%993%EA%B0%80",
+      "sourceHash": "491953f2a5244d4e8acf174085f71438fa7ff4638c85eb41f11ced209e024b05",
+      "sourceHeading": "금호동3가(金湖洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성동구-금호동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B8%88%ED%98%B8%EB%8F%994%EA%B0%80",
+      "sourceHash": "c053595a6f78a64f89a339b89724db3c0b302145e96150a332fb5db2f9bff31e",
+      "sourceHeading": "금호동4가(金湖洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성동구-홍익동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%99%8D%EC%9D%B5%EB%8F%99",
+      "sourceHash": "9c3bb880adca3f45ee7888c570412d44b8b422be5d19340491e0b83f860d720c",
+      "sourceHeading": "홍익동(弘益洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동선동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%84%A0%EB%8F%991%EA%B0%80",
+      "sourceHash": "bdbe1f98ca48ad7f691f65771f7c657abfb07d843d26cff00726a5f8d8c4ac37",
+      "sourceHeading": "동선동1가(東仙洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동선동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%84%A0%EB%8F%992%EA%B0%80",
+      "sourceHash": "ca6aa377c1199382135d355facce85757b56d0e6894762590e2548b382a702f6",
+      "sourceHeading": "동선동2가(東仙洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동선동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%84%A0%EB%8F%993%EA%B0%80",
+      "sourceHash": "bdf937b906c5c468330617c19571dee60da6cb999a2ad166ff4c7f9bbb85977e",
+      "sourceHeading": "동선동3가(東仙洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동선동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%84%A0%EB%8F%994%EA%B0%80",
+      "sourceHash": "db8a59d1cfdc2a6582b2b0bee5a0213e6fdfcb11cc7ed980fb7b97d86af37397",
+      "sourceHeading": "동선동4가(東仙洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동선동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%84%A0%EB%8F%995%EA%B0%80",
+      "sourceHash": "48d7df0a7db3234f7b5d76a4e6ec847fd790dc9e57213c8af0ba98ade03df4c0",
+      "sourceHeading": "동선동5가(東仙洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동소문동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%86%8C%EB%AC%B8%EB%8F%991%EA%B0%80",
+      "sourceHash": "aef7d5205af765baedd762e324717fda7159d7dcec23bdf68b6cb5adb2a387d4",
+      "sourceHeading": "동소문동1가(東小門洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동소문동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%86%8C%EB%AC%B8%EB%8F%992%EA%B0%80",
+      "sourceHash": "e075e16926db3b6e80d188711e5440f56e0d058a7b40f862f7e8c7c60a2babca",
+      "sourceHeading": "동소문동2가(東小門洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동소문동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%86%8C%EB%AC%B8%EB%8F%993%EA%B0%80",
+      "sourceHash": "3792bd9d845776ebcd88c633297ab19f1d2a645b1f3566a6c6586186c530aa91",
+      "sourceHeading": "동소문동3가(東小門洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동소문동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%86%8C%EB%AC%B8%EB%8F%994%EA%B0%80",
+      "sourceHash": "73be367edc6eecb93eecddd0cce82cbacde38dec3c51d1704dc538c1a514bcf8",
+      "sourceHeading": "동소문동4가(東小門洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동소문동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%86%8C%EB%AC%B8%EB%8F%995%EA%B0%80",
+      "sourceHash": "d030423f82a51dd4928c5d356f9736c68390465674ed68233a9551a34175a61a",
+      "sourceHeading": "동소문동5가(東小門洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동소문동6가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%86%8C%EB%AC%B8%EB%8F%996%EA%B0%80",
+      "sourceHash": "8079c1c8285fe189084f75148c01922bdf6fb9d35f30debf0fecda49c3635b4d",
+      "sourceHeading": "동소문동6가(東小門洞6街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-동소문동7가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%86%8C%EB%AC%B8%EB%8F%997%EA%B0%80",
+      "sourceHash": "f8ff856ea7066ea9102a8a668a04799047d209e90ca7f1042301cd2737b6fc9a",
+      "sourceHeading": "동소문동7가(東小門洞7街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-보문동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B3%B4%EB%AC%B8%EB%8F%991%EA%B0%80",
+      "sourceHash": "2ee194d51902d81cb07da6c376f5948b13f2b9f951afa619054233346bfdf1ea",
+      "sourceHeading": "보문동1가(普門洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-보문동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B3%B4%EB%AC%B8%EB%8F%992%EA%B0%80",
+      "sourceHash": "baf7c634551d6b4d66d76f6f503cbbdfeed498017cf062509ce71e8ec620c8bf",
+      "sourceHeading": "보문동2가(普門洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-보문동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B3%B4%EB%AC%B8%EB%8F%993%EA%B0%80",
+      "sourceHash": "685f3b3559f374174dfcbd1a477184657cc1556bed65ec453fec1fc3730c0ad2",
+      "sourceHeading": "보문동3가(普門洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-보문동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B3%B4%EB%AC%B8%EB%8F%994%EA%B0%80",
+      "sourceHash": "42f68e23351eecb4440cb481da16725019e8d39528ff2b1160cd919b7661b7d1",
+      "sourceHeading": "보문동4가(普門洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-보문동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B3%B4%EB%AC%B8%EB%8F%995%EA%B0%80",
+      "sourceHash": "6665cb352b2a1ae031cafeeade134f59700aa6fb884cdaf501b3183023e4076b",
+      "sourceHeading": "보문동5가(普門洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-보문동6가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B3%B4%EB%AC%B8%EB%8F%996%EA%B0%80",
+      "sourceHash": "af98ba5101d28a43936e1af76ec24ab78828c7ed1620c65d7abf33d5e98af9cd",
+      "sourceHeading": "보문동6가(普門洞6街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-보문동7가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B3%B4%EB%AC%B8%EB%8F%997%EA%B0%80",
+      "sourceHash": "2c9be3aaf7edc339ac71c0451f85dc6990507b1fed2cb4431017b1786659a07f",
+      "sourceHeading": "보문동7가(普門洞7街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-삼선동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%BC%EC%84%A0%EB%8F%991%EA%B0%80",
+      "sourceHash": "4b73646e21a7a92dc88a2b7d3444f04e554950a6af3e820c000c039f65800494",
+      "sourceHeading": "삼선동1가(三仙洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-삼선동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%BC%EC%84%A0%EB%8F%992%EA%B0%80",
+      "sourceHash": "46639050e3a33725395aea3a87bffd5c96df099bc1ee4c05de2f3d969682d186",
+      "sourceHeading": "삼선동2가(三仙洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-삼선동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%BC%EC%84%A0%EB%8F%993%EA%B0%80",
+      "sourceHash": "d1ed60d90b63c5a6d7f47e4b07309fb368da3120b7085b22ff83e95c7b1f4865",
+      "sourceHeading": "삼선동3가(三仙洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-삼선동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%BC%EC%84%A0%EB%8F%994%EA%B0%80",
+      "sourceHash": "49e10f829add1467d8af14a58c180aab7d6719f3437658083ef3a40befb2dbec",
+      "sourceHeading": "삼선동4가(三仙洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-삼선동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%BC%EC%84%A0%EB%8F%995%EA%B0%80",
+      "sourceHash": "f46b986cf274fdd657650b7fee190b1295716e2842b78a67b61baca045462902",
+      "sourceHeading": "삼선동5가(三仙洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-상월곡동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%83%81%EC%9B%94%EA%B3%A1%EB%8F%99",
+      "sourceHash": "f48fa0f7de4c53160a4c1299aefeda25414a29f04f0a91f11e6f714642d43d01",
+      "sourceHeading": "상월곡동(上月谷洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-성북동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%84%B1%EB%B6%81%EB%8F%991%EA%B0%80",
+      "sourceHash": "d1409af8e4065fbf11895d865810a827147af62507469d940371c3adbe55d7d8",
+      "sourceHeading": "성북동1가(城北洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-안암동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%95%88%EC%95%94%EB%8F%991%EA%B0%80",
+      "sourceHash": "6d6c3f4f1cc8cad32a42925a2a52a04242572aff3b3269aee058fe5f6d1bf40c",
+      "sourceHeading": "안암동1가(安岩洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-안암동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%95%88%EC%95%94%EB%8F%992%EA%B0%80",
+      "sourceHash": "e25fbd25c5073436d1281698b372baeb28e99750a36820b5cbec05e857c8ce33",
+      "sourceHeading": "안암동2가(安岩洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-안암동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%95%88%EC%95%94%EB%8F%993%EA%B0%80",
+      "sourceHash": "2696e7b9446544caeae0737b3d0a959bef0a737b2d0f221d4a226113fed397da",
+      "sourceHeading": "안암동3가(安岩洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-안암동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%95%88%EC%95%94%EB%8F%994%EA%B0%80",
+      "sourceHash": "b4065ce50446e73f4d7145ea3ac6bc450d90041ee34b548b3944776d81c57348",
+      "sourceHeading": "안암동4가(安岩洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-안암동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%95%88%EC%95%94%EB%8F%995%EA%B0%80",
+      "sourceHash": "f1c6ec00b3a7caaf002847e4906cc12d6c9dfb76b2054b92da42417e45b277ac",
+      "sourceHeading": "안암동5가(安岩洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-성북구-하월곡동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%98%EC%9B%94%EA%B3%A1%EB%8F%99",
+      "sourceHash": "078b8da6c196cfebb6080f1e5eae5bf5db6ef39739d5707f99282ade93397230",
+      "sourceHeading": "하월곡동(下月谷洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-당산동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8B%B9%EC%82%B0%EB%8F%992%EA%B0%80",
+      "sourceHash": "c81d9eed0ada88d123c01fd172c4f470ae4201afc4136706bab4f36c113f43aa",
+      "sourceHeading": "당산동2가(堂山洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-당산동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8B%B9%EC%82%B0%EB%8F%993%EA%B0%80",
+      "sourceHash": "52d352c40903696106bde9437d02bcecb5854ac032255c07137d994da677a587",
+      "sourceHeading": "당산동3가(堂山洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-당산동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8B%B9%EC%82%B0%EB%8F%994%EA%B0%80",
+      "sourceHash": "34cec0b03ba6b38fa2d328d6ecfea8cc167d8cdbfd6de4330d7609d0609bded1",
+      "sourceHeading": "당산동4가(堂山洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-당산동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8B%B9%EC%82%B0%EB%8F%995%EA%B0%80",
+      "sourceHash": "51dde161592db8df6a1b96c25eeca784a6c4b70f07cc92b7020cc827a5402579",
+      "sourceHeading": "당산동5가(堂山洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-당산동6가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8B%B9%EC%82%B0%EB%8F%996%EA%B0%80",
+      "sourceHash": "d783b790289fbccbaf3c43fdbfcfa71acf2611adf692b559e04154b6daf71639",
+      "sourceHeading": "당산동6가(堂山洞6街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-문래동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B8%EB%9E%98%EB%8F%991%EA%B0%80",
+      "sourceHash": "fc82ecf8b11a16283ecdf17a4fab49356eb36dd9f36a2f28418728e4ec3582f7",
+      "sourceHeading": "문래동1가(文來洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-문래동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B8%EB%9E%98%EB%8F%992%EA%B0%80",
+      "sourceHash": "43a30ef2d12fad676060eb65a19a11a0d49620ba5ec8b56585bfbbf7ffdb6cac",
+      "sourceHeading": "문래동2가(文來洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-문래동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B8%EB%9E%98%EB%8F%993%EA%B0%80",
+      "sourceHash": "a663189889dc60ab5969a7f091ef33fb24af885902a6289925b994c2c53acaa1",
+      "sourceHeading": "문래동3가(文來洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-문래동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B8%EB%9E%98%EB%8F%995%EA%B0%80",
+      "sourceHash": "e5b1bfcfaa2b8ce4d4eedb1be5cb5409a4c0cb3a68633c0b8baac56518a9bdbe",
+      "sourceHeading": "문래동5가(文來洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-문래동6가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B8%EB%9E%98%EB%8F%996%EA%B0%80",
+      "sourceHash": "7f46af896128ba10585daec1a650fbf1ac4944cf5f47e248af251bbb976fb8e0",
+      "sourceHeading": "문래동6가(文來洞6街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-양평동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%96%91%ED%8F%89%EB%8F%991%EA%B0%80",
+      "sourceHash": "cc98c58f64836063274d9c5e5a899bcbbcf5c9788b34fd2793f2858461231866",
+      "sourceHeading": "양평동1가(楊坪洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-양평동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%96%91%ED%8F%89%EB%8F%992%EA%B0%80",
+      "sourceHash": "3dbf89c05c83f22564b9bc45b4222aa93636193387bb4fa7ff41f07bc9fb069c",
+      "sourceHeading": "양평동2가(楊坪洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-양평동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%96%91%ED%8F%89%EB%8F%993%EA%B0%80",
+      "sourceHash": "f5586e14a8dfc3bc0b13e4ec977b7480b77624cb05def72ba4631689043a0991",
+      "sourceHeading": "양평동3가(楊坪洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-양평동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%96%91%ED%8F%89%EB%8F%994%EA%B0%80",
+      "sourceHash": "405622781e12f8a0620563cf46c6a3539578c85200cccc5b2c3f9ed7ad94f29d",
+      "sourceHeading": "양평동4가(楊坪洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-양평동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%96%91%ED%8F%89%EB%8F%995%EA%B0%80",
+      "sourceHash": "1413cc64ab32891c4d853c8ed3e8b4f6ce6b02805954bfe9704465731f44564a",
+      "sourceHeading": "양평동5가(楊坪洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-양평동6가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%96%91%ED%8F%89%EB%8F%996%EA%B0%80",
+      "sourceHash": "a30355df9c1e71aa7d37458ec0e8ae4dd0705eed9795a1eded6aec85ad996490",
+      "sourceHeading": "양평동6가(楊坪洞6街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-여의도동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%97%AC%EC%9D%98%EB%8F%84%EB%8F%99",
+      "sourceHash": "684a4889268bf4a57e3f9f2e50b71cb7cc01bff59acb5a47f94c7df370b78c33",
+      "sourceHeading": "여의도동(汝矣島洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-영등포동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%991%EA%B0%80",
+      "sourceHash": "abbdbdb9a5a9c88af04314755b5442c14fd2cf3e05b6b56840ec8968d92362a4",
+      "sourceHeading": "영등포동1가(永登浦洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-영등포동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%992%EA%B0%80",
+      "sourceHash": "f6b6cde9863b4088a7e420cd1898346f5890af0e200ca4c4bdc0197b4b936684",
+      "sourceHeading": "영등포동2가(永登浦洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-영등포동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%993%EA%B0%80",
+      "sourceHash": "14c5714f433bc971b7d19864bb592f7db357e9d6ae43e68681d3a9d55ae99930",
+      "sourceHeading": "영등포동3가(永登浦洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-영등포동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%994%EA%B0%80",
+      "sourceHash": "07c20f30e58b97bdbfe139d5108cc7d6939d30085f904fa8fabd6d0d57366fa8",
+      "sourceHeading": "영등포동4가(永登浦洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-영등포동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%995%EA%B0%80",
+      "sourceHash": "2edae4780672386639ff22f99047a2a25d4615a260b999d3667d78ad6ac5dc3a",
+      "sourceHeading": "영등포동5가(永登浦洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-영등포동6가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%996%EA%B0%80",
+      "sourceHash": "ac32c39b3f4e4ed29ce04229d7130e05941df5e17e18c6ebd03ea1e45022d4ea",
+      "sourceHeading": "영등포동6가(永登浦洞6街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-영등포동7가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%997%EA%B0%80",
+      "sourceHash": "20af950f5dac14e93219bdec4e3e37bfa514e9ba3b838996297a3bff42b71510",
+      "sourceHeading": "영등포동7가(永登浦洞7街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-영등포구-영등포동8가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%998%EA%B0%80",
+      "sourceHash": "442d21b05bb6b9148120a25bb29fec360852bb6201c978c7b731ea4eb75568c9",
+      "sourceHeading": "영등포동8가(永登浦洞8街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-도원동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%84%EC%9B%90%EB%8F%99",
+      "sourceHash": "46a1dc8c8345dc7b2758ce74b1215a63bb06d1d97c33816036586221736ea562",
+      "sourceHeading": "도원동(桃園洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-동빙고동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EB%B9%99%EA%B3%A0%EB%8F%99",
+      "sourceHash": "bf8450cc2db59ce7aae7a4f81f21dc6e73272be57cfec1ebbe5756abfe8922aa",
+      "sourceHeading": "동빙고동(東氷庫洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-문배동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B8%EB%B0%B0%EB%8F%99",
+      "sourceHash": "7682891b1a8a9c898ea1cfe25f340cd99d99c99bde2b7e6cd91b80e86e59dc4b",
+      "sourceHeading": "문배동(文培洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-서계동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%84%9C%EA%B3%84%EB%8F%99",
+      "sourceHash": "6c86fc064fa3b076fef9c3c4e013930057c6574e466af45a58cf5e0b469782fb",
+      "sourceHeading": "서계동(西界洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-서빙고동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%84%9C%EB%B9%99%EA%B3%A0%EB%8F%99",
+      "sourceHash": "b48694b6b03189f8af311af0394a77d10c8795b5c2194936531b20963140e984",
+      "sourceHeading": "서빙고동(西氷庫洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-신계동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%8B%A0%EA%B3%84%EB%8F%99",
+      "sourceHash": "bed2ba78e97292da225df50dfb2224d9726a2c7fe17d3a083e329ad15e432c06",
+      "sourceHeading": "신계동(新契洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-용문동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9A%A9%EB%AC%B8%EB%8F%99",
+      "sourceHash": "4bee0bbdabc9b55ff709803f9d00eb6c2d765210bcebcf7684ec9078e5876cd5",
+      "sourceHeading": "용문동(龍門洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-용산동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9A%A9%EC%82%B0%EB%8F%991%EA%B0%80",
+      "sourceHash": "2c388201b23259e9a6ed40e6379c5e39b82a4389dc0a8d3b03c172847fd322f2",
+      "sourceHeading": "용산동1가(龍山洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-용산동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9A%A9%EC%82%B0%EB%8F%993%EA%B0%80",
+      "sourceHash": "0f178f75730abdd91589243ca2a0c7d953e36b4cf6f5500d7f6df18063715dea",
+      "sourceHeading": "용산동3가(龍山洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-용산동4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9A%A9%EC%82%B0%EB%8F%994%EA%B0%80",
+      "sourceHash": "9525bdb978239535c8d87c5b1cada005df7ba2e2d882e380725184318aa8dc98",
+      "sourceHeading": "용산동4가(龍山洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-용산동5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9A%A9%EC%82%B0%EB%8F%995%EA%B0%80",
+      "sourceHash": "c25beea2bd72d745750773c80ac5c8e20d2722d1dbbd0b5422fba8712892af12",
+      "sourceHeading": "용산동5가(龍山洞5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-용산동6가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9A%A9%EC%82%B0%EB%8F%996%EA%B0%80",
+      "sourceHash": "dfbb91b45bffec0fccc458fa2088acbbca5faaaa5c3b17495309a14094186cb6",
+      "sourceHeading": "용산동6가(龍山洞6街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-원효로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9B%90%ED%9A%A8%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "5786e14815b0ed3f801cd70bf06c37ca6d8683111c147a607eff9e4e039230a7",
+      "sourceHeading": "원효로1가(元曉路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-원효로2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9B%90%ED%9A%A8%EB%A1%9C2%EA%B0%80",
+      "sourceHash": "8fe983f250a170ff0eea53cb81290b4d0bebb064ee10ba8392e1fef17a342355",
+      "sourceHeading": "원효로2가(元曉路2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-이촌동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%B4%EC%B4%8C%EB%8F%99",
+      "sourceHash": "246b5d72fb76289e859ed5122e0e35741a4731387aca4394bda1f5d8bc5580be",
+      "sourceHeading": "이촌동(二村洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-이태원동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%B4%ED%83%9C%EC%9B%90%EB%8F%99",
+      "sourceHash": "00045f2e06c273a44ac39eb400caeb81845d8dabf84bd74c7319e7de32b77fe9",
+      "sourceHeading": "이태원동(梨泰院洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-주성동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A3%BC%EC%84%B1%EB%8F%99",
+      "sourceHash": "c05fe19e35680ea2c3414327d7323b39d8d15ce822c0e180b16e37828930bf42",
+      "sourceHeading": "주성동(鑄城洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-청파동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B2%AD%ED%8C%8C%EB%8F%991%EA%B0%80",
+      "sourceHash": "45a98fadd2d9f401f66a43262912fff696039bf8b2b8606fcae0c3752af44977",
+      "sourceHeading": "청파동1가(靑坡洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-청파동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B2%AD%ED%8C%8C%EB%8F%992%EA%B0%80",
+      "sourceHash": "1a26f98570b4da8a042b2e676ee249d064e3ffa2f35b29996467a82d9e4ea186",
+      "sourceHeading": "청파동2가(靑坡洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-청파동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B2%AD%ED%8C%8C%EB%8F%993%EA%B0%80",
+      "sourceHash": "dd5f903e271f5f9a4d664673e4c578aeea31537fc25167ed02e7d686feecaa4a",
+      "sourceHeading": "청파동3가(靑坡洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-한강로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%9C%EA%B0%95%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "e1cf2d43fed359dec4cd2fc061b968d539cc98ae8e754e9f398a3c52d4793f2d",
+      "sourceHeading": "한강로1가(漢江路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-한강로2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%9C%EA%B0%95%EB%A1%9C2%EA%B0%80",
+      "sourceHash": "3ebd0fe4e5f51073bd2234f953cc3ce4b51acabc462e752b007a3ead4682de8d",
+      "sourceHeading": "한강로2가(漢江路2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-한강로3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%9C%EA%B0%95%EB%A1%9C3%EA%B0%80",
+      "sourceHash": "b82ae9ea4640d1c357e9381c515b01d8f89820c7a0b7af42a953b7c61be608db",
+      "sourceHeading": "한강로3가(漢江路3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-용산구-한남동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%9C%EB%82%A8%EB%8F%99",
+      "sourceHash": "7edc0ada5827641b3b494843daf1f67840c4687eaaef152da6770723fdf04798",
+      "sourceHeading": "한남동(漢南洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-가회동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B0%80%ED%9A%8C%EB%8F%99",
+      "sourceHash": "519707dd50089dbe702ffab17b17d1addceaf4a3544249cf6b7d8bfb28ac03df",
+      "sourceHeading": "가회동(嘉會洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-견지동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B2%AC%EC%A7%80%EB%8F%99",
+      "sourceHash": "ca7615851d1c7847cc30d7b21933324ae03a0ee471e66161663e7236a48c3f9b",
+      "sourceHeading": "견지동(堅志洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-경운동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B2%BD%EC%9A%B4%EB%8F%99",
+      "sourceHash": "f342e57a77d09147258235cd5442a5d97e816d44b0be7ed14703ef9e3655df64",
+      "sourceHeading": "경운동(慶雲洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-공평동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B3%B5%ED%8F%89%EB%8F%99",
+      "sourceHash": "4e58f305d363fb42937c5ea0fcc73fc447c45ce538ae2f206eb264f02492a4ae",
+      "sourceHeading": "공평동(公平洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-관수동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B4%80%EC%88%98%EB%8F%99",
+      "sourceHash": "d1f995f0b7983beb6c32a3c9a2804d6a3f59b4860b15b9e26fde7af1cdad2106",
+      "sourceHeading": "관수동(觀水洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-관철동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B4%80%EC%B2%A0%EB%8F%99",
+      "sourceHash": "fbde17757f66ff39000adc915747b3e7e558e3cddff56ae5c38a05b6c3e93fb3",
+      "sourceHeading": "관철동(貫鐵洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-관훈동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B4%80%ED%9B%88%EB%8F%99",
+      "sourceHash": "b7478d9e070cfa25d6761576b8710f2580272517ee0abcec8e65a86343fdd349",
+      "sourceHeading": "관훈동(寬勳洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-구기동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B5%AC%EA%B8%B0%EB%8F%99",
+      "sourceHash": "6ac9ca461da356b1ec5dac23936604a0ccc2f7d9fe48c43ec9b19ab5bdb60965",
+      "sourceHeading": "구기동(舊基洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-궁정동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B6%81%EC%A0%95%EB%8F%99",
+      "sourceHash": "3504153abac015b57d184819017f4201b1dc7afcb86509dcae7e4553ed239588",
+      "sourceHeading": "궁정동(宮井洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-권농동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B6%8C%EB%86%8D%EB%8F%99",
+      "sourceHash": "580ca08efc3f79b31fe795d3aea6ee4f9d4163c742418b072fe9e7685ce3ea7a",
+      "sourceHeading": "권농동(勸農洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-누상동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%88%84%EC%83%81%EB%8F%99",
+      "sourceHash": "9a8546fdc1e41d0b1057de70ad44c5c58b729dd531c87ce4b0f7ca36ee06aa2f",
+      "sourceHeading": "누상동(樓上洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-누하동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%88%84%ED%95%98%EB%8F%99",
+      "sourceHash": "be529eaf630f273d4a183c2f929ea3ed06e17bc61d744ad271a8adde5756c827",
+      "sourceHeading": "누하동(樓下洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-당주동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8B%B9%EC%A3%BC%EB%8F%99",
+      "sourceHash": "dc02135d74c39534c488d1ccea9a9fffcfc05491bc73ec5bacda3b73cdc9a428",
+      "sourceHeading": "당주동(唐珠洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-도렴동",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/125/detail.do?pstSn=144",
+      "sourceHash": "",
+      "sourceHeading": "동명유래-도렴동",
+      "reviewStatus": "pending",
+      "captureCheck": "official detail page read with web tool; no raw HTML fingerprint claimed",
+      "sourceBlock": ""
+    },
+    {
+      "regionId": "dong-종로구-돈의동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%88%EC%9D%98%EB%8F%99",
+      "sourceHash": "67ae3538444395aa6868d94542c1018ef06fc2f4ed481b29a7e1ce73aa9e7bc8",
+      "sourceHeading": "돈의동(敦義洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-동숭동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8F%99%EC%88%AD%EB%8F%99",
+      "sourceHash": "8a5b1e82181a75467d50c40f4036ae620b8b1fd368ad8967dcf39ec15b368afe",
+      "sourceHeading": "동숭동(東崇洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-명륜1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AA%85%EB%A5%9C%EB%8F%991%EA%B0%80",
+      "sourceHash": "c936a4a982180a5d555fade1a989732e19d8507003c1c8534e381afe096da6e2",
+      "sourceHeading": "명륜동1가(明倫洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0",
+      "nameCrosscheck": {
+        "dictionaryName": "명륜동1가",
+        "addressName": "명륜1가",
+        "officialCode": "1111017000",
+        "method": "주소기반산업지원서비스 주소 후보의 emdNm·admCd 대조 및 종로문화플랫폼 주소 표기 보완"
+      }
+    },
+    {
+      "regionId": "dong-종로구-명륜2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AA%85%EB%A5%9C%EB%8F%992%EA%B0%80",
+      "sourceHash": "736a6cc5b743251ce09201d65a0ee3602a0c55935878cde4b400a3ccd743ad8f",
+      "sourceHeading": "명륜동2가(明倫洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0",
+      "nameCrosscheck": {
+        "dictionaryName": "명륜동2가",
+        "addressName": "명륜2가",
+        "officialCode": "1111017100",
+        "method": "주소기반산업지원서비스 주소 후보의 emdNm·admCd 대조 및 종로문화플랫폼 주소 표기 보완"
+      }
+    },
+    {
+      "regionId": "dong-종로구-명륜3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AA%85%EB%A5%9C%EB%8F%993%EA%B0%80",
+      "sourceHash": "f2455d043cae9d3947e6d21a57699589a654e9594862e60a4670c2fd88e2df67",
+      "sourceHeading": "명륜동3가(明倫洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0",
+      "nameCrosscheck": {
+        "dictionaryName": "명륜동3가",
+        "addressName": "명륜3가",
+        "officialCode": "1111017300",
+        "method": "주소기반산업지원서비스 주소 후보의 emdNm·admCd 대조 및 종로문화플랫폼 주소 표기 보완"
+      }
+    },
+    {
+      "regionId": "dong-종로구-명륜4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AA%85%EB%A5%9C%EB%8F%994%EA%B0%80",
+      "sourceHash": "dbc73e91ca50990740c70315bc53c412a2849f66b5ad56c696d981bcd603786a",
+      "sourceHeading": "명륜동4가(明倫洞4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0",
+      "nameCrosscheck": {
+        "dictionaryName": "명륜동4가",
+        "addressName": "명륜4가",
+        "officialCode": "1111017200",
+        "method": "주소기반산업지원서비스 주소 후보의 emdNm·admCd 대조 및 종로문화플랫폼 주소 표기 보완"
+      }
+    },
+    {
+      "regionId": "dong-종로구-묘동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%98%EB%8F%99",
+      "sourceHash": "7e6d05ba8d51905bf9635ed9ab7ad5bac3ce3de2fd0f7c24d241df28df60dace",
+      "sourceHeading": "묘동(廟洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-무악동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B4%EC%95%85%EB%8F%99",
+      "sourceHash": "852bc53b4cde5a380475c4d59421236ba6abc5f540181bf7b906125f7e030ff2",
+      "sourceHeading": "무악동(毋岳洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-봉익동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B4%89%EC%9D%B5%EB%8F%99",
+      "sourceHash": "662b470659d93045df0bafc58da7025a75456d74528e9d8dde4ea8d6eb24cb90",
+      "sourceHeading": "봉익동(鳳翼洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-부암동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B6%80%EC%95%94%EB%8F%99",
+      "sourceHash": "cbae81f819055ab0134b754d5c8f6a8232521266d5c103a49fbaaaf1e81c648c",
+      "sourceHeading": "부암동(付岩洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-사직동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%AC%EC%A7%81%EB%8F%99",
+      "sourceHash": "db9c71878842e6aab3ed7eba38f26296d8e0bac463e0373a19e79d967f09c20a",
+      "sourceHeading": "사직동(社稷洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-삼청동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%BC%EC%B2%AD%EB%8F%99",
+      "sourceHash": "8c7ba792045d5aaae49e033cc0ecb42dbfe619dbccf0c8c99e721ee138cfad85",
+      "sourceHeading": "삼청동(三淸洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-세종로",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%84%B8%EC%A2%85%EB%A1%9C",
+      "sourceHash": "c7ded208721f5b3d168218e26822fadf685004e8c0172e37ab697017894f8d1d",
+      "sourceHeading": "세종로(世宗路)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-송월동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%86%A1%EC%9B%94%EB%8F%99",
+      "sourceHash": "b10266653a2b7f3fe3a7369b71398dbf8ee4d91bde8c35e4a4e73c65c94b1cce",
+      "sourceHeading": "송월동(松月洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-송현동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%86%A1%ED%98%84%EB%8F%99",
+      "sourceHash": "1f18c92a5e72ff10f6e7246f1794730db2b8e06825f2664c4eb3ba00664971ad",
+      "sourceHeading": "송현동(松峴洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-수송동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%88%98%EC%86%A1%EB%8F%99",
+      "sourceHash": "4fde9877edb874e61e3fb9ec054e61c1160567654047287484945940e71f3c51",
+      "sourceHeading": "수송동(壽松洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-숭인동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%88%AD%EC%9D%B8%EB%8F%99",
+      "sourceHash": "037207eaf7860daa39e20ed494c64232135d68d4009e4b8c403d77e3c38e31b5",
+      "sourceHeading": "숭인동(崇仁洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-신교동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%8B%A0%EA%B5%90%EB%8F%99",
+      "sourceHash": "5172a4e9f829c77663e1646a96bf722597af581500ab692f2b6e8f99bc1b0559",
+      "sourceHeading": "신교동(新橋洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-신문로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%8B%A0%EB%AC%B8%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "f58bf15f3d5f759d32306ae0045dc9f6c78a3713037922ac9cfa73d0241be387",
+      "sourceHeading": "신문로1가(新門路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-신문로2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%8B%A0%EB%AC%B8%EB%A1%9C2%EA%B0%80",
+      "sourceHash": "5f8c93a0ddcade94de544dd8c8657c93e783e137d9dca0ed15b2d9ddd65c9bc2",
+      "sourceHeading": "신문로2가(新門路2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-신영동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%8B%A0%EC%98%81%EB%8F%99",
+      "sourceHash": "0cbd00e6bafc2d42ca1a43c963527fd2c64adff44cd1631003c8dee7eae67f58",
+      "sourceHeading": "신영동(新營洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-안국동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%95%88%EA%B5%AD%EB%8F%99",
+      "sourceHash": "6e52dba7a61f605fdda222395c08d4308ab9e6b6524777a67df756fdc62c98bb",
+      "sourceHeading": "안국동(安國洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-연건동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%97%B0%EA%B1%B4%EB%8F%99",
+      "sourceHash": "9bb5ab37f0aa710bc6c9214d9cad5e53b441bcf4c8e7d151fb9a00240eec0827",
+      "sourceHeading": "연건동(蓮建洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-연지동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%97%B0%EC%A7%80%EB%8F%99",
+      "sourceHash": "8db9ed3e08e19dc703317b8f162f412dc51fd6577dc5e9edf79280c14b1ed3c9",
+      "sourceHeading": "연지동(蓮池洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-예지동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%88%EC%A7%80%EB%8F%99",
+      "sourceHash": "edd1f885823eb1663baa2ba237222ef6c76c37cb78b358ca4ad80ff3e512130d",
+      "sourceHeading": "예지동(禮智洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-옥인동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%A5%EC%9D%B8%EB%8F%99",
+      "sourceHash": "52c897b991c85ade78fbac52f592acccdaeac56a9312050bba564c26ad8314b2",
+      "sourceHeading": "옥인동(玉仁洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-와룡동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%99%80%EB%A3%A1%EB%8F%99",
+      "sourceHash": "0f59723192492179cca8c386790ae1497409fe3120780d6132b053de72e2203c",
+      "sourceHeading": "와룡동(臥龍洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-운니동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9A%B4%EB%8B%88%EB%8F%99",
+      "sourceHash": "4ea26e1a427ded48deb492892c8cd2cd9cc2d01b8c9edcd32d481e954a4b5f24",
+      "sourceHeading": "운니동(雲泥洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-원남동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9B%90%EB%82%A8%EB%8F%99",
+      "sourceHash": "6347249ef38abdf37c7b9aa9c6ad79e6dab02dc302556a584945ab4052b218fc",
+      "sourceHeading": "원남동(苑南洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-원서동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9B%90%EC%84%9C%EB%8F%99",
+      "sourceHash": "8ccc2404087ba4f81e16b6a0e8eeee8f5091d05908b5afd2d9896569c1967d69",
+      "sourceHeading": "원서동(苑西洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-이화동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%B4%ED%99%94%EB%8F%99",
+      "sourceHash": "c1a6cdcd0b782b6ca3d24893f9aedd2c959085f8c55b3c3725df848ea3668dc1",
+      "sourceHeading": "이화동(梨花洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-익선동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%B5%EC%84%A0%EB%8F%99",
+      "sourceHash": "c86213a0e4aac8e666e04be36d8b4131e972feb8b954ef677ce529c91b566e06",
+      "sourceHeading": "익선동(益善洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-인사동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%B8%EC%82%AC%EB%8F%99",
+      "sourceHash": "86f61a03f4d7476b0cee705dab81b333ce609d4da790fd20a64f703e17b30f5b",
+      "sourceHeading": "인사동(仁寺洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-인의동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%B8%EC%9D%98%EB%8F%99",
+      "sourceHash": "294cd4fe186301864234b0fb42b4d381c3a620246d9c51a1a398fde0352f604c",
+      "sourceHeading": "인의동(仁義洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-장사동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9E%A5%EC%82%AC%EB%8F%99",
+      "sourceHash": "4f0986eaa6e83c3bdb4b89e9b3cf4497b77635a845787ca1b847701d6f94e6e8",
+      "sourceHeading": "장사동(長沙洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-재동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9E%AC%EB%8F%99",
+      "sourceHash": "75d3093794aa4801c0bc5d6a5bb82831f3e61a9501b56593ce37f8d940cc3ad6",
+      "sourceHeading": "재동(齋洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box1"
+    },
+    {
+      "regionId": "dong-종로구-종로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A2%85%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "07d010057999f25741772bb2ac2e57761f716a28b8fb5a96124b28fba0ee94c7",
+      "sourceHeading": "종로1가(鐘路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-종로2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A2%85%EB%A1%9C2%EA%B0%80",
+      "sourceHash": "48a9519898be6e48feaff3a90d9dfde7e40ab46039676c86e732403ade2c4fd2",
+      "sourceHeading": "종로2가(鐘路2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-종로3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A2%85%EB%A1%9C3%EA%B0%80",
+      "sourceHash": "f3216ddb283f9bcf53462e71d9e0fb016d4b5949d8adcf7ed34cc606994f162f",
+      "sourceHeading": "종로3가(鐘路3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-종로4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A2%85%EB%A1%9C4%EA%B0%80",
+      "sourceHash": "06a1dac953b3d8bafe8116c14b97411040e0387fc979f046d232f58515137c7d",
+      "sourceHeading": "종로4가(鐘路4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-종로5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A2%85%EB%A1%9C5%EA%B0%80",
+      "sourceHash": "67a9b0d31fac400f694ad9aa8306da97bf9dd785662fe83c6198db4a120d15f2",
+      "sourceHeading": "종로5가(鐘路5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-종로6가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A2%85%EB%A1%9C6%EA%B0%80",
+      "sourceHash": "f3bd32bc23d510c7a840ee3d73a873c69c0547f38dc6236c62df52fb05875c5f",
+      "sourceHeading": "종로6가(鐘路6街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-중학동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A4%91%ED%95%99%EB%8F%99",
+      "sourceHash": "c89986a98a017b4d737e16680c0bb9979aed430b09f855447ea843d34b4eddad",
+      "sourceHeading": "중학동(中學洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-창성동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B0%BD%EC%84%B1%EB%8F%99",
+      "sourceHash": "00d355f033d7f36d1dc2346c86701fd232526726db81ea35ce877ac2532c575a",
+      "sourceHeading": "창성동(昌成洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-창신동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B0%BD%EC%8B%A0%EB%8F%99",
+      "sourceHash": "1e3e6154e2f078ef383d28d17efdec3ee46e50738a086df1ff1472ba36139e1c",
+      "sourceHeading": "창신동(昌信洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-청운동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B2%AD%EC%9A%B4%EB%8F%99",
+      "sourceHash": "bfb44adb1d4523a160a982ad5bd0e8d5f2b62eca1251e0e1f405eb470cd9d4aa",
+      "sourceHeading": "청운동(淸雲洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-청진동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B2%AD%EC%A7%84%EB%8F%99",
+      "sourceHash": "70a1d7304ba18246ed7b23296ec35ef182f32c2caac9db0bbbe8b62340cccc3e",
+      "sourceHeading": "청진동(淸進洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-충신동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B6%A9%EC%8B%A0%EB%8F%99",
+      "sourceHash": "b2de4b8dcd23debb0a032909fde0065f1e1e596cd5a1e147a0814d40d6b518dd",
+      "sourceHeading": "충신동(忠信洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-통의동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%86%B5%EC%9D%98%EB%8F%99",
+      "sourceHash": "803f24b2a7ac5b6839c973a1b42281144c4c7adf785baeea043ad8932cf6b57e",
+      "sourceHeading": "통의동(通義洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-통인동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%86%B5%EC%9D%B8%EB%8F%99",
+      "sourceHash": "3f926e2a48d365cf0335c135d79b226bb7c5bd6b2660679dc5e09574d48a5906",
+      "sourceHeading": "통인동(通仁洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-팔판동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%8C%94%ED%8C%90%EB%8F%99",
+      "sourceHash": "2b7dc0a649e74523f60d6f862d57b21170c162cadbd11ada9e8aad422040d779",
+      "sourceHeading": "팔판동(八判洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-평동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%8F%89%EB%8F%99",
+      "sourceHash": "8c4baa6da3de7bc472a28558c04595ef6ef50a232b6a027d87eac9ea6a86dff6",
+      "sourceHeading": "평동(平洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box9"
+    },
+    {
+      "regionId": "dong-종로구-평창동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%8F%89%EC%B0%BD%EB%8F%99",
+      "sourceHash": "db1a896f30d6e62990f7b51a3dad2d6e9a199090f3a68daee889f3c2f1d7e11f",
+      "sourceHeading": "평창동(平倉洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-필운동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%84%EC%9A%B4%EB%8F%99",
+      "sourceHash": "850f323784c98efc401aa63c4d593602aa6eade08bfd633cb6b76a2ef18c852c",
+      "sourceHeading": "필운동(弼雲洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-행촌동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%96%89%EC%B4%8C%EB%8F%99",
+      "sourceHash": "8070bc887d4f5ccd501b9297092c8b7e7b99abc9ffe28eb448aeb8a141656459",
+      "sourceHeading": "행촌동(杏村洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-혜화동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%98%9C%ED%99%94%EB%8F%99",
+      "sourceHash": "c5b9373db8b4dae3ef8d6cd9ec2b8ff246725c47bb151e31783d329a58217709",
+      "sourceHeading": "혜화동(惠化洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-홍지동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%99%8D%EC%A7%80%EB%8F%99",
+      "sourceHash": "5d0a43df783d7e6f40b91f00287b583a61b419916221523b3bd1dd2d439fcdfa",
+      "sourceHeading": "홍지동(弘智洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-홍파동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%99%8D%ED%8C%8C%EB%8F%99",
+      "sourceHash": "fd936c855b202a5b825bdded11a3d13b7f9e6017ce0bc55ce234a5d36deed9a5",
+      "sourceHeading": "홍파동(紅把洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-화동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%99%94%EB%8F%99",
+      "sourceHash": "1206c8b1ee61a7fb0d2e0bc7a51707c72b2b12754643b83807affaee83e4e6c2",
+      "sourceHeading": "화동(花洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box8"
+    },
+    {
+      "regionId": "dong-종로구-효자동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%9A%A8%EC%9E%90%EB%8F%99",
+      "sourceHash": "628867a9601a3bbe90a830ba0ad9b231e74d9148c2bc21878c52647ea514225a",
+      "sourceHeading": "효자동(孝子洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-효제동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%9A%A8%EC%A0%9C%EB%8F%99",
+      "sourceHash": "eb6e2ede00caf98a75a620728e12e61acbf799d9d8a3b6e54f77fe29e29d7b3e",
+      "sourceHeading": "효제동(孝悌洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-종로구-훈정동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%9B%88%EC%A0%95%EB%8F%99",
+      "sourceHash": "8fef58d8e6cede5651206e3cc395dca656cd8d9be59884a811040c64b5368cc0",
+      "sourceHeading": "훈정동(薰井洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-광희동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B4%91%ED%9D%AC%EB%8F%991%EA%B0%80",
+      "sourceHash": "12c12dff249c7564513b4029839ce2951ecddae905ff63556fdae46c0378bf01",
+      "sourceHeading": "광희동1가(光熙洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-광희동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EA%B4%91%ED%9D%AC%EB%8F%992%EA%B0%80",
+      "sourceHash": "fd5bb9a3c7124ad1e253a49e9a59219584eb3dafe82e54e1b1f2b01fff5c3ebe",
+      "sourceHeading": "광희동2가(光熙洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남대문로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%EB%8C%80%EB%AC%B8%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "1dd8b6f1d6fe4574ab4d315388cb60a094586d72ea8bcae0a78dce2d8d97ce82",
+      "sourceHeading": "남대문로1가(南大門路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남대문로2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%EB%8C%80%EB%AC%B8%EB%A1%9C2%EA%B0%80",
+      "sourceHash": "60cb2b106a803b950367abcae08df31a522f88bd72fbd50e746018e7592e5802",
+      "sourceHeading": "남대문로2가(南大門路2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남대문로3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%EB%8C%80%EB%AC%B8%EB%A1%9C3%EA%B0%80",
+      "sourceHash": "baf7c61281e9e01994a8ff13708f04f9b5e145178fda907c593f7d9faa5f77cf",
+      "sourceHeading": "남대문로3가(南大門路3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남대문로4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%EB%8C%80%EB%AC%B8%EB%A1%9C4%EA%B0%80",
+      "sourceHash": "84b111d2de738a4abbc1f79a0b2129c13ec877e6e286baf54f56bf7ede633d31",
+      "sourceHeading": "남대문로4가(南大門路4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남대문로5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%EB%8C%80%EB%AC%B8%EB%A1%9C5%EA%B0%80",
+      "sourceHash": "bb57579f6c5c0ad838787e45bfdfc15b80e979dcc1214d046e84b25e9b661543",
+      "sourceHeading": "남대문로5가(南大門路5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남산동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%EC%82%B0%EB%8F%991%EA%B0%80",
+      "sourceHash": "7c0086f32bccf5b6ada2f2c6024d22a2514313fdf588d40c5f5b49248e94bbfb",
+      "sourceHeading": "남산동1가(南山洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남산동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%EC%82%B0%EB%8F%992%EA%B0%80",
+      "sourceHash": "77e1674c52dcf15b3d293656272d03bb6673bf77b1a7f5d4ec753188b8780c35",
+      "sourceHeading": "남산동2가(南山洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남산동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%EC%82%B0%EB%8F%993%EA%B0%80",
+      "sourceHash": "2fe525929e8725e80356c16dbfba396b7367ff8996990d8689dec27a7efc2166",
+      "sourceHeading": "남산동3가(南山洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남창동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%EC%B0%BD%EB%8F%99",
+      "sourceHash": "025312ccc73783c62bd96d481b4923d196b9eff4c397eae288474409bb1c54db",
+      "sourceHeading": "남창동(南倉洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-남학동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%82%A8%ED%95%99%EB%8F%99",
+      "sourceHash": "0fdf0c8b20533410c8d060b26d1c85463fad646b117e70474b1f759a47da0cfb",
+      "sourceHeading": "남학동(南學洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-다동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%8B%A4%EB%8F%99",
+      "sourceHash": "469b1dfe221d767b3758f1e425a21e407d14514ba2539f40756cdb0267ce148c",
+      "sourceHeading": "다동(茶洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-만리동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%A7%8C%EB%A6%AC%EB%8F%991%EA%B0%80",
+      "sourceHash": "db858b2adb572fec72a72f3e25995c455f12c0f8c703b1ca49b4e129ebf36de7",
+      "sourceHeading": "만리동1가(萬里洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-만리동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%A7%8C%EB%A6%AC%EB%8F%992%EA%B0%80",
+      "sourceHash": "37f45ba4b33b46b5a186650cc4a23f8c9ef95f31432cf1ccc5513c408180cda4",
+      "sourceHeading": "만리동2가(萬里洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-명동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AA%85%EB%8F%991%EA%B0%80",
+      "sourceHash": "7262dc322180e808656189c2d7514a26b8626dd150d3e75708bc3eeccf78232e",
+      "sourceHeading": "명동1가(明洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-명동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AA%85%EB%8F%992%EA%B0%80",
+      "sourceHash": "172eccdde969524b1a93c058c69d8c8f64e5a2a7add173eba088e1f3bc47d136",
+      "sourceHeading": "명동2가(明洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-무교동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B4%EA%B5%90%EB%8F%99",
+      "sourceHash": "32e4f21d08e899f52d2d690b372225da8440e0e982da8f1592098bc0ab6e256a",
+      "sourceHeading": "무교동(武橋洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-무학동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B4%ED%95%99%EB%8F%99",
+      "sourceHash": "da333ee4e7596e9f0616d0898f338964e24d3d467e096bfe5863ad663e3af66e",
+      "sourceHeading": "무학동(舞鶴洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-묵정동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%AC%B5%EC%A0%95%EB%8F%99",
+      "sourceHash": "324a0cdd0da5007efdfda84dfab729a0df1f2af8eee77c42745fc2f16ce32604",
+      "sourceHeading": "묵정동(墨井洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-방산동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B0%A9%EC%82%B0%EB%8F%99",
+      "sourceHash": "c721bb4091bd0f3aaef34bb0239bf921f55dedc43b6799a814745fc08c537ff6",
+      "sourceHeading": "방산동(芳山洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-봉래동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B4%89%EB%9E%98%EB%8F%991%EA%B0%80",
+      "sourceHash": "bc5851993ab585aec72a04c3dfc13aee1d3bf5e3014aa03c7a93dd70d7ffdbd9",
+      "sourceHeading": "봉래동1가(蓬萊洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-봉래동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B4%89%EB%9E%98%EB%8F%992%EA%B0%80",
+      "sourceHash": "72e6822242b58aebd63e7599f1e1f2e32b900268be9cee1de3a5430bb5edf555",
+      "sourceHeading": "봉래동2가(蓬萊洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-북창동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EB%B6%81%EC%B0%BD%EB%8F%99",
+      "sourceHash": "de4b9e5ac25267e8844daab8ad7662f16368c78f2d16dee424cafabb83d9c456",
+      "sourceHeading": "북창동(北倉洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-산림동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%B0%EB%A6%BC%EB%8F%99",
+      "sourceHash": "a41a335ebd7187521b9829ec750c197478cde967819ed558cf6951be8c507b80",
+      "sourceHeading": "산림동(山林洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-삼각동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%82%BC%EA%B0%81%EB%8F%99",
+      "sourceHash": "5318849b3e96c6cd56bd1a74f4b4d3b7894a496e1a47976ba0dd0b376d7a2a5d",
+      "sourceHeading": "삼각동(三角洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-서소문동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%84%9C%EC%86%8C%EB%AC%B8%EB%8F%99",
+      "sourceHash": "ec0f23e1fc271da07e371019be31a522a93af35dd061dc14a114611c59831280",
+      "sourceHeading": "서소문동(西小門洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-소공동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%86%8C%EA%B3%B5%EB%8F%99",
+      "sourceHash": "4140318371d73ab6a581938f33ccec3f4e200b6d4f99a0dfb5f9f01a1d441b74",
+      "sourceHeading": "소공동(小公洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-수표동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%88%98%ED%91%9C%EB%8F%99",
+      "sourceHash": "674890663421bb82c548d693a4f35368ba2cb83109d97f7158b7448539033acb",
+      "sourceHeading": "수표동(水標洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-수하동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%88%98%ED%95%98%EB%8F%99",
+      "sourceHash": "5c82c73b55381d7cc70216601c57fcbe9c4f4345a7e9411d75783e65f7b2742c",
+      "sourceHeading": "수하동(水下洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-순화동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%88%9C%ED%99%94%EB%8F%99",
+      "sourceHash": "8b58481ac801fb58decfa5fc229f6aa08fc3c3c17fec8d81bed1adba34245a02",
+      "sourceHeading": "순화동(巡和洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-쌍림동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%8C%8D%EB%A6%BC%EB%8F%99",
+      "sourceHash": "8924727d7621c5299d99fe54766da3098f9a27bf6b08809c67e59deb24944fa3",
+      "sourceHeading": "쌍림동(雙林洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-예관동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%88%EA%B4%80%EB%8F%99",
+      "sourceHash": "fd20fd74c3bcbd3dedb46699853a4c15ae7be34d16e4a49bf6c4b52603bc114f",
+      "sourceHeading": "예관동(藝館洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-예장동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%88%EC%9E%A5%EB%8F%99",
+      "sourceHash": "565d45d94d63af849bb66eb5c2575cf2e44d99526b418bd02660a7a96f7e1f1f",
+      "sourceHeading": "예장동(藝場洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-오장동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%98%A4%EC%9E%A5%EB%8F%99",
+      "sourceHash": "ffd00c724f09407369de56604fada5c4cd05f94aac986bd3ec03f5265b42db32",
+      "sourceHeading": "오장동(五壯洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-을지로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%84%EC%A7%80%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "168c046525598f9525ae40a94d6a6725e74702e1860dd282e3b30747ade1a69f",
+      "sourceHeading": "을지로1가(乙支路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-을지로2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%84%EC%A7%80%EB%A1%9C2%EA%B0%80",
+      "sourceHash": "1717b7332576951ee7de4000d93b33cb25ab0ea0ea9414da5ab4e618a85c3bcf",
+      "sourceHeading": "을지로2가(乙支路2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-을지로3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%84%EC%A7%80%EB%A1%9C3%EA%B0%80",
+      "sourceHash": "f83bfcdf09f0b837ebdd9b5e493bb31058c536927f3474f5ea82417bff2307f8",
+      "sourceHeading": "을지로3가(乙支路3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-을지로4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%84%EC%A7%80%EB%A1%9C4%EA%B0%80",
+      "sourceHash": "7035d17e515afe711469153362b045b683dc20f87f234512ad0800eca0b88e6d",
+      "sourceHeading": "을지로4가(乙支路4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-을지로5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%84%EC%A7%80%EB%A1%9C5%EA%B0%80",
+      "sourceHash": "a17266f5dfce59b6babbf244f8bf12e1f0ab87fd31da6b9a24f877a41c5ac9ba",
+      "sourceHeading": "을지로5가(乙支路5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-을지로6가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%84%EC%A7%80%EB%A1%9C6%EA%B0%80",
+      "sourceHash": "58f92fc9f0bb945eb72c42086602d679e1d0c6eacde0f86f338be33dc845cfcd",
+      "sourceHeading": "을지로6가(乙支路6街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-을지로7가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%84%EC%A7%80%EB%A1%9C7%EA%B0%80",
+      "sourceHash": "4ad1ac0835fa5c72b70c566f4cfa47400d970697513d2d94f13b6e8e2d26fedd",
+      "sourceHeading": "을지로7가(乙支路7街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-의주로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%98%EC%A3%BC%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "163d2a26dbbaef5e14c2f69c0692d8bbf7b67edf84229bb923824ea185da0eed",
+      "sourceHeading": "의주로1가(義州路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-의주로2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%98%EC%A3%BC%EB%A1%9C2%EA%B0%80",
+      "sourceHash": "38fd7f0707b07b507e0cb196bf9a95c2d60a44751e49edde99291f1ee1b42f82",
+      "sourceHeading": "의주로2가(義州路2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-인현동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%B8%ED%98%84%EB%8F%991%EA%B0%80",
+      "sourceHash": "c8674542a945d907c96358230edbdadeef3b63c051d4a18b850ee7f46dc96930",
+      "sourceHeading": "인현동1가(仁峴洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-인현동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9D%B8%ED%98%84%EB%8F%992%EA%B0%80",
+      "sourceHash": "1e748d8611a6266d987d36922fd02eefa8b2165c3ef9b10fd398b2207831dce0",
+      "sourceHeading": "인현동2가(仁峴洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-입정동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9E%85%EC%A0%95%EB%8F%99",
+      "sourceHash": "0266b74afdfc5bc7ad87e8b7970e99a0a65af0205c12eed6f04d9f5b7fff3459",
+      "sourceHeading": "입정동(笠井洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-장교동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9E%A5%EA%B5%90%EB%8F%99",
+      "sourceHash": "80defb5cffec5554af1ca76d3e45501e3163de5b2aacca13a6245514a0d9b179",
+      "sourceHeading": "장교동(長橋洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-장충동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9E%A5%EC%B6%A9%EB%8F%991%EA%B0%80",
+      "sourceHash": "5564cb1725cb44ed306494718c806b135d25e6095909bb4e855d2502e53df88d",
+      "sourceHeading": "장충동1가(獎忠洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-장충동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%9E%A5%EC%B6%A9%EB%8F%992%EA%B0%80",
+      "sourceHash": "b8a771ff5b3d84dbf391e347e456b8574af8065580c070777c92c3275f045039",
+      "sourceHeading": "장충동2가(獎忠洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-저동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A0%80%EB%8F%991%EA%B0%80",
+      "sourceHash": "0767eba6fc47dae7f11c7a4ce2395f27585c63cdeb4717a60f1b1193d713ff90",
+      "sourceHeading": "저동1가(苧洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-저동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A0%80%EB%8F%992%EA%B0%80",
+      "sourceHash": "7cc5590b3098b1f1a5b306f4824d487a32ba254e6f0f90661c8c06bb0d939997",
+      "sourceHeading": "저동2가(苧洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-정동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A0%95%EB%8F%99",
+      "sourceHash": "a708d9281c33885c4c5e803af579a20ba6aacd30e88dc82a8bcf771c4b8c69cd",
+      "sourceHeading": "정동(貞洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box9"
+    },
+    {
+      "regionId": "dong-중구-주교동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A3%BC%EA%B5%90%EB%8F%99",
+      "sourceHash": "ba74bb3406f62aa5a1be47954533a0ce88a4acb086e40f8975b5fb0950bce1e8",
+      "sourceHeading": "주교동(舟橋洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-주자동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%A3%BC%EC%9E%90%EB%8F%99",
+      "sourceHash": "4ef9a1307a97bdaea66efee735f1acbed845e6740cd140e13853bac25d63d195",
+      "sourceHeading": "주자동(鑄字洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-초동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B4%88%EB%8F%99",
+      "sourceHash": "a45db6b38a8f321f9fb99f5e5d635950cae6b8128544ceed50147507642c0050",
+      "sourceHeading": "초동(草洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box1"
+    },
+    {
+      "regionId": "dong-중구-충무로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B6%A9%EB%AC%B4%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "cf88ea22b80225ae8be6cbcf068a6886bc1ca8d951b34d66571ad2812b352c3e",
+      "sourceHeading": "충무로1가(忠武路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-충무로2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B6%A9%EB%AC%B4%EB%A1%9C2%EA%B0%80",
+      "sourceHash": "ade77b4f8adb57be2cb2a73d0ef61c2131fae696bdbdf9b17ee192e5e95219aa",
+      "sourceHeading": "충무로2가(忠武路2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-충무로3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B6%A9%EB%AC%B4%EB%A1%9C3%EA%B0%80",
+      "sourceHash": "48e0f00682b50db7becfe7fee624d1bb82cce657e21a229825e6e5375b8d4443",
+      "sourceHeading": "충무로3가(忠武路3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-충무로4가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B6%A9%EB%AC%B4%EB%A1%9C4%EA%B0%80",
+      "sourceHash": "aea1d48474d393dad9208ce6279ad4d7c66cd6865956d6c42d54daac7a6ce7e1",
+      "sourceHeading": "충무로4가(忠武路4街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-충무로5가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B6%A9%EB%AC%B4%EB%A1%9C5%EA%B0%80",
+      "sourceHash": "3fb54c1c2796deb2c5e18b6371e95133b3d1a2ab251c041898f6eb89bc1c60a0",
+      "sourceHeading": "충무로5가(忠武路5街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-충정로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%EC%B6%A9%EC%A0%95%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "62fd20da898a2143f79c9ae8568313741abb49fb865c37b62e4070c1a459e152",
+      "sourceHeading": "충정로1가(忠正路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-태평로1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%83%9C%ED%8F%89%EB%A1%9C1%EA%B0%80",
+      "sourceHash": "64d833b8ae3151d176b6b772414906545c3271ea46488c2c8d20d196341676a7",
+      "sourceHeading": "태평로1가(太平路1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-태평로2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%83%9C%ED%8F%89%EB%A1%9C2%EA%B0%80",
+      "sourceHash": "80d115b13510f442b12995a9a1e54326ec45694f6d56848eae0c492b6534989d",
+      "sourceHeading": "태평로2가(太平路2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-필동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%84%EB%8F%991%EA%B0%80",
+      "sourceHash": "c91c33ecdec759d91eec4e81c25ed7686169d49dd8174a13dcda4cef4ccffc8e",
+      "sourceHeading": "필동1가(筆洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-필동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%84%EB%8F%992%EA%B0%80",
+      "sourceHash": "e2df3b7b42e2f19aaa4fdf6b5697d47b4a4b3d621611316a7fd6ecc67f5b3118",
+      "sourceHeading": "필동2가(筆洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-필동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%95%84%EB%8F%993%EA%B0%80",
+      "sourceHash": "e931bb8173fb6d0ea3c9e69ac54bb42092144029db98b1b7edff9b750d047b1a",
+      "sourceHeading": "필동3가(筆洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-회현동1가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%9A%8C%ED%98%84%EB%8F%991%EA%B0%80",
+      "sourceHash": "a9442cc088b2e2a556ea40a239b01d19c540326b18add053528a91bf6299abc8",
+      "sourceHeading": "회현동1가(會賢洞1街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-회현동2가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%9A%8C%ED%98%84%EB%8F%992%EA%B0%80",
+      "sourceHash": "a3c4ef1964e21fcee83c0a2d38a53eec84c3c3dec439b199690d952bddbda027",
+      "sourceHeading": "회현동2가(會賢洞2街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-회현동3가",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%9A%8C%ED%98%84%EB%8F%993%EA%B0%80",
+      "sourceHash": "38c0e7c311dc17386d59d3d5e5dd80b1ccdec5fae67b7340e1d995f95e30123b",
+      "sourceHeading": "회현동3가(會賢洞3街)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    },
+    {
+      "regionId": "dong-중구-흥인동",
+      "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc_cate=1&sc_scndcode=1&sc_alphabet=&sc=sc_nameKor&sw=%ED%9D%A5%EC%9D%B8%EB%8F%99",
+      "sourceHash": "7ba44a926a2798d8902f70751655d8ec0466eb36d584a64a651f539b44b184e3",
+      "sourceHeading": "흥인동(興仁洞)",
+      "reviewStatus": "pending",
+      "captureCheck": "raw HTML hash + exact named entry + numerical-year occurrence",
+      "sourceBlock": "txt-box0"
+    }
+  ]
+}

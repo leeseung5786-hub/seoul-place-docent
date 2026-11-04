@@ -1,0 +1,45 @@
+{
+  "source": {
+    "title": "서울 도시 역사자료 아카이브 구축 보고",
+    "institution": "사용자 제공 · Gemini 대화 출력 보고서",
+    "providerId": "seoul-city-history-report-2026-10-20",
+    "url": "https://seoul-place-history.xeonire.chatgpt.site/documents/seoul-city-history-report-2026-10-20.pdf",
+    "kind": "document",
+    "summary": "서울 도시사 영상 조사 보고서 15쪽. 120~133차의 자료 행 215개와 주장 행 215개를 추출했다. 문서의 누적 2,000건은 전체 원자료로 검증되지 않았으며, 이 PDF의 모든 영상 URL과 주장 문장은 오른쪽이 잘려 있다. REC_YT_1709 / REC_YT_1809 연결 ID 불일치 1개를 원문대로 보존했다. 조사 목록과 원본은 /archive/video-research에서 열람할 수 있다. 영상 원본·게시일·촬영일·장소·이용조건은 미확인이다.",
+    "publicationDate": "",
+    "subjectPeriod": "",
+    "rights": "permission",
+    "rightsUrl": "https://seoul-place-history.xeonire.chatgpt.site/archive/video-research",
+    "rightsNote": "2026-10-21 사용자가 직접 첨부한 보고서를 기존 사이트에 반영하도록 요청했다. 원본 PDF와 확인 가능한 문서 내용을 기존 소유자 전용 사이트에 수록하는 범위이다. 보고서가 언급한 제3자 영상·사진의 복제·변형·재사용 허락을 의미하지 않는다.",
+    "storageAllowed": true,
+    "reuseAllowed": false,
+    "reviewStatus": "needs_review",
+    "regionIds": [
+      "city-seoul"
+    ],
+    "changeNote": "사용자 제공 보고서 수록. 영상 원본 검증·기존 역사 본문·연표와 구분."
+  },
+  "metadata": {
+    "자료성격": "사용자가 제공한 Gemini 대화 출력 PDF",
+    "파일명": "서울 도시 역사자료 아카이브 구축 보고.pdf",
+    "문서쪽수": "15",
+    "문서출력시각": "2026-10-20T21:05:00+09:00",
+    "문서출력시각의의미": "문서 인쇄 머리말 시각이며 발행일·사건일·영상 게시일이 아님",
+    "문서차수": "120~133",
+    "추출자료행": "215",
+    "추출주장행": "215",
+    "문서누적주장": "2000 · 전체 데이터 미첨부, 현재 확보수 아님",
+    "완전한영상URL": "0",
+    "독립검증한영상": "0",
+    "식별자불일치": "REC_YT_1709 (자료) / REC_YT_1809 (주장 연결)",
+    "원문잘림": "모든 자료·주장 행 오른쪽 잘림. 추측 복원하지 않음.",
+    "검토화면": "https://seoul-place-history.xeonire.chatgpt.site/archive/video-research",
+    "PDF_SHA256": "8f08de6c48fc998ab76731045b39a1bdfea3d1cf13b9af65f6c56436ef281179"
+  },
+  "description": "",
+  "sourceLocator": "첨부 PDF 1~15쪽 > [records]·[claims]·[reports] (120~133차)",
+  "attribution": "사용자 제공: 서울 도시 역사자료 아카이브 구축 보고, PDF 15쪽, 2026-10-20 출력. 작성 도구 표기: Gemini. 문서의 채널 표기는 실제 원본 채널 확인을 의미하지 않음.",
+  "rightsEvidence": "사용자의 명시적 사이트 반영 요청에 따라 제공 문서를 기존 소유자 전용 사이트에 수록. 제3자 영상은 다운로드·재게시하지 않음.",
+  "capturedAt": "2026-10-21T03:40:57.824Z",
+  "pageHash": "8f08de6c48fc998ab76731045b39a1bdfea3d1cf13b9af65f6c56436ef281179"
+}

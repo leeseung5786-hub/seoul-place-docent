@@ -1,0 +1,795 @@
+{
+  "verifiedAt": "2026-10-22T21:19:25.240598+00:00",
+  "before": {
+    "sources": 525,
+    "versions": 525,
+    "districts": 25,
+    "dongs": 467,
+    "historicalAreas": 43,
+    "passages": 638,
+    "facts": 21,
+    "assets": 20,
+    "originalSources": 123,
+    "rightsChecked": 137,
+    "pending": 351,
+    "unknownRights": 388
+  },
+  "after": {
+    "sources": 593,
+    "versions": 593,
+    "districts": 25,
+    "dongs": 467,
+    "historicalAreas": 43,
+    "passages": 638,
+    "facts": 21,
+    "assets": 20,
+    "originalSources": 123,
+    "rightsChecked": 137,
+    "pending": 351,
+    "unknownRights": 456
+  },
+  "created": 68,
+  "updated": 0,
+  "readbackVerified": 68,
+  "replayUnchanged": 10,
+  "scheduledCheckpointUnchanged": true,
+  "originalFilesRetrieved": 0,
+  "parcelVerifiedRecords": 0,
+  "tests": {
+    "passed": 167,
+    "failed": 0,
+    "typecheck": "passed"
+  },
+  "applicationCodeChanged": false,
+  "republished": false,
+  "records": [
+    {
+      "sourceId": "46bded4e-4469-4b2f-b3ca-c8822ecdc166",
+      "providerId": "RITEM:1310377:200301559711:000000000007",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559711&rc_ritem_no=000000000007",
+      "version": 1,
+      "captureId": "b41d06d3-ed62-45ba-8440-bdf3fdeed628",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "dbda46b07419920268f61821ed95f6ad2268650de943628b517667fe434d072f"
+    },
+    {
+      "sourceId": "2aab24f6-9d7d-49d5-88eb-9edb34b325f9",
+      "providerId": "RITEM:1310377:200301559707:000000000019",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559707&rc_ritem_no=000000000019",
+      "version": 1,
+      "captureId": "db0044f1-f51a-4947-8bbe-63d13b89e2fb",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "461b53f4d6970e956e3096b0f085f9807fc450dfb560f0586611a64d011f3e70"
+    },
+    {
+      "sourceId": "6d50b2f0-3c5d-42cb-a97a-d5d24bd7de26",
+      "providerId": "RITEM:1310377:200301559713:000000000011",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559713&rc_ritem_no=000000000011",
+      "version": 1,
+      "captureId": "e695cbfb-7140-45bb-99ba-93f11ed98d41",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "7ba8c1b68b02bc13ad056dbadb14bf88d2068a1543fb924b34850b85952cebce"
+    },
+    {
+      "sourceId": "d826edd1-32cf-4b20-aed9-a925a1faa19e",
+      "providerId": "RITEM:1310377:200301534351:000000000004",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534351&rc_ritem_no=000000000004",
+      "version": 1,
+      "captureId": "d11c56a3-b5c0-4dab-9139-45b721cf8bd7",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "7e9f028c3ada87467849f96d598568edde91fb4de92dc679bf69e23444855f55"
+    },
+    {
+      "sourceId": "43df0936-f511-4ea9-b35f-ec012acd8556",
+      "providerId": "RITEM:1310377:200300299830:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299830&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "3578e167-b58c-4c61-a172-e59e9761e2b3",
+      "regions": [
+        "gu-성동구"
+      ],
+      "metadataSha256": "e07474fed8626ac70dde7d68efb3f977bed1b79d441a1d439ec084f2f3d18d16"
+    },
+    {
+      "sourceId": "4a08a6b1-9c08-4285-ba31-7009c40c3a2d",
+      "providerId": "RITEM:1310377:200300299847:000000000009",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299847&rc_ritem_no=000000000009",
+      "version": 1,
+      "captureId": "69d7d832-d3e0-472a-b3be-2a0fa888b3b7",
+      "regions": [
+        "gu-성동구"
+      ],
+      "metadataSha256": "b18371aeaddc9beee63f3161e55c3b03f57de7b1e12aacd65c9177667e81a3c4"
+    },
+    {
+      "sourceId": "3150ec55-282e-4054-82ba-8b636f23b95e",
+      "providerId": "RITEM:1310377:200300299847:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299847&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "7a6a45e6-5c43-4bfd-9f27-970ff337ec46",
+      "regions": [
+        "gu-성동구"
+      ],
+      "metadataSha256": "18c2e8028549f5a8c818e534a86b371ee811280e4c92dcdd495095348e82f200"
+    },
+    {
+      "sourceId": "3e73aeae-c0d2-45a9-8170-b19f9cf062ee",
+      "providerId": "RITEM:1310377:200300299880:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299880&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "d0caeef6-9056-46c0-bfe7-dd51231a56e3",
+      "regions": [
+        "gu-성동구"
+      ],
+      "metadataSha256": "0024f9d4d6b551162983cf98ee9da6d316f34f277d6571de8b9da0ddae126415"
+    },
+    {
+      "sourceId": "45e37ae2-c1f3-4f9d-94f4-f83fc6c5f6ae",
+      "providerId": "RITEM:1310377:200300299881:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299881&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "22edbd59-f0c9-4468-8bfb-838862555ee4",
+      "regions": [
+        "gu-성동구"
+      ],
+      "metadataSha256": "3f2aec8a51f64431e941e31fa12b8142288e5fd29b9c8cfec9c4f1cda61c12f9"
+    },
+    {
+      "sourceId": "385137d6-bae7-4f22-8c0c-742320cb842c",
+      "providerId": "RITEM:1310377:200300299881:000000000002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299881&rc_ritem_no=000000000002",
+      "version": 1,
+      "captureId": "3b94e0b0-fcb8-4a06-a3fc-5b7e9a212487",
+      "regions": [
+        "gu-성동구"
+      ],
+      "metadataSha256": "ab7579227ad8001f73dcf91a03cdaeb0e644094c5f0eae64195ae084d7a388db"
+    },
+    {
+      "sourceId": "311d1d95-2705-4e5a-82e6-06d22e5f1143",
+      "providerId": "RITEM:1310377:200701512706:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512706&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "b69e9dbf-55cd-4ed3-ba2e-3d39da1018d1",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "817c2cc6e0f809b191880ea1bf48036058e6a0d2f4ce62f21d00d197dfbd4783"
+    },
+    {
+      "sourceId": "9631ce6a-81b1-41c8-838a-f2b7ca2ff8dd",
+      "providerId": "RITEM:1310377:200701512706:000000000002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512706&rc_ritem_no=000000000002",
+      "version": 1,
+      "captureId": "27028fcc-e2a8-479e-83be-08475dc670a8",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "6b14c0ed401bdf88d2be803e12148454f3e66f5513898ef8821143c7c0815e70"
+    },
+    {
+      "sourceId": "fea8c56a-d1ab-48a6-a577-63b2785a926c",
+      "providerId": "RITEM:1310377:200701512706:000000000003",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512706&rc_ritem_no=000000000003",
+      "version": 1,
+      "captureId": "d9ff14ca-4d63-4f3b-9865-0883e063e33a",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "da26470df2020ac8346f44fd1508050ebd7d0c9b8a528ac8c40dacf41a26f20f"
+    },
+    {
+      "sourceId": "d0ed5675-d823-4b80-85c0-7398bb6a84fc",
+      "providerId": "RITEM:1310377:200701512698:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512698&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "905147a3-1503-4414-b282-a3a607c8c0ad",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "93052e28a6e32424b419083d1abf8718a4dc0f147fc407611505f653de84b02d"
+    },
+    {
+      "sourceId": "44d47d76-b389-4255-9494-6d97af2e306c",
+      "providerId": "RITEM:1310377:200701512698:000000000002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512698&rc_ritem_no=000000000002",
+      "version": 1,
+      "captureId": "b244a265-7a05-4420-8f59-5dabb13689de",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "e71d74a5c461b35c8905e19eb78608acd244e88c28f7a9ba180246175cf7ec67"
+    },
+    {
+      "sourceId": "11a84423-cd21-4ac3-9a2c-ad9de852936c",
+      "providerId": "RITEM:1310377:200701512698:000000000003",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512698&rc_ritem_no=000000000003",
+      "version": 1,
+      "captureId": "ad9d103f-97ad-4722-8177-ec552ddf6974",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "3bf307b1cbfdec3936d3c94de87acba8a958187c09e6a86f22c7cfa5bef43188"
+    },
+    {
+      "sourceId": "d5906bdb-1f7c-459b-b33d-507068ec29cb",
+      "providerId": "RITEM:1310377:200701512702:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512702&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "3452f0b7-da50-4714-bf9c-29c73fa1f5a9",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "d02090b23c3ee3742cd4588d8a445f2f351d2fce0e35f1ecf031a27b41ec3f2b"
+    },
+    {
+      "sourceId": "bcbeaa73-ee4e-45d2-8778-cae4e8f27e9f",
+      "providerId": "RITEM:1310377:200701512704:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512704&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "fe968462-e07a-424e-82c7-bbc0c10d7bcd",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "313552903647dcb7976dba147b61bb6215c17ab73a6cef2eb9441306644705e8"
+    },
+    {
+      "sourceId": "fd83a1cb-1913-41fe-b360-74a66e4ce6c9",
+      "providerId": "RITEM:1310377:200701512704:000000000002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512704&rc_ritem_no=000000000002",
+      "version": 1,
+      "captureId": "dda2de8c-db05-4aff-b095-0321a4d85dd7",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "021f17258d75036d58cb0a21339aba6dd726821a3e628355e5224f1f8e0bb093"
+    },
+    {
+      "sourceId": "f25ff6e6-cce0-4aeb-afe7-d26b3ad8699b",
+      "providerId": "RITEM:1310377:200701512704:000000000003",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512704&rc_ritem_no=000000000003",
+      "version": 1,
+      "captureId": "bd3af314-f61d-48b8-967f-ba32ae0631da",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "6bc5beff386f3a1563de789200410cf4e014afec42205e4b5f618e7af197d0c0"
+    },
+    {
+      "sourceId": "a9d57646-efd8-43ec-8bbc-4131d282e4b0",
+      "providerId": "RITEM:1310377:200701512713:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512713&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "3b40fd7a-d8c6-4390-b36c-d1b2ee96f489",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "07cafc24c4d07648d2b4cafaaa47a0b73fcfe187c708af8e59eb7e640a04f42f"
+    },
+    {
+      "sourceId": "8159368a-eb9e-42f7-b83d-bb0b263530cf",
+      "providerId": "RITEM:1310377:200701512713:000000000002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512713&rc_ritem_no=000000000002",
+      "version": 1,
+      "captureId": "5c37b6d0-5640-4a63-a5f6-cf1b25b4c3a7",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "bd0da5a308aabe68aad591b68b78e48eb375459f696a2a57d57ea268a018bce0"
+    },
+    {
+      "sourceId": "f18febbc-e9fc-4496-8103-cc9772c1a6d6",
+      "providerId": "RITEM:1310377:200701512711:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512711&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "c6c869d8-ce09-4ab9-8a0f-c1b40fe9a899",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "f518c6cf1cf3bed2fdda917f186fd73f25c1d1cb80edbe99fc64ff3d423f4d15"
+    },
+    {
+      "sourceId": "9a79d4c4-4844-4576-a921-0ac6f59b0f6d",
+      "providerId": "RITEM:1310377:200701512695:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512695&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "521c3012-fce1-4719-981c-0a04a157245b",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "586c19a79dcabaa8ba0d542186cb7d428448fff3e66acff8971bd0879bf0fe64"
+    },
+    {
+      "sourceId": "c80be599-583b-4706-8aa8-7dec87d88fcc",
+      "providerId": "RITEM:1310377:200701512696:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512696&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "6ba34d87-72f2-4f7b-8eb1-f3b6ed2f36f1",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "65f93b13f9d14bc35054164d1e7183988273ba73fda800bffeb7b964f839389e"
+    },
+    {
+      "sourceId": "84762676-3f84-4eea-8121-1e5e6606fec9",
+      "providerId": "RITEM:1310377:200701512695:000000000002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512695&rc_ritem_no=000000000002",
+      "version": 1,
+      "captureId": "18268402-2ffd-4ec8-ac45-cc0bcb8e1f12",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "8ef1e3014d8a8468be8dcd2fa1a0c1f17bab46b99dc309ca44edf97faa9289f9"
+    },
+    {
+      "sourceId": "5405e333-b2ae-4f4d-83c6-9613e3b81c56",
+      "providerId": "RITEM:1310377:200701512736:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512736&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "448c3aeb-4051-4ce5-a808-a82b7e02868c",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "c9f477ce3756462a811e92be06d6f5de5dae115901deb50d2363aaa3d574a1ed"
+    },
+    {
+      "sourceId": "b8741abb-0910-41c9-95b7-ea147c80573a",
+      "providerId": "RITEM:1310377:200701512737:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512737&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "3da2c360-3c96-46be-96cf-67818a4ca620",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "af842c36fbc2866433639fe8aeae989ab75029ff102ae87f0d01a405af24eb20"
+    },
+    {
+      "sourceId": "c1c206af-b919-430f-9923-967b476ed9ec",
+      "providerId": "RITEM:1310377:200701512740:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512740&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "c02aa863-8dc2-4be0-8c61-98b018ff28d4",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "2689b569be609138ed1e7f54657d2db25503cb55238c719f406abae295a2e086"
+    },
+    {
+      "sourceId": "69bbf43e-8a2c-4f33-9ecc-a2006fdae904",
+      "providerId": "RITEM:1310377:200701511928:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701511928&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "e2c53b70-4e23-4957-b0c7-4086d1ebf96f",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "89a8cd9ee2cf880b8ea0fc2d2bd271ff075959b7277f1b91ec0a3739b104199f"
+    },
+    {
+      "sourceId": "6ad95801-a0de-4b7d-a288-b3f538798d04",
+      "providerId": "RITEM:1310377:200701511932:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701511932&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "78051b32-0512-4efc-96b4-0f1803b82d60",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "0a28610272e5c61bec814c73de17e17baaad063ce13e1018651844963656dd1b"
+    },
+    {
+      "sourceId": "388078e6-5adf-4856-ad30-3e9e884760bf",
+      "providerId": "RITEM:1310377:200701511932:000000000002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701511932&rc_ritem_no=000000000002",
+      "version": 1,
+      "captureId": "f505b03f-bf06-4a61-be4e-db6f9feb1373",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "eee4aab5a75b1f0cffc7025e269e0c77b676db21b8d4723158c0eca5a2acda1d"
+    },
+    {
+      "sourceId": "0cc5bd1d-e77e-4ac0-bc64-c989297d97fe",
+      "providerId": "RITEM:1310377:200301559686:000000000009",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559686&rc_ritem_no=000000000009",
+      "version": 1,
+      "captureId": "e2fef2af-227c-41c8-ab9c-a9ff91f30d15",
+      "regions": [
+        "gu-용산구"
+      ],
+      "metadataSha256": "bbd917ddf907bb441021588df4f2bb6fbbb4c64c17c092cd1e2ff76258bf7abe"
+    },
+    {
+      "sourceId": "f5f6c375-a812-4a41-a46b-3263eb8aaeb6",
+      "providerId": "RITEM:1310377:200301559707:000000000006",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559707&rc_ritem_no=000000000006",
+      "version": 1,
+      "captureId": "53c04774-3c1d-400d-8409-b49e9f6eeddb",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "e45974ec447afecf1b933f6cdff1d65ce475ee65224f2570d0d010336c93bd3e"
+    },
+    {
+      "sourceId": "1a4ac1ff-55b4-4f87-8566-f1c93eb12357",
+      "providerId": "RITEM:1310377:200301559707:000000000007",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559707&rc_ritem_no=000000000007",
+      "version": 1,
+      "captureId": "0975cd57-2039-41cf-a043-b7f5d0bd4466",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "568d85138222b74dbd82f9b06dde9e273802f5f210baf510938fb7e4d33e9f1d"
+    },
+    {
+      "sourceId": "420e0323-b15f-4d22-bd09-72dbcef38054",
+      "providerId": "RITEM:1310377:200301559736:000000000013",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559736&rc_ritem_no=000000000013",
+      "version": 1,
+      "captureId": "02b53494-3558-44eb-b55c-60c87e6cb622",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "e76c3b5763e568b2eb82b6d639c718c0d9027f55dd6cf154f9f50e3d3d615ad0"
+    },
+    {
+      "sourceId": "d88ca4c0-5f09-4973-b43a-10c32ea66975",
+      "providerId": "RITEM:1310377:200301559704:000000000019",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559704&rc_ritem_no=000000000019",
+      "version": 1,
+      "captureId": "88682bae-839f-414a-8a11-86c186f518cd",
+      "regions": [
+        "gu-용산구"
+      ],
+      "metadataSha256": "bc996338822422d431618aa2f1a1bc3ff235624b04f3585482443187b166610d"
+    },
+    {
+      "sourceId": "429e4d67-3312-4bd6-be81-d71ddb471ed0",
+      "providerId": "RITEM:1310377:200301559690:000000000031",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559690&rc_ritem_no=000000000031",
+      "version": 1,
+      "captureId": "dc10f87a-891a-4f7c-828e-552e75f60e41",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "0fe68089658184d91fa5138f5e8708ad81e8070da005f23caf52a71ddcbb77ff"
+    },
+    {
+      "sourceId": "9a84417f-7ab9-4956-8b0c-885c23e7cd62",
+      "providerId": "RITEM:1310377:200300863210:000000000040",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300863210&rc_ritem_no=000000000040",
+      "version": 1,
+      "captureId": "37884ef1-4b79-4c13-8706-161cbd703fde",
+      "regions": [
+        "gu-노원구"
+      ],
+      "metadataSha256": "8a915717537a6b58d8c870b812b22af0c10781c380ba4ee84ff9781c20525e99"
+    },
+    {
+      "sourceId": "32f1eb0d-7174-44c2-a2e5-cdb098ba268e",
+      "providerId": "RITEM:1310377:200301557340:000000000002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557340&rc_ritem_no=000000000002",
+      "version": 1,
+      "captureId": "f375a488-cd6e-48bf-ba93-eb6828b6951c",
+      "regions": [
+        "gu-용산구"
+      ],
+      "metadataSha256": "4f98374d1e35af70776be3c039190bd3b73f354223535bd9b1328ad5b0035a8c"
+    },
+    {
+      "sourceId": "e8afc618-8314-4ad4-bee6-f9e679926417",
+      "providerId": "RITEM:1310377:200301557334:000000000002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557334&rc_ritem_no=000000000002",
+      "version": 1,
+      "captureId": "5b229dbb-a80c-4b60-abf5-23b38a88e3fa",
+      "regions": [
+        "gu-용산구"
+      ],
+      "metadataSha256": "905d07d3683c2999b68ad38348fdf7f39680bdb0a90fec40468fe84abe8f8ca8"
+    },
+    {
+      "sourceId": "561fa851-da5e-40a7-8ee9-305ff995124c",
+      "providerId": "RITEM:1310377:200300301991:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301991&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "b593ad0d-cf41-448e-90a9-b1c5555fac61",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "7da2d6db46cd745f410384af55cbbea3428887beb94794a1fb3050889bc4d10c"
+    },
+    {
+      "sourceId": "d2b1dce9-b487-4b18-9335-34a1951b7b88",
+      "providerId": "RITEM:1310377:200300301992:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301992&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "e9355643-136b-45da-a9de-3a0ff2d1df63",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "151f4b39dd58826c159f53fd9968124ed66a19052098b49ea4d796a27117b94c"
+    },
+    {
+      "sourceId": "d77854c9-93a5-4292-b929-a827dfa9a4e1",
+      "providerId": "RITEM:1310377:200300301940:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301940&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "22263e80-a250-44da-9c7d-a11cfb94e6b5",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "f99d57f83cae19286017d30b809252eaed9eca3309faf2fa41b061e005c6cb6e"
+    },
+    {
+      "sourceId": "4181d759-a3b8-4fa9-814c-b43bd12fea9c",
+      "providerId": "RITEM:1310377:200300301941:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301941&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "42333e88-77fa-4f6c-9bc5-d90357194978",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "043c4682c4b1970282e6b04083a4fcfca732e21a2f8f79b8e0c103a27a75c355"
+    },
+    {
+      "sourceId": "80fc3c32-f017-4d9c-878a-b1a8585548e5",
+      "providerId": "RITEM:1310377:200300301942:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301942&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "b6016bcc-14a2-480b-bf22-262ac2fbfa35",
+      "regions": [
+        "gu-서대문구"
+      ],
+      "metadataSha256": "5a580218283716a26492cccf3cb819c47b6f5fe4abf71d91cd7a14658082fa75"
+    },
+    {
+      "sourceId": "41c20a6d-9dee-4e0f-9fbf-ca07336b4582",
+      "providerId": "RITEM:1310377:200300326843:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300326843&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "6307ec98-e4a7-4f65-90c1-051cf5a232da",
+      "regions": [
+        "gu-서초구"
+      ],
+      "metadataSha256": "f85958aa4cca23837e31609891695442679c02a8524f0230f3644d9bfc6d47dd"
+    },
+    {
+      "sourceId": "512160ea-dcdd-4d62-b879-a5452e6c02f6",
+      "providerId": "RITEM:1310377:200300326844:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300326844&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "8d0edbdc-e3eb-4407-a9d6-12a38feaa0d7",
+      "regions": [
+        "gu-서초구"
+      ],
+      "metadataSha256": "e5f0270b279b2734ce3d3377c376a46d3a2219762ad796258677802a91ab3711"
+    },
+    {
+      "sourceId": "b59be6c8-bc60-493d-8a75-6a671b06971f",
+      "providerId": "RITEM:1310377:200300326846:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300326846&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "cc44288c-ff9e-426b-8ee3-bf8d3518a4b4",
+      "regions": [
+        "gu-서초구"
+      ],
+      "metadataSha256": "182e2a69ca0ca284f677ebecd6d45743985ab99f419a91af07a4c14ce22c1172"
+    },
+    {
+      "sourceId": "ad360207-3a51-4ee2-b0d1-c4269c92359e",
+      "providerId": "RITEM:1310377:200300357959:000000000001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300357959&rc_ritem_no=000000000001",
+      "version": 1,
+      "captureId": "6b77e9e3-90d2-4eb6-b47f-2bef4db30834",
+      "regions": [
+        "gu-노원구"
+      ],
+      "metadataSha256": "bcec8006232e8b11d068cc6bab06bae94f10736fef5262ce7c95ce459ef3f642"
+    },
+    {
+      "sourceId": "62f1da61-023a-4cef-b0f8-903850cf806d",
+      "providerId": "RITEM:1310377:200300357961:000000000003",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300357961&rc_ritem_no=000000000003",
+      "version": 1,
+      "captureId": "ab4bf13f-32d9-4c5a-bc40-6494c7b76304",
+      "regions": [
+        "gu-노원구"
+      ],
+      "metadataSha256": "866409f449bf4442cdee5a543402fbda367b3add222a11201979b9d51dea9585"
+    },
+    {
+      "sourceId": "6f930b46-f206-4bb6-96d6-8e667571f791",
+      "providerId": "RITEM:1310377:200301531548:000000000035",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301531548&rc_ritem_no=000000000035",
+      "version": 1,
+      "captureId": "8da7e38c-4e4e-419e-b490-a25af3d200a0",
+      "regions": [
+        "gu-용산구"
+      ],
+      "metadataSha256": "1fc8cb6a7ed16d6f2e27720dae8ad638cfa4a397604b25311a643e2bb4eb6563"
+    },
+    {
+      "sourceId": "7daaf27e-026c-4473-ac0e-776a197de0fc",
+      "providerId": "RITEM:1310377:200301531548:000000000036",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301531548&rc_ritem_no=000000000036",
+      "version": 1,
+      "captureId": "162f9d05-0d8d-428d-b90e-a4b7753e65c2",
+      "regions": [
+        "gu-용산구"
+      ],
+      "metadataSha256": "0f24620e7a4c973bc6136479735489b2118d67051e49f4ef8dda7c3579cdf665"
+    },
+    {
+      "sourceId": "c4ebaa3f-4832-4c32-a225-8111eec7ad2f",
+      "providerId": "RITEM:1310377:200301531549:000000000018",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301531549&rc_ritem_no=000000000018",
+      "version": 1,
+      "captureId": "58ffc072-5322-416d-9ce6-5993d47d0ab9",
+      "regions": [
+        "gu-서초구"
+      ],
+      "metadataSha256": "8ed3957d86d9501c5b2286a774df0232e152ca1cbea8da38ab20436be96763e0"
+    },
+    {
+      "sourceId": "d5f46ab8-71ab-410a-9868-6bd28293f666",
+      "providerId": "RITEM:1310377:200301531550:000000000045",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301531550&rc_ritem_no=000000000045",
+      "version": 1,
+      "captureId": "735ef74b-2710-4fa7-8168-65cc186d9f81",
+      "regions": [
+        "gu-노원구"
+      ],
+      "metadataSha256": "0333c833bc8df779241f41cc5b456b52970771ce25ca2748fde94c868269a3ea"
+    },
+    {
+      "sourceId": "7585d354-53ef-4d87-8425-08802894eb23",
+      "providerId": "RITEM:1310377:200301534366:000000000019",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534366&rc_ritem_no=000000000019",
+      "version": 1,
+      "captureId": "0c0a6b79-f70d-464f-a5a5-1a91eed55b01",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "979e522cc91b1943aba3066ca4fdb8d5e5884085bd233d1509d9de1aab3f398e"
+    },
+    {
+      "sourceId": "d198cfa4-b715-46b6-acec-419a82fbf4fd",
+      "providerId": "RITEM:1310377:200301534366:000000000003",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534366&rc_ritem_no=000000000003",
+      "version": 1,
+      "captureId": "7acfe1a0-0eda-494b-a3e3-b6667f2cec4d",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "a60c59e75df1df25d36de3c70e787b16e82458562c7456f0ecc6206fee1c64a1"
+    },
+    {
+      "sourceId": "457df2b7-40e5-452f-8ea5-80c609f2ce33",
+      "providerId": "RITEM:1310377:200301534366:000000000024",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534366&rc_ritem_no=000000000024",
+      "version": 1,
+      "captureId": "eb372ce2-d2e2-4208-b131-023e0b63ca8a",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "1ad85e63dda22f00aa7b1d9bd874b924396f6cbfdc3e94839a0f2881069410c9"
+    },
+    {
+      "sourceId": "924fda81-d2aa-4e85-b51c-56817dda9a73",
+      "providerId": "RITEM:1310377:200301534366:000000000004",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534366&rc_ritem_no=000000000004",
+      "version": 1,
+      "captureId": "2fa2f65d-be79-40ab-ae21-cea424020d0b",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "0b88370de7668c8f033e12950f270480cbe535c8a04fb22f6447ecaaf6ee63ed"
+    },
+    {
+      "sourceId": "7db405c6-2a2b-44c2-af95-0d140e1e6d59",
+      "providerId": "RITEM:1310377:200801821489:000000000097",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200801821489&rc_ritem_no=000000000097",
+      "version": 1,
+      "captureId": "b8f26742-7dac-4532-b426-ab1d38856b44",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "011a2261bdc5cd4c401709dd4bcd45a01bd851c036242ca30e02ede4f6782323"
+    },
+    {
+      "sourceId": "6898cf24-2d23-4ae5-8040-2225e3cda366",
+      "providerId": "RITEM:1310377:200302660359:000000000122",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200302660359&rc_ritem_no=000000000122",
+      "version": 1,
+      "captureId": "ddc3074d-1191-498c-9414-b2b56b0ccdbc",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "21d00a31056852cde2994c8725f7d2e7e52f4fd9c322c98bf79e0616731cb1f2"
+    },
+    {
+      "sourceId": "f4fd1cbc-6c23-4b27-8d2c-f52643e16646",
+      "providerId": "RITEM:1310377:200302660361:000000000101",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200302660361&rc_ritem_no=000000000101",
+      "version": 1,
+      "captureId": "361b4ff7-984b-41e5-a4f6-be0a2ae13765",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "7b13fef3a5768fe2668c9ae62e5fd2211355fb1982cb1e954f8955c5b96389c6"
+    },
+    {
+      "sourceId": "fbfeec3d-29d5-40dd-984b-f1c75363c545",
+      "providerId": "RITEM:1310377:200302977944:000000000011",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200302977944&rc_ritem_no=000000000011",
+      "version": 1,
+      "captureId": "b21bf9df-edba-46ac-9870-f74ea2947697",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "3a904d745ac76c1ba409da924928e085e97706c65cc5d34eb414f61f8c077d74"
+    },
+    {
+      "sourceId": "4060a883-04ca-4643-bfcc-34f2d266113b",
+      "providerId": "RITEM:1310377:200301557388:000000000065",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557388&rc_ritem_no=000000000065",
+      "version": 1,
+      "captureId": "f8eb9272-1cd4-4bc6-a30c-c4b81996c6c2",
+      "regions": [
+        "gu-용산구"
+      ],
+      "metadataSha256": "c7b51f5ec06c10afa0e587d2a889e81b756118d780cfc5fccd005a612b8cc4db"
+    },
+    {
+      "sourceId": "4fa31f12-0012-41f1-800a-396f2aea7646",
+      "providerId": "RITEM:1310377:200301557388:000000000067",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557388&rc_ritem_no=000000000067",
+      "version": 1,
+      "captureId": "6c6ef122-7175-452d-82b5-46aae8c40156",
+      "regions": [
+        "gu-용산구"
+      ],
+      "metadataSha256": "19e32b04cb1e7cecd645bec07b808a9c9a65a7095cef34e621a0b23105df97cf"
+    },
+    {
+      "sourceId": "bc86a12c-3547-403a-bdc7-36f3a51267be",
+      "providerId": "RITEM:1310377:200301557388:000000000081",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557388&rc_ritem_no=000000000081",
+      "version": 1,
+      "captureId": "d0587b3f-b6b1-475e-bf1a-b1029501d48a",
+      "regions": [
+        "gu-용산구"
+      ],
+      "metadataSha256": "ebf2e3d86f1b9e07d9dd4093d27c1c8df5d5b1cc060702e78e1e7a4ac0292a19"
+    },
+    {
+      "sourceId": "07e0b2c9-0083-48c5-91d8-a9ce18805919",
+      "providerId": "RITEM:1310377:200301534337:000000000025",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534337&rc_ritem_no=000000000025",
+      "version": 1,
+      "captureId": "b395cd8a-02b3-49f0-a3e1-cb884fbf0e96",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "61117b2b2867df543c459ad2d2f795a41418d206313b05a3af7328afedfe8203"
+    },
+    {
+      "sourceId": "4c23ffa6-898d-4d7f-974e-9a8fb9924545",
+      "providerId": "RITEM:1310377:200301534337:000000000029",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534337&rc_ritem_no=000000000029",
+      "version": 1,
+      "captureId": "38768454-031c-4415-9972-824da147bdf7",
+      "regions": [
+        "gu-중구"
+      ],
+      "metadataSha256": "004d3b15d19ffc94cff0d2ec9dde76827d32f0d9810fc046e0b127ab858d3a97"
+    }
+  ]
+}

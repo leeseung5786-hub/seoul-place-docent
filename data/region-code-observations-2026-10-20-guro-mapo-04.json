@@ -1,0 +1,602 @@
+{
+  "date": "2026-10-20",
+  "phase": "regions",
+  "batch": "regions-20261020-guro-mapo-04",
+  "before": {
+    "total": 467,
+    "withCode": 139,
+    "reviewed": 137,
+    "addressObserved": 137,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "after": {
+    "total": 467,
+    "withCode": 189,
+    "reviewed": 187,
+    "addressObserved": 187,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "districts": {
+    "gu-구로구": 10,
+    "gu-금천구": 3,
+    "gu-노원구": 5,
+    "gu-도봉구": 4,
+    "gu-동대문구": 10,
+    "gu-동작구": 9,
+    "gu-마포구": 9
+  },
+  "results": [
+    {
+      "id": "dong-구로구-가리봉동",
+      "code": "1153010300",
+      "revision": 1,
+      "reviewId": "8338ebd2-ac59-4ae6-8d9f-76242508409a",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:04.228Z",
+      "matched": 10,
+      "evidenceSha256": "787114b4f514ae755d7b4f6c72f0f6e9c17de32b8f23d1d2d31f02612a771b43"
+    },
+    {
+      "id": "dong-구로구-개봉동",
+      "code": "1153010700",
+      "revision": 1,
+      "reviewId": "5b94fbaa-831a-4d83-b6a0-6706523c4d2c",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:23.327Z",
+      "matched": 10,
+      "evidenceSha256": "067d84dfc0b7aaaff589ee1b6e73f6cdd4913561b8ec03aed7ee431d9fc2de6c"
+    },
+    {
+      "id": "dong-구로구-고척동",
+      "code": "1153010600",
+      "revision": 1,
+      "reviewId": "b4b3f9a5-2a18-4f6e-8464-641dd4974304",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:24.516Z",
+      "matched": 10,
+      "evidenceSha256": "73fa1d6413d769a70bd543e942c6394f27360ab8d95662533eabe5f9a3b5e4fb"
+    },
+    {
+      "id": "dong-구로구-구로동",
+      "code": "1153010200",
+      "revision": 1,
+      "reviewId": "41c38d39-6c04-47cd-92f2-d1a1b5b6b0d7",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:25.681Z",
+      "matched": 10,
+      "evidenceSha256": "ec0d6a46eaa600b43197aa2e450bc0961be2c80bcbb5a234cfb660bed1ce8a1d"
+    },
+    {
+      "id": "dong-구로구-궁동",
+      "code": "1153010900",
+      "revision": 1,
+      "reviewId": "4fa279be-2d10-429b-9dd6-66aaaf4045fa",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:26.829Z",
+      "matched": 10,
+      "evidenceSha256": "e8d167d169aec7981631c6261be8c75c29ef2e24353195284dfcc70852b8db79"
+    },
+    {
+      "id": "dong-구로구-신도림동",
+      "code": "1153010100",
+      "revision": 1,
+      "reviewId": "d14062ee-6f25-4201-b315-28958ca47ba3",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:27.996Z",
+      "matched": 10,
+      "evidenceSha256": "173767c50cc2a115b0837816ef384523f663cc9ee1a15e0de6d5b90594da3be5"
+    },
+    {
+      "id": "dong-구로구-오류동",
+      "code": "1153010800",
+      "revision": 1,
+      "reviewId": "4a968eaf-e111-4486-970b-1944163ab6eb",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:29.140Z",
+      "matched": 10,
+      "evidenceSha256": "54f85157f4f03fbe22ab95de5255d4cc1ccc5934e9570d527412e662f90905ba"
+    },
+    {
+      "id": "dong-구로구-온수동",
+      "code": "1153011000",
+      "revision": 1,
+      "reviewId": "57e5469d-96b5-4a34-b7e0-646bbd9636db",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:30.358Z",
+      "matched": 10,
+      "evidenceSha256": "835e0835e228af5711b108cce5505caaea6413ccd13059025123d0f662dc1c20"
+    },
+    {
+      "id": "dong-구로구-천왕동",
+      "code": "1153011100",
+      "revision": 1,
+      "reviewId": "a1b6222a-1de5-4ac7-8971-4d5c269fd978",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:31.536Z",
+      "matched": 10,
+      "evidenceSha256": "88a4f238e52182f53f8636df310cdf9611253e96afc9ccb6e803e784af5d340c"
+    },
+    {
+      "id": "dong-구로구-항동",
+      "code": "1153011200",
+      "revision": 1,
+      "reviewId": "f9e6ea57-96ad-4cf9-93a5-f93a0f92acad",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:32.732Z",
+      "matched": 10,
+      "evidenceSha256": "31505a7d6083836dc8cda842316055c6ee22efd13439b620322dcff90dfb5b78"
+    },
+    {
+      "id": "dong-금천구-가산동",
+      "code": "1154510100",
+      "revision": 1,
+      "reviewId": "5a304ba6-d1ee-40bd-a207-2d4a209917cc",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:33.948Z",
+      "matched": 10,
+      "evidenceSha256": "b28ed06bd5cf7e9f511c92b9373700d18e1ace521c6f4e9fa48e92d4167dda20"
+    },
+    {
+      "id": "dong-금천구-독산동",
+      "code": "1154510200",
+      "revision": 1,
+      "reviewId": "6a1d3b49-6274-4913-bc26-892a1a9b3b93",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:35.128Z",
+      "matched": 10,
+      "evidenceSha256": "1c474fd8352dcec1e1d4ea3452bf3099f5766b954038ca4426d4ed4103d648c5"
+    },
+    {
+      "id": "dong-금천구-시흥동",
+      "code": "1154510300",
+      "revision": 1,
+      "reviewId": "d05c8d02-4ba0-44ad-aadb-292b5fca5409",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:36.285Z",
+      "matched": 10,
+      "evidenceSha256": "45dc2b89ddf63eb793fa4f0c7fd287f3f98b3402aa4efd34fa7dae908f35d2d4"
+    },
+    {
+      "id": "dong-노원구-공릉동",
+      "code": "1135010300",
+      "revision": 1,
+      "reviewId": "1cd1a16f-1371-442b-b9f1-0daafcced4e4",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:37.477Z",
+      "matched": 10,
+      "evidenceSha256": "876abe9a14d06855d4544e2aae369d33d00d17099c51bed870aa8ab65dcd9888"
+    },
+    {
+      "id": "dong-노원구-상계동",
+      "code": "1135010500",
+      "revision": 1,
+      "reviewId": "e95877ee-7c41-4829-b970-05bfd7c9f353",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:38.661Z",
+      "matched": 10,
+      "evidenceSha256": "fce65043e6d6818d548fd7f8e1a4cbab600f71dba9b315aa765db0c8b2785f5c"
+    },
+    {
+      "id": "dong-노원구-월계동",
+      "code": "1135010200",
+      "revision": 1,
+      "reviewId": "779d43d4-14e7-4453-a197-8b6a09498211",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:39.884Z",
+      "matched": 10,
+      "evidenceSha256": "607dc76106a5718ae1646d13abead569f061f2ede8491d3df7afecd3c0113e8c"
+    },
+    {
+      "id": "dong-노원구-중계동",
+      "code": "1135010600",
+      "revision": 1,
+      "reviewId": "59e3a631-0949-4866-895d-a064c8fe2d33",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:41.062Z",
+      "matched": 10,
+      "evidenceSha256": "ef3c27eea88b4a664917ec22f214f2c79111fed1f763a22e84923edc270b4280"
+    },
+    {
+      "id": "dong-노원구-하계동",
+      "code": "1135010400",
+      "revision": 1,
+      "reviewId": "92ff8b9e-333a-422c-9334-b922171d7129",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:42.252Z",
+      "matched": 10,
+      "evidenceSha256": "6082600a335306179a7e9d9d8e16c96be5703cad54f29ba5a9c4ab8a14c82cb5"
+    },
+    {
+      "id": "dong-도봉구-도봉동",
+      "code": "1132010800",
+      "revision": 1,
+      "reviewId": "468ce2b5-5ba9-4617-8414-61560bd2f0ae",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:43.410Z",
+      "matched": 10,
+      "evidenceSha256": "57979b36e92d2a6b5c563253497bac899a4ce455a80e42b159205314c2d0c306"
+    },
+    {
+      "id": "dong-도봉구-방학동",
+      "code": "1132010600",
+      "revision": 1,
+      "reviewId": "a6049d6e-3cc6-4aee-a64b-3a4b07bfb837",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:44.584Z",
+      "matched": 10,
+      "evidenceSha256": "bca44dc75db19eab16accdbfc0d01ecf644be468b4f1b92c144127b9568138fb"
+    },
+    {
+      "id": "dong-도봉구-쌍문동",
+      "code": "1132010500",
+      "revision": 1,
+      "reviewId": "874d3428-1430-4280-9ba2-7e9792a739a7",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:46.376Z",
+      "matched": 10,
+      "evidenceSha256": "cf04f80274ea2c6264998570f152d2b8677d728317e8d7fa03ac46af135e816f"
+    },
+    {
+      "id": "dong-도봉구-창동",
+      "code": "1132010700",
+      "revision": 1,
+      "reviewId": "8e1c4376-e6f4-4e55-8d96-2375a4c73feb",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:47.553Z",
+      "matched": 10,
+      "evidenceSha256": "b155fb41dbedd7124ac107cb03f547f6b029809cf8a8392fc79ee5887cf267db"
+    },
+    {
+      "id": "dong-동대문구-답십리동",
+      "code": "1123010500",
+      "revision": 1,
+      "reviewId": "ed1d015b-e4f3-4681-901a-e1506ea86d97",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:48.699Z",
+      "matched": 10,
+      "evidenceSha256": "8997a5513af83e15299afca746a0b780923b891e8e8ba700a0ec946db7391054"
+    },
+    {
+      "id": "dong-동대문구-신설동",
+      "code": "1123010100",
+      "revision": 1,
+      "reviewId": "02390225-4caf-45b3-8637-e3361fc35f5f",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:49.882Z",
+      "matched": 10,
+      "evidenceSha256": "b9b1419156b1857549aa1d40f9b6dfe1526644e082d87dad0bbf79d445248c1c"
+    },
+    {
+      "id": "dong-동대문구-용두동",
+      "code": "1123010200",
+      "revision": 1,
+      "reviewId": "02fb2612-4f47-4e31-b730-16ca962f549b",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:51.029Z",
+      "matched": 10,
+      "evidenceSha256": "014bf5f42a077a22e1e67a7040c9ead6318b169d2832558630de36797ac7d450"
+    },
+    {
+      "id": "dong-동대문구-이문동",
+      "code": "1123011000",
+      "revision": 1,
+      "reviewId": "d0b60ed6-3e77-41f3-94e4-fa432571f029",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:52.197Z",
+      "matched": 10,
+      "evidenceSha256": "e7f2dd0a17b56cc70e07a7578b5b9a8ad86540ac8603d3230e769351303cbff7"
+    },
+    {
+      "id": "dong-동대문구-장안동",
+      "code": "1123010600",
+      "revision": 1,
+      "reviewId": "be9ad5da-4b8b-43c8-8b7e-1f8bd7759f49",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:53.389Z",
+      "matched": 10,
+      "evidenceSha256": "24e74cd1aaa6d72406415d8ffd5bca9369609daafab23f76260a1a3594e84036"
+    },
+    {
+      "id": "dong-동대문구-전농동",
+      "code": "1123010400",
+      "revision": 1,
+      "reviewId": "124cb5cd-efb2-4bfe-b391-6d8354007370",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:54.779Z",
+      "matched": 10,
+      "evidenceSha256": "a4f9a1fb2f6deefaca613d39b8c27c9c1afb067b6b43c3b8e398343ee564ae02"
+    },
+    {
+      "id": "dong-동대문구-제기동",
+      "code": "1123010300",
+      "revision": 1,
+      "reviewId": "71acb4f8-eba9-4d18-8adb-11826dea4e27",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:55.964Z",
+      "matched": 10,
+      "evidenceSha256": "54ebd5535e479dbab621f65563d3a02db0d4e3d957fb4893c5505d40de2c48dc"
+    },
+    {
+      "id": "dong-동대문구-청량리동",
+      "code": "1123010700",
+      "revision": 1,
+      "reviewId": "df7307fb-861a-4ff2-aa9d-15c0e74ef5cb",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:57.148Z",
+      "matched": 10,
+      "evidenceSha256": "405849d257ffdb06c2dc91dff50f0bfd56a4460110bf95df1ea867c7aa1758a1"
+    },
+    {
+      "id": "dong-동대문구-회기동",
+      "code": "1123010800",
+      "revision": 1,
+      "reviewId": "0b4359b5-1e59-4aa3-a3cc-17119b18d089",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:58.343Z",
+      "matched": 10,
+      "evidenceSha256": "edd7f4e05a765e1b7935220f008617827bb14adfc2d98f9103aa1cb77553435f"
+    },
+    {
+      "id": "dong-동대문구-휘경동",
+      "code": "1123010900",
+      "revision": 1,
+      "reviewId": "3a18d220-457d-41c5-b69c-ee03731608c1",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:13:59.504Z",
+      "matched": 10,
+      "evidenceSha256": "e1f4fed6cddc13808a3c59a719a6ae9044b72b461f60080c11db6761bcea7903"
+    },
+    {
+      "id": "dong-동작구-노량진동",
+      "code": "1159010100",
+      "revision": 1,
+      "reviewId": "b9a68395-cf32-4af1-b6f7-205797c8f038",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:00.676Z",
+      "matched": 10,
+      "evidenceSha256": "ff14b516a7c863063affb0bfaab109911ef12f55fb81a27ae51fc7f6d8f96555"
+    },
+    {
+      "id": "dong-동작구-대방동",
+      "code": "1159010800",
+      "revision": 1,
+      "reviewId": "8d2c31a8-160b-4374-919a-15292125192f",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:01.883Z",
+      "matched": 10,
+      "evidenceSha256": "c32e801ba85622900e6c854be247d56bca2995192d3dcbc774de0831dddf7238"
+    },
+    {
+      "id": "dong-동작구-동작동",
+      "code": "1159010600",
+      "revision": 1,
+      "reviewId": "64cecf88-fff5-40ff-b262-d158bfefe2e5",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:03.062Z",
+      "matched": 10,
+      "evidenceSha256": "2b8b31b367c869cabc23f6be2d8220ced651e4d37e608eb773f0a779c1040ea1"
+    },
+    {
+      "id": "dong-동작구-본동",
+      "code": "1159010400",
+      "revision": 1,
+      "reviewId": "daedf364-dc81-4b60-baec-45ba1e0abbaa",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:04.242Z",
+      "matched": 10,
+      "evidenceSha256": "c78ef2d6c41702029f27c39c2ccd47dda57259865ca3c44cee1dd32085ad7e22"
+    },
+    {
+      "id": "dong-동작구-사당동",
+      "code": "1159010700",
+      "revision": 1,
+      "reviewId": "df3a8109-63ff-4198-a9f0-59c5b969af22",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:05.417Z",
+      "matched": 10,
+      "evidenceSha256": "ebf163a44d519566baf5fc37ec6fa14f5294db0c018261b893b01ac59c7a9b95"
+    },
+    {
+      "id": "dong-동작구-상도1동",
+      "code": "1159010300",
+      "revision": 1,
+      "reviewId": "429681fd-2d73-4476-a12e-cb776df12df8",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:06.615Z",
+      "matched": 10,
+      "evidenceSha256": "08fa051bd7bfdc8c013e858f5711fac82a7b6c5d21463dc6fcb6a1c99c1599a8"
+    },
+    {
+      "id": "dong-동작구-상도동",
+      "code": "1159010200",
+      "revision": 1,
+      "reviewId": "8b33f61f-46dd-46d6-a145-8b66d859c6d0",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:07.778Z",
+      "matched": 10,
+      "evidenceSha256": "0f701b766d9c713772b1ebd8ed7186666d40846686dc6be2de99df1fcf585d96"
+    },
+    {
+      "id": "dong-동작구-신대방동",
+      "code": "1159010900",
+      "revision": 1,
+      "reviewId": "40ddea4e-67df-493f-af6c-b161c28ed519",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:08.945Z",
+      "matched": 10,
+      "evidenceSha256": "bd256c72706237e6ad467e5fbad9bddee978e4c7e0a946e595913de7161aa2e2"
+    },
+    {
+      "id": "dong-동작구-흑석동",
+      "code": "1159010500",
+      "revision": 1,
+      "reviewId": "bdf0a186-0e73-42c2-9f3f-95af0ca5e3b8",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:10.125Z",
+      "matched": 10,
+      "evidenceSha256": "a7f55354d231d53194cda2b568a107cf630b4215cda25f7da5b3fafb9f52f275"
+    },
+    {
+      "id": "dong-마포구-공덕동",
+      "code": "1144010200",
+      "revision": 1,
+      "reviewId": "7df7f6ec-0a75-46fd-a7cc-70434bcaba23",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:11.306Z",
+      "matched": 10,
+      "evidenceSha256": "5c5366ed5372c3c8cab39aebe526ddbd0f0a89ac6da7ff94c70342c151a6bc33"
+    },
+    {
+      "id": "dong-마포구-구수동",
+      "code": "1144011300",
+      "revision": 1,
+      "reviewId": "cdc670d6-d77e-449a-a046-ebbc2ef14305",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:12.474Z",
+      "matched": 10,
+      "evidenceSha256": "318c7b901c9a96af7dfe4e8a4f36a047a74c26c5267ade713e7d095ba46d7550"
+    },
+    {
+      "id": "dong-마포구-노고산동",
+      "code": "1144011000",
+      "revision": 1,
+      "reviewId": "c5c5e08b-2e64-4913-b161-ee6a1798896a",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:13.661Z",
+      "matched": 10,
+      "evidenceSha256": "5d2a6828b6884f75f34b7dd5325d65c4115fa0d1106738caa79b54e867512c7a"
+    },
+    {
+      "id": "dong-마포구-당인동",
+      "code": "1144011800",
+      "revision": 1,
+      "reviewId": "09623a27-d4da-4b12-8c46-ac93d8cf303d",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:14.837Z",
+      "matched": 10,
+      "evidenceSha256": "5079a46fb61fb894eef724333cacb3527f5f9d766087e96de51b6f8ea71b969a"
+    },
+    {
+      "id": "dong-마포구-대흥동",
+      "code": "1144010800",
+      "revision": 1,
+      "reviewId": "6f5814d9-3707-4630-8725-5734adcccd51",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:15.998Z",
+      "matched": 10,
+      "evidenceSha256": "e24f4b652372093b15bb567e481e77ef1acd908c3ee9081a53924dc503580190"
+    },
+    {
+      "id": "dong-마포구-도화동",
+      "code": "1144010400",
+      "revision": 1,
+      "reviewId": "64d06071-8cbb-4bed-b74e-361c332765f7",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:17.165Z",
+      "matched": 10,
+      "evidenceSha256": "3cd8ac006c37aeb7e86ef9a65170b1cf4dd02dbb9a98a3c8839a26f13488590f"
+    },
+    {
+      "id": "dong-마포구-동교동",
+      "code": "1144012100",
+      "revision": 1,
+      "reviewId": "bfa9e8e0-50e7-4760-b66e-fa88949d17d3",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:18.346Z",
+      "matched": 10,
+      "evidenceSha256": "b1d5e0072645aef751c421e478ef7804559e35f787d3213d791c6e845d1a6810"
+    },
+    {
+      "id": "dong-마포구-마포동",
+      "code": "1144010700",
+      "revision": 1,
+      "reviewId": "44761aa0-0d63-4ea6-a3fe-130678288fa9",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:19.526Z",
+      "matched": 10,
+      "evidenceSha256": "bd7d9597279e4feac6ade349d44d6fac295a066828d6ade54a587bdc75dcf5ef"
+    },
+    {
+      "id": "dong-마포구-망원동",
+      "code": "1144012300",
+      "revision": 1,
+      "reviewId": "c1b711c2-9b18-4f9c-9a3d-2d5c1adab774",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T08:14:20.699Z",
+      "matched": 10,
+      "evidenceSha256": "43d1ec24d5bf94409d6c43a33f5543d0472ea42cc855a54aa9f8d6d245b2d919"
+    }
+  ],
+  "checks": {
+    "all50ReadBack": true,
+    "allEvidenceFieldsChecked": true,
+    "immutableRegionFieldsPreserved": true,
+    "unselectedRegionsUnchanged": true,
+    "allSourceStatsUnchanged": true,
+    "coverageLinked": 467,
+    "initialEncodingErrorsChangedNoRegions": true,
+    "koreanCheckpointRoundTrip": true,
+    "tests": 94,
+    "typecheck": "passed",
+    "appCodeChanged": false,
+    "redeployed": false,
+    "replayUnchanged": 3,
+    "replayReviewIdsPreserved": true,
+    "allRegionDataUnchangedAfterReplay": true
+  },
+  "source": {
+    "url": "https://business.juso.go.kr/addrlink/addrLinkApi.do",
+    "locator": "results.juso[].siNm·sggNm·emdNm·admCd 및 roadAddr·jibunAddr",
+    "checkedDate": "2026-10-20",
+    "firstObservedAt": "2026-10-20T08:13:04.228Z",
+    "lastObservedAt": "2026-10-20T08:14:20.699Z",
+    "lifecycle": "not_checked",
+    "rightsNote": "주소 식별 사실만 기록. 역사 원문·사진·영상의 복제·재사용 허가와 별개."
+  },
+  "unchanged": {
+    "sources": 524,
+    "passages": 638,
+    "assets": 20,
+    "facts": 21,
+    "versions": 524,
+    "dongs": 467
+  },
+  "issues": [
+    "초기 네트워크 오류는 승인된 네트워크 실행으로 복구.",
+    "최초 50개 요청의 curl 설정 한글 이스케이프 오류로 REGION_NOT_FOUND가 반환됐다. 지역 데이터 전체가 바뀌지 않음을 확인한 뒤 ASCII JSON 이중 인코딩으로 수정하고 같은 50개를 정상 처리했다.",
+    "code.go.kr 및 제공기관 Q&A, data.go.kr 파일 원문과 mois.go.kr 공지 직접 연결은 HTTP 503. 검색 도구로 공식 코드 조회 첫 화면과 공개 CSV 설명은 열람했으나 개별 폐지여부 행은 미확보."
+  ],
+  "lifecycleFollowup": {
+    "candidateUrl": "https://www.data.go.kr/data/15123287/fileData.do",
+    "title": "국토교통부_법정동코드_20260929",
+    "metadataLocator": "파일데이터 정보 > 데이터 항목(법정동코드·법정동명·폐지여부), 수정일, 이용허락범위",
+    "metadataCheckedDate": "2026-10-20",
+    "fileRetrieved": false,
+    "limit": "공식 CSV의 개별 행을 확보하기 전에는 현존·폐지 상태를 검증 완료로 기록하지 않음."
+  },
+  "nextCursor": "regions: review_revision=0 중 dong-마포구-상수동부터 정렬된 다음 25~50개 주소 응답 대조. 전체 미대조 280개. 공식 현존·폐지 상태 별도 미완료. 지역 정비 완료 전 본문 검토로 이동하지 않음.",
+  "phaseCompleted": false,
+  "replayChecks": [
+    {
+      "id": "dong-구로구-가리봉동",
+      "reviewId": "8338ebd2-ac59-4ae6-8d9f-76242508409a",
+      "revision": 1,
+      "unchanged": true
+    },
+    {
+      "id": "dong-동작구-상도1동",
+      "reviewId": "429681fd-2d73-4476-a12e-cb776df12df8",
+      "revision": 1,
+      "unchanged": true
+    },
+    {
+      "id": "dong-마포구-망원동",
+      "reviewId": "c1b711c2-9b18-4f9c-9a3d-2d5c1adab774",
+      "revision": 1,
+      "unchanged": true
+    }
+  ],
+  "sourceBaseCommit": "c2676a7ef090210af0854b9a0ab430f73e9b75e9"
+}

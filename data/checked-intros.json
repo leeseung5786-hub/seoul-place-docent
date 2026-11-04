@@ -1,0 +1,79 @@
+[
+  {
+    "name": "청량리",
+    "gu": "동대문구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY397&type=A",
+    "categoryId": "CTGRY397",
+    "introHash": "9328a74c3e69d4716e0c0b9064433c45037a4e9af582aa135c561da39ed2e005",
+    "introLength": 771,
+    "checkedAt": "2026-10-16",
+    "locator": "지역 소개 본문 (.dong-txt)",
+    "ebookUrl": "https://museum.seoul.go.kr/CHM_HOME/ebook/ecatalog.jsp?Dir=126&catimage="
+  },
+  {
+    "name": "성수동",
+    "gu": "성동구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY378&type=A",
+    "categoryId": "CTGRY378",
+    "introHash": "1d759fbf10022d03132476bb4944e414e3b06c0dccb86326c320ed15a2e44201",
+    "introLength": 634,
+    "checkedAt": "2026-10-16",
+    "locator": "지역 소개 본문 (.dong-txt)",
+    "ebookUrl": "https://museum.seoul.go.kr/CHM_HOME/ebook/ecatalog.jsp?Dir=214&catimage="
+  },
+  {
+    "name": "돈암",
+    "gu": "성북구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY1024&type=A",
+    "categoryId": "CTGRY1024",
+    "introHash": "c9dcfb4c40a1e960f6294d29d34fb58f8037efbb154ed7f4f2b79fbe1e990c06",
+    "introLength": 670,
+    "checkedAt": "2026-10-16",
+    "locator": "지역 소개 본문 (.dong-txt)",
+    "ebookUrl": "https://museum.seoul.go.kr/CHM_HOME/ebook/ecatalog.jsp?Dir=597&catimage=&callmode=admin"
+  },
+  {
+    "name": "장위동",
+    "gu": "성북구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY949&type=A",
+    "categoryId": "CTGRY949",
+    "introHash": "8166ed87df49394d3bf8ea922ed881ebcf31a92f6c6c6167990b2c6d1910f314",
+    "introLength": 600,
+    "checkedAt": "2026-10-16",
+    "locator": "지역 소개 본문 (.dong-txt)",
+    "ebookUrl": "https://museum.seoul.go.kr/CHM_HOME/ebook/ecatalog.jsp?Dir=580&catimage="
+  },
+  {
+    "name": "북촌",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY298&type=A",
+    "categoryId": "CTGRY298",
+    "introHash": "c3c07a3a188bc3883c30379cdf4324f7a366765252ff36b4b42830900be5f18d",
+    "introLength": 554,
+    "checkedAt": "2026-10-16",
+    "locator": "지역 소개 본문 (.dong-txt)",
+    "ebookUrl": "https://museum.seoul.go.kr/CHM_HOME/ebook/ecatalog.jsp?Dir=522&catimage= "
+  },
+  {
+    "name": "서촌",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY267&type=A",
+    "categoryId": "CTGRY267",
+    "introHash": "4fec6847589c7c8972640a3db85c9f59d7dc9edaffc81e301c46bd3653443b65",
+    "introLength": 611,
+    "checkedAt": "2026-10-16",
+    "locator": "지역 소개 본문 (.dong-txt)",
+    "ebookUrl": "https://museum.seoul.go.kr/CHM_HOME/ebook/ecatalog.jsp?Dir=380&catimage="
+  },
+  {
+    "name": "창신동",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY293&type=A",
+    "categoryId": "CTGRY293",
+    "introHash": "221cb6ac405c88ced5a48061255768ebff8e828e57415df81c7499767e24eb6f",
+    "introLength": 668,
+    "checkedAt": "2026-10-16",
+    "locator": "지역 소개 본문 (.dong-txt)",
+    "ebookUrl": "https://museum.seoul.go.kr/CHM_HOME/ebook/ecatalog.jsp?Dir=352&catimage="
+  }
+]

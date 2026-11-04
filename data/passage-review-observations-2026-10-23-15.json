@@ -1,0 +1,1916 @@
+{
+  "batch": "passage-review-20261023-15",
+  "verifiedAt": "2026-10-22T20:29:18.276841+00:00",
+  "before": {
+    "currentPassages": 638,
+    "reviewed": 404,
+    "contentChecked": 317,
+    "needsReview": 87,
+    "unreviewed": 234,
+    "remaining": 321
+  },
+  "after": {
+    "currentPassages": 638,
+    "reviewed": 434,
+    "contentChecked": 344,
+    "needsReview": 90,
+    "unreviewed": 204,
+    "remaining": 294
+  },
+  "processed": 30,
+  "contentCheckedWrites": 27,
+  "newHolds": 3,
+  "holdReasons": {
+    "originalAccessUnavailable": [
+      "서린동",
+      "신창동",
+      "동자동"
+    ]
+  },
+  "immutableCurrentPassages": 638,
+  "nonselectedUnchanged": 608,
+  "sourceDetailsUnchanged": 29,
+  "newAudits": 30,
+  "oldVisibleAuditRowsPreserved": 108,
+  "idempotentReplay": 3,
+  "transcriptionComparisons": 3,
+  "legalDongCompletedIncrements": 23,
+  "districtContextCompleted": 1,
+  "inputValidated": 30,
+  "regionVerification": {
+    "total": 467,
+    "withCode": 467,
+    "reviewed": 467,
+    "addressObserved": 464,
+    "addressUnconfirmed": 3,
+    "officialCodeOnly": 3,
+    "lifecycleChecked": 467,
+    "verifiedCurrent": 467,
+    "verifiedAbolished": 0,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "sourceCounts": {
+    "sources": 525,
+    "passages": 638,
+    "versions": 525,
+    "facts": 21,
+    "assets": 20
+  },
+  "next": {
+    "id": "b6022b87-ff3b-4758-b4c2-32f7f83e07a6",
+    "source_title": "서울 지명사전 · 중학동(中學洞)",
+    "locator": "서울 지명사전 > 법정동 > 중학동(中學洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0)",
+    "source_url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A4%91%ED%95%99%EB%8F%99",
+    "scopes": [
+      {
+        "id": "98a121c1-1e64-443c-8726-226f96c672af",
+        "regionId": "dong-종로구-중학동",
+        "label": "중학동",
+        "relation": "exact_name",
+        "basis": "공식 지명사전 법정동 분류의 중학동(中學洞) 독립 표제와 본문의 중학동 서술을 확인. 명칭 기준 지역 분류이며 경계·필지·건물 동일성은 미검증."
+      }
+    ]
+  },
+  "nativeReviewVerification": {
+    "beforePages": 103,
+    "afterPages": 110,
+    "rows": 435,
+    "priorRows": 405,
+    "allPriorRowsPreserved": true,
+    "newRows": 30
+  },
+  "sourceBaseCommit": "0a00f038ba5b5182a63728e7e0f3978da3f81079",
+  "initialSourceCommit": "c7df2a02ecba00f487874f665cec558963579546",
+  "siteVersionAtStart": 32,
+  "siteVersionBeforeWrites": 33,
+  "codeChanged": false,
+  "republished": false,
+  "ownerOnlyPolicyRevision": 1,
+  "allPlanCriteriaComplete": false,
+  "originalFetches": [
+    {
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY328&fileId=H-TRNS-77025-331&fileSn=300&type=A&upperNodeId=CTGRY331",
+      "index": 0,
+      "observedAt": "2026-10-22T20:14:44.510826+00:00",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY328&fileId=H-TRNS-77025-331&fileSn=300&type=A&upperNodeId=CTGRY331",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "f0882ecfa81f5f6cf2c86ac6d865d561d572a945b34bd440a08229c3800ddd08",
+      "bytes": 544426
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%B8%EC%82%AC%EB%8F%99",
+      "index": 1,
+      "observedAt": "2026-10-22T20:14:44.512039+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%B8%EC%82%AC%EB%8F%99",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "86f61a03f4d7476b0cee705dab81b333ce609d4da790fd20a64f703e17b30f5b",
+      "bytes": 23253
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B4%88%EB%8F%99",
+      "index": 2,
+      "observedAt": "2026-10-22T20:14:44.512989+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B4%88%EB%8F%99",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "a45db6b38a8f321f9fb99f5e5d635950cae6b8128544ceed50147507642c0050",
+      "bytes": 24582
+    },
+    {
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=172",
+      "index": 3,
+      "observedAt": "2026-10-22T20:14:44.513683+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%98%EC%A3%BC%EB%A1%9C1%EA%B0%80",
+      "index": 4,
+      "observedAt": "2026-10-22T20:14:44.516024+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%98%EC%A3%BC%EB%A1%9C1%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "163d2a26dbbaef5e14c2f69c0692d8bbf7b67edf84229bb923824ea185da0eed",
+      "bytes": 22899
+    },
+    {
+      "url": "https://www.mapo.go.kr/site/culture/content/culture0302",
+      "index": 5,
+      "observedAt": "2026-10-22T20:14:44.518342+00:00",
+      "status": 200,
+      "finalUrl": "https://www.mapo.go.kr/site/culture/content/culture0302",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "6123b204285f4dd4dc6a2c9c3fd9c9d42dc14664b0a828930affab79d3f9a402",
+      "bytes": 95583
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AC%B4%EC%95%85%EB%8F%99",
+      "index": 6,
+      "observedAt": "2026-10-22T20:14:48.896840+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AC%B4%EC%95%85%EB%8F%99",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "852bc53b4cde5a380475c4d59421236ba6abc5f540181bf7b906125f7e030ff2",
+      "bytes": 22987
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%95%95%EA%B5%AC%EC%A0%95%EB%8F%99",
+      "index": 7,
+      "observedAt": "2026-10-22T20:14:48.944881+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%95%95%EA%B5%AC%EC%A0%95%EB%8F%99",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "0c96ad550ca24b62268f6d237b04241a70b1e1caedfaca8a40c1474a7653af2a",
+      "bytes": 24935
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%95%9C%EA%B0%95%EB%A1%9C3%EA%B0%80",
+      "index": 8,
+      "observedAt": "2026-10-22T20:14:49.118562+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%95%9C%EA%B0%95%EB%A1%9C3%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "b82ae9ea4640d1c357e9381c515b01d8f89820c7a0b7af42a953b7c61be608db",
+      "bytes": 22579
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%82%BC%EC%84%A0%EB%8F%992%EA%B0%80",
+      "index": 9,
+      "observedAt": "2026-10-22T20:14:49.525434+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%82%BC%EC%84%A0%EB%8F%992%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "46639050e3a33725395aea3a87bffd5c96df099bc1ee4c05de2f3d969682d186",
+      "bytes": 22321
+    },
+    {
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=169",
+      "index": 10,
+      "observedAt": "2026-10-22T20:14:49.768195+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%9A%8C%ED%98%84%EB%8F%993%EA%B0%80",
+      "index": 11,
+      "observedAt": "2026-10-22T20:14:50.867672+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%9A%8C%ED%98%84%EB%8F%993%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "38c0e7c311dc17386d59d3d5e5dd80b1ccdec5fae67b7340e1d995f95e30123b",
+      "bytes": 22389
+    },
+    {
+      "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "index": 12,
+      "observedAt": "2026-10-22T20:14:52.845589+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201225",
+      "index": 13,
+      "observedAt": "2026-10-22T20:14:52.971796+00:00",
+      "status": 200,
+      "finalUrl": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201225",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "9159fb95cdebb82a59fcb7df3da525d5f86e2749892d4e5ae604fbdcd9ae5b23",
+      "bytes": 401438
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%82%A8%EC%82%B0%EB%8F%991%EA%B0%80",
+      "index": 14,
+      "observedAt": "2026-10-22T20:14:53.000934+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%82%A8%EC%82%B0%EB%8F%991%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "7c0086f32bccf5b6ada2f2c6024d22a2514313fdf588d40c5f5b49248e94bbfb",
+      "bytes": 22295
+    },
+    {
+      "url": "https://www.sdm.go.kr/wesdm/history/origin.do",
+      "index": 15,
+      "observedAt": "2026-10-22T20:14:53.074443+00:00",
+      "status": 200,
+      "finalUrl": "https://www.sdm.go.kr/wesdm/history/origin.do",
+      "contentType": "text/html; charset=EUC-KR",
+      "sha256": "cbd04a4a1d279071436543596a76149e6a76a8b8ecf1055db1da45e5a9ed9c38",
+      "bytes": 93397
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%82%BC%EC%84%A0%EB%8F%994%EA%B0%80",
+      "index": 16,
+      "observedAt": "2026-10-22T20:14:53.309112+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%82%BC%EC%84%A0%EB%8F%994%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "49e10f829add1467d8af14a58c180aab7d6719f3437658083ef3a40befb2dbec",
+      "bytes": 22309
+    },
+    {
+      "url": "https://www.sb.go.kr/www/contents.do?key=5964",
+      "index": 17,
+      "observedAt": "2026-10-22T20:14:53.564221+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%B4%89%EB%9E%98%EB%8F%991%EA%B0%80",
+      "index": 18,
+      "observedAt": "2026-10-22T20:14:56.062080+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%B4%89%EB%9E%98%EB%8F%991%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "bc5851993ab585aec72a04c3dfc13aee1d3bf5e3014aa03c7a93dd70d7ffdbd9",
+      "bytes": 22948
+    },
+    {
+      "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=03&menuNo=600304",
+      "index": 19,
+      "observedAt": "2026-10-22T20:14:56.067277+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://ecatalog.jungnang.go.kr/src/viewer/download.php?host=main&no=1&site=20260213_163819",
+      "index": 20,
+      "observedAt": "2026-10-22T20:14:56.809440+00:00",
+      "status": 200,
+      "finalUrl": "https://ecatalog.jungnang.go.kr/src/viewer/download.php?host=main&no=1&site=20260213_163819",
+      "contentType": "application/pdf",
+      "sha256": "dfab269833ed18d17ca6d8de310fba3840a48978b5400adf925165107d5b2442",
+      "bytes": 14342764,
+      "binary": "PDF"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A2%85%EB%A1%9C2%EA%B0%80",
+      "index": 21,
+      "observedAt": "2026-10-22T20:14:57.550723+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A2%85%EB%A1%9C2%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "48a9519898be6e48feaff3a90d9dfde7e40ab46039676c86e732403ade2c4fd2",
+      "bytes": 23619
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%95%88%EC%95%94%EB%8F%993%EA%B0%80",
+      "index": 22,
+      "observedAt": "2026-10-22T20:14:58.757601+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%95%88%EC%95%94%EB%8F%993%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "2696e7b9446544caeae0737b3d0a959bef0a737b2d0f221d4a226113fed397da",
+      "bytes": 21927
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%82%A8%EB%8C%80%EB%AC%B8%EB%A1%9C1%EA%B0%80",
+      "index": 23,
+      "observedAt": "2026-10-22T20:14:58.770362+00:00",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%82%A8%EB%8C%80%EB%AC%B8%EB%A1%9C1%EA%B0%80",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "1dd8b6f1d6fe4574ab4d315388cb60a094586d72ea8bcae0a78dce2d8d97ce82",
+      "bytes": 22632
+    },
+    {
+      "url": "https://www.songpa.go.kr/www/contents.do?key=2367",
+      "index": 24,
+      "observedAt": "2026-10-22T20:14:59.396643+00:00",
+      "status": 200,
+      "finalUrl": "https://www.songpa.go.kr/www/contents.do?key=2367",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "d10d876a20d624fb9d397e69bdc2e4eefe62b26dfae58d2c543e555089ac87e3",
+      "bytes": 488035
+    },
+    {
+      "url": "https://www.guro.go.kr/www/contents.do?key=2133",
+      "index": 25,
+      "observedAt": "2026-10-22T20:15:00.241619+00:00",
+      "status": 200,
+      "finalUrl": "https://www.guro.go.kr/www/contents.do?key=2133",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "f5c8fbb559088636f7b6b89145060ea6aa2869d3ce6a7bf7c6a444daa2d140cc",
+      "bytes": 462286
+    },
+    {
+      "url": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200271",
+      "index": 26,
+      "observedAt": "2026-10-22T20:15:00.848240+00:00",
+      "status": 200,
+      "finalUrl": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200271",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "bd979dec08c14ee333af037677cae582d4e5df48b838ba362291f0abc8b0b0aa",
+      "bytes": 167714
+    },
+    {
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1187&fileId=3068ffd5-3415-488f-b029-3e9ddf7f777e&fileSn=1666&type=A&upperNodeId=CTGRY1190",
+      "index": 27,
+      "observedAt": "2026-10-22T20:15:01.386320+00:00",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1187&fileId=3068ffd5-3415-488f-b029-3e9ddf7f777e&fileSn=1666&type=A&upperNodeId=CTGRY1190",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "ddfbbfc4643bfc20683b866ecef5011199e4b3fe937498c193367c42c395de4b",
+      "bytes": 543751
+    },
+    {
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1141&fileId=94338b87-5724-4a46-8b24-8c4fd048d185&fileSn=1081&type=A&upperNodeId=CTGRY1145",
+      "index": 28,
+      "observedAt": "2026-10-22T20:15:01.441152+00:00",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1141&fileId=94338b87-5724-4a46-8b24-8c4fd048d185&fileSn=1081&type=A&upperNodeId=CTGRY1145",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "ec4814d3e1d29c2871e48ca50ed5909921ee05f0abef543c92c0ce0f2bb3f2f0",
+      "bytes": 539773
+    }
+  ],
+  "retryFetches": [
+    {
+      "index": 3,
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=172",
+      "observedAt": "2026-10-22T20:16:36.063829+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 10,
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=169",
+      "observedAt": "2026-10-22T20:16:36.066016+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 12,
+      "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "observedAt": "2026-10-22T20:16:36.070369+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 17,
+      "url": "https://www.sb.go.kr/www/contents.do?key=5964",
+      "observedAt": "2026-10-22T20:16:36.071262+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 19,
+      "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=03&menuNo=600304",
+      "observedAt": "2026-10-22T20:16:36.074511+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "webObservations": {
+    "3": {
+      "observedAt": "2026-10-22T20:19:55+00:00",
+      "locator": "상세정보 (1) 동 유래 및 변천 101~109행·(2) 동네 지명 유래 111~115행·이용조건 118~120행",
+      "note": "웹 열람 자료는 last week 크롤링으로 표시된다. 직접 GET은 두 차례 503이며 직접 응답 해시는 확보하지 않았다."
+    },
+    "18": {
+      "observedAt": "2026-10-22T20:19:55+00:00",
+      "locator": "동명유래 > 석관동 1084~1091행·저작권정책 1233행·저작권 1242~1243행",
+      "note": "등록 원문 웹 열람은 today 크롤링으로 표시된다. 직접 GET은 두 차례 503이고 직접 응답 해시는 없다."
+    }
+  },
+  "transcriptionChecks": [
+    {
+      "passageId": "a9c8a3d3-bfae-47f8-8317-e385d4d65cc6",
+      "sourceHash": "f0882ecfa81f5f6cf2c86ac6d865d561d572a945b34bd440a08229c3800ddd08",
+      "normalizedExact": true
+    },
+    {
+      "passageId": "b5c93841-8add-4aea-993d-0c93183e4d27",
+      "sourceHash": "ddfbbfc4643bfc20683b866ecef5011199e4b3fe937498c193367c42c395de4b",
+      "normalizedExact": true
+    },
+    {
+      "passageId": "b5f9976e-eaa2-42ec-a534-92410f8f5634",
+      "sourceHash": "ec4814d3e1d29c2871e48ca50ed5909921ee05f0abef543c92c0ce0f2bb3f2f0",
+      "normalizedExact": true
+    }
+  ],
+  "pdfVerification": {
+    "url": "https://ecatalog.jungnang.go.kr/src/viewer/download.php?host=main&no=1&site=20260213_163819",
+    "bytes": 14342764,
+    "sha256": "dfab269833ed18d17ca6d8de310fba3840a48978b5400adf925165107d5b2442",
+    "pageCount": 330,
+    "pdfPage": 319,
+    "printedPage": 319,
+    "locator": "제17편 기타 > 1. 동명 유래(계속) > 묵동",
+    "renderedAndVisuallyChecked": true,
+    "fileTitle": "2025년 제37회 중랑통계연보-내지(최종).indd",
+    "pdfCreationMetadata": "2026-02-09T10:17:40Z",
+    "rights": "Existing unknown/storage 0/reuse 0 preserved; no file captured to production."
+  },
+  "gwangjinRightsObservation": "원문 콘텐츠 이용조건의 koglType 값은 공란이다. 공통 스크립트는 공란일 때 제4유형을 표시하는 기본 분기를 갖는다. 실행 화면이나 개별 배정값의 확정 검증으로 승격하지 않고 unknown/storage 0/reuse 0을 보존했다.",
+  "codeTests": "not rerun; data-only; 30 review inputs validated with existing validator",
+  "types": "not rerun; no application edits",
+  "build": "not rerun; no application edits",
+  "nextCursor": "/api/archive/task?view=passages&unreviewed=true&limit=30&after=",
+  "nextWork": "미검토 본문 15~30개 원문 대조. 보류 90개는 실제 근거 확보 시에만 해소. 본문 완료 기준 미달로 다음 단계로 이동하지 않음.",
+  "records": [
+    {
+      "passageId": "a9c8a3d3-bfae-47f8-8317-e385d4d65cc6",
+      "sourceId": "eee53341-5445-4b9d-9a8d-a968fda47113",
+      "versionId": "28fab240-4e5c-46bd-8561-574ddc63c7bc",
+      "sourceVersion": 1,
+      "label": "1976년 구매한 재단용 손칼",
+      "textKind": "transcription",
+      "fingerprint": "1acc00a91e2ea7e04f355126c4dd225116ad46fd5accfbf3b1874efac89ab1b0",
+      "reviewId": "c82663b4-4d53-4d6c-9e3a-187ef63961eb",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY328&fileId=H-TRNS-77025-331&fileSn=300&type=A&upperNodeId=CTGRY331",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『동대문시장; 불이 꺼지지 않는 패션아이콘』(2011), 223쪽 / 개별 내용 항목 공백 정규화 전사 일치",
+        "observedAt": "2026-10-22T20:14:44.510826+00:00",
+        "sourceHash": "f0882ecfa81f5f6cf2c86ac6d865d561d572a945b34bd440a08229c3800ddd08",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "박물관 개별 설명문과 손칼 전사는 공백 정규화 후 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 1976년 구매한 재단용 손칼와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1976년은 구매 연도이고 자료·책의 시기는 2011이다. 동대문 경력 40년을 2026년 기준으로 다시 계산하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "재단사·손칼에 관한 박물관 설명의 확인이며 개인 신원·현재 소유·현존 상태를 새로 확정하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "박물관 개별 설명문과 손칼 전사는 공백 정규화 후 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 원문에서 공공누리 제1유형 출처표시 조건을 다시 확인했다. 기존 KOGL1·권리 URL·보관 1·재사용 1을 유지하고 원사진·지도·신문·별도 자산의 허락을 추가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "개별 박물관 설명문의 동대문시장·이촌동·중곡동 맥락만 대조했다. 기존 빈 지역 연결을 유지하며 특정 재단점·피해지·노선·버스정류장 주소를 새로 연결하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "a9e6436f-4792-4014-8949-af0e0a4beda8",
+      "sourceId": "8cc2a4b0-e874-45b7-94b1-b106eb7576d6",
+      "versionId": "b3b28ca1-07b8-43b2-8402-fc4fe404f044",
+      "sourceVersion": 1,
+      "label": "인사동",
+      "textKind": "paraphrase",
+      "fingerprint": "7268050db50f9f04d7a16b60c17514ac0d810ab54fe936ccc76c7990dab322f7",
+      "reviewId": "b341abfa-6f70-4892-8703-37621b8bef1b",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%B8%EC%82%AC%EB%8F%99",
+        "sourceLocator": "서울 지명사전 > 법정동 > 인사동(仁寺洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:44.512039+00:00",
+        "sourceHash": "86f61a03f4d7476b0cee705dab81b333ce609d4da790fd20a64f703e17b30f5b",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "인사동 개별 본문의 관인방 인과 대사동 또는 사동 사의 합성 설명이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 인사동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 동명 제정 설명과 1936년 인사정·1946년 인사동 개칭을 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "옛 방과 마을 이름의 결합이라는 사전 설명에 귀속하며 다른 지명의 유래를 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "인사동 개별 본문의 관인방 인과 대사동 또는 사동 사의 합성 설명이 요약과 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 인사동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "aa5ec132-b54c-496e-a98c-213583ce3bd0",
+      "sourceId": "bb84b045-2854-4c8a-a7dc-89b7af66c724",
+      "versionId": "fa2e28c8-23c6-4759-a81d-4d5401c59761",
+      "sourceVersion": 1,
+      "label": "초동",
+      "textKind": "paraphrase",
+      "fingerprint": "7145e4c3fb7dc7ba98c73d1cdad3dfb5ce783d4c5b9ca57c0d7b37e1f1d7caed",
+      "reviewId": "914b80f9-3984-40e6-b2b8-3d81c3dbd049",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B4%88%EB%8F%99",
+        "sourceLocator": "법정동 명칭검색 «초동» > 초동(草洞) > 연혁 문단 / 본문 구간 (txt-box1)",
+        "observedAt": "2026-10-22T20:14:44.512989+00:00",
+        "sourceHash": "a45db6b38a8f321f9fb99f5e5d635950cae6b8128544ceed50147507642c0050",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "초동 개별 항목에서 초물전과 이엉·삼·칡, 약초정·1946년 초동 개칭을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 초동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 약초정과 1946.10.1 개칭을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "초물전의 초전동 약칭 설명을 유지한다. 함께 검색된 서초동의 서리풀·물길 어원은 초동 근거로 사용하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "초동 개별 항목에서 초물전과 이엉·삼·칡, 약초정·1946년 초동 개칭을 대조했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 초동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "ab724a4f-ac7b-4538-ab59-103e5ff98495",
+      "sourceId": "4961e16f-cd91-4f3f-8d4f-684f21c3766b",
+      "versionId": "94165c95-fe77-44cc-a351-768069fe60e6",
+      "sourceVersion": 1,
+      "label": "사간동",
+      "textKind": "paraphrase",
+      "fingerprint": "89bc468ad9094252c66b4c46c471d5577b30f431e379e9a9255dd8291d15e6b8",
+      "reviewId": "3bee0eec-f49a-40dd-9320-3c193ae75346",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=172",
+        "sourceLocator": "상세정보 (1) 동 유래 및 변천 101~109행·(2) 동네 지명 유래 111~115행·이용조건 118~120행",
+        "observedAt": "2026-10-22T20:19:55+00:00",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "사간동 웹 원문에서 사간원 관련 1946년 명명과 앞선 간동·간정 명칭을 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 사간동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1914년 간동·1936년 간정·1946.10.1 사간동 개칭을 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "사간원 관련 설명을 원문에 귀속하며 사간원 유적의 현재 번지·건물 동일성을 확정하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "사간동 웹 원문에서 사간원 관련 1946년 명명과 앞선 간동·간정 명칭을 확인했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다. 웹 열람 자료는 last week 크롤링으로 표시된다. 직접 GET은 두 차례 503이며 직접 응답 해시는 확보하지 않았다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "웹 열람의 개별 페이지에는 제1유형 출처표시 조건이 보인다. last week 크롤링 자료이며 직접 응답은 503이다. 새 이용권한은 부여하지 않고 기존 unknown·보관 0·재사용 0을 그대로 유지한다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 사간동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "ab7ef4c8-eb60-4c21-b7e1-b771e00c0d93",
+      "sourceId": "6e7b78ed-f8f7-421c-8688-e66ee1606ca9",
+      "versionId": "ff864acd-1acd-4c4d-a200-35a36b694da6",
+      "sourceVersion": 1,
+      "label": "의주로1가",
+      "textKind": "paraphrase",
+      "fingerprint": "f936b23589ebe916f357f38d4bb4afe51587285231f36cef88276fba5a39c77e",
+      "reviewId": "e6cc687d-25af-448c-bf14-c00985af3989",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%98%EC%A3%BC%EB%A1%9C1%EA%B0%80",
+        "sourceLocator": "법정동 명칭검색 «의주로1가» > 의주로1가(義州路1街) > 연혁 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:44.516024+00:00",
+        "sourceHash": "163d2a26dbbaef5e14c2f69c0692d8bbf7b67edf84229bb923824ea185da0eed",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "의주로1가 본문의 의주통1정목·1946년 개칭·1975년 중구 관할 변경이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 의주로1가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1946.10.1 서대문구 의주로1가 개칭과 1975.10.1 중구 관할 변경을 분리했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "의주로 공통 어원과 1가의 개별 연혁을 구분했다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "의주로1가 본문의 의주통1정목·1946년 개칭·1975년 중구 관할 변경이 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 의주로1가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "abd86576-98ec-4b1d-913f-43f4910942ec",
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+      "sourceVersion": 1,
+      "label": "대흥동",
+      "textKind": "paraphrase",
+      "fingerprint": "b4441645456aef989f808d7bd1dc3e7b3eaf6351ed0f869890a98fdda4f1743f",
+      "reviewId": "249263ac-029c-4a63-a6cf-e317d24baaa6",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.mapo.go.kr/site/culture/content/culture0302",
+        "sourceLocator": "동이름의 유래 > 대흥동",
+        "observedAt": "2026-10-22T20:14:44.518342+00:00",
+        "sourceHash": "6123b204285f4dd4dc6a2c9c3fd9c9d42dc14664b0a828930affab79d3f9a402",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "대흥동 개별 문단이 옹기 생산 마을과 동막역·용산선에 따른 변화를 설명함을 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 대흥동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1929년 용산선 설명은 제공기관 진술이며 선택 요약에는 연도가 없다. 철도 개통일을 독립 확인한 것으로 기록하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "독막·독마을에서 동막으로의 설명을 구청에 귀속하며 다른 동의 옹기·풍수 이야기를 혼합하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "대흥동 개별 문단이 옹기 생산 마을과 동막역·용산선에 따른 변화를 설명함을 확인했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 대흥동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "aca5efaa-bd21-46b7-9c23-e16b10b0494f",
+      "sourceId": "d03caf78-8a4e-4968-9564-6ba9bf16c693",
+      "versionId": "83626c32-d81a-43f2-8613-5b36b8358cf3",
+      "sourceVersion": 1,
+      "label": "무악동",
+      "textKind": "paraphrase",
+      "fingerprint": "bb7472c42bb73ceed35fb15910ec6784dbcaf40cb7696e00a6227c1ad6d3b10c",
+      "reviewId": "e68f865e-d5cd-4796-b465-afd455513c18",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AC%B4%EC%95%85%EB%8F%99",
+        "sourceLocator": "서울지명사전 > 법정동 > 무악동(毋岳洞) > 동명 유래·행정구역 연혁 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:48.896840+00:00",
+        "sourceHash": "852bc53b4cde5a380475c4d59421236ba6abc5f540181bf7b906125f7e030ff2",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "무악현 아래 마을이라는 유래와 1975년 현저동 일부 편입·무악동 개칭이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 무악동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1975.10.1 의주로 동쪽 일부의 종로구 편입과 명칭 변경을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "현저동 전체가 같은 명칭으로 바뀌었다고 확대하지 않고 원문의 일부 지역 한정을 유지했다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "무악현 아래 마을이라는 유래와 1975년 현저동 일부 편입·무악동 개칭이 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 무악동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "ad23b016-b72e-4b0a-af97-43e279108b8a",
+      "sourceId": "18b33499-c01e-4b34-9407-b2f487227ffe",
+      "versionId": "a89cba9f-e041-47db-8b78-a658a8b21973",
+      "sourceVersion": 1,
+      "label": "압구정동",
+      "textKind": "paraphrase",
+      "fingerprint": "9d97458547c25b32298f7d5b3f512342df7d4cbe69a6ba852e99797abc29d6bb",
+      "reviewId": "214d6f27-e04a-4d00-85a8-b0e631fdd166",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%95%95%EA%B5%AC%EC%A0%95%EB%8F%99",
+        "sourceLocator": "법정동 분류 > 압구정동(狎鷗亭洞) > 동명 유래·행정 변천 본문 / 첫 번째 법정동 항목 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:48.944881+00:00",
+        "sourceHash": "0c96ad550ca24b62268f6d237b04241a70b1e1caedfaca8a40c1474a7653af2a",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "첫 번째 법정동 압구정동 항목에서 한명회 정자 유래와 1963년 서울 편입·개칭을 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 압구정동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1963년 서울 편입과 1975년 강남구 소속을 구분하며 두 번째 행정동 항목의 1980년 분동과 섞지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "정자·한명회 설명을 사전의 진술로 구분한다. 두 번째 항목의 호·고사와 행정동 경계를 새 사실로 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "첫 번째 법정동 압구정동 항목에서 한명회 정자 유래와 1963년 서울 편입·개칭을 확인했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 압구정동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "ae250715-98ba-4800-9437-67d526e5537a",
+      "sourceId": "26e60802-9995-421d-8039-563e135960cb",
+      "versionId": "64409262-ec5c-4541-aa0a-22497a7a9df8",
+      "sourceVersion": 1,
+      "label": "한강로3가",
+      "textKind": "paraphrase",
+      "fingerprint": "0219304b283596ed7ccd53abfc10862d2165dd90bc483f725834033f228e45a5",
+      "reviewId": "c11b4626-1af9-4927-af94-88c24518d07a",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%95%9C%EA%B0%95%EB%A1%9C3%EA%B0%80",
+        "sourceLocator": "서울지명사전 > 법정동 > 한강로3가(漢江路3街) > 1914년 병합·말미 한강통 분할과 개칭 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:49.118562+00:00",
+        "sourceHash": "b82ae9ea4640d1c357e9381c515b01d8f89820c7a0b7af42a953b7c61be608db",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "한강로3가 개별 본문의 사촌리·원흥동·이태원동 일부 병합과 한강통 분할·1946년 개칭이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 한강로3가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 병합·1943년 한강통 분할·1946.10.1 한강로3가 개칭을 서로 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "옛 이름과 광역 지역의 맥락을 현재 이촌동·개별 필지의 동일성으로 확대하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "한강로3가 개별 본문의 사촌리·원흥동·이태원동 일부 병합과 한강통 분할·1946년 개칭이 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 한강로3가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "ae8c2297-416b-4618-8a79-b7b9cedc49e5",
+      "sourceId": "f5a484c2-f650-4a94-8e0e-63aa792c81ac",
+      "versionId": "0cfa8c7b-0e40-4cd8-916c-befd21f348ca",
+      "sourceVersion": 1,
+      "label": "삼선동2가",
+      "textKind": "paraphrase",
+      "fingerprint": "305b9754e0487cc9a77416458c7de17200b241e9c6a9499f9852025654a134ed",
+      "reviewId": "f0ea560c-8d32-4e59-9eff-5e47a62f2e7b",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%82%BC%EC%84%A0%EB%8F%992%EA%B0%80",
+        "sourceLocator": "서울지명사전 > 법정동 > 삼선동2가(三仙洞2街) > 말미 법정동 신설·삼선동2가 구분 위치 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:49.525434+00:00",
+        "sourceHash": "46639050e3a33725395aea3a87bffd5c96df099bc1ee4c05de2f3d969682d186",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "삼선동2가 항목 말미에서 1963년 법정동 신설과 삼선동1가 동쪽 한성대학교 중심 지역의 구분을 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 삼선동2가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1955년 행정동회 설치와 1963.1.1 법정동 신설을 구별한다. 한성대학교라는 위치 설명을 1963년 당시의 대학 명칭·설립 사건으로 읽지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "삼선평 공통 명명 설명과 2가 개별 위치를 구분했다. 신선 전승을 새로 사실화하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "삼선동2가 항목 말미에서 1963년 법정동 신설과 삼선동1가 동쪽 한성대학교 중심 지역의 구분을 확인했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 삼선동2가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "ae97e670-53ff-4641-9311-05ad0ff1cfed",
+      "sourceId": "07f04f42-8d4e-4092-96da-b8c49ad4fe5a",
+      "versionId": "ac5ce156-3cf6-49ad-a8aa-497fa9afe649",
+      "sourceVersion": 1,
+      "label": "서린동",
+      "textKind": "quotation",
+      "fingerprint": "7da7c743e139bf38c682a80854713a65f905644bbacf6065004dd384702f0e11",
+      "reviewId": "e2525d02-5562-4e7d-8e09-11b5034f03e4",
+      "revision": 1,
+      "status": "needs_review",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=169",
+        "sourceLocator": "상세정보 > (1) 동 유래 및 변천 > 첫 문장 / 등록 원문 접근 실패",
+        "observedAt": "2026-10-22T20:16:36.066016+00:00",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "서린동 등록 원문의 직접 GET 두 번은 503이고 웹 열람 두 번은 502여서 인용문과 이용조건을 실제 대조하지 못했다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "서린동 등록 원문의 직접 GET 두 번은 503이고 웹 열람 두 번은 502여서 인용문과 이용조건을 실제 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "서린동 등록 원문의 직접 GET 두 번은 503이고 웹 열람 두 번은 502여서 인용문과 이용조건을 실제 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "서린동 등록 원문의 직접 GET 두 번은 503이고 웹 열람 두 번은 502여서 인용문과 이용조건을 실제 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "서린동 등록 원문의 직접 GET 두 번은 503이고 웹 열람 두 번은 502여서 인용문과 이용조건을 실제 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "서린동 등록 원문의 직접 GET 두 번은 503이고 웹 열람 두 번은 502여서 인용문과 이용조건을 실제 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "서린동 등록 원문의 직접 GET 두 번은 503이고 웹 열람 두 번은 502여서 인용문과 이용조건을 실제 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "aeae102b-d626-47cb-a888-443319d202c3",
+      "sourceId": "8dd2b05f-002e-4e8e-9767-1e8df4b2a49f",
+      "versionId": "ee49f5bb-5ee8-483b-8c9a-2dc303aa93f0",
+      "sourceVersion": 1,
+      "label": "회현동3가",
+      "textKind": "paraphrase",
+      "fingerprint": "a37643417b99d671812fb959d83f552aada46e04eba536120b8b75b168995a24",
+      "reviewId": "0bc2d9e1-8126-4e6b-9f61-68ae8c675233",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%9A%8C%ED%98%84%EB%8F%993%EA%B0%80",
+        "sourceLocator": "법정동 명칭검색 «회현동3가» > 회현동3가(會賢洞3街) > 연혁 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:50.867672+00:00",
+        "sourceHash": "38c0e7c311dc17386d59d3d5e5dd80b1ccdec5fae67b7340e1d995f95e30123b",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "회현동3가 항목의 1914년 낙동·남산동 일부 병합과 욱정3정목·1946년 개칭이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 회현동3가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914.4.1 병합과 1946.10.1 회현동3가 개칭을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "공통 회현동 유래와 3가 개별 연혁을 구분하며 전체 동 이야기를 3가 독자 이력으로 확대하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "회현동3가 항목의 1914년 낙동·남산동 일부 병합과 욱정3정목·1946년 개칭이 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 회현동3가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "aef5f9f6-159f-4fb4-a9d2-415ab66f7798",
+      "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+      "versionId": "c6a6f322-e39b-4565-9113-f4c11c57b4be",
+      "sourceVersion": 1,
+      "label": "신창동",
+      "textKind": "paraphrase",
+      "fingerprint": "b80d2ae43fcbdd0029d23eba4fb2b6f770bbaba99065c937a3fe0f212c5e32ef",
+      "reviewId": "f917b61e-c5b2-4972-8043-d8cc24a2a7fb",
+      "revision": 1,
+      "status": "needs_review",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+        "sourceLocator": "동유래 > 신창동 / 등록 원문 접근 실패",
+        "observedAt": "2026-10-22T20:16:36.070369+00:00",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "신창동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 본문·이용조건을 대조하지 못했다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "신창동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 본문·이용조건을 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "신창동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 본문·이용조건을 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "신창동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 본문·이용조건을 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "신창동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 본문·이용조건을 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "신창동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 본문·이용조건을 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "신창동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 본문·이용조건을 대조하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "af0f6c80-c797-4a87-b051-191596f5bdbe",
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+      "sourceVersion": 1,
+      "label": "합정동",
+      "textKind": "paraphrase",
+      "fingerprint": "728a4b905dd556fa0c9fd685bdf47863bc90dde5f615bd0575f7bca52f718610",
+      "reviewId": "9f882ac4-e9ee-4d8e-8da6-31dec716d5de",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.mapo.go.kr/site/culture/content/culture0302",
+        "sourceLocator": "동이름의 유래 > 합정동",
+        "observedAt": "2026-10-22T20:14:44.518342+00:00",
+        "sourceHash": "6123b204285f4dd4dc6a2c9c3fd9c9d42dc14664b0a828930affab79d3f9a402",
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "합정동 문단의 조개우물 유래설을 확인했다. 요약이 남긴 위치·소멸 시기 추가 대조의 필요성을 보존한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 합정동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문은 강변도로가 생기며 없어졌다고만 하므로 소멸 연도를 특정하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "조개껍질·망나니 우물 이야기를 구청의 유래 설명으로 귀속하고 확정한 고고학적 사실로 만들지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "합정동 문단의 조개우물 유래설을 확인했다. 요약이 남긴 위치·소멸 시기 추가 대조의 필요성을 보존한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "원문이 말하는 절두산순교기념관 근방은 대략적 동네 맥락이다. 현재 우물의 정확한 위치·필지·소멸 일자를 새로 특정하지 않으며 추가 대조 안내를 보존한다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "af711f95-3a86-46c5-a965-f93d9068a07d",
+      "sourceId": "07e9f208-942f-49ba-8d93-74baa2600f87",
+      "versionId": "8bf0902f-cf4e-4345-bc06-b651236663f2",
+      "sourceVersion": 1,
+      "label": "상도1동",
+      "textKind": "paraphrase",
+      "fingerprint": "0b14608199820141226eba12d4d22313d1a9977919f8f4438271b5522c06b543",
+      "reviewId": "6383676f-6356-40a9-a4d3-b3a35d711a6f",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201225",
+        "sourceLocator": "행정정보 > 구정운영 > 행정구역 > 연혁 > 1980.4.1. 행(9개 법정동 명단)",
+        "observedAt": "2026-10-22T20:14:52.971796+00:00",
+        "sourceHash": "9159fb95cdebb82a59fcb7df3da525d5f86e2749892d4e5ae604fbdcd9ae5b23",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "동작구 연혁의 1980.4.1 행에서 상도제1동과 상도동이 9개 법정동으로 구별되어 열거됨을 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 상도1동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "대통령령 제9630호의 1979.9.26 공포와 연혁 행의 1980.4.1 동작구 신설을 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문의 상도제1동은 기존 공식 명칭 상도1동 연결 맥락으로 보존하며 행정동 통합 설명으로 바꾸지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "동작구 연혁의 1980.4.1 행에서 상도제1동과 상도동이 9개 법정동으로 구별되어 열거됨을 확인했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "1980.4.1 행의 상도제1동·상도동 법정동 구별과 기존 dong-동작구-상도1동 연결을 유지한다. 행정동 상도1동의 통합이나 현재 경계 검증으로 확대하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "af7c0fbd-6146-4035-a873-3fc3302eabeb",
+      "sourceId": "c1c1ddb5-faf7-40aa-8bc8-236853097a79",
+      "versionId": "6978b790-c415-4ff4-aee2-0d15963178f9",
+      "sourceVersion": 1,
+      "label": "남산동1가",
+      "textKind": "paraphrase",
+      "fingerprint": "db4d2bbbc44f239ad74e654cd52b8e64fe168f541ef4cbab2600d00713eb305e",
+      "reviewId": "3fa1844d-a3b2-4131-aa07-2691a8d2099c",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%82%A8%EC%82%B0%EB%8F%991%EA%B0%80",
+        "sourceLocator": "법정동 명칭검색 «남산동1가» > 남산동1가(南山洞1街) > 연혁 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:53.000934+00:00",
+        "sourceHash": "7c0086f32bccf5b6ada2f2c6024d22a2514313fdf588d40c5f5b49248e94bbfb",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "남산동1가 항목의 1914년 남산동 세 구역 분리·서쪽 남산정1정목과 1946년 개칭이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 남산동1가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 구역 획정과 1946.10.1 남산동1가 개칭을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "도입부의 남산 기슭 방향 설명은 선택 요약에 없으며 이를 현재 지형·좌표 검증으로 승격하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "남산동1가 항목의 1914년 남산동 세 구역 분리·서쪽 남산정1정목과 1946년 개칭이 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 남산동1가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "afae44d9-dc6a-4b16-a9d9-ecf3442ffecb",
+      "sourceId": "b6839001-bbcf-435f-bdf2-2c9f65e8f3f8",
+      "versionId": "c06be598-984c-492b-a823-161f26bcfd72",
+      "sourceVersion": 1,
+      "label": "충현동",
+      "textKind": "paraphrase",
+      "fingerprint": "9fc2b031efd6c8dd7addf7adc7bed3a337062c81c618ae3122f82f6200a45660",
+      "reviewId": "34b7c561-8c86-4e9e-a6c5-0d1e8818bcb1",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.sdm.go.kr/wesdm/history/origin.do",
+        "sourceLocator": "동명 유래 > 충현동",
+        "observedAt": "2026-10-22T20:14:53.074443+00:00",
+        "sourceHash": "cbd04a4a1d279071436543596a76149e6a76a8b8ecf1055db1da45e5a9ed9c38",
+        "classification": "factual",
+        "spatialScope": "district",
+        "scopeNote": "기존 자치구 맥락 범위를 유지한 행정동 설명의 원문 대조이다. 세부 법정동·경계·주소·건물·부지 동일성이나 원문·파일 이용허락을 새로 확정하지 않는다.",
+        "summary": "충현동 개별 문단에서 2008년 북아현3동과 충정로동을 통합한 행정동임을 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 충현동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "2008.5.6 행정동 통합·명칭 변경과 1975년 충정로2·3가 관할 설명을 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "충현동을 세부 법정동 명칭으로 바꾸거나 서대문구 전체가 2008년에 신설된 것처럼 확대하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "충현동 개별 문단에서 2008년 북아현3동과 충정로동을 통합한 행정동임을 확인했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 원문에서 공공누리 제1유형 출처표시 조건을 다시 확인했다. 기존 KOGL1·권리 URL·보관 1·재사용 1을 유지하고 원사진·지도·신문·별도 자산의 허락을 추가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "기존 gu-서대문구의 district_context를 유지한다. 충현동 행정동 설명을 구 전체의 신설 역사나 세부 법정동의 명칭 변경으로 확대하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b01bcdbd-3928-4556-85a6-d39b9fc0f1ea",
+      "sourceId": "c3c9ee33-f441-4b67-8964-8dcfaf26e58a",
+      "versionId": "d107f652-a0e5-4196-acbf-e61c8902e992",
+      "sourceVersion": 1,
+      "label": "삼선동4가",
+      "textKind": "paraphrase",
+      "fingerprint": "8729778c001349130e9db271deee310efcd38d18f82e7c3299ee0a0ef226f322",
+      "reviewId": "f1057c20-b2e2-4d44-83eb-860b2ba94145",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%82%BC%EC%84%A0%EB%8F%994%EA%B0%80",
+        "sourceLocator": "서울지명사전 > 법정동 > 삼선동4가(三仙洞4街) > 말미 법정동 신설·삼선동4가 구분 위치 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:53.309112+00:00",
+        "sourceHash": "49e10f829add1467d8af14a58c180aab7d6719f3437658083ef3a40befb2dbec",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "삼선동4가 항목 말미의 성북천 남쪽·삼선동3·5가 북쪽 구분과 1963년 법정동 신설 설명이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 삼선동4가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1955년 행정동회와 1963.1.1 법정동 신설을 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "삼선동 공통 어원과 4가 개별 위치 설명을 구별해 전승을 새로 확정하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "삼선동4가 항목 말미의 성북천 남쪽·삼선동3·5가 북쪽 구분과 1963년 법정동 신설 설명이 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 삼선동4가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b1009dc0-c9a9-4c48-89fc-258e3af65dc3",
+      "sourceId": "ceb355e1-3e2e-41cb-8833-625ca7f9390b",
+      "versionId": "ad8c5d0a-5b6d-495c-bed8-2dcb65f9e3b0",
+      "sourceVersion": 1,
+      "label": "석관동",
+      "textKind": "paraphrase",
+      "fingerprint": "1ff4133618df0d7360180cb8a9c9e094a778ea994afb9cbf019dcbdfdf3920df",
+      "reviewId": "34dcc170-8db9-4fd6-b7e3-2254c7668408",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.sb.go.kr/www/contents.do?key=5964",
+        "sourceLocator": "동명유래 > 석관동 1084~1091행·저작권정책 1233행·저작권 1242~1243행",
+        "observedAt": "2026-10-22T20:19:55+00:00",
+        "sourceHash": null,
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "성북구 웹 원문 석관동 항목은 돌곶이라는 이름을 한자로 옮겨 석관이 되었다고 설명한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 석관동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 어원 문장에 명명일은 없으므로 경종 능 관련 설명을 명명 시행일로 대체하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "돌을 꽂은 듯한 형세·능말 이야기는 원문의 유래 설명으로 읽고 지질·현존 능역의 독립 검증으로 승격하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "성북구 웹 원문 석관동 항목은 돌곶이라는 이름을 한자로 옮겨 석관이 되었다고 설명한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다. 등록 원문 웹 열람은 today 크롤링으로 표시된다. 직접 GET은 두 차례 503이고 직접 응답 해시는 없다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "웹 열람 원문의 저작권정책 링크와 All Rights Reserved 표기를 확인했다. 공공누리 지정은 관측하지 못했으며 기존 unknown·보관 0·재사용 0을 보존한다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 석관동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b1041960-2f7e-4527-a287-15e78c1edeef",
+      "sourceId": "25a39030-2be8-43fc-8dad-8c1d30db20b8",
+      "versionId": "cf818e9c-a831-439f-a354-630f89c0a3b2",
+      "sourceVersion": 1,
+      "label": "봉래동1가",
+      "textKind": "paraphrase",
+      "fingerprint": "a8f722257ba6c9d351da0c1986ece03c44d1b8b45d7e4d261b323484641b3b85",
+      "reviewId": "a99c6374-f4ce-425e-8767-19d7c122c4f6",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%B4%89%EB%9E%98%EB%8F%991%EA%B0%80",
+        "sourceLocator": "법정동 명칭검색 «봉래동1가» > 봉래동1가(蓬萊洞1街) > 연혁 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:56.062080+00:00",
+        "sourceHash": "bc5851993ab585aec72a04c3dfc13aee1d3bf5e3014aa03c7a93dd70d7ffdbd9",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "봉래동1가의 1914년 병합 대상과 봉래정1정목·1946년 봉래동1가 개칭이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 봉래동1가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914.4.1 병합과 1946.10.1 개칭을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문 도입의 일본 거류민 시각에 따른 봉래 명명 해석은 선택 요약의 병합 연혁과 분리하며 새 설명으로 덧붙이지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "봉래동1가의 1914년 병합 대상과 봉래정1정목·1946년 봉래동1가 개칭이 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 봉래동1가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b3a43534-b224-43e2-9bf4-4bbc24d0b55e",
+      "sourceId": "b5dace38-1dc2-4446-96c1-41105684ab7c",
+      "versionId": "2be4cc79-56f7-4d63-ad3c-0192ec6000c3",
+      "sourceVersion": 1,
+      "label": "동자동",
+      "textKind": "paraphrase",
+      "fingerprint": "f08987750779ad65c120a2661eab1bb25cb270ac773172bb23f31ce2979006ac",
+      "reviewId": "cbc09afb-efa9-4648-9f97-81c2f3c2735f",
+      "revision": 1,
+      "status": "needs_review",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=03&menuNo=600304",
+        "sourceLocator": "동 유래 > 동자동 / 등록 원문 접근 실패",
+        "observedAt": "2026-10-22T20:16:36.074511+00:00",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "동자동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 불확실한 유래 설명을 직접 확인하지 못했다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "동자동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 불확실한 유래 설명을 직접 확인하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "동자동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 불확실한 유래 설명을 직접 확인하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "동자동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 불확실한 유래 설명을 직접 확인하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "동자동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 불확실한 유래 설명을 직접 확인하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "동자동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 불확실한 유래 설명을 직접 확인하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "동자동 등록 원문의 직접 GET 두 차례는 503이고 웹 열람 두 차례도 실패해 불확실한 유래 설명을 직접 확인하지 못했다. 해당 항목을 실제로 대조하지 못했다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b3aaf0a4-7b95-4c5b-a038-b7dfa447f4ee",
+      "sourceId": "590916c3-6fbe-447c-b0fd-0f82cd36d98d",
+      "versionId": "6a39577a-8d72-4b18-be98-1c0a34230b47",
+      "sourceVersion": 1,
+      "label": "묵동",
+      "textKind": "paraphrase",
+      "fingerprint": "7fee33d9b6311c8b43c92046e6d900fc6221c6b9629381bec6b54bf1aa2bcb0d",
+      "reviewId": "5d603ab0-5a98-42e4-8945-d1d25c9bf41a",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://ecatalog.jungnang.go.kr/src/viewer/download.php?host=main&no=1&site=20260213_163819",
+        "sourceLocator": "2025 제37회 중랑통계연보 > 제17편 기타 > 1. 동명 유래(계속) > 묵동 / PDF 319쪽 = 인쇄 319쪽, 첫 문단·두 설 및 1963.1.1 편입 문장 / 렌더링 대조 완료",
+        "observedAt": "2026-10-22T20:14:56.809440+00:00",
+        "sourceHash": "dfab269833ed18d17ca6d8de310fba3840a48978b5400adf925165107d5b2442",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "중랑통계연보 PDF 319쪽 묵동 문단에서 먹 제조설·학문 비기설과 1963년 서울 편입을 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 묵동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "PDF 319쪽과 인쇄 319쪽이 일치한다. 2025년 통계연보 표제·2026년 PDF 생성 메타데이터·1963.1.1 편입은 서로 다른 시점이다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "먹 제조와 학문에 관한 두 설을 그대로 구분하며 한쪽을 확정하지 않는다. 법률 제1172호 원장을 새로 읽은 것으로 표시하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "중랑통계연보 PDF 319쪽 묵동 문단에서 먹 제조설·학문 비기설과 1963년 서울 편입을 확인했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "실제 PDF 해당 쪽과 파일의 이용조건 표기를 확인하며 기존 unknown·권리 URL 공란·보관 0·재사용 0을 유지한다. 통계연보 공개 다운로드를 원파일 보관·변형 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 묵동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b404c4df-ecb0-44d3-a245-e520c41db8b7",
+      "sourceId": "c4f996e7-36dd-409f-9895-41f0e5d04048",
+      "versionId": "ef3abb42-69d5-4717-9783-b291db257f76",
+      "sourceVersion": 1,
+      "label": "종로2가",
+      "textKind": "paraphrase",
+      "fingerprint": "21734f9114f0f6d47a51132226255f81a30512fed54997c1f87a2558b67136f8",
+      "reviewId": "a5dc5776-ef40-4b25-847f-13c1c2f1f6ce",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A2%85%EB%A1%9C2%EA%B0%80",
+        "sourceLocator": "서울 지명사전 > 법정동 > 종로2가(鐘路2街) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:57.550723+00:00",
+        "sourceHash": "48a9519898be6e48feaff3a90d9dfde7e40ab46039676c86e732403ade2c4fd2",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "종로2가 본문이 종루에서 비롯된 거리의 두 번째 구획과 경행방·장통방·견평방 일부를 설명한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 종로2가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "조선 방·계의 변화, 1914년 종로2정목과 1946년 종로2가 개칭을 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "거리와 옛 방의 명명 맥락을 현재 행정경계·개별 부지 동일성으로 확대하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "종로2가 본문이 종루에서 비롯된 거리의 두 번째 구획과 경행방·장통방·견평방 일부를 설명한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 종로2가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b43ba38d-0298-4b66-bff2-c25d1ae598d2",
+      "sourceId": "86a1b599-f181-4111-aac7-eca9fcd5af19",
+      "versionId": "c30847e2-49d9-480c-b426-a4ef89e20c5e",
+      "sourceVersion": 1,
+      "label": "안암동3가",
+      "textKind": "paraphrase",
+      "fingerprint": "ebd325de5fc6286a71737e11afb688cfded3f10aa41de195a62279505682ad31",
+      "reviewId": "903b6e6c-13a8-435d-9ddb-e5325cd9c51b",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%95%88%EC%95%94%EB%8F%993%EA%B0%80",
+        "sourceLocator": "서울지명사전 > 법정동 > 안암동3가(安岩洞3街) > 첫 문단 앉일바위·1949년 분할 문장 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:58.757601+00:00",
+        "sourceHash": "2696e7b9446544caeae0737b3d0a959bef0a737b2d0f221d4a226113fed397da",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "안암동3가 항목에서 앉일바위 유래와 1949년 성북구 신설 때 안암동 분할 설명을 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 안암동3가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1949.8.13 분할을 대조하고 예전 대광아파트 단지 위치 설명을 2026년 현존 상태로 갱신하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "앉일바위의 크기·쉬는 인원·명명 설명은 사전의 유래로 귀속하며 바위 실측이나 현재 소재를 확정하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "안암동3가 항목에서 앉일바위 유래와 1949년 성북구 신설 때 안암동 분할 설명을 확인했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 안암동3가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b4d1ce78-7d9a-468b-bb38-ce4cfb2c7559",
+      "sourceId": "778bc511-528f-441c-a526-af5599b7ee7e",
+      "versionId": "e5020b3d-3fe8-4022-b398-dbc44030b71b",
+      "sourceVersion": 1,
+      "label": "남대문로1가",
+      "textKind": "paraphrase",
+      "fingerprint": "b24b29c2a445e9048e964b31a237f22bbeea542da917a3b32df9388f00d4b08f",
+      "reviewId": "9b7aa85d-6e8b-4df2-8060-82bf9629d013",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%82%A8%EB%8C%80%EB%AC%B8%EB%A1%9C1%EA%B0%80",
+        "sourceLocator": "법정동 명칭검색 «남대문로1가» > 남대문로1가(南大門路1街) > 연혁 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T20:14:58.770362+00:00",
+        "sourceHash": "1dd8b6f1d6fe4574ab4d315388cb60a094586d72ea8bcae0a78dce2d8d97ce82",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "남대문로1가 항목의 1914년 옛 동 일부 병합·남대문통1정목과 1946년 개칭이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 남대문로1가와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914.4.1 획정과 1946.10.1 남대문로1가 개칭을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문 첫 문장의 남대문1가 약칭과 표제 남대문로1가를 구별하며 새 지역 ID를 만들지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "남대문로1가 항목의 1914년 옛 동 일부 병합·남대문통1정목과 1946년 개칭이 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 남대문로1가 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b4fd8e83-90df-4e9d-80e2-6855f9fdb362",
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "versionId": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+      "sourceVersion": 1,
+      "label": "잠실동",
+      "textKind": "paraphrase",
+      "fingerprint": "df5e6b716dba01f14c7fd1dd8237aa296caca75ce433e104975bc2e5f89f805d",
+      "reviewId": "5c101a2d-10bb-484b-a9bc-cc99067cf2bf",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.songpa.go.kr/www/contents.do?key=2367",
+        "sourceLocator": "동명 유래 > 잠실동",
+        "observedAt": "2026-10-22T20:14:59.396643+00:00",
+        "sourceHash": "d10d876a20d624fb9d397e69bdc2e4eefe62b26dfae58d2c543e555089ac87e3",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "잠실동 개별 문단에서 조선의 잠실도회와 1971년 물막이 공사에 따른 연육 설명을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 잠실동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1930년대 뽕나무·1945년 이후 채소밭·1971년 물막이 공사를 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "같은 원문의 부리도·반도 두 설은 선택 요약에 없으며 잠실동 전체의 현재 지형으로 확정하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "잠실동 개별 문단에서 조선의 잠실도회와 1971년 물막이 공사에 따른 연육 설명을 대조했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "송파구 페이지는 공공누리 표기 지정안됨을 표시한다. 일반 아이콘을 개별 허락으로 읽지 않고 기존 unknown·보관 0·재사용 0을 보존한다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 잠실동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b55af348-6d87-4651-a103-851b6c1652cf",
+      "sourceId": "c9f216ae-f28f-4f21-8462-451a6c50eb97",
+      "versionId": "8d587cc4-6d38-4cda-980e-056c6a8e912e",
+      "sourceVersion": 1,
+      "label": "천왕동",
+      "textKind": "paraphrase",
+      "fingerprint": "5f588529a2a4781e75b34572f7c29d569870094c796f5e18e40f1ad1ba910877",
+      "reviewId": "056213e0-c099-4fde-bec0-e3faa7e6d583",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2133",
+        "sourceLocator": "연혁 및 동명의 유래 > 천왕동",
+        "observedAt": "2026-10-22T20:15:00.241619+00:00",
+        "sourceHash": "f5c8fbb559088636f7b6b89145060ea6aa2869d3ce6a7bf7c6a444daa2d140cc",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "천왕동 본문에 천왕사 아래 마을이라는 어원과 1963년 서울 편입 설명이 있다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 천왕동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1963.1.1 서울 편입과 1968년 출장소 폐지·1980년 구로구 관할을 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "절 아래 마을이라는 원문의 유래 설명을 사찰 유구·현재 사찰 위치의 독립 검증으로 확대하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "천왕동 본문에 천왕사 아래 마을이라는 어원과 1963년 서울 편입 설명이 있다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 천왕동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b57c08e3-c9ba-467c-a50d-4e6cdbfa98de",
+      "sourceId": "53f81f18-f030-4d51-90de-29e8019f0879",
+      "versionId": "3b6b99e3-0cac-48aa-95df-7c54a67ed1e8",
+      "sourceVersion": 1,
+      "label": "구의동",
+      "textKind": "paraphrase",
+      "fingerprint": "3d56ed86bf523efdd57f1ba74901ba0d1c6c3effd1ddbe1b8eb6a6a987ea3912",
+      "reviewId": "d79270ff-fd0e-4e57-96e1-7dc689d627a0",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200271",
+        "sourceLocator": "동명유래 > 구의동",
+        "observedAt": "2026-10-22T20:15:00.848240+00:00",
+        "sourceHash": "bd979dec08c14ee333af037677cae582d4e5df48b838ba362291f0abc8b0b0aa",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "광진구 구의동 개별 문단에서 구정동의 구와 산의동의 의를 취한 합성 설명을 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 구의동와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택한 합성명 설명에는 특정 명명 연도가 없어 연도를 추가하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "구정동·산의동을 현존 법정동으로 새로 연결하지 않고 옛 자연촌락 이름의 조합으로 유지했다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "광진구 구의동 개별 문단에서 구정동의 구와 산의동의 의를 취한 합성 설명을 확인했다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 이용허락을 확인하지 못한 기존 unknown·권리 URL 공란·보관 0·재사용 0을 보존한다. 기관명·일반 저작권 표기나 다른 간행물의 조건을 개별 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 구의동 개별 표제·문단과 기존 지역 분류를 대조했다. 현재 경계·필지·건물 동일성은 미검증인 동네 맥락이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b5c93841-8add-4aea-993d-0c93183e4d27",
+      "sourceId": "79d2cf88-13ce-4430-8701-7182b6776745",
+      "versionId": "4b93b54f-6615-4090-8e1b-6d5f1a36764c",
+      "sourceVersion": 1,
+      "label": "1955~1969년 사이에 이촌동이 제목에 포함된 기사들",
+      "textKind": "transcription",
+      "fingerprint": "e8133c6010ce1b5824eb432df9a57b152e3d5082b4be424f307b180bd0a1406f",
+      "reviewId": "17a37803-cf98-45d5-9d53-b0b4c39d443d",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1187&fileId=3068ffd5-3415-488f-b029-3e9ddf7f777e&fileSn=1666&type=A&upperNodeId=CTGRY1190",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『이촌동』(2024), p. 165. / 개별 내용 항목 공백 정규화 전사 일치",
+        "observedAt": "2026-10-22T20:15:01.386320+00:00",
+        "sourceHash": "ddfbbfc4643bfc20683b866ecef5011199e4b3fe937498c193367c42c395de4b",
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "이촌동 기사 목록에 대한 박물관 설명문 전사가 공백 정규화 후 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 1955~1969년 사이에 이촌동이 제목에 포함된 기사들와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "기사 대상 1955~1969년·서술의 1958년 홍수 이후·자료/책 2024를 구별했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "사회문제로 불거졌다는 평가를 박물관 해석에 귀속한다. 개별 신문 기사 전부를 직접 열람·통계 검증한 것으로 표시하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "이촌동 기사 목록에 대한 박물관 설명문 전사가 공백 정규화 후 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 원문에서 공공누리 제1유형 출처표시 조건을 다시 확인했다. 기존 KOGL1·권리 URL·보관 1·재사용 1을 유지하고 원사진·지도·신문·별도 자산의 허락을 추가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "개별 박물관 설명문의 동대문시장·이촌동·중곡동 맥락만 대조했다. 기존 빈 지역 연결을 유지하며 특정 재단점·피해지·노선·버스정류장 주소를 새로 연결하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "b5f9976e-eaa2-42ec-a534-92410f8f5634",
+      "sourceId": "6bc4db2f-4fbe-42e9-9ec8-871283e7f7e8",
+      "versionId": "ad1114a4-23d0-40a5-93b7-3ac6c1b07956",
+      "sourceVersion": 1,
+      "label": "1960년대 중곡동 버스 노선",
+      "textKind": "transcription",
+      "fingerprint": "53872a0b6a8e6e16a1a9e7e92377d360468f961b7d00c21d38f49750756fdf57",
+      "reviewId": "f3b0cb11-788f-4d05-94f9-9b89a524cd59",
+      "revision": 1,
+      "status": "content_checked",
+      "actor": "scheduled-private-service",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1141&fileId=94338b87-5724-4a46-8b24-8c4fd048d185&fileSn=1081&type=A&upperNodeId=CTGRY1145",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『중곡동』(2023), p. 145. / 개별 내용 항목 공백 정규화 전사 일치",
+        "observedAt": "2026-10-22T20:15:01.441152+00:00",
+        "sourceHash": "ec4814d3e1d29c2871e48ca50ed5909921ee05f0abef543c92c0ce0f2bb3f2f0",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "기존 동네 명칭·맥락의 대조 기록이다. 현재 경계·주소·건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 새로 확정하지 않는다.",
+        "summary": "중곡동 버스 그래픽에 대한 박물관 개별 설명문 전사가 공백 정규화 후 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "개별 표제·문단의 1960년대 중곡동 버스 노선와 저장 본문의 명칭을 대조했다. 동명이나 검색어만 같은 다른 지역·항목을 대신 사용하지 않았다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1960년대·1970년대 변화와 자료/책 2023을 구분하며 그래픽을 1960년대 원사진으로 취급하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문은 버스가 2대라고 한다. 이 표현을 임의로 2개 노선이나 당시 전체 차량 대수의 독립 확정으로 바꾸지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "중곡동 버스 그래픽에 대한 박물관 개별 설명문 전사가 공백 정규화 후 일치한다. 이 대조는 제공기관 진술의 확인이며 인용 문헌·법령·시설의 독립 확인을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 원문에서 공공누리 제1유형 출처표시 조건을 다시 확인했다. 기존 KOGL1·권리 URL·보관 1·재사용 1을 유지하고 원사진·지도·신문·별도 자산의 허락을 추가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "개별 박물관 설명문의 동대문시장·이촌동·중곡동 맥락만 대조했다. 기존 빈 지역 연결을 유지하며 특정 재단점·피해지·노선·버스정류장 주소를 새로 연결하지 않는다."
+          }
+        }
+      }
+    }
+  ]
+}

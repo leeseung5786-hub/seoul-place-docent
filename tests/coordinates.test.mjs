@@ -1,0 +1,15 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {parseCoordinates,coordinates} from '../lib/providers.ts';
+const a={roadAddr:'서울특별시 성동구 아차산로 100 (성수동2가)',jibunAddr:'서울특별시 성동구 성수동2가 300-1 성수역',siNm:'서울특별시',sggNm:'성동구',emdNm:'성수동2가',admCd:'1120011500',bdMgtSn:'test-id',bdNm:'성수역',lnbrMnnm:'300',lnbrSlno:'1',mtYn:'0',zipNo:'04782'};
+const doc={x:'127.055',y:'37.544',address:{region_1depth_name:'서울',b_code:'1120011500',main_address_no:'300',sub_address_no:'1',mountain_yn:'N',region_3depth_h_name:'성수2가1동'},road_address:{address_name:'서울 성동구 아차산로 100'}};
+test('coordinates require both legal parcel and road address identity',()=>{const r=parseCoordinates([doc],a);assert.equal(r.status,'verified');assert.equal(r.x,127.055);assert.equal(r.y,37.544);assert.equal(r.administrativeDong,'성수2가1동');});
+test('another road address on same parcel does not match',()=>{assert.equal(parseCoordinates([{...doc,road_address:{address_name:'서울 성동구 아차산로 113'}}],a).status,'unconfirmed');});
+test('another parcel with the same road address does not match',()=>{assert.equal(parseCoordinates([{...doc,address:{...doc.address,sub_address_no:'2'}}],a).status,'unconfirmed');});
+test('multiple matching results stay unconfirmed',()=>{assert.equal(parseCoordinates([doc,doc],a).status,'unconfirmed');});
+test('non-Seoul response cannot match',()=>{assert.equal(parseCoordinates([{...doc,address:{...doc.address,region_1depth_name:'부산'}}],a).status,'unconfirmed');});
+test('missing and implausible coordinates are rejected',()=>{for(const bad of [{x:'',y:'37.54'},{x:'127',y:'NaN'},{x:'37.54',y:'127'},{x:'129',y:'35'}])assert.equal(parseCoordinates([{...doc,...bad}],a).status,'unconfirmed');});
+test('missing administrative dong is not replaced by legal dong',()=>{assert.equal(parseCoordinates([{...doc,address:{...doc.address,region_3depth_h_name:null}}],a).administrativeDong,'');});
+test('mountain parcel flag is checked',()=>{assert.equal(parseCoordinates([doc],{...a,mtYn:'1'}).status,'unconfirmed');});
+test('query uses normalized road address, secret only in authorization header',async()=>{const orig=globalThis.fetch;globalThis.fetch=async(url,init)=>{assert.equal(url.searchParams.get('query'),'서울특별시 성동구 아차산로 100');assert.equal(url.searchParams.get('analyze_type'),'exact');assert.equal(url.searchParams.has('key'),false);assert.equal(init.headers.Authorization,'KakaoAK fixture-rest-key');return Response.json({documents:[doc]});};try{assert.equal((await coordinates(a,{KAKAO_REST_API_KEY:'fixture-rest-key'})).status,'verified');}finally{globalThis.fetch=orig;}});
+test('Kakao access errors and quota are distinct from no matching results',async()=>{const orig=globalThis.fetch;try{for(const [status,code]of [[401,'KAKAO_AUTH'],[403,'KAKAO_AUTH'],[429,'KAKAO_QUOTA']]){globalThis.fetch=async()=>new Response('',{status});await assert.rejects(()=>coordinates(a,{KAKAO_REST_API_KEY:'fixture-rest-key'}),e=>e.code===code);}}finally{globalThis.fetch=orig;}});

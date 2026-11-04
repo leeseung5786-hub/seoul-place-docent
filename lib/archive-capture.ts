@@ -1,0 +1,62 @@
+import {activePassageReviewSql} from './archive-passage-review';
+import {ServiceError} from './providers';
+import {canonicalUrl,hashText,validateSource,validatePassage} from './archive-validation';
+import {saveArchiveSource} from './archive-db';
+export function parseSourcePeriod(label:string):{startYear:number|null;endYear:number|null;precision:string}{
+ const s=label.trim();if(!s)return {startYear:null,endYear:null,precision:'unknown'};
+ const century=s.match(/^(\d{1,2})세기(?:\s*(?:초|중엽|중반|후반|말))?$/);if(century){const n=Number(century[1]);if(n>=1&&n<=21)return {startYear:(n-1)*100,endYear:n*100-1,precision:'century'};}
+ const dates=s.match(/(?:1\d{3}|20\d{2})/g);
+ if(!dates||dates.length>2)return {startYear:null,endYear:null,precision:'unknown'};
+ if(dates.length===2){const start=Number(dates[0]),end=Number(dates[1]);if(start>end)return {startYear:null,endYear:null,precision:'unknown'};return {startYear:start,endYear:/\d{4}년?대\s*$/.test(s)?end+9:end,precision:/추정|경|전후|무렵/.test(s)?'range_estimated':'range'};}
+ const start=Number(dates[0]);
+ if(/이후|부터/.test(s))return {startYear:start,endYear:null,precision:'open_after'};
+ if(/이전|까지/.test(s))return {startYear:null,endYear:start,precision:'open_before'};
+ const abbreviated=s.match(/(\d{4})년?\s*[~∼–-]\s*(\d{2})년?(대)?/);if(abbreviated){const end=Math.floor(start/100)*100+Number(abbreviated[2])+(abbreviated[3]?9:0);return end>=start?{startYear:start,endYear:end,precision:abbreviated[3]?'range_decades':'range'}:{startYear:null,endYear:null,precision:'unknown'};}
+ if(/\d{4}년?대/.test(s))return {startYear:start,endYear:start+9,precision:/추정|경|전후|무렵/.test(s)?'decade_estimated':'decade'};
+ return {startYear:start,endYear:start,precision:/추정|경|전후|무렵/.test(s)?'year_estimated':'year'};
+}
+export function stableJson(value:unknown):string {if(Array.isArray(value))return '['+value.map(stableJson).join(',')+']';if(value&&typeof value==='object')return '{'+Object.keys(value).sort().map(k=>JSON.stringify(k)+':'+stableJson((value as Record<string,unknown>)[k])).join(',')+'}';return JSON.stringify(value)??'null';}
+export type CaptureSection={text:string;locator:string;textKind:'paraphrase'|'quotation'|'transcription';regionIds:string[];regionLabel:string;relation:'exact_name'|'district_context';basis:string};
+export type CaptureInput={sections?:CaptureSection[];source:unknown;metadata:Record<string,string>;description?:string;sourceLocator:string;attribution:string;rightsEvidence:string;capturedAt:string;pageHash?:string};
+function text(value:unknown,max:number,required=false){if(typeof value!=='string'||value.length>max||(required&&!value.trim()))throw new ServiceError('ARCHIVE_CAPTURE_INPUT','수집 자료 형식과 필수 항목을 확인해 주세요.',400);return value.trim();}
+export async function importArchiveCaptures(db:D1Database,input:unknown,actor:string){
+ if(!input||typeof input!=='object')throw new ServiceError('ARCHIVE_CAPTURE_INPUT','수집 자료를 확인해 주세요.',400);const payload=input as {batchId?:unknown;items?:unknown};const batchId=text(payload.batchId,100,true);
+ if(!/^[a-zA-Z0-9_-]+$/.test(batchId)||!Array.isArray(payload.items)||payload.items.length<1||payload.items.length>10)throw new ServiceError('ARCHIVE_CAPTURE_INPUT','영문 배치 ID와 1~10개 자료를 입력해 주세요.',400);
+ const prepared=payload.items.map((value:unknown)=>{
+  if(!value||typeof value!=='object')throw new ServiceError('ARCHIVE_CAPTURE_INPUT','자료 항목 형식을 확인해 주세요.',400);const d=value as CaptureInput;const source=validateSource(d.source);
+  if(!d.metadata||typeof d.metadata!=='object'||Array.isArray(d.metadata)||Object.keys(d.metadata).length>30)throw new ServiceError('ARCHIVE_CAPTURE_INPUT','원문 메타데이터를 확인해 주세요.',400);
+  const metadata:Record<string,string>={};for(const [k,v]of Object.entries(d.metadata))metadata[text(k,100,true)]=text(v,4000);
+  const description=d.description===undefined?'':text(d.description,12000),sourceLocator=text(d.sourceLocator,500,true),attribution=text(d.attribution,2000,true),rightsEvidence=text(d.rightsEvidence,3000),capturedAt=text(d.capturedAt,40,true);
+  if(!Number.isFinite(Date.parse(capturedAt))||Date.parse(capturedAt)>Date.now()+86400000)throw new ServiceError('ARCHIVE_CAPTURE_DATE','수집일을 확인해 주세요.',400);
+  if(description){validatePassage({text:description,locator:sourceLocator,textKind:'transcription'},source.storageAllowed);if(!rightsEvidence)throw new ServiceError('ARCHIVE_RIGHTS','원문 보관에는 개별 자료의 이용조건 확인 내용이 필요합니다.',400);}
+  const sections=d.sections===undefined?[]:d.sections;
+  if(!Array.isArray(sections)||sections.length>60)throw new ServiceError('ARCHIVE_SECTIONS','본문 구간은 자료당 60개까지 등록할 수 있습니다.',400);
+  const parsed=sections.map((section)=>{if(!section||typeof section!=='object')throw new ServiceError('ARCHIVE_SECTIONS','본문 구간을 확인해 주세요.',400);const passage=validatePassage(section as unknown as Record<string,unknown>,source.storageAllowed);const ids=section.regionIds;if(!Array.isArray(ids)||ids.length<1||ids.length>10||ids.some(id=>typeof id!=='string'||id.length>200))throw new ServiceError('ARCHIVE_REGION','본문의 지역을 확인해 주세요.',400);if(!['exact_name','district_context'].includes(section.relation))throw new ServiceError('ARCHIVE_REGION','본문의 공간 관계를 확인해 주세요.',400);if(passage.textKind!=='paraphrase'&&!rightsEvidence)throw new ServiceError('ARCHIVE_RIGHTS','원문 구간의 이용조건 확인 근거가 필요합니다.',400);return {...passage,regionIds:[...new Set(ids)].sort(),regionLabel:text(section.regionLabel,150,true),relation:section.relation,basis:text(section.basis,500,true)};});
+  if(parsed.reduce((n,p)=>n+p.text.length,description.length)>100000)throw new ServiceError('ARCHIVE_SECTIONS','자료 한 건의 본문은 총 100,000자까지 등록할 수 있습니다.',400);
+  return {source,metadata,description,sections:parsed,hasSections:d.sections!==undefined,sourceLocator,attribution,rightsEvidence,capturedAt,pageHash:d.pageHash?text(d.pageHash,64):''};
+ });
+ // Check all scope IDs before writing any source/version in this request.
+ for(const d of prepared)for(const section of d.sections)for(const id of section.regionIds){const region=await db.prepare('SELECT name,level FROM archive_regions WHERE id=?').bind(id).first<{name:string;level:string}>();if(!region||section.relation==='exact_name'&&(region.level!=='legal_dong'||region.name!==section.regionLabel)||section.relation==='district_context'&&region.level!=='district')throw new ServiceError('ARCHIVE_REGION','원문 표제와 일치하는 법정동 또는 자치구 맥락을 지정해 주세요.',400);}
+ const result:{sourceId:string;captureId:string;status:string;title:string}[]=[];
+ for(const d of prepared){
+  const fingerprint=await hashText(stableJson({metadata:d.metadata,description:d.description,...(d.hasSections?{sections:d.sections}:{}),sourceLocator:d.sourceLocator,source:{...d.source,url:canonicalUrl(d.source.url),regionIds:[...d.source.regionIds].sort(),changeNote:undefined},attribution:d.attribution,rightsEvidence:d.rightsEvidence}));
+  const old=await db.prepare('SELECT id,current_version FROM archive_sources WHERE url=?').bind(canonicalUrl(d.source.url)).first<{id:string;current_version:number}>();
+  const duplicate=old?await db.prepare('SELECT id FROM archive_captures WHERE source_id=? AND fingerprint=?').bind(old.id,fingerprint).first<{id:string}>():null;
+  if(duplicate){result.push({sourceId:old!.id,captureId:duplicate.id,status:'unchanged',title:d.source.title});continue;}
+  const s=await saveArchiveSource(db,{...d.source,changeNote:'공식 상세 자료 수집 · '+batchId},actor,old?.id,old?.current_version);
+  const now=new Date().toISOString(),captureId=crypto.randomUUID(),period=parseSourcePeriod(d.metadata['시기']||d.source.subjectPeriod),passageId=crypto.randomUUID();
+  const statements=[db.prepare('INSERT INTO archive_captures (id,source_id,version_id,batch_id,fingerprint,raw_metadata,source_locator,attribution,rights_evidence,period_label,start_year,end_year,date_precision,captured_at,created_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)').bind(captureId,s.id,s.versionId,batchId,fingerprint,JSON.stringify(d.metadata),d.sourceLocator,d.attribution,d.rightsEvidence,d.metadata['시기']||d.source.subjectPeriod,period.startYear,period.endYear,period.precision,d.capturedAt,now)];
+  if(d.description)statements.push(db.prepare('INSERT INTO archive_passages (id,source_id,version_id,locator,text,text_kind,review_status,created_at) VALUES (?,?,?,?,?,?,?,?)').bind(passageId,s.id,s.versionId,d.sourceLocator,d.description,'transcription','source_captured',now));
+  for(const section of d.sections){const id=crypto.randomUUID();statements.push(db.prepare('INSERT INTO archive_passages (id,source_id,version_id,locator,text,text_kind,review_status,created_at) VALUES (?,?,?,?,?,?,?,?)').bind(id,s.id,s.versionId,section.locator,section.text,section.textKind,section.textKind==='paraphrase'?'pending':'source_captured',now));for(const regionId of section.regionIds)statements.push(db.prepare('INSERT INTO archive_passage_regions (id,passage_id,region_id,label,relation,basis) VALUES (?,?,?,?,?,?)').bind(crypto.randomUUID(),id,regionId,section.regionLabel,section.relation,section.basis));}
+  statements.push(db.prepare('INSERT INTO archive_audit (id,source_id,action,actor,note,created_at) VALUES (?,?,?,?,?,?)').bind(crypto.randomUUID(),s.id,'capture',actor,`공식 자료 ${d.description?'설명 확보':d.sections.length?'지역별 본문 '+d.sections.length+'개 등록':'목록 확보'} · ${batchId} · 페이지 지문 ${d.pageHash||'미기록'}`,now));
+  await db.batch(statements);result.push({sourceId:s.id,captureId,status:old?'updated':'created',title:d.source.title});
+ }
+ const now=new Date().toISOString();await db.prepare('INSERT INTO archive_imports (id,kind,source_url,status,record_count,note,created_at) VALUES (?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET status=excluded.status,record_count=excluded.record_count,note=excluded.note,created_at=excluded.created_at').bind(batchId,'official_capture',prepared[0].source.url,'completed',result.length,JSON.stringify({created:result.filter(r=>r.status==='created').length,updated:result.filter(r=>r.status==='updated').length,unchanged:result.filter(r=>r.status==='unchanged').length}),now).run();
+ return {batchId,items:result};
+}
+export async function archiveCoverage(db:D1Database){
+ const result=await db.prepare(`WITH RECURSIVE tree(root,id) AS (SELECT id,id FROM archive_regions WHERE level='district' UNION ALL SELECT t.root,r.id FROM archive_regions r JOIN tree t ON r.parent_id=t.id),tagged AS (SELECT DISTINCT tree.root,sr.source_id FROM tree JOIN archive_source_regions sr ON sr.region_id=tree.id) SELECT r.id,r.name,(SELECT count(*) FROM archive_regions d WHERE d.parent_id=r.id AND d.level='legal_dong') AS dong_count,count(DISTINCT t.source_id) AS sources,count(DISTINCT CASE WHEN EXISTS(SELECT 1 FROM archive_passages p WHERE p.source_id=t.source_id) THEN t.source_id END) AS with_text,count(DISTINCT CASE WHEN EXISTS(SELECT 1 FROM archive_passages p WHERE p.source_id=t.source_id AND p.text_kind!='paraphrase') THEN t.source_id END) AS original_text,count(DISTINCT CASE WHEN EXISTS(SELECT 1 FROM archive_assets a WHERE a.source_id=t.source_id) THEN t.source_id END) AS with_files FROM archive_regions r LEFT JOIN tagged t ON t.root=r.id WHERE r.level='district' GROUP BY r.id ORDER BY r.name`).all();
+ const dongs=(await db.prepare(`SELECT r.id,r.name,r.parent_id,r.official_code,coalesce(rv.revision,0) AS review_revision,rv.status AS verification_status,rv.checked_at,count(DISTINCT p.id) AS passage_count,count(DISTINCT p.source_id) AS sources,count(DISTINCT CASE WHEN p.text_kind!='paraphrase' THEN p.id END) AS original_count,count(DISTINCT CASE WHEN p.review_status='content_checked' AND ${activePassageReviewSql} THEN p.id END) AS reviewed_count FROM archive_regions r LEFT JOIN archive_region_reviews rv ON rv.region_id=r.id AND rv.revision=(SELECT max(n.revision) FROM archive_region_reviews n WHERE n.region_id=r.id) LEFT JOIN archive_passage_regions pr ON pr.region_id=r.id AND pr.relation='exact_name' LEFT JOIN archive_passages p ON p.id=pr.passage_id AND p.version_id=(SELECT c.version_id FROM archive_captures c JOIN archive_versions v ON v.id=c.version_id WHERE c.source_id=p.source_id ORDER BY v.version DESC LIMIT 1) WHERE r.level='legal_dong' GROUP BY r.id ORDER BY r.name`).all()).results as {id:string;name:string;parent_id:string;passage_count:number}[];
+ const items=result.results.map((row:Record<string,unknown>)=>({...row,dongs_with_passages:dongs.filter(d=>d.parent_id===row.id&&d.passage_count>0).length}));
+ return {items,dongs,note:'구별 자료 분류와 동별 본문 구간 집계입니다. 동별 집계는 원문 표제와 법정동 이름이 일치하는 현재 버전만 포함합니다. 역사 전체의 완성도나 개별 부지 검증을 뜻하지 않습니다.'};
+}

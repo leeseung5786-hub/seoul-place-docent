@@ -1,0 +1,51 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {normalizeNationalXml,normalizePhotoJson,safeRecordUrl,nationalRecords,readProviderXml,validQuery,excludeUnrelatedNationalRecords} from '../lib/archives.ts';
+import {normalizePermitRows} from '../lib/permits.ts';
+const a={roadAddr:'서울특별시 성동구 아차산로 113',jibunAddr:'서울특별시 성동구 성수동2가 300-1',siNm:'서울특별시',sggNm:'성동구',emdNm:'성수동2가',admCd:'1120011500',bdMgtSn:'id',bdNm:'',lnbrMnnm:'300',lnbrSlno:'1',mtYn:'0',zipNo:'04782'};
+const zero='<?xml version="1.0"?><rss><channel><title>검색 결과</title><total>0</total></channel></rss>';
+test('genuine zero national results is a valid result, not an error',()=>{assert.deepEqual(normalizeNationalXml(zero),{items:[],total:0});});
+test('national XML exposes production year and metadata candidates without upgrading spatial scope',()=>{const d=normalizeNationalXml('<rss><channel><total>1</total><item><title><![CDATA[<b>서울</b> 도면]]></title><rc_type>RFILE</rc_type><rc_code>1</rc_code><rc_rfile_no>123</rc_rfile_no><prod_year>1936</prod_year><prod_name>경성부</prod_name><is_open>2</is_open><online_reading>N</online_reading><link>https://www.archives.go.kr/next/record?id=123&amp;type=1</link></item></channel></rss>');assert.equal(d.items[0].title,'서울 도면');assert.equal(d.items[0].productionYear,'1936');assert.equal(d.items[0].scope,'검색 후보');assert.equal(d.items[0].openness,'부분공개');assert.match(d.items[0].url,/&type=1/);});
+test('authentication XML errors cannot be presented as zero records',()=>{assert.throws(()=>normalizeNationalXml('<OpenAPI_ServiceResponse><cmmMsgHeader><returnAuthMsg>SERVICE_KEY_IS_NOT_REGISTERED_ERROR</returnAuthMsg></cmmMsgHeader></OpenAPI_ServiceResponse>'),e=>e.code==='NATIONAL_PROVIDER');});
+test('XML entity declarations are rejected',()=>{assert.throws(()=>readProviderXml('<!DOCTYPE x [<!ENTITY e "expand">]><rss>&e;</rss>'),e=>e.code==='XML_FORMAT');});
+test('untrusted result URLs are not emitted as links',()=>{assert.equal(safeRecordUrl('javascript:alert(1)'), '');assert.equal(safeRecordUrl('https://archives.go.kr.evil.example/x'), '');assert.equal(safeRecordUrl('https://example.com/x'), '');});
+test('photo collection fields retain original ID and remain collection metadata',()=>{const r=normalizePhotoJson({totalCount:1,data:[{'ID(컬렉션번호)':25,'TITLE(컬렉션제목)':'한강','DESC(컬렉션내용)':'옛 사진 목록'}]});assert.equal(r.items[0].id,'25');assert.equal(r.items[0].recordType,'사진 컬렉션 목록');assert.equal(r.items[0].productionYear,'');assert.equal(r.items[0].url,'');assert.equal(r.items[0].scope,'검색 후보');});
+test('photo provider errors cannot be presented as an empty collection',()=>{assert.throws(()=>normalizePhotoJson({code:-4,message:'unregistered service key'}),e=>e.code==='PHOTO_PROVIDER');});
+test('gateway paging uses the published pageNo parameter',async()=>{const f=globalThis.fetch;let seen;globalThis.fetch=async u=>{seen=new URL(u);return new Response(zero);};try{await nationalRecords('성수동',2,{NATIONAL_ARCHIVES_API_KEY:'test-only'});assert.equal(seen.searchParams.get('pageNo'),'2');assert.equal(seen.searchParams.has('pageno'),false);assert.equal(seen.searchParams.get('query'),'성수동');}finally{globalThis.fetch=f;}});
+test('Seonsan-gun Seongsu-dong homonyms are excluded while Seoul and other relevant records remain',()=>{
+ const titles=['경상북도 선산군 대동면 성수동(경상북도 선산군 산동면 성수동)-0','경상북도선산군대동면성수동-006 0102','경상북도 선산군 산동면 성수동-024 0624','(69년)재산조사 대조부 : 성수동1가 성수동2가','서울특별시 성동구 성수동 공장 이전 기록','경상북도 출신 주민의 서울 성수동 생활사'];
+ const rows=titles.map((title,index)=>({id:String(index),title}));
+ const result=excludeUnrelatedNationalRecords(rows);
+ assert.deepEqual(result.items.map(item=>item.id),['4','5']);
+ assert.equal(result.excludedCount,4);
+ assert.equal(result.outsideScopeCount,3);
+ assert.equal(result.unconfirmedLocationCount,1);
+ assert.equal(rows.length,6);
+ assert.equal(result.items[0],rows[4]);
+});
+test('national API and exported candidates omit unrelated homonyms without corrupting provider pagination',async()=>{
+ const originalFetch=globalThis.fetch;
+ const row=title=>`<item><title>${title}</title><rc_type>RITEM</rc_type><rc_code>1310377</rc_code><rc_rfile_no>200301413962</rc_rfile_no><prod_name>조선총독부</prod_name></item>`;
+ const bad=row('경상북도 선산군 대동면 성수동(경상북도 선산군 산동면 성수동)-0');
+ let xml=`<rss><channel><total>783</total>${bad}${row('서울특별시 성동구 성수동1가 재산조사 대조부')}</channel></rss>`;
+ globalThis.fetch=async()=>new Response(xml);
+ try{
+  const result=await nationalRecords('성수동',1,{NATIONAL_ARCHIVES_API_KEY:'test-only'});
+  assert.equal(result.items.length,1);
+  assert.equal(result.excludedCount,1);
+  assert.equal(result.providerTotal,783);
+  assert.equal(result.total,783);
+  assert.equal(result.pageSize,10);
+  assert.ok(!JSON.stringify(result).includes('선산군'));
+  xml=`<rss><channel><total>783</total>${bad}</channel></rss>`;
+  const empty=await nationalRecords('성수동',2,{NATIONAL_ARCHIVES_API_KEY:'test-only'});
+  assert.deepEqual(empty.items,[]);
+  assert.equal(empty.excludedCount,1);
+  assert.equal(empty.total,783);
+  assert.equal(empty.page,2);
+ }finally{globalThis.fetch=originalFetch;}
+});
+test('malformed paging is rejected before an external call',async()=>{await assert.rejects(()=>nationalRecords('서울',0,{NATIONAL_ARCHIVES_API_KEY:'test-only'}),e=>e.code==='INVALID_PAGE');});
+test('query is bounded and search operators cannot override the intended keyword',()=>{assert.equal(validQuery('성수동|부산'),'성수동 부산');assert.throws(()=>validQuery('x'.repeat(81)),e=>e.code==='INVALID_QUERY');});
+test('permit XML identifiers larger than JS safe integers remain exact strings',()=>{const xml='<response><header><resultCode>00</resultCode></header><body><items><item><sigunguCd>11200</sigunguCd><bjdongCd>11500</bjdongCd><platGbCd>0</platGbCd><bun>0300</bun><ji>0001</ji><mgmPmsrgstPk>1000000000000000000911</mgmPmsrgstPk><archPmsDay>20260508</archPmsDay><stcnsSchedDay>20260601</stcnsSchedDay><realStcnsDay></realStcnsDay><crtnDay>20261001</crtnDay></item></items></body></response>';const r=normalizePermitRows(readProviderXml(xml),a,'기본');assert.equal(r[0].id,'1000000000000000000911');assert.equal(r[0].startDate,'');assert.equal(r[0].permitDate,'20260508');assert.equal(r[0].createdDate,'20261001');assert.equal(r[0].scope,'같은 지번의 행정기록');});
+test('permit records of other parcels and mountain flags are rejected',()=>{const row={sigunguCd:'11200',bjdongCd:'11500',platGbCd:'0',bun:'0300',ji:'0001'};const r=normalizePermitRows({response:{header:{resultCode:'00'},body:{items:{item:[row,{...row,ji:'0002'},{...row,platGbCd:'1'}]}}}},a,'기본');assert.equal(r.length,1);});

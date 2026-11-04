@@ -1,0 +1,1135 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-21T12:16:39.932407Z",
+  "release": {
+    "projectId": "appgprj_6acd53ff39588191b6c07a038ece0771",
+    "siteUrl": "https://seoul-place-history.xeonire.chatgpt.site",
+    "codeCommit": "175475b9220e9d456bcddd3184a8e59737a1b5b3",
+    "versionNumber": 22,
+    "versionId": "appgprj_6acd53ff39588191b6c07a038ece0771~appgver_682e7795c7148191ab1ca02190be9d86",
+    "deploymentId": "appgdep_6ad8ab1158408191bc228df4b40dc67c",
+    "deploymentStatus": "succeeded",
+    "access": {
+      "mode": "custom",
+      "revision": 1,
+      "allowedOwnerCount": 1,
+      "editors": 0,
+      "groups": 0,
+      "externalVisitors": 0
+    },
+    "checks": {
+      "tests": 135,
+      "testsPassed": 135,
+      "typecheck": "passed",
+      "build": "passed",
+      "migration": "0004_sharp_metal_master.sql",
+      "browserVisualQA": "unverified: managed preview could not start while an existing unrelated dev server occupied the environment"
+    },
+    "regionReceipt": "data/region-code-observations-2026-10-21-lifecycle-completion-14.json",
+    "regionLog": "docs/history-work-2026-10-21-regions-14.md"
+  },
+  "batch": "passage-review-20261021-01",
+  "before": {
+    "currentPassages": 638,
+    "reviewed": 0,
+    "contentChecked": 0,
+    "needsReview": 0,
+    "unreviewed": 638,
+    "remaining": 638
+  },
+  "after": {
+    "currentPassages": 638,
+    "reviewed": 15,
+    "contentChecked": 5,
+    "needsReview": 10,
+    "unreviewed": 623,
+    "remaining": 633
+  },
+  "processed": 15,
+  "contentChecked": 5,
+  "needsReview": 10,
+  "nonselectedUnchanged": 623,
+  "immutableCurrentPassages": 638,
+  "sourceDetailsUnchanged": 13,
+  "sourceStatsUnchanged": true,
+  "regionalCoverageOnlyExpectedFiveIncrements": true,
+  "regionVerification": {
+    "total": 467,
+    "withCode": 467,
+    "reviewed": 467,
+    "addressObserved": 464,
+    "addressUnconfirmed": 3,
+    "officialCodeOnly": 3,
+    "lifecycleChecked": 467,
+    "verifiedCurrent": 467,
+    "verifiedAbolished": 0,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "nativeDatabaseVerification": {
+    "projectId": "appgprj_6acd53ff39588191b6c07a038ece0771",
+    "binding": "DB",
+    "table": "archive_passage_reviews",
+    "pageCount": 4,
+    "rowCount": 15,
+    "terminalNextOffset": null,
+    "truncatedEvidenceCellsNotUsed": true,
+    "rows": [
+      {
+        "id": "05225261-71bc-48c9-990c-c7b4588c97ff",
+        "passageId": "07b61220-05a2-4f56-9dc5-802a24c25cf6",
+        "versionId": "8d0807b2-57dc-4dea-a5b7-0bc7385c4939",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "46ddd0fa3a93497ad4b2c65d63073159d3c525493c5ed9feea9209fb73a7861d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:53.901Z"
+      },
+      {
+        "id": "10f32886-c925-4e4f-aa15-9a967d8b7c0a",
+        "passageId": "03dd211e-e9fb-4ce0-8d5c-efb179af97a4",
+        "versionId": "e5b01767-4c92-4d6f-b317-d0b3df026530",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "3d9de689952283034d0563f193aa8cd758b3ddce12d89fedaba9b641ef39014d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:30.196Z"
+      },
+      {
+        "id": "3a8df946-a68e-41ba-a8dc-caca48549a3d",
+        "passageId": "0530d93c-1e81-464f-9798-e1f6886bfb94",
+        "versionId": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "14ccb00fc13cfd63ab8d74d8650d8aed03e179928cdb9fc2c82825750e00187d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:37.591Z"
+      },
+      {
+        "id": "45b07ec7-0a8d-4010-98b6-a824eaab9491",
+        "passageId": "03602be0-3ae9-45ab-af5a-536e2404a67f",
+        "versionId": "2fef8c5a-0936-413d-88ee-7af77a919808",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "55f22a6c34f1743d5fb2ca29dcdca16704eff26fcd9c00459ce862b81c9759d9",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:27.462Z"
+      },
+      {
+        "id": "4a311998-4b3f-412d-940d-31d61c205279",
+        "passageId": "02fdfe34-cfa3-425e-8f31-c75c66de993c",
+        "versionId": "a1c26902-e9ee-461f-9009-9dfc58f6e88b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "04844f4be80bbc9248525b13bdd64cd9bbb81d1c71d220678fc692a956a58905",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:23.987Z"
+      },
+      {
+        "id": "6c387ada-50c3-4d21-a257-d66099f824da",
+        "passageId": "06f984d5-7932-462e-9bed-289949de9905",
+        "versionId": "3583fea7-2364-4161-91fe-8ffa0b72b1c2",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "b5f6c2b7f06454857ba4519dd10071721daec3cb6027e4486fc4a1bbaa4bf364",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:44.682Z"
+      },
+      {
+        "id": "84b057fd-9aae-4ca8-943c-629046818373",
+        "passageId": "0058c299-f6b4-4656-8938-40694f8ace18",
+        "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "0fe0e6148e9f974a53595129264b69336d5585fab99a6ba6d24e270f48e33159",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:13.261Z"
+      },
+      {
+        "id": "88a5fe8a-f5b7-414f-aa5f-6029f7d446fc",
+        "passageId": "07e1c8f0-7b31-4ede-9fcc-2f8203f1df93",
+        "versionId": "83e11cb1-a7ea-462a-aa5d-ca3d4b1ee946",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "c9d7f39a2b34bb18d35f0cd1862352d707c277cf76ccfeb6cfcee9259e72ffbf",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:57.107Z"
+      },
+      {
+        "id": "99774571-778f-4187-8f50-287433f260b2",
+        "passageId": "05bb5e27-2e67-480c-bec6-7739138d06f8",
+        "versionId": "0957de5a-5ffb-48df-bcc9-2da9f95494da",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "7423da9f561869da7c885ba85dd58f97954d0ceb34da51dee0a791a2e789d8b5",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:40.574Z"
+      },
+      {
+        "id": "9a6683b2-f009-4b6d-91ff-5238aee8c040",
+        "passageId": "00362713-cda4-4055-a056-cb2db67ee3a3",
+        "versionId": "a1c26902-e9ee-461f-9009-9dfc58f6e88b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "d3fc2864155413448c0ce9f8eb5e1171a070b7baa19b0e4bbab70e851de03f17",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:09.924Z"
+      },
+      {
+        "id": "b15c75cf-c97c-4f39-8277-905d516150ef",
+        "passageId": "029ba00c-8104-4e68-ad38-d8caedabc806",
+        "versionId": "71336c19-1c58-45d7-92d8-e0a52ac80f15",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "975e0c37f21082b36e8fc0b972dcf8d14c0d9aac6eeca7c8c5f9b66b82d9e608",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:20.148Z"
+      },
+      {
+        "id": "c15b1d4f-a355-49b1-a22b-1a25eb768238",
+        "passageId": "071098eb-e31e-4a08-8679-a3342a7ae44f",
+        "versionId": "6309bc9e-8c48-464e-b6a5-066fb1e0a2cd",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "817ba949ba9f46cb91f3c6b4004eaa4e3c99a89a51d17777e664e1c176c6e058",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:50.459Z"
+      },
+      {
+        "id": "efcb710b-79a0-4cd5-9881-90683141adbf",
+        "passageId": "044c9fd2-e3e6-4724-a413-46bfe6365060",
+        "versionId": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "b2c9db9db70c666da6357a0265dcc1350ffd051edb3bbb9c132afb3b14a74e8f",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:34.381Z"
+      },
+      {
+        "id": "f096815d-0d49-4ef7-8d69-246f4fe8e374",
+        "passageId": "089aacfc-c096-42c6-ba2a-a3b9e59befdc",
+        "versionId": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "7bae475b10310c457a34c0afefdbf062e71bc290ec0609a21161b9d4e45440f7",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:59.976Z"
+      },
+      {
+        "id": "f1c5e5fc-9efa-4ebd-893c-39f29cfbe9b1",
+        "passageId": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+        "versionId": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "3172edcf0e8b43134071ad5de6e047cd42a6788b8eb1fb5a2fda66eadadc9c4d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:17.343Z"
+      }
+    ]
+  },
+  "auditRecords": [
+    {
+      "sourceId": "28c3a2e8-7a4a-49af-93f6-2ef53b3effbe",
+      "passageId": "03602be0-3ae9-45ab-af5a-536e2404a67f",
+      "reviewId": "45b07ec7-0a8d-4010-98b6-a824eaab9491",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:27.462Z"
+    },
+    {
+      "sourceId": "174484e8-9842-43e8-8261-dbfe3ac59f85",
+      "passageId": "05bb5e27-2e67-480c-bec6-7739138d06f8",
+      "reviewId": "99774571-778f-4187-8f50-287433f260b2",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:40.574Z"
+    },
+    {
+      "sourceId": "67a63162-0e3c-4255-9a55-fd0a0308df17",
+      "passageId": "03dd211e-e9fb-4ce0-8d5c-efb179af97a4",
+      "reviewId": "10f32886-c925-4e4f-aa15-9a967d8b7c0a",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:30.196Z"
+    },
+    {
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "passageId": "0058c299-f6b4-4656-8938-40694f8ace18",
+      "reviewId": "84b057fd-9aae-4ca8-943c-629046818373",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:13.261Z"
+    },
+    {
+      "sourceId": "10552854-b8dc-4a67-89c9-1be1d5e0dec1",
+      "passageId": "06f984d5-7932-462e-9bed-289949de9905",
+      "reviewId": "6c387ada-50c3-4d21-a257-d66099f824da",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:44.682Z"
+    },
+    {
+      "sourceId": "57cea7c5-0cdc-4064-936e-d5a79bc937b4",
+      "passageId": "071098eb-e31e-4a08-8679-a3342a7ae44f",
+      "reviewId": "c15b1d4f-a355-49b1-a22b-1a25eb768238",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:50.459Z"
+    },
+    {
+      "sourceId": "49bfa954-ee68-4046-bb46-23b1bd573aca",
+      "passageId": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+      "reviewId": "f1c5e5fc-9efa-4ebd-893c-39f29cfbe9b1",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:17.343Z"
+    },
+    {
+      "sourceId": "11ad709e-e01f-4418-807c-2e31c483014d",
+      "passageId": "089aacfc-c096-42c6-ba2a-a3b9e59befdc",
+      "reviewId": "f096815d-0d49-4ef7-8d69-246f4fe8e374",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:59.976Z"
+    },
+    {
+      "sourceId": "11ad709e-e01f-4418-807c-2e31c483014d",
+      "passageId": "044c9fd2-e3e6-4724-a413-46bfe6365060",
+      "reviewId": "efcb710b-79a0-4cd5-9881-90683141adbf",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:34.381Z"
+    },
+    {
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "passageId": "0530d93c-1e81-464f-9798-e1f6886bfb94",
+      "reviewId": "3a8df946-a68e-41ba-a8dc-caca48549a3d",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:37.591Z"
+    },
+    {
+      "sourceId": "4d79ef8c-600c-4b16-af0f-4fdf4d59416f",
+      "passageId": "07e1c8f0-7b31-4ede-9fcc-2f8203f1df93",
+      "reviewId": "88a5fe8a-f5b7-414f-aa5f-6029f7d446fc",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:57.107Z"
+    },
+    {
+      "sourceId": "da5c5ada-4de7-43b5-8f5c-8367efca4a99",
+      "passageId": "029ba00c-8104-4e68-ad38-d8caedabc806",
+      "reviewId": "b15c75cf-c97c-4f39-8277-905d516150ef",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:20.148Z"
+    },
+    {
+      "sourceId": "1c81493d-0845-47e1-85eb-5d196dc3d774",
+      "passageId": "07b61220-05a2-4f56-9dc5-802a24c25cf6",
+      "reviewId": "05225261-71bc-48c9-990c-c7b4588c97ff",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:53.901Z"
+    },
+    {
+      "sourceId": "6548f05c-58f0-4c42-b8f7-1662198ce548",
+      "passageId": "02fdfe34-cfa3-425e-8f31-c75c66de993c",
+      "reviewId": "4a311998-4b3f-412d-940d-31d61c205279",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:23.987Z"
+    },
+    {
+      "sourceId": "6548f05c-58f0-4c42-b8f7-1662198ce548",
+      "passageId": "00362713-cda4-4055-a056-cb2db67ee3a3",
+      "reviewId": "9a6683b2-f009-4b6d-91ff-5238aee8c040",
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T12:10:09.924Z"
+    }
+  ],
+  "replays": [
+    {
+      "passageId": "00362713-cda4-4055-a056-cb2db67ee3a3",
+      "reviewId": "9a6683b2-f009-4b6d-91ff-5238aee8c040",
+      "revision": 1,
+      "unchanged": true
+    },
+    {
+      "passageId": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+      "reviewId": "f1c5e5fc-9efa-4ebd-893c-39f29cfbe9b1",
+      "revision": 1,
+      "unchanged": true
+    },
+    {
+      "passageId": "089aacfc-c096-42c6-ba2a-a3b9e59befdc",
+      "reviewId": "f096815d-0d49-4ef7-8d69-246f4fe8e374",
+      "revision": 1,
+      "unchanged": true
+    }
+  ],
+  "nextPassageId": "00f0f9b8-802b-4476-968b-a6d437d7b8a7",
+  "nextCursor": "/api/archive/task?view=passages&unreviewed=true&limit=15&after=",
+  "records": [
+    {
+      "passageId": "00362713-cda4-4055-a056-cb2db67ee3a3",
+      "sourceId": "6548f05c-58f0-4c42-b8f7-1662198ce548",
+      "versionId": "a1c26902-e9ee-461f-9009-9dfc58f6e88b",
+      "sourceVersion": 1,
+      "locator": "동명 유래 > 방학동",
+      "fingerprint": "d3fc2864155413448c0ce9f8eb5e1171a070b7baa19b0e4bbab70e851de03f17",
+      "status": "content_checked",
+      "evidence": {
+        "sourceUrl": "https://tour.dobong.go.kr/Contents.asp?code=10001578",
+        "sourceLocator": "동명유래 > 방학동 > 유래설 첫 2문단과 행정 변천 문단",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "방학동 절에서 여러 유래설과 1963년 서울 편입 설명을 대조했다. 전설을 정설로 승격하지 않은 현재 요약과 부합한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "방학동과 방아골 표기를 해당 절에서 확인했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "행정 변천 문단에 1963년 서울시 성북구 편입이 명시됐다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "학과 지세 관련 이야기는 전설·유래설로, 방아골 설명은 다른 설로 병기해 한 가지 정설로 단정하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "이 원문 안의 설명과 기존 요약이 부합한다. 외부 사료의 독립 대조 완료를 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 원문의 복제·변형 허락은 미확인으로 유지. 기존 짧은 자체 재서술만 대조하며 보관·재사용 허용을 추가하지 않음."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관이 설명한 해당 구의 동네·지명 맥락에 한정. 법정동·행정동 및 옛 권역과 개별 건물·부지 동일성을 구분한다."
+          }
+        }
+      },
+      "reviewId": "9a6683b2-f009-4b6d-91ff-5238aee8c040",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:09.924Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "opened"
+    },
+    {
+      "passageId": "0058c299-f6b4-4656-8938-40694f8ace18",
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+      "sourceVersion": 1,
+      "locator": "동이름의 유래 > 신정동",
+      "fingerprint": "0fe0e6148e9f974a53595129264b69336d5585fab99a6ba6d24e270f48e33159",
+      "status": "content_checked",
+      "evidence": {
+        "sourceUrl": "https://www.mapo.go.kr/site/culture/content/culture0302",
+        "sourceLocator": "동이름의 유래 > 동부 > 신정동 단락",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "새우물 의미와 서강나루 선박 세금 관련 관청 터 설명이 기존 요약과 일치한다. 마포구 신정동으로 범위를 제한한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "신정동 절에서 새우물과 서강나루 관련 관청 설명을 확인했다."
+          },
+          "chronology": {
+            "result": "not_applicable",
+            "note": "현재 요약에는 특정 연도가 없어 별도 연대를 만들지 않았다."
+          },
+          "tradition": {
+            "result": "not_applicable",
+            "note": "현재 구간은 원문에 실린 지명·관청 설명의 요약이며 새 전승을 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 단락의 설명 수준에서 일치한다. 관청 터를 현존 건물이나 입력 필지로 연결하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 원문의 복제·변형 허락은 미확인으로 유지. 기존 짧은 자체 재서술만 대조하며 보관·재사용 허용을 추가하지 않음."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관이 설명한 해당 구의 동네·지명 맥락에 한정. 법정동·행정동 및 옛 권역과 개별 건물·부지 동일성을 구분한다."
+          }
+        }
+      },
+      "reviewId": "84b057fd-9aae-4ca8-943c-629046818373",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:13.261Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "opened"
+    },
+    {
+      "passageId": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+      "sourceId": "49bfa954-ee68-4046-bb46-23b1bd573aca",
+      "versionId": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+      "sourceVersion": 1,
+      "locator": "동 명칭 및 지명 유래 > 당산동 > 불탄 자리",
+      "fingerprint": "3172edcf0e8b43134071ad5de6e047cd42a6788b8eb1fb5a2fda66eadadc9c4d",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://www.ydp.go.kr/www/contents.do?key=2887",
+        "sourceLocator": "기존 등록 위치: 동 명칭 및 지명 유래 > 당산동 > 불탄 자리 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "f1c5e5fc-9efa-4ebd-893c-39f29cfbe9b1",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:17.343Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "HTTP_502_or_timeout"
+    },
+    {
+      "passageId": "029ba00c-8104-4e68-ad38-d8caedabc806",
+      "sourceId": "da5c5ada-4de7-43b5-8f5c-8367efca4a99",
+      "versionId": "71336c19-1c58-45d7-92d8-e0a52ac80f15",
+      "sourceVersion": 1,
+      "locator": "서울 지명사전 > 법정동 > 효자동(孝子洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0)",
+      "fingerprint": "975e0c37f21082b36e8fc0b972dcf8d14c0d9aac6eeca7c8c5f9b66b82d9e608",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%9A%A8%EC%9E%90%EB%8F%99",
+        "sourceLocator": "기존 등록 위치: 서울 지명사전 > 법정동 > 효자동(孝子洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "b15c75cf-c97c-4f39-8277-905d516150ef",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:20.148Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "not_accessible_via_retrieval_tool"
+    },
+    {
+      "passageId": "02fdfe34-cfa3-425e-8f31-c75c66de993c",
+      "sourceId": "6548f05c-58f0-4c42-b8f7-1662198ce548",
+      "versionId": "a1c26902-e9ee-461f-9009-9dfc58f6e88b",
+      "sourceVersion": 1,
+      "locator": "동명 유래 > 쌍문동",
+      "fingerprint": "04844f4be80bbc9248525b13bdd64cd9bbb81d1c71d220678fc692a956a58905",
+      "status": "content_checked",
+      "evidence": {
+        "sourceUrl": "https://tour.dobong.go.kr/Contents.asp?code=10001578",
+        "sourceLocator": "동명유래 > 쌍문동 > 첫 4개 유래설 문단",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "구청은 여러 유래 이야기를 나란히 소개한다. 기존 요약이 하나의 확정 유래로 단정하지 않아 원문의 전승 한정과 부합한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "쌍문동 절의 효자문 관련 이야기와 여러 대안 설명을 확인했다."
+          },
+          "chronology": {
+            "result": "not_applicable",
+            "note": "현재 구간에는 특정 연도가 없어 유래설을 연대가 확정된 사건으로 만들지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문이 여러 이야기를 전한다고 설명하므로 현재 요약의 전승·비단정 표현을 유지한다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "여러 유래설 병기 자체와 현재 요약을 대조했다. 어느 전승이 역사적 진실인지 판정하지 않았다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 원문의 복제·변형 허락은 미확인으로 유지. 기존 짧은 자체 재서술만 대조하며 보관·재사용 허용을 추가하지 않음."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관이 설명한 해당 구의 동네·지명 맥락에 한정. 법정동·행정동 및 옛 권역과 개별 건물·부지 동일성을 구분한다."
+          }
+        }
+      },
+      "reviewId": "4a311998-4b3f-412d-940d-31d61c205279",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:23.987Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "opened"
+    },
+    {
+      "passageId": "03602be0-3ae9-45ab-af5a-536e2404a67f",
+      "sourceId": "28c3a2e8-7a4a-49af-93f6-2ef53b3effbe",
+      "versionId": "2fef8c5a-0936-413d-88ee-7af77a919808",
+      "sourceVersion": 1,
+      "locator": "서울지명사전 > 법정동 > 동숭동(東崇洞) > 동명 유래·행정구역 연혁 / 본문 구간 (txt-box0)",
+      "fingerprint": "55f22a6c34f1743d5fb2ca29dcdca16704eff26fcd9c00459ce862b81c9759d9",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%8F%99%EC%88%AD%EB%8F%99",
+        "sourceLocator": "기존 등록 위치: 서울지명사전 > 법정동 > 동숭동(東崇洞) > 동명 유래·행정구역 연혁 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "45b07ec7-0a8d-4010-98b6-a824eaab9491",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:27.462Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "not_accessible_via_retrieval_tool"
+    },
+    {
+      "passageId": "03dd211e-e9fb-4ce0-8d5c-efb179af97a4",
+      "sourceId": "67a63162-0e3c-4255-9a55-fd0a0308df17",
+      "versionId": "e5b01767-4c92-4d6f-b317-d0b3df026530",
+      "sourceVersion": 1,
+      "locator": "서울지명사전 > 법정동 > 삼선동3가(三仙洞3街) > 말미 법정동 신설·삼선동3가 구분 위치 / 본문 구간 (txt-box0)",
+      "fingerprint": "3d9de689952283034d0563f193aa8cd758b3ddce12d89fedaba9b641ef39014d",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%82%BC%EC%84%A0%EB%8F%993%EA%B0%80",
+        "sourceLocator": "기존 등록 위치: 서울지명사전 > 법정동 > 삼선동3가(三仙洞3街) > 말미 법정동 신설·삼선동3가 구분 위치 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "10f32886-c925-4e4f-aa15-9a967d8b7c0a",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:30.196Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "not_accessible_via_retrieval_tool"
+    },
+    {
+      "passageId": "044c9fd2-e3e6-4724-a413-46bfe6365060",
+      "sourceId": "11ad709e-e01f-4418-807c-2e31c483014d",
+      "versionId": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+      "sourceVersion": 1,
+      "locator": "지명유래 > 용답동",
+      "fingerprint": "b2c9db9db70c666da6357a0265dcc1350ffd051edb3bbb9c132afb3b14a74e8f",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://sd.go.kr/tour/contents.do?key=1926",
+        "sourceLocator": "기존 등록 위치: 지명유래 > 용답동 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "efcb710b-79a0-4cd5-9881-90683141adbf",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:34.381Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "HTTP_502_or_timeout"
+    },
+    {
+      "passageId": "0530d93c-1e81-464f-9798-e1f6886bfb94",
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "versionId": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+      "sourceVersion": 1,
+      "locator": "동명 유래 > 신천동",
+      "fingerprint": "14ccb00fc13cfd63ab8d74d8650d8aed03e179928cdb9fc2c82825750e00187d",
+      "status": "content_checked",
+      "evidence": {
+        "sourceUrl": "https://www.songpa.go.kr/www/contents.do?key=2367",
+        "sourceLocator": "동명유래 > 신천동(新川洞) > 유래·1925년 대홍수 단락",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "신천·새내 명칭과 1925년 홍수·물길 변화에 대한 원문 설명이 현재 요약에 대응한다. 현대 경계나 개별 필지의 변화로 확대하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "송파구 신천동 절에서 새내와 신천 명칭을 확인했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "해당 단락에 1925년 대홍수가 명시돼 현재 요약의 연대와 맞는다."
+          },
+          "tradition": {
+            "result": "not_applicable",
+            "note": "이 구간은 해당 원문의 지명·홍수 설명을 요약하며 다른 전설을 사실로 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "제공기관 원문 설명과 요약의 일치를 확인했다. 수문·지형 변화를 별도 자료로 실증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 원문의 복제·변형 허락은 미확인으로 유지. 기존 짧은 자체 재서술만 대조하며 보관·재사용 허용을 추가하지 않음."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관이 설명한 해당 구의 동네·지명 맥락에 한정. 법정동·행정동 및 옛 권역과 개별 건물·부지 동일성을 구분한다."
+          }
+        }
+      },
+      "reviewId": "3a8df946-a68e-41ba-a8dc-caca48549a3d",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:37.591Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "opened"
+    },
+    {
+      "passageId": "05bb5e27-2e67-480c-bec6-7739138d06f8",
+      "sourceId": "174484e8-9842-43e8-8261-dbfe3ac59f85",
+      "versionId": "0957de5a-5ffb-48df-bcc9-2da9f95494da",
+      "sourceVersion": 1,
+      "locator": "서울 지명사전 > 법정동 > 장사동(長沙洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0)",
+      "fingerprint": "7423da9f561869da7c885ba85dd58f97954d0ceb34da51dee0a791a2e789d8b5",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9E%A5%EC%82%AC%EB%8F%99",
+        "sourceLocator": "기존 등록 위치: 서울 지명사전 > 법정동 > 장사동(長沙洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "99774571-778f-4187-8f50-287433f260b2",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:40.574Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "not_accessible_via_retrieval_tool"
+    },
+    {
+      "passageId": "06f984d5-7932-462e-9bed-289949de9905",
+      "sourceId": "10552854-b8dc-4a67-89c9-1be1d5e0dec1",
+      "versionId": "3583fea7-2364-4161-91fe-8ffa0b72b1c2",
+      "sourceVersion": 1,
+      "locator": "지역특성 > 봉천동 > 지명유래",
+      "fingerprint": "b5f6c2b7f06454857ba4519dd10071721daec3cb6027e4486fc4a1bbaa4bf364",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://www.gwanak.go.kr/site/gwanak/11/11101020000002016051207.jsp",
+        "sourceLocator": "기존 등록 위치: 지역특성 > 봉천동 > 지명유래 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "6c387ada-50c3-4d21-a257-d66099f824da",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:44.682Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "HTTP_502_or_timeout"
+    },
+    {
+      "passageId": "071098eb-e31e-4a08-8679-a3342a7ae44f",
+      "sourceId": "57cea7c5-0cdc-4064-936e-d5a79bc937b4",
+      "versionId": "6309bc9e-8c48-464e-b6a5-066fb1e0a2cd",
+      "sourceVersion": 1,
+      "locator": "법정동 분류 > 문래동6가(文來洞6街) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0)",
+      "fingerprint": "817ba949ba9f46cb91f3c6b4004eaa4e3c99a89a51d17777e664e1c176c6e058",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AC%B8%EB%9E%98%EB%8F%996%EA%B0%80",
+        "sourceLocator": "기존 등록 위치: 법정동 분류 > 문래동6가(文來洞6街) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "c15b1d4f-a355-49b1-a22b-1a25eb768238",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:50.459Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "not_accessible_via_retrieval_tool"
+    },
+    {
+      "passageId": "07b61220-05a2-4f56-9dc5-802a24c25cf6",
+      "sourceId": "1c81493d-0845-47e1-85eb-5d196dc3d774",
+      "versionId": "8d0807b2-57dc-4dea-a5b7-0bc7385c4939",
+      "sourceVersion": 1,
+      "locator": "우리동이야기 > 동 유래·동 역사 > 증산동",
+      "fingerprint": "46ddd0fa3a93497ad4b2c65d63073159d3c525493c5ed9feea9209fb73a7861d",
+      "status": "content_checked",
+      "evidence": {
+        "sourceUrl": "https://www.ep.go.kr/dong/contents.do?key=4348",
+        "sourceLocator": "우리동이야기 > 지명유래 > 증산동 > 동 유래 단락",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "산 모양·물 빠짐의 두 설명과 한자 표기 변경 이야기가 함께 제시된다. 이를 전승으로 소개하는 현재 요약과 부합한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "증산동·시루뫼와 한자 표기 설명을 동 유래 단락에서 확인했다."
+          },
+          "chronology": {
+            "result": "not_applicable",
+            "note": "현재 요약은 한자 변경의 정확한 연대를 주장하지 않아 새 연대를 부여하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문은 일설·전해진다는 한정을 사용하며, 현재 요약도 이를 이야기·전승으로 구분한다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "원문의 복수 유래설을 하나의 정설로 축소하지 않았음을 확인했다. 독립 사료 대조는 별도다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 원문의 복제·변형 허락은 미확인으로 유지. 기존 짧은 자체 재서술만 대조하며 보관·재사용 허용을 추가하지 않음."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관이 설명한 해당 구의 동네·지명 맥락에 한정. 법정동·행정동 및 옛 권역과 개별 건물·부지 동일성을 구분한다."
+          }
+        }
+      },
+      "reviewId": "05225261-71bc-48c9-990c-c7b4588c97ff",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:53.901Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "opened"
+    },
+    {
+      "passageId": "07e1c8f0-7b31-4ede-9fcc-2f8203f1df93",
+      "sourceId": "4d79ef8c-600c-4b16-af0f-4fdf4d59416f",
+      "versionId": "83e11cb1-a7ea-462a-aa5d-ca3d4b1ee946",
+      "sourceVersion": 1,
+      "locator": "법정동 명칭검색 «순화동» > 순화동(巡和洞) > 연혁 문단 / 본문 구간 (txt-box0)",
+      "fingerprint": "c9d7f39a2b34bb18d35f0cd1862352d707c277cf76ccfeb6cfcee9259e72ffbf",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%88%9C%ED%99%94%EB%8F%99",
+        "sourceLocator": "기존 등록 위치: 법정동 명칭검색 «순화동» > 순화동(巡和洞) > 연혁 문단 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "88a5fe8a-f5b7-414f-aa5f-6029f7d446fc",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:57.107Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "not_accessible_via_retrieval_tool"
+    },
+    {
+      "passageId": "089aacfc-c096-42c6-ba2a-a3b9e59befdc",
+      "sourceId": "11ad709e-e01f-4418-807c-2e31c483014d",
+      "versionId": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+      "sourceVersion": 1,
+      "locator": "지명유래 > 금호동(1·2·3·4가동)",
+      "fingerprint": "7bae475b10310c457a34c0afefdbf062e71bc290ec0609a21161b9d4e45440f7",
+      "status": "needs_review",
+      "evidence": {
+        "sourceUrl": "https://sd.go.kr/tour/contents.do?key=1926",
+        "sourceLocator": "기존 등록 위치: 지명유래 > 금호동(1·2·3·4가동) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T12:04:11Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "해당 구의 동네·옛 지명 설명에 한정하며 현행 법정동 경계·개별 주소·건물·부지 관계의 검증은 수행하지 않았다.",
+        "summary": "공식 원문 재접속이 실패해 명칭·연대·전승·상충의 재대조를 보류했다. 기존 문장의 진위를 판정하거나 본문을 삭제·수정하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "이번 실행에서 제공기관 본문을 열람하지 못해 대조하지 않음. 기존 기록은 보존하고 원문 재확인 필요."
+          }
+        }
+      },
+      "reviewId": "f096815d-0d49-4ef7-8d69-246f4fe8e374",
+      "revision": 1,
+      "checkedAt": "2026-10-21T12:10:59.976Z",
+      "actor": "scheduled-private-service",
+      "originalAccess": "HTTP_502_or_timeout"
+    }
+  ],
+  "failures": {
+    "productionWrites": 0,
+    "originalAccessPending": 10,
+    "browserVisualQA": "unverified: managed preview could not start while an existing unrelated dev server occupied the environment"
+  },
+  "scope": "Existing own paraphrases compared with named official passages; neighborhood context only. Unknown original/media licenses remain unknown; no source originals or files were re-ingested.",
+  "nextPhase": "review",
+  "phaseStatus": "ready",
+  "allPlanCriteriaComplete": false
+}

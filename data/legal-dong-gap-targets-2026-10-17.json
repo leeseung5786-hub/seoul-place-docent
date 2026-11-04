@@ -1,0 +1,1301 @@
+{
+  "baseline": {
+    "sources": 266,
+    "passages": 380,
+    "dongsWithText": 209,
+    "legalDongNames": 467
+  },
+  "note": "운영 coverage API에서 본문0인 명칭 기준 대상. 현행 공식코드 전체대조·경계검증 완료를 뜻하지 않음.",
+  "targets": [
+    {
+      "id": "dong-종로구-가회동",
+      "name": "가회동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-견지동",
+      "name": "견지동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-경운동",
+      "name": "경운동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-공평동",
+      "name": "공평동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-관수동",
+      "name": "관수동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-관철동",
+      "name": "관철동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-관훈동",
+      "name": "관훈동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-광희동1가",
+      "name": "광희동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-광희동2가",
+      "name": "광희동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-구기동",
+      "name": "구기동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-궁정동",
+      "name": "궁정동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-권농동",
+      "name": "권농동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-성동구-금호동1가",
+      "name": "금호동1가",
+      "parent_id": "gu-성동구"
+    },
+    {
+      "id": "dong-성동구-금호동2가",
+      "name": "금호동2가",
+      "parent_id": "gu-성동구"
+    },
+    {
+      "id": "dong-성동구-금호동3가",
+      "name": "금호동3가",
+      "parent_id": "gu-성동구"
+    },
+    {
+      "id": "dong-성동구-금호동4가",
+      "name": "금호동4가",
+      "parent_id": "gu-성동구"
+    },
+    {
+      "id": "dong-중구-남대문로1가",
+      "name": "남대문로1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-남대문로2가",
+      "name": "남대문로2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-남대문로3가",
+      "name": "남대문로3가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-남대문로4가",
+      "name": "남대문로4가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-남대문로5가",
+      "name": "남대문로5가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-남산동1가",
+      "name": "남산동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-남산동2가",
+      "name": "남산동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-남산동3가",
+      "name": "남산동3가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-남창동",
+      "name": "남창동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-남학동",
+      "name": "남학동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-서대문구-냉천동",
+      "name": "냉천동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-마포구-노고산동",
+      "name": "노고산동",
+      "parent_id": "gu-마포구"
+    },
+    {
+      "id": "dong-강남구-논현동",
+      "name": "논현동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-종로구-누상동",
+      "name": "누상동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-누하동",
+      "name": "누하동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-다동",
+      "name": "다동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-영등포구-당산동2가",
+      "name": "당산동2가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-당산동3가",
+      "name": "당산동3가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-당산동4가",
+      "name": "당산동4가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-당산동5가",
+      "name": "당산동5가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-당산동6가",
+      "name": "당산동6가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-종로구-당주동",
+      "name": "당주동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-서대문구-대신동",
+      "name": "대신동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-강남구-대치동",
+      "name": "대치동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-서대문구-대현동",
+      "name": "대현동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-강남구-도곡동",
+      "name": "도곡동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-종로구-도렴동",
+      "name": "도렴동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-용산구-도원동",
+      "name": "도원동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-종로구-돈의동",
+      "name": "돈의동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-용산구-동빙고동",
+      "name": "동빙고동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-성북구-동선동1가",
+      "name": "동선동1가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동선동2가",
+      "name": "동선동2가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동선동3가",
+      "name": "동선동3가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동선동4가",
+      "name": "동선동4가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동선동5가",
+      "name": "동선동5가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동소문동1가",
+      "name": "동소문동1가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동소문동2가",
+      "name": "동소문동2가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동소문동3가",
+      "name": "동소문동3가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동소문동4가",
+      "name": "동소문동4가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동소문동5가",
+      "name": "동소문동5가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동소문동6가",
+      "name": "동소문동6가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-동소문동7가",
+      "name": "동소문동7가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-종로구-동숭동",
+      "name": "동숭동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-동작구-동작동",
+      "name": "동작동",
+      "parent_id": "gu-동작구"
+    },
+    {
+      "id": "dong-중구-만리동1가",
+      "name": "만리동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-만리동2가",
+      "name": "만리동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-명동1가",
+      "name": "명동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-명동2가",
+      "name": "명동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-명륜1가",
+      "name": "명륜1가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-명륜2가",
+      "name": "명륜2가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-명륜3가",
+      "name": "명륜3가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-명륜4가",
+      "name": "명륜4가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-묘동",
+      "name": "묘동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-무교동",
+      "name": "무교동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-무악동",
+      "name": "무악동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-무학동",
+      "name": "무학동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-묵정동",
+      "name": "묵정동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-영등포구-문래동1가",
+      "name": "문래동1가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-문래동2가",
+      "name": "문래동2가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-문래동3가",
+      "name": "문래동3가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-문래동5가",
+      "name": "문래동5가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-문래동6가",
+      "name": "문래동6가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-용산구-문배동",
+      "name": "문배동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-서대문구-미근동",
+      "name": "미근동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-중구-방산동",
+      "name": "방산동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-성북구-보문동1가",
+      "name": "보문동1가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-보문동2가",
+      "name": "보문동2가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-보문동3가",
+      "name": "보문동3가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-보문동4가",
+      "name": "보문동4가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-보문동5가",
+      "name": "보문동5가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-보문동6가",
+      "name": "보문동6가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-보문동7가",
+      "name": "보문동7가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-동작구-본동",
+      "name": "본동",
+      "parent_id": "gu-동작구"
+    },
+    {
+      "id": "dong-중구-봉래동1가",
+      "name": "봉래동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-봉래동2가",
+      "name": "봉래동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-서대문구-봉원동",
+      "name": "봉원동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-종로구-봉익동",
+      "name": "봉익동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-부암동",
+      "name": "부암동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-북창동",
+      "name": "북창동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-사직동",
+      "name": "사직동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-산림동",
+      "name": "산림동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-삼각동",
+      "name": "삼각동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-성북구-삼선동1가",
+      "name": "삼선동1가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-삼선동2가",
+      "name": "삼선동2가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-삼선동3가",
+      "name": "삼선동3가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-삼선동4가",
+      "name": "삼선동4가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-삼선동5가",
+      "name": "삼선동5가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-강남구-삼성동",
+      "name": "삼성동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-종로구-삼청동",
+      "name": "삼청동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-동작구-상도1동",
+      "name": "상도1동",
+      "parent_id": "gu-동작구"
+    },
+    {
+      "id": "dong-성북구-상월곡동",
+      "name": "상월곡동",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-용산구-서계동",
+      "name": "서계동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-서빙고동",
+      "name": "서빙고동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-중구-서소문동",
+      "name": "서소문동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-성북구-성북동1가",
+      "name": "성북동1가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-종로구-세종로",
+      "name": "세종로",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-소공동",
+      "name": "소공동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-송월동",
+      "name": "송월동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-송현동",
+      "name": "송현동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-강남구-수서동",
+      "name": "수서동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-종로구-수송동",
+      "name": "수송동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-수표동",
+      "name": "수표동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-수하동",
+      "name": "수하동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-순화동",
+      "name": "순화동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-숭인동",
+      "name": "숭인동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-용산구-신계동",
+      "name": "신계동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-종로구-신교동",
+      "name": "신교동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-신문로1가",
+      "name": "신문로1가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-신문로2가",
+      "name": "신문로2가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-강남구-신사동",
+      "name": "신사동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-종로구-신영동",
+      "name": "신영동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-쌍림동",
+      "name": "쌍림동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-안국동",
+      "name": "안국동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-성북구-안암동1가",
+      "name": "안암동1가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-안암동2가",
+      "name": "안암동2가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-안암동3가",
+      "name": "안암동3가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-안암동4가",
+      "name": "안암동4가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-성북구-안암동5가",
+      "name": "안암동5가",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-강남구-압구정동",
+      "name": "압구정동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-영등포구-양평동1가",
+      "name": "양평동1가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-양평동2가",
+      "name": "양평동2가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-양평동3가",
+      "name": "양평동3가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-양평동4가",
+      "name": "양평동4가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-양평동5가",
+      "name": "양평동5가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-양평동6가",
+      "name": "양평동6가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-여의도동",
+      "name": "여의도동",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-강남구-역삼동",
+      "name": "역삼동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-종로구-연건동",
+      "name": "연건동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-연지동",
+      "name": "연지동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-영등포구-영등포동1가",
+      "name": "영등포동1가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-영등포동2가",
+      "name": "영등포동2가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-영등포동3가",
+      "name": "영등포동3가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-영등포동4가",
+      "name": "영등포동4가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-영등포동5가",
+      "name": "영등포동5가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-영등포동6가",
+      "name": "영등포동6가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-영등포동7가",
+      "name": "영등포동7가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-영등포구-영등포동8가",
+      "name": "영등포동8가",
+      "parent_id": "gu-영등포구"
+    },
+    {
+      "id": "dong-서대문구-영천동",
+      "name": "영천동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-중구-예관동",
+      "name": "예관동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-예장동",
+      "name": "예장동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-예지동",
+      "name": "예지동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-오장동",
+      "name": "오장동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-옥인동",
+      "name": "옥인동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-서대문구-옥천동",
+      "name": "옥천동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-종로구-와룡동",
+      "name": "와룡동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-용산구-용문동",
+      "name": "용문동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-용산동1가",
+      "name": "용산동1가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-용산동3가",
+      "name": "용산동3가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-용산동4가",
+      "name": "용산동4가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-용산동5가",
+      "name": "용산동5가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-용산동6가",
+      "name": "용산동6가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-종로구-운니동",
+      "name": "운니동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-원남동",
+      "name": "원남동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-원서동",
+      "name": "원서동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-용산구-원효로1가",
+      "name": "원효로1가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-원효로2가",
+      "name": "원효로2가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-중구-을지로1가",
+      "name": "을지로1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-을지로2가",
+      "name": "을지로2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-을지로3가",
+      "name": "을지로3가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-을지로4가",
+      "name": "을지로4가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-을지로5가",
+      "name": "을지로5가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-을지로6가",
+      "name": "을지로6가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-을지로7가",
+      "name": "을지로7가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-의주로1가",
+      "name": "의주로1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-의주로2가",
+      "name": "의주로2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-용산구-이촌동",
+      "name": "이촌동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-이태원동",
+      "name": "이태원동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-종로구-이화동",
+      "name": "이화동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-익선동",
+      "name": "익선동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-인사동",
+      "name": "인사동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-인의동",
+      "name": "인의동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-인현동1가",
+      "name": "인현동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-인현동2가",
+      "name": "인현동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-강남구-일원동",
+      "name": "일원동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-중구-입정동",
+      "name": "입정동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-강남구-자곡동",
+      "name": "자곡동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-중구-장교동",
+      "name": "장교동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-장사동",
+      "name": "장사동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-장충동1가",
+      "name": "장충동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-장충동2가",
+      "name": "장충동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-재동",
+      "name": "재동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-저동1가",
+      "name": "저동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-저동2가",
+      "name": "저동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-정동",
+      "name": "정동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-종로1가",
+      "name": "종로1가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-종로2가",
+      "name": "종로2가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-종로3가",
+      "name": "종로3가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-종로4가",
+      "name": "종로4가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-종로5가",
+      "name": "종로5가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-종로6가",
+      "name": "종로6가",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-주교동",
+      "name": "주교동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-용산구-주성동",
+      "name": "주성동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-중구-주자동",
+      "name": "주자동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-중학동",
+      "name": "중학동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-창성동",
+      "name": "창성동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-창신동",
+      "name": "창신동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-서대문구-창천동",
+      "name": "창천동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-강남구-청담동",
+      "name": "청담동",
+      "parent_id": "gu-강남구"
+    },
+    {
+      "id": "dong-종로구-청운동",
+      "name": "청운동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-청진동",
+      "name": "청진동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-용산구-청파동1가",
+      "name": "청파동1가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-청파동2가",
+      "name": "청파동2가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-청파동3가",
+      "name": "청파동3가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-중구-초동",
+      "name": "초동",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-충무로1가",
+      "name": "충무로1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-충무로2가",
+      "name": "충무로2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-충무로3가",
+      "name": "충무로3가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-충무로4가",
+      "name": "충무로4가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-충무로5가",
+      "name": "충무로5가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-충신동",
+      "name": "충신동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-충정로1가",
+      "name": "충정로1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-태평로1가",
+      "name": "태평로1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-태평로2가",
+      "name": "태평로2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-통의동",
+      "name": "통의동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-통인동",
+      "name": "통인동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-팔판동",
+      "name": "팔판동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-평동",
+      "name": "평동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-평창동",
+      "name": "평창동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-필동1가",
+      "name": "필동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-필동2가",
+      "name": "필동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-필동3가",
+      "name": "필동3가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-필운동",
+      "name": "필운동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-성북구-하월곡동",
+      "name": "하월곡동",
+      "parent_id": "gu-성북구"
+    },
+    {
+      "id": "dong-용산구-한강로1가",
+      "name": "한강로1가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-한강로2가",
+      "name": "한강로2가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-한강로3가",
+      "name": "한강로3가",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-용산구-한남동",
+      "name": "한남동",
+      "parent_id": "gu-용산구"
+    },
+    {
+      "id": "dong-서대문구-합동",
+      "name": "합동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-종로구-행촌동",
+      "name": "행촌동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-서대문구-현저동",
+      "name": "현저동",
+      "parent_id": "gu-서대문구"
+    },
+    {
+      "id": "dong-종로구-혜화동",
+      "name": "혜화동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-성동구-홍익동",
+      "name": "홍익동",
+      "parent_id": "gu-성동구"
+    },
+    {
+      "id": "dong-종로구-홍지동",
+      "name": "홍지동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-홍파동",
+      "name": "홍파동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-화동",
+      "name": "화동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-회현동1가",
+      "name": "회현동1가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-회현동2가",
+      "name": "회현동2가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-중구-회현동3가",
+      "name": "회현동3가",
+      "parent_id": "gu-중구"
+    },
+    {
+      "id": "dong-종로구-효자동",
+      "name": "효자동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-효제동",
+      "name": "효제동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-종로구-훈정동",
+      "name": "훈정동",
+      "parent_id": "gu-종로구"
+    },
+    {
+      "id": "dong-중구-흥인동",
+      "name": "흥인동",
+      "parent_id": "gu-중구"
+    }
+  ]
+}

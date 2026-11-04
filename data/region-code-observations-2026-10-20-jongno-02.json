@@ -1,0 +1,347 @@
+{
+  "date": "2026-10-20",
+  "phase": "regions",
+  "batch": "regions-20261020-jongno-02",
+  "before": {
+    "total": 467,
+    "withCode": 52,
+    "reviewed": 50,
+    "addressObserved": 50,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "after": {
+    "total": 467,
+    "withCode": 89,
+    "reviewed": 87,
+    "addressObserved": 87,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "results": [
+    {
+      "id": "dong-종로구-운니동",
+      "code": "1111013200",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:42.713Z"
+    },
+    {
+      "id": "dong-종로구-원남동",
+      "code": "1111015900",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:44.781Z"
+    },
+    {
+      "id": "dong-종로구-원서동",
+      "code": "1111014900",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:45.840Z"
+    },
+    {
+      "id": "dong-종로구-이화동",
+      "code": "1111016500",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:46.888Z"
+    },
+    {
+      "id": "dong-종로구-익선동",
+      "code": "1111013300",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:47.926Z"
+    },
+    {
+      "id": "dong-종로구-인사동",
+      "code": "1111013600",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:48.970Z"
+    },
+    {
+      "id": "dong-종로구-인의동",
+      "code": "1111015700",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:50.008Z"
+    },
+    {
+      "id": "dong-종로구-장사동",
+      "code": "1111015400",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:51.229Z"
+    },
+    {
+      "id": "dong-종로구-재동",
+      "code": "1111014700",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:52.231Z"
+    },
+    {
+      "id": "dong-종로구-적선동",
+      "code": "1111010700",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:53.218Z"
+    },
+    {
+      "id": "dong-종로구-종로1가",
+      "code": "1111012600",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:54.216Z"
+    },
+    {
+      "id": "dong-종로구-종로2가",
+      "code": "1111013800",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:55.205Z"
+    },
+    {
+      "id": "dong-종로구-종로3가",
+      "code": "1111015600",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:56.330Z"
+    },
+    {
+      "id": "dong-종로구-종로4가",
+      "code": "1111016100",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:57.309Z"
+    },
+    {
+      "id": "dong-종로구-종로5가",
+      "code": "1111016300",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:58.334Z"
+    },
+    {
+      "id": "dong-종로구-종로6가",
+      "code": "1111016400",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:14:59.311Z"
+    },
+    {
+      "id": "dong-종로구-중학동",
+      "code": "1111012500",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:00.339Z"
+    },
+    {
+      "id": "dong-종로구-창성동",
+      "code": "1111010500",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:01.429Z"
+    },
+    {
+      "id": "dong-종로구-창신동",
+      "code": "1111017400",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:03.246Z"
+    },
+    {
+      "id": "dong-종로구-청운동",
+      "code": "1111010100",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:05.364Z"
+    },
+    {
+      "id": "dong-종로구-청진동",
+      "code": "1111012200",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:06.358Z"
+    },
+    {
+      "id": "dong-종로구-체부동",
+      "code": "1111011200",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:07.397Z"
+    },
+    {
+      "id": "dong-종로구-충신동",
+      "code": "1111016700",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:08.516Z"
+    },
+    {
+      "id": "dong-종로구-통의동",
+      "code": "1111010600",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:09.572Z"
+    },
+    {
+      "id": "dong-종로구-통인동",
+      "code": "1111010800",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:10.639Z"
+    },
+    {
+      "id": "dong-종로구-팔판동",
+      "code": "1111013900",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:11.658Z"
+    },
+    {
+      "id": "dong-종로구-평동",
+      "code": "1111017700",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:12.612Z"
+    },
+    {
+      "id": "dong-종로구-평창동",
+      "code": "1111018300",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:13.873Z"
+    },
+    {
+      "id": "dong-종로구-필운동",
+      "code": "1111011300",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:14.864Z"
+    },
+    {
+      "id": "dong-종로구-행촌동",
+      "code": "1111018100",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:15.833Z"
+    },
+    {
+      "id": "dong-종로구-혜화동",
+      "code": "1111016900",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:16.858Z"
+    },
+    {
+      "id": "dong-종로구-홍지동",
+      "code": "1111018500",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:17.867Z"
+    },
+    {
+      "id": "dong-종로구-홍파동",
+      "code": "1111017900",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:18.817Z"
+    },
+    {
+      "id": "dong-종로구-화동",
+      "code": "1111014300",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:19.804Z"
+    },
+    {
+      "id": "dong-종로구-효자동",
+      "code": "1111010400",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:20.805Z"
+    },
+    {
+      "id": "dong-종로구-효제동",
+      "code": "1111016200",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:21.748Z"
+    },
+    {
+      "id": "dong-종로구-훈정동",
+      "code": "1111015000",
+      "revision": 1,
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T03:15:22.774Z"
+    }
+  ],
+  "failures": [],
+  "readBack": 37,
+  "replaysUnchanged": [
+    "dong-종로구-운니동",
+    "dong-종로구-원남동",
+    "dong-종로구-원서동"
+  ],
+  "immutableFieldsPreserved": true,
+  "unselectedRegionsUnchanged": true,
+  "archiveCountsUnchanged": {
+    "sources": 524,
+    "passages": 638,
+    "assets": 20,
+    "facts": 21,
+    "versions": 524,
+    "dongs": 467
+  },
+  "remainingCount": 380,
+  "nextCandidates": [
+    "dong-강남구-개포동",
+    "dong-강남구-논현동",
+    "dong-강남구-대치동",
+    "dong-강남구-도곡동",
+    "dong-강남구-삼성동",
+    "dong-강남구-세곡동",
+    "dong-강남구-수서동",
+    "dong-강남구-신사동",
+    "dong-강남구-압구정동",
+    "dong-강남구-역삼동"
+  ],
+  "officialAddressEvidence": {
+    "url": "https://business.juso.go.kr/addrlink/addrLinkApi.do",
+    "locator": "results.juso[].siNm·sggNm·emdNm·admCd 및 roadAddr·jibunAddr",
+    "checkedDate": "2026-10-20",
+    "storage": "운영 archive_region_reviews.evidence와 archive_audit. 인증값·선택 토큰 미보관."
+  },
+  "lifecycleEvidence": {
+    "url": "https://www.code.go.kr/stdcode/regCodeL.do",
+    "alsoTried": "https://code.go.kr/stdcode/regCodeL.do",
+    "checkedDate": "2026-10-20",
+    "result": "direct_http_503",
+    "webPage": "공식 목록 첫 화면만 웹 열람. 개별 항목의 현존·폐지 결과를 확인하지 못함.",
+    "status": "not_checked"
+  },
+  "checks": {
+    "tests": 94,
+    "command": "node --experimental-transform-types --import ./tests/ts-resolver.mjs --test --test-isolation=none --test-reporter=spec tests/*.test.mjs",
+    "typecheck": "passed",
+    "build": "not_run_no_application_source_change",
+    "coverage": {
+      "legalDongs": 467,
+      "linkedLegalDongs": 467,
+      "emptyDongs": 0,
+      "jongnoReviewed": 87
+    },
+    "access": "owner_only_custom_unchanged"
+  },
+  "limitations": [
+    "주소 응답 관측은 공식 생성·폐지 상태 확인·역사본문 검토·주소/필지 관계 검증이 아니다.",
+    "공식 현존·폐지 조회 직접 연결 HTTP503. 조회화면 열람과 개별 결과 확인을 구분한다.",
+    "초기 네트워크 프록시/직접 DNS 접속 오류는 지원된 실행 경로와 프록시를 사용하는 표준 HTTP 클라이언트로 복구했다.",
+    "첫 테스트 명령은 TS 변환 옵션 누락으로 실패했다. 옵션·test-isolation을 맞춘 전체 테스트 94개는 통과했다.",
+    "기존 소스 파일의 문서와 처리 영수증만 추가하며 운영 데이터 변경을 위한 재배포는 하지 않는다."
+  ],
+  "nextCursor": "regions: review_revision=0 중 gu-강남구/개포동부터 정렬된 다음 25~50개 주소 응답 대조. 기존 코드가 있는 2개도 미대조면 포함. 전체 미대조 380개. 종로구 87개 포함 공식 현존·폐지 상태는 계속 별도 미확인; 지역 정비 미완료이므로 본문 검토로 이동하지 않음."
+}

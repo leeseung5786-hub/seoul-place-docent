@@ -1,0 +1,14 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {ArrowUpRight,Info} from 'lucide-react';
+
+type Check={result:string;note:string};
+type Review={passageId:string;locator:string;revision:number;status:string;active:boolean;checkedAt:string;evidence:{sourceUrl:string;sourceLocator:string;observedAt:string;classification:string;summary:string;spatialScope?:'neighborhood'|'district';scopeNote:string;checks:Record<string,Check>}};
+const dimensions:Record<string,string>={names:'명칭',chronology:'연대',tradition:'전승·추정',consistency:'상충 여부',rights:'이용조건',spatial:'공간 범위'};
+const classifications:Record<string,string>={factual:'원문에 명시된 설명',tradition:'전승·유래설',mixed:'사실 설명과 전승 혼합',inference:'추정·해석',conflict:'상충',unconfirmed:'확인 보류'};
+export default function ArchivePassageReviews({sourceId,refresh}:{sourceId:string;refresh:number}){
+ const [items,setItems]=useState<Review[]>([]),[error,setError]=useState(''),[loading,setLoading]=useState(true),[truncated,setTruncated]=useState(false);
+ useEffect(()=>{const controller=new AbortController();setLoading(true);setItems([]);setError('');fetch('/api/archive/passage-reviews?'+new URLSearchParams({sourceId}),{signal:controller.signal,cache:'no-store'}).then(async r=>{const d=await r.json() as {items:Review[];truncated:boolean;error?:{message?:string}};if(!r.ok)throw Error(d.error?.message||'검토 기록 조회 실패');if(!controller.signal.aborted){setItems(d.items);setTruncated(d.truncated);}}).catch(e=>{if(!controller.signal.aborted)setError(e.message);}).finally(()=>{if(!controller.signal.aborted)setLoading(false);});return()=>controller.abort();},[sourceId,refresh]);
+ return <section className="archive-capture-evidence"><h3>본문 검토 기록</h3><p className="archive-muted">원문 확보와 내용 대조를 구분합니다. 검토 기록이 있어도 전승·추정이 사실로 확정되거나 건물·부지 연결, 원문 재사용이 허용되는 것은 아닙니다.</p>
+ {loading?<p role="status">검토 기록 확인 중입니다.</p>:error?<p role="alert"><Info size={14}/>{error}</p>:!items.length?<p>아직 원문 대조 검토가 등록되지 않았습니다.</p>:items.map(r=><details key={r.passageId}><summary>{!r.active?'자료 변경 · 재검토 필요':r.status==='content_checked'?'원문 대조 완료':'재검토 필요'} · {r.locator}</summary><p><b>{classifications[r.evidence.classification]||'분류 미확인'}</b> · {new Date(r.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})}</p><p>{r.evidence.summary}</p><dl className="archive-definition"><div><dt>원문 위치</dt><dd><a href={r.evidence.sourceUrl} target="_blank" rel="noopener noreferrer">{r.evidence.sourceLocator}<ArrowUpRight size={12}/></a></dd></div><div><dt>원문 확인일</dt><dd>{r.evidence.observedAt.slice(0,10)}</dd></div>{Object.entries(r.evidence.checks).map(([key,c])=><div key={key}><dt>{dimensions[key]||key}</dt><dd>{c.result==='unresolved'?'미해결 · ':c.result==='not_applicable'?'해당 없음 · ':''}{c.note}</dd></div>)}<div><dt>공간 범위</dt><dd>{r.evidence.spatialScope==='district'?'자치구 전체 맥락 · ':''}{r.evidence.scopeNote}</dd></div></dl></details>)}{truncated&&<p>검토 기록은 앞의 200개까지 표시했습니다.</p>}</section>;
+}

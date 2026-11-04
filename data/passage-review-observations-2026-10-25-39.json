@@ -1,0 +1,2633 @@
+{
+  "batchId": "passage-review-20261025-39",
+  "phase": "review",
+  "sourceOpeningCommit": "f9c90a3429f4308e3463b1d1b7c4852f4e68ed1e",
+  "sourceOpenedThroughSitesWorkflow": true,
+  "startedAt": "2026-10-25T08:05:26.623268+00:00",
+  "checkedAt": "2026-10-25T08:15:52.056180+00:00",
+  "before": {
+    "currentPassages": 638,
+    "reviewed": 638,
+    "contentChecked": 616,
+    "needsReview": 22,
+    "unreviewed": 0,
+    "remaining": 22
+  },
+  "after": {
+    "currentPassages": 638,
+    "reviewed": 638,
+    "contentChecked": 621,
+    "needsReview": 17,
+    "unreviewed": 0,
+    "remaining": 17
+  },
+  "regionVerification": {
+    "total": 467,
+    "withCode": 467,
+    "reviewed": 467,
+    "addressObserved": 464,
+    "addressUnconfirmed": 3,
+    "officialCodeOnly": 3,
+    "lifecycleChecked": 467,
+    "verifiedCurrent": 467,
+    "verifiedAbolished": 0,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "activeSiteVersion": 39,
+  "siteAccess": {
+    "ownerOnly": true,
+    "version": 39,
+    "revision": 1,
+    "owners": 1,
+    "otherUsers": 0,
+    "editors": 0,
+    "groups": 0,
+    "externalVisitors": 0,
+    "checkedAt": "2026-10-25 08:14:17 UTC"
+  },
+  "attempts": [
+    {
+      "passageId": "ae97e670-53ff-4641-9311-05ad0ff1cfed",
+      "sourceId": "07f04f42-8d4e-4092-96da-b8c49ad4fe5a",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=169",
+      "label": "서린동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 > 첫 문장 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 > 첫 문장 / 등록 원문 접근 재시도",
+      "versionId": "ac5ce156-3cf6-49ad-a8aa-497fa9afe649",
+      "sourceVersion": 1,
+      "textKind": "quotation",
+      "fingerprintBefore": "7da7c743e139bf38c682a80854713a65f905644bbacf6065004dd384702f0e11",
+      "fingerprintAfter": "7da7c743e139bf38c682a80854713a65f905644bbacf6065004dd384702f0e11",
+      "reviewIdBefore": "95446606-dbad-405d-937a-7b881fd8a7bf",
+      "reviewIdAfter": "95446606-dbad-405d-937a-7b881fd8a7bf",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 폐지·지명 부재로 단정하지 않으며 현행 경계·개별 건물/필지 동일성·이용조건을 새로 승인하지 않는다.",
+      "reviewObservedAtBefore": "2026-10-24T02:08:34.342937+00:00",
+      "reviewObservedAtAfter": "2026-10-24T02:08:34.342937+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-a279eeeb6c12d101a05d78d9ffc82385d9c2ef69fccab44f054ac996ae80e776"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:01.353Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:01.933Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "ae97e670-53ff-4641-9311-05ad0ff1cfed",
+        "reviewId": "95446606-dbad-405d-937a-7b881fd8a7bf"
+      }
+    },
+    {
+      "passageId": "aef5f9f6-159f-4fb4-a9d2-415ab66f7798",
+      "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+      "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "label": "신창동",
+      "sourceLocatorBefore": "동유래 > 신창동 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "동유래 > 마지막 신창동 문단(조선시대 신창 및1946.10.1 청수정→신창동) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+      "versionId": "c6a6f322-e39b-4565-9113-f4c11c57b4be",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "b80d2ae43fcbdd0029d23eba4fb2b6f770bbaba99065c937a3fe0f212c5e32ef",
+      "fingerprintAfter": "b80d2ae43fcbdd0029d23eba4fb2b6f770bbaba99065c937a3fe0f212c5e32ef",
+      "reviewIdBefore": "3ef54ba9-a593-4df8-99bb-1e932e589f46",
+      "reviewIdAfter": "caaf80f2-ceff-43a8-9f71-d1e429756c78",
+      "revisionBefore": 3,
+      "revisionAfter": 4,
+      "statusBefore": "needs_review",
+      "statusAfter": "content_checked",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "mixed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+      "reviewObservedAtBefore": "2026-10-24T02:08:34.582173+00:00",
+      "reviewObservedAtAfter": "2026-10-25T08:07:05.594Z",
+      "sourceHashAfter": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+      "originalObservationIds": [
+        "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:05.386Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:05.594Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "completed_after_original_recovery",
+      "reviewInput": {
+        "passageId": "aef5f9f6-159f-4fb4-a9d2-415ab66f7798",
+        "expectedRevision": 3,
+        "expectedFingerprint": "b80d2ae43fcbdd0029d23eba4fb2b6f770bbaba99065c937a3fe0f212c5e32ef",
+        "status": "content_checked",
+        "evidence": {
+          "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+          "sourceLocator": "동유래 > 마지막 신창동 문단(조선시대 신창 및1946.10.1 청수정→신창동) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+          "observedAt": "2026-10-25T08:07:05.594Z",
+          "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+          "classification": "mixed",
+          "spatialScope": "neighborhood",
+          "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+          "summary": "원효로2동 전체 본문에서 신창동 문단을 읽고, 신창 시설과 관련된 지명 설명 및1946년 청수정에서 신창동으로의 개칭을 선택 요약과 대조했다. 시설과 지명 유래의 연결을 기관 설명으로 한정하고 원효로2동 전체나 특정 필지로 확대하지 않는다.",
+          "checks": {
+            "names": {
+              "result": "checked",
+              "note": "원효로2동 내 법정동 신창동 문단의 신창·청수정·신창동 표기와 선택 요약을 대조했다. 시설의 위치·규모·운영 이력을 새로 확정하지 않았다."
+            },
+            "chronology": {
+              "result": "checked",
+              "note": "신창동 문단의1946.10.1 청수정→신창동 개칭이 요약의1946년과 일치한다. 다른 법정동 문단의 연혁을 신창동에 옮기지 않았다."
+            },
+            "tradition": {
+              "result": "checked",
+              "note": "시설에서 이름이 비롯되었다는 기관의 지명 유래 설명으로 한정한다. 선택 요약의 설명·소개라는 표현을 보존했다."
+            },
+            "consistency": {
+              "result": "checked",
+              "note": "선택 신창동 문단의 명칭과1946년 개칭은 요약과 일치한다. 같은 페이지 다른 동의 연대 오식을 신창동에 적용하지 않았다."
+            },
+            "rights": {
+              "result": "checked",
+              "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+            },
+            "spatial": {
+              "result": "checked",
+              "note": "행정동 원효로2동 안의 법정동 신창동을 구분하고 기존 exact_name 동네 연결만 대조했다. 신창 시설 부지 동일성은 확정하지 않았다."
+            }
+          }
+        }
+      },
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "aef5f9f6-159f-4fb4-a9d2-415ab66f7798",
+        "reviewId": "3ef54ba9-a593-4df8-99bb-1e932e589f46"
+      }
+    },
+    {
+      "passageId": "b76bf83d-0379-4bae-adb5-a8d2f100fd11",
+      "sourceId": "c7a15dd4-c686-49ac-b24a-cd089d23de84",
+      "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY489&fileId=H-TRNS-102699-493&fileSn=300&type=A&upperNodeId=CTGRY493",
+      "label": "1970년 초 사채업무상담 모습(1972.8.5.)",
+      "sourceLocatorBefore": "등록 상세 > 원본 보기·원본 다운로드(마스터 JPEG) 및 시기·장소·내용 / 파일 EXIF DateTime, XMP CreateDate·ModifyDate·MetadataDate·History",
+      "sourceLocatorAfter": "등록 상세 > 원본 보기·원본 다운로드(마스터 JPEG) 및 시기·장소·내용 / 파일 EXIF DateTime, XMP CreateDate·ModifyDate·MetadataDate·History",
+      "versionId": "c63f910c-86e1-4855-8da6-7e250971fcf5",
+      "sourceVersion": 1,
+      "textKind": "transcription",
+      "fingerprintBefore": "0e08b1818883ced5397dff501dd5fc3bdd3ec333e2694ca6d227f87200f52fd7",
+      "fingerprintAfter": "0e08b1818883ced5397dff501dd5fc3bdd3ec333e2694ca6d227f87200f52fd7",
+      "reviewIdBefore": "3f29ab89-06e2-44b6-a735-232d788ce5dc",
+      "reviewIdAfter": "3f29ab89-06e2-44b6-a735-232d788ce5dc",
+      "revisionBefore": 5,
+      "revisionAfter": 5,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 전사·ID·자료/본문 버전·등록URL·KOGL1·빈 지역 연결을 유지한다. 등록 자료가 연결한 디지털 사진 파일의 동일성·편집 메타데이터 대조이며 국가기록원 원 촬영대장·촬영지·개별 주소 동일성을 확인한 것이 아니다.",
+      "reviewObservedAtBefore": "2026-10-24T22:11:33.628399+00:00",
+      "reviewObservedAtAfter": "2026-10-24T22:11:33.628399+00:00",
+      "sourceHashAfter": "67aa267ff1c64fdf8d6cee0f4d8d9b8904e974bd9d8f019ec0f3166861d49553",
+      "originalObservationIds": [
+        "original-observation-00044271a6ec5bebf32259add78aff8f54465e3953ee88587c032b35310e4861"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:04.805Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:06.252Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 200,
+      "localInitialError": null,
+      "outcome": "prior_content_issue_unresolved_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "b76bf83d-0379-4bae-adb5-a8d2f100fd11",
+        "reviewId": "3f29ab89-06e2-44b6-a735-232d788ce5dc"
+      }
+    },
+    {
+      "passageId": "c69bbc8a-41c9-4e66-aad8-908248c9056b",
+      "sourceId": "9887b382-390c-4130-98ed-685d9c09e437",
+      "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1064&fileId=da138c23-477b-4cb0-ae91-02b0c3f85faf&fileSn=801&type=A&upperNodeId=CTGRY1066",
+      "label": "1912년 곡교리의 성씨별 분포",
+      "sourceLocatorBefore": "상세 자료 > 내용 항목 · 『천호동(2022)』, p. 40. / 공식 수록도서 인쇄40쪽(전자책615/044.jpg) > 두 성씨 설명 문단과 성씨별 분포 지도",
+      "sourceLocatorAfter": "상세 자료 > 내용 항목 · 『천호동(2022)』, p. 40. / 공식 수록도서 인쇄40쪽(전자책615/044.jpg) > 두 성씨 설명 문단과 성씨별 분포 지도",
+      "versionId": "482b81df-f844-4a99-9614-075b1fe7d9cf",
+      "sourceVersion": 1,
+      "textKind": "transcription",
+      "fingerprintBefore": "735e801423c383c3d938abaf4b2e749ea635d561bdc17db3f3b9d9e00df662df",
+      "fingerprintAfter": "735e801423c383c3d938abaf4b2e749ea635d561bdc17db3f3b9d9e00df662df",
+      "reviewIdBefore": "954c4be0-3b89-42fa-b94d-99f47ae480bd",
+      "reviewIdAfter": "954c4be0-3b89-42fa-b94d-99f47ae480bd",
+      "revisionBefore": 4,
+      "revisionAfter": 4,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "conflict",
+      "classificationAfter": "conflict",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 본문의 지역 연결은 비어 있다. 수록 컬렉션·기관 메타데이터를 현행 법정동·개별 부지·건물이나 확정 촬영지 연결로 승격하지 않는다. 전사·자료/본문 버전·권리·지역 연결을 그대로 유지하며 상충 해소 전 완료 처리하지 않는다.",
+      "reviewObservedAtBefore": "2026-10-24T12:20:18.569187+00:00",
+      "reviewObservedAtAfter": "2026-10-24T12:20:18.569187+00:00",
+      "sourceHashAfter": "2faf692a947ca92c1ae0162455f7d5ddf936764e80556308fb595943b29eaa2d",
+      "originalObservationIds": [
+        "original-observation-0fc76feea6590e393669073d147100a82e7d68f4f2aca381de4ef3ddb95ec4a4"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:04.785Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:05.738Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 200,
+      "localInitialError": null,
+      "outcome": "prior_content_issue_unresolved_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "c69bbc8a-41c9-4e66-aad8-908248c9056b",
+        "reviewId": "954c4be0-3b89-42fa-b94d-99f47ae480bd"
+      }
+    },
+    {
+      "passageId": "c8c0a40f-16d6-4019-9542-c3cd94315117",
+      "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+      "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "label": "청암동",
+      "sourceLocatorBefore": "동유래 > 청암동 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "동유래 > 청암동 문단(암근정 개칭·독서당·마포장) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+      "versionId": "c6a6f322-e39b-4565-9113-f4c11c57b4be",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "34254ae05a38888da9ab1da553b9fe011fa5365a4da9032042df09e540baf164",
+      "fingerprintAfter": "34254ae05a38888da9ab1da553b9fe011fa5365a4da9032042df09e540baf164",
+      "reviewIdBefore": "a0637193-fdef-4d39-b216-a788a31f2909",
+      "reviewIdAfter": "c8630889-dccf-4e6d-9780-5a48dd57dc3a",
+      "revisionBefore": 3,
+      "revisionAfter": 4,
+      "statusBefore": "needs_review",
+      "statusAfter": "content_checked",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "factual",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+      "reviewObservedAtBefore": "2026-10-24T02:08:34.582173+00:00",
+      "reviewObservedAtAfter": "2026-10-25T08:07:05.594Z",
+      "sourceHashAfter": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+      "originalObservationIds": [
+        "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:05.386Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:05.594Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "completed_after_original_recovery",
+      "reviewInput": {
+        "passageId": "c8c0a40f-16d6-4019-9542-c3cd94315117",
+        "expectedRevision": 3,
+        "expectedFingerprint": "34254ae05a38888da9ab1da553b9fe011fa5365a4da9032042df09e540baf164",
+        "status": "content_checked",
+        "evidence": {
+          "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+          "sourceLocator": "동유래 > 청암동 문단(암근정 개칭·독서당·마포장) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+          "observedAt": "2026-10-25T08:07:05.594Z",
+          "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+          "classification": "factual",
+          "spatialScope": "neighborhood",
+          "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+          "summary": "청암동 문단의 암근정에서 광복 뒤 개칭했다는 설명과 독서당·마포장의 지역 과거 장소 소개를 대조했다. 원문은 명칭 유래 미상이라고 하므로 청암이라는 이름의 어원을 만들어 넣지 않는다. 과거 장소와 현재 건물·필지 동일성은 별도 미검증으로 유지한다.",
+          "checks": {
+            "names": {
+              "result": "checked",
+              "note": "청암동·암근정·독서당·마포장 표기가 선택 요약과 일치한다. 원문이 미상이라고 밝힌 명칭의 어원을 새로 설명하지 않았다."
+            },
+            "chronology": {
+              "result": "checked",
+              "note": "문단의 광복 직후1946.10.1 개칭을 요약의 광복 뒤와 대조했다. 독서당은 조선시대, 마포장은 광복 후의 과거 장소로 소개된다는 범위만 확인했다."
+            },
+            "tradition": {
+              "result": "not_applicable",
+              "note": "선택 요약은 원문 장소명과 개칭 서술만 포함하며 별도 전승·추정은 추가하지 않았다."
+            },
+            "consistency": {
+              "result": "checked",
+              "note": "선택 청암동 문단의 개칭 및 두 과거 장소명이 요약과 일치한다. 같은 페이지 다른 법정동 문단의 연혁 상충은 청암동의 확정 연대로 사용하지 않았다."
+            },
+            "rights": {
+              "result": "checked",
+              "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+            },
+            "spatial": {
+              "result": "checked",
+              "note": "원효로2동과 법정동 청암동을 구분했다. 독서당·마포장과 현재 빌라·개별 필지의 동일성을 확정하지 않고 동네 배경만 유지한다."
+            }
+          }
+        }
+      },
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "c8c0a40f-16d6-4019-9542-c3cd94315117",
+        "reviewId": "a0637193-fdef-4d39-b216-a788a31f2909"
+      }
+    },
+    {
+      "passageId": "d5a0f6ff-7aff-4dda-8c94-a4037b609f07",
+      "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+      "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "label": "원효로4가",
+      "sourceLocatorBefore": "동유래 > 원효로4가 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "동유래 > 원효로4가 문단(옛 용산항·심원정·함벽정) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+      "versionId": "c6a6f322-e39b-4565-9113-f4c11c57b4be",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "feac8b5330cc0f97f4dda9588aaa54d1e832d8c7fd4a9470b756296613ab8944",
+      "fingerprintAfter": "feac8b5330cc0f97f4dda9588aaa54d1e832d8c7fd4a9470b756296613ab8944",
+      "reviewIdBefore": "4def90c4-f29b-40a9-bb12-eadf7b10a371",
+      "reviewIdAfter": "fc0b3fc7-3bfa-4555-aa77-123ab7f13f49",
+      "revisionBefore": 3,
+      "revisionAfter": 4,
+      "statusBefore": "needs_review",
+      "statusAfter": "content_checked",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "factual",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+      "reviewObservedAtBefore": "2026-10-24T02:08:34.582173+00:00",
+      "reviewObservedAtAfter": "2026-10-25T08:07:05.594Z",
+      "sourceHashAfter": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+      "originalObservationIds": [
+        "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:05.386Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:05.594Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "completed_after_original_recovery",
+      "reviewInput": {
+        "passageId": "d5a0f6ff-7aff-4dda-8c94-a4037b609f07",
+        "expectedRevision": 3,
+        "expectedFingerprint": "feac8b5330cc0f97f4dda9588aaa54d1e832d8c7fd4a9470b756296613ab8944",
+        "status": "content_checked",
+        "evidence": {
+          "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+          "sourceLocator": "동유래 > 원효로4가 문단(옛 용산항·심원정·함벽정) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+          "observedAt": "2026-10-25T08:07:05.594Z",
+          "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+          "classification": "factual",
+          "spatialScope": "neighborhood",
+          "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+          "summary": "원효로4가 문단에서 옛 용산항과 심원정·함벽정의 장소명을 확인했다. 선택 요약은 지역 배경만 다루며 원문에 보이는 구체 개칭 연대·보호수 수령·주수는 채택하지 않는다. 개별 시설이나 현재 건물의 부지 이력으로 연결하지 않는다.",
+          "checks": {
+            "names": {
+              "result": "checked",
+              "note": "원효로4가·용산항·심원정·함벽정 표기와 선택 요약이 일치한다. 원효로3가·2가와 혼동하지 않았다."
+            },
+            "chronology": {
+              "result": "checked",
+              "note": "요약은 옛 용산항이라는 과거 맥락만 담는다. 원문의 구체 개칭 연대·보호수 수령·주수는 선택 요약·연표로 채택하지 않았다."
+            },
+            "tradition": {
+              "result": "not_applicable",
+              "note": "선택 요약에는 별도의 설화·추정 설명을 추가하지 않았으며 원문 장소 소개 범위만 대조했다."
+            },
+            "consistency": {
+              "result": "checked",
+              "note": "선택한 세 장소의 과거 지역 배경 소개는 원효로4가 문단과 일치한다. 다른 동 문단의 명칭·연대 오류를 이 요약의 새 사실로 옮기지 않았다."
+            },
+            "rights": {
+              "result": "checked",
+              "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+            },
+            "spatial": {
+              "result": "checked",
+              "note": "법정동 원효로4가와 행정동 원효로2동을 구분했다. 용산항·심원정·함벽정의 개별 좌표·필지·건물 동일성은 검증하지 않은 동네 맥락이다."
+            }
+          }
+        }
+      },
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "d5a0f6ff-7aff-4dda-8c94-a4037b609f07",
+        "reviewId": "4def90c4-f29b-40a9-bb12-eadf7b10a371"
+      }
+    },
+    {
+      "passageId": "e5fec66f-fcce-454d-a83a-5ad8ec288d1b",
+      "sourceId": "dfaf9bfc-28e0-4752-8771-6a3bb1548ab4",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=199",
+      "label": "계동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 > 1946년 개칭 문단 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 > 1946년 개칭 문단 / 등록 원문 접근 재시도",
+      "versionId": "12bc636d-17b6-4f2f-b459-1cd6b899bf6e",
+      "sourceVersion": 1,
+      "textKind": "quotation",
+      "fingerprintBefore": "b6f65e844941ba32314eed039b01b9cba74ea5fd09683f1756ca729eb7e192d7",
+      "fingerprintAfter": "b6f65e844941ba32314eed039b01b9cba74ea5fd09683f1756ca729eb7e192d7",
+      "reviewIdBefore": "326d4dfc-8a3c-45f4-9b31-59ce4967caf2",
+      "reviewIdAfter": "326d4dfc-8a3c-45f4-9b31-59ce4967caf2",
+      "revisionBefore": 2,
+      "revisionAfter": 2,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 영구 폐지·지명 부재로 단정하지 않고 현행 경계·법정동/행정동·개별 건물/필지 동일성·이용조건을 새 확인으로 올리지 않는다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:45.921097+00:00",
+      "reviewObservedAtAfter": "2026-10-23T23:37:45.921097+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-a574e1346539c938c61440d2dd80f0d4503075e7912c5dc9bdc9eea6fc551af9"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:09.557Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:10.101Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "e5fec66f-fcce-454d-a83a-5ad8ec288d1b",
+        "reviewId": "326d4dfc-8a3c-45f4-9b31-59ce4967caf2"
+      }
+    },
+    {
+      "passageId": "e9463a25-12cb-4721-8987-ce433e6e9614",
+      "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+      "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "label": "산천동",
+      "sourceLocatorBefore": "동유래 > 산천동 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "동유래 > 산천동 문단(광복후·1946.10.1 및 뒤이은1943.6.1 표기) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+      "versionId": "c6a6f322-e39b-4565-9113-f4c11c57b4be",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "42456b1b37d507dca1536ced3e0d69e3b73545fd2c5b5ee8feb59e7a6d887bb9",
+      "fingerprintAfter": "42456b1b37d507dca1536ced3e0d69e3b73545fd2c5b5ee8feb59e7a6d887bb9",
+      "reviewIdBefore": "e77f84b1-6ae5-4bb0-9f78-551b361f85c0",
+      "reviewIdAfter": "0e0f986b-edf8-403b-8cb5-36d965281cee",
+      "revisionBefore": 2,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "conflict",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:38.653264+00:00",
+      "reviewObservedAtAfter": "2026-10-25T08:07:05.594Z",
+      "sourceHashAfter": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+      "originalObservationIds": [
+        "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:05.386Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:05.594Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "held_with_new_conflict_evidence",
+      "reviewInput": {
+        "passageId": "e9463a25-12cb-4721-8987-ce433e6e9614",
+        "expectedRevision": 2,
+        "expectedFingerprint": "42456b1b37d507dca1536ced3e0d69e3b73545fd2c5b5ee8feb59e7a6d887bb9",
+        "status": "needs_review",
+        "evidence": {
+          "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+          "sourceLocator": "동유래 > 산천동 문단(광복후·1946.10.1 및 뒤이은1943.6.1 표기) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+          "observedAt": "2026-10-25T08:07:05.594Z",
+          "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+          "classification": "conflict",
+          "spatialScope": "neighborhood",
+          "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+          "summary": "실제 산천동 문단에서 산수정 개칭과 유래 미상은 읽었으나, 같은 문단에 광복후/1946.10.1과1943.6.1이 중복·상충하여 개칭 시기를 확정하지 않았다. 선택 요약의 광복 뒤라는 시기 표현과 관련된 상충으로 보류를 유지한다. 공식 원문을 임의 교정하지 않고 새 원문 근거만 추가한다.",
+          "checks": {
+            "names": {
+              "result": "checked",
+              "note": "산수정·산천동과 명칭 유래 미상이라는 원문 표기를 대조했다. 미상을 확정 어원으로 바꾸지 않았다."
+            },
+            "chronology": {
+              "result": "unresolved",
+              "note": "문단 첫머리 광복후·뒷부분1946.10.1과 뒤이은1943.6.1이 서로 맞지 않는다. 요약의 광복 뒤 개칭 시기까지 독립 근거 없이 확정하지 않는다."
+            },
+            "tradition": {
+              "result": "checked",
+              "note": "원문에서 명칭 유래 미상이라고 한 한정을 보존했다. 산천이라는 글자에서 산·내와 관련된 새 어원을 추정하지 않았다."
+            },
+            "consistency": {
+              "result": "unresolved",
+              "note": "실제 원문 문단의 중복된 개칭 시기 표기가 해소되지 않아 needs_review로 유지한다.1943을1946으로 임의 교정하지 않았다."
+            },
+            "rights": {
+              "result": "checked",
+              "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+            },
+            "spatial": {
+              "result": "checked",
+              "note": "법정동 산천동과 행정동 원효로2동을 구분하고 기존 exact_name 연결을 유지한다. 옛 경계·개별 부지 동일성은 미검증이다."
+            }
+          }
+        }
+      },
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "e9463a25-12cb-4721-8987-ce433e6e9614",
+        "reviewId": "e77f84b1-6ae5-4bb0-9f78-551b361f85c0"
+      }
+    },
+    {
+      "passageId": "efa7d8ae-991c-4024-b0ab-4e56b272c4de",
+      "sourceId": "07f04f42-8d4e-4092-96da-b8c49ad4fe5a",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=169",
+      "label": "서린동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "versionId": "ac5ce156-3cf6-49ad-a8aa-497fa9afe649",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "5c0cf869ff1b79b43c3dc91d4be14fa444d9646092eb252df1ba176885a4ad1d",
+      "fingerprintAfter": "5c0cf869ff1b79b43c3dc91d4be14fa444d9646092eb252df1ba176885a4ad1d",
+      "reviewIdBefore": "589f556e-6447-40e2-912e-bce3c49300e5",
+      "reviewIdAfter": "589f556e-6447-40e2-912e-bce3c49300e5",
+      "revisionBefore": 2,
+      "revisionAfter": 2,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 영구 폐지·지명 부재로 단정하지 않고 현행 경계·법정동/행정동·개별 건물/필지 동일성·이용조건을 새 확인으로 올리지 않는다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:46.201318+00:00",
+      "reviewObservedAtAfter": "2026-10-23T23:37:46.201318+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-a279eeeb6c12d101a05d78d9ffc82385d9c2ef69fccab44f054ac996ae80e776"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:01.353Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:01.933Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "efa7d8ae-991c-4024-b0ab-4e56b272c4de",
+        "reviewId": "589f556e-6447-40e2-912e-bce3c49300e5"
+      }
+    },
+    {
+      "passageId": "f5286d95-4c96-4a55-8a72-e1e949e41029",
+      "sourceId": "4fc96103-61f1-4a14-9fac-73b2b86a5249",
+      "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=07&menuNo=600704",
+      "label": "효창동",
+      "sourceLocatorBefore": "동유래 > 효창원·하마비계 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "동유래 > 첫 문단(왕실 묘역 효창원·하마비·하마비계) / 운영 열람 감사 original-observation-85a884119ea86f7b44c0dd9dfcdb1a860e36495e724d09db85d482ed55e43634 / 정규화 전체창 1785자, 잘림없음",
+      "versionId": "f1618c6f-e01e-4f2f-91c6-2e0115d5681e",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "27a1b1f3c83a5f5ee2b8db55a0fdf6b849ef5b093e1022bcf7ed624eddc0ad48",
+      "fingerprintAfter": "27a1b1f3c83a5f5ee2b8db55a0fdf6b849ef5b093e1022bcf7ed624eddc0ad48",
+      "reviewIdBefore": "9247cdfc-6ca8-4a28-b9e7-6b470b3caa94",
+      "reviewIdAfter": "77ae9951-c3a7-4215-ab1b-1c6d89fb36a4",
+      "revisionBefore": 2,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "content_checked",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "mixed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:46.353846+00:00",
+      "reviewObservedAtAfter": "2026-10-25T08:07:09.131Z",
+      "sourceHashAfter": "6f8430cc0f7fff8abffaf0413789b712d087df6aa323557654019a57a974f05c",
+      "originalObservationIds": [
+        "original-observation-85a884119ea86f7b44c0dd9dfcdb1a860e36495e724d09db85d482ed55e43634"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:08.946Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:09.131Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "completed_after_original_recovery",
+      "reviewInput": {
+        "passageId": "f5286d95-4c96-4a55-8a72-e1e949e41029",
+        "expectedRevision": 2,
+        "expectedFingerprint": "27a1b1f3c83a5f5ee2b8db55a0fdf6b849ef5b093e1022bcf7ed624eddc0ad48",
+        "status": "content_checked",
+        "evidence": {
+          "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=07&menuNo=600704",
+          "sourceLocator": "동유래 > 첫 문단(왕실 묘역 효창원·하마비·하마비계) / 운영 열람 감사 original-observation-85a884119ea86f7b44c0dd9dfcdb1a860e36495e724d09db85d482ed55e43634 / 정규화 전체창 1785자, 잘림없음",
+          "observedAt": "2026-10-25T08:07:09.131Z",
+          "sourceHash": "6f8430cc0f7fff8abffaf0413789b712d087df6aa323557654019a57a974f05c",
+          "classification": "mixed",
+          "spatialScope": "neighborhood",
+          "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+          "summary": "효창동 전체 본문창에서 왕실 묘역 효창원과 하마비계 유래 설명을 선택 요약과 대조했다. 원문이 하마비는 지금 전하지 않는다고 서술하므로 현재 남은 유구나 특정 필지의 현존 시설로 표시하지 않는다. 지명 유래는 기관 소개의 한정을 유지한다.",
+          "checks": {
+            "names": {
+              "result": "checked",
+              "note": "효창동·효창원·하마비계 표기와 선택 요약이 일치한다. 하마비가 지금 전하지 않는다는 원문의 한계를 보존했다."
+            },
+            "chronology": {
+              "result": "checked",
+              "note": "선택 요약은 왕실 묘역과 과거 지명 유래만 다룬다. 원문의 고종7년 승격 서술은 구체 연대나 새 연표로 채택하지 않았다."
+            },
+            "tradition": {
+              "result": "checked",
+              "note": "하마비로 인해 마을을 하마비계라 불렀다는 유래를 기관이 소개한 내용으로 한정한다. 하마비의 현존·독립 고증을 주장하지 않는다."
+            },
+            "consistency": {
+              "result": "checked",
+              "note": "선택 요약은 효창원과 과거 하마비계 설명에 일치한다. 현재 하마비가 있다는 주장이나 원문에 없는 추가 연대를 넣지 않았다."
+            },
+            "rights": {
+              "result": "checked",
+              "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+            },
+            "spatial": {
+              "result": "checked",
+              "note": "법정동 효창동의 동네 맥락만 대조했다. 원문 지번을 현재 필지·현존 하마비의 정확한 위치로 확정하거나 범위를 확대하지 않았다."
+            }
+          }
+        }
+      },
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "f5286d95-4c96-4a55-8a72-e1e949e41029",
+        "reviewId": "9247cdfc-6ca8-4a28-b9e7-6b470b3caa94"
+      }
+    },
+    {
+      "passageId": "fd0b8fe0-2520-46f8-b529-39112efb519a",
+      "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+      "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "label": "원효로3가",
+      "sourceLocatorBefore": "동유래 > 원효로3가 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "동유래 > 첫 원효로3가 문단(1914.4.1 원정3정목·1926.10.1 원효로2가) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+      "versionId": "c6a6f322-e39b-4565-9113-f4c11c57b4be",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "520589e4084a98f21e77366cb3ac4910c2b4f2113ebd50ca15ca6610156c1300",
+      "fingerprintAfter": "520589e4084a98f21e77366cb3ac4910c2b4f2113ebd50ca15ca6610156c1300",
+      "reviewIdBefore": "1ed4c8fd-7c47-44a9-82f2-af0a0a5311ea",
+      "reviewIdAfter": "c9be9a7a-d13c-4664-b114-8a73f0f89f43",
+      "revisionBefore": 2,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "conflict",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:38.653264+00:00",
+      "reviewObservedAtAfter": "2026-10-25T08:07:05.594Z",
+      "sourceHashAfter": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+      "originalObservationIds": [
+        "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:05.386Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:05.594Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "held_with_new_conflict_evidence",
+      "reviewInput": {
+        "passageId": "fd0b8fe0-2520-46f8-b529-39112efb519a",
+        "expectedRevision": 2,
+        "expectedFingerprint": "520589e4084a98f21e77366cb3ac4910c2b4f2113ebd50ca15ca6610156c1300",
+        "status": "needs_review",
+        "evidence": {
+          "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+          "sourceLocator": "동유래 > 첫 원효로3가 문단(1914.4.1 원정3정목·1926.10.1 원효로2가) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+          "observedAt": "2026-10-25T08:07:05.594Z",
+          "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+          "classification": "conflict",
+          "spatialScope": "neighborhood",
+          "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+          "summary": "원효로3가 문단의 구용산·전자상가 맥락은 읽었으나, 원정3정목 서술 뒤에 원정2정목 대신1926년 원효로2가로 개칭했다는 명칭·시기 불일치가 있다. 기존 요약의 결론 보류를 유지하고 실제 원문 위치·확인시각·응답 해시를 추가한다. 정답 연대·명칭을 추정해 교정하거나 새 연표를 만들지 않는다.",
+          "checks": {
+            "names": {
+              "result": "unresolved",
+              "note": "원효로3가 문단이 원정3정목을 거쳐 원정2정목/원효로2가로 서술하여 대상 명칭이 맞지 않는다. 어느 표기를 고쳐야 하는지 확정하지 않는다."
+            },
+            "chronology": {
+              "result": "unresolved",
+              "note": "원문1914.4.1 및1926.10.1의 개칭 서술이 대상 명칭과 함께 불일치한다.1926을1946으로 추정 교정하지 않는다."
+            },
+            "tradition": {
+              "result": "not_applicable",
+              "note": "선택 요약에는 설화·전승을 추가하지 않았으며 확인 불가 연대·명칭을 사실로 승격하지 않았다."
+            },
+            "consistency": {
+              "result": "unresolved",
+              "note": "구용산·전자상가 문맥은 확인했지만 동명 변천의 명칭·연대가 해소되지 않아 기존 보류를 유지한다."
+            },
+            "rights": {
+              "result": "checked",
+              "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+            },
+            "spatial": {
+              "result": "checked",
+              "note": "행정동 원효로2동 안의 법정동 원효로3가 문맥을 구분했다. 원문 안의 원효로2가 표기를 이유로 기존 지역 연결을 바꾸지 않았다."
+            }
+          }
+        }
+      },
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "fd0b8fe0-2520-46f8-b529-39112efb519a",
+        "reviewId": "1ed4c8fd-7c47-44a9-82f2-af0a0a5311ea"
+      }
+    },
+    {
+      "passageId": "1c0353f0-29b1-40b2-b0a7-1a3b1f24d5d1",
+      "sourceId": "a6f106b1-926e-4ddc-a3e3-de58a422955a",
+      "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=16&menuNo=601604",
+      "label": "보광동",
+      "sourceLocatorBefore": "동 유래 > 마전터·장문고개 / 동 연혁 > 1936년 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "동 유래 > 마전터·장문고개 / 동 연혁 > 1936년 / 등록 원문 접근 재시도",
+      "versionId": "0395cb97-8b22-4840-8f1d-6185ca894037",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "f1a4685958373db646edaf88e80384d68e9d7d49003f1415fcc69cc96f3271f2",
+      "fingerprintAfter": "f1a4685958373db646edaf88e80384d68e9d7d49003f1415fcc69cc96f3271f2",
+      "reviewIdBefore": "aeb25636-9890-4dde-b734-f4884e97a1a3",
+      "reviewIdAfter": "aeb25636-9890-4dde-b734-f4884e97a1a3",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 영구 폐지·지명 부재로 단정하지 않고 현행 경계·법정동/행정동·개별 건물/필지 동일성·이용조건을 새 확인으로 올리지 않는다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:52.643366+00:00",
+      "reviewObservedAtAfter": "2026-10-23T23:37:52.643366+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-5b9ca1d7abb10d64f4ac05d0617ade2c76ca810042e11f0db59f55b9a12acba7"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:06:53.081Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:06:54.595Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "1c0353f0-29b1-40b2-b0a7-1a3b1f24d5d1",
+        "reviewId": "aeb25636-9890-4dde-b734-f4884e97a1a3"
+      }
+    },
+    {
+      "passageId": "1f76254b-8a48-43f0-83ef-ebe3f619714e",
+      "sourceId": "9abf1feb-c884-4559-bae0-4972671fd7f6",
+      "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84417-434&fileSn=300&type=A&upperNodeId=CTGRY434",
+      "label": "18세기 중엽 신촌 주변 지역의 도로망",
+      "sourceLocatorBefore": "등록 상세 > 유물번호·시기·내용 / 별도 공식 조선성시도 H-TRNS-72654-780 > 유물번호 서13171·시기 및 내용 마지막 문단 / 지도 우측 아래 가장자리 庚寅三月",
+      "sourceLocatorAfter": "등록 상세 > 유물번호·시기·내용 / 별도 공식 조선성시도 H-TRNS-72654-780 > 유물번호 서13171·시기 및 내용 마지막 문단 / 지도 우측 아래 가장자리 庚寅三月",
+      "versionId": "0afe0790-5944-406d-8bc7-4b199c3b3277",
+      "sourceVersion": 1,
+      "textKind": "transcription",
+      "fingerprintBefore": "0fb373472614226f5c5d0e23e0bdf490f800d3bce7ea659dbe387b2ba6f9898f",
+      "fingerprintAfter": "0fb373472614226f5c5d0e23e0bdf490f800d3bce7ea659dbe387b2ba6f9898f",
+      "reviewIdBefore": "a880fd06-9520-4333-862a-fe655e29df35",
+      "reviewIdAfter": "a880fd06-9520-4333-862a-fe655e29df35",
+      "revisionBefore": 5,
+      "revisionAfter": 5,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "conflict",
+      "classificationAfter": "conflict",
+      "spatialScope": "neighborhood",
+      "scopeNote": "등록 본문과 원문의 대조 및 별도 공식 자료의 보충 근거다. 기존 전사·ID·자료/본문 버전·원문URL·권리·빈 지역 연결을 보존한다. 보충 자료의 주제·제작시기·소장기관을 확정 촬영지·현행 경계·필지 동일성으로 대신하지 않는다.",
+      "reviewObservedAtBefore": "2026-10-24T14:44:57.954052+00:00",
+      "reviewObservedAtAfter": "2026-10-24T14:44:57.954052+00:00",
+      "sourceHashAfter": "df26935ea156941b5c95ab2cd290d27222ed402b8e136ad408e3c79c38cd310d",
+      "originalObservationIds": [
+        "original-observation-c5c6989d8566a7c47539d158d108c3af72b204c78a29610da9981ed7e80e4ba0"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:06:53.068Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:06:55.531Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 200,
+      "localInitialError": null,
+      "outcome": "prior_content_issue_unresolved_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "1f76254b-8a48-43f0-83ef-ebe3f619714e",
+        "reviewId": "a880fd06-9520-4333-862a-fe655e29df35"
+      }
+    },
+    {
+      "passageId": "28a27c01-0174-4a50-a64c-6d98348e1574",
+      "sourceId": "bce19c0c-52c2-410b-8d7a-4e179d6fc70f",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=130",
+      "label": "체부동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "versionId": "bec8636a-70bd-4e02-baba-9b35250f71d1",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "5ac60722d89d0d17efaf63730a5c5ed3f4b32bd9fb8f596263135d41b59a388b",
+      "fingerprintAfter": "5ac60722d89d0d17efaf63730a5c5ed3f4b32bd9fb8f596263135d41b59a388b",
+      "reviewIdBefore": "2b1faecd-81df-43dc-8516-0e22ae047d1d",
+      "reviewIdAfter": "2b1faecd-81df-43dc-8516-0e22ae047d1d",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 영구 폐지·지명 부재로 단정하지 않고 현행 경계·법정동/행정동·개별 건물/필지 동일성·이용조건을 새 확인으로 올리지 않는다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:54.956502+00:00",
+      "reviewObservedAtAfter": "2026-10-23T23:37:54.956502+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-d5e74f3f672c328da9e724658a141e863283c8a7f21b19722f5f74eb3e465a2c"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:06:53.080Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:06:54.473Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "28a27c01-0174-4a50-a64c-6d98348e1574",
+        "reviewId": "2b1faecd-81df-43dc-8516-0e22ae047d1d"
+      }
+    },
+    {
+      "passageId": "2b8ac548-81a1-4d20-ab90-c7bbe0b89d7d",
+      "sourceId": "50bb6f7b-a5b5-4468-9132-66a662630dd2",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=187",
+      "label": "내자동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "versionId": "7b5c106d-33c3-44e4-9387-240996445f98",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "0fc3e3e5f26cca104210cf3d3c0f456245e1379a45964aa6a48edde34219bed1",
+      "fingerprintAfter": "0fc3e3e5f26cca104210cf3d3c0f456245e1379a45964aa6a48edde34219bed1",
+      "reviewIdBefore": "655bf1d7-44b2-409c-a73e-eb49d37b108c",
+      "reviewIdAfter": "655bf1d7-44b2-409c-a73e-eb49d37b108c",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 영구 폐지·지명 부재로 단정하지 않고 현행 경계·법정동/행정동·개별 건물/필지 동일성·이용조건을 새 확인으로 올리지 않는다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:54.939924+00:00",
+      "reviewObservedAtAfter": "2026-10-23T23:37:54.939924+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-f9bc24640429acbefccd585205202062e57d710bbdaa1d81b4c2403c5e2bfbe4"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:06:57.840Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:06:57.997Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "2b8ac548-81a1-4d20-ab90-c7bbe0b89d7d",
+        "reviewId": "655bf1d7-44b2-409c-a73e-eb49d37b108c"
+      }
+    },
+    {
+      "passageId": "3a80d4a6-83f0-4f61-912b-7f96f0882141",
+      "sourceId": "f79cba4d-4d89-46ab-bc92-c8b005a8dca8",
+      "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=01&menuNo=600004",
+      "label": "후암동",
+      "sourceLocatorBefore": "동 유래·동 연혁 > 두텁바위·전생서·1946년·1985년 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "동 유래 > 두텁바위·전생서 관련 옛 지명; 동 연혁 > 1946.10.1·1985.9.1 행 / 운영 열람 감사 original-observation-3790b2ec735e6a56c4630185c0747b2cc43e6f6f293909181e7821cb37382a17 / 정규화 전체창 2879자, 잘림없음",
+      "versionId": "8fe10668-6660-45e2-83ce-05988443586f",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "437ea4beef0152eafddaa27bb5fbf176f0c0e9d63c68e734d62b1b700757ce69",
+      "fingerprintAfter": "437ea4beef0152eafddaa27bb5fbf176f0c0e9d63c68e734d62b1b700757ce69",
+      "reviewIdBefore": "3f615748-11a6-4aa2-8dc5-9bb840366333",
+      "reviewIdAfter": "caf5546c-f803-495f-99af-f778ef108831",
+      "revisionBefore": 3,
+      "revisionAfter": 4,
+      "statusBefore": "needs_review",
+      "statusAfter": "content_checked",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "mixed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+      "reviewObservedAtBefore": "2026-10-23T23:38:02.262567+00:00",
+      "reviewObservedAtAfter": "2026-10-25T08:06:58.061Z",
+      "sourceHashAfter": "560d7722c4283c4c6c9d0d5f5406331c95033cb7c82cf42e8696a22599240222",
+      "originalObservationIds": [
+        "original-observation-3790b2ec735e6a56c4630185c0747b2cc43e6f6f293909181e7821cb37382a17"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:06:57.853Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:06:58.061Z"
+      ],
+      "serverStatuses": [
+        200
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "completed_after_original_recovery",
+      "reviewInput": {
+        "passageId": "3a80d4a6-83f0-4f61-912b-7f96f0882141",
+        "expectedRevision": 3,
+        "expectedFingerprint": "437ea4beef0152eafddaa27bb5fbf176f0c0e9d63c68e734d62b1b700757ce69",
+        "status": "content_checked",
+        "evidence": {
+          "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=01&menuNo=600004",
+          "sourceLocator": "동 유래 > 두텁바위·전생서 관련 옛 지명; 동 연혁 > 1946.10.1·1985.9.1 행 / 운영 열람 감사 original-observation-3790b2ec735e6a56c4630185c0747b2cc43e6f6f293909181e7821cb37382a17 / 정규화 전체창 2879자, 잘림없음",
+          "observedAt": "2026-10-25T08:06:58.061Z",
+          "sourceHash": "560d7722c4283c4c6c9d0d5f5406331c95033cb7c82cf42e8696a22599240222",
+          "classification": "mixed",
+          "spatialScope": "neighborhood",
+          "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+          "summary": "실제 전체 본문창에서 두텁바위와 전생서의 지역 유래, 1946년 후암동 개칭, 1985년 도동2가의 동 통합을 대조했다. 1975년 도동2가의 용산구 편입과 1985년 후암동 통합을 구분했다. 유래 설명은 기관이 소개하는 지명 이야기로 한정하며 기존 요약·권리·연결은 그대로 유지한다.",
+          "checks": {
+            "names": {
+              "result": "checked",
+              "note": "후암동·두텁바위·전생서·도동2가 표기가 선택 요약과 일치한다. 원문에 있는 다른 옛 지명 표기를 임의로 새 명칭으로 교정하거나 추가하지 않았다."
+            },
+            "chronology": {
+              "result": "checked",
+              "note": "1946.10.1 후암동 개칭과1985.9.1 도동2가 통합을 동 연혁 행에서 확인했다.1975.10.1 용산구 편입을 동 통합 시점으로 혼동하지 않았다."
+            },
+            "tradition": {
+              "result": "checked",
+              "note": "두텁바위에서 이름을 설명한다는 유래 서술의 한정을 유지한다. 자손 기원·인물 관련 전승을 별도 사실이나 위치로 확대하지 않았다."
+            },
+            "consistency": {
+              "result": "checked",
+              "note": "선택 요약의1946 명칭과1985 동 통합은 본문과 연혁표에서 일치한다. 다른 관청·건물 관련 설명은 선택 요약에 추가하지 않았다."
+            },
+            "rights": {
+              "result": "checked",
+              "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+            },
+            "spatial": {
+              "result": "checked",
+              "note": "법정동 후암동 명칭과 기존 동네 연결을 대조했다. 도동2가 편입 범위를 현재 개별 부지·건물의 이력으로 일반화하지 않았다."
+            }
+          }
+        }
+      },
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "3a80d4a6-83f0-4f61-912b-7f96f0882141",
+        "reviewId": "3f615748-11a6-4aa2-8dc5-9bb840366333"
+      }
+    },
+    {
+      "passageId": "4819d2b0-bfac-4239-a9ec-54034486315d",
+      "sourceId": "50bb6f7b-a5b5-4468-9132-66a662630dd2",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=187",
+      "label": "내자동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 > 첫 문장 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 > 첫 문장 / 등록 원문 접근 재시도",
+      "versionId": "7b5c106d-33c3-44e4-9387-240996445f98",
+      "sourceVersion": 1,
+      "textKind": "quotation",
+      "fingerprintBefore": "0ffaf73571608e3f5f78c7d20e47bf06676206805785efc9a0c2e2f989caa585",
+      "fingerprintAfter": "0ffaf73571608e3f5f78c7d20e47bf06676206805785efc9a0c2e2f989caa585",
+      "reviewIdBefore": "b60ca51a-bfc4-48e6-910e-9758e4f78957",
+      "reviewIdAfter": "b60ca51a-bfc4-48e6-910e-9758e4f78957",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 영구 폐지·지명 부재로 단정하지 않고 현행 경계·법정동/행정동·개별 건물/필지 동일성·이용조건을 새 확인으로 올리지 않는다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:54.939924+00:00",
+      "reviewObservedAtAfter": "2026-10-23T23:37:54.939924+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-f9bc24640429acbefccd585205202062e57d710bbdaa1d81b4c2403c5e2bfbe4"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:06:57.840Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:06:57.997Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "4819d2b0-bfac-4239-a9ec-54034486315d",
+        "reviewId": "b60ca51a-bfc4-48e6-910e-9758e4f78957"
+      }
+    },
+    {
+      "passageId": "54b23c66-0579-4604-bdf4-358a38b7af10",
+      "sourceId": "bce19c0c-52c2-410b-8d7a-4e179d6fc70f",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=130",
+      "label": "체부동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 > 첫 문장 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 > 첫 문장 / 등록 원문 접근 재시도",
+      "versionId": "bec8636a-70bd-4e02-baba-9b35250f71d1",
+      "sourceVersion": 1,
+      "textKind": "quotation",
+      "fingerprintBefore": "46c63ec8c7942894f09de52a66a6f577ef371b2c7b4142e31b75df8d203d5811",
+      "fingerprintAfter": "46c63ec8c7942894f09de52a66a6f577ef371b2c7b4142e31b75df8d203d5811",
+      "reviewIdBefore": "6651421f-de13-4501-92d8-8762afe2c22d",
+      "reviewIdAfter": "6651421f-de13-4501-92d8-8762afe2c22d",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 영구 폐지·지명 부재로 단정하지 않고 현행 경계·법정동/행정동·개별 건물/필지 동일성·이용조건을 새 확인으로 올리지 않는다.",
+      "reviewObservedAtBefore": "2026-10-23T23:37:54.956502+00:00",
+      "reviewObservedAtAfter": "2026-10-23T23:37:54.956502+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-d5e74f3f672c328da9e724658a141e863283c8a7f21b19722f5f74eb3e465a2c"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:06:53.080Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:06:54.473Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "54b23c66-0579-4604-bdf4-358a38b7af10",
+        "reviewId": "6651421f-de13-4501-92d8-8762afe2c22d"
+      }
+    },
+    {
+      "passageId": "65ae9e3c-8932-48a0-85dc-1112376de255",
+      "sourceId": "8738cb1b-4c76-41ce-b874-c52a4c9bf180",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=189",
+      "label": "낙원동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 > 첫 문장 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 > 첫 문장 / 등록 원문 접근 재시도",
+      "versionId": "bd3c0cdd-899b-4a9e-87b4-90ce37240510",
+      "sourceVersion": 1,
+      "textKind": "quotation",
+      "fingerprintBefore": "58a6c11961b8e400005414feeb6ad7d8528df72ba99abd27b6e4050f5926a5d4",
+      "fingerprintAfter": "58a6c11961b8e400005414feeb6ad7d8528df72ba99abd27b6e4050f5926a5d4",
+      "reviewIdBefore": "3ba5e0e9-7aa4-4c12-a90d-ddebfeccfc31",
+      "reviewIdAfter": "3ba5e0e9-7aa4-4c12-a90d-ddebfeccfc31",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 폐지·지명 부재로 단정하지 않으며 현행 경계·개별 건물/필지 동일성·이용조건을 새로 승인하지 않는다.",
+      "reviewObservedAtBefore": "2026-10-24T02:08:15.656192+00:00",
+      "reviewObservedAtAfter": "2026-10-24T02:08:15.656192+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-2d9b635796ef097aaeaa38b89aef1f1fad902a50517733f72e10e08648537f03"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:06:57.811Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:06:57.966Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "65ae9e3c-8932-48a0-85dc-1112376de255",
+        "reviewId": "3ba5e0e9-7aa4-4c12-a90d-ddebfeccfc31"
+      }
+    },
+    {
+      "passageId": "70ba33cb-e1e6-47b5-b15f-c195d3e06664",
+      "sourceId": "0340bad5-f0cb-41e7-9afe-a808229d2d10",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=194",
+      "label": "교남동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "versionId": "ed42cf2b-760b-4ea7-b1c5-4dc528c86b77",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "267c3228bb2b971df31263284b81d015113be6172e443d86c57a4312a016381c",
+      "fingerprintAfter": "267c3228bb2b971df31263284b81d015113be6172e443d86c57a4312a016381c",
+      "reviewIdBefore": "a03c7dc1-9705-49ba-b020-d6a9e28935b0",
+      "reviewIdAfter": "a03c7dc1-9705-49ba-b020-d6a9e28935b0",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 폐지·지명 부재로 단정하지 않으며 현행 경계·개별 건물/필지 동일성·이용조건을 새로 승인하지 않는다.",
+      "reviewObservedAtBefore": "2026-10-24T02:08:25.031858+00:00",
+      "reviewObservedAtAfter": "2026-10-24T02:08:25.031858+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-2dbf95a8c5c0ea9d5c51404c48a0509c58bd9828a649ee455d37fca73f991c77"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:01.960Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:02.536Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "70ba33cb-e1e6-47b5-b15f-c195d3e06664",
+        "reviewId": "a03c7dc1-9705-49ba-b020-d6a9e28935b0"
+      }
+    },
+    {
+      "passageId": "7aee8f84-1241-4e92-b8fb-245abe8e0626",
+      "sourceId": "9c2e439f-f6b1-4224-930e-49e9b5253a1e",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/125/detail.do?pstSn=144",
+      "label": "도렴동",
+      "sourceLocatorBefore": "동명유래-도렴동 > (1) 동 유래 및 변천 첫 문단·1914년 통합 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "동명유래-도렴동 > (1) 동 유래 및 변천 첫 문단·1914년 통합 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "versionId": "f04d6421-3dad-4680-b121-20ebe9f2b447",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "3f03c6718061dc4d8c3f9d8656b9f0e54c21bc9a6d370b416326fecc2445473f",
+      "fingerprintAfter": "3f03c6718061dc4d8c3f9d8656b9f0e54c21bc9a6d370b416326fecc2445473f",
+      "reviewIdBefore": "7c6f70a2-83c4-4b80-8a98-2c01c55896e4",
+      "reviewIdAfter": "7c6f70a2-83c4-4b80-8a98-2c01c55896e4",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 폐지·지명 부재로 단정하지 않으며 현행 경계·개별 건물/필지 동일성·이용조건을 새로 승인하지 않는다.",
+      "reviewObservedAtBefore": "2026-10-24T02:08:25.052335+00:00",
+      "reviewObservedAtAfter": "2026-10-24T02:08:25.052335+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-db8541e34e7fed3beb850c769ddd0430928a31f1d311a6b78fd52e3078d92055"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:07:01.359Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:07:01.936Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "7aee8f84-1241-4e92-b8fb-245abe8e0626",
+        "reviewId": "7c6f70a2-83c4-4b80-8a98-2c01c55896e4"
+      }
+    },
+    {
+      "passageId": "81df0b30-efc8-47b0-88a9-fd3740915ba0",
+      "sourceId": "8738cb1b-4c76-41ce-b874-c52a4c9bf180",
+      "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=189",
+      "label": "낙원동",
+      "sourceLocatorBefore": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "sourceLocatorAfter": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 재시도",
+      "versionId": "bd3c0cdd-899b-4a9e-87b4-90ce37240510",
+      "sourceVersion": 1,
+      "textKind": "paraphrase",
+      "fingerprintBefore": "d1993d9d971a85a6daa088a01924024ecb9762e0e1b5eff8d84e8a006949c53d",
+      "fingerprintAfter": "d1993d9d971a85a6daa088a01924024ecb9762e0e1b5eff8d84e8a006949c53d",
+      "reviewIdBefore": "13112433-291f-4a18-85a0-ddea9c4f577a",
+      "reviewIdAfter": "13112433-291f-4a18-85a0-ddea9c4f577a",
+      "revisionBefore": 3,
+      "revisionAfter": 3,
+      "statusBefore": "needs_review",
+      "statusAfter": "needs_review",
+      "classificationBefore": "unconfirmed",
+      "classificationAfter": "unconfirmed",
+      "spatialScope": "neighborhood",
+      "scopeNote": "기존 동명 또는 자치구 맥락 연결을 유지한다. 일시적 실패를 원문 폐지·지명 부재로 단정하지 않으며 현행 경계·개별 건물/필지 동일성·이용조건을 새로 승인하지 않는다.",
+      "reviewObservedAtBefore": "2026-10-24T02:08:15.656192+00:00",
+      "reviewObservedAtAfter": "2026-10-24T02:08:15.656192+00:00",
+      "sourceHashAfter": null,
+      "originalObservationIds": [
+        "original-observation-2d9b635796ef097aaeaa38b89aef1f1fad902a50517733f72e10e08648537f03"
+      ],
+      "attemptedAt": [
+        "2026-10-25T08:06:57.811Z"
+      ],
+      "completedAt": [
+        "2026-10-25T08:06:57.966Z"
+      ],
+      "serverStatuses": [
+        520
+      ],
+      "localInitialStatus": 503,
+      "localInitialError": "HTTP Error 503: Service Unavailable",
+      "outcome": "registered_original_unavailable_existing_review_preserved",
+      "reviewInput": null,
+      "priorReviewEvidenceReference": {
+        "file": "data/passage-review-observations-2026-10-25-38.json",
+        "passageId": "81df0b30-efc8-47b0-88a9-fd3740915ba0",
+        "reviewId": "13112433-291f-4a18-85a0-ddea9c4f577a"
+      }
+    }
+  ],
+  "originalObservations": [
+    {
+      "id": "original-observation-5b9ca1d7abb10d64f4ac05d0617ade2c76ca810042e11f0db59f55b9a12acba7",
+      "requestId": "passage-review-20261025-39-1c0353f0-29b1-40b2-b0a7-1a3b1f24d5d1",
+      "inputHash": "2d7ef63823acb68c3446e59c7e9da4adb04280db498fbeea25a263e61272a16a",
+      "passageId": "1c0353f0-29b1-40b2-b0a7-1a3b1f24d5d1",
+      "sourceId": "a6f106b1-926e-4ddc-a3e3-de58a422955a",
+      "fingerprint": "f1a4685958373db646edaf88e80384d68e9d7d49003f1415fcc69cc96f3271f2",
+      "searchText": "유래및연혁",
+      "requestedUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=16&menuNo=601604",
+      "finalUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=16&menuNo=601604",
+      "attemptedAt": "2026-10-25T08:06:53.081Z",
+      "completedAt": "2026-10-25T08:06:54.595Z",
+      "httpStatus": 520,
+      "contentType": null,
+      "status": "failed",
+      "errorCode": "HTTP_STATUS",
+      "bytes": null,
+      "htmlSha256": null,
+      "encoding": null,
+      "title": "",
+      "searchFound": false,
+      "excerptStart": null,
+      "excerptTruncated": false,
+      "textLength": null,
+      "excerptSha256": null,
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 0,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-c5c6989d8566a7c47539d158d108c3af72b204c78a29610da9981ed7e80e4ba0",
+      "requestId": "passage-review-20261025-39-1f76254b-8a48-43f0-83ef-ebe3f619714e",
+      "inputHash": "6badd927282db46dfc2e7a44e0725e9d55f442ec99b80d6ceafcb8a462f11fda",
+      "passageId": "1f76254b-8a48-43f0-83ef-ebe3f619714e",
+      "sourceId": "9abf1feb-c884-4559-bae0-4972671fd7f6",
+      "fingerprint": "0fb373472614226f5c5d0e23e0bdf490f800d3bce7ea659dbe387b2ba6f9898f",
+      "searchText": "18세기 중엽 신촌 주변 지역의 도로망을 잘 보여주는 「조선성시도」 일부",
+      "requestedUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84417-434&fileSn=300&type=A&upperNodeId=CTGRY434",
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84417-434&fileSn=300&type=A&upperNodeId=CTGRY434",
+      "attemptedAt": "2026-10-25T08:06:53.068Z",
+      "completedAt": "2026-10-25T08:06:55.531Z",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=utf-8",
+      "status": "observed",
+      "errorCode": null,
+      "bytes": 541813,
+      "htmlSha256": "df26935ea156941b5c95ab2cd290d27222ed402b8e136ad408e3c79c38cd310d",
+      "encoding": "utf-8",
+      "title": "아카이브 상세 | 신촌 | 서울역사아카이브",
+      "searchFound": true,
+      "excerptStart": 1818,
+      "excerptTruncated": true,
+      "textLength": 3877,
+      "excerptSha256": "c4b94a3be206ac7ae53d02ebaae05d23ec4e6c26636a81271cf11be6aae6037e",
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 2059,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-d5e74f3f672c328da9e724658a141e863283c8a7f21b19722f5f74eb3e465a2c",
+      "requestId": "passage-review-20261025-39-28a27c01-0174-4a50-a64c-6d98348e1574",
+      "inputHash": "502225a4e7fed9087d5420727d79eaff1ad81870b4e627ba416ff4c40ab27f5e",
+      "passageId": "28a27c01-0174-4a50-a64c-6d98348e1574",
+      "sourceId": "bce19c0c-52c2-410b-8d7a-4e179d6fc70f",
+      "fingerprint": "5ac60722d89d0d17efaf63730a5c5ed3f4b32bd9fb8f596263135d41b59a388b",
+      "searchText": "상세정보",
+      "requestedUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=130",
+      "finalUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=130",
+      "attemptedAt": "2026-10-25T08:06:53.080Z",
+      "completedAt": "2026-10-25T08:06:54.473Z",
+      "httpStatus": 520,
+      "contentType": null,
+      "status": "failed",
+      "errorCode": "HTTP_STATUS",
+      "bytes": null,
+      "htmlSha256": null,
+      "encoding": null,
+      "title": "",
+      "searchFound": false,
+      "excerptStart": null,
+      "excerptTruncated": false,
+      "textLength": null,
+      "excerptSha256": null,
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 0,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-f9bc24640429acbefccd585205202062e57d710bbdaa1d81b4c2403c5e2bfbe4",
+      "requestId": "passage-review-20261025-39-2b8ac548-81a1-4d20-ab90-c7bbe0b89d7d",
+      "inputHash": "30bd95d09cf7bbd70f768d17e2d2e3d93f3c450b4c660af6831898800c0d97c8",
+      "passageId": "2b8ac548-81a1-4d20-ab90-c7bbe0b89d7d",
+      "sourceId": "50bb6f7b-a5b5-4468-9132-66a662630dd2",
+      "fingerprint": "0fc3e3e5f26cca104210cf3d3c0f456245e1379a45964aa6a48edde34219bed1",
+      "searchText": "상세정보",
+      "requestedUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=187",
+      "finalUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=187",
+      "attemptedAt": "2026-10-25T08:06:57.840Z",
+      "completedAt": "2026-10-25T08:06:57.997Z",
+      "httpStatus": 520,
+      "contentType": null,
+      "status": "failed",
+      "errorCode": "HTTP_STATUS",
+      "bytes": null,
+      "htmlSha256": null,
+      "encoding": null,
+      "title": "",
+      "searchFound": false,
+      "excerptStart": null,
+      "excerptTruncated": false,
+      "textLength": null,
+      "excerptSha256": null,
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 0,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-3790b2ec735e6a56c4630185c0747b2cc43e6f6f293909181e7821cb37382a17",
+      "requestId": "passage-review-20261025-39-3a80d4a6-83f0-4f61-912b-7f96f0882141",
+      "inputHash": "69cb270976419b0a3adb40ab2070584e7d247d23d16acb529dea340c625e278c",
+      "passageId": "3a80d4a6-83f0-4f61-912b-7f96f0882141",
+      "sourceId": "f79cba4d-4d89-46ab-bc92-c8b005a8dca8",
+      "fingerprint": "437ea4beef0152eafddaa27bb5fbf176f0c0e9d63c68e734d62b1b700757ce69",
+      "searchText": "유래및연혁",
+      "requestedUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=01&menuNo=600004",
+      "finalUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=01&menuNo=600004",
+      "attemptedAt": "2026-10-25T08:06:57.853Z",
+      "completedAt": "2026-10-25T08:06:58.061Z",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "status": "observed",
+      "errorCode": null,
+      "bytes": 37557,
+      "htmlSha256": "560d7722c4283c4c6c9d0d5f5406331c95033cb7c82cf42e8696a22599240222",
+      "encoding": "utf-8",
+      "title": "유래및연혁 | 우리동소개 | 후암동 | 후암동 동주민센터",
+      "searchFound": true,
+      "excerptStart": 0,
+      "excerptTruncated": false,
+      "textLength": 2879,
+      "excerptSha256": "5703d66230fbf9727277be2a2f1136bbeed5598daa0f4333eb1816beaded7c7a",
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 2879,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-2d9b635796ef097aaeaa38b89aef1f1fad902a50517733f72e10e08648537f03",
+      "requestId": "passage-review-20261025-39-65ae9e3c-8932-48a0-85dc-1112376de255",
+      "inputHash": "a653a74f61a7eda7e36ced588696ce50bcf87315ca153c62eabbc5229616f099",
+      "passageId": "65ae9e3c-8932-48a0-85dc-1112376de255",
+      "sourceId": "8738cb1b-4c76-41ce-b874-c52a4c9bf180",
+      "fingerprint": "58a6c11961b8e400005414feeb6ad7d8528df72ba99abd27b6e4050f5926a5d4",
+      "searchText": "상세정보",
+      "requestedUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=189",
+      "finalUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=189",
+      "attemptedAt": "2026-10-25T08:06:57.811Z",
+      "completedAt": "2026-10-25T08:06:57.966Z",
+      "httpStatus": 520,
+      "contentType": null,
+      "status": "failed",
+      "errorCode": "HTTP_STATUS",
+      "bytes": null,
+      "htmlSha256": null,
+      "encoding": null,
+      "title": "",
+      "searchFound": false,
+      "excerptStart": null,
+      "excerptTruncated": false,
+      "textLength": null,
+      "excerptSha256": null,
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 0,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-2dbf95a8c5c0ea9d5c51404c48a0509c58bd9828a649ee455d37fca73f991c77",
+      "requestId": "passage-review-20261025-39-70ba33cb-e1e6-47b5-b15f-c195d3e06664",
+      "inputHash": "baa1203f862e4890a1b2a8fed6ed5f1625f80bd58131daa811e5462a3cc872da",
+      "passageId": "70ba33cb-e1e6-47b5-b15f-c195d3e06664",
+      "sourceId": "0340bad5-f0cb-41e7-9afe-a808229d2d10",
+      "fingerprint": "267c3228bb2b971df31263284b81d015113be6172e443d86c57a4312a016381c",
+      "searchText": "상세정보",
+      "requestedUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=194",
+      "finalUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=194",
+      "attemptedAt": "2026-10-25T08:07:01.960Z",
+      "completedAt": "2026-10-25T08:07:02.536Z",
+      "httpStatus": 520,
+      "contentType": null,
+      "status": "failed",
+      "errorCode": "HTTP_STATUS",
+      "bytes": null,
+      "htmlSha256": null,
+      "encoding": null,
+      "title": "",
+      "searchFound": false,
+      "excerptStart": null,
+      "excerptTruncated": false,
+      "textLength": null,
+      "excerptSha256": null,
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 0,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-db8541e34e7fed3beb850c769ddd0430928a31f1d311a6b78fd52e3078d92055",
+      "requestId": "passage-review-20261025-39-7aee8f84-1241-4e92-b8fb-245abe8e0626",
+      "inputHash": "b36101279ea8d8c80a005d70b71d7e938320fd9a0bc677eeb6b86a538b7629dc",
+      "passageId": "7aee8f84-1241-4e92-b8fb-245abe8e0626",
+      "sourceId": "9c2e439f-f6b1-4224-930e-49e9b5253a1e",
+      "fingerprint": "3f03c6718061dc4d8c3f9d8656b9f0e54c21bc9a6d370b416326fecc2445473f",
+      "searchText": "상세정보",
+      "requestedUrl": "https://culture.jongno.go.kr/media/ko/bbs/125/detail.do?pstSn=144",
+      "finalUrl": "https://culture.jongno.go.kr/media/ko/bbs/125/detail.do?pstSn=144",
+      "attemptedAt": "2026-10-25T08:07:01.359Z",
+      "completedAt": "2026-10-25T08:07:01.936Z",
+      "httpStatus": 520,
+      "contentType": null,
+      "status": "failed",
+      "errorCode": "HTTP_STATUS",
+      "bytes": null,
+      "htmlSha256": null,
+      "encoding": null,
+      "title": "",
+      "searchFound": false,
+      "excerptStart": null,
+      "excerptTruncated": false,
+      "textLength": null,
+      "excerptSha256": null,
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 0,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-a279eeeb6c12d101a05d78d9ffc82385d9c2ef69fccab44f054ac996ae80e776",
+      "requestId": "passage-review-20261025-39-ae97e670-53ff-4641-9311-05ad0ff1cfed",
+      "inputHash": "03f19ef1f148735e4751084d31234b54bf8f53c6c2770a13b8b512d0d8ba46df",
+      "passageId": "ae97e670-53ff-4641-9311-05ad0ff1cfed",
+      "sourceId": "07f04f42-8d4e-4092-96da-b8c49ad4fe5a",
+      "fingerprint": "7da7c743e139bf38c682a80854713a65f905644bbacf6065004dd384702f0e11",
+      "searchText": "상세정보",
+      "requestedUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=169",
+      "finalUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=169",
+      "attemptedAt": "2026-10-25T08:07:01.353Z",
+      "completedAt": "2026-10-25T08:07:01.933Z",
+      "httpStatus": 520,
+      "contentType": null,
+      "status": "failed",
+      "errorCode": "HTTP_STATUS",
+      "bytes": null,
+      "htmlSha256": null,
+      "encoding": null,
+      "title": "",
+      "searchFound": false,
+      "excerptStart": null,
+      "excerptTruncated": false,
+      "textLength": null,
+      "excerptSha256": null,
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 0,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238",
+      "requestId": "passage-review-20261025-39-aef5f9f6-159f-4fb4-a9d2-415ab66f7798",
+      "inputHash": "392c0137c9d7a5f7dede25e0069100614d1382931c5bf65de5275306d6ac3f14",
+      "passageId": "aef5f9f6-159f-4fb4-a9d2-415ab66f7798",
+      "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+      "fingerprint": "b80d2ae43fcbdd0029d23eba4fb2b6f770bbaba99065c937a3fe0f212c5e32ef",
+      "searchText": "유래및연혁",
+      "requestedUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "finalUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "attemptedAt": "2026-10-25T08:07:05.386Z",
+      "completedAt": "2026-10-25T08:07:05.594Z",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "status": "observed",
+      "errorCode": null,
+      "bytes": 36421,
+      "htmlSha256": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+      "encoding": "utf-8",
+      "title": "유래및연혁 | 우리동소개 | 원효로2동 | 원효로2동 동주민센터",
+      "searchFound": true,
+      "excerptStart": 0,
+      "excerptTruncated": false,
+      "textLength": 2779,
+      "excerptSha256": "ff1e557c8cc5a97967db2bf12619f7e5330567e7d7f174d8ee97cf0765d220d3",
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 2779,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-00044271a6ec5bebf32259add78aff8f54465e3953ee88587c032b35310e4861",
+      "requestId": "passage-review-20261025-39-b76bf83d-0379-4bae-adb5-a8d2f100fd11",
+      "inputHash": "6d7f6c477b48ea6503a7b8c32da58831b42331a32d167db220d49f0113e8d99c",
+      "passageId": "b76bf83d-0379-4bae-adb5-a8d2f100fd11",
+      "sourceId": "c7a15dd4-c686-49ac-b24a-cd089d23de84",
+      "fingerprint": "0e08b1818883ced5397dff501dd5fc3bdd3ec333e2694ca6d227f87200f52fd7",
+      "searchText": "1970년 초 사채업무상담 모습이다. 본래 명동의 사채시장은 1950년대",
+      "requestedUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY489&fileId=H-TRNS-102699-493&fileSn=300&type=A&upperNodeId=CTGRY493",
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY489&fileId=H-TRNS-102699-493&fileSn=300&type=A&upperNodeId=CTGRY493",
+      "attemptedAt": "2026-10-25T08:07:04.805Z",
+      "completedAt": "2026-10-25T08:07:06.252Z",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=utf-8",
+      "status": "observed",
+      "errorCode": null,
+      "bytes": 542900,
+      "htmlSha256": "67aa267ff1c64fdf8d6cee0f4d8d9b8904e974bd9d8f019ec0f3166861d49553",
+      "encoding": "utf-8",
+      "title": "아카이브 상세 | 여의도 | 서울역사아카이브",
+      "searchFound": true,
+      "excerptStart": 1829,
+      "excerptTruncated": true,
+      "textLength": 3829,
+      "excerptSha256": "86dce7fc7b38766ff48ceac4a04f631e3de3b279073a750fb09f83b8279e6238",
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 2000,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-0fc76feea6590e393669073d147100a82e7d68f4f2aca381de4ef3ddb95ec4a4",
+      "requestId": "passage-review-20261025-39-c69bbc8a-41c9-4e66-aad8-908248c9056b",
+      "inputHash": "cad6b319321ec2fc6aa51fb993fd1907c14a5665ce16089244ed23e880b9bea2",
+      "passageId": "c69bbc8a-41c9-4e66-aad8-908248c9056b",
+      "sourceId": "9887b382-390c-4130-98ed-685d9c09e437",
+      "fingerprint": "735e801423c383c3d938abaf4b2e749ea635d561bdc17db3f3b9d9e00df662df",
+      "searchText": "국가기록원의 1912년 경기도 광주군 구천면 토지조사부 데이터를 분석하여",
+      "requestedUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1064&fileId=da138c23-477b-4cb0-ae91-02b0c3f85faf&fileSn=801&type=A&upperNodeId=CTGRY1066",
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1064&fileId=da138c23-477b-4cb0-ae91-02b0c3f85faf&fileSn=801&type=A&upperNodeId=CTGRY1066",
+      "attemptedAt": "2026-10-25T08:07:04.785Z",
+      "completedAt": "2026-10-25T08:07:05.738Z",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=utf-8",
+      "status": "observed",
+      "errorCode": null,
+      "bytes": 540260,
+      "htmlSha256": "2faf692a947ca92c1ae0162455f7d5ddf936764e80556308fb595943b29eaa2d",
+      "encoding": "utf-8",
+      "title": "아카이브 상세 | 천호동 | 서울역사아카이브",
+      "searchFound": true,
+      "excerptStart": 1798,
+      "excerptTruncated": true,
+      "textLength": 3956,
+      "excerptSha256": "d29eede756193cea007034cd3712ebe72553707cd5851adc369eeb923c1dcc52",
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 2158,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-a574e1346539c938c61440d2dd80f0d4503075e7912c5dc9bdc9eea6fc551af9",
+      "requestId": "passage-review-20261025-39-e5fec66f-fcce-454d-a83a-5ad8ec288d1b",
+      "inputHash": "a3bdb233af0a62e20a8e4281535ec142f2bcfe4c87a9aece47a96cb6e9d5ed67",
+      "passageId": "e5fec66f-fcce-454d-a83a-5ad8ec288d1b",
+      "sourceId": "dfaf9bfc-28e0-4752-8771-6a3bb1548ab4",
+      "fingerprint": "b6f65e844941ba32314eed039b01b9cba74ea5fd09683f1756ca729eb7e192d7",
+      "searchText": "상세정보",
+      "requestedUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=199",
+      "finalUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=199",
+      "attemptedAt": "2026-10-25T08:07:09.557Z",
+      "completedAt": "2026-10-25T08:07:10.101Z",
+      "httpStatus": 520,
+      "contentType": null,
+      "status": "failed",
+      "errorCode": "HTTP_STATUS",
+      "bytes": null,
+      "htmlSha256": null,
+      "encoding": null,
+      "title": "",
+      "searchFound": false,
+      "excerptStart": null,
+      "excerptTruncated": false,
+      "textLength": null,
+      "excerptSha256": null,
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 0,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    },
+    {
+      "id": "original-observation-85a884119ea86f7b44c0dd9dfcdb1a860e36495e724d09db85d482ed55e43634",
+      "requestId": "passage-review-20261025-39-f5286d95-4c96-4a55-8a72-e1e949e41029",
+      "inputHash": "796dab3d1d88c646b0208527d7d483815f66b9cf59df1e4c5cba4e8cd57ac7b8",
+      "passageId": "f5286d95-4c96-4a55-8a72-e1e949e41029",
+      "sourceId": "4fc96103-61f1-4a14-9fac-73b2b86a5249",
+      "fingerprint": "27a1b1f3c83a5f5ee2b8db55a0fdf6b849ef5b093e1022bcf7ed624eddc0ad48",
+      "searchText": "유래및연혁",
+      "requestedUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=07&menuNo=600704",
+      "finalUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=07&menuNo=600704",
+      "attemptedAt": "2026-10-25T08:07:08.946Z",
+      "completedAt": "2026-10-25T08:07:09.131Z",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "status": "observed",
+      "errorCode": null,
+      "bytes": 34214,
+      "htmlSha256": "6f8430cc0f7fff8abffaf0413789b712d087df6aa323557654019a57a974f05c",
+      "encoding": "utf-8",
+      "title": "유래및연혁 | 우리동소개 | 효창동 | 효창동 동주민센터",
+      "searchFound": true,
+      "excerptStart": 0,
+      "excerptTruncated": false,
+      "textLength": 1785,
+      "excerptSha256": "c6c311f3c56de7d39d020d5f17af09b504c12b3e5ac8d66558a3a1a05c5281e4",
+      "htmlHashKind": "response_body_bytes",
+      "excerptKind": "normalized_html_text_window",
+      "excerptLength": 1785,
+      "actor": "scheduled-private-service",
+      "scopeNote": "등록된 공식 원문의 제한된 열람 시도 기록입니다. HTTP 성공·문자열 발견은 내용 대조 완료, 역사 사실·공간 동일성 확인 또는 복제·재사용 허락이 아닙니다. 본문·검토 상태·버전·권리·지역 연결은 바꾸지 않습니다. 발췌는 응답에서만 제공하며 감사 DB에는 저장하지 않습니다."
+    }
+  ],
+  "localOriginalAttempts": [
+    {
+      "index": 0,
+      "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=16&menuNo=601604",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:00.457814+00:00",
+      "completedAt": "2026-10-25T08:06:03.863215+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 1,
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84417-434&fileSn=300&type=A&upperNodeId=CTGRY434",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84417-434&fileSn=300&type=A&upperNodeId=CTGRY434",
+      "attemptedAt": "2026-10-25T08:06:00.459702+00:00",
+      "completedAt": "2026-10-25T08:06:04.341189+00:00",
+      "sha256": "df26935ea156941b5c95ab2cd290d27222ed402b8e136ad408e3c79c38cd310d",
+      "bytes": 541813,
+      "contentType": "text/html;charset=utf-8"
+    },
+    {
+      "index": 2,
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=130",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:00.460299+00:00",
+      "completedAt": "2026-10-25T08:06:04.097853+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 3,
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=187",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:00.461156+00:00",
+      "completedAt": "2026-10-25T08:06:03.492062+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 4,
+      "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=01&menuNo=600004",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:03.492108+00:00",
+      "completedAt": "2026-10-25T08:06:06.487980+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 7,
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=189",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:03.863275+00:00",
+      "completedAt": "2026-10-25T08:06:07.007612+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 8,
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=194",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:04.097910+00:00",
+      "completedAt": "2026-10-25T08:06:07.035801+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 9,
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/125/detail.do?pstSn=144",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:04.341846+00:00",
+      "completedAt": "2026-10-25T08:06:07.008251+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 11,
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=169",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:06.488071+00:00",
+      "completedAt": "2026-10-25T08:06:10.519924+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 12,
+      "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:07.007669+00:00",
+      "completedAt": "2026-10-25T08:06:10.479485+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 13,
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY489&fileId=H-TRNS-102699-493&fileSn=300&type=A&upperNodeId=CTGRY493",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY489&fileId=H-TRNS-102699-493&fileSn=300&type=A&upperNodeId=CTGRY493",
+      "attemptedAt": "2026-10-25T08:06:07.008312+00:00",
+      "completedAt": "2026-10-25T08:06:11.392200+00:00",
+      "sha256": "67aa267ff1c64fdf8d6cee0f4d8d9b8904e974bd9d8f019ec0f3166861d49553",
+      "bytes": 542900,
+      "contentType": "text/html;charset=utf-8"
+    },
+    {
+      "index": 14,
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1064&fileId=da138c23-477b-4cb0-ae91-02b0c3f85faf&fileSn=801&type=A&upperNodeId=CTGRY1066",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1064&fileId=da138c23-477b-4cb0-ae91-02b0c3f85faf&fileSn=801&type=A&upperNodeId=CTGRY1066",
+      "attemptedAt": "2026-10-25T08:06:07.035848+00:00",
+      "completedAt": "2026-10-25T08:06:10.881591+00:00",
+      "sha256": "2faf692a947ca92c1ae0162455f7d5ddf936764e80556308fb595943b29eaa2d",
+      "bytes": 540260,
+      "contentType": "text/html;charset=utf-8"
+    },
+    {
+      "index": 17,
+      "url": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=199",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:10.479532+00:00",
+      "completedAt": "2026-10-25T08:06:13.412984+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "index": 20,
+      "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=07&menuNo=600704",
+      "status": 503,
+      "attemptedAt": "2026-10-25T08:06:10.519973+00:00",
+      "completedAt": "2026-10-25T08:06:13.382103+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "reviewWrites": [
+    {
+      "input": {
+        "sourceId": "f79cba4d-4d89-46ab-bc92-c8b005a8dca8",
+        "observationId": "original-observation-3790b2ec735e6a56c4630185c0747b2cc43e6f6f293909181e7821cb37382a17",
+        "payload": {
+          "passageId": "3a80d4a6-83f0-4f61-912b-7f96f0882141",
+          "expectedRevision": 3,
+          "expectedFingerprint": "437ea4beef0152eafddaa27bb5fbf176f0c0e9d63c68e734d62b1b700757ce69",
+          "status": "content_checked",
+          "evidence": {
+            "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=01&menuNo=600004",
+            "sourceLocator": "동 유래 > 두텁바위·전생서 관련 옛 지명; 동 연혁 > 1946.10.1·1985.9.1 행 / 운영 열람 감사 original-observation-3790b2ec735e6a56c4630185c0747b2cc43e6f6f293909181e7821cb37382a17 / 정규화 전체창 2879자, 잘림없음",
+            "observedAt": "2026-10-25T08:06:58.061Z",
+            "sourceHash": "560d7722c4283c4c6c9d0d5f5406331c95033cb7c82cf42e8696a22599240222",
+            "classification": "mixed",
+            "spatialScope": "neighborhood",
+            "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+            "summary": "실제 전체 본문창에서 두텁바위와 전생서의 지역 유래, 1946년 후암동 개칭, 1985년 도동2가의 동 통합을 대조했다. 1975년 도동2가의 용산구 편입과 1985년 후암동 통합을 구분했다. 유래 설명은 기관이 소개하는 지명 이야기로 한정하며 기존 요약·권리·연결은 그대로 유지한다.",
+            "checks": {
+              "names": {
+                "result": "checked",
+                "note": "후암동·두텁바위·전생서·도동2가 표기가 선택 요약과 일치한다. 원문에 있는 다른 옛 지명 표기를 임의로 새 명칭으로 교정하거나 추가하지 않았다."
+              },
+              "chronology": {
+                "result": "checked",
+                "note": "1946.10.1 후암동 개칭과1985.9.1 도동2가 통합을 동 연혁 행에서 확인했다.1975.10.1 용산구 편입을 동 통합 시점으로 혼동하지 않았다."
+              },
+              "tradition": {
+                "result": "checked",
+                "note": "두텁바위에서 이름을 설명한다는 유래 서술의 한정을 유지한다. 자손 기원·인물 관련 전승을 별도 사실이나 위치로 확대하지 않았다."
+              },
+              "consistency": {
+                "result": "checked",
+                "note": "선택 요약의1946 명칭과1985 동 통합은 본문과 연혁표에서 일치한다. 다른 관청·건물 관련 설명은 선택 요약에 추가하지 않았다."
+              },
+              "rights": {
+                "result": "checked",
+                "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+              },
+              "spatial": {
+                "result": "checked",
+                "note": "법정동 후암동 명칭과 기존 동네 연결을 대조했다. 도동2가 편입 범위를 현재 개별 부지·건물의 이력으로 일반화하지 않았다."
+              }
+            }
+          }
+        }
+      },
+      "result": {
+        "id": "3a80d4a6-83f0-4f61-912b-7f96f0882141",
+        "reviewId": "caf5546c-f803-495f-99af-f778ef108831",
+        "revision": 4,
+        "status": "content_checked",
+        "fingerprint": "437ea4beef0152eafddaa27bb5fbf176f0c0e9d63c68e734d62b1b700757ce69",
+        "checkedAt": "2026-10-25T08:12:04.832Z",
+        "unchanged": false,
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "input": {
+        "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+        "observationId": "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238",
+        "payload": {
+          "passageId": "aef5f9f6-159f-4fb4-a9d2-415ab66f7798",
+          "expectedRevision": 3,
+          "expectedFingerprint": "b80d2ae43fcbdd0029d23eba4fb2b6f770bbaba99065c937a3fe0f212c5e32ef",
+          "status": "content_checked",
+          "evidence": {
+            "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+            "sourceLocator": "동유래 > 마지막 신창동 문단(조선시대 신창 및1946.10.1 청수정→신창동) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+            "observedAt": "2026-10-25T08:07:05.594Z",
+            "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+            "classification": "mixed",
+            "spatialScope": "neighborhood",
+            "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+            "summary": "원효로2동 전체 본문에서 신창동 문단을 읽고, 신창 시설과 관련된 지명 설명 및1946년 청수정에서 신창동으로의 개칭을 선택 요약과 대조했다. 시설과 지명 유래의 연결을 기관 설명으로 한정하고 원효로2동 전체나 특정 필지로 확대하지 않는다.",
+            "checks": {
+              "names": {
+                "result": "checked",
+                "note": "원효로2동 내 법정동 신창동 문단의 신창·청수정·신창동 표기와 선택 요약을 대조했다. 시설의 위치·규모·운영 이력을 새로 확정하지 않았다."
+              },
+              "chronology": {
+                "result": "checked",
+                "note": "신창동 문단의1946.10.1 청수정→신창동 개칭이 요약의1946년과 일치한다. 다른 법정동 문단의 연혁을 신창동에 옮기지 않았다."
+              },
+              "tradition": {
+                "result": "checked",
+                "note": "시설에서 이름이 비롯되었다는 기관의 지명 유래 설명으로 한정한다. 선택 요약의 설명·소개라는 표현을 보존했다."
+              },
+              "consistency": {
+                "result": "checked",
+                "note": "선택 신창동 문단의 명칭과1946년 개칭은 요약과 일치한다. 같은 페이지 다른 동의 연대 오식을 신창동에 적용하지 않았다."
+              },
+              "rights": {
+                "result": "checked",
+                "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+              },
+              "spatial": {
+                "result": "checked",
+                "note": "행정동 원효로2동 안의 법정동 신창동을 구분하고 기존 exact_name 동네 연결만 대조했다. 신창 시설 부지 동일성은 확정하지 않았다."
+              }
+            }
+          }
+        }
+      },
+      "result": {
+        "id": "aef5f9f6-159f-4fb4-a9d2-415ab66f7798",
+        "reviewId": "caaf80f2-ceff-43a8-9f71-d1e429756c78",
+        "revision": 4,
+        "status": "content_checked",
+        "fingerprint": "b80d2ae43fcbdd0029d23eba4fb2b6f770bbaba99065c937a3fe0f212c5e32ef",
+        "checkedAt": "2026-10-25T08:12:07.733Z",
+        "unchanged": false,
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "input": {
+        "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+        "observationId": "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238",
+        "payload": {
+          "passageId": "c8c0a40f-16d6-4019-9542-c3cd94315117",
+          "expectedRevision": 3,
+          "expectedFingerprint": "34254ae05a38888da9ab1da553b9fe011fa5365a4da9032042df09e540baf164",
+          "status": "content_checked",
+          "evidence": {
+            "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+            "sourceLocator": "동유래 > 청암동 문단(암근정 개칭·독서당·마포장) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+            "observedAt": "2026-10-25T08:07:05.594Z",
+            "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+            "classification": "factual",
+            "spatialScope": "neighborhood",
+            "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+            "summary": "청암동 문단의 암근정에서 광복 뒤 개칭했다는 설명과 독서당·마포장의 지역 과거 장소 소개를 대조했다. 원문은 명칭 유래 미상이라고 하므로 청암이라는 이름의 어원을 만들어 넣지 않는다. 과거 장소와 현재 건물·필지 동일성은 별도 미검증으로 유지한다.",
+            "checks": {
+              "names": {
+                "result": "checked",
+                "note": "청암동·암근정·독서당·마포장 표기가 선택 요약과 일치한다. 원문이 미상이라고 밝힌 명칭의 어원을 새로 설명하지 않았다."
+              },
+              "chronology": {
+                "result": "checked",
+                "note": "문단의 광복 직후1946.10.1 개칭을 요약의 광복 뒤와 대조했다. 독서당은 조선시대, 마포장은 광복 후의 과거 장소로 소개된다는 범위만 확인했다."
+              },
+              "tradition": {
+                "result": "not_applicable",
+                "note": "선택 요약은 원문 장소명과 개칭 서술만 포함하며 별도 전승·추정은 추가하지 않았다."
+              },
+              "consistency": {
+                "result": "checked",
+                "note": "선택 청암동 문단의 개칭 및 두 과거 장소명이 요약과 일치한다. 같은 페이지 다른 법정동 문단의 연혁 상충은 청암동의 확정 연대로 사용하지 않았다."
+              },
+              "rights": {
+                "result": "checked",
+                "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+              },
+              "spatial": {
+                "result": "checked",
+                "note": "원효로2동과 법정동 청암동을 구분했다. 독서당·마포장과 현재 빌라·개별 필지의 동일성을 확정하지 않고 동네 배경만 유지한다."
+              }
+            }
+          }
+        }
+      },
+      "result": {
+        "id": "c8c0a40f-16d6-4019-9542-c3cd94315117",
+        "reviewId": "c8630889-dccf-4e6d-9780-5a48dd57dc3a",
+        "revision": 4,
+        "status": "content_checked",
+        "fingerprint": "34254ae05a38888da9ab1da553b9fe011fa5365a4da9032042df09e540baf164",
+        "checkedAt": "2026-10-25T08:12:10.591Z",
+        "unchanged": false,
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "input": {
+        "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+        "observationId": "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238",
+        "payload": {
+          "passageId": "d5a0f6ff-7aff-4dda-8c94-a4037b609f07",
+          "expectedRevision": 3,
+          "expectedFingerprint": "feac8b5330cc0f97f4dda9588aaa54d1e832d8c7fd4a9470b756296613ab8944",
+          "status": "content_checked",
+          "evidence": {
+            "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+            "sourceLocator": "동유래 > 원효로4가 문단(옛 용산항·심원정·함벽정) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+            "observedAt": "2026-10-25T08:07:05.594Z",
+            "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+            "classification": "factual",
+            "spatialScope": "neighborhood",
+            "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+            "summary": "원효로4가 문단에서 옛 용산항과 심원정·함벽정의 장소명을 확인했다. 선택 요약은 지역 배경만 다루며 원문에 보이는 구체 개칭 연대·보호수 수령·주수는 채택하지 않는다. 개별 시설이나 현재 건물의 부지 이력으로 연결하지 않는다.",
+            "checks": {
+              "names": {
+                "result": "checked",
+                "note": "원효로4가·용산항·심원정·함벽정 표기와 선택 요약이 일치한다. 원효로3가·2가와 혼동하지 않았다."
+              },
+              "chronology": {
+                "result": "checked",
+                "note": "요약은 옛 용산항이라는 과거 맥락만 담는다. 원문의 구체 개칭 연대·보호수 수령·주수는 선택 요약·연표로 채택하지 않았다."
+              },
+              "tradition": {
+                "result": "not_applicable",
+                "note": "선택 요약에는 별도의 설화·추정 설명을 추가하지 않았으며 원문 장소 소개 범위만 대조했다."
+              },
+              "consistency": {
+                "result": "checked",
+                "note": "선택한 세 장소의 과거 지역 배경 소개는 원효로4가 문단과 일치한다. 다른 동 문단의 명칭·연대 오류를 이 요약의 새 사실로 옮기지 않았다."
+              },
+              "rights": {
+                "result": "checked",
+                "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+              },
+              "spatial": {
+                "result": "checked",
+                "note": "법정동 원효로4가와 행정동 원효로2동을 구분했다. 용산항·심원정·함벽정의 개별 좌표·필지·건물 동일성은 검증하지 않은 동네 맥락이다."
+              }
+            }
+          }
+        }
+      },
+      "result": {
+        "id": "d5a0f6ff-7aff-4dda-8c94-a4037b609f07",
+        "reviewId": "fc0b3fc7-3bfa-4555-aa77-123ab7f13f49",
+        "revision": 4,
+        "status": "content_checked",
+        "fingerprint": "feac8b5330cc0f97f4dda9588aaa54d1e832d8c7fd4a9470b756296613ab8944",
+        "checkedAt": "2026-10-25T08:12:13.541Z",
+        "unchanged": false,
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "input": {
+        "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+        "observationId": "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238",
+        "payload": {
+          "passageId": "e9463a25-12cb-4721-8987-ce433e6e9614",
+          "expectedRevision": 2,
+          "expectedFingerprint": "42456b1b37d507dca1536ced3e0d69e3b73545fd2c5b5ee8feb59e7a6d887bb9",
+          "status": "needs_review",
+          "evidence": {
+            "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+            "sourceLocator": "동유래 > 산천동 문단(광복후·1946.10.1 및 뒤이은1943.6.1 표기) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+            "observedAt": "2026-10-25T08:07:05.594Z",
+            "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+            "classification": "conflict",
+            "spatialScope": "neighborhood",
+            "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+            "summary": "실제 산천동 문단에서 산수정 개칭과 유래 미상은 읽었으나, 같은 문단에 광복후/1946.10.1과1943.6.1이 중복·상충하여 개칭 시기를 확정하지 않았다. 선택 요약의 광복 뒤라는 시기 표현과 관련된 상충으로 보류를 유지한다. 공식 원문을 임의 교정하지 않고 새 원문 근거만 추가한다.",
+            "checks": {
+              "names": {
+                "result": "checked",
+                "note": "산수정·산천동과 명칭 유래 미상이라는 원문 표기를 대조했다. 미상을 확정 어원으로 바꾸지 않았다."
+              },
+              "chronology": {
+                "result": "unresolved",
+                "note": "문단 첫머리 광복후·뒷부분1946.10.1과 뒤이은1943.6.1이 서로 맞지 않는다. 요약의 광복 뒤 개칭 시기까지 독립 근거 없이 확정하지 않는다."
+              },
+              "tradition": {
+                "result": "checked",
+                "note": "원문에서 명칭 유래 미상이라고 한 한정을 보존했다. 산천이라는 글자에서 산·내와 관련된 새 어원을 추정하지 않았다."
+              },
+              "consistency": {
+                "result": "unresolved",
+                "note": "실제 원문 문단의 중복된 개칭 시기 표기가 해소되지 않아 needs_review로 유지한다.1943을1946으로 임의 교정하지 않았다."
+              },
+              "rights": {
+                "result": "checked",
+                "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+              },
+              "spatial": {
+                "result": "checked",
+                "note": "법정동 산천동과 행정동 원효로2동을 구분하고 기존 exact_name 연결을 유지한다. 옛 경계·개별 부지 동일성은 미검증이다."
+              }
+            }
+          }
+        }
+      },
+      "result": {
+        "id": "e9463a25-12cb-4721-8987-ce433e6e9614",
+        "reviewId": "0e0f986b-edf8-403b-8cb5-36d965281cee",
+        "revision": 3,
+        "status": "needs_review",
+        "fingerprint": "42456b1b37d507dca1536ced3e0d69e3b73545fd2c5b5ee8feb59e7a6d887bb9",
+        "checkedAt": "2026-10-25T08:12:16.639Z",
+        "unchanged": false,
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "input": {
+        "sourceId": "4fc96103-61f1-4a14-9fac-73b2b86a5249",
+        "observationId": "original-observation-85a884119ea86f7b44c0dd9dfcdb1a860e36495e724d09db85d482ed55e43634",
+        "payload": {
+          "passageId": "f5286d95-4c96-4a55-8a72-e1e949e41029",
+          "expectedRevision": 2,
+          "expectedFingerprint": "27a1b1f3c83a5f5ee2b8db55a0fdf6b849ef5b093e1022bcf7ed624eddc0ad48",
+          "status": "content_checked",
+          "evidence": {
+            "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=07&menuNo=600704",
+            "sourceLocator": "동유래 > 첫 문단(왕실 묘역 효창원·하마비·하마비계) / 운영 열람 감사 original-observation-85a884119ea86f7b44c0dd9dfcdb1a860e36495e724d09db85d482ed55e43634 / 정규화 전체창 1785자, 잘림없음",
+            "observedAt": "2026-10-25T08:07:09.131Z",
+            "sourceHash": "6f8430cc0f7fff8abffaf0413789b712d087df6aa323557654019a57a974f05c",
+            "classification": "mixed",
+            "spatialScope": "neighborhood",
+            "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+            "summary": "효창동 전체 본문창에서 왕실 묘역 효창원과 하마비계 유래 설명을 선택 요약과 대조했다. 원문이 하마비는 지금 전하지 않는다고 서술하므로 현재 남은 유구나 특정 필지의 현존 시설로 표시하지 않는다. 지명 유래는 기관 소개의 한정을 유지한다.",
+            "checks": {
+              "names": {
+                "result": "checked",
+                "note": "효창동·효창원·하마비계 표기와 선택 요약이 일치한다. 하마비가 지금 전하지 않는다는 원문의 한계를 보존했다."
+              },
+              "chronology": {
+                "result": "checked",
+                "note": "선택 요약은 왕실 묘역과 과거 지명 유래만 다룬다. 원문의 고종7년 승격 서술은 구체 연대나 새 연표로 채택하지 않았다."
+              },
+              "tradition": {
+                "result": "checked",
+                "note": "하마비로 인해 마을을 하마비계라 불렀다는 유래를 기관이 소개한 내용으로 한정한다. 하마비의 현존·독립 고증을 주장하지 않는다."
+              },
+              "consistency": {
+                "result": "checked",
+                "note": "선택 요약은 효창원과 과거 하마비계 설명에 일치한다. 현재 하마비가 있다는 주장이나 원문에 없는 추가 연대를 넣지 않았다."
+              },
+              "rights": {
+                "result": "checked",
+                "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+              },
+              "spatial": {
+                "result": "checked",
+                "note": "법정동 효창동의 동네 맥락만 대조했다. 원문 지번을 현재 필지·현존 하마비의 정확한 위치로 확정하거나 범위를 확대하지 않았다."
+              }
+            }
+          }
+        }
+      },
+      "result": {
+        "id": "f5286d95-4c96-4a55-8a72-e1e949e41029",
+        "reviewId": "77ae9951-c3a7-4215-ab1b-1c6d89fb36a4",
+        "revision": 3,
+        "status": "content_checked",
+        "fingerprint": "27a1b1f3c83a5f5ee2b8db55a0fdf6b849ef5b093e1022bcf7ed624eddc0ad48",
+        "checkedAt": "2026-10-25T08:12:19.994Z",
+        "unchanged": false,
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "input": {
+        "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+        "observationId": "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238",
+        "payload": {
+          "passageId": "fd0b8fe0-2520-46f8-b529-39112efb519a",
+          "expectedRevision": 2,
+          "expectedFingerprint": "520589e4084a98f21e77366cb3ac4910c2b4f2113ebd50ca15ca6610156c1300",
+          "status": "needs_review",
+          "evidence": {
+            "sourceUrl": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+            "sourceLocator": "동유래 > 첫 원효로3가 문단(1914.4.1 원정3정목·1926.10.1 원효로2가) / 운영 열람 감사 original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238 / 정규화 전체창 2779자, 잘림없음",
+            "observedAt": "2026-10-25T08:07:05.594Z",
+            "sourceHash": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+            "classification": "conflict",
+            "spatialScope": "neighborhood",
+            "scopeNote": "기존 법정동 exact_name 연결의 동네 맥락만 대조했다. 행정동 원효로2동과 그 안의 법정동을 구분하며 현재 경계·좌표·개별 건물·필지·시설 동일성은 미검증이다. sourceHash는 운영 서버가 실제 요청한 등록 HTML의 응답 바이트 SHA-256이며 정규화 발췌 해시와 구별한다.",
+            "summary": "원효로3가 문단의 구용산·전자상가 맥락은 읽었으나, 원정3정목 서술 뒤에 원정2정목 대신1926년 원효로2가로 개칭했다는 명칭·시기 불일치가 있다. 기존 요약의 결론 보류를 유지하고 실제 원문 위치·확인시각·응답 해시를 추가한다. 정답 연대·명칭을 추정해 교정하거나 새 연표를 만들지 않는다.",
+            "checks": {
+              "names": {
+                "result": "unresolved",
+                "note": "원효로3가 문단이 원정3정목을 거쳐 원정2정목/원효로2가로 서술하여 대상 명칭이 맞지 않는다. 어느 표기를 고쳐야 하는지 확정하지 않는다."
+              },
+              "chronology": {
+                "result": "unresolved",
+                "note": "원문1914.4.1 및1926.10.1의 개칭 서술이 대상 명칭과 함께 불일치한다.1926을1946으로 추정 교정하지 않는다."
+              },
+              "tradition": {
+                "result": "not_applicable",
+                "note": "선택 요약에는 설화·전승을 추가하지 않았으며 확인 불가 연대·명칭을 사실로 승격하지 않았다."
+              },
+              "consistency": {
+                "result": "unresolved",
+                "note": "구용산·전자상가 문맥은 확인했지만 동명 변천의 명칭·연대가 해소되지 않아 기존 보류를 유지한다."
+              },
+              "rights": {
+                "result": "checked",
+                "note": "등록 페이지 하단의 기관 저작권 안내와 기존 권리 메모를 대조했다. 개별 복제·변형 허락은 확인되지 않아 unknown, storageAllowed=0, reuseAllowed=0, 기존 rightsUrl·rightsNote를 유지한다. 짧은 별도 요약의 본문 대조 완료를 원문·파일 복제·재사용 허락으로 승격하지 않는다."
+              },
+              "spatial": {
+                "result": "checked",
+                "note": "행정동 원효로2동 안의 법정동 원효로3가 문맥을 구분했다. 원문 안의 원효로2가 표기를 이유로 기존 지역 연결을 바꾸지 않았다."
+              }
+            }
+          }
+        }
+      },
+      "result": {
+        "id": "fd0b8fe0-2520-46f8-b529-39112efb519a",
+        "reviewId": "c9be9a7a-d13c-4664-b114-8a73f0f89f43",
+        "revision": 3,
+        "status": "needs_review",
+        "fingerprint": "520589e4084a98f21e77366cb3ac4910c2b4f2113ebd50ca15ca6610156c1300",
+        "checkedAt": "2026-10-25T08:12:23.624Z",
+        "unchanged": false,
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    }
+  ],
+  "transcriptionChecks": [
+    {
+      "passageId": "1f76254b-8a48-43f0-83ef-ebe3f619714e",
+      "registeredUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84417-434&fileSn=300&type=A&upperNodeId=CTGRY434",
+      "localSha256": "df26935ea156941b5c95ab2cd290d27222ed402b8e136ad408e3c79c38cd310d",
+      "serverSha256": "df26935ea156941b5c95ab2cd290d27222ed402b8e136ad408e3c79c38cd310d",
+      "normalizedTextIsContained": true,
+      "hashesMatch": true,
+      "serverExcerptHashMatches": true,
+      "htmlUnchangedSinceReview38": true,
+      "transcriptionPreserved": true,
+      "contentIssueResolved": false
+    },
+    {
+      "passageId": "b76bf83d-0379-4bae-adb5-a8d2f100fd11",
+      "registeredUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY489&fileId=H-TRNS-102699-493&fileSn=300&type=A&upperNodeId=CTGRY493",
+      "localSha256": "67aa267ff1c64fdf8d6cee0f4d8d9b8904e974bd9d8f019ec0f3166861d49553",
+      "serverSha256": "67aa267ff1c64fdf8d6cee0f4d8d9b8904e974bd9d8f019ec0f3166861d49553",
+      "normalizedTextIsContained": true,
+      "hashesMatch": true,
+      "serverExcerptHashMatches": true,
+      "htmlUnchangedSinceReview38": true,
+      "transcriptionPreserved": true,
+      "contentIssueResolved": false
+    },
+    {
+      "passageId": "c69bbc8a-41c9-4e66-aad8-908248c9056b",
+      "registeredUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1064&fileId=da138c23-477b-4cb0-ae91-02b0c3f85faf&fileSn=801&type=A&upperNodeId=CTGRY1066",
+      "localSha256": "2faf692a947ca92c1ae0162455f7d5ddf936764e80556308fb595943b29eaa2d",
+      "serverSha256": "2faf692a947ca92c1ae0162455f7d5ddf936764e80556308fb595943b29eaa2d",
+      "normalizedTextIsContained": true,
+      "hashesMatch": true,
+      "serverExcerptHashMatches": true,
+      "htmlUnchangedSinceReview38": true,
+      "transcriptionPreserved": true,
+      "contentIssueResolved": false
+    }
+  ],
+  "serverExcerptChecks": [
+    {
+      "sourceId": "9abf1feb-c884-4559-bae0-4972671fd7f6",
+      "observationId": "original-observation-c5c6989d8566a7c47539d158d108c3af72b204c78a29610da9981ed7e80e4ba0",
+      "excerptHashMatches": true,
+      "excerptStart": 1818,
+      "excerptTruncated": true,
+      "textLength": 3877,
+      "htmlSha256": "df26935ea156941b5c95ab2cd290d27222ed402b8e136ad408e3c79c38cd310d",
+      "rawHtmlAvailableLocally": true
+    },
+    {
+      "sourceId": "f79cba4d-4d89-46ab-bc92-c8b005a8dca8",
+      "observationId": "original-observation-3790b2ec735e6a56c4630185c0747b2cc43e6f6f293909181e7821cb37382a17",
+      "excerptHashMatches": true,
+      "excerptStart": 0,
+      "excerptTruncated": false,
+      "textLength": 2879,
+      "htmlSha256": "560d7722c4283c4c6c9d0d5f5406331c95033cb7c82cf42e8696a22599240222",
+      "rawHtmlAvailableLocally": false
+    },
+    {
+      "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+      "observationId": "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238",
+      "excerptHashMatches": true,
+      "excerptStart": 0,
+      "excerptTruncated": false,
+      "textLength": 2779,
+      "htmlSha256": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+      "rawHtmlAvailableLocally": false
+    },
+    {
+      "sourceId": "c7a15dd4-c686-49ac-b24a-cd089d23de84",
+      "observationId": "original-observation-00044271a6ec5bebf32259add78aff8f54465e3953ee88587c032b35310e4861",
+      "excerptHashMatches": true,
+      "excerptStart": 1829,
+      "excerptTruncated": true,
+      "textLength": 3829,
+      "htmlSha256": "67aa267ff1c64fdf8d6cee0f4d8d9b8904e974bd9d8f019ec0f3166861d49553",
+      "rawHtmlAvailableLocally": true
+    },
+    {
+      "sourceId": "9887b382-390c-4130-98ed-685d9c09e437",
+      "observationId": "original-observation-0fc76feea6590e393669073d147100a82e7d68f4f2aca381de4ef3ddb95ec4a4",
+      "excerptHashMatches": true,
+      "excerptStart": 1798,
+      "excerptTruncated": true,
+      "textLength": 3956,
+      "htmlSha256": "2faf692a947ca92c1ae0162455f7d5ddf936764e80556308fb595943b29eaa2d",
+      "rawHtmlAvailableLocally": true
+    },
+    {
+      "sourceId": "4fc96103-61f1-4a14-9fac-73b2b86a5249",
+      "observationId": "original-observation-85a884119ea86f7b44c0dd9dfcdb1a860e36495e724d09db85d482ed55e43634",
+      "excerptHashMatches": true,
+      "excerptStart": 0,
+      "excerptTruncated": false,
+      "textLength": 1785,
+      "htmlSha256": "6f8430cc0f7fff8abffaf0413789b712d087df6aa323557654019a57a974f05c",
+      "rawHtmlAvailableLocally": false
+    }
+  ],
+  "verification": {
+    "preservedPassageIds": 638,
+    "immutableFingerprints": 638,
+    "unchangedLatestReviews": 631,
+    "updatedReviews": 7,
+    "sourceDetailsCompared": 14,
+    "sourceContentRightsVersionsPreserved": true,
+    "coverageCountsAndLinksPreserved": true,
+    "coverageReviewedDongCountUpdates": 5,
+    "coverageReviewedDongIds": [
+      "dong-용산구-신창동",
+      "dong-용산구-원효로4가",
+      "dong-용산구-청암동",
+      "dong-용산구-효창동",
+      "dong-용산구-후암동"
+    ],
+    "regionVerificationUnchanged": true,
+    "unreviewed": 0,
+    "remaining": 17,
+    "newAudits": 21,
+    "originalObservationAudits": 14,
+    "newReviews": 7,
+    "contentCheckedUpdates": 5,
+    "heldWithNewEvidence": 2,
+    "previousVisibleAuditsPreserved": 236,
+    "previousAuditsMovedOutside30Window": 3,
+    "readbackRequests": 59,
+    "reviewWriteReadbackRequests": 4,
+    "reviewIdempotentReplays": 7,
+    "observationIdempotentReplays": 2,
+    "replayReadbackSources": 5,
+    "duplicateAudits": 0,
+    "validOriginalObservationInputs": 14,
+    "validReviewInputs": 7,
+    "localTranscriptionsCompared": 3,
+    "localAndServerHtmlHashesMatched": 3,
+    "serverExcerptHashesRecalculated": 6,
+    "htmlUnchangedSinceReview38": 3,
+    "newYongsanHtmlHashesAvailableOnlyFromServer": 3
+  },
+  "supplementalResearch": {
+    "checkedDateKorea": "2026-10-25",
+    "publisherHttpAttempts": [
+      {
+        "url": "http://www.xn--2o2bi6co4o4ubcz4a.kr/",
+        "basis": "HTTP homepage explicitly listed by KCCF; publication path/ID observed in publisher search result",
+        "attemptedAt": "2026-10-25T08:05:27.924891+00:00",
+        "status": 403,
+        "error": "HTTP Error 403: Forbidden",
+        "completedAt": "2026-10-25T08:05:31.066997+00:00"
+      },
+      {
+        "url": "http://www.xn--2o2bi6co4o4ubcz4a.kr/bbs/board.php?bo_table=sub0402&wr_id=2",
+        "basis": "HTTP homepage explicitly listed by KCCF; publication path/ID observed in publisher search result",
+        "attemptedAt": "2026-10-25T08:05:27.926125+00:00",
+        "status": 403,
+        "error": "HTTP Error 403: Forbidden",
+        "completedAt": "2026-10-25T08:05:31.090002+00:00"
+      }
+    ],
+    "urlBasis": {
+      "sourceRecord": "data/passage-review-observations-2026-10-25-38.json",
+      "directoryUrl": "https://www.kccf.or.kr/lcltt/lclttFindPage.do",
+      "preciseLocator": "지방문화원 찾기 > 종로문화원 > 홈페이지",
+      "directoryHomepage": "http://www.xn--2o2bi6co4o4ubcz4a.kr/",
+      "directoryPreviouslyCheckedAt": "2026-10-25T05:47:58.402278+00:00",
+      "directoryNotRefetchedThisBatch": true
+    },
+    "webOpen": {
+      "requestedUrl": "http://www.xn--2o2bi6co4o4ubcz4a.kr/bbs/board.php?bo_table=sub0402&wr_id=2",
+      "toolReportedUrl": "https://www.xn--2o2bi6co4o4ubcz4a.kr/bbs/board.php?bo_table=sub0402&wr_id=2",
+      "result": "not accessible; web tool normalized requested URL to HTTPS",
+      "noDirectHttpStatusInWebResult": true
+    },
+    "boundedPrimarySearches": [
+      {
+        "query": "조선성시도 1830 서13171 정오표",
+        "domains": [
+          "museum.seoul.go.kr"
+        ],
+        "result": "no results in this query"
+      },
+      {
+        "query": "곡교리 성씨 면적 토지조사부",
+        "domains": [
+          "museum.seoul.go.kr",
+          "history.seoul.go.kr"
+        ],
+        "result": "no results in this query"
+      }
+    ],
+    "bookFullTextRetrieved": false,
+    "newPassageEvidence": true,
+    "newReviewsNeeded": true,
+    "imageOrVideoInspectionPerformed": false,
+    "result": "공식 안내의 HTTP 홈페이지와 관측된 발간물 게시글 경로가 모두403이었다. 책 원문·문단·판권을 확보하지 못했다. 등록 URL·권리·지역 연결을 바꾸거나 같은 보류 검토를 추가하지 않는다. 이번403은 해당 경로의 접근 실패이며 전체 원문 삭제·영구 장애·전체 계획의 영구 차단으로 확정하지 않는다.",
+    "nextWorkLimit": "HTTP403 경로의 반복·조건 변경 요청은 중단한다. 공개 HTTPS 원문 복구 또는 다른 기관의 실제 공식 원문·정오표를 확인한다. 이전 후보·검색 색인을 문단 대조로 승격하지 않는다.",
+    "recoveredOriginals": [
+      {
+        "sourceId": "f79cba4d-4d89-46ab-bc92-c8b005a8dca8",
+        "observationId": "original-observation-3790b2ec735e6a56c4630185c0747b2cc43e6f6f293909181e7821cb37382a17",
+        "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=01&menuNo=600004",
+        "completedAt": "2026-10-25T08:06:58.061Z",
+        "httpStatus": 200,
+        "htmlSha256": "560d7722c4283c4c6c9d0d5f5406331c95033cb7c82cf42e8696a22599240222",
+        "textLength": 2879,
+        "completeNormalizedWindow": true
+      },
+      {
+        "sourceId": "e0cb943c-c164-49e2-9206-e90582053b66",
+        "observationId": "original-observation-68431fd7aae0b73e39c474379f508b706668deee9c1caf7a7f5c86ff0a297238",
+        "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+        "completedAt": "2026-10-25T08:07:05.594Z",
+        "httpStatus": 200,
+        "htmlSha256": "4ebd9cb0dc8e41b91f35915c361fea7a6a18c80fa3a88ab75e511369ad420517",
+        "textLength": 2779,
+        "completeNormalizedWindow": true
+      },
+      {
+        "sourceId": "4fc96103-61f1-4a14-9fac-73b2b86a5249",
+        "observationId": "original-observation-85a884119ea86f7b44c0dd9dfcdb1a860e36495e724d09db85d482ed55e43634",
+        "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=07&menuNo=600704",
+        "completedAt": "2026-10-25T08:07:09.131Z",
+        "httpStatus": 200,
+        "htmlSha256": "6f8430cc0f7fff8abffaf0413789b712d087df6aa323557654019a57a974f05c",
+        "textLength": 1785,
+        "completeNormalizedWindow": true
+      }
+    ],
+    "localRetriesAfterServerRecovery": [
+      {
+        "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=01&menuNo=600004",
+        "attemptedAt": "2026-10-25T08:09:12.864591+00:00",
+        "reason": "fresh server HTTP200 and complete text window after initial local503",
+        "status": 503,
+        "error": "HTTP Error 503: Service Unavailable",
+        "completedAt": "2026-10-25T08:09:16.348636+00:00"
+      },
+      {
+        "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=06&menuNo=600604",
+        "attemptedAt": "2026-10-25T08:09:12.865282+00:00",
+        "reason": "fresh server HTTP200 and complete text window after initial local503",
+        "status": 503,
+        "error": "HTTP Error 503: Service Unavailable",
+        "completedAt": "2026-10-25T08:09:16.752718+00:00"
+      },
+      {
+        "url": "https://www.yongsan.go.kr/dong/main/contents.do?dongCd=07&menuNo=600704",
+        "attemptedAt": "2026-10-25T08:09:12.866466+00:00",
+        "reason": "fresh server HTTP200 and complete text window after initial local503",
+        "status": 503,
+        "error": "HTTP Error 503: Service Unavailable",
+        "completedAt": "2026-10-25T08:09:16.042015+00:00"
+      }
+    ],
+    "registeredOriginalResult": "등록된 후암동·원효로2동·효창동의 실제 전체 문단을 서버 열람으로 확인했다.5개 요약은 그대로 대조 완료했고 산천동·원효로3가는 실제 원문 상충 근거를 추가해 보류했다. 로컬 재시도3회는 모두503이므로 새 원문3개의 로컬 HTML 해시를 확보했다고 보고하지 않는다."
+  },
+  "writes": {
+    "reviews": 7,
+    "contentChecked": 5,
+    "needsReview": 2,
+    "corrections": 0,
+    "captures": 0,
+    "assets": 0,
+    "originalObservationAudits": 14,
+    "totalAuditRecords": 21
+  },
+  "failureCounts": {
+    "registeredOriginalUrls": 14,
+    "serverAttempts": 14,
+    "serverHttp200": 6,
+    "serverHttp520": 8,
+    "localInitialAttempts": 14,
+    "localInitialHttp200": 3,
+    "localInitialHttp503": 11,
+    "localRetriesAfterServerRecovery": 3,
+    "localRetriesHttp503": 3,
+    "publisherHttp403": 2,
+    "remainingUnavailablePassages": 12,
+    "photoLocation": 1,
+    "mapDateAndDirection": 1,
+    "statisticalDenominator": 1,
+    "sancheonChronology": 1,
+    "wonhyo3NamesAndChronology": 1,
+    "bookFullTextRetrieved": 0
+  },
+  "applicationCodeChanged": false,
+  "republished": false,
+  "originalOrImageAssetsAddedToGit": false,
+  "allPlanCriteriaComplete": false,
+  "nextPassageId": "ae97e670-53ff-4641-9311-05ad0ff1cfed",
+  "nextLabel": "서린동",
+  "nextCursor": "/api/archive/task?view=passages&limit=30&after=851f6e30-f56f-419d-ba18-20006ebb2c46",
+  "nextWork": "서린동부터 남은17개를 이어간다. 완료5개는 재처리하지 않는다. 종로·보광동 공개 원문 문단·권리, 산천동 개칭 시기 중복과 원효로3가 명칭·연대 상충, 신촌 지도 정오표·방향, 곡교리 원표·분모, 사진 원 촬영기록을 확인한다. 종로문화원 HTTP403 경로는 반복 요청을 중단하고 공개 HTTPS 복구나 다른 기관의 실제 원문을 찾는다. 소장 목록·검색 색인만으로 본문 대조를 완료하지 않는다."
+}

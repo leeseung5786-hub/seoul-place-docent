@@ -1,0 +1,2670 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-21T14:35:52.906234Z",
+  "siteProjectId": "appgprj_6acd53ff39588191b6c07a038ece0771",
+  "siteUrl": "https://seoul-place-history.xeonire.chatgpt.site",
+  "sourceBaseCommit": "47cf6c6c062578d0e857e3ee17fb377ea40e9d45",
+  "siteVersion": 22,
+  "codeChanged": false,
+  "republished": false,
+  "access": {
+    "mode": "custom",
+    "ownerCount": 1,
+    "editors": 0,
+    "groups": 0,
+    "externalVisitors": 0,
+    "policyRevision": 1
+  },
+  "checks": {
+    "inputValidation": {
+      "validated": 30,
+      "passed": 30
+    },
+    "readback": "passed",
+    "allCurrentPassageFingerprints": "unchanged",
+    "priorReviewHistory": "all 15 IDs preserved",
+    "newReviewHistory": 30,
+    "idempotentReplay": 3,
+    "browserVisualQA": "not performed in this data-only batch"
+  },
+  "sourceAccessFailures": {
+    "museumDetail": 11,
+    "historyDictionary": 7,
+    "seongdongTimeoutAnd503": 1,
+    "dongjakRobots": 1
+  },
+  "sourceAccessLimitations": {
+    "hwanghak": "The official URL full text was supplied through search retrieval; direct refresh timed out. Exact cache retrieval date and live-body equivalence are not known.",
+    "museum": "Separate ordinary HTTP reads of the first two detailed URLs returned 503; all eleven official detailed URLs were unavailable in web retrieval. Old stored text was not used as independent proof.",
+    "dongjak": "robots.txt denial was not bypassed."
+  },
+  "batch": "passage-review-20261021-02",
+  "before": {
+    "currentPassages": 638,
+    "reviewed": 15,
+    "contentChecked": 5,
+    "needsReview": 10,
+    "unreviewed": 623,
+    "remaining": 633
+  },
+  "after": {
+    "currentPassages": 638,
+    "reviewed": 44,
+    "contentChecked": 15,
+    "needsReview": 29,
+    "unreviewed": 594,
+    "remaining": 623
+  },
+  "processed": 30,
+  "newPassagesReviewed": 29,
+  "previousHoldResolved": 1,
+  "contentCheckedWrites": 10,
+  "newHolds": 20,
+  "immutableCurrentPassages": 638,
+  "nonselectedUnchanged": 608,
+  "sourceDetailsUnchanged": 28,
+  "sourceStatsUnchanged": true,
+  "sourceCounts": {
+    "sources": 525,
+    "passages": 638,
+    "versions": 525,
+    "facts": 21,
+    "assets": 20
+  },
+  "regionVerification": {
+    "total": 467,
+    "withCode": 467,
+    "reviewed": 467,
+    "addressObserved": 464,
+    "addressUnconfirmed": 3,
+    "officialCodeOnly": 3,
+    "lifecycleChecked": 467,
+    "verifiedCurrent": 467,
+    "verifiedAbolished": 0,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "legalDongReviewedCountIncrements": 8,
+  "districtContextChecked": 2,
+  "records": [
+    {
+      "passageId": "00f0f9b8-802b-4476-968b-a6d437d7b8a7",
+      "sourceId": "0bd68cff-6f1a-4eb4-b846-5d6adea0e7c2",
+      "versionId": "d5273483-5441-4492-8249-21f317966478",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 『강남; 사진으로 읽다』(2009), 33쪽",
+      "locator": "상세 자료 > 내용 항목 · 『강남; 사진으로 읽다』(2009), 33쪽",
+      "textKind": "transcription",
+      "fingerprint": "8bf77dbb223e431a05c501ff7f4d0cb339e944cf1572e9d3808ca9a23a8d119a",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "115839bf-2f61-4c5a-8436-7c67a7f48ec5",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:23:51.228Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY469&fileId=H-TRNS-5784-470&fileSn=300&type=A&upperNodeId=CTGRY470",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 『강남; 사진으로 읽다』(2009), 33쪽 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+      "sourceId": "49bfa954-ee68-4046-bb46-23b1bd573aca",
+      "versionId": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+      "sourceVersion": 1,
+      "label": "당산동 불탄 자리",
+      "locator": "동 명칭 및 지명 유래 > 당산동 > 불탄 자리",
+      "textKind": "paraphrase",
+      "fingerprint": "3172edcf0e8b43134071ad5de6e047cd42a6788b8eb1fb5a2fda66eadadc9c4d",
+      "previousReviewId": "f1c5e5fc-9efa-4ebd-893c-39f29cfbe9b1",
+      "previousRevision": 1,
+      "previousStatus": "needs_review",
+      "reviewId": "8df06c21-f824-4b9c-8dc1-0665467d14a6",
+      "revision": 2,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:26:31.201Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "direct_official_html; previous_hold_resolved",
+      "evidence": {
+        "sourceUrl": "https://www.ydp.go.kr/www/contents.do?key=2887",
+        "sourceLocator": "동 명칭 및 지명 유래 > 당산동 > 불탄 자리 행",
+        "observedAt": "2026-10-21T14:17:43.569165Z",
+        "sourceHash": "584c859553031da0655073f2fa3006ac338b98bce7b9a83fcb7c83b57950760a",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "이전 접속 보류 항목을 직접 열린 같은 공식 HTML로 재대조했다. 구청의 한국전쟁 폭격 관련 소개와 기존 요약이 대응해 revision 2로 대조 완료 기록을 추가한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "당산동 옛 지명 불탄 자리 행과 현재 요약의 대상을 대조했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문이 6.25사변 때 폭격에 연결한 설명과 요약이 대응한다. 구체적인 폭격일은 만들지 않았다."
+          },
+          "tradition": {
+            "result": "not_applicable",
+            "note": "현재 요약이 다루는 원문 설명만 대조했으며 다른 절의 전승·추정을 새 확정 사실로 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 제공기관 원문과 기존 요약의 설명 수준이 대응한다. 독립 사료 전체 대조나 역사적 사실의 최종 확정을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "원문이 가리킨 옛 지명의 동네 맥락만 대조했다. 본문의 위치 서술을 현재 필지 경계·개별 건물의 폭격 이력으로 확장하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0500c694-967e-49f6-8401-d21cab1af0c0",
+      "sourceId": "a42290e6-5621-4b61-bf41-c93116f26756",
+      "versionId": "53a5970c-fa46-481f-8d14-860b2dc5fb33",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 『서촌; 역사 경관 도시조직의 변화』(2010), 171쪽",
+      "locator": "상세 자료 > 내용 항목 · 『서촌; 역사 경관 도시조직의 변화』(2010), 171쪽",
+      "textKind": "transcription",
+      "fingerprint": "af09420d9cb85575540f3f7da02b56514c06f94a7381690b2d638aba0e2c1e93",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "0dfcdfaf-520f-48ce-8244-a8e2ebe1f754",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:23:56.550Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY267&fileId=H-TRNS-2776-281&fileSn=300&type=A&upperNodeId=CTGRY281",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 『서촌; 역사 경관 도시조직의 변화』(2010), 171쪽 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "050f914f-48d7-4932-853e-b4326078776c",
+      "sourceId": "f8b7fe3c-3a8e-419c-9e33-a16b7e3ed26c",
+      "versionId": "4980c8d3-acb6-4423-b796-e05f37aa2d61",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 『반포본동: 남서울에서 구반포로』(2018), 298쪽",
+      "locator": "상세 자료 > 내용 항목 · 『반포본동: 남서울에서 구반포로』(2018), 298쪽",
+      "textKind": "transcription",
+      "fingerprint": "27a90b27cdfac8ef9cf7c5c562c2733c4b0a3099acad7e34d4a86efd7deda9aa",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "ebc79310-c3fb-4ad6-adef-2fac82f46748",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:24:03.323Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY482&fileId=H-TRNS-99217-485&fileSn=300&type=A&upperNodeId=CTGRY485",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 『반포본동: 남서울에서 구반포로』(2018), 298쪽 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0522b86a-d6aa-47f8-9899-e8af0ec80d29",
+      "sourceId": "17705f7e-d770-4ed0-a5cd-57487cb05525",
+      "versionId": "7dc72788-0dcb-4196-8725-7fdf69be9a5e",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 『명동; 공간의 형성과 변화』(2011), 87쪽",
+      "locator": "상세 자료 > 내용 항목 · 『명동; 공간의 형성과 변화』(2011), 87쪽",
+      "textKind": "transcription",
+      "fingerprint": "2228d7b830b9b136a23a577e9424e6c8223ad35e0c8efd598312eb4115ab3ffa",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "c0a8a653-8311-456f-95ec-557d5e009326",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:24:07.724Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY316&fileId=H-TRNS-69584-318&fileSn=300&type=A&upperNodeId=CTGRY318",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 『명동; 공간의 형성과 변화』(2011), 87쪽 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "08db3d87-e6c8-4491-989a-c013293f4f3e",
+      "sourceId": "ca6bdf60-00aa-490e-84ae-268da598bb19",
+      "versionId": "d1c92df2-0d2e-4958-ab21-ba1928a9e0f5",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 서울특별시 항공사진 서비스",
+      "locator": "상세 자료 > 내용 항목 · 서울특별시 항공사진 서비스",
+      "textKind": "transcription",
+      "fingerprint": "905765e061a7b52bbc73ae8128a9e8b7aa018576c26df2186a9eb09d1f0276b3",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "34769d2c-09fc-4970-8236-eb6d041cf52c",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:24:12.368Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY446&fileId=H-TRNS-48797-449&fileSn=300&type=A&upperNodeId=CTGRY449",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 서울특별시 항공사진 서비스 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "098cbb1c-17dd-4e2d-a0af-c3b5305d64de",
+      "sourceId": "f44932fb-64f9-42f9-bde3-66f85f56c082",
+      "versionId": "4b00e8a7-0938-479c-8957-6dd2e24dd5b2",
+      "sourceVersion": 1,
+      "label": "황학동",
+      "locator": "유래 및 연혁 > 동명·1751년 문단",
+      "textKind": "paraphrase",
+      "fingerprint": "5472d18ad052ed95991760f9ac086821a2794d54727e511efd0494e8b438b0ba",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "48b2eb63-e829-466d-9453-a7a7d95a5ecf",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:24:17.813Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "official_body_via_search_cache; direct_timeout",
+      "evidence": {
+        "sourceUrl": "https://www.junggu.seoul.kr/dong/hwanghak/content.do?cmsid=13710",
+        "sourceLocator": "동현황 > 유래 및 연혁 > 첫 동명 문단·1751년 문단 (공식 URL의 검색 제공 본문)",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 URL의 검색 제공 본문에서 이름 이야기와 1751년 소개를 대조했다. 직접 재접속은 시간 초과여서 실시간 갱신 동일성은 확인하지 못했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "황학동 한자와 황학이 날아왔다는 이름 이야기를 공식 재게재 문단에서 대조했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "구청이 인용한 1751년 도성삼군문분계총록의 남부 두모방 신당리계 설명과 요약이 대응한다. 책 원본을 독립 열람한 것은 아니다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "황학의 방문 이야기는 전승으로 남긴 기존 표현이 원문의 전하는 설명과 일치한다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "검색 서비스가 제공한 공식 URL의 해당 절 전체와 요약이 일치한다. 원문은 서울지명사전 재게재임을 밝히며 실시간 원문 갱신 여부와 독립 사료 대조는 미확인이다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0b7276ab-4c8e-4296-8bf4-3053a720c32f",
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+      "sourceVersion": 1,
+      "label": "노고산",
+      "locator": "동이름의 유래 > 노고산",
+      "textKind": "paraphrase",
+      "fingerprint": "dbadccd00a7b10d981cfa54fe9dfe1a672a81bcf8fe5f2babd68b699d8c5151c",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "040f5b16-b655-4620-8eaf-91ff37853f84",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:24:22.825Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "official_web_body",
+      "evidence": {
+        "sourceUrl": "https://www.mapo.go.kr/site/culture/content/culture0302",
+        "sourceLocator": "동이름의 유래 > 중부 > 노고산 첫 문단",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "노고산 절의 지명·유래설과 요약이 대응한다. 노고산을 법정동 이름으로 자동 보정하지 않았다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "원문의 제목은 노고산이며 산 이름과 서낭당 주변 마을의 설명이 대응한다."
+          },
+          "chronology": {
+            "result": "not_applicable",
+            "note": "현재 짧은 요약에는 특정 연도가 없어 새 연대를 추가하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "노인·서낭당 이야기는 원문에서도 설로 제시된다. 요약의 여러 설명이라는 한정을 보존했다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 제공기관 원문과 기존 요약의 설명 수준이 대응한다. 독립 사료 전체 대조나 역사적 사실의 최종 확정을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "기존 구 단위 맥락 연결을 유지하며 노고산을 현행 세부 법정동이나 개별 필지로 확대하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0b748839-d377-4306-a580-483c0c6c4cdb",
+      "sourceId": "0d588bab-fe84-4ca4-b3da-21de54e6694a",
+      "versionId": "d7388fa6-2ec1-4d76-8c74-dcd931215c99",
+      "sourceVersion": 1,
+      "label": "서울지명사전 > 법정동 > 동소문동2가(東小門洞2街) > 말미 동소문동2가 신설 위치 / 본문 구간 (txt-box0)",
+      "locator": "서울지명사전 > 법정동 > 동소문동2가(東小門洞2街) > 말미 동소문동2가 신설 위치 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "014b25fc4cc0f28043234b3c4126aa83068d3686da8b1d767291f50fe0b50a11",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "db31c417-32e2-48ca-91c4-c2c8ef64c62c",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:24:27.750Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "history_dictionary_unavailable",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%8F%99%EC%86%8C%EB%AC%B8%EB%8F%992%EA%B0%80",
+        "sourceLocator": "기존 등록 위치: 서울지명사전 > 법정동 > 동소문동2가(東小門洞2街) > 말미 동소문동2가 신설 위치 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "개별 원문을 열지 못해 이용조건 재확인을 보류한다. 기존 unknown·보관 및 재사용 불허 설정을 그대로 유지했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0c16002c-a686-43a3-b7f8-948ca474330e",
+      "sourceId": "2df61514-6e20-429a-81b8-10e667ce7445",
+      "versionId": "e94fbe2e-e62c-4d9b-bf8f-b5215b819783",
+      "sourceVersion": 1,
+      "label": "법정동 명칭검색 «필동1가» > 필동1가(筆洞1街) > 연혁 문단 / 본문 구간 (txt-box0)",
+      "locator": "법정동 명칭검색 «필동1가» > 필동1가(筆洞1街) > 연혁 문단 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "708a7710fd41e4e6c568df0032f77129da0f35facdaed2135717fb05ff7a5a52",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "918d9eac-a2a7-44ec-b5d9-113ed7ba0176",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:24:34.924Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "history_dictionary_unavailable",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%95%84%EB%8F%991%EA%B0%80",
+        "sourceLocator": "기존 등록 위치: 법정동 명칭검색 «필동1가» > 필동1가(筆洞1街) > 연혁 문단 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "개별 원문을 열지 못해 이용조건 재확인을 보류한다. 기존 unknown·보관 및 재사용 불허 설정을 그대로 유지했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0c23df8f-b85c-4cd0-9edb-b071a8a1c03e",
+      "sourceId": "5039cf6a-472e-4d1c-8d50-d2f7fef7c360",
+      "versionId": "336e9b0e-99d5-47aa-84c6-879fc4a72db8",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 『홍대앞; 서울의 문화발전소』(2018), 445쪽",
+      "locator": "상세 자료 > 내용 항목 · 『홍대앞; 서울의 문화발전소』(2018), 445쪽",
+      "textKind": "transcription",
+      "fingerprint": "73300c0b25f4a0e8fd0759ff4bbd1f0549c31d1c653150bf8d1a3549412b8441",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "e4b86415-eb60-4db9-bc53-526b7b5eef7e",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:24:39.572Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY463&fileId=H-TRNS-86570-467&fileSn=300&type=A&upperNodeId=CTGRY467",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 『홍대앞; 서울의 문화발전소』(2018), 445쪽 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0c6106f5-e28e-4cbe-be5e-e1be3306fc87",
+      "sourceId": "11ad709e-e01f-4418-807c-2e31c483014d",
+      "versionId": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+      "sourceVersion": 1,
+      "label": "지명유래 > 도선동",
+      "locator": "지명유래 > 도선동",
+      "textKind": "paraphrase",
+      "fingerprint": "cd15d468745e71fb68ece4eafbb83dba31fa2d51f72a3ba98520d288332fa51f",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "6bee097f-be39-4acb-a082-66abab5026fd",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:24:45.317Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "timeout_and_http_503",
+      "evidence": {
+        "sourceUrl": "https://sd.go.kr/tour/contents.do?key=1926",
+        "sourceLocator": "기존 등록 위치: 지명유래 > 도선동 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 원문은 조회 시간 초과였고 별도 표준 HTTP 읽기도 503으로 실패했다. 이름·1963년 분동을 재대조하지 못했다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 원문은 조회 시간 초과였고 별도 표준 HTTP 읽기도 503으로 실패했다. 이름·1963년 분동을 재대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 원문은 조회 시간 초과였고 별도 표준 HTTP 읽기도 503으로 실패했다. 이름·1963년 분동을 재대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 원문은 조회 시간 초과였고 별도 표준 HTTP 읽기도 503으로 실패했다. 이름·1963년 분동을 재대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 원문은 조회 시간 초과였고 별도 표준 HTTP 읽기도 503으로 실패했다. 이름·1963년 분동을 재대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "본문 및 개별 이용조건 재확인을 보류하며 기존 unknown·보관 및 재사용 불허 설정을 유지했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0cc0c432-ffdc-4847-8fc1-99179e3cc9a8",
+      "sourceId": "ab45b58b-1d73-4fb7-9a47-557bb1601132",
+      "versionId": "f3947f32-1c74-44bd-ba8e-da2c92db8f2d",
+      "sourceVersion": 1,
+      "label": "잠원동",
+      "locator": "잠원동 지명유래 > 첫 문단·사평장터·한강나루",
+      "textKind": "paraphrase",
+      "fingerprint": "806023cd88c80a1b493b3067a56c489b65abd72b6d0bb1fc9e3a97574c297c19",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "7dce627f-a4ac-40ab-ab37-047acb06e502",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:24:49.997Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "official_web_body",
+      "evidence": {
+        "sourceUrl": "https://www.seocho.go.kr/site/seocho/05/10502040300002015070810.jsp",
+        "sourceLocator": "잠원동의 지명유래 > 첫 문단·사평장터·한강나루 절",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "명칭·1963년 편입과 장터·나루 맥락이 구청 원문에 대응한다. 원문의 현재·60여년전은 글 작성 시점의 표현이며 2026년 상태로 확장하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "잠실리의 잠과 신원리의 원을 취한 명칭 설명, 잠실도회와 다른 잠실동의 구분을 대조했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "첫 문단의 1963년 서울 편입과 현재 요약의 연도가 일치한다."
+          },
+          "tradition": {
+            "result": "not_applicable",
+            "note": "현재 요약이 다루는 원문 설명만 대조했으며 다른 절의 전승·추정을 새 확정 사실로 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 제공기관 원문과 기존 요약의 설명 수준이 대응한다. 독립 사료 전체 대조나 역사적 사실의 최종 확정을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0d1830bb-5db6-4765-8cba-bd342f87c140",
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+      "sourceVersion": 1,
+      "label": "마포동",
+      "locator": "동이름의 유래 > 마포동",
+      "textKind": "paraphrase",
+      "fingerprint": "2b6d3df032c80f23feb4fb9ea5bbe14995d1acaa20690b5e8331f52efed81a27",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "7568c08e-875e-41d0-ad05-862fe195e8ca",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:24:55.589Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "official_web_body",
+      "evidence": {
+        "sourceUrl": "https://www.mapo.go.kr/site/culture/content/culture0302",
+        "sourceLocator": "동이름의 유래 > 동부 > 마포동 첫 문단",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "마포나루와 삼개에 관한 해당 구청 문단을 대조했다. 다른 마포 권역이나 현재 건물의 연혁으로 확대하지 않았다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "마포나루와 삼개라는 옛 이름의 설명이 현재 요약에 대응한다."
+          },
+          "chronology": {
+            "result": "not_applicable",
+            "note": "현재 짧은 요약에는 특정 연도가 없어 새 연대를 추가하지 않았다."
+          },
+          "tradition": {
+            "result": "not_applicable",
+            "note": "현재 요약이 다루는 원문 설명만 대조했으며 다른 절의 전승·추정을 새 확정 사실로 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 제공기관 원문과 기존 요약의 설명 수준이 대응한다. 독립 사료 전체 대조나 역사적 사실의 최종 확정을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0d2db043-6544-4403-b627-1a1b0752e517",
+      "sourceId": "1031f549-264d-439b-ac3b-79e0a6764800",
+      "versionId": "26684335-ecd3-4d57-898c-0af8bde330b6",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 『중곡동』(2023), p. 62.",
+      "locator": "상세 자료 > 내용 항목 · 『중곡동』(2023), p. 62.",
+      "textKind": "transcription",
+      "fingerprint": "f01b48ad0833dcccc743cb47bb509104d49fd850e952390a85ebb7ccd0431650",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "8b068d50-940d-4f04-ab7e-63041772b8c9",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:25:00.339Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1141&fileId=07d72bd7-c5c9-4117-ac54-37922cce8463&fileSn=1080&type=A&upperNodeId=CTGRY1144",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 『중곡동』(2023), p. 62. · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0ddd9b33-3cf7-4012-b55b-75295886dba3",
+      "sourceId": "b4b6f22c-1988-4aa5-aba4-fe532c981d33",
+      "versionId": "659e0550-c15b-41db-9649-9f164617b189",
+      "sourceVersion": 1,
+      "label": "서울지명사전 > 법정동 > 사직동(社稷洞) > 동명 유래·행정구역 연혁 / 본문 구간 (txt-box0)",
+      "locator": "서울지명사전 > 법정동 > 사직동(社稷洞) > 동명 유래·행정구역 연혁 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "61677e41125278c28c5a1d8e0b92dea720e1718efbc7bb2782cd23e2f86a287b",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "e213afe6-d93b-49ea-9eab-3e6d9c1a813f",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:25:05.823Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "history_dictionary_unavailable",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%82%AC%EC%A7%81%EB%8F%99",
+        "sourceLocator": "기존 등록 위치: 서울지명사전 > 법정동 > 사직동(社稷洞) > 동명 유래·행정구역 연혁 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "개별 원문을 열지 못해 이용조건 재확인을 보류한다. 기존 unknown·보관 및 재사용 불허 설정을 그대로 유지했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0e4368d3-2b77-46e0-a0fc-66e883d8d234",
+      "sourceId": "100b3901-1cbf-41d3-8697-d289225207ed",
+      "versionId": "89d11a18-d3d6-4a78-9395-3b97e2878de9",
+      "sourceVersion": 1,
+      "label": "법정동 분류 > 영등포동7가(永登浦洞7街) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0)",
+      "locator": "법정동 분류 > 영등포동7가(永登浦洞7街) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "303c657cc50469f1e8cc983df3f44babe7fa67bcb47f406636278ef40cf3018a",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "250bb940-ce64-4497-b812-a120b1c48d28",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:25:11.353Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "history_dictionary_unavailable",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%997%EA%B0%80",
+        "sourceLocator": "기존 등록 위치: 법정동 분류 > 영등포동7가(永登浦洞7街) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "개별 원문을 열지 못해 이용조건 재확인을 보류한다. 기존 unknown·보관 및 재사용 불허 설정을 그대로 유지했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0e4ea211-2039-474d-8cc9-1431aaf07edd",
+      "sourceId": "a748df11-7521-4924-9f64-67a33af77cf6",
+      "versionId": "d7993b57-5435-48c4-b75c-e15214b7ee9f",
+      "sourceVersion": 1,
+      "label": "서울지명사전 > 법정동 > 보문동6가(普門洞6街) > 말미 보문동6가 구분 위치 / 본문 구간 (txt-box0)",
+      "locator": "서울지명사전 > 법정동 > 보문동6가(普門洞6街) > 말미 보문동6가 구분 위치 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "5043ef151c13639f563b4a1b7b29edc4667053c3cf36f5031bf2ab00d7ada9f7",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "3621ee37-4445-4773-8806-0adef18fd7eb",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:25:16.637Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "history_dictionary_unavailable",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%B3%B4%EB%AC%B8%EB%8F%996%EA%B0%80",
+        "sourceLocator": "기존 등록 위치: 서울지명사전 > 법정동 > 보문동6가(普門洞6街) > 말미 보문동6가 구분 위치 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "개별 원문을 열지 못해 이용조건 재확인을 보류한다. 기존 unknown·보관 및 재사용 불허 설정을 그대로 유지했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "0f6867d0-e340-4a8c-aab1-91a65d4afe14",
+      "sourceId": "8dcd9299-0400-4638-93fe-a932c7f4e69f",
+      "versionId": "b571a817-3739-4650-98c3-d476898e58d5",
+      "sourceVersion": 1,
+      "label": "신대방동 > 첫 문단·모자원",
+      "locator": "신대방동 > 첫 문단·모자원",
+      "textKind": "paraphrase",
+      "fingerprint": "906ba0d2a51c8b6b814c6cb3a1031878b037bcfd3e8f979dab54f9f074d8eea1",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "3cf9f97f-a7aa-45c7-bc32-b39a7800f418",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:25:21.954Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "robots_blocked",
+      "evidence": {
+        "sourceUrl": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200757",
+        "sourceLocator": "기존 등록 위치: 신대방동 > 첫 문단·모자원 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 원문이 조회 도구에서 robots.txt 차단으로 반환되어 본문을 열람하지 못했다. 다른 접근 방식으로 우회하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 원문이 조회 도구에서 robots.txt 차단으로 반환되어 본문을 열람하지 못했다. 다른 접근 방식으로 우회하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 원문이 조회 도구에서 robots.txt 차단으로 반환되어 본문을 열람하지 못했다. 다른 접근 방식으로 우회하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 원문이 조회 도구에서 robots.txt 차단으로 반환되어 본문을 열람하지 못했다. 다른 접근 방식으로 우회하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 원문이 조회 도구에서 robots.txt 차단으로 반환되어 본문을 열람하지 못했다. 다른 접근 방식으로 우회하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "본문 및 개별 이용조건 재확인을 보류하며 기존 unknown·보관 및 재사용 불허 설정을 유지했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "108b95ba-d85f-4193-bde3-5290437d5839",
+      "sourceId": "2c376b4c-4a88-4c15-ac5e-35c518fcb536",
+      "versionId": "0d25102a-8b7e-4a61-8d6c-22ad42bea314",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 『세운상가와 그 이웃들; 산업화의 기수에서 전자만물시장까지』(2010), 199쪽",
+      "locator": "상세 자료 > 내용 항목 · 『세운상가와 그 이웃들; 산업화의 기수에서 전자만물시장까지』(2010), 199쪽",
+      "textKind": "transcription",
+      "fingerprint": "dc818bc3d98975ea4714a860cf0d6fdfb700a13a22635f6044bcf4547c6fad3d",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "10840dbe-32f3-4a96-8efe-138cb3664dbb",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:25:28.179Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY274&fileId=H-TRNS-65224-289&fileSn=300&type=A&upperNodeId=CTGRY289",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 『세운상가와 그 이웃들; 산업화의 기수에서 전자만물시장까지』(2010), 199쪽 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "12012271-f988-4fb9-8e0b-80a5654fd6cb",
+      "sourceId": "9ebf62d1-e92a-43ec-9202-5821e79caaf1",
+      "versionId": "c3046cd4-4cab-40e0-884f-5726d50310c4",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 원문 상세 페이지",
+      "locator": "상세 자료 > 내용 항목 · 원문 상세 페이지",
+      "textKind": "transcription",
+      "fingerprint": "826d6ace48d02d6382d9a93eadeb03037ec3c0b2a2d1cbf6b5a85b0a1682607c",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "b05dabab-5c37-4694-8374-b3eb937eddcc",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:25:33.294Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY304&fileId=H-TRNS-103667-310&fileSn=300&type=A&upperNodeId=CTGRY310",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 원문 상세 페이지 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "126899f7-ba3d-4c56-8064-40a32f20d045",
+      "sourceId": "49bfa954-ee68-4046-bb46-23b1bd573aca",
+      "versionId": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+      "sourceVersion": 1,
+      "label": "여의동",
+      "locator": "동 명칭 및 지명 유래 > 여의동",
+      "textKind": "paraphrase",
+      "fingerprint": "0270c8aa23f4b500185468dcd2b39f2c5a962f199c641e611ce3b205e035b003",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "13a9bef3-899d-4b90-8793-e1c44c892428",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:25:39.238Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "direct_official_html",
+      "evidence": {
+        "sourceUrl": "https://www.ydp.go.kr/www/contents.do?key=2887",
+        "sourceLocator": "동 명칭 및 지명 유래 > 여의동(汝矣洞) > 첫 문단·양말산 행",
+        "observedAt": "2026-10-21T14:17:43.569165Z",
+        "sourceHash": "584c859553031da0655073f2fa3006ac338b98bce7b9a83fcb7c83b57950760a",
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "직접 연 공식 HTML에서 양말산·섬 이름 설명을 대조했다. 행정동·섬·법정동 구분과 전승 한정을 유지했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "여의동 제목과 나의도·나의주·양말산의 원문 설명을 대조했다."
+          },
+          "chronology": {
+            "result": "not_applicable",
+            "note": "현재 짧은 요약에는 특정 연도가 없어 새 연대를 추가하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "홍수 때 높은 산이 남았다는 섬 이름 이야기는 기존 요약에서 전승으로 구분돼 있다. 독립적인 어원 확정으로 승격하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 제공기관 원문과 기존 요약의 설명 수준이 대응한다. 독립 사료 전체 대조나 역사적 사실의 최종 확정을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "행정동 제목, 섬의 역사적 권역과 법정동 분류를 구분하며 국회 부근 서술을 임의의 입력 필지·건물로 연결하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "129aebb6-349a-443d-adcb-afde487d7df4",
+      "sourceId": "62c48407-b809-459f-9bd9-1d90c6c8107c",
+      "versionId": "b4a5cb17-a5df-4518-bb01-135727ac00d5",
+      "sourceVersion": 1,
+      "label": "궁동",
+      "locator": "연혁 및 동명의 유래 > 궁동",
+      "textKind": "paraphrase",
+      "fingerprint": "61fdfd40d4e1d518b1bcc5696d929367255e9d202daf064fdf3bac359cad1016",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "c2057745-e9d7-4c1d-9001-7c5836767333",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:25:45.283Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "official_web_body",
+      "evidence": {
+        "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2136",
+        "sourceLocator": "동별역사 > 궁동 > 연혁 및 동명의 유래 > 서울 편입 문단·정선옹주 큰집 문단",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "정선옹주 관련 명칭 설명과 1963년 오류출장소 관할을 대조했다. 원문의 사패지 넓이 이야기와 현존 건물 동일성은 요약에 추가하지 않았다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "궁동·정선옹주와 궁궐 같은 큰집에 관한 구청의 명칭 설명을 대조했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1963년 1월 1일 영등포구 오류출장소 궁동으로 편입된 원문과 현재 요약이 대응한다."
+          },
+          "tradition": {
+            "result": "not_applicable",
+            "note": "현재 요약이 다루는 원문 설명만 대조했으며 다른 절의 전승·추정을 새 확정 사실로 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 제공기관 원문과 기존 요약의 설명 수준이 대응한다. 독립 사료 전체 대조나 역사적 사실의 최종 확정을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "12e2be50-6141-4ac8-8fbd-15027f1a46c6",
+      "sourceId": "7a92fb81-631a-45fe-a10a-08743268a649",
+      "versionId": "a1b40f86-68eb-44c7-a50a-c51fa103f503",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 『길음동』(2010), 224쪽",
+      "locator": "상세 자료 > 내용 항목 · 『길음동』(2010), 224쪽",
+      "textKind": "transcription",
+      "fingerprint": "c86687cf7158e0d8b4aaf539fa6de41c5b71cf003bfe09c6fd2a140f12fbaec9",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "8e8db197-c362-414f-9fdb-897e9b58ed11",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:25:49.853Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY404&fileId=H-TRNS-75832-407&fileSn=300&type=A&upperNodeId=CTGRY407",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 『길음동』(2010), 224쪽 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "1394eb1d-788d-40ac-ad8a-f8f57b5246bd",
+      "sourceId": "670f5041-cf69-4599-aba7-a002966f3fd3",
+      "versionId": "83efc733-e6d1-4f33-924e-7405bc7ddb98",
+      "sourceVersion": 1,
+      "label": "상계동",
+      "locator": "동명 유래 > 상계동",
+      "textKind": "paraphrase",
+      "fingerprint": "554ae990104ec5fcd9da40eb318747affd813c0a3ab8e710d92da88340195db1",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "d5f1eb75-af96-449e-a4ba-cde8bd8f625b",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:25:54.621Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "official_web_body",
+      "evidence": {
+        "sourceUrl": "https://www.nowon.kr/www/intrcn/intrcn1/intrcn1_05.jsp",
+        "sourceLocator": "노원역사 > 동명유래 > 상계동 첫 문단",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "상계동 절의 마을명과 하천 상류 위치 설명을 대조했다. 같은 절의 수락산 전설은 요약의 사실로 추가하지 않았다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "원터·간촌·당고개 등의 마을과 한천 위쪽이라는 설명이 요약에 대응한다."
+          },
+          "chronology": {
+            "result": "not_applicable",
+            "note": "현재 짧은 요약에는 특정 연도가 없어 새 연대를 추가하지 않았다."
+          },
+          "tradition": {
+            "result": "not_applicable",
+            "note": "현재 요약이 다루는 원문 설명만 대조했으며 다른 절의 전승·추정을 새 확정 사실로 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 제공기관 원문과 기존 요약의 설명 수준이 대응한다. 독립 사료 전체 대조나 역사적 사실의 최종 확정을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "13cb057f-fdbf-46ee-a5cb-e9b4c1e4c48a",
+      "sourceId": "1a0598df-628f-4654-852d-7829c4134ed8",
+      "versionId": "8e357722-0bfa-4f1d-9e04-f68f2ea7b647",
+      "sourceVersion": 1,
+      "label": "상세 자료 > 내용 항목 · 『가리봉동; 구로공단 배후지에서 다문화의 공간으로』(2013), 266쪽",
+      "locator": "상세 자료 > 내용 항목 · 『가리봉동; 구로공단 배후지에서 다문화의 공간으로』(2013), 266쪽",
+      "textKind": "transcription",
+      "fingerprint": "3509e0d03574c3f6f95a73e7186572d853d16737bc58cded2bba0515982a57a0",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "e3d6e3ff-063e-4fe1-bde2-7e63bc7b1c57",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:26:01.253Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "museum_detail_unavailable",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY439&fileId=H-TRNS-54098-442&fileSn=300&type=A&upperNodeId=CTGRY442",
+        "sourceLocator": "기존 등록 위치: 상세 자료 > 내용 항목 · 『가리봉동; 구로공단 배후지에서 다문화의 공간으로』(2013), 266쪽 · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 개별 상세 URL을 조회 도구가 열지 못했다. 첫 2개 상세 URL의 별도 표준 HTTP 읽기도 503이었다. 저장된 과거 전사문·목록 메타데이터만으로 원문 대조를 대신하지 않았다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "기존 KOGL1·보관 및 재사용 허용은 2026-10-16 확인 기록으로 보존한다. 이번에는 개별 원문과 이용조건을 재확인하지 못했으며 권리 설정을 변경하지 않았다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "143145dc-e4bb-4c6c-854b-22602c8e19c3",
+      "sourceId": "c37af5bd-a577-41ea-ab85-9aa1589fdb79",
+      "versionId": "99f2f8cb-c748-47aa-b3ad-1d0d256b562d",
+      "sourceVersion": 1,
+      "label": "시흥동",
+      "locator": "동명 유래 > 시흥동",
+      "textKind": "paraphrase",
+      "fingerprint": "c4f088b249207cdd68fe43b678de09d45ebff3a7d82d836418f2b82c53953fbf",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "a2632ff2-55dd-4b52-bdfb-d8d1a15b449d",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:26:07.580Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "official_web_body",
+      "evidence": {
+        "sourceUrl": "https://www.geumcheon.go.kr/portal/contents.do?key=442",
+        "sourceLocator": "동명의 유래 > 시흥동 > 잉벌노·음전 해석 문단",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "시흥과 잉벌노를 연결하는 구청의 해석을 기존 요약이 출처를 붙여 소개한다. 어원 해석과 추정의 범위를 유지했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "시흥·잉벌노 명칭의 음전 해석이 구청 설명으로 소개된 점을 대조했다."
+          },
+          "chronology": {
+            "result": "not_applicable",
+            "note": "현재 짧은 요약에는 특정 연도가 없어 새 연대를 추가하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "구청의 어학적 풀이·관련 추정임을 유지하고 독립적으로 확정된 어원 또는 개별 건물 역사로 승격하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 제공기관 원문과 기존 요약의 설명 수준이 대응한다. 독립 사료 전체 대조나 역사적 사실의 최종 확정을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "143b51f0-cd71-48ad-81e2-ea13185b5216",
+      "sourceId": "939a99db-bee0-4edf-8c21-ceed70efa1f2",
+      "versionId": "4089b265-38d8-4646-a3d2-73efa600541a",
+      "sourceVersion": 1,
+      "label": "서울 지명사전 > 법정동 > 평창동(平倉洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0)",
+      "locator": "서울 지명사전 > 법정동 > 평창동(平倉洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "724ff8f5b6f441df764a2a48b8fb937478f5fe89bd38066713b781c3c2f8d952",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "72cfb5be-cd37-4913-9d0c-f4b06fb1d956",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:26:13.394Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "history_dictionary_unavailable",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%8F%89%EC%B0%BD%EB%8F%99",
+        "sourceLocator": "기존 등록 위치: 서울 지명사전 > 법정동 > 평창동(平倉洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "개별 원문을 열지 못해 이용조건 재확인을 보류한다. 기존 unknown·보관 및 재사용 불허 설정을 그대로 유지했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "146b5144-ce8b-475b-b8d3-e3c1546bb3d1",
+      "sourceId": "590916c3-6fbe-447c-b0fd-0f82cd36d98d",
+      "versionId": "6a39577a-8d72-4b18-be98-1c0a34230b47",
+      "sourceVersion": 1,
+      "label": "신내동",
+      "locator": "인쇄 319쪽 / PDF 319쪽 > 신내동",
+      "textKind": "paraphrase",
+      "fingerprint": "3cc32e21b3f9e7f9c6b0759ed51a914ec3f67b9227c6524f54c27701049ba84d",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "7d1df4ca-ffcc-4fe1-b075-1279484dd314",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T14:26:18.147Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "direct_official_pdf_page_and_render",
+      "evidence": {
+        "sourceUrl": "https://ecatalog.jungnang.go.kr/src/viewer/download.php?host=main&no=1&site=20260213_163819",
+        "sourceLocator": "인쇄 319쪽 / PDF 319쪽 > 1. 동명 유래(계속) > 하단 신내동 단락",
+        "observedAt": "2026-10-21T14:17:32.445872Z",
+        "sourceHash": "dfab269833ed18d17ca6d8de310fba3840a48978b5400adf925165107d5b2442",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "해당 PDF 319쪽의 명칭·1963년 편입·신내지구 택지개발 설명과 자체 요약이 대응한다. 텍스트와 렌더링한 쪽수·단락을 함께 확인했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "신현마을과 내곡마을에서 글자를 취한 신내 명칭이 PDF 해당 단락에 대응한다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1963년 1월 1일 서울 동대문구 편입 설명을 인쇄·PDF 319쪽에서 대조했다."
+          },
+          "tradition": {
+            "result": "not_applicable",
+            "note": "현재 요약이 다루는 원문 설명만 대조했으며 다른 절의 전승·추정을 새 확정 사실로 추가하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "해당 제공기관 원문과 기존 요약의 설명 수준이 대응한다. 독립 사료 전체 대조나 역사적 사실의 최종 확정을 뜻하지 않는다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "이번 검토에서 개별 복제·변형 허락을 확정하지 않았다. 기존 권리 미확인·보관 및 재사용 불허 설정을 유지하고 짧은 자체 요약의 대조만 수행했다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "PDF 해당 단락의 동네 연혁으로 한정한다. 간행물의 현재 아파트단지 서술을 2026년 개별 건축물·입력 필지 상태로 확대하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "14ead080-7d26-4387-ae46-b84d27557eaf",
+      "sourceId": "cd49516a-ed79-47e9-b3d9-3440b9518c72",
+      "versionId": "ee9a9120-410e-4407-94a4-1cfc97c28c1f",
+      "sourceVersion": 1,
+      "label": "서울지명사전 > 법정동 > 용산동5가(龍山洞5街) > 말미 이촌정 분할·1946년 개칭 / 본문 구간 (txt-box0)",
+      "locator": "서울지명사전 > 법정동 > 용산동5가(龍山洞5街) > 말미 이촌정 분할·1946년 개칭 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "671621ab736cdd74308df295c1cf1adab4cf034ff8d423aa9e75b63d04e66403",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "933e70e7-ad59-4d83-9fb2-138a15e34ed8",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T14:26:23.978Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "history_dictionary_unavailable",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9A%A9%EC%82%B0%EB%8F%995%EA%B0%80",
+        "sourceLocator": "기존 등록 위치: 서울지명사전 > 법정동 > 용산동5가(龍山洞5街) > 말미 이촌정 분할·1946년 개칭 / 본문 구간 (txt-box0) · 이번 확인에서 원문 열람 실패",
+        "observedAt": "2026-10-21T14:22:22.097011Z",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 해당 동네·옛 지명·조사 시점 설명을 검토했다. 법정동·행정동·옛 권역과 개별 건물·부지·입력 주소의 동일성은 별도 검증 대상이다.",
+        "summary": "공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다. 기존 문장의 진위는 판정하지 않고 본문·자료·권리·분류를 보존한다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "원문 열람 실패로 해당 항목의 실제 대조를 보류했다. 공식 서울지명사전 개별 검색 URL을 조회 도구가 열지 못해 본문을 대조하지 못했다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "개별 원문을 열지 못해 이용조건 재확인을 보류한다. 기존 unknown·보관 및 재사용 불허 설정을 그대로 유지했다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "원문을 확인하지 못했으므로 기존 지역 분류만 보존하며 역사적 권역·현행 동 경계·개별 주소·건물·부지 관계를 새로 확정하지 않았다."
+          }
+        }
+      }
+    }
+  ],
+  "auditRecords": [
+    {
+      "sourceId": "ab45b58b-1d73-4fb7-9a47-557bb1601132",
+      "reviewId": "7dce627f-a4ac-40ab-ab37-047acb06e502",
+      "passageId": "0cc0c432-ffdc-4847-8fc1-99179e3cc9a8",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:49.997Z"
+    },
+    {
+      "sourceId": "939a99db-bee0-4edf-8c21-ceed70efa1f2",
+      "reviewId": "72cfb5be-cd37-4913-9d0c-f4b06fb1d956",
+      "passageId": "143b51f0-cd71-48ad-81e2-ea13185b5216",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:26:13.394Z"
+    },
+    {
+      "sourceId": "62c48407-b809-459f-9bd9-1d90c6c8107c",
+      "reviewId": "c2057745-e9d7-4c1d-9001-7c5836767333",
+      "passageId": "129aebb6-349a-443d-adcb-afde487d7df4",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:45.283Z"
+    },
+    {
+      "sourceId": "1a0598df-628f-4654-852d-7829c4134ed8",
+      "reviewId": "e3d6e3ff-063e-4fe1-bde2-7e63bc7b1c57",
+      "passageId": "13cb057f-fdbf-46ee-a5cb-e9b4c1e4c48a",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:26:01.253Z"
+    },
+    {
+      "sourceId": "f8b7fe3c-3a8e-419c-9e33-a16b7e3ed26c",
+      "reviewId": "ebc79310-c3fb-4ad6-adef-2fac82f46748",
+      "passageId": "050f914f-48d7-4932-853e-b4326078776c",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:03.323Z"
+    },
+    {
+      "sourceId": "f44932fb-64f9-42f9-bde3-66f85f56c082",
+      "reviewId": "48b2eb63-e829-466d-9453-a7a7d95a5ecf",
+      "passageId": "098cbb1c-17dd-4e2d-a0af-c3b5305d64de",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:17.813Z"
+    },
+    {
+      "sourceId": "0bd68cff-6f1a-4eb4-b846-5d6adea0e7c2",
+      "reviewId": "115839bf-2f61-4c5a-8436-7c67a7f48ec5",
+      "passageId": "00f0f9b8-802b-4476-968b-a6d437d7b8a7",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:23:51.228Z"
+    },
+    {
+      "sourceId": "7a92fb81-631a-45fe-a10a-08743268a649",
+      "reviewId": "8e8db197-c362-414f-9fdb-897e9b58ed11",
+      "passageId": "12e2be50-6141-4ac8-8fbd-15027f1a46c6",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:49.853Z"
+    },
+    {
+      "sourceId": "ca6bdf60-00aa-490e-84ae-268da598bb19",
+      "reviewId": "34769d2c-09fc-4970-8236-eb6d041cf52c",
+      "passageId": "08db3d87-e6c8-4491-989a-c013293f4f3e",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:12.368Z"
+    },
+    {
+      "sourceId": "5039cf6a-472e-4d1c-8d50-d2f7fef7c360",
+      "reviewId": "e4b86415-eb60-4db9-bc53-526b7b5eef7e",
+      "passageId": "0c23df8f-b85c-4cd0-9edb-b071a8a1c03e",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:39.572Z"
+    },
+    {
+      "sourceId": "b4b6f22c-1988-4aa5-aba4-fe532c981d33",
+      "reviewId": "e213afe6-d93b-49ea-9eab-3e6d9c1a813f",
+      "passageId": "0ddd9b33-3cf7-4012-b55b-75295886dba3",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:05.823Z"
+    },
+    {
+      "sourceId": "17705f7e-d770-4ed0-a5cd-57487cb05525",
+      "reviewId": "c0a8a653-8311-456f-95ec-557d5e009326",
+      "passageId": "0522b86a-d6aa-47f8-9899-e8af0ec80d29",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:07.724Z"
+    },
+    {
+      "sourceId": "8dcd9299-0400-4638-93fe-a932c7f4e69f",
+      "reviewId": "3cf9f97f-a7aa-45c7-bc32-b39a7800f418",
+      "passageId": "0f6867d0-e340-4a8c-aab1-91a65d4afe14",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:21.954Z"
+    },
+    {
+      "sourceId": "49bfa954-ee68-4046-bb46-23b1bd573aca",
+      "reviewId": "8df06c21-f824-4b9c-8dc1-0665467d14a6",
+      "passageId": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+      "revision": 2,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:26:31.201Z"
+    },
+    {
+      "sourceId": "49bfa954-ee68-4046-bb46-23b1bd573aca",
+      "reviewId": "13a9bef3-899d-4b90-8793-e1c44c892428",
+      "passageId": "126899f7-ba3d-4c56-8064-40a32f20d045",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:39.238Z"
+    },
+    {
+      "sourceId": "c37af5bd-a577-41ea-ab85-9aa1589fdb79",
+      "reviewId": "a2632ff2-55dd-4b52-bdfb-d8d1a15b449d",
+      "passageId": "143145dc-e4bb-4c6c-854b-22602c8e19c3",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:26:07.580Z"
+    },
+    {
+      "sourceId": "590916c3-6fbe-447c-b0fd-0f82cd36d98d",
+      "reviewId": "7d1df4ca-ffcc-4fe1-b075-1279484dd314",
+      "passageId": "146b5144-ce8b-475b-b8d3-e3c1546bb3d1",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:26:18.147Z"
+    },
+    {
+      "sourceId": "2c376b4c-4a88-4c15-ac5e-35c518fcb536",
+      "reviewId": "10840dbe-32f3-4a96-8efe-138cb3664dbb",
+      "passageId": "108b95ba-d85f-4193-bde3-5290437d5839",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:28.179Z"
+    },
+    {
+      "sourceId": "100b3901-1cbf-41d3-8697-d289225207ed",
+      "reviewId": "250bb940-ce64-4497-b812-a120b1c48d28",
+      "passageId": "0e4368d3-2b77-46e0-a0fc-66e883d8d234",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:11.353Z"
+    },
+    {
+      "sourceId": "11ad709e-e01f-4418-807c-2e31c483014d",
+      "reviewId": "6bee097f-be39-4acb-a082-66abab5026fd",
+      "passageId": "0c6106f5-e28e-4cbe-be5e-e1be3306fc87",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:45.317Z"
+    },
+    {
+      "sourceId": "9ebf62d1-e92a-43ec-9202-5821e79caaf1",
+      "reviewId": "b05dabab-5c37-4694-8374-b3eb937eddcc",
+      "passageId": "12012271-f988-4fb9-8e0b-80a5654fd6cb",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:33.294Z"
+    },
+    {
+      "sourceId": "a42290e6-5621-4b61-bf41-c93116f26756",
+      "reviewId": "0dfcdfaf-520f-48ce-8244-a8e2ebe1f754",
+      "passageId": "0500c694-967e-49f6-8401-d21cab1af0c0",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:23:56.550Z"
+    },
+    {
+      "sourceId": "670f5041-cf69-4599-aba7-a002966f3fd3",
+      "reviewId": "d5f1eb75-af96-449e-a4ba-cde8bd8f625b",
+      "passageId": "1394eb1d-788d-40ac-ad8a-f8f57b5246bd",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:54.621Z"
+    },
+    {
+      "sourceId": "cd49516a-ed79-47e9-b3d9-3440b9518c72",
+      "reviewId": "933e70e7-ad59-4d83-9fb2-138a15e34ed8",
+      "passageId": "14ead080-7d26-4387-ae46-b84d27557eaf",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:26:23.978Z"
+    },
+    {
+      "sourceId": "a748df11-7521-4924-9f64-67a33af77cf6",
+      "reviewId": "3621ee37-4445-4773-8806-0adef18fd7eb",
+      "passageId": "0e4ea211-2039-474d-8cc9-1431aaf07edd",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:16.637Z"
+    },
+    {
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "reviewId": "7568c08e-875e-41d0-ad05-862fe195e8ca",
+      "passageId": "0d1830bb-5db6-4765-8cba-bd342f87c140",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:55.589Z"
+    },
+    {
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "reviewId": "040f5b16-b655-4620-8eaf-91ff37853f84",
+      "passageId": "0b7276ab-4c8e-4296-8bf4-3053a720c32f",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:22.825Z"
+    },
+    {
+      "sourceId": "2df61514-6e20-429a-81b8-10e667ce7445",
+      "reviewId": "918d9eac-a2a7-44ec-b5d9-113ed7ba0176",
+      "passageId": "0c16002c-a686-43a3-b7f8-948ca474330e",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:34.924Z"
+    },
+    {
+      "sourceId": "0d588bab-fe84-4ca4-b3da-21de54e6694a",
+      "reviewId": "db31c417-32e2-48ca-91c4-c2c8ef64c62c",
+      "passageId": "0b748839-d377-4306-a580-483c0c6c4cdb",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:24:27.750Z"
+    },
+    {
+      "sourceId": "1031f549-264d-439b-ac3b-79e0a6764800",
+      "reviewId": "8b068d50-940d-4f04-ab7e-63041772b8c9",
+      "passageId": "0d2db043-6544-4403-b627-1a1b0752e517",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T14:25:00.339Z"
+    }
+  ],
+  "replays": [
+    {
+      "id": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+      "reviewId": "8df06c21-f824-4b9c-8dc1-0665467d14a6",
+      "revision": 2,
+      "status": "content_checked",
+      "unchanged": true
+    },
+    {
+      "id": "146b5144-ce8b-475b-b8d3-e3c1546bb3d1",
+      "reviewId": "7d1df4ca-ffcc-4fe1-b075-1279484dd314",
+      "revision": 1,
+      "status": "content_checked",
+      "unchanged": true
+    },
+    {
+      "id": "00f0f9b8-802b-4476-968b-a6d437d7b8a7",
+      "reviewId": "115839bf-2f61-4c5a-8436-7c67a7f48ec5",
+      "revision": 1,
+      "status": "needs_review",
+      "unchanged": true
+    }
+  ],
+  "nativeDatabaseVerification": {
+    "projectId": "appgprj_6acd53ff39588191b6c07a038ece0771",
+    "binding": "DB",
+    "table": "archive_passage_reviews",
+    "pageCount": 12,
+    "rowCount": 45,
+    "terminalNextOffset": null,
+    "projectionPages": [
+      {
+        "offset": 0,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 3,
+          "omitted_columns": 0,
+          "omitted_rows": 21,
+          "next_offset": 4
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 4,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 3,
+          "omitted_columns": 0,
+          "omitted_rows": 21,
+          "next_offset": 8
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 8,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 3,
+          "omitted_columns": 0,
+          "omitted_rows": 21,
+          "next_offset": 12
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 12,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 3,
+          "omitted_columns": 0,
+          "omitted_rows": 21,
+          "next_offset": 16
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 16,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 1,
+          "omitted_columns": 0,
+          "omitted_rows": 21,
+          "next_offset": 20
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 20,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 1,
+          "omitted_columns": 0,
+          "omitted_rows": 21,
+          "next_offset": 24
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 24,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 3,
+          "omitted_columns": 0,
+          "omitted_rows": 17,
+          "next_offset": 28
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 28,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 2,
+          "omitted_columns": 0,
+          "omitted_rows": 13,
+          "next_offset": 32
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 32,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 3,
+          "omitted_columns": 0,
+          "omitted_rows": 9,
+          "next_offset": 36
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 36,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 3,
+          "omitted_columns": 0,
+          "omitted_rows": 5,
+          "next_offset": 40
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 40,
+        "projection": {
+          "truncated": true,
+          "truncated_values": 2,
+          "omitted_columns": 0,
+          "omitted_rows": 1,
+          "next_offset": 44
+        },
+        "returnedRows": 4
+      },
+      {
+        "offset": 44,
+        "projection": {
+          "truncated": false,
+          "truncated_values": 0,
+          "omitted_columns": 0,
+          "omitted_rows": 0,
+          "next_offset": null
+        },
+        "returnedRows": 1
+      }
+    ],
+    "truncatedEvidenceCellsNotUsed": true,
+    "rows": [
+      {
+        "id": "040f5b16-b655-4620-8eaf-91ff37853f84",
+        "passageId": "0b7276ab-4c8e-4296-8bf4-3053a720c32f",
+        "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "dbadccd00a7b10d981cfa54fe9dfe1a672a81bcf8fe5f2babd68b699d8c5151c",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:22.825Z"
+      },
+      {
+        "id": "05225261-71bc-48c9-990c-c7b4588c97ff",
+        "passageId": "07b61220-05a2-4f56-9dc5-802a24c25cf6",
+        "versionId": "8d0807b2-57dc-4dea-a5b7-0bc7385c4939",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "46ddd0fa3a93497ad4b2c65d63073159d3c525493c5ed9feea9209fb73a7861d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:53.901Z"
+      },
+      {
+        "id": "0dfcdfaf-520f-48ce-8244-a8e2ebe1f754",
+        "passageId": "0500c694-967e-49f6-8401-d21cab1af0c0",
+        "versionId": "53a5970c-fa46-481f-8d14-860b2dc5fb33",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "af09420d9cb85575540f3f7da02b56514c06f94a7381690b2d638aba0e2c1e93",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:23:56.550Z"
+      },
+      {
+        "id": "10840dbe-32f3-4a96-8efe-138cb3664dbb",
+        "passageId": "108b95ba-d85f-4193-bde3-5290437d5839",
+        "versionId": "0d25102a-8b7e-4a61-8d6c-22ad42bea314",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "dc818bc3d98975ea4714a860cf0d6fdfb700a13a22635f6044bcf4547c6fad3d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:28.179Z"
+      },
+      {
+        "id": "10f32886-c925-4e4f-aa15-9a967d8b7c0a",
+        "passageId": "03dd211e-e9fb-4ce0-8d5c-efb179af97a4",
+        "versionId": "e5b01767-4c92-4d6f-b317-d0b3df026530",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "3d9de689952283034d0563f193aa8cd758b3ddce12d89fedaba9b641ef39014d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:30.196Z"
+      },
+      {
+        "id": "115839bf-2f61-4c5a-8436-7c67a7f48ec5",
+        "passageId": "00f0f9b8-802b-4476-968b-a6d437d7b8a7",
+        "versionId": "d5273483-5441-4492-8249-21f317966478",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "8bf77dbb223e431a05c501ff7f4d0cb339e944cf1572e9d3808ca9a23a8d119a",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:23:51.228Z"
+      },
+      {
+        "id": "13a9bef3-899d-4b90-8793-e1c44c892428",
+        "passageId": "126899f7-ba3d-4c56-8064-40a32f20d045",
+        "versionId": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "0270c8aa23f4b500185468dcd2b39f2c5a962f199c641e611ce3b205e035b003",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:39.238Z"
+      },
+      {
+        "id": "250bb940-ce64-4497-b812-a120b1c48d28",
+        "passageId": "0e4368d3-2b77-46e0-a0fc-66e883d8d234",
+        "versionId": "89d11a18-d3d6-4a78-9395-3b97e2878de9",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "303c657cc50469f1e8cc983df3f44babe7fa67bcb47f406636278ef40cf3018a",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:11.353Z"
+      },
+      {
+        "id": "34769d2c-09fc-4970-8236-eb6d041cf52c",
+        "passageId": "08db3d87-e6c8-4491-989a-c013293f4f3e",
+        "versionId": "d1c92df2-0d2e-4958-ab21-ba1928a9e0f5",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "905765e061a7b52bbc73ae8128a9e8b7aa018576c26df2186a9eb09d1f0276b3",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:12.368Z"
+      },
+      {
+        "id": "3621ee37-4445-4773-8806-0adef18fd7eb",
+        "passageId": "0e4ea211-2039-474d-8cc9-1431aaf07edd",
+        "versionId": "d7993b57-5435-48c4-b75c-e15214b7ee9f",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "5043ef151c13639f563b4a1b7b29edc4667053c3cf36f5031bf2ab00d7ada9f7",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:16.637Z"
+      },
+      {
+        "id": "3a8df946-a68e-41ba-a8dc-caca48549a3d",
+        "passageId": "0530d93c-1e81-464f-9798-e1f6886bfb94",
+        "versionId": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "14ccb00fc13cfd63ab8d74d8650d8aed03e179928cdb9fc2c82825750e00187d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:37.591Z"
+      },
+      {
+        "id": "3cf9f97f-a7aa-45c7-bc32-b39a7800f418",
+        "passageId": "0f6867d0-e340-4a8c-aab1-91a65d4afe14",
+        "versionId": "b571a817-3739-4650-98c3-d476898e58d5",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "906ba0d2a51c8b6b814c6cb3a1031878b037bcfd3e8f979dab54f9f074d8eea1",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:21.954Z"
+      },
+      {
+        "id": "45b07ec7-0a8d-4010-98b6-a824eaab9491",
+        "passageId": "03602be0-3ae9-45ab-af5a-536e2404a67f",
+        "versionId": "2fef8c5a-0936-413d-88ee-7af77a919808",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "55f22a6c34f1743d5fb2ca29dcdca16704eff26fcd9c00459ce862b81c9759d9",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:27.462Z"
+      },
+      {
+        "id": "48b2eb63-e829-466d-9453-a7a7d95a5ecf",
+        "passageId": "098cbb1c-17dd-4e2d-a0af-c3b5305d64de",
+        "versionId": "4b00e8a7-0938-479c-8957-6dd2e24dd5b2",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "5472d18ad052ed95991760f9ac086821a2794d54727e511efd0494e8b438b0ba",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:17.813Z"
+      },
+      {
+        "id": "4a311998-4b3f-412d-940d-31d61c205279",
+        "passageId": "02fdfe34-cfa3-425e-8f31-c75c66de993c",
+        "versionId": "a1c26902-e9ee-461f-9009-9dfc58f6e88b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "04844f4be80bbc9248525b13bdd64cd9bbb81d1c71d220678fc692a956a58905",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:23.987Z"
+      },
+      {
+        "id": "6bee097f-be39-4acb-a082-66abab5026fd",
+        "passageId": "0c6106f5-e28e-4cbe-be5e-e1be3306fc87",
+        "versionId": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "cd15d468745e71fb68ece4eafbb83dba31fa2d51f72a3ba98520d288332fa51f",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:45.317Z"
+      },
+      {
+        "id": "6c387ada-50c3-4d21-a257-d66099f824da",
+        "passageId": "06f984d5-7932-462e-9bed-289949de9905",
+        "versionId": "3583fea7-2364-4161-91fe-8ffa0b72b1c2",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "b5f6c2b7f06454857ba4519dd10071721daec3cb6027e4486fc4a1bbaa4bf364",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:44.682Z"
+      },
+      {
+        "id": "72cfb5be-cd37-4913-9d0c-f4b06fb1d956",
+        "passageId": "143b51f0-cd71-48ad-81e2-ea13185b5216",
+        "versionId": "4089b265-38d8-4646-a3d2-73efa600541a",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "724ff8f5b6f441df764a2a48b8fb937478f5fe89bd38066713b781c3c2f8d952",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:26:13.394Z"
+      },
+      {
+        "id": "7568c08e-875e-41d0-ad05-862fe195e8ca",
+        "passageId": "0d1830bb-5db6-4765-8cba-bd342f87c140",
+        "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "2b6d3df032c80f23feb4fb9ea5bbe14995d1acaa20690b5e8331f52efed81a27",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:55.589Z"
+      },
+      {
+        "id": "7d1df4ca-ffcc-4fe1-b075-1279484dd314",
+        "passageId": "146b5144-ce8b-475b-b8d3-e3c1546bb3d1",
+        "versionId": "6a39577a-8d72-4b18-be98-1c0a34230b47",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "3cc32e21b3f9e7f9c6b0759ed51a914ec3f67b9227c6524f54c27701049ba84d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:26:18.147Z"
+      },
+      {
+        "id": "7dce627f-a4ac-40ab-ab37-047acb06e502",
+        "passageId": "0cc0c432-ffdc-4847-8fc1-99179e3cc9a8",
+        "versionId": "f3947f32-1c74-44bd-ba8e-da2c92db8f2d",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "806023cd88c80a1b493b3067a56c489b65abd72b6d0bb1fc9e3a97574c297c19",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:49.997Z"
+      },
+      {
+        "id": "84b057fd-9aae-4ca8-943c-629046818373",
+        "passageId": "0058c299-f6b4-4656-8938-40694f8ace18",
+        "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "0fe0e6148e9f974a53595129264b69336d5585fab99a6ba6d24e270f48e33159",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:13.261Z"
+      },
+      {
+        "id": "88a5fe8a-f5b7-414f-aa5f-6029f7d446fc",
+        "passageId": "07e1c8f0-7b31-4ede-9fcc-2f8203f1df93",
+        "versionId": "83e11cb1-a7ea-462a-aa5d-ca3d4b1ee946",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "c9d7f39a2b34bb18d35f0cd1862352d707c277cf76ccfeb6cfcee9259e72ffbf",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:57.107Z"
+      },
+      {
+        "id": "8b068d50-940d-4f04-ab7e-63041772b8c9",
+        "passageId": "0d2db043-6544-4403-b627-1a1b0752e517",
+        "versionId": "26684335-ecd3-4d57-898c-0af8bde330b6",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "f01b48ad0833dcccc743cb47bb509104d49fd850e952390a85ebb7ccd0431650",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:00.339Z"
+      },
+      {
+        "id": "8df06c21-f824-4b9c-8dc1-0665467d14a6",
+        "passageId": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+        "versionId": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+        "sourceVersion": 1,
+        "revision": 2,
+        "status": "content_checked",
+        "contentHash": "3172edcf0e8b43134071ad5de6e047cd42a6788b8eb1fb5a2fda66eadadc9c4d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:26:31.201Z"
+      },
+      {
+        "id": "8e8db197-c362-414f-9fdb-897e9b58ed11",
+        "passageId": "12e2be50-6141-4ac8-8fbd-15027f1a46c6",
+        "versionId": "a1b40f86-68eb-44c7-a50a-c51fa103f503",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "c86687cf7158e0d8b4aaf539fa6de41c5b71cf003bfe09c6fd2a140f12fbaec9",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:49.853Z"
+      },
+      {
+        "id": "918d9eac-a2a7-44ec-b5d9-113ed7ba0176",
+        "passageId": "0c16002c-a686-43a3-b7f8-948ca474330e",
+        "versionId": "e94fbe2e-e62c-4d9b-bf8f-b5215b819783",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "708a7710fd41e4e6c568df0032f77129da0f35facdaed2135717fb05ff7a5a52",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:34.924Z"
+      },
+      {
+        "id": "933e70e7-ad59-4d83-9fb2-138a15e34ed8",
+        "passageId": "14ead080-7d26-4387-ae46-b84d27557eaf",
+        "versionId": "ee9a9120-410e-4407-94a4-1cfc97c28c1f",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "671621ab736cdd74308df295c1cf1adab4cf034ff8d423aa9e75b63d04e66403",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:26:23.978Z"
+      },
+      {
+        "id": "99774571-778f-4187-8f50-287433f260b2",
+        "passageId": "05bb5e27-2e67-480c-bec6-7739138d06f8",
+        "versionId": "0957de5a-5ffb-48df-bcc9-2da9f95494da",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "7423da9f561869da7c885ba85dd58f97954d0ceb34da51dee0a791a2e789d8b5",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:40.574Z"
+      },
+      {
+        "id": "9a6683b2-f009-4b6d-91ff-5238aee8c040",
+        "passageId": "00362713-cda4-4055-a056-cb2db67ee3a3",
+        "versionId": "a1c26902-e9ee-461f-9009-9dfc58f6e88b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "d3fc2864155413448c0ce9f8eb5e1171a070b7baa19b0e4bbab70e851de03f17",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:09.924Z"
+      },
+      {
+        "id": "a2632ff2-55dd-4b52-bdfb-d8d1a15b449d",
+        "passageId": "143145dc-e4bb-4c6c-854b-22602c8e19c3",
+        "versionId": "99f2f8cb-c748-47aa-b3ad-1d0d256b562d",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "c4f088b249207cdd68fe43b678de09d45ebff3a7d82d836418f2b82c53953fbf",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:26:07.580Z"
+      },
+      {
+        "id": "b05dabab-5c37-4694-8374-b3eb937eddcc",
+        "passageId": "12012271-f988-4fb9-8e0b-80a5654fd6cb",
+        "versionId": "c3046cd4-4cab-40e0-884f-5726d50310c4",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "826d6ace48d02d6382d9a93eadeb03037ec3c0b2a2d1cbf6b5a85b0a1682607c",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:33.294Z"
+      },
+      {
+        "id": "b15c75cf-c97c-4f39-8277-905d516150ef",
+        "passageId": "029ba00c-8104-4e68-ad38-d8caedabc806",
+        "versionId": "71336c19-1c58-45d7-92d8-e0a52ac80f15",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "975e0c37f21082b36e8fc0b972dcf8d14c0d9aac6eeca7c8c5f9b66b82d9e608",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:20.148Z"
+      },
+      {
+        "id": "c0a8a653-8311-456f-95ec-557d5e009326",
+        "passageId": "0522b86a-d6aa-47f8-9899-e8af0ec80d29",
+        "versionId": "7dc72788-0dcb-4196-8725-7fdf69be9a5e",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "2228d7b830b9b136a23a577e9424e6c8223ad35e0c8efd598312eb4115ab3ffa",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:07.724Z"
+      },
+      {
+        "id": "c15b1d4f-a355-49b1-a22b-1a25eb768238",
+        "passageId": "071098eb-e31e-4a08-8679-a3342a7ae44f",
+        "versionId": "6309bc9e-8c48-464e-b6a5-066fb1e0a2cd",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "817ba949ba9f46cb91f3c6b4004eaa4e3c99a89a51d17777e664e1c176c6e058",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:50.459Z"
+      },
+      {
+        "id": "c2057745-e9d7-4c1d-9001-7c5836767333",
+        "passageId": "129aebb6-349a-443d-adcb-afde487d7df4",
+        "versionId": "b4a5cb17-a5df-4518-bb01-135727ac00d5",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "61fdfd40d4e1d518b1bcc5696d929367255e9d202daf064fdf3bac359cad1016",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:45.283Z"
+      },
+      {
+        "id": "d5f1eb75-af96-449e-a4ba-cde8bd8f625b",
+        "passageId": "1394eb1d-788d-40ac-ad8a-f8f57b5246bd",
+        "versionId": "83efc733-e6d1-4f33-924e-7405bc7ddb98",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "contentHash": "554ae990104ec5fcd9da40eb318747affd813c0a3ab8e710d92da88340195db1",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:54.621Z"
+      },
+      {
+        "id": "db31c417-32e2-48ca-91c4-c2c8ef64c62c",
+        "passageId": "0b748839-d377-4306-a580-483c0c6c4cdb",
+        "versionId": "d7388fa6-2ec1-4d76-8c74-dcd931215c99",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "014b25fc4cc0f28043234b3c4126aa83068d3686da8b1d767291f50fe0b50a11",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:27.750Z"
+      },
+      {
+        "id": "e213afe6-d93b-49ea-9eab-3e6d9c1a813f",
+        "passageId": "0ddd9b33-3cf7-4012-b55b-75295886dba3",
+        "versionId": "659e0550-c15b-41db-9649-9f164617b189",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "61677e41125278c28c5a1d8e0b92dea720e1718efbc7bb2782cd23e2f86a287b",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:25:05.823Z"
+      },
+      {
+        "id": "e3d6e3ff-063e-4fe1-bde2-7e63bc7b1c57",
+        "passageId": "13cb057f-fdbf-46ee-a5cb-e9b4c1e4c48a",
+        "versionId": "8e357722-0bfa-4f1d-9e04-f68f2ea7b647",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "3509e0d03574c3f6f95a73e7186572d853d16737bc58cded2bba0515982a57a0",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:26:01.253Z"
+      },
+      {
+        "id": "e4b86415-eb60-4db9-bc53-526b7b5eef7e",
+        "passageId": "0c23df8f-b85c-4cd0-9edb-b071a8a1c03e",
+        "versionId": "336e9b0e-99d5-47aa-84c6-879fc4a72db8",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "73300c0b25f4a0e8fd0759ff4bbd1f0549c31d1c653150bf8d1a3549412b8441",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:39.572Z"
+      },
+      {
+        "id": "ebc79310-c3fb-4ad6-adef-2fac82f46748",
+        "passageId": "050f914f-48d7-4932-853e-b4326078776c",
+        "versionId": "4980c8d3-acb6-4423-b796-e05f37aa2d61",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "27a90b27cdfac8ef9cf7c5c562c2733c4b0a3099acad7e34d4a86efd7deda9aa",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T14:24:03.323Z"
+      },
+      {
+        "id": "efcb710b-79a0-4cd5-9881-90683141adbf",
+        "passageId": "044c9fd2-e3e6-4724-a413-46bfe6365060",
+        "versionId": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "b2c9db9db70c666da6357a0265dcc1350ffd051edb3bbb9c132afb3b14a74e8f",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:34.381Z"
+      },
+      {
+        "id": "f096815d-0d49-4ef7-8d69-246f4fe8e374",
+        "passageId": "089aacfc-c096-42c6-ba2a-a3b9e59befdc",
+        "versionId": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "7bae475b10310c457a34c0afefdbf062e71bc290ec0609a21161b9d4e45440f7",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:59.976Z"
+      },
+      {
+        "id": "f1c5e5fc-9efa-4ebd-893c-39f29cfbe9b1",
+        "passageId": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+        "versionId": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+        "sourceVersion": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "contentHash": "3172edcf0e8b43134071ad5de6e047cd42a6788b8eb1fb5a2fda66eadadc9c4d",
+        "actor": "scheduled-private-service",
+        "checkedAt": "2026-10-21T12:10:17.343Z"
+      }
+    ]
+  },
+  "pdfProof": {
+    "url": "https://ecatalog.jungnang.go.kr/src/viewer/download.php?host=main&no=1&site=20260213_163819",
+    "status": 200,
+    "bytes": 14342764,
+    "sha256": "dfab269833ed18d17ca6d8de310fba3840a48978b5400adf925165107d5b2442",
+    "pdfPage": 319,
+    "printedPage": 319,
+    "retrievedAt": "2026-10-21T14:17:32.445872Z",
+    "fullPdfPersisted": false,
+    "visualReview": "passed: PDF page 319 has printed footer 319; bottom Shin-nae-dong paragraph matches name components, 1963 incorporation and housing development."
+  },
+  "directHtmlProof": {
+    "url": "https://www.ydp.go.kr/www/contents.do?key=2887",
+    "finalUrl": "https://www.ydp.go.kr/www/contents.do?key=2887",
+    "status": 200,
+    "bytes": 206239,
+    "sha256": "584c859553031da0655073f2fa3006ac338b98bce7b9a83fcb7c83b57950760a",
+    "observedAt": "2026-10-21T14:17:43.569165Z"
+  },
+  "nextPassageId": "15a60883-68b7-45fd-a72d-e208b13eb2ae",
+  "nextCursor": "/api/archive/task?view=passages&unreviewed=true&limit=30&after=",
+  "phase": "review",
+  "phaseStatus": "ready",
+  "allPlanCriteriaComplete": false
+}

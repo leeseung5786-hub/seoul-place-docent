@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1792134295401,
+      "tag": "0000_green_namora",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792135624989,
+      "tag": "0001_glamorous_overlord",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792137694586,
+      "tag": "0002_chunky_trauma",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792456946663,
+      "tag": "0003_wide_bulldozer",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1792583366946,
+      "tag": "0004_sharp_metal_master",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1792789862332,
+      "tag": "0005_amused_hiroim",
+      "breakpoints": true
+    }
+  ]
+}

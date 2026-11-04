@@ -1,0 +1,260 @@
+[
+  {
+    "name": "강남",
+    "gu": "강남구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY469&type=A",
+    "categoryId": "CTGRY469"
+  },
+  {
+    "name": "대치동",
+    "gu": "강남구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY475&type=A",
+    "categoryId": "CTGRY475"
+  },
+  {
+    "name": "천호동",
+    "gu": "강동구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY1064&type=A",
+    "categoryId": "CTGRY1064"
+  },
+  {
+    "name": "수유동",
+    "gu": "강북구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY1171&type=A",
+    "categoryId": "CTGRY1171"
+  },
+  {
+    "name": "신림동",
+    "gu": "관악구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY446&type=A",
+    "categoryId": "CTGRY446"
+  },
+  {
+    "name": "중곡동",
+    "gu": "광진구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY1141&type=A",
+    "categoryId": "CTGRY1141"
+  },
+  {
+    "name": "가리봉동",
+    "gu": "구로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY439&type=A",
+    "categoryId": "CTGRY439"
+  },
+  {
+    "name": "시흥동",
+    "gu": "금천구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY1113&type=A",
+    "categoryId": "CTGRY1113"
+  },
+  {
+    "name": "104마을",
+    "gu": "노원구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY410&type=A",
+    "categoryId": "CTGRY410"
+  },
+  {
+    "name": "청량리",
+    "gu": "동대문구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY397&type=A",
+    "categoryId": "CTGRY397"
+  },
+  {
+    "name": "노량진",
+    "gu": "동작구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY986&type=A",
+    "categoryId": "CTGRY986"
+  },
+  {
+    "name": "아현· 염리동",
+    "gu": "마포구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY453&type=A",
+    "categoryId": "CTGRY453"
+  },
+  {
+    "name": "홍대",
+    "gu": "마포구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY463&type=A",
+    "categoryId": "CTGRY463"
+  },
+  {
+    "name": "가재울",
+    "gu": "서대문구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY417&type=A",
+    "categoryId": "CTGRY417"
+  },
+  {
+    "name": "북아현",
+    "gu": "서대문구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY424&type=A",
+    "categoryId": "CTGRY424"
+  },
+  {
+    "name": "신촌",
+    "gu": "서대문구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY433&type=A",
+    "categoryId": "CTGRY433"
+  },
+  {
+    "name": "반포본동",
+    "gu": "서초구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY482&type=A",
+    "categoryId": "CTGRY482"
+  },
+  {
+    "name": "마장동",
+    "gu": "성동구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY372&type=A",
+    "categoryId": "CTGRY372"
+  },
+  {
+    "name": "성수동",
+    "gu": "성동구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY378&type=A",
+    "categoryId": "CTGRY378"
+  },
+  {
+    "name": "왕십리",
+    "gu": "성동구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY385&type=A",
+    "categoryId": "CTGRY385"
+  },
+  {
+    "name": "길음",
+    "gu": "성북구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY404&type=A",
+    "categoryId": "CTGRY404"
+  },
+  {
+    "name": "돈암",
+    "gu": "성북구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY1024&type=A",
+    "categoryId": "CTGRY1024"
+  },
+  {
+    "name": "장위동",
+    "gu": "성북구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY949&type=A",
+    "categoryId": "CTGRY949"
+  },
+  {
+    "name": "여의도",
+    "gu": "영등포구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY489&type=A",
+    "categoryId": "CTGRY489"
+  },
+  {
+    "name": "보광동",
+    "gu": "용산구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY344&type=A",
+    "categoryId": "CTGRY344"
+  },
+  {
+    "name": "이촌동",
+    "gu": "용산구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY1187&type=A",
+    "categoryId": "CTGRY1187"
+  },
+  {
+    "name": "이태원",
+    "gu": "용산구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY354&type=A",
+    "categoryId": "CTGRY354"
+  },
+  {
+    "name": "청파·서계",
+    "gu": "용산구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY365&type=A",
+    "categoryId": "CTGRY365"
+  },
+  {
+    "name": "후암동",
+    "gu": "용산구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY360&type=A",
+    "categoryId": "CTGRY360"
+  },
+  {
+    "name": "돈의문",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY59&type=A",
+    "categoryId": "CTGRY59"
+  },
+  {
+    "name": "북촌",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY298&type=A",
+    "categoryId": "CTGRY298"
+  },
+  {
+    "name": "서촌",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY267&type=A",
+    "categoryId": "CTGRY267"
+  },
+  {
+    "name": "세운상가",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY274&type=A",
+    "categoryId": "CTGRY274"
+  },
+  {
+    "name": "신문로2가",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY933&type=A",
+    "categoryId": "CTGRY933"
+  },
+  {
+    "name": "연지·효제",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY304&type=A",
+    "categoryId": "CTGRY304"
+  },
+  {
+    "name": "창신동",
+    "gu": "종로구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY293&type=A",
+    "categoryId": "CTGRY293"
+  },
+  {
+    "name": "광장·중부·방산",
+    "gu": "중구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY311&type=A",
+    "categoryId": "CTGRY311"
+  },
+  {
+    "name": "남대문시장",
+    "gu": "중구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY322&type=A",
+    "categoryId": "CTGRY322"
+  },
+  {
+    "name": "동대문시장",
+    "gu": "중구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY328&type=A",
+    "categoryId": "CTGRY328"
+  },
+  {
+    "name": "명동",
+    "gu": "중구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY316&type=A",
+    "categoryId": "CTGRY316"
+  },
+  {
+    "name": "인현동",
+    "gu": "중구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY333&type=A",
+    "categoryId": "CTGRY333"
+  },
+  {
+    "name": "황학동",
+    "gu": "중구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY338&type=A",
+    "categoryId": "CTGRY338"
+  },
+  {
+    "name": "망우동",
+    "gu": "중랑구",
+    "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveList.do?ctgryId=CTGRY1077&type=A",
+    "categoryId": "CTGRY1077"
+  }
+]

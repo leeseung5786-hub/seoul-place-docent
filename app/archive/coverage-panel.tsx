@@ -1,0 +1,22 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {ChevronDown,FolderTree} from 'lucide-react';
+type Coverage={id:string;name:string;dong_count:number;sources:number;with_text:number;original_text:number;with_files:number;dongs_with_passages:number};
+type Dong={id:string;name:string;parent_id:string;passage_count:number;sources:number;original_count:number;reviewed_count:number;official_code:string|null;verification_status:string|null;checked_at:string|null};
+type Verification={total:number;withCode:number;addressObserved:number;addressUnconfirmed:number;officialCodeOnly:number;lifecycleChecked:number;verifiedCurrent:number;verifiedAbolished:number;unconfirmed:number;conflicts:number};
+const verificationLabels:Record<string,string>={address_observed:'주소 응답 대조',verified_current:'공식 원문 현존 확인',verified_abolished:'공식 원문 폐지 확인',code_conflict:'코드 상충',lifecycle_conflict:'공식 원문 코드 상충',unconfirmed:'추가 확인 필요'};
+export default function ArchiveCoveragePanel({refresh,onSelect}:{refresh:number;onSelect:(id:string)=>void}){
+ const [items,setItems]=useState<Coverage[]>([]),[dongs,setDongs]=useState<Dong[]>([]),[district,setDistrict]=useState(''),[missing,setMissing]=useState(false),[error,setError]=useState(''),[verification,setVerification]=useState<Verification|null>(null);
+ useEffect(()=>{let cancelled=false;fetch('/api/archive/coverage').then(async r=>{const d=await r.json() as {items:Coverage[];dongs:Dong[];regionVerification:Verification;error?:{message:string}};if(!r.ok)throw new Error(d.error?.message||'현황 조회 실패');if(!cancelled){setItems(d.items);setDongs(d.dongs);setVerification(d.regionVerification);setError('');}}).catch(e=>{if(!cancelled)setError(e.message);});return()=>{cancelled=true;};},[refresh]);
+ const selected=items.find(x=>x.id===district),visible=dongs.filter(x=>x.parent_id===district&&(!missing||!x.passage_count));
+ return <details className="archive-coverage"><summary><span><FolderTree size={16}/>구·동별 역사자료 확보 현황</span><small>{dongs.filter(x=>x.passage_count>0).length} / {dongs.length}개 법정동에 분류한 본문</small><ChevronDown size={15}/></summary>
+ <p>동별 본문은 원문에서 확인한 지역명에 따라 분류했습니다. 짧은 사실 요약과 원문을 구분하며, 동의 역사 전체나 개별 부지 검증 완료를 뜻하지 않습니다.</p>
+ {verification&&<p><b>공식 코드 입력 {verification.withCode} / {verification.total}개</b> · 주소 응답 일치 {verification.addressObserved}개 · 주소 응답 미확인 {verification.addressUnconfirmed??0}개 · 상충 {verification.conflicts}개<br/>
+ <b>공식 현존·폐지 확인 {verification.lifecycleChecked??0} / {verification.total}개</b> · 현존 {verification.verifiedCurrent??0}개 · 폐지 {verification.verifiedAbolished??0}개<br/>
+ <span>주소 일치 없이 공식 원문으로 코드 확인 {verification.officialCodeOnly??0}개 · 주소 응답 일치 수에 포함하지 않음</span><br/>
+ <small>주소 응답 관측과 공식 코드 원문의 상태 확인을 분리합니다. 검색 첫 페이지의 미일치를 주소 부재로 판정하지 않습니다. 원문 상태는 조회 시점 기준이며, 생성·폐지일이 비어 있으면 날짜를 추정하지 않습니다. 역사본문과 개별 부지 검토는 별도입니다.</small></p>}
+ {error?<p role="status">{error}</p>:<><div className="table-scroll"><table><thead><tr><th>자치구</th><th>본문 분류 법정동</th><th>자료 목록</th><th>본문 있는 자료</th><th>원문 설명 확보</th><th>파일 있는 자료</th></tr></thead><tbody>{items.map(r=><tr key={r.id}><td><button onClick={()=>{setDistrict(r.id);onSelect(r.id);}}>{r.name}</button></td><td>{r.dongs_with_passages} / {r.dong_count}</td><td>{r.sources}</td><td>{r.with_text}</td><td>{r.original_text}</td><td>{r.with_files}</td></tr>)}</tbody></table></div>
+ <section className="archive-dong-coverage"><div className="archive-dong-controls"><label>동별 현황<select value={district} onChange={e=>setDistrict(e.target.value)}><option value="">자치구 선택</option>{items.map(r=><option key={r.id} value={r.id}>{r.name}</option>)}</select></label><label><input type="checkbox" checked={missing} onChange={e=>setMissing(e.target.checked)}/>본문 미확보만</label></div>
+ {selected?<><h3>{selected.name} · {visible.length}개 법정동</h3><div className="archive-dong-grid">{visible.map(d=><button key={d.id} onClick={()=>onSelect(d.id)}><b>{d.name}</b><small>{d.official_code||'공식 코드 미입력'} · {verificationLabels[d.verification_status||'']||'코드 검토 전'}{d.checked_at?' · '+d.checked_at.slice(0,10):''}</small><span>{d.passage_count?`본문 ${d.passage_count}개 · 원문 ${d.original_count}개`:'동별 본문 미확보'}</span><small>{d.reviewed_count?'검토한 구간 '+d.reviewed_count+'개':d.passage_count?'내용 검토 대기':'추가 수집 대상'}</small></button>)}</div>{!visible.length&&<p>현재 조건에 해당하는 동이 없습니다.</p>}</>:<p>자치구를 선택하면 동별 확보·미확보 상태를 볼 수 있습니다.</p>}
+ <small>공통 동명 유래를 세부 법정동으로 확대하지 않습니다. 현재 버전에서 명칭이 일치하는 본문만 동별 집계에 포함합니다.</small></section></>}</details>;
+}

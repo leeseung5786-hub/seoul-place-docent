@@ -1,0 +1,3645 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-22T10:29:03.306448+00:00",
+  "batch": "passage-review-20261022-11",
+  "siteProjectId": "appgprj_6acd53ff39588191b6c07a038ece0771",
+  "siteUrl": "https://seoul-place-history.xeonire.chatgpt.site",
+  "sourceBaseCommit": "59ad806d34a1a3ce07f3f71445943ffeea1f2e76",
+  "siteVersion": 27,
+  "codeChanged": false,
+  "republished": false,
+  "access": {
+    "mode": "custom",
+    "ownerCount": 1,
+    "policyRevision": 1,
+    "editors": 0,
+    "groups": 0,
+    "externalVisitors": 0
+  },
+  "before": {
+    "currentPassages": 638,
+    "reviewed": 284,
+    "contentChecked": 209,
+    "needsReview": 75,
+    "unreviewed": 354,
+    "remaining": 429
+  },
+  "after": {
+    "currentPassages": 638,
+    "reviewed": 314,
+    "contentChecked": 233,
+    "needsReview": 81,
+    "unreviewed": 324,
+    "remaining": 405
+  },
+  "processed": 30,
+  "contentCheckedWrites": 24,
+  "newHolds": 6,
+  "holdReasons": {
+    "originalAccessUnavailable": 5,
+    "spatialComparisonUnsupportedByRegisteredItem": 1
+  },
+  "immutableCurrentPassages": 638,
+  "nonselectedUnchanged": 608,
+  "sourceDetailsUnchanged": 27,
+  "newAuditRecords": 30,
+  "sourceCounts": {
+    "sources": 525,
+    "districts": 25,
+    "dongs": 467,
+    "historicalAreas": 43,
+    "passages": 638,
+    "facts": 21,
+    "assets": 20,
+    "originalSources": 123,
+    "rightsChecked": 137,
+    "versions": 525,
+    "unknownRights": 388
+  },
+  "regionVerification": {
+    "total": 467,
+    "withCode": 467,
+    "reviewed": 467,
+    "addressObserved": 464,
+    "addressUnconfirmed": 3,
+    "officialCodeOnly": 3,
+    "lifecycleChecked": 467,
+    "verifiedCurrent": 467,
+    "verifiedAbolished": 0,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "checks": {
+    "inputValidation": 30,
+    "productionWrites": 30,
+    "writeFailures": 0,
+    "revisionConflicts": 0,
+    "readback": "passed",
+    "newAuditRecords": 30,
+    "sourceReviewEndpoints": 27,
+    "captionTranscriptionComparisons": 4,
+    "pdfRenderedPages": 1,
+    "codeTests": "not rerun; no application code change",
+    "types": "not rerun; no application code change",
+    "build": "existing matching output present for audit-only packaging",
+    "browserVisualQA": "not required for this data-only batch; full service visual QA remains in later phase",
+    "idempotentReplay": 3,
+    "duplicateWrites": 0,
+    "priorNativeReviewRowsPreserved": 285,
+    "newNativeReviewRows": 30,
+    "postReplayStatsUnchanged": true
+  },
+  "records": [
+    {
+      "passageId": "73f243b3-79cf-4606-9758-41e938fdb0c1",
+      "sourceId": "49bfa954-ee68-4046-bb46-23b1bd573aca",
+      "versionId": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+      "sourceVersion": 1,
+      "label": "문래동4가",
+      "title": "영등포구 동 명칭 및 지명 유래",
+      "textKind": "paraphrase",
+      "fingerprint": "833a3783be34423dcef737ae6f0037f08f4434fbb5102661f01c56b73c06f12e",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "3495cad6-d9fd-4186-b020-6267d9ae62a7",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:20:29.191Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.ydp.go.kr/www/contents.do?key=2887",
+        "sourceLocator": "동 명칭 및 지명 유래 > 문래동 > 오백채",
+        "observedAt": "2026-10-22T10:13:00.444274+00:00",
+        "sourceHash": "584c859553031da0655073f2fa3006ac338b98bce7b9a83fcb7c83b57950760a",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "원문이 문래동 4가 일대를 직접 명시한다. 문래동 공통 어원을 세부 가로 확대한 판단과 구별하며 개별 필지·현존 주택의 동일성은 미확인이다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "등록 원문의 문래동 > 오백채 설명에서 문래동 4가 일대·1940년쯤·영단주택 집단기와집을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1940년쯤이라는 근사 연대를 1940년의 확정 준공일로 바꾸지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "지명 설명의 제공기관 서술만 대조하며 별도 전승이나 독립 건축대장 검증을 추가하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "등록 원문의 문래동 > 오백채 설명에서 문래동 4가 일대·1940년쯤·영단주택 집단기와집을 대조했다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "원문이 문래동 4가 일대를 직접 명시한다. 문래동 공통 어원을 세부 가로 확대한 판단과 구별하며 개별 필지·현존 주택의 동일성은 미확인이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "74947da5-43b5-4de7-ba2c-3810c8422cc9",
+      "sourceId": "ddfe760f-2268-4658-babe-b03164983086",
+      "versionId": "40610d23-7987-4ed8-828c-5e6acabcbee9",
+      "sourceVersion": 1,
+      "label": "과해동",
+      "title": "강서구 동이름 유래",
+      "textKind": "paraphrase",
+      "fingerprint": "f22ab24e0139a13010b8242765c941eba1b10f3003ee44be489a0ce2d73f7edd",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "55a1e7d0-bc84-4629-92e5-10ad6e8d08b3",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-22T10:20:32.161Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "original_access_unavailable",
+      "evidence": {
+        "sourceUrl": "https://www.gangseo.seoul.kr/kids/kids010501",
+        "sourceLocator": "동명 유래 > 과해동 / 등록 원문 접근 실패",
+        "observedAt": "2026-10-22T10:09:46.840194+00:00",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "대상은 기존 지역 명칭 연결의 동네 맥락이다. 원문 미열람으로 경계·필지·내용의 일치 여부를 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "74b1cdd7-2f20-4db1-b7bd-268cef1f2559",
+      "sourceId": "e5bb6546-d063-40b6-ad75-5f46c8b91a67",
+      "versionId": "6b0ac4b9-40e7-4b86-8d11-32fa968ba67b",
+      "sourceVersion": 1,
+      "label": "영등포동1가",
+      "title": "서울 지명사전 · 영등포구 영등포동1가",
+      "textKind": "paraphrase",
+      "fingerprint": "0484879e3be55bc98fdf483ea8529de7368b6486daeedd18902bf34597814859",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "77ca5e1a-76b0-4b41-97a3-54fa8d9fc371",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:20:34.683Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%991%EA%B0%80",
+        "sourceLocator": "법정동 분류 > 영등포동1가(永登浦洞1街) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:09:43.667809+00:00",
+        "sourceHash": "abbdbdb9a5a9c88af04314755b5442c14fd2cf3e05b6b56840ec8968d92362a4",
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "개별 본문이 영등포동은 경부선 남쪽, 영등포동1가는 북쪽이라고 직접 비교한다. 철도 선형·현재 지번 경계를 독립 대조한 결과는 아니다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "영등포동1가 개별 본문의 경부선 남쪽 영등포동·북쪽 1가 분리와 정확한 분할 시기 미상 설명이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "본문 첫 문장의 영등포1가동 표기와 말미 법정동 영등포동1가를 구별한다. 기존 공식 명칭·ID를 고치지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 구획정리 이후 1949년 6월 이전이라는 추정과 분할 시기 불명확을 구별하며 요약의 시기 유보를 유지한다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "분할 시기 추정의 한정을 보존한다. 원문의 영등굿 설은 선택 요약에 새 확정 사실로 넣지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "영등포동1가 개별 본문의 경부선 남쪽 영등포동·북쪽 1가 분리와 정확한 분할 시기 미상 설명이 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "개별 본문이 영등포동은 경부선 남쪽, 영등포동1가는 북쪽이라고 직접 비교한다. 철도 선형·현재 지번 경계를 독립 대조한 결과는 아니다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7500b09f-6c0c-4f76-a10f-08bf93ae575a",
+      "sourceId": "df5306a8-7180-476b-bee3-faa221e3b1b3",
+      "versionId": "929729c5-c0de-4c12-8225-c6bcf4552173",
+      "sourceVersion": 1,
+      "label": "목동",
+      "title": "양천구 변천사 · 법정동 이름의 유래",
+      "textKind": "paraphrase",
+      "fingerprint": "0332e6831140702e59bfe57620220c01df47b673324188fb8cfbb0a38b352f53",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "23fee2ea-cbb4-4f1e-a2fe-47c451400421",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:20:37.320Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://archives.yangcheon.go.kr/mokdong-history/ch1-yangcheon.html",
+        "sourceLocator": "양천구 동의 변화 > 법정동 이름의 유래 > 목동",
+        "observedAt": "2026-10-22T10:13:00.445122+00:00",
+        "sourceHash": "e5c3362badba3e055870e8a9f44384dc26ad6d8aa872120b44bf16c55afa28be",
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "양천구 공식 목동 아카이브의 법정동 이름 유래 중 목동 문단이다. 현재 행정동 목1~5동이나 목장 필지의 경계로 확대하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "목장 이용 설명과 牧洞에서 木洞으로 표기가 달라졌으리라는 원문 추정을 선택 요약이 보존한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에는 정확한 연도가 없다. 목장 시기·한자 변경 시행일을 임의로 확정하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "되었으리라 추정된다는 한정을 그대로 대조하며 어원설을 독립 확정 사실로 바꾸지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "목장 이용 설명과 牧洞에서 木洞으로 표기가 달라졌으리라는 원문 추정을 선택 요약이 보존한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "양천구 공식 목동 아카이브의 법정동 이름 유래 중 목동 문단이다. 현재 행정동 목1~5동이나 목장 필지의 경계로 확대하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7621a78d-dfc8-446d-8aeb-82ccbdb86332",
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "versionId": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+      "sourceVersion": 1,
+      "label": "삼전동",
+      "title": "송파구 동명유래",
+      "textKind": "paraphrase",
+      "fingerprint": "6c96cb8721b2071bac5cc978315cc690a6267d4d19f29fefb1c6a9adf08048b3",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "60d16db7-c80e-45c6-84b8-df9f5430727d",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:20:40.069Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.songpa.go.kr/www/contents.do?key=2367",
+        "sourceLocator": "동명 유래 > 삼전동",
+        "observedAt": "2026-10-22T10:13:04.059271+00:00",
+        "sourceHash": "d10d876a20d624fb9d397e69bdc2e4eefe62b26dfae58d2c543e555089ac87e3",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "삼전동(三田洞) 독립 문단을 확인했다. 옛 나루 위치를 현재 삼전동 전체 경계나 개별 필지와 같다고 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "삼전동의 세 밭 지명설과 삼전도 나루 기능 설명이 짧은 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에는 특정 연대가 없다. 원문의 세종 21년 설명을 다른 사건·준공 연대로 옮기지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "밭이 셋이었다는 이름 설명을 원문이 한다고 소개하는 한정을 유지한다. 나루 역할과 어원 전승을 구별한다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "삼전동의 세 밭 지명설과 삼전도 나루 기능 설명이 짧은 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "현재 개별 페이지에 공공누리 표기 지정안됨이 나타난다. 일반 OPEN 아이콘을 개별 이용허락으로 해석하지 않으며 기존 unknown·보관 0·재사용 0을 유지한다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "삼전동(三田洞) 독립 문단을 확인했다. 옛 나루 위치를 현재 삼전동 전체 경계나 개별 필지와 같다고 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7676a669-4fe7-4a13-a919-d2813accc40f",
+      "sourceId": "acdc7152-e371-4de2-b075-56d05f1f60fd",
+      "versionId": "71b458c7-f481-4aef-be59-6d6b1a6650eb",
+      "sourceVersion": 1,
+      "label": "우면동",
+      "title": "서초구 지명유래 · 우면동",
+      "textKind": "paraphrase",
+      "fingerprint": "7914358672cd1aa1213ae1cc12524a7a66bec25cfb205f6e1c36a356e1491a84",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "fd334a37-4667-4ea1-b2fb-793b50e263b5",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:20:42.489Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.seocho.go.kr/site/seocho/05/10502040700002015070810.jsp",
+        "sourceLocator": "우면동 지명유래 > 첫 문단",
+        "observedAt": "2026-10-22T10:13:00.447149+00:00",
+        "sourceHash": "cf1ddfdc6060e8369a3918374e0d899664aca1bc6ed9090fdd1631c4ef4116e0",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "서초구 우면동 첫 문단의 지역 형성 맥락이다. 우면산·양재천의 서술을 특정 연구기관·도로·개별 부지의 동일성으로 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "우면산 아래 골짜기의 동명·윗우마니 등 마을과 1970년대 초 도로 건설 이후 주택·연구기관 변화를 첫 문단에서 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1970년대 초와 약 270년 전을 구별한다. 상대 연대를 2026년 기준으로 역산하지 않으며 도로 개통일의 독립 검증으로 취급하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "동명은 제공기관 설명으로만 대조한다. 태봉 등의 다른 전승을 선택 요약에 섞지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "우면산 아래 골짜기의 동명·윗우마니 등 마을과 1970년대 초 도로 건설 이후 주택·연구기관 변화를 첫 문단에서 대조했다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "서초구 우면동 첫 문단의 지역 형성 맥락이다. 우면산·양재천의 서술을 특정 연구기관·도로·개별 부지의 동일성으로 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "76804a9d-0f3f-4cb1-b609-ff3104ba8b04",
+      "sourceId": "1b8b0cfe-e0b6-4eef-99cf-b2490a11e8e9",
+      "versionId": "8831c374-3cf8-40b9-9d7d-be294c968886",
+      "sourceVersion": 1,
+      "label": "옥천동",
+      "title": "서울지명사전 · 옥천동(玉川洞)",
+      "textKind": "paraphrase",
+      "fingerprint": "9212e4d47de60df52d4da69b5c9bc088941e040331848fe675ed013a1ca00bcd",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "25143010-1c2b-426d-af5e-5ca8fac8e177",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:20:45.017Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%98%A5%EC%B2%9C%EB%8F%99",
+        "sourceLocator": "서울지명사전 > 법정동 > 옥천동(玉川洞) 항목 본문(p.txt-box) / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:09:48.073786+00:00",
+        "sourceHash": "7bba7ea3e636aa9557f865dbfb16aac3a8f217aa55eafecf0b2d8dd46cbd35bc",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "서대문구 옥천동 개별 사전 본문이다. 동명 타지역 및 종로구 옥인동·옥천암으로 자동 연결하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "옥폭동·옥천암 관련 동명 설명과 1914년 옥천동·1936년 옥천정·1946년 옥천동 개칭을 개별 본문에서 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년·1936년·1946년 개칭 설명이 선택 요약과 일치한다. 고시 원본을 별도로 열람한 검증은 아니다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "폭포·암자의 동명 유래는 제공기관 해설임을 보존한다. 현존 유적이나 개별 암자 필지로 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "옥폭동·옥천암 관련 동명 설명과 1914년 옥천동·1936년 옥천정·1946년 옥천동 개칭을 개별 본문에서 대조했다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "서대문구 옥천동 개별 사전 본문이다. 동명 타지역 및 종로구 옥인동·옥천암으로 자동 연결하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7698d6fd-aa08-46e1-97f3-5afa955f81ed",
+      "sourceId": "ddfe760f-2268-4658-babe-b03164983086",
+      "versionId": "40610d23-7987-4ed8-828c-5e6acabcbee9",
+      "sourceVersion": 1,
+      "label": "내발산동",
+      "title": "강서구 동이름 유래",
+      "textKind": "paraphrase",
+      "fingerprint": "12074a6a37e23f1dc4e6dd5970361f32eadf595b0828968d1fdeeddbf2ec9b4b",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "b6aa51d6-d11d-444d-9b85-27028d5326a1",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-22T10:20:48.354Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "original_access_unavailable",
+      "evidence": {
+        "sourceUrl": "https://www.gangseo.seoul.kr/kids/kids010501",
+        "sourceLocator": "동명 유래 > 내발산동 / 등록 원문 접근 실패",
+        "observedAt": "2026-10-22T10:09:46.840194+00:00",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "대상은 기존 지역 명칭 연결의 동네 맥락이다. 원문 미열람으로 경계·필지·내용의 일치 여부를 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "784b1a96-5381-4830-813d-de25d7e3c8d7",
+      "sourceId": "694fd76e-49d8-40f1-aeb6-80a09169c0b5",
+      "versionId": "77da8b73-2e15-4e4c-9ca7-afbef328541e",
+      "sourceVersion": 1,
+      "label": "한남동",
+      "title": "서울역사편찬원 서울지명사전 · 한남동",
+      "textKind": "paraphrase",
+      "fingerprint": "32fac3fc9e7106060a2d6a6f076ea3985c6f07222a8f3cd6e7ff7675624b70a7",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "58daa71a-8de6-431d-a7f9-dbeb5b1db063",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:20:51.033Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%95%9C%EB%82%A8%EB%8F%99",
+        "sourceLocator": "서울지명사전 > 법정동 > 한남동(漢南洞) > 첫 문장·말미 한남정과 개칭 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:09:49.443024+00:00",
+        "sourceHash": "7edc0ada5827641b3b494843daf1f67840c4687eaaef152da6770723fdf04798",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "용산구 한남동 개별 항목을 대조했다. 한강·남산의 위치 관계를 특정 부지 역사로 바꾸지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "한강·남산의 글자를 합성한 이름과 1936년 한남정·1946년 한남동 개칭이 원문과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1936년 한강리의 한남정 개칭과 1946년 한남동 개칭을 구별한다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 제공기관의 명칭 설명이며 독립 어원 확증이나 지명 전설 추가가 아니다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "한강·남산의 글자를 합성한 이름과 1936년 한남정·1946년 한남동 개칭이 원문과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "용산구 한남동 개별 항목을 대조했다. 한강·남산의 위치 관계를 특정 부지 역사로 바꾸지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "799be5df-9ef1-41a2-8f0a-db4303ab2c6a",
+      "sourceId": "fc120635-cd5e-48fa-86af-26333a3d524d",
+      "versionId": "116aa9d7-2da3-46df-9bbb-e07edf3e8fe1",
+      "sourceVersion": 1,
+      "label": "삼청동",
+      "title": "서울지명사전 · 삼청동",
+      "textKind": "paraphrase",
+      "fingerprint": "aece00e1139adc6bfa07a70e45d3b0f61dac8d4450049627d4acda7e9b643116",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "7ad715b8-774c-4d8d-92f6-4234dcd4202c",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:20:53.756Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%82%BC%EC%B2%AD%EB%8F%99",
+        "sourceLocator": "서울지명사전 > 법정동 > 삼청동(三淸洞) > 동명 유래·행정구역 연혁 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:09:50.552651+00:00",
+        "sourceHash": "8c7ba792045d5aaae49e033cc0ecb42dbfe619dbccf0c8c99e721ee138cfad85",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "종로구 삼청동 개별 항목이다. 삼청전의 현재 지번·현존 건물이나 팔판동 전체 편입을 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "삼청성진을 모신 삼청전의 이름 설명과 1914년 삼청동·팔판동 일부 통합 연혁이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 통합과 후대 삼청정·1946년 개칭을 섞지 않는다. 별도 사료의 독립 확증은 아니다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약이 채택한 삼청전 설명만 대조하며 산·물·사람이 맑다는 다른 설을 이번 근거로 추가하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "삼청성진을 모신 삼청전의 이름 설명과 1914년 삼청동·팔판동 일부 통합 연혁이 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "종로구 삼청동 개별 항목이다. 삼청전의 현재 지번·현존 건물이나 팔판동 전체 편입을 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "79a9c213-8f32-40ee-848f-9aea9775896c",
+      "sourceId": "160741be-a9b0-48d3-8315-7624ddbc3dff",
+      "versionId": "3f4e7363-7625-4c89-9d5d-f3e4d36c8e25",
+      "sourceVersion": 1,
+      "label": "영등포동6가",
+      "title": "서울 지명사전 · 영등포구 영등포동6가",
+      "textKind": "paraphrase",
+      "fingerprint": "60f3cb43f91f6235af0361fb4aa9c4a52a89ac7f0d5262a1214635e1fb3679ff",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "e78b5b25-3320-49c1-99b5-cd5904a73d6d",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-22T10:20:56.539Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%98%81%EB%93%B1%ED%8F%AC%EB%8F%996%EA%B0%80",
+        "sourceLocator": "법정동 분류 > 영등포동6가(永登浦洞6街) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:09:51.551566+00:00",
+        "sourceHash": "ac32c39b3f4e4ed29ce04229d7130e05941df5e17e18c6ebd03ea1e45022d4ea",
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "경부선 북쪽 일부 분리는 명시되지만 남쪽 대비의 원문 근거가 부족하다. 다른 가의 설명을 이 개별 항목의 원문인 것처럼 대신 적용하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "구획정리된 경부선 북쪽 일부의 분리 설명은 원문과 맞지만 저장 요약의 남쪽 영등포동 대비는 등록된 영등포동6가 본문에 없다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "첫 문장 영등포6가동과 말미 영등포동6가의 표기를 구별하며 기존 공식 명칭·ID를 유지한다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문은 광복·전쟁 후 인구 증가를 말할 뿐 정확한 분할 시행일을 제시하지 않는다. 요약의 시기 유보는 유지한다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "동명 유래 미상·영등굿 설은 분리 배경과 구별하며 새 확정 사실로 넣지 않는다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "기존 요약의 경부선 남쪽 영등포동 대비가 등록된 개별 원문에 명시되지 않아 일관성 검토를 미해결로 남긴다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "경부선 북쪽 일부 분리는 명시되지만 남쪽 대비의 원문 근거가 부족하다. 다른 가의 설명을 이 개별 항목의 원문인 것처럼 대신 적용하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7a54ceaf-da88-4955-80fe-4617c36d45e8",
+      "sourceId": "4b33f00e-ba0e-440a-af75-04dc063fd6b6",
+      "versionId": "ee594323-5779-4967-bc2e-6001c5ecbca5",
+      "sourceVersion": 1,
+      "label": "'미고개', '여우고개'라 불리던 동방고개",
+      "title": "'미고개', '여우고개'라 불리던 동방고개",
+      "textKind": "transcription",
+      "fingerprint": "d67415fc5db41467b8c6ef79510a5241ef1bdd46784da2469bad0b38a1010565",
+      "previousStatus": "source_captured",
+      "previousRevision": 0,
+      "reviewId": "c2cebbb9-00ff-46ef-9a21-28ca655ee96d",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:20:59.918Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY949&fileId=9c6074b1-1163-4fd2-99d7-32ad694b974f&fileSn=362&type=A&upperNodeId=CTGRY951",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『장위동』(2021), p. 91.",
+        "observedAt": "2026-10-22T10:09:52.372500+00:00",
+        "sourceHash": "a6cd997a3faeabbd04e864ff7ee81990e7249696182b025fbd09d47844dd678e",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관 장소는 서울시 성북구이고 내용은 장위1동·동방고개 맥락이다. 기존 빈 지역 연결은 유지하며 행정동과 법정동, 치안센터·고개의 현재 필지를 자동 결합하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "박물관 개별 내용 항목과 저장 전사는 공백 정규화 후 일치한다. 우덕수 구술에 의한 미고개·여우고개 명칭을 구술로 보존했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "사진 설명의 2020년과 책 『장위동』 2021년을 구별한다. 옛날이라는 구술을 특정 연도로 바꾸지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "우덕수의 구술에 의하면·불렀다고 한다는 한정을 유지하며 토박이 기억을 독립 지형·지명 확정으로 승격하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "박물관 개별 내용 항목과 저장 전사는 공백 정규화 후 일치한다. 우덕수 구술에 의한 미고개·여우고개 명칭을 구술로 보존했다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 상세 페이지의 공공누리 제1유형과 기존 KOGL1·보관 1·재사용 1을 대조해 유지한다. 사진·지도·파일을 새 복제하거나 별도 포괄 이용허락을 부여하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관 장소는 서울시 성북구이고 내용은 장위1동·동방고개 맥락이다. 기존 빈 지역 연결은 유지하며 행정동과 법정동, 치안센터·고개의 현재 필지를 자동 결합하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7a8c94de-710a-4cba-ab74-dfe56b8ed315",
+      "sourceId": "b3c247e5-2a69-4138-bc1a-64adecfac2b9",
+      "versionId": "a079a49c-726d-4ef0-8685-952e4d025d8a",
+      "sourceVersion": 1,
+      "label": "당주동",
+      "title": "서울지명사전 · 당주동",
+      "textKind": "paraphrase",
+      "fingerprint": "4748da394dd7a4c2e24c010eaeb022982e137ecb65f758a7ddebe6afd1ecabe9",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "b63dd050-d04f-4e1b-b4f6-5c5a41ea0ebf",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:02.639Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%8B%B9%EC%A3%BC%EB%8F%99",
+        "sourceLocator": "서울지명사전 > 법정동 > 당주동(唐珠洞) > 동명 유래·행정구역 연혁 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:09:52.478078+00:00",
+        "sourceHash": "dc02135d74c39534c488d1ccea9a9fffcfc05491bc73ec5bacda3b73cdc9a428",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "종로구 당주동 개별 본문이며 옛 봉상시전 등 명칭은 통합 지역의 설명이다. 현재 기관 건물이나 필지 동일성은 미검증이다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "당피동·야주현 첫 글자 합성 및 봉상시전·내섬동·남문동 등의 1914년 통합 설명이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 통합과 1936년 당주정·1946년 당주동 개칭을 구별한다. 원고의 옛 연혁만 대조한다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "당피동·야주현 합성 설명을 제공기관 서술로 확인했다. 별도 지명 전승을 사실로 추가하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "당피동·야주현 첫 글자 합성 및 봉상시전·내섬동·남문동 등의 1914년 통합 설명이 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "종로구 당주동 개별 본문이며 옛 봉상시전 등 명칭은 통합 지역의 설명이다. 현재 기관 건물이나 필지 동일성은 미검증이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7aee8f84-1241-4e92-b8fb-245abe8e0626",
+      "sourceId": "9c2e439f-f6b1-4224-930e-49e9b5253a1e",
+      "versionId": "f04d6421-3dad-4680-b121-20ebe9f2b447",
+      "sourceVersion": 1,
+      "label": "도렴동",
+      "title": "종로문화플랫폼 동명유래 · 도렴동",
+      "textKind": "paraphrase",
+      "fingerprint": "3f03c6718061dc4d8c3f9d8656b9f0e54c21bc9a6d370b416326fecc2445473f",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "5acc5d1b-3d4e-469e-9481-fe036641d380",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-22T10:21:05.603Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "original_access_unavailable",
+      "evidence": {
+        "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/125/detail.do?pstSn=144",
+        "sourceLocator": "동명유래-도렴동 > (1) 동 유래 및 변천 첫 문단·1914년 통합 / (2) 동네 지명 유래 / 등록 원문 접근 실패",
+        "observedAt": "2026-10-22T10:09:56.979438+00:00",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "대상은 기존 지역 명칭 연결의 동네 맥락이다. 원문 미열람으로 경계·필지·내용의 일치 여부를 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7c13f9c9-dbf1-430c-a485-3404d033f2bd",
+      "sourceId": "2a8bd692-8a25-44f9-8e9e-c0ce175e31e3",
+      "versionId": "01207378-a7d4-49e3-a1b1-51dcbbe3eae9",
+      "sourceVersion": 1,
+      "label": "오류동",
+      "title": "구로구 동별역사 · 오류동",
+      "textKind": "paraphrase",
+      "fingerprint": "84bb89f838dbf796f9db80d7f467d7ec2c6827a25e928276d6020c127eae65b6",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "36107eb1-b2b4-43e6-8051-0682cdafd746",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:08.102Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2132",
+        "sourceLocator": "연혁 및 동명의 유래 > 오류동",
+        "observedAt": "2026-10-22T10:13:00.448996+00:00",
+        "sourceHash": "0fe7ead877cdbb64c709be4e4586dfb0056019303a6787feb75cd263cca32725",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "현재 구로구 오류동의 과거 영등포구·오류출장소 맥락이다. 행정동 오류1·2동 분동과 법정동의 존속을 동일시하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "오류동의 1963년 서울 편입 당시 오류출장소 관할 및 1968년 출장소 폐지 후 영등포구 직할 설명이 원문과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1963년 서울 편입과 1968년 1월 1일 출장소 폐지를 구별한다. 1980년 구로구 신설을 1968년 소속으로 소급하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 행정 연혁이며 주막거리·바가지우물 등 다른 전승을 섞지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "오류동의 1963년 서울 편입 당시 오류출장소 관할 및 1968년 출장소 폐지 후 영등포구 직할 설명이 원문과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "현재 구로구 오류동의 과거 영등포구·오류출장소 맥락이다. 행정동 오류1·2동 분동과 법정동의 존속을 동일시하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7c2e94bc-77b3-4d73-8f8d-d4fcbf9b8f04",
+      "sourceId": "954c8ea2-991d-48d5-8aae-c4731170a372",
+      "versionId": "faaca38f-d2cf-4b95-b1db-4e31db314294",
+      "sourceVersion": 1,
+      "label": "덕수제과 판매 빵의 레시피",
+      "title": "덕수제과 판매 빵의 레시피",
+      "textKind": "transcription",
+      "fingerprint": "a8bc98d365f4cae4ed84a91ce65ba87e5c047c1a97833f53c703b217ba18f9e2",
+      "previousStatus": "source_captured",
+      "previousRevision": 0,
+      "reviewId": "0dae74c3-9677-45e2-a9dc-5032cfcb537c",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:10.864Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY933&fileId=bd33f2ed-09d8-41b4-a472-0c33c67ef958&fileSn=263&type=A&upperNodeId=CTGRY940",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『신문로2가』(2020), p. 364.",
+        "observedAt": "2026-10-22T10:09:56.531607+00:00",
+        "sourceHash": "250dc184d14751b55b8c9e820c458131ab90489e3454d75cbaaef3f5969c79b6",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "장소는 서울시 종로구이며 내용은 신문로 빵집이다. 기존 빈 지역 연결을 유지하고 신문로2가 책 표제만으로 현재 주소·부지를 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "개별 내용 항목과 전사는 공백 정규화 후 일치한다. 덕수제과의 1963년 부지 매입·1965년 개업과 레시피 설명을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "부지 매입 1963년·개업 1965년·자료 시기 1965~1995년·책 2020년을 구별한다. 전사 대조가 부동산 소유권 장부의 독립 확인은 아니다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 설명은 박물관 제공기관 서술이며 가족·영업 전승을 별도로 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "개별 내용 항목과 전사는 공백 정규화 후 일치한다. 덕수제과의 1963년 부지 매입·1965년 개업과 레시피 설명을 대조했다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 상세 페이지의 공공누리 제1유형과 기존 KOGL1·보관 1·재사용 1을 대조해 유지한다. 사진·지도·파일을 새 복제하거나 별도 포괄 이용허락을 부여하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "장소는 서울시 종로구이며 내용은 신문로 빵집이다. 기존 빈 지역 연결을 유지하고 신문로2가 책 표제만으로 현재 주소·부지를 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7c9a9c54-5f28-4adf-84c6-07832b90acae",
+      "sourceId": "d6f9c6b9-e9f6-4b39-a98b-4c0b3a3b9817",
+      "versionId": "3267dd6f-cf25-4514-b9c0-694fc80783fa",
+      "sourceVersion": 1,
+      "label": "을지로7가",
+      "title": "서울지명사전 · 을지로7가",
+      "textKind": "paraphrase",
+      "fingerprint": "9081057746eba025f46add731c69e753e31c0d30a465038c709082ced4071cd6",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "e395a3ea-3058-4f4a-8aae-9d66552fbda6",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:13.497Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%84%EC%A7%80%EB%A1%9C7%EA%B0%80",
+        "sourceLocator": "법정동 명칭검색 «을지로7가» > 을지로7가(乙支路7街) > 연혁 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:09:57.954468+00:00",
+        "sourceHash": "4ad1ac0835fa5c72b70c566f4cfa47400d970697513d2d94f13b6e8e2d26fedd",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "중구 을지로7가 개별 본문을 확인했다. 신당리의 과거 연혁을 현재 신당동 전체 경계와 동일시하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "1914년 동산리동·배동·하도감동·신당리동의 황금정7정목 통합과 1946년 을지로7가 개칭이 원문과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 통합·1936년 구역경계 변경·1946년 개칭을 구별한다. 선택 요약은 각 지역의 일부·일원을 묶은 간략 설명이다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 행정 연혁이며 을지문덕 동명 설명을 새 전승이나 준공사실로 섞지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "1914년 동산리동·배동·하도감동·신당리동의 황금정7정목 통합과 1946년 을지로7가 개칭이 원문과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "중구 을지로7가 개별 본문을 확인했다. 신당리의 과거 연혁을 현재 신당동 전체 경계와 동일시하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7d303bc4-8331-4e50-a6b2-3a98436e920f",
+      "sourceId": "e245932b-f746-4d90-9ca5-b95805e0fa93",
+      "versionId": "1627eed7-ebe0-4679-805d-2ab9273695a2",
+      "sourceVersion": 1,
+      "label": "광희동2가",
+      "title": "서울지명사전 · 광희동2가",
+      "textKind": "paraphrase",
+      "fingerprint": "d5164376271b1da2a116c755a6383c77aac2e6b567fd5c73a2a510e77cfba98b",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "387c8d14-f740-4546-8349-35cc02c2beb5",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:15.998Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EA%B4%91%ED%9D%AC%EB%8F%992%EA%B0%80",
+        "sourceLocator": "법정동 명칭검색 «광희동2가» > 광희동2가(光熙洞2街) > 연혁 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:09:59.077139+00:00",
+        "sourceHash": "fd5bb9a3c7124ad1e253a49e9a59219584eb3dafe82e54e1b1f2b01fff5c3ebe",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "중구 광희동2가의 개별 항목이다. 행정동 광희동·광희문 건물·주변 필지와 자동 동일시하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "광희동2가 개별 본문의 1914년 광희정2정목과 1946년 광희동2가 개칭이 선택 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년·1946년 명칭 변화가 일치한다. 1943년 중구 편입 연혁과 개칭을 섞지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 명칭 연혁이며 광희문 관련 다른 전승·설화를 추가하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "광희동2가 개별 본문의 1914년 광희정2정목과 1946년 광희동2가 개칭이 선택 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "중구 광희동2가의 개별 항목이다. 행정동 광희동·광희문 건물·주변 필지와 자동 동일시하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7d336437-ba3c-44c6-947d-069ded28adc9",
+      "sourceId": "11ad709e-e01f-4418-807c-2e31c483014d",
+      "versionId": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+      "sourceVersion": 1,
+      "label": "행당동",
+      "title": "성동구 문화관광 지명유래",
+      "textKind": "paraphrase",
+      "fingerprint": "e4b6141e7e1a107a2eda3bc7c62dad9f314e0d94e9c6f0f84f41d0b49611e58f",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "07feed00-61c7-433b-8a88-bff3d481d3fc",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-22T10:21:18.280Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "original_access_unavailable",
+      "evidence": {
+        "sourceUrl": "https://sd.go.kr/tour/contents.do?key=1926",
+        "sourceLocator": "지명유래 > 행당동(1·2동) / 등록 원문 접근 실패",
+        "observedAt": "2026-10-22T10:10:02.455107+00:00",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "대상은 기존 지역 명칭 연결의 동네 맥락이다. 원문 미열람으로 경계·필지·내용의 일치 여부를 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7d5a1085-ecc6-431c-83bd-f81ac8a26918",
+      "sourceId": "c3d42468-ffff-4302-8c51-441be87dcd21",
+      "versionId": "c1f0605c-98b5-4337-b9f9-1cf53e48eb66",
+      "sourceVersion": 1,
+      "label": "명륜1가",
+      "title": "서울지명사전 · 명륜1가",
+      "textKind": "paraphrase",
+      "fingerprint": "df8a8ef892858fa23cb0105f8ce5bdf05e3ef314e45b692fc62ac021662b5d15",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "5dcf66ea-b107-405a-b9bc-429528fa601d",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:21.386Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AA%85%EB%A5%9C%EB%8F%991%EA%B0%80",
+        "sourceLocator": "서울지명사전 > 법정동 > 명륜동1가(明倫洞1街) > 각 가의 1914년 통합·1936년 개칭·1946년 개칭 연혁 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:10:00.121506+00:00",
+        "sourceHash": "c936a4a982180a5d555fade1a989732e19d8507003c1c8534e381afe096da6e2",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "종로구 명륜1가에 대응하는 개별 사전 항목의 명칭·연혁만 대조한다. 현행 경계·성균관 건물·개별 필지는 미검증이다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "식당동·수지동·도덕동·포동·상정동 등의 숭1동 구성과 1936년 명륜정1정목·1946년 명륜동1가 개칭이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "사전 표제·본문의 명륜동1가와 DB의 공식 명칭 명륜1가를 구별하여 보존한다. 한쪽 표기를 자동 치환하거나 기존 ID를 바꾸지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 숭1동·1936년 명륜정1정목·1946년 명륜동1가를 구별한다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 행정 통합·개칭이며 명륜당·학교의 모든 역사를 독립 확증한 기록이 아니다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "식당동·수지동·도덕동·포동·상정동 등의 숭1동 구성과 1936년 명륜정1정목·1946년 명륜동1가 개칭이 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "종로구 명륜1가에 대응하는 개별 사전 항목의 명칭·연혁만 대조한다. 현행 경계·성균관 건물·개별 필지는 미검증이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7dfe16d5-e83b-4a21-94fa-e85bfb58efca",
+      "sourceId": "8e4aeac4-cabb-4546-82af-090b55485162",
+      "versionId": "135598ee-4f3f-40bd-84e0-be1f23008ea4",
+      "sourceVersion": 1,
+      "label": "예관동",
+      "title": "서울지명사전 · 예관동",
+      "textKind": "paraphrase",
+      "fingerprint": "db02fa60d55aa3abb2ebc6ddac33dda710e0a0883a237f70b2087cbea32eaa84",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "4ce3fbd8-17be-4a3f-961f-e9e676cb9647",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:23.935Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%98%88%EA%B4%80%EB%8F%99",
+        "sourceLocator": "법정동 명칭검색 «예관동» > 예관동(藝館洞) > 연혁 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:10:00.781799+00:00",
+        "sourceHash": "fd20fd74c3bcbd3dedb46699853a4c15ae7be34d16e4a49bf6c4b52603bc114f",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "중구 예관동 개별 본문이다. 교서관·동평관의 현재 건물·필지와 동일하다고 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "교서관 관련 芸 표기 오독설과 동평관의 왜관동 변음설 두 설명, 화원정 이후 1946년 예관동 개칭이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 화원정과 1946년 예관동 개칭을 구별한다. 어원설의 발생 시기를 임의로 정하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "보인다는 오독 추정과 되었다고도 한다는 변음설을 병기한 한정을 유지하며 하나를 확정 원인으로 고르지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "교서관 관련 芸 표기 오독설과 동평관의 왜관동 변음설 두 설명, 화원정 이후 1946년 예관동 개칭이 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "중구 예관동 개별 본문이다. 교서관·동평관의 현재 건물·필지와 동일하다고 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7dfeaa57-371b-414c-8465-b0c261208e9a",
+      "sourceId": "3916bc4a-8f99-43ee-8cd8-53617baaa697",
+      "versionId": "517558c7-fa12-46ca-93aa-8b295b163e8c",
+      "sourceVersion": 1,
+      "label": "둔촌동",
+      "title": "강동문화포털 지명유래",
+      "textKind": "paraphrase",
+      "fingerprint": "92e300f94731b9664b982a7dc2c95d29ece06a12347f0e55a458eceb81f478ac",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "bd237fde-ae98-4852-82fe-1e850d590fcf",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:26.427Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "web_original",
+      "evidence": {
+        "sourceUrl": "https://www.gangdong.go.kr/web/culture/contents/gdc020_020_020",
+        "sourceLocator": "둔촌동 > 유래 / 웹 원문 437~443행·공공누리 제4유형 465행",
+        "observedAt": "2026-10-22T10:19:40.366556+00:00",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "강동구 둔촌동 개별 유래 문단이다. 일자산의 토굴·현재 필지·건물 또는 서울 밖 동명 지역으로 연결하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "등록된 강동문화포털 웹 원문의 둔촌동 유래 437~443행에서 일자산 은거와 이집의 호 둔촌 설명을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에는 특정 연대가 없다. 고려 말이라는 원문 맥락을 거주 시작·종료 연도로 확정하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "제공기관이 소개하는 이집의 은거·호 설명으로 대조했다. 실제 토굴·체류의 일차 사료를 별도로 검증한 결과는 아니다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "등록된 강동문화포털 웹 원문의 둔촌동 유래 437~443행에서 일자산 은거와 이집의 호 둔촌 설명을 대조했다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "같은 원문 465행의 공공누리 제4유형(출처표시·변경금지·상업적이용금지)을 확인했다. 기존 unknown·보관 0·재사용 0을 유지하며 사진·본문의 새 복제나 포괄 재사용 허락으로 바꾸지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "강동구 둔촌동 개별 유래 문단이다. 일자산의 토굴·현재 필지·건물 또는 서울 밖 동명 지역으로 연결하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7e7be578-5fcd-4d1b-9258-e48b0864a577",
+      "sourceId": "c4ace089-f2e7-48b1-9f9a-5bbb62778aa5",
+      "versionId": "bda61a36-2469-493f-84cd-73a382fc7ba4",
+      "sourceVersion": 1,
+      "label": "1975년 당시의 돌산의 모습",
+      "title": "1975년 당시의 돌산의 모습",
+      "textKind": "transcription",
+      "fingerprint": "e006ff6ff12404dbced45f32a28fc491ab97f7b2f3dfc969b1eff5a4b12abcf0",
+      "previousStatus": "source_captured",
+      "previousRevision": 0,
+      "reviewId": "056e3abc-117b-44de-97e7-8d6d155e6deb",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:29.958Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY404&fileId=H-TRNS-9957-406&fileSn=300&type=A&upperNodeId=CTGRY406",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『길음동』(2010), 65쪽",
+        "observedAt": "2026-10-22T10:10:02.286440+00:00",
+        "sourceHash": "5465ed4e1ca8dc08a22c4527bc81f5fba2006a80f13c2429adfa8c1a696fcd02",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "장소 항목은 서울특별시 성북구 길음제2동이다. 기존 빈 지역 연결을 유지하며 옛 행정동·신안아파트·대림아파트 이름을 현재 경계·특정 동·필지로 자동 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "박물관 개별 내용 항목과 저장 전사는 공백 정규화 후 일치한다. 길음2동 큰 돌산·작은 돌산과 채석장 설명을 전사로 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "사진 시기 1975년·책 『길음동』 2010년을 구별한다. 내용의 현재·아직도·지금은을 2026년 현존·철거 상태로 해석하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "제공기관의 사진 설명을 대조했다. 채석장 흔적의 현장 확인이나 다른 구술의 확정이 아니다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "박물관 개별 내용 항목과 저장 전사는 공백 정규화 후 일치한다. 길음2동 큰 돌산·작은 돌산과 채석장 설명을 전사로 대조했다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 상세 페이지의 공공누리 제1유형과 기존 KOGL1·보관 1·재사용 1을 대조해 유지한다. 사진·지도·파일을 새 복제하거나 별도 포괄 이용허락을 부여하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "장소 항목은 서울특별시 성북구 길음제2동이다. 기존 빈 지역 연결을 유지하며 옛 행정동·신안아파트·대림아파트 이름을 현재 경계·특정 동·필지로 자동 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7f12632e-75c6-4c29-8fe9-8c0e9de909d3",
+      "sourceId": "d1146a96-3d6a-4d9a-8dec-eee5822c820d",
+      "versionId": "40d630ed-6be4-44fa-b279-ab0b385932cd",
+      "sourceVersion": 1,
+      "label": "1926년 6월 4일에 행해진 순명효황후의 천봉(이장) 경로",
+      "title": "1926년 6월 4일에 행해진 순명효황후의 천봉(이장) 경로",
+      "textKind": "transcription",
+      "fingerprint": "00d475e0a6661c4bd3a9caefa2a2df5ecbb4cb8ebfe89850953eb34744f1545a",
+      "previousStatus": "source_captured",
+      "previousRevision": 0,
+      "reviewId": "56f5e48c-f06d-4ce7-ac25-e8808238c766",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:32.374Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1141&fileId=e4ac1c6d-adf1-494c-8741-ebe44ec87c75&fileSn=1080&type=A&upperNodeId=CTGRY1144",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『중곡동』(2023), p. 51.",
+        "observedAt": "2026-10-22T10:10:02.287156+00:00",
+        "sourceHash": "0e2e46e970740cd985c5934753ebc1f613439dbc1031168e3352bbb2e5957657",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "내용은 중곡리 경유 조건과 시내 우회 설명이며 장소 메타데이터는 서울시 광진구다. 금곡 목적지나 전체 행렬 경로를 현재 서울의 개별 부지로 연결하지 않고 빈 지역 연결을 유지한다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "박물관 개별 내용 항목과 저장 전사는 공백 정규화 후 일치한다. 1926년 6월 4일 천봉 경로 및 중곡리 도로 제약 설명을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "천봉 사건 1926년 6월 4일·지도 출처 1926년·자료/책 2023년을 구별한다. 지도와 원전 책을 별도 판독한 검증은 아니다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "제공기관 경로 해설과 지형도 출처 표기를 대조했으며 행렬의 실제 이동 일지를 독립 확인한 것은 아니다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "박물관 개별 내용 항목과 저장 전사는 공백 정규화 후 일치한다. 1926년 6월 4일 천봉 경로 및 중곡리 도로 제약 설명을 대조했다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 상세 페이지의 공공누리 제1유형을 확인하고 기존 KOGL1·보관 1·재사용 1을 유지한다. 지도에 표기된 국토지리정보원 출처를 보존하며 제3자 원지도·원전 파일에 대한 새 포괄 이용허락이나 복제는 없다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "내용은 중곡리 경유 조건과 시내 우회 설명이며 장소 메타데이터는 서울시 광진구다. 금곡 목적지나 전체 행렬 경로를 현재 서울의 개별 부지로 연결하지 않고 빈 지역 연결을 유지한다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "7fb42575-d295-45ac-b890-2f1a1caf17a0",
+      "sourceId": "e49501e4-2106-44d8-a8aa-d20412d302a5",
+      "versionId": "e649e49a-1169-48df-bb34-40a997b97bad",
+      "sourceVersion": 1,
+      "label": "청담동",
+      "title": "서울 지명사전 · 강남구 청담동",
+      "textKind": "paraphrase",
+      "fingerprint": "a99da7e44ae85fd87486e8f38bd9fd4bbf565b23ab424b8037acdf30c54eeb65",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "c399f09d-3519-4893-8213-ab058b5e5385",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:35.156Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B2%AD%EB%8B%B4%EB%8F%99",
+        "sourceLocator": "법정동 분류 > 청담동(淸潭洞) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-22T10:10:04.724459+00:00",
+        "sourceHash": "9bc7fdad5fd0426fd37686461db252e1820bd0fdad890e19c5058f5f3eea3bbe",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "강남구 청담동 개별 본문이다. 원문의 105·134번지 일대를 현재 지번·수계·연못의 정확한 부지로 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "맑은 못·한강물과 여러 샘의 두 동명 설명 및 1963년 서울 편입·청담동 개칭이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 청담리·1963년 서울 편입·1975년 강남구 소속을 구별한다. 1963년을 현재 자치구 성립일로 바꾸지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "맑은 못·한강물 설명과 일설의 샘물 설명을 함께 보존한다. 두 설명 중 하나를 독립 확정 원인으로 고르지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "맑은 못·한강물과 여러 샘의 두 동명 설명 및 1963년 서울 편입·청담동 개칭이 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문의 일반 저작권 표기와 기존 이용조건을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown·보관 0·재사용 0을 유지하며 원문·사진·파일의 새로운 보관·재사용을 허가하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "강남구 청담동 개별 본문이다. 원문의 105·134번지 일대를 현재 지번·수계·연못의 정확한 부지로 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "80181684-af9d-451c-8fd2-0b42e3038625",
+      "sourceId": "590916c3-6fbe-447c-b0fd-0f82cd36d98d",
+      "versionId": "6a39577a-8d72-4b18-be98-1c0a34230b47",
+      "sourceVersion": 1,
+      "label": "중화동",
+      "title": "2025 제37회 중랑통계연보 · 동명 유래",
+      "textKind": "paraphrase",
+      "fingerprint": "9cc9fdcd89f73d6292374d822a4db50da3a263d255021124e249f0750ff07b9f",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "7f16af5c-5db4-424e-b0e4-7b53b2a0b00d",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:38.045Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://ecatalog.jungnang.go.kr/src/viewer/download.php?host=main&no=1&site=20260213_163819",
+        "sourceLocator": "인쇄 318쪽 / PDF 318쪽(0-based 317) > 1. 동명 유래 > 중화동 문단; 추출문·렌더링 대조",
+        "observedAt": "2026-10-22T10:13:04.183581+00:00",
+        "sourceHash": "dfab269833ed18d17ca6d8de310fba3840a48978b5400adf925165107d5b2442",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "인쇄 318쪽/PDF 318쪽의 중화동 문단이며 서울 편입과 동대문구 소속의 과거 연혁을 확인했다. 현재 중랑구 중화1·2동 행정경계·개별 필지로 확대하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "공식 2025 제37회 중랑통계연보의 PDF 318쪽 중화동 문단을 추출문과 렌더링으로 대조했다. 중하리에서 和로 바꾼 설명과 1963년 편입·개칭이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "중하리 통합 1914년과 서울 편입·중화동 개칭 1963년 1월 1일을 구별한다. 파일 경로의 2026 숫자를 통계연보의 대상 연도나 개칭 연대로 쓰지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "제공기관이 설명하는 주민 의견·명칭 변화만 대조했다. 건의서·법률 원본의 독립 확증은 아니다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "공식 2025 제37회 중랑통계연보의 PDF 318쪽 중화동 문단을 추출문과 렌더링으로 대조했다. 중하리에서 和로 바꾼 설명과 1963년 편입·개칭이 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "공개 PDF 330쪽에서 저작권·공공누리·Copyright·무단 표기를 검색했으나 개별 복제·변형 허락은 확인되지 않았다. 기존 unknown·보관 0·재사용 0을 유지하고 전체 PDF를 운영 저장하거나 재사용 허락으로 승격하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "인쇄 318쪽/PDF 318쪽의 중화동 문단이며 서울 편입과 동대문구 소속의 과거 연혁을 확인했다. 현재 중랑구 중화1·2동 행정경계·개별 필지로 확대하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "803ab06e-3f30-427e-88cb-e9f05186a04f",
+      "sourceId": "53f81f18-f030-4d51-90de-29e8019f0879",
+      "versionId": "3b6b99e3-0cac-48aa-95df-7c54a67ed1e8",
+      "sourceVersion": 1,
+      "label": "중곡동",
+      "title": "광진구 동명유래",
+      "textKind": "paraphrase",
+      "fingerprint": "1bcfb2d10121b5b7f4c38be02b5e4345f60c066fbe7743c0f896a28aedf0e608",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "d68d5f35-0283-4af6-977e-fa6fffe2b9ed",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:41.227Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200271",
+        "sourceLocator": "동명유래 > 중곡동",
+        "observedAt": "2026-10-22T10:10:05.770654+00:00",
+        "sourceHash": "5e7a2ead1770358e6a69a09c9e5de501a9c8fd37db66d9bb313abf70ab8bae34",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "광진구 중곡동 독립 문단이다. 아차산·능동·면목동의 상대 위치를 현재 법정동 경계나 개별 부지로 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "중곡동 문단의 능동·면목동 중간 위치와 간뎃말·중곡리 이름 설명이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에는 특정 연대가 없다. 다른 동의 1949년·1995년 등의 연혁을 중곡동에 옮기지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "위치에서 이름을 찾는 제공기관 설명만 대조했다. 인접 다른 동의 전설을 섞지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "중곡동 문단의 능동·면목동 중간 위치와 간뎃말·중곡리 이름 설명이 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "현재 페이지에 이 게시물은 빈 조건에 따라 이용 가능하다는 빈 이용조건 문구가 나타나 유효한 개별 이용허락으로 보지 않는다. 일반 저작권정책 표시와 기존 unknown·보관 0·재사용 0을 보존한다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "광진구 중곡동 독립 문단이다. 아차산·능동·면목동의 상대 위치를 현재 법정동 경계나 개별 부지로 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "807016eb-e66a-4a24-a714-63bc317ada16",
+      "sourceId": "53f81f18-f030-4d51-90de-29e8019f0879",
+      "versionId": "3b6b99e3-0cac-48aa-95df-7c54a67ed1e8",
+      "sourceVersion": 1,
+      "label": "자양동",
+      "title": "광진구 동명유래",
+      "textKind": "paraphrase",
+      "fingerprint": "d4c8e80c4dbaac3c44a5415c775453307bdd820c6662ffecbfd7d9f451b419d3",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "75e7f04a-1984-461e-a0fc-93aa4dc89f23",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:44.584Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200271",
+        "sourceLocator": "동명유래 > 자양동",
+        "observedAt": "2026-10-22T10:10:05.770654+00:00",
+        "sourceHash": "5e7a2ead1770358e6a69a09c9e5de501a9c8fd37db66d9bb313abf70ab8bae34",
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "광진구 자양동 독립 문단이며 잠실대교 북쪽 한강변의 지역 맥락만 대조했다. 옛 마장 범위를 현재 자양동 전체 경계·개별 부지로 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "자양동 문단의 암말 사육·자마장리에서 자양동으로의 전음 설명이 선택 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에는 구체적인 발생 연대가 없다. 옛 사육장 명칭을 현재 자양동 성립 연도로 바꾸지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "용마·암말 사육의 배경 설화와 자마장 이름 설명은 제공기관의 지명 해설로 한정한다. 사육 실적·국가 명령·전음 과정을 독립 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "자양동 문단의 암말 사육·자마장리에서 자양동으로의 전음 설명이 선택 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "같은 광진구 페이지의 빈 이용조건 문구는 구체적 허락이 아니다. 기존 unknown·보관 0·재사용 0을 유지하며 원문·사진의 포괄 자유이용으로 해석하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "광진구 자양동 독립 문단이며 잠실대교 북쪽 한강변의 지역 맥락만 대조했다. 옛 마장 범위를 현재 자양동 전체 경계·개별 부지로 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "80d9bd2f-aa80-4341-89a4-08234af5c67c",
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "versionId": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+      "sourceVersion": 1,
+      "label": "오금동",
+      "title": "송파구 동명유래",
+      "textKind": "paraphrase",
+      "fingerprint": "394ae6b7bcee41b085c3b20d09ba2fefd9b9de08645601ed4960b46174852bab",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "283074d5-057e-4166-afa1-2451a0808171",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-22T10:21:47.118Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.songpa.go.kr/www/contents.do?key=2367",
+        "sourceLocator": "동명 유래 > 오금동",
+        "observedAt": "2026-10-22T10:13:04.059271+00:00",
+        "sourceHash": "d10d876a20d624fb9d397e69bdc2e4eefe62b26dfae58d2c543e555089ac87e3",
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "송파구 오금동 독립 문단만 대조한다. 백토고개·현재 교차로·공원의 지번이나 실제 피란길을 독립 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "오동나무·가야금 제작과 인조 피란길의 오금 통증에 연결하는 두 동명 전승이 선택 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 선택 항목 명칭·내용과 기존 지역 표기를 대조했다. 동명 타지역으로 확대하지 않는다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "병자호란 배경은 전승의 맥락이며 특정 피란 경로·방문일로 확정하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문의 두 설을 그대로 병기한 요약이다. 인조의 발언·체류·정확한 장소를 사실로 승격하거나 하나를 택하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "오동나무·가야금 제작과 인조 피란길의 오금 통증에 연결하는 두 동명 전승이 선택 요약과 일치한다. 선택 본문 밖 모든 원문 주장을 독립 확증한 결과는 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "개별 페이지에 공공누리 표기 지정안됨이 나타난다. 일반 출처표시 아이콘을 개별 이용허락으로 확대하지 않고 기존 unknown·보관 0·재사용 0을 유지한다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "송파구 오금동 독립 문단만 대조한다. 백토고개·현재 교차로·공원의 지번이나 실제 피란길을 독립 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "81df0b30-efc8-47b0-88a9-fd3740915ba0",
+      "sourceId": "8738cb1b-4c76-41ce-b874-c52a4c9bf180",
+      "versionId": "bd3c0cdd-899b-4a9e-87b4-90ce37240510",
+      "sourceVersion": 1,
+      "label": "낙원동",
+      "title": "종로문화플랫폼 동명유래 · 낙원동",
+      "textKind": "paraphrase",
+      "fingerprint": "d1993d9d971a85a6daa088a01924024ecb9762e0e1b5eff8d84e8a006949c53d",
+      "previousStatus": "pending",
+      "previousRevision": 0,
+      "reviewId": "c3756987-2149-4354-9993-21902d6d3acf",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-22T10:21:50.038Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "original_access_unavailable",
+      "evidence": {
+        "sourceUrl": "https://culture.jongno.go.kr/media/ko/bbs/44/detail.do?pstSn=189",
+        "sourceLocator": "상세정보 > (1) 동 유래 및 변천 / (2) 동네 지명 유래 / 등록 원문 접근 실패",
+        "observedAt": "2026-10-22T10:10:09.582404+00:00",
+        "sourceHash": null,
+        "classification": "unconfirmed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "대상은 기존 지역 명칭 연결의 동네 맥락이다. 원문 미열람으로 경계·필지·내용의 일치 여부를 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결을 유지한다. 원문 대조는 일차 사료에 의한 독립 확증이나 개별 건물·부지 동일성 확정이 아니다.",
+        "summary": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다.",
+        "checks": {
+          "names": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "tradition": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "rights": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          },
+          "spatial": {
+            "result": "unresolved",
+            "note": "등록 원문의 직접 공개 GET 두 차례가 HTTP 503이고 웹 열람도 502 또는 접근 불가였다. 원문을 실제 대조하지 못해 보류한다. 이전 수집문이나 기존 이용조건 기록만으로 새 대조 완료로 처리하지 않는다."
+          }
+        }
+      }
+    }
+  ],
+  "originalProvenance": [
+    {
+      "index": 0,
+      "passageId": "73f243b3-79cf-4606-9758-41e938fdb0c1",
+      "sourceId": "49bfa954-ee68-4046-bb46-23b1bd573aca",
+      "title": "영등포구 동 명칭 및 지명 유래",
+      "label": "문래동4가",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:43.666172+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "584c859553031da0655073f2fa3006ac338b98bce7b9a83fcb7c83b57950760a",
+      "observedAt": "2026-10-22T10:13:00.444274+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 1,
+      "passageId": "74947da5-43b5-4de7-ba2c-3810c8422cc9",
+      "sourceId": "ddfe760f-2268-4658-babe-b03164983086",
+      "title": "강서구 동이름 유래",
+      "label": "과해동",
+      "accessMode": "original_access_unavailable",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:43.667327+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "at": "2026-10-22T10:09:46.840194+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "webReference": "turn0view0",
+      "sourceHash": null,
+      "observedAt": "2026-10-22T10:09:46.840194+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 2,
+      "passageId": "74b1cdd7-2f20-4db1-b7bd-268cef1f2559",
+      "sourceId": "e5bb6546-d063-40b6-ad75-5f46c8b91a67",
+      "title": "서울 지명사전 · 영등포구 영등포동1가",
+      "label": "영등포동1가",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:43.667809+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "abbdbdb9a5a9c88af04314755b5442c14fd2cf3e05b6b56840ec8968d92362a4",
+      "observedAt": "2026-10-22T10:09:43.667809+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 3,
+      "passageId": "7500b09f-6c0c-4f76-a10f-08bf93ae575a",
+      "sourceId": "df5306a8-7180-476b-bee3-faa221e3b1b3",
+      "title": "양천구 변천사 · 법정동 이름의 유래",
+      "label": "목동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:43.668426+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "e5c3362badba3e055870e8a9f44384dc26ad6d8aa872120b44bf16c55afa28be",
+      "observedAt": "2026-10-22T10:13:00.445122+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 4,
+      "passageId": "7621a78d-dfc8-446d-8aeb-82ccbdb86332",
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "title": "송파구 동명유래",
+      "label": "삼전동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:47.471743+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "d10d876a20d624fb9d397e69bdc2e4eefe62b26dfae58d2c543e555089ac87e3",
+      "observedAt": "2026-10-22T10:13:04.059271+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 5,
+      "passageId": "7676a669-4fe7-4a13-a919-d2813accc40f",
+      "sourceId": "acdc7152-e371-4de2-b075-56d05f1f60fd",
+      "title": "서초구 지명유래 · 우면동",
+      "label": "우면동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:47.881567+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "cf1ddfdc6060e8369a3918374e0d899664aca1bc6ed9090fdd1631c4ef4116e0",
+      "observedAt": "2026-10-22T10:13:00.447149+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 6,
+      "passageId": "76804a9d-0f3f-4cb1-b609-ff3104ba8b04",
+      "sourceId": "1b8b0cfe-e0b6-4eef-99cf-b2490a11e8e9",
+      "title": "서울지명사전 · 옥천동(玉川洞)",
+      "label": "옥천동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:48.073786+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "7bba7ea3e636aa9557f865dbfb16aac3a8f217aa55eafecf0b2d8dd46cbd35bc",
+      "observedAt": "2026-10-22T10:09:48.073786+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 7,
+      "passageId": "7698d6fd-aa08-46e1-97f3-5afa955f81ed",
+      "sourceId": "ddfe760f-2268-4658-babe-b03164983086",
+      "title": "강서구 동이름 유래",
+      "label": "내발산동",
+      "accessMode": "original_access_unavailable",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:43.667327+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "at": "2026-10-22T10:09:46.840194+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "webReference": "turn0view0",
+      "sourceHash": null,
+      "observedAt": "2026-10-22T10:09:46.840194+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 8,
+      "passageId": "784b1a96-5381-4830-813d-de25d7e3c8d7",
+      "sourceId": "694fd76e-49d8-40f1-aeb6-80a09169c0b5",
+      "title": "서울역사편찬원 서울지명사전 · 한남동",
+      "label": "한남동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:49.443024+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "7edc0ada5827641b3b494843daf1f67840c4687eaaef152da6770723fdf04798",
+      "observedAt": "2026-10-22T10:09:49.443024+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 9,
+      "passageId": "799be5df-9ef1-41a2-8f0a-db4303ab2c6a",
+      "sourceId": "fc120635-cd5e-48fa-86af-26333a3d524d",
+      "title": "서울지명사전 · 삼청동",
+      "label": "삼청동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:50.552651+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "8c7ba792045d5aaae49e033cc0ecb42dbfe619dbccf0c8c99e721ee138cfad85",
+      "observedAt": "2026-10-22T10:09:50.552651+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 10,
+      "passageId": "79a9c213-8f32-40ee-848f-9aea9775896c",
+      "sourceId": "160741be-a9b0-48d3-8315-7624ddbc3dff",
+      "title": "서울 지명사전 · 영등포구 영등포동6가",
+      "label": "영등포동6가",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:51.551566+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "ac32c39b3f4e4ed29ce04229d7130e05941df5e17e18c6ebd03ea1e45022d4ea",
+      "observedAt": "2026-10-22T10:09:51.551566+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 11,
+      "passageId": "7a54ceaf-da88-4955-80fe-4617c36d45e8",
+      "sourceId": "4b33f00e-ba0e-440a-af75-04dc063fd6b6",
+      "title": "'미고개', '여우고개'라 불리던 동방고개",
+      "label": "'미고개', '여우고개'라 불리던 동방고개",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:52.372500+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "a6cd997a3faeabbd04e864ff7ee81990e7249696182b025fbd09d47844dd678e",
+      "observedAt": "2026-10-22T10:09:52.372500+00:00",
+      "transcriptionEquality": true,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 12,
+      "passageId": "7a8c94de-710a-4cba-ab74-dfe56b8ed315",
+      "sourceId": "b3c247e5-2a69-4138-bc1a-64adecfac2b9",
+      "title": "서울지명사전 · 당주동",
+      "label": "당주동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:52.478078+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "dc02135d74c39534c488d1ccea9a9fffcfc05491bc73ec5bacda3b73cdc9a428",
+      "observedAt": "2026-10-22T10:09:52.478078+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 13,
+      "passageId": "7aee8f84-1241-4e92-b8fb-245abe8e0626",
+      "sourceId": "9c2e439f-f6b1-4224-930e-49e9b5253a1e",
+      "title": "종로문화플랫폼 동명유래 · 도렴동",
+      "label": "도렴동",
+      "accessMode": "original_access_unavailable",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:52.737248+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "at": "2026-10-22T10:09:56.979438+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "webReference": "turn2view1",
+      "sourceHash": null,
+      "observedAt": "2026-10-22T10:09:56.979438+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 14,
+      "passageId": "7c13f9c9-dbf1-430c-a485-3404d033f2bd",
+      "sourceId": "2a8bd692-8a25-44f9-8e9e-c0ce175e31e3",
+      "title": "구로구 동별역사 · 오류동",
+      "label": "오류동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:52.949529+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "0fe7ead877cdbb64c709be4e4586dfb0056019303a6787feb75cd263cca32725",
+      "observedAt": "2026-10-22T10:13:00.448996+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 15,
+      "passageId": "7c2e94bc-77b3-4d73-8f8d-d4fcbf9b8f04",
+      "sourceId": "954c8ea2-991d-48d5-8aae-c4731170a372",
+      "title": "덕수제과 판매 빵의 레시피",
+      "label": "덕수제과 판매 빵의 레시피",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:56.531607+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "250dc184d14751b55b8c9e820c458131ab90489e3454d75cbaaef3f5969c79b6",
+      "observedAt": "2026-10-22T10:09:56.531607+00:00",
+      "transcriptionEquality": true,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 16,
+      "passageId": "7c9a9c54-5f28-4adf-84c6-07832b90acae",
+      "sourceId": "d6f9c6b9-e9f6-4b39-a98b-4c0b3a3b9817",
+      "title": "서울지명사전 · 을지로7가",
+      "label": "을지로7가",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:57.954468+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "4ad1ac0835fa5c72b70c566f4cfa47400d970697513d2d94f13b6e8e2d26fedd",
+      "observedAt": "2026-10-22T10:09:57.954468+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 17,
+      "passageId": "7d303bc4-8331-4e50-a6b2-3a98436e920f",
+      "sourceId": "e245932b-f746-4d90-9ca5-b95805e0fa93",
+      "title": "서울지명사전 · 광희동2가",
+      "label": "광희동2가",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:59.077139+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "fd5bb9a3c7124ad1e253a49e9a59219584eb3dafe82e54e1b1f2b01fff5c3ebe",
+      "observedAt": "2026-10-22T10:09:59.077139+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 18,
+      "passageId": "7d336437-ba3c-44c6-947d-069ded28adc9",
+      "sourceId": "11ad709e-e01f-4418-807c-2e31c483014d",
+      "title": "성동구 문화관광 지명유래",
+      "label": "행당동",
+      "accessMode": "original_access_unavailable",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:59.760470+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "at": "2026-10-22T10:10:02.455107+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "webReference": "turn0view2",
+      "sourceHash": null,
+      "observedAt": "2026-10-22T10:10:02.455107+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 19,
+      "passageId": "7d5a1085-ecc6-431c-83bd-f81ac8a26918",
+      "sourceId": "c3d42468-ffff-4302-8c51-441be87dcd21",
+      "title": "서울지명사전 · 명륜1가",
+      "label": "명륜1가",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:00.121506+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "c936a4a982180a5d555fade1a989732e19d8507003c1c8534e381afe096da6e2",
+      "observedAt": "2026-10-22T10:10:00.121506+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 20,
+      "passageId": "7dfe16d5-e83b-4a21-94fa-e85bfb58efca",
+      "sourceId": "8e4aeac4-cabb-4546-82af-090b55485162",
+      "title": "서울지명사전 · 예관동",
+      "label": "예관동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:00.781799+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "fd20fd74c3bcbd3dedb46699853a4c15ae7be34d16e4a49bf6c4b52603bc114f",
+      "observedAt": "2026-10-22T10:10:00.781799+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 21,
+      "passageId": "7dfeaa57-371b-414c-8465-b0c261208e9a",
+      "sourceId": "3916bc4a-8f99-43ee-8cd8-53617baaa697",
+      "title": "강동문화포털 지명유래",
+      "label": "둔촌동",
+      "accessMode": "web_original",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:00.976640+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "at": "2026-10-22T10:10:04.149597+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "webReference": "turn2view0",
+      "sourceHash": null,
+      "observedAt": "2026-10-22T10:19:40.366556+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 22,
+      "passageId": "7e7be578-5fcd-4d1b-9258-e48b0864a577",
+      "sourceId": "c4ace089-f2e7-48b1-9f9a-5bbb62778aa5",
+      "title": "1975년 당시의 돌산의 모습",
+      "label": "1975년 당시의 돌산의 모습",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:02.286440+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "5465ed4e1ca8dc08a22c4527bc81f5fba2006a80f13c2429adfa8c1a696fcd02",
+      "observedAt": "2026-10-22T10:10:02.286440+00:00",
+      "transcriptionEquality": true,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 23,
+      "passageId": "7f12632e-75c6-4c29-8fe9-8c0e9de909d3",
+      "sourceId": "d1146a96-3d6a-4d9a-8dec-eee5822c820d",
+      "title": "1926년 6월 4일에 행해진 순명효황후의 천봉(이장) 경로",
+      "label": "1926년 6월 4일에 행해진 순명효황후의 천봉(이장) 경로",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:02.287156+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "0e2e46e970740cd985c5934753ebc1f613439dbc1031168e3352bbb2e5957657",
+      "observedAt": "2026-10-22T10:10:02.287156+00:00",
+      "transcriptionEquality": true,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 24,
+      "passageId": "7fb42575-d295-45ac-b890-2f1a1caf17a0",
+      "sourceId": "e49501e4-2106-44d8-a8aa-d20412d302a5",
+      "title": "서울 지명사전 · 강남구 청담동",
+      "label": "청담동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:04.724459+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "9bc7fdad5fd0426fd37686461db252e1820bd0fdad890e19c5058f5f3eea3bbe",
+      "observedAt": "2026-10-22T10:10:04.724459+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 25,
+      "passageId": "80181684-af9d-451c-8fd2-0b42e3038625",
+      "sourceId": "590916c3-6fbe-447c-b0fd-0f82cd36d98d",
+      "title": "2025 제37회 중랑통계연보 · 동명 유래",
+      "label": "중화동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:05.646945+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "dfab269833ed18d17ca6d8de310fba3840a48978b5400adf925165107d5b2442",
+      "observedAt": "2026-10-22T10:13:04.183581+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": 318,
+      "pdfVisualQA": true,
+      "pdfRightsScan": []
+    },
+    {
+      "index": 26,
+      "passageId": "803ab06e-3f30-427e-88cb-e9f05186a04f",
+      "sourceId": "53f81f18-f030-4d51-90de-29e8019f0879",
+      "title": "광진구 동명유래",
+      "label": "중곡동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:05.770654+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "5e7a2ead1770358e6a69a09c9e5de501a9c8fd37db66d9bb313abf70ab8bae34",
+      "observedAt": "2026-10-22T10:10:05.770654+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 27,
+      "passageId": "807016eb-e66a-4a24-a714-63bc317ada16",
+      "sourceId": "53f81f18-f030-4d51-90de-29e8019f0879",
+      "title": "광진구 동명유래",
+      "label": "자양동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:05.770654+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "5e7a2ead1770358e6a69a09c9e5de501a9c8fd37db66d9bb313abf70ab8bae34",
+      "observedAt": "2026-10-22T10:10:05.770654+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 28,
+      "passageId": "80d9bd2f-aa80-4341-89a4-08234af5c67c",
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "title": "송파구 동명유래",
+      "label": "오금동",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:47.471743+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "d10d876a20d624fb9d397e69bdc2e4eefe62b26dfae58d2c543e555089ac87e3",
+      "observedAt": "2026-10-22T10:13:04.059271+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 29,
+      "passageId": "81df0b30-efc8-47b0-88a9-fd3740915ba0",
+      "sourceId": "8738cb1b-4c76-41ce-b874-c52a4c9bf180",
+      "title": "종로문화플랫폼 동명유래 · 낙원동",
+      "label": "낙원동",
+      "accessMode": "original_access_unavailable",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:06.785024+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "at": "2026-10-22T10:10:09.582404+00:00",
+          "error": "HTTPError",
+          "message": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "webReference": "turn0view1",
+      "sourceHash": null,
+      "observedAt": "2026-10-22T10:10:09.582404+00:00",
+      "transcriptionEquality": null,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    }
+  ],
+  "auditRecords": [
+    {
+      "sourceId": "49bfa954-ee68-4046-bb46-23b1bd573aca",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"73f243b3-79cf-4606-9758-41e938fdb0c1\",\"reviewId\":\"3495cad6-d9fd-4186-b020-6267d9ae62a7\",\"revision\":1,\"fingerprint\":\"833a3783be34423dcef737ae6f0037f08f4434fbb5102661f01c56b73c06f12e\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:29.191Z",
+      "details": {
+        "passageId": "73f243b3-79cf-4606-9758-41e938fdb0c1",
+        "reviewId": "3495cad6-d9fd-4186-b020-6267d9ae62a7",
+        "revision": 1,
+        "fingerprint": "833a3783be34423dcef737ae6f0037f08f4434fbb5102661f01c56b73c06f12e",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "ddfe760f-2268-4658-babe-b03164983086",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"74947da5-43b5-4de7-ba2c-3810c8422cc9\",\"reviewId\":\"55a1e7d0-bc84-4629-92e5-10ad6e8d08b3\",\"revision\":1,\"fingerprint\":\"f22ab24e0139a13010b8242765c941eba1b10f3003ee44be489a0ce2d73f7edd\",\"beforeStatus\":\"pending\",\"status\":\"needs_review\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:32.161Z",
+      "details": {
+        "passageId": "74947da5-43b5-4de7-ba2c-3810c8422cc9",
+        "reviewId": "55a1e7d0-bc84-4629-92e5-10ad6e8d08b3",
+        "revision": 1,
+        "fingerprint": "f22ab24e0139a13010b8242765c941eba1b10f3003ee44be489a0ce2d73f7edd",
+        "beforeStatus": "pending",
+        "status": "needs_review",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "e5bb6546-d063-40b6-ad75-5f46c8b91a67",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"74b1cdd7-2f20-4db1-b7bd-268cef1f2559\",\"reviewId\":\"77ca5e1a-76b0-4b41-97a3-54fa8d9fc371\",\"revision\":1,\"fingerprint\":\"0484879e3be55bc98fdf483ea8529de7368b6486daeedd18902bf34597814859\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:34.683Z",
+      "details": {
+        "passageId": "74b1cdd7-2f20-4db1-b7bd-268cef1f2559",
+        "reviewId": "77ca5e1a-76b0-4b41-97a3-54fa8d9fc371",
+        "revision": 1,
+        "fingerprint": "0484879e3be55bc98fdf483ea8529de7368b6486daeedd18902bf34597814859",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "df5306a8-7180-476b-bee3-faa221e3b1b3",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7500b09f-6c0c-4f76-a10f-08bf93ae575a\",\"reviewId\":\"23fee2ea-cbb4-4f1e-a2fe-47c451400421\",\"revision\":1,\"fingerprint\":\"0332e6831140702e59bfe57620220c01df47b673324188fb8cfbb0a38b352f53\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:37.320Z",
+      "details": {
+        "passageId": "7500b09f-6c0c-4f76-a10f-08bf93ae575a",
+        "reviewId": "23fee2ea-cbb4-4f1e-a2fe-47c451400421",
+        "revision": 1,
+        "fingerprint": "0332e6831140702e59bfe57620220c01df47b673324188fb8cfbb0a38b352f53",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7621a78d-dfc8-446d-8aeb-82ccbdb86332\",\"reviewId\":\"60d16db7-c80e-45c6-84b8-df9f5430727d\",\"revision\":1,\"fingerprint\":\"6c96cb8721b2071bac5cc978315cc690a6267d4d19f29fefb1c6a9adf08048b3\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:40.069Z",
+      "details": {
+        "passageId": "7621a78d-dfc8-446d-8aeb-82ccbdb86332",
+        "reviewId": "60d16db7-c80e-45c6-84b8-df9f5430727d",
+        "revision": 1,
+        "fingerprint": "6c96cb8721b2071bac5cc978315cc690a6267d4d19f29fefb1c6a9adf08048b3",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "acdc7152-e371-4de2-b075-56d05f1f60fd",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7676a669-4fe7-4a13-a919-d2813accc40f\",\"reviewId\":\"fd334a37-4667-4ea1-b2fb-793b50e263b5\",\"revision\":1,\"fingerprint\":\"7914358672cd1aa1213ae1cc12524a7a66bec25cfb205f6e1c36a356e1491a84\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:42.489Z",
+      "details": {
+        "passageId": "7676a669-4fe7-4a13-a919-d2813accc40f",
+        "reviewId": "fd334a37-4667-4ea1-b2fb-793b50e263b5",
+        "revision": 1,
+        "fingerprint": "7914358672cd1aa1213ae1cc12524a7a66bec25cfb205f6e1c36a356e1491a84",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "1b8b0cfe-e0b6-4eef-99cf-b2490a11e8e9",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"76804a9d-0f3f-4cb1-b609-ff3104ba8b04\",\"reviewId\":\"25143010-1c2b-426d-af5e-5ca8fac8e177\",\"revision\":1,\"fingerprint\":\"9212e4d47de60df52d4da69b5c9bc088941e040331848fe675ed013a1ca00bcd\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:45.017Z",
+      "details": {
+        "passageId": "76804a9d-0f3f-4cb1-b609-ff3104ba8b04",
+        "reviewId": "25143010-1c2b-426d-af5e-5ca8fac8e177",
+        "revision": 1,
+        "fingerprint": "9212e4d47de60df52d4da69b5c9bc088941e040331848fe675ed013a1ca00bcd",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "ddfe760f-2268-4658-babe-b03164983086",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7698d6fd-aa08-46e1-97f3-5afa955f81ed\",\"reviewId\":\"b6aa51d6-d11d-444d-9b85-27028d5326a1\",\"revision\":1,\"fingerprint\":\"12074a6a37e23f1dc4e6dd5970361f32eadf595b0828968d1fdeeddbf2ec9b4b\",\"beforeStatus\":\"pending\",\"status\":\"needs_review\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:48.354Z",
+      "details": {
+        "passageId": "7698d6fd-aa08-46e1-97f3-5afa955f81ed",
+        "reviewId": "b6aa51d6-d11d-444d-9b85-27028d5326a1",
+        "revision": 1,
+        "fingerprint": "12074a6a37e23f1dc4e6dd5970361f32eadf595b0828968d1fdeeddbf2ec9b4b",
+        "beforeStatus": "pending",
+        "status": "needs_review",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "694fd76e-49d8-40f1-aeb6-80a09169c0b5",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"784b1a96-5381-4830-813d-de25d7e3c8d7\",\"reviewId\":\"58daa71a-8de6-431d-a7f9-dbeb5b1db063\",\"revision\":1,\"fingerprint\":\"32fac3fc9e7106060a2d6a6f076ea3985c6f07222a8f3cd6e7ff7675624b70a7\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:51.033Z",
+      "details": {
+        "passageId": "784b1a96-5381-4830-813d-de25d7e3c8d7",
+        "reviewId": "58daa71a-8de6-431d-a7f9-dbeb5b1db063",
+        "revision": 1,
+        "fingerprint": "32fac3fc9e7106060a2d6a6f076ea3985c6f07222a8f3cd6e7ff7675624b70a7",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "fc120635-cd5e-48fa-86af-26333a3d524d",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"799be5df-9ef1-41a2-8f0a-db4303ab2c6a\",\"reviewId\":\"7ad715b8-774c-4d8d-92f6-4234dcd4202c\",\"revision\":1,\"fingerprint\":\"aece00e1139adc6bfa07a70e45d3b0f61dac8d4450049627d4acda7e9b643116\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:53.756Z",
+      "details": {
+        "passageId": "799be5df-9ef1-41a2-8f0a-db4303ab2c6a",
+        "reviewId": "7ad715b8-774c-4d8d-92f6-4234dcd4202c",
+        "revision": 1,
+        "fingerprint": "aece00e1139adc6bfa07a70e45d3b0f61dac8d4450049627d4acda7e9b643116",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "160741be-a9b0-48d3-8315-7624ddbc3dff",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"79a9c213-8f32-40ee-848f-9aea9775896c\",\"reviewId\":\"e78b5b25-3320-49c1-99b5-cd5904a73d6d\",\"revision\":1,\"fingerprint\":\"60f3cb43f91f6235af0361fb4aa9c4a52a89ac7f0d5262a1214635e1fb3679ff\",\"beforeStatus\":\"pending\",\"status\":\"needs_review\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:56.539Z",
+      "details": {
+        "passageId": "79a9c213-8f32-40ee-848f-9aea9775896c",
+        "reviewId": "e78b5b25-3320-49c1-99b5-cd5904a73d6d",
+        "revision": 1,
+        "fingerprint": "60f3cb43f91f6235af0361fb4aa9c4a52a89ac7f0d5262a1214635e1fb3679ff",
+        "beforeStatus": "pending",
+        "status": "needs_review",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "4b33f00e-ba0e-440a-af75-04dc063fd6b6",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7a54ceaf-da88-4955-80fe-4617c36d45e8\",\"reviewId\":\"c2cebbb9-00ff-46ef-9a21-28ca655ee96d\",\"revision\":1,\"fingerprint\":\"d67415fc5db41467b8c6ef79510a5241ef1bdd46784da2469bad0b38a1010565\",\"beforeStatus\":\"source_captured\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:20:59.918Z",
+      "details": {
+        "passageId": "7a54ceaf-da88-4955-80fe-4617c36d45e8",
+        "reviewId": "c2cebbb9-00ff-46ef-9a21-28ca655ee96d",
+        "revision": 1,
+        "fingerprint": "d67415fc5db41467b8c6ef79510a5241ef1bdd46784da2469bad0b38a1010565",
+        "beforeStatus": "source_captured",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "b3c247e5-2a69-4138-bc1a-64adecfac2b9",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7a8c94de-710a-4cba-ab74-dfe56b8ed315\",\"reviewId\":\"b63dd050-d04f-4e1b-b4f6-5c5a41ea0ebf\",\"revision\":1,\"fingerprint\":\"4748da394dd7a4c2e24c010eaeb022982e137ecb65f758a7ddebe6afd1ecabe9\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:02.639Z",
+      "details": {
+        "passageId": "7a8c94de-710a-4cba-ab74-dfe56b8ed315",
+        "reviewId": "b63dd050-d04f-4e1b-b4f6-5c5a41ea0ebf",
+        "revision": 1,
+        "fingerprint": "4748da394dd7a4c2e24c010eaeb022982e137ecb65f758a7ddebe6afd1ecabe9",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "9c2e439f-f6b1-4224-930e-49e9b5253a1e",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7aee8f84-1241-4e92-b8fb-245abe8e0626\",\"reviewId\":\"5acc5d1b-3d4e-469e-9481-fe036641d380\",\"revision\":1,\"fingerprint\":\"3f03c6718061dc4d8c3f9d8656b9f0e54c21bc9a6d370b416326fecc2445473f\",\"beforeStatus\":\"pending\",\"status\":\"needs_review\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:05.603Z",
+      "details": {
+        "passageId": "7aee8f84-1241-4e92-b8fb-245abe8e0626",
+        "reviewId": "5acc5d1b-3d4e-469e-9481-fe036641d380",
+        "revision": 1,
+        "fingerprint": "3f03c6718061dc4d8c3f9d8656b9f0e54c21bc9a6d370b416326fecc2445473f",
+        "beforeStatus": "pending",
+        "status": "needs_review",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "2a8bd692-8a25-44f9-8e9e-c0ce175e31e3",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7c13f9c9-dbf1-430c-a485-3404d033f2bd\",\"reviewId\":\"36107eb1-b2b4-43e6-8051-0682cdafd746\",\"revision\":1,\"fingerprint\":\"84bb89f838dbf796f9db80d7f467d7ec2c6827a25e928276d6020c127eae65b6\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:08.102Z",
+      "details": {
+        "passageId": "7c13f9c9-dbf1-430c-a485-3404d033f2bd",
+        "reviewId": "36107eb1-b2b4-43e6-8051-0682cdafd746",
+        "revision": 1,
+        "fingerprint": "84bb89f838dbf796f9db80d7f467d7ec2c6827a25e928276d6020c127eae65b6",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "954c8ea2-991d-48d5-8aae-c4731170a372",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7c2e94bc-77b3-4d73-8f8d-d4fcbf9b8f04\",\"reviewId\":\"0dae74c3-9677-45e2-a9dc-5032cfcb537c\",\"revision\":1,\"fingerprint\":\"a8bc98d365f4cae4ed84a91ce65ba87e5c047c1a97833f53c703b217ba18f9e2\",\"beforeStatus\":\"source_captured\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:10.864Z",
+      "details": {
+        "passageId": "7c2e94bc-77b3-4d73-8f8d-d4fcbf9b8f04",
+        "reviewId": "0dae74c3-9677-45e2-a9dc-5032cfcb537c",
+        "revision": 1,
+        "fingerprint": "a8bc98d365f4cae4ed84a91ce65ba87e5c047c1a97833f53c703b217ba18f9e2",
+        "beforeStatus": "source_captured",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "d6f9c6b9-e9f6-4b39-a98b-4c0b3a3b9817",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7c9a9c54-5f28-4adf-84c6-07832b90acae\",\"reviewId\":\"e395a3ea-3058-4f4a-8aae-9d66552fbda6\",\"revision\":1,\"fingerprint\":\"9081057746eba025f46add731c69e753e31c0d30a465038c709082ced4071cd6\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:13.497Z",
+      "details": {
+        "passageId": "7c9a9c54-5f28-4adf-84c6-07832b90acae",
+        "reviewId": "e395a3ea-3058-4f4a-8aae-9d66552fbda6",
+        "revision": 1,
+        "fingerprint": "9081057746eba025f46add731c69e753e31c0d30a465038c709082ced4071cd6",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "e245932b-f746-4d90-9ca5-b95805e0fa93",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7d303bc4-8331-4e50-a6b2-3a98436e920f\",\"reviewId\":\"387c8d14-f740-4546-8349-35cc02c2beb5\",\"revision\":1,\"fingerprint\":\"d5164376271b1da2a116c755a6383c77aac2e6b567fd5c73a2a510e77cfba98b\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:15.998Z",
+      "details": {
+        "passageId": "7d303bc4-8331-4e50-a6b2-3a98436e920f",
+        "reviewId": "387c8d14-f740-4546-8349-35cc02c2beb5",
+        "revision": 1,
+        "fingerprint": "d5164376271b1da2a116c755a6383c77aac2e6b567fd5c73a2a510e77cfba98b",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "11ad709e-e01f-4418-807c-2e31c483014d",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7d336437-ba3c-44c6-947d-069ded28adc9\",\"reviewId\":\"07feed00-61c7-433b-8a88-bff3d481d3fc\",\"revision\":1,\"fingerprint\":\"e4b6141e7e1a107a2eda3bc7c62dad9f314e0d94e9c6f0f84f41d0b49611e58f\",\"beforeStatus\":\"pending\",\"status\":\"needs_review\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:18.280Z",
+      "details": {
+        "passageId": "7d336437-ba3c-44c6-947d-069ded28adc9",
+        "reviewId": "07feed00-61c7-433b-8a88-bff3d481d3fc",
+        "revision": 1,
+        "fingerprint": "e4b6141e7e1a107a2eda3bc7c62dad9f314e0d94e9c6f0f84f41d0b49611e58f",
+        "beforeStatus": "pending",
+        "status": "needs_review",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "c3d42468-ffff-4302-8c51-441be87dcd21",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7d5a1085-ecc6-431c-83bd-f81ac8a26918\",\"reviewId\":\"5dcf66ea-b107-405a-b9bc-429528fa601d\",\"revision\":1,\"fingerprint\":\"df8a8ef892858fa23cb0105f8ce5bdf05e3ef314e45b692fc62ac021662b5d15\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:21.386Z",
+      "details": {
+        "passageId": "7d5a1085-ecc6-431c-83bd-f81ac8a26918",
+        "reviewId": "5dcf66ea-b107-405a-b9bc-429528fa601d",
+        "revision": 1,
+        "fingerprint": "df8a8ef892858fa23cb0105f8ce5bdf05e3ef314e45b692fc62ac021662b5d15",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "8e4aeac4-cabb-4546-82af-090b55485162",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7dfe16d5-e83b-4a21-94fa-e85bfb58efca\",\"reviewId\":\"4ce3fbd8-17be-4a3f-961f-e9e676cb9647\",\"revision\":1,\"fingerprint\":\"db02fa60d55aa3abb2ebc6ddac33dda710e0a0883a237f70b2087cbea32eaa84\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:23.935Z",
+      "details": {
+        "passageId": "7dfe16d5-e83b-4a21-94fa-e85bfb58efca",
+        "reviewId": "4ce3fbd8-17be-4a3f-961f-e9e676cb9647",
+        "revision": 1,
+        "fingerprint": "db02fa60d55aa3abb2ebc6ddac33dda710e0a0883a237f70b2087cbea32eaa84",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "3916bc4a-8f99-43ee-8cd8-53617baaa697",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7dfeaa57-371b-414c-8465-b0c261208e9a\",\"reviewId\":\"bd237fde-ae98-4852-82fe-1e850d590fcf\",\"revision\":1,\"fingerprint\":\"92e300f94731b9664b982a7dc2c95d29ece06a12347f0e55a458eceb81f478ac\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:26.427Z",
+      "details": {
+        "passageId": "7dfeaa57-371b-414c-8465-b0c261208e9a",
+        "reviewId": "bd237fde-ae98-4852-82fe-1e850d590fcf",
+        "revision": 1,
+        "fingerprint": "92e300f94731b9664b982a7dc2c95d29ece06a12347f0e55a458eceb81f478ac",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "c4ace089-f2e7-48b1-9f9a-5bbb62778aa5",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7e7be578-5fcd-4d1b-9258-e48b0864a577\",\"reviewId\":\"056e3abc-117b-44de-97e7-8d6d155e6deb\",\"revision\":1,\"fingerprint\":\"e006ff6ff12404dbced45f32a28fc491ab97f7b2f3dfc969b1eff5a4b12abcf0\",\"beforeStatus\":\"source_captured\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:29.958Z",
+      "details": {
+        "passageId": "7e7be578-5fcd-4d1b-9258-e48b0864a577",
+        "reviewId": "056e3abc-117b-44de-97e7-8d6d155e6deb",
+        "revision": 1,
+        "fingerprint": "e006ff6ff12404dbced45f32a28fc491ab97f7b2f3dfc969b1eff5a4b12abcf0",
+        "beforeStatus": "source_captured",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "d1146a96-3d6a-4d9a-8dec-eee5822c820d",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7f12632e-75c6-4c29-8fe9-8c0e9de909d3\",\"reviewId\":\"56f5e48c-f06d-4ce7-ac25-e8808238c766\",\"revision\":1,\"fingerprint\":\"00d475e0a6661c4bd3a9caefa2a2df5ecbb4cb8ebfe89850953eb34744f1545a\",\"beforeStatus\":\"source_captured\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:32.374Z",
+      "details": {
+        "passageId": "7f12632e-75c6-4c29-8fe9-8c0e9de909d3",
+        "reviewId": "56f5e48c-f06d-4ce7-ac25-e8808238c766",
+        "revision": 1,
+        "fingerprint": "00d475e0a6661c4bd3a9caefa2a2df5ecbb4cb8ebfe89850953eb34744f1545a",
+        "beforeStatus": "source_captured",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "e49501e4-2106-44d8-a8aa-d20412d302a5",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"7fb42575-d295-45ac-b890-2f1a1caf17a0\",\"reviewId\":\"c399f09d-3519-4893-8213-ab058b5e5385\",\"revision\":1,\"fingerprint\":\"a99da7e44ae85fd87486e8f38bd9fd4bbf565b23ab424b8037acdf30c54eeb65\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:35.156Z",
+      "details": {
+        "passageId": "7fb42575-d295-45ac-b890-2f1a1caf17a0",
+        "reviewId": "c399f09d-3519-4893-8213-ab058b5e5385",
+        "revision": 1,
+        "fingerprint": "a99da7e44ae85fd87486e8f38bd9fd4bbf565b23ab424b8037acdf30c54eeb65",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "590916c3-6fbe-447c-b0fd-0f82cd36d98d",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"80181684-af9d-451c-8fd2-0b42e3038625\",\"reviewId\":\"7f16af5c-5db4-424e-b0e4-7b53b2a0b00d\",\"revision\":1,\"fingerprint\":\"9cc9fdcd89f73d6292374d822a4db50da3a263d255021124e249f0750ff07b9f\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:38.045Z",
+      "details": {
+        "passageId": "80181684-af9d-451c-8fd2-0b42e3038625",
+        "reviewId": "7f16af5c-5db4-424e-b0e4-7b53b2a0b00d",
+        "revision": 1,
+        "fingerprint": "9cc9fdcd89f73d6292374d822a4db50da3a263d255021124e249f0750ff07b9f",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "53f81f18-f030-4d51-90de-29e8019f0879",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"803ab06e-3f30-427e-88cb-e9f05186a04f\",\"reviewId\":\"d68d5f35-0283-4af6-977e-fa6fffe2b9ed\",\"revision\":1,\"fingerprint\":\"1bcfb2d10121b5b7f4c38be02b5e4345f60c066fbe7743c0f896a28aedf0e608\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:41.227Z",
+      "details": {
+        "passageId": "803ab06e-3f30-427e-88cb-e9f05186a04f",
+        "reviewId": "d68d5f35-0283-4af6-977e-fa6fffe2b9ed",
+        "revision": 1,
+        "fingerprint": "1bcfb2d10121b5b7f4c38be02b5e4345f60c066fbe7743c0f896a28aedf0e608",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "53f81f18-f030-4d51-90de-29e8019f0879",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"807016eb-e66a-4a24-a714-63bc317ada16\",\"reviewId\":\"75e7f04a-1984-461e-a0fc-93aa4dc89f23\",\"revision\":1,\"fingerprint\":\"d4c8e80c4dbaac3c44a5415c775453307bdd820c6662ffecbfd7d9f451b419d3\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:44.584Z",
+      "details": {
+        "passageId": "807016eb-e66a-4a24-a714-63bc317ada16",
+        "reviewId": "75e7f04a-1984-461e-a0fc-93aa4dc89f23",
+        "revision": 1,
+        "fingerprint": "d4c8e80c4dbaac3c44a5415c775453307bdd820c6662ffecbfd7d9f451b419d3",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"80d9bd2f-aa80-4341-89a4-08234af5c67c\",\"reviewId\":\"283074d5-057e-4166-afa1-2451a0808171\",\"revision\":1,\"fingerprint\":\"394ae6b7bcee41b085c3b20d09ba2fefd9b9de08645601ed4960b46174852bab\",\"beforeStatus\":\"pending\",\"status\":\"content_checked\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:47.118Z",
+      "details": {
+        "passageId": "80d9bd2f-aa80-4341-89a4-08234af5c67c",
+        "reviewId": "283074d5-057e-4166-afa1-2451a0808171",
+        "revision": 1,
+        "fingerprint": "394ae6b7bcee41b085c3b20d09ba2fefd9b9de08645601ed4960b46174852bab",
+        "beforeStatus": "pending",
+        "status": "content_checked",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    },
+    {
+      "sourceId": "8738cb1b-4c76-41ce-b874-c52a4c9bf180",
+      "action": "passage_content_review",
+      "note": "{\"passageId\":\"81df0b30-efc8-47b0-88a9-fd3740915ba0\",\"reviewId\":\"c3756987-2149-4354-9993-21902d6d3acf\",\"revision\":1,\"fingerprint\":\"d1993d9d971a85a6daa088a01924024ecb9762e0e1b5eff8d84e8a006949c53d\",\"beforeStatus\":\"pending\",\"status\":\"needs_review\",\"scopeNote\":\"기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다.\"}",
+      "created_at": "2026-10-22T10:21:50.038Z",
+      "details": {
+        "passageId": "81df0b30-efc8-47b0-88a9-fd3740915ba0",
+        "reviewId": "c3756987-2149-4354-9993-21902d6d3acf",
+        "revision": 1,
+        "fingerprint": "d1993d9d971a85a6daa088a01924024ecb9762e0e1b5eff8d84e8a006949c53d",
+        "beforeStatus": "pending",
+        "status": "needs_review",
+        "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+      }
+    }
+  ],
+  "transcriptionComparisons": [
+    {
+      "index": 11,
+      "passageId": "7a54ceaf-da88-4955-80fe-4617c36d45e8",
+      "sourceId": "4b33f00e-ba0e-440a-af75-04dc063fd6b6",
+      "title": "'미고개', '여우고개'라 불리던 동방고개",
+      "label": "'미고개', '여우고개'라 불리던 동방고개",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:52.372500+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "a6cd997a3faeabbd04e864ff7ee81990e7249696182b025fbd09d47844dd678e",
+      "observedAt": "2026-10-22T10:09:52.372500+00:00",
+      "transcriptionEquality": true,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 15,
+      "passageId": "7c2e94bc-77b3-4d73-8f8d-d4fcbf9b8f04",
+      "sourceId": "954c8ea2-991d-48d5-8aae-c4731170a372",
+      "title": "덕수제과 판매 빵의 레시피",
+      "label": "덕수제과 판매 빵의 레시피",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:09:56.531607+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "250dc184d14751b55b8c9e820c458131ab90489e3454d75cbaaef3f5969c79b6",
+      "observedAt": "2026-10-22T10:09:56.531607+00:00",
+      "transcriptionEquality": true,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 22,
+      "passageId": "7e7be578-5fcd-4d1b-9258-e48b0864a577",
+      "sourceId": "c4ace089-f2e7-48b1-9f9a-5bbb62778aa5",
+      "title": "1975년 당시의 돌산의 모습",
+      "label": "1975년 당시의 돌산의 모습",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:02.286440+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "5465ed4e1ca8dc08a22c4527bc81f5fba2006a80f13c2429adfa8c1a696fcd02",
+      "observedAt": "2026-10-22T10:10:02.286440+00:00",
+      "transcriptionEquality": true,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    },
+    {
+      "index": 23,
+      "passageId": "7f12632e-75c6-4c29-8fe9-8c0e9de909d3",
+      "sourceId": "d1146a96-3d6a-4d9a-8dec-eee5822c820d",
+      "title": "1926년 6월 4일에 행해진 순명효황후의 천봉(이장) 경로",
+      "label": "1926년 6월 4일에 행해진 순명효황후의 천봉(이장) 경로",
+      "accessMode": "public_get",
+      "attempts": [
+        {
+          "at": "2026-10-22T10:10:02.287156+00:00",
+          "status": 200
+        }
+      ],
+      "webReference": null,
+      "sourceHash": "0e2e46e970740cd985c5934753ebc1f613439dbc1031168e3352bbb2e5957657",
+      "observedAt": "2026-10-22T10:10:02.287156+00:00",
+      "transcriptionEquality": true,
+      "pdfPage": null,
+      "pdfVisualQA": false,
+      "pdfRightsScan": null
+    }
+  ],
+  "nextPassageId": "827ccacf-f6d8-4708-b299-2ec6da533709",
+  "nextTitle": "성북구 동명유래",
+  "nextLocator": "동명 유래 > 종암동",
+  "nextCursor": "/api/archive/task?view=passages&unreviewed=true&limit=30&after=",
+  "allPlanCriteriaComplete": false,
+  "verificationLimitations": [
+    "원문 대조 완료는 선택 본문의 명칭·연대·한정 표현·권리·공간 맥락 대조이며 일차 사료에 의한 독립 사실 확증은 아니다.",
+    "박물관 네 항목은 제공기관 내용 항목의 전사 대조이며 원사진·원지도 이미지·원전 책의 독립 시각 판독은 하지 않았다. 중화동은 PDF 318쪽을 실제 렌더링하여 대조했다.",
+    "기존 빈 공간 연결·지역 분류·권리·보관/재사용 값은 모두 유지했다. 과거 행정동·현행 법정동·개별 부지의 동일성을 새 확정하지 않는다.",
+    "접근 실패는 이 실행의 직접 GET 및 웹 열람에서 관측한 오류이며 원문의 폐지·삭제나 제공기관의 영구 장애로 진단하지 않는다.",
+    "자료 상세 감사 목록은 최근 10개로 제한된다. 현재 신규 감사 항목을 확인하며 과거 전체 검토 이력 보존은 별도 native D1 행 ID·revision 대조로 확인한다."
+  ],
+  "nativeDatabaseVerification": {
+    "binding": "DB",
+    "table": "archive_passage_reviews",
+    "beforeRows": 285,
+    "afterRows": 315,
+    "oldRowsPreserved": 285,
+    "newRows": [
+      {
+        "id": "056e3abc-117b-44de-97e7-8d6d155e6deb",
+        "passage_id": "7e7be578-5fcd-4d1b-9258-e48b0864a577",
+        "version_id": "bda61a36-2469-493f-84cd-73a382fc7ba4",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e006ff6ff12404dbced45f32a28fc491ab97f7b2f3dfc969b1eff5a4b12abcf0",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:29.958Z"
+      },
+      {
+        "id": "07feed00-61c7-433b-8a88-bff3d481d3fc",
+        "passage_id": "7d336437-ba3c-44c6-947d-069ded28adc9",
+        "version_id": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "e4b6141e7e1a107a2eda3bc7c62dad9f314e0d94e9c6f0f84f41d0b49611e58f",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:18.280Z"
+      },
+      {
+        "id": "0dae74c3-9677-45e2-a9dc-5032cfcb537c",
+        "passage_id": "7c2e94bc-77b3-4d73-8f8d-d4fcbf9b8f04",
+        "version_id": "faaca38f-d2cf-4b95-b1db-4e31db314294",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "a8bc98d365f4cae4ed84a91ce65ba87e5c047c1a97833f53c703b217ba18f9e2",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:10.864Z"
+      },
+      {
+        "id": "23fee2ea-cbb4-4f1e-a2fe-47c451400421",
+        "passage_id": "7500b09f-6c0c-4f76-a10f-08bf93ae575a",
+        "version_id": "929729c5-c0de-4c12-8225-c6bcf4552173",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "0332e6831140702e59bfe57620220c01df47b673324188fb8cfbb0a38b352f53",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:37.320Z"
+      },
+      {
+        "id": "25143010-1c2b-426d-af5e-5ca8fac8e177",
+        "passage_id": "76804a9d-0f3f-4cb1-b609-ff3104ba8b04",
+        "version_id": "8831c374-3cf8-40b9-9d7d-be294c968886",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "9212e4d47de60df52d4da69b5c9bc088941e040331848fe675ed013a1ca00bcd",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:45.017Z"
+      },
+      {
+        "id": "283074d5-057e-4166-afa1-2451a0808171",
+        "passage_id": "80d9bd2f-aa80-4341-89a4-08234af5c67c",
+        "version_id": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "394ae6b7bcee41b085c3b20d09ba2fefd9b9de08645601ed4960b46174852bab",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:47.118Z"
+      },
+      {
+        "id": "3495cad6-d9fd-4186-b020-6267d9ae62a7",
+        "passage_id": "73f243b3-79cf-4606-9758-41e938fdb0c1",
+        "version_id": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "833a3783be34423dcef737ae6f0037f08f4434fbb5102661f01c56b73c06f12e",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:29.191Z"
+      },
+      {
+        "id": "36107eb1-b2b4-43e6-8051-0682cdafd746",
+        "passage_id": "7c13f9c9-dbf1-430c-a485-3404d033f2bd",
+        "version_id": "01207378-a7d4-49e3-a1b1-51dcbbe3eae9",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "84bb89f838dbf796f9db80d7f467d7ec2c6827a25e928276d6020c127eae65b6",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:08.102Z"
+      },
+      {
+        "id": "387c8d14-f740-4546-8349-35cc02c2beb5",
+        "passage_id": "7d303bc4-8331-4e50-a6b2-3a98436e920f",
+        "version_id": "1627eed7-ebe0-4679-805d-2ab9273695a2",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d5164376271b1da2a116c755a6383c77aac2e6b567fd5c73a2a510e77cfba98b",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:15.998Z"
+      },
+      {
+        "id": "4ce3fbd8-17be-4a3f-961f-e9e676cb9647",
+        "passage_id": "7dfe16d5-e83b-4a21-94fa-e85bfb58efca",
+        "version_id": "135598ee-4f3f-40bd-84e0-be1f23008ea4",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "db02fa60d55aa3abb2ebc6ddac33dda710e0a0883a237f70b2087cbea32eaa84",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:23.935Z"
+      },
+      {
+        "id": "55a1e7d0-bc84-4629-92e5-10ad6e8d08b3",
+        "passage_id": "74947da5-43b5-4de7-ba2c-3810c8422cc9",
+        "version_id": "40610d23-7987-4ed8-828c-5e6acabcbee9",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "f22ab24e0139a13010b8242765c941eba1b10f3003ee44be489a0ce2d73f7edd",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:32.161Z"
+      },
+      {
+        "id": "56f5e48c-f06d-4ce7-ac25-e8808238c766",
+        "passage_id": "7f12632e-75c6-4c29-8fe9-8c0e9de909d3",
+        "version_id": "40d630ed-6be4-44fa-b279-ab0b385932cd",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "00d475e0a6661c4bd3a9caefa2a2df5ecbb4cb8ebfe89850953eb34744f1545a",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:32.374Z"
+      },
+      {
+        "id": "58daa71a-8de6-431d-a7f9-dbeb5b1db063",
+        "passage_id": "784b1a96-5381-4830-813d-de25d7e3c8d7",
+        "version_id": "77da8b73-2e15-4e4c-9ca7-afbef328541e",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "32fac3fc9e7106060a2d6a6f076ea3985c6f07222a8f3cd6e7ff7675624b70a7",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:51.033Z"
+      },
+      {
+        "id": "5acc5d1b-3d4e-469e-9481-fe036641d380",
+        "passage_id": "7aee8f84-1241-4e92-b8fb-245abe8e0626",
+        "version_id": "f04d6421-3dad-4680-b121-20ebe9f2b447",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "3f03c6718061dc4d8c3f9d8656b9f0e54c21bc9a6d370b416326fecc2445473f",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:05.603Z"
+      },
+      {
+        "id": "5dcf66ea-b107-405a-b9bc-429528fa601d",
+        "passage_id": "7d5a1085-ecc6-431c-83bd-f81ac8a26918",
+        "version_id": "c1f0605c-98b5-4337-b9f9-1cf53e48eb66",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "df8a8ef892858fa23cb0105f8ce5bdf05e3ef314e45b692fc62ac021662b5d15",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:21.386Z"
+      },
+      {
+        "id": "60d16db7-c80e-45c6-84b8-df9f5430727d",
+        "passage_id": "7621a78d-dfc8-446d-8aeb-82ccbdb86332",
+        "version_id": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "6c96cb8721b2071bac5cc978315cc690a6267d4d19f29fefb1c6a9adf08048b3",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:40.069Z"
+      },
+      {
+        "id": "75e7f04a-1984-461e-a0fc-93aa4dc89f23",
+        "passage_id": "807016eb-e66a-4a24-a714-63bc317ada16",
+        "version_id": "3b6b99e3-0cac-48aa-95df-7c54a67ed1e8",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d4c8e80c4dbaac3c44a5415c775453307bdd820c6662ffecbfd7d9f451b419d3",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:44.584Z"
+      },
+      {
+        "id": "77ca5e1a-76b0-4b41-97a3-54fa8d9fc371",
+        "passage_id": "74b1cdd7-2f20-4db1-b7bd-268cef1f2559",
+        "version_id": "6b0ac4b9-40e7-4b86-8d11-32fa968ba67b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "0484879e3be55bc98fdf483ea8529de7368b6486daeedd18902bf34597814859",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:34.683Z"
+      },
+      {
+        "id": "7ad715b8-774c-4d8d-92f6-4234dcd4202c",
+        "passage_id": "799be5df-9ef1-41a2-8f0a-db4303ab2c6a",
+        "version_id": "116aa9d7-2da3-46df-9bbb-e07edf3e8fe1",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "aece00e1139adc6bfa07a70e45d3b0f61dac8d4450049627d4acda7e9b643116",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:53.756Z"
+      },
+      {
+        "id": "7f16af5c-5db4-424e-b0e4-7b53b2a0b00d",
+        "passage_id": "80181684-af9d-451c-8fd2-0b42e3038625",
+        "version_id": "6a39577a-8d72-4b18-be98-1c0a34230b47",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "9cc9fdcd89f73d6292374d822a4db50da3a263d255021124e249f0750ff07b9f",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:38.045Z"
+      },
+      {
+        "id": "b63dd050-d04f-4e1b-b4f6-5c5a41ea0ebf",
+        "passage_id": "7a8c94de-710a-4cba-ab74-dfe56b8ed315",
+        "version_id": "a079a49c-726d-4ef0-8685-952e4d025d8a",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "4748da394dd7a4c2e24c010eaeb022982e137ecb65f758a7ddebe6afd1ecabe9",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:02.639Z"
+      },
+      {
+        "id": "b6aa51d6-d11d-444d-9b85-27028d5326a1",
+        "passage_id": "7698d6fd-aa08-46e1-97f3-5afa955f81ed",
+        "version_id": "40610d23-7987-4ed8-828c-5e6acabcbee9",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "12074a6a37e23f1dc4e6dd5970361f32eadf595b0828968d1fdeeddbf2ec9b4b",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:48.354Z"
+      },
+      {
+        "id": "bd237fde-ae98-4852-82fe-1e850d590fcf",
+        "passage_id": "7dfeaa57-371b-414c-8465-b0c261208e9a",
+        "version_id": "517558c7-fa12-46ca-93aa-8b295b163e8c",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "92e300f94731b9664b982a7dc2c95d29ece06a12347f0e55a458eceb81f478ac",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:26.427Z"
+      },
+      {
+        "id": "c2cebbb9-00ff-46ef-9a21-28ca655ee96d",
+        "passage_id": "7a54ceaf-da88-4955-80fe-4617c36d45e8",
+        "version_id": "ee594323-5779-4967-bc2e-6001c5ecbca5",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d67415fc5db41467b8c6ef79510a5241ef1bdd46784da2469bad0b38a1010565",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:59.918Z"
+      },
+      {
+        "id": "c3756987-2149-4354-9993-21902d6d3acf",
+        "passage_id": "81df0b30-efc8-47b0-88a9-fd3740915ba0",
+        "version_id": "bd3c0cdd-899b-4a9e-87b4-90ce37240510",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "d1993d9d971a85a6daa088a01924024ecb9762e0e1b5eff8d84e8a006949c53d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:50.038Z"
+      },
+      {
+        "id": "c399f09d-3519-4893-8213-ab058b5e5385",
+        "passage_id": "7fb42575-d295-45ac-b890-2f1a1caf17a0",
+        "version_id": "e649e49a-1169-48df-bb34-40a997b97bad",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "a99da7e44ae85fd87486e8f38bd9fd4bbf565b23ab424b8037acdf30c54eeb65",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:35.156Z"
+      },
+      {
+        "id": "d68d5f35-0283-4af6-977e-fa6fffe2b9ed",
+        "passage_id": "803ab06e-3f30-427e-88cb-e9f05186a04f",
+        "version_id": "3b6b99e3-0cac-48aa-95df-7c54a67ed1e8",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "1bcfb2d10121b5b7f4c38be02b5e4345f60c066fbe7743c0f896a28aedf0e608",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:41.227Z"
+      },
+      {
+        "id": "e395a3ea-3058-4f4a-8aae-9d66552fbda6",
+        "passage_id": "7c9a9c54-5f28-4adf-84c6-07832b90acae",
+        "version_id": "3267dd6f-cf25-4514-b9c0-694fc80783fa",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "9081057746eba025f46add731c69e753e31c0d30a465038c709082ced4071cd6",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:21:13.497Z"
+      },
+      {
+        "id": "e78b5b25-3320-49c1-99b5-cd5904a73d6d",
+        "passage_id": "79a9c213-8f32-40ee-848f-9aea9775896c",
+        "version_id": "3f4e7363-7625-4c89-9d5d-f3e4d36c8e25",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "60f3cb43f91f6235af0361fb4aa9c4a52a89ac7f0d5262a1214635e1fb3679ff",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:56.539Z"
+      },
+      {
+        "id": "fd334a37-4667-4ea1-b2fb-793b50e263b5",
+        "passage_id": "7676a669-4fe7-4a13-a919-d2813accc40f",
+        "version_id": "71b458c7-f481-4aef-be59-6d6b1a6650eb",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "7914358672cd1aa1213ae1cc12524a7a66bec25cfb205f6e1c36a356e1491a84",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-22T10:20:42.489Z"
+      }
+    ],
+    "preservedRowIds": [
+      "009527f8-f295-49af-8ee8-f85b5a3699fa",
+      "00ec74f1-bf70-49b4-8600-922e318b9151",
+      "017a25f4-7356-4dc6-85fd-074e08e27d0d",
+      "017c82b2-f1b5-41ee-af43-bcc102296e48",
+      "030ee688-c270-4fb0-b074-94c5cbf1acdb",
+      "040f5b16-b655-4620-8eaf-91ff37853f84",
+      "043b0602-6b0c-4753-86a7-7c080d9c4fde",
+      "05225261-71bc-48c9-990c-c7b4588c97ff",
+      "05a21d46-3161-4af5-aaac-c1dc2dad94ee",
+      "05e8bc1f-935b-459d-83cd-416965f492af",
+      "0629e35d-f6bf-4004-bfdb-7865f589729c",
+      "06682072-778a-4650-bf66-1c2521102f18",
+      "074ea7e3-abc2-4b61-875f-74b3de91708e",
+      "07d7bf74-345e-40dd-8c57-91176d4ca90c",
+      "0842809f-22a0-4ad7-8ef8-816ba80fda39",
+      "084e8aad-81d7-4f6f-a315-9b1d4c24f309",
+      "091ed50b-7059-4fec-a5c6-b05971d9eb9c",
+      "093e8e5a-592f-4ac4-9e1f-d6d9827b90bf",
+      "0a377ff4-8278-4ad5-93ca-3798b8307572",
+      "0cfc9a3d-51ab-4b51-9db0-a39643867965",
+      "0d8ff07d-3d78-4445-9f02-e1c1c087e292",
+      "0dfcdfaf-520f-48ce-8244-a8e2ebe1f754",
+      "10840dbe-32f3-4a96-8efe-138cb3664dbb",
+      "10cd2472-0418-4c37-9642-77440b8e0b0a",
+      "10f32886-c925-4e4f-aa15-9a967d8b7c0a",
+      "115839bf-2f61-4c5a-8436-7c67a7f48ec5",
+      "1178be29-08db-4b9b-ba96-8328c45ce008",
+      "12c45648-8657-4081-bfe9-d4215f6a800e",
+      "131598fe-57fd-4e96-9ddc-f9349f768f4f",
+      "1390423b-dfda-4d68-9028-4e5f3cffa67c",
+      "13a9bef3-899d-4b90-8793-e1c44c892428",
+      "1413fd13-c4a1-4a4b-9b94-d7ebb6c0db88",
+      "159a6fdd-d598-43fb-bf86-df157225065d",
+      "15d18924-24a9-477e-a5c6-1fb092aa908e",
+      "16575f4a-3930-4268-ab39-8826d6a6e09e",
+      "169df623-cfda-4c9e-b52d-52509c518082",
+      "16bb24c2-6b40-4437-a890-ea3927943850",
+      "19dbcc4e-16b2-4e5b-b934-b77879d876ab",
+      "1bf132eb-1b61-4eac-aa0b-ddfbd3d02274",
+      "1c3611e5-097f-426d-b095-41e93977c4d1",
+      "1f4ef98e-fa65-43c4-b12d-1911348d90ac",
+      "1f5f157d-d25c-4e6f-9943-76b7bceb98bd",
+      "1f70330d-c2f4-4b8d-a5ba-54819bce6237",
+      "1ff09cf8-9692-4315-9274-ff6f68b82016",
+      "20be0977-4c8a-44eb-941a-794c72409ba6",
+      "213f6754-abd4-4294-888f-b912b36ce6ae",
+      "22f06f77-1d39-475c-8041-b54a3198e7d7",
+      "250bb940-ce64-4497-b812-a120b1c48d28",
+      "252f96f8-a17d-4898-b311-567718cdb4fd",
+      "26fe3def-fb2f-4481-80e2-1ba9430b9d49",
+      "278fed5e-98a9-40ba-a13f-1a6b134852ae",
+      "27bd7acd-b496-4d92-8605-52d71a851962",
+      "280be922-7dfe-4a77-ace9-31e9f014d1a8",
+      "289d508d-84a4-4a54-b490-e4d3d3547220",
+      "293eb1f4-805a-4700-b734-c23e18e7dbc5",
+      "2b2208fe-0075-4fc1-baa4-f15beda73ccc",
+      "2bea72c4-e545-402c-a26f-b6ea304ef692",
+      "2de8d00b-6b4b-45f2-a0f3-372d5b88121c",
+      "303d12d6-b822-4a03-b797-b2206491efbd",
+      "3150308f-a959-416d-b3f6-9dc9aebc99f4",
+      "3173ee3a-c138-4d5f-bfbd-3ac12b1ee461",
+      "31f7e54e-fcc7-4308-be44-ba2f317bf1d6",
+      "347627f3-827e-4439-ad50-ab91e0eeeb91",
+      "34769d2c-09fc-4970-8236-eb6d041cf52c",
+      "3621ee37-4445-4773-8806-0adef18fd7eb",
+      "36633cea-a3e1-42fb-be29-cb86d3c2b65a",
+      "37c712c9-8216-4fba-b200-df5f3d350d1b",
+      "3a01026a-056b-4eb7-8ab3-ef3cf3f2df14",
+      "3a8df946-a68e-41ba-a8dc-caca48549a3d",
+      "3ac7ee3f-44df-4a57-810c-fab7b9f55b9a",
+      "3b16d9ad-68c6-40bd-ba57-ee51a5897f17",
+      "3bcaf08d-9b75-4641-9ab5-3263b422352f",
+      "3c48895e-9152-4021-adef-2b0d73f4e550",
+      "3c48b2c9-89d7-4f21-abf2-d748ce77737c",
+      "3cf9f97f-a7aa-45c7-bc32-b39a7800f418",
+      "3d6287cd-b22c-4f80-9125-4bafd39a79bc",
+      "3f710f93-83b6-4f5d-8ff1-915ab5588889",
+      "4061ad82-2595-4ef9-ba27-a712cdb8dced",
+      "4130e744-085f-48e5-b51a-43dc1b4e1b72",
+      "4299fb6a-eca7-432a-bba4-94cec8168df7",
+      "43853fac-e2de-4de9-8b92-99874ecb0da0",
+      "43e7ba8d-d815-48cf-b906-f3b98f517174",
+      "45b07ec7-0a8d-4010-98b6-a824eaab9491",
+      "479c1c6c-aafb-4257-ad85-ddddd74b41ee",
+      "488f589e-c86a-491f-afea-c5e1ad5d45b7",
+      "48b2eb63-e829-466d-9453-a7a7d95a5ecf",
+      "49aa739f-7aee-4351-9cf4-78c05243f240",
+      "49accc8f-4ff0-4152-bd5d-fa221fbaa20e",
+      "49e84d98-5ba1-43e9-a2f2-c0194d808f5f",
+      "4a311998-4b3f-412d-940d-31d61c205279",
+      "4a88dfd7-7114-43e6-9a67-d796281747ec",
+      "4b1ac0a5-0801-4d9b-b4e4-8c16ae0233d0",
+      "4b5ba1af-3e55-4c11-8872-0848a24f2023",
+      "4bf4de48-180e-47cb-918d-da2cd53626f4",
+      "4cd0415f-084d-4a41-8a25-a9c06c531386",
+      "50419343-fc17-4989-983b-58db7e776af1",
+      "5045c73e-e9fc-4b2c-94f9-ce3f17aa96c7",
+      "50bc7ca6-e416-45ec-9907-1a7fef308957",
+      "513fb395-12b5-47b9-b03a-eeae53380a9e",
+      "52c18673-67cd-474e-bd94-68232afe3d33",
+      "5574fd62-5cc5-497c-8f20-7ed16c5450fa",
+      "57ba8049-31e7-4630-8f27-c88e832eb4cf",
+      "58be4ebe-5bd6-497e-a9df-cd2a0adac9f0",
+      "598591a2-bb28-474b-bf8f-113274b6584f",
+      "5a24e8ab-ff2c-4448-91b6-aa19b3947d75",
+      "5ae4d849-270b-46d7-a73c-5126b4b32a9f",
+      "5b07d222-1060-4c3c-b57c-13032fd43bd3",
+      "5e03405f-885b-4f04-8a9f-3b1d468b9229",
+      "5f77f051-915d-41dd-9ec4-306fa9097bd0",
+      "60434a29-20c9-41a3-b4cb-d550615597b3",
+      "62b85f42-e952-4774-bf57-0f33863c1d8b",
+      "6510ef07-ca57-4dc7-90af-293f816c5230",
+      "653b2194-35be-44c0-9177-3150ad88cad8",
+      "6779e298-d4ea-4c45-b62f-f63214f009a7",
+      "68c0a25c-ff5f-4cc9-9f2f-8ac2f87ac768",
+      "6ada35db-4864-4179-b5d4-0a009ee0e3e5",
+      "6bb204c2-2025-4a75-b1cc-828426b6dd10",
+      "6bee097f-be39-4acb-a082-66abab5026fd",
+      "6c387ada-50c3-4d21-a257-d66099f824da",
+      "6d592373-3f7e-40e2-a219-8884717d3b1d",
+      "6f3e739f-6ef3-4d5b-9682-7fb8fc35a758",
+      "6f4a8820-48d4-4227-b2f9-8146e7cf2c07",
+      "6f5b3a58-40f3-44d2-8418-85077ffadeb8",
+      "7195bc7c-8506-432d-bc28-54018b88b274",
+      "72cfb5be-cd37-4913-9d0c-f4b06fb1d956",
+      "734f541a-37e7-42fd-99a8-4582040c2b91",
+      "74a11da6-a495-4d30-81e6-28cad35fa518",
+      "74d18c0a-f425-4aa2-aee7-6246729d6d25",
+      "750b87f4-a3ce-4690-9c31-d141445094cd",
+      "7568c08e-875e-41d0-ad05-862fe195e8ca",
+      "772f1018-3e5d-4df0-9382-f3c3784fc7c7",
+      "77333c59-eb18-4d9d-a8e1-b02c8828d9ae",
+      "776bd926-3967-4fb4-8a94-c4bf8676ca1c",
+      "7780ec63-a32c-4005-9b28-3e2f8e93e95e",
+      "78003713-6fb2-40b9-ac4f-b13eab0efa98",
+      "783eed2a-1ec6-42f1-9b2e-e74ff700cfe9",
+      "783f4e74-6a44-48ce-b090-497ae5c33fac",
+      "7ae24d6b-59e5-47a9-b455-99e065ad0f83",
+      "7c93e254-c750-483b-b4a4-d6c730dd9c92",
+      "7d1df4ca-ffcc-4fe1-b075-1279484dd314",
+      "7dce627f-a4ac-40ab-ab37-047acb06e502",
+      "7ded7fc4-6e75-494e-b3d8-b333c32b88b5",
+      "7e6d1c06-3b54-4e64-b44e-1b925f3b5365",
+      "821fd843-994b-4db0-b078-e57fc9398aca",
+      "82ec26ab-6d5f-426c-8fe1-31b9baadd53f",
+      "83d21ead-c046-4e8e-9256-f7287ae97add",
+      "841b2e34-63c9-46bc-a11a-f1d1a5b45c30",
+      "844fa1d3-caf4-4efe-a3c9-f9a9c65af0e0",
+      "84b057fd-9aae-4ca8-943c-629046818373",
+      "84e518ee-ba2d-4d76-b730-1be069f43cb7",
+      "8666adcb-dcab-496c-be0f-c8784fa5114a",
+      "886f690d-041e-46d8-9322-9752390a64cc",
+      "88a5fe8a-f5b7-414f-aa5f-6029f7d446fc",
+      "88a90770-47d3-4197-a635-492a56a2c17e",
+      "89a1d9fa-f489-44d2-94a9-cef3f0d7acce",
+      "8a499803-8cd2-467c-98d7-d1a4ecd720d3",
+      "8b068d50-940d-4f04-ab7e-63041772b8c9",
+      "8b54e155-fef5-4bdb-b915-18688c8b4e45",
+      "8bfc64d7-94b7-49f4-be8c-4fd2a770f666",
+      "8df06c21-f824-4b9c-8dc1-0665467d14a6",
+      "8e35d1b6-8350-441c-b887-5f757537c68b",
+      "8e8db197-c362-414f-9fdb-897e9b58ed11",
+      "8f216c9d-0df8-43c4-a28b-8a799e90a1be",
+      "8f41c2ce-b196-436f-a6e6-25e66c9a8851",
+      "90746e80-c8be-473f-af31-ba72c419dcb4",
+      "90a6b31c-36ad-4543-8b3f-28cadc799b73",
+      "91506542-9de0-46f8-9593-d1cc02ab5d63",
+      "918d9eac-a2a7-44ec-b5d9-113ed7ba0176",
+      "933e70e7-ad59-4d83-9fb2-138a15e34ed8",
+      "9535297a-6750-4f97-8eb0-65b24fd08ffa",
+      "987d77aa-730a-45f2-a272-72882a214107",
+      "988d7891-fa20-4478-bb44-e4ad7ce89b3a",
+      "99774571-778f-4187-8f50-287433f260b2",
+      "9a1dc0fa-ca94-43da-89ed-8697eeea2461",
+      "9a6683b2-f009-4b6d-91ff-5238aee8c040",
+      "9b462306-4ea2-4861-94e4-cd7c8400475e",
+      "9b5cccb4-d182-4f58-adbd-a4dc11562403",
+      "9cdc5d70-c6f6-4465-b206-732b35e0102d",
+      "9d66eb9d-281c-420e-80e5-d5b03da46e63",
+      "9e21275f-aa28-4ac9-b576-565807d7dcff",
+      "9e7d0f7c-2a44-4f14-afd6-a3276c66c647",
+      "9f5f7749-c6ac-48d4-94f5-958772731036",
+      "a1e3148b-fa4d-4a6f-a584-e5ba24f6a841",
+      "a2632ff2-55dd-4b52-bdfb-d8d1a15b449d",
+      "a278d4cc-54a2-4cfe-9fc3-005678f51ae2",
+      "a343ddf8-3513-44e2-ae6b-03ade9c254ff",
+      "a46adbc0-bc9b-4f65-b041-e0fbad47d0e9",
+      "a4885f94-5343-427f-98c0-28ec023055c0",
+      "a50c0f53-24d9-4c70-b51e-68e57410f777",
+      "a62b4179-32ac-449f-9d9b-12cf18f29efb",
+      "a690d22e-f690-4c47-94ac-b4fda545beaa",
+      "a6ea71ff-29aa-4b61-ba97-3a420068ada5",
+      "ac38b942-b846-4b21-a614-8d7e8a46b547",
+      "adc7b2d2-0103-46fd-b05c-9b171de65964",
+      "af4059cc-cea1-4b5d-8897-126694057b1a",
+      "b0350f34-11c6-4f62-b4c0-1a97c59fd0e5",
+      "b05dabab-5c37-4694-8374-b3eb937eddcc",
+      "b0ff3c1b-b82a-42b0-b1a1-6c755b1b1e5b",
+      "b15c75cf-c97c-4f39-8277-905d516150ef",
+      "b16110f8-b6bd-43b5-ad7b-60c2d363ea35",
+      "b1904b3b-bc36-49b6-b97d-b1442bba3c2d",
+      "b4afb239-f92f-4a63-91bd-d7723b257fd2",
+      "b4f484c2-70a7-4de9-a4b1-8728edbbaf41",
+      "b81f6f8e-1b2e-4008-bdb7-8bc8e430eb75",
+      "b880f9c0-109a-448d-9d86-e3682c9077b9",
+      "b9f6f43f-dd89-4143-aa4c-0f25d4ac1cfe",
+      "baaa2890-3fcd-440d-898c-437109b6ad7f",
+      "bb4d8964-3c31-4dee-9516-92de131f2656",
+      "bb73a733-7e81-442f-9fc7-aab8235764e3",
+      "bb7b05f5-5ea8-4f59-8444-18f8bff4230b",
+      "bbac4481-a1c7-4cb0-8268-023daf5827d3",
+      "bbf1955f-1b04-4ec5-bedb-61e2261109d4",
+      "bc02f4b3-247a-4feb-b9df-f3f869210224",
+      "be7e6929-202c-417c-b3a2-148f328382df",
+      "beb59878-ca1a-4989-b48a-3df874ae8743",
+      "c04847bd-902c-4cb8-a0a9-f4a3af0541f0",
+      "c0a8a653-8311-456f-95ec-557d5e009326",
+      "c15b1d4f-a355-49b1-a22b-1a25eb768238",
+      "c19042b5-4f82-459f-838c-584d3578220a",
+      "c20236c2-d0f8-47db-837a-6c64deee2a0f",
+      "c2057745-e9d7-4c1d-9001-7c5836767333",
+      "c21461e1-3b53-4a87-b839-92ab6eeec7d2",
+      "c2972e0f-aa20-44bd-addf-c44ac26ee1f3",
+      "c2ece097-ba05-4180-b43d-80fcf61dfb65",
+      "c59be2de-b283-4e82-bb32-49d9ce2bee42",
+      "c76e1b50-4e5b-4967-b359-4d29ec8ef383",
+      "c7c6e224-358a-446e-b841-4ab5cc3aacac",
+      "c9eb6465-6f8d-48f1-b031-26c54e7f567d",
+      "ccdf39d7-3c11-4265-9369-7651fccd7050",
+      "ce0d549c-d35f-49d0-a79c-8e6396971acf",
+      "ce6fc50e-12b3-403e-b2d0-2eda3c848f77",
+      "d012853c-5e7a-41c6-952f-96a6884af865",
+      "d01de7b9-bd32-49f0-ba6c-db1d211da5b2",
+      "d1216b55-1994-446e-bd31-9a27e99a41a6",
+      "d18cb081-80fa-450a-8f33-cce185700783",
+      "d284eb42-c66e-455c-80ef-94bc684c8748",
+      "d51029ce-e3a5-4b6f-b240-61ec1a8bb9a8",
+      "d5885601-b511-4795-951d-ef5fb38eff79",
+      "d5f1eb75-af96-449e-a4ba-cde8bd8f625b",
+      "d6203d69-72c6-4fd5-bc5c-9e2601244129",
+      "d7d7896c-8df4-40ed-8cbf-fa586c37ca07",
+      "d898b602-81d6-43a2-b36f-825bde504d75",
+      "d8be2b48-3551-4117-b7f3-36ac76daeb6e",
+      "d8e0184a-8341-453b-bb0d-78366424db59",
+      "d9a34b7f-690c-4eeb-9bf8-2a3e651bfc4b",
+      "da91f149-9896-4bc0-8403-b1f73ae5b760",
+      "daee726b-e987-40af-99d2-a2d78204c3ce",
+      "db31c417-32e2-48ca-91c4-c2c8ef64c62c",
+      "dbd11d78-1ccb-4acc-8236-d0c9e5932d3c",
+      "dc6d7055-4331-437d-829c-f66878fb9904",
+      "de3334c2-e650-4f25-b7f5-f87ded4789a5",
+      "df18085b-a6db-4b48-84d9-f2987dde835e",
+      "e213afe6-d93b-49ea-9eab-3e6d9c1a813f",
+      "e265cb43-13f2-4536-9858-99f8e3fef463",
+      "e2ec4e82-959e-4b84-bf18-5d45c105d14d",
+      "e30bada6-0aa9-4f07-9871-a49ab7917f95",
+      "e3d6e3ff-063e-4fe1-bde2-7e63bc7b1c57",
+      "e4b86415-eb60-4db9-bc53-526b7b5eef7e",
+      "e520aeaa-71c9-46a2-b05e-f816dbe8a898",
+      "e648a19e-9acb-4177-b203-866ea94aafa9",
+      "e6ee71bd-6520-41e2-a63b-6df50654f1f5",
+      "e70535fb-eb4d-4764-98ed-43d77714a858",
+      "e7367275-ab47-4f18-be86-5bb49017030f",
+      "e78f612c-d186-4bc7-9c55-03bced0eaf32",
+      "e887c315-63ad-4bda-ae22-b3918fe93a2d",
+      "e94738ba-bc59-44d0-8fe8-32dbcba51cd1",
+      "ea9dc625-1fd3-44b9-8aac-224e14ca03bb",
+      "eb164c17-7038-4d8a-b89d-0d535b8a65a7",
+      "ebc79310-c3fb-4ad6-adef-2fac82f46748",
+      "eeb31a65-f043-4b5a-8414-b90c55595299",
+      "eecfef9c-ee3f-4013-9e40-7c5493da155d",
+      "efcb710b-79a0-4cd5-9881-90683141adbf",
+      "f096815d-0d49-4ef7-8d69-246f4fe8e374",
+      "f1c5e5fc-9efa-4ebd-893c-39f29cfbe9b1",
+      "f1d5aee5-b3a8-4ab4-aa04-af52aa1b14ec",
+      "f2431ed2-69a7-45a0-8a4e-8389af32b4fc",
+      "f39bac68-34b8-4035-bdfe-b1e78bba6b20",
+      "f4cc3a94-e7fd-4f4a-b0bc-d3bc57796020",
+      "f7bb97ff-2d8d-4fc8-b4fa-cf46eca1b184",
+      "f87803f1-4167-4116-b771-7065e6c1c60a",
+      "f9358172-b15e-4f8a-b1f9-c46367ce241d",
+      "fa9b80f2-6060-4c29-b862-319d76cb4691",
+      "fb37094b-bc71-4a7c-b44a-73a033665e98",
+      "fbd00697-35bd-4099-8b1b-b86adf694b8d",
+      "fc3bd5e3-e6eb-4256-9a89-d2d84af5258b"
+    ],
+    "verifiedColumns": [
+      "id",
+      "passage_id",
+      "version_id",
+      "source_version",
+      "revision",
+      "status",
+      "content_hash",
+      "actor",
+      "checked_at"
+    ],
+    "omittedOrTruncatedValues": {
+      "before": 203,
+      "after": 233,
+      "note": "Long evidence and snapshot values can be truncated by native projection; full current evidence, snapshots and source review endpoints were separately compared."
+    },
+    "missing": [],
+    "changed": [],
+    "pagination": "Only server-returned model_projection.next_offset followed; stopped at null"
+  },
+  "coverageVerification": {
+    "regions": 467,
+    "districtMetadataUnchanged": true,
+    "regionCodesAndOtherCoverageFieldsUnchanged": true,
+    "completedPassageIncrements": 20,
+    "changedLegalDongIds": {
+      "dong-영등포구-문래동4가": 1,
+      "dong-영등포구-영등포동1가": 1,
+      "dong-양천구-목동": 1,
+      "dong-송파구-삼전동": 1,
+      "dong-서초구-우면동": 1,
+      "dong-서대문구-옥천동": 1,
+      "dong-용산구-한남동": 1,
+      "dong-종로구-삼청동": 1,
+      "dong-종로구-당주동": 1,
+      "dong-구로구-오류동": 1,
+      "dong-중구-을지로7가": 1,
+      "dong-중구-광희동2가": 1,
+      "dong-종로구-명륜1가": 1,
+      "dong-중구-예관동": 1,
+      "dong-강동구-둔촌동": 1,
+      "dong-강남구-청담동": 1,
+      "dong-중랑구-중화동": 1,
+      "dong-광진구-중곡동": 1,
+      "dong-광진구-자양동": 1,
+      "dong-송파구-오금동": 1
+    }
+  },
+  "legalDongReviewedCountIncrements": 20,
+  "replays": [
+    {
+      "id": "73f243b3-79cf-4606-9758-41e938fdb0c1",
+      "reviewId": "3495cad6-d9fd-4186-b020-6267d9ae62a7",
+      "revision": 1,
+      "status": "content_checked",
+      "fingerprint": "833a3783be34423dcef737ae6f0037f08f4434fbb5102661f01c56b73c06f12e",
+      "unchanged": true,
+      "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+    },
+    {
+      "id": "74947da5-43b5-4de7-ba2c-3810c8422cc9",
+      "reviewId": "55a1e7d0-bc84-4629-92e5-10ad6e8d08b3",
+      "revision": 1,
+      "status": "needs_review",
+      "fingerprint": "f22ab24e0139a13010b8242765c941eba1b10f3003ee44be489a0ce2d73f7edd",
+      "unchanged": true,
+      "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+    },
+    {
+      "id": "7a54ceaf-da88-4955-80fe-4617c36d45e8",
+      "reviewId": "c2cebbb9-00ff-46ef-9a21-28ca655ee96d",
+      "revision": 1,
+      "status": "content_checked",
+      "fingerprint": "d67415fc5db41467b8c6ef79510a5241ef1bdd46784da2469bad0b38a1010565",
+      "unchanged": true,
+      "scopeNote": "기존 본문과 제공기관 원문의 대조 기록입니다. 전승·추정은 그대로 구분하며 역사적 사실의 독립 확정, 개별 건물·부지 동일성이나 원문·사진·영상의 보관·재사용 허락을 뜻하지 않습니다."
+    }
+  ],
+  "sourceSynchronization": "Final source commit, archive hash and synchronization result recorded in production checkpoint after packaging; data-only batch, no republication.",
+  "pdfPageVisualVerification": {
+    "printedPage": 318,
+    "pdfPage": 318,
+    "zeroBasedIndex": 317,
+    "renderSha256": "769abda4031e06bad6f7b267a9216913e4753e2afa4770d6cabf9dbd7c54cab4",
+    "renderInspected": true,
+    "fullPdfPersisted": false,
+    "temporaryExtractsRemovedAfterVerification": true
+  }
+}

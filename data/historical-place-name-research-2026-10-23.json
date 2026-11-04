@@ -1,0 +1,3020 @@
+{
+  "meta": {
+    "id": "seoul-historical-place-names-20261023",
+    "title": "서울 옛 지명 추가 조사",
+    "checkedOn": "2026-10-23",
+    "aliasCount": 27,
+    "districtCount": 6,
+    "queryCount": 57,
+    "returnedRows": 427,
+    "uniqueRetrievedRecords": 310,
+    "selectedRecords": 68,
+    "originalFilesRetrieved": 0,
+    "parcelVerifiedRecords": 0,
+    "sourceBaselineCount": 525,
+    "rejections": {
+      "noQualifiedAliasMatch": 69,
+      "perAliasLimit": 96,
+      "personalOrCoverIndex": 76,
+      "notFullyPublic": 1
+    },
+    "note": "공식 행정 연혁·지명사전을 조사 검색어와 연결하고 국가기록원 공개목록을 확인한 조사다. 기록물 원문·도면 열람 완료나 현재 필지 동일성 검증을 뜻하지 않는다. 제공기관 검색 총수는 중복·타지역·미검토 항목을 포함하므로 확보량으로 합산하지 않는다.",
+    "pagingNote": "일부 서로 다른 page 요청에서 동일한 관리번호 목록이 반환됨을 관측했다. 페이지를 새 확보량으로 합산하지 않고 정규화 URL로 전수 중복 제거했다. 이후 페이지 수집은 제공기관 페이지 연계를 별도 확인해야 한다."
+  },
+  "aliases": [
+    {
+      "id": "HPN-001",
+      "district": "성동구",
+      "currentDong": "성수동1가",
+      "parent": "경기도 고양군 독도면",
+      "historicalName": "서독도리",
+      "variants": [
+        "서독도리",
+        "서뚝도리"
+      ],
+      "qualifiedQuery": "경기도 고양군 독도면 서독도리",
+      "period": "1914년 편제 · 1949년 서울 편입 · 1950년 동명 전환",
+      "currentRegionId": "dong-성동구-성수동1가",
+      "catalogRegionId": "gu-성동구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sd.go.kr/seongsu1ga1/contents.do?key=2763",
+        "locator": "동유래 > 1914년 편제 및 1949년 서울 편입·1950년 동명 개편",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "독도면/뚝도면·독도리/뚝도리 표기를 함께 조사. 과거 경계와 현재 법정동 전체의 일치, 개별 지번은 미검증.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-002",
+      "district": "성동구",
+      "currentDong": "성수동2가",
+      "parent": "경기도 고양군 독도면",
+      "historicalName": "동독도리",
+      "variants": [
+        "동독도리",
+        "동뚝도리"
+      ],
+      "qualifiedQuery": "경기도 고양군 독도면 동독도리",
+      "period": "1914년 편제 · 1949년 서울 편입 · 1950년 동명 전환",
+      "currentRegionId": "dong-성동구-성수동2가",
+      "catalogRegionId": "gu-성동구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sd.go.kr/seongsu1ga1/contents.do?key=2763",
+        "locator": "동유래 > 1914년 편제 및 1949년 서울 편입·1950년 동명 개편",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "독도면/뚝도면·독도리/뚝도리 표기를 함께 조사. 과거 경계와 현재 법정동 전체의 일치, 개별 지번은 미검증.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-003",
+      "district": "서대문구",
+      "currentDong": "신촌동",
+      "parent": "경기도 고양군 연희면",
+      "historicalName": "신촌리",
+      "variants": [
+        "신촌리"
+      ],
+      "qualifiedQuery": "경기도 고양군 연희면 신촌리",
+      "period": "1914년 편제 · 1936년 경성부 편입 · 1946년 동명 전환",
+      "currentRegionId": "dong-서대문구-신촌동",
+      "catalogRegionId": "gu-서대문구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sdm.go.kr/dong/sc/we/history.do",
+        "locator": "동유래 > 신촌동",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "행정동 신촌동의 통합 연혁과 법정동 연혁을 구분. 구청 페이지 간 1936년 월 표기가 달라 월·일은 확정하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-004",
+      "district": "서대문구",
+      "currentDong": "대현동",
+      "parent": "경기도 고양군 연희면",
+      "historicalName": "대현리",
+      "variants": [
+        "대현리"
+      ],
+      "qualifiedQuery": "경기도 고양군 연희면 대현리",
+      "period": "1914년 편제 · 1936년 경성부 편입 · 1946년 동명 전환",
+      "currentRegionId": "dong-서대문구-대현동",
+      "catalogRegionId": "gu-서대문구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sdm.go.kr/dong/sc/we/history.do",
+        "locator": "동유래 > 대현동",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "행정동 신촌동의 통합 연혁과 법정동 연혁을 구분. 구청 페이지 간 1936년 월 표기가 달라 월·일은 확정하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-005",
+      "district": "서대문구",
+      "currentDong": "봉원동",
+      "parent": "경기도 고양군 연희면",
+      "historicalName": "봉원리",
+      "variants": [
+        "봉원리"
+      ],
+      "qualifiedQuery": "경기도 고양군 연희면 봉원리",
+      "period": "1914년 편제 · 1936년 경성부 편입 · 1946년 동명 전환",
+      "currentRegionId": "dong-서대문구-봉원동",
+      "catalogRegionId": "gu-서대문구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sdm.go.kr/dong/sc/we/history.do",
+        "locator": "동유래 > 봉원동",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "행정동 신촌동의 통합 연혁과 법정동 연혁을 구분. 구청 페이지 간 1936년 월 표기가 달라 월·일은 확정하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-006",
+      "district": "서대문구",
+      "currentDong": "창천동",
+      "parent": "경기도 고양군 연희면",
+      "historicalName": "창천리",
+      "variants": [
+        "창천리"
+      ],
+      "qualifiedQuery": "경기도 고양군 연희면 창천리",
+      "period": "1914년 편제 · 1936년 경성부 편입 · 1946년 동명 전환",
+      "currentRegionId": "dong-서대문구-창천동",
+      "catalogRegionId": "gu-서대문구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sdm.go.kr/dong/sc/we/history.do",
+        "locator": "동유래 > 창천동",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "행정동 신촌동의 통합 연혁과 법정동 연혁을 구분. 구청 페이지 간 1936년 월 표기가 달라 월·일은 확정하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-007",
+      "district": "서대문구",
+      "currentDong": "연희동",
+      "parent": "경기도 고양군 연희면",
+      "historicalName": "연희리",
+      "variants": [
+        "연희리"
+      ],
+      "qualifiedQuery": "경기도 고양군 연희면 연희리",
+      "period": "1914년 편제 · 1936년 경성부 편입 · 1946년 개명",
+      "currentRegionId": "dong-서대문구-연희동",
+      "catalogRegionId": "gu-서대문구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sdm.go.kr/wesdm/history/donghistory.do",
+        "locator": "연희동 연혁 > 1914·1936·1946",
+        "method": "official_index_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "구청 검색 색인에 연혁이 확인됨. 상세 페이지의 해당 구간 재조회는 보완 대상.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-008",
+      "district": "서대문구",
+      "currentDong": "홍제동",
+      "parent": "경기도 고양군 은평면",
+      "historicalName": "홍제내리",
+      "variants": [
+        "홍제내리"
+      ],
+      "qualifiedQuery": "경기도 고양군 은평면 홍제내리",
+      "period": "1914년 편제 · 1936년 또는 1949년 서울 편입",
+      "currentRegionId": "dong-서대문구-홍제동",
+      "catalogRegionId": "gu-서대문구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sdm.go.kr/wesdm/history/origin.do",
+        "locator": "동명 유래 > 홍제동",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "서울 편입과 리→동 개칭은 서로 다른 사건. 항목별 정확한 시행일·옛 경계는 후속 대조 대상.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-009",
+      "district": "서대문구",
+      "currentDong": "홍은동",
+      "parent": "경기도 고양군 은평면",
+      "historicalName": "홍제외리",
+      "variants": [
+        "홍제외리"
+      ],
+      "qualifiedQuery": "경기도 고양군 은평면 홍제외리",
+      "period": "1914년 편제 · 1936년 또는 1949년 서울 편입",
+      "currentRegionId": "dong-서대문구-홍은동",
+      "catalogRegionId": "gu-서대문구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sdm.go.kr/wesdm/history/origin.do",
+        "locator": "동명 유래 > 홍은동",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "서울 편입과 리→동 개칭은 서로 다른 사건. 항목별 정확한 시행일·옛 경계는 후속 대조 대상.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-010",
+      "district": "서대문구",
+      "currentDong": "남가좌동",
+      "parent": "경기도 고양군 연희면",
+      "historicalName": "남가좌리",
+      "variants": [
+        "남가좌리"
+      ],
+      "qualifiedQuery": "경기도 고양군 연희면 남가좌리",
+      "period": "1914년 편제 · 1936년 또는 1949년 서울 편입",
+      "currentRegionId": "dong-서대문구-남가좌동",
+      "catalogRegionId": "gu-서대문구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sdm.go.kr/wesdm/history/origin.do",
+        "locator": "동명 유래 > 남가좌동",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "서울 편입과 리→동 개칭은 서로 다른 사건. 항목별 정확한 시행일·옛 경계는 후속 대조 대상.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-011",
+      "district": "서대문구",
+      "currentDong": "북가좌동",
+      "parent": "경기도 고양군 연희면",
+      "historicalName": "북가좌리",
+      "variants": [
+        "북가좌리"
+      ],
+      "qualifiedQuery": "경기도 고양군 연희면 북가좌리",
+      "period": "1914년 편제 · 1936년 또는 1949년 서울 편입",
+      "currentRegionId": "dong-서대문구-북가좌동",
+      "catalogRegionId": "gu-서대문구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.sdm.go.kr/wesdm/history/origin.do",
+        "locator": "동명 유래 > 북가좌동",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "서울 편입과 리→동 개칭은 서로 다른 사건. 항목별 정확한 시행일·옛 경계는 후속 대조 대상.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-012",
+      "district": "노원구",
+      "currentDong": "하계동",
+      "parent": "경기도 양주군 노해면",
+      "historicalName": "하계리",
+      "variants": [
+        "하계리"
+      ],
+      "qualifiedQuery": "경기도 양주군 노해면 하계리",
+      "period": "1914년 노해면 편제 · 1963년 서울 편입",
+      "currentRegionId": "dong-노원구-하계동",
+      "catalogRegionId": "gu-노원구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://ebook.nowon.kr/src/viewer/download.php?host=main&no=2&site=20080225_094318",
+        "locator": "노원구 연혁 및 지역특성 > 1914년 노해면 관할리",
+        "method": "official_index_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "공식 PDF 검색 색인 및 기존 동명유래 검토 기록을 대조. PDF 해당 면의 추가 대조·과거 경계 검증 필요.",
+      "selectedRecordCount": 1
+    },
+    {
+      "id": "HPN-013",
+      "district": "노원구",
+      "currentDong": "중계동",
+      "parent": "경기도 양주군 노해면",
+      "historicalName": "중계리",
+      "variants": [
+        "중계리"
+      ],
+      "qualifiedQuery": "경기도 양주군 노해면 중계리",
+      "period": "1914년 노해면 편제 · 1963년 서울 편입",
+      "currentRegionId": "dong-노원구-중계동",
+      "catalogRegionId": "gu-노원구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://ebook.nowon.kr/src/viewer/download.php?host=main&no=2&site=20080225_094318",
+        "locator": "노원구 연혁 및 지역특성 > 1914년 노해면 관할리",
+        "method": "official_index_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "공식 PDF 검색 색인 및 기존 동명유래 검토 기록을 대조. PDF 해당 면의 추가 대조·과거 경계 검증 필요.",
+      "selectedRecordCount": 0
+    },
+    {
+      "id": "HPN-014",
+      "district": "노원구",
+      "currentDong": "상계동",
+      "parent": "경기도 양주군 노해면",
+      "historicalName": "상계리",
+      "variants": [
+        "상계리"
+      ],
+      "qualifiedQuery": "경기도 양주군 노해면 상계리",
+      "period": "1914년 노해면 편제 · 1963년 서울 편입",
+      "currentRegionId": "dong-노원구-상계동",
+      "catalogRegionId": "gu-노원구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://ebook.nowon.kr/src/viewer/download.php?host=main&no=2&site=20080225_094318",
+        "locator": "노원구 연혁 및 지역특성 > 1914년 노해면 관할리",
+        "method": "official_index_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "공식 PDF 검색 색인 및 기존 동명유래 검토 기록을 대조. PDF 해당 면의 추가 대조·과거 경계 검증 필요.",
+      "selectedRecordCount": 0
+    },
+    {
+      "id": "HPN-015",
+      "district": "노원구",
+      "currentDong": "월계동",
+      "parent": "경기도 양주군 노해면",
+      "historicalName": "월계리",
+      "variants": [
+        "월계리"
+      ],
+      "qualifiedQuery": "경기도 양주군 노해면 월계리",
+      "period": "1914년 노해면 편제 · 1963년 서울 편입",
+      "currentRegionId": "dong-노원구-월계동",
+      "catalogRegionId": "gu-노원구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://ebook.nowon.kr/src/viewer/download.php?host=main&no=2&site=20080225_094318",
+        "locator": "노원구 연혁 및 지역특성 > 1914년 노해면 관할리",
+        "method": "official_index_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "공식 PDF 검색 색인 및 기존 동명유래 검토 기록을 대조. PDF 해당 면의 추가 대조·과거 경계 검증 필요.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-016",
+      "district": "서초구",
+      "currentDong": "서초동",
+      "parent": "경기도 시흥군 신동면",
+      "historicalName": "서초리",
+      "variants": [
+        "서초리"
+      ],
+      "qualifiedQuery": "경기도 시흥군 신동면 서초리",
+      "period": "일제강점기 신동면 편제 · 1963년 서울 편입",
+      "currentRegionId": "dong-서초구-서초동",
+      "catalogRegionId": "gu-서초구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.seocho.go.kr/site/seocho/05/10502040200002015070810.jsp",
+        "locator": "서초동 > 동명 및 행정 변천 첫 문단",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "",
+      "selectedRecordCount": 1
+    },
+    {
+      "id": "HPN-017",
+      "district": "서초구",
+      "currentDong": "방배동",
+      "parent": "경기도 시흥군 신동면",
+      "historicalName": "방배리",
+      "variants": [
+        "방배리"
+      ],
+      "qualifiedQuery": "경기도 시흥군 신동면 방배리",
+      "period": "일제강점기 신동면 편제 · 1963년 서울 편입",
+      "currentRegionId": "dong-서초구-방배동",
+      "catalogRegionId": "gu-서초구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://www.seocho.go.kr/site/seocho/05/10502040500002015070810.jsp",
+        "locator": "방배동 > 동명 및 행정 변천 첫 문단",
+        "method": "official_text_checked",
+        "checkedOn": "2026-10-23"
+      },
+      "note": "",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-018",
+      "district": "중구",
+      "currentDong": "을지로1가",
+      "parent": "경성부",
+      "historicalName": "황금정1정목",
+      "variants": [
+        "황금정1정목",
+        "황금정일정목"
+      ],
+      "qualifiedQuery": "경성부 황금정1정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-중구-을지로1가",
+      "catalogRegionId": "gu-중구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%84%EC%A7%80%EB%A1%9C1%EA%B0%80",
+        "locator": "서울 지명사전 > 을지로1가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 1
+    },
+    {
+      "id": "HPN-019",
+      "district": "중구",
+      "currentDong": "을지로2가",
+      "parent": "경성부",
+      "historicalName": "황금정2정목",
+      "variants": [
+        "황금정2정목",
+        "황금정이정목"
+      ],
+      "qualifiedQuery": "경성부 황금정2정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-중구-을지로2가",
+      "catalogRegionId": "gu-중구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%84%EC%A7%80%EB%A1%9C2%EA%B0%80",
+        "locator": "서울 지명사전 > 을지로2가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 2
+    },
+    {
+      "id": "HPN-020",
+      "district": "중구",
+      "currentDong": "을지로6가",
+      "parent": "경성부",
+      "historicalName": "황금정6정목",
+      "variants": [
+        "황금정6정목",
+        "황금정육정목"
+      ],
+      "qualifiedQuery": "경성부 황금정6정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-중구-을지로6가",
+      "catalogRegionId": "gu-중구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9D%84%EC%A7%80%EB%A1%9C6%EA%B0%80",
+        "locator": "서울 지명사전 > 을지로6가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-021",
+      "district": "중구",
+      "currentDong": "명동1가",
+      "parent": "경성부",
+      "historicalName": "명치정1정목",
+      "variants": [
+        "명치정1정목",
+        "명치정일정목"
+      ],
+      "qualifiedQuery": "경성부 명치정1정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-중구-명동1가",
+      "catalogRegionId": "gu-중구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AA%85%EB%8F%991%EA%B0%80",
+        "locator": "서울 지명사전 > 명동1가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-022",
+      "district": "중구",
+      "currentDong": "명동2가",
+      "parent": "경성부",
+      "historicalName": "명치정2정목",
+      "variants": [
+        "명치정2정목",
+        "명치정이정목"
+      ],
+      "qualifiedQuery": "경성부 명치정2정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-중구-명동2가",
+      "catalogRegionId": "gu-중구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AA%85%EB%8F%992%EA%B0%80",
+        "locator": "서울 지명사전 > 명동2가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-023",
+      "district": "중구",
+      "currentDong": "충무로2가",
+      "parent": "경성부",
+      "historicalName": "본정2정목",
+      "variants": [
+        "본정2정목",
+        "본정이정목"
+      ],
+      "qualifiedQuery": "경성부 본정2정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-중구-충무로2가",
+      "catalogRegionId": "gu-중구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B6%A9%EB%AC%B4%EB%A1%9C2%EA%B0%80",
+        "locator": "서울 지명사전 > 충무로2가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-024",
+      "district": "중구",
+      "currentDong": "충무로4가",
+      "parent": "경성부",
+      "historicalName": "본정4정목",
+      "variants": [
+        "본정4정목",
+        "본정사정목"
+      ],
+      "qualifiedQuery": "경성부 본정4정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-중구-충무로4가",
+      "catalogRegionId": "gu-중구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B6%A9%EB%AC%B4%EB%A1%9C4%EA%B0%80",
+        "locator": "서울 지명사전 > 충무로4가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-025",
+      "district": "용산구",
+      "currentDong": "청파동2가",
+      "parent": "경성부",
+      "historicalName": "청엽정2정목",
+      "variants": [
+        "청엽정2정목",
+        "청엽정이정목"
+      ],
+      "qualifiedQuery": "경성부 청엽정2정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-용산구-청파동2가",
+      "catalogRegionId": "gu-용산구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B2%AD%ED%8C%8C%EB%8F%992%EA%B0%80",
+        "locator": "서울 지명사전 > 청파동2가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-026",
+      "district": "용산구",
+      "currentDong": "청파동3가",
+      "parent": "경성부",
+      "historicalName": "청엽정3정목",
+      "variants": [
+        "청엽정3정목",
+        "청엽정삼정목"
+      ],
+      "qualifiedQuery": "경성부 청엽정3정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-용산구-청파동3가",
+      "catalogRegionId": "gu-용산구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B2%AD%ED%8C%8C%EB%8F%993%EA%B0%80",
+        "locator": "서울 지명사전 > 청파동3가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 3
+    },
+    {
+      "id": "HPN-027",
+      "district": "용산구",
+      "currentDong": "원효로2가",
+      "parent": "경성부",
+      "historicalName": "원정2정목",
+      "variants": [
+        "원정2정목",
+        "원정이정목"
+      ],
+      "qualifiedQuery": "경성부 원정2정목",
+      "period": "1914년 정목 편제 · 1946년 개명",
+      "currentRegionId": "dong-용산구-원효로2가",
+      "catalogRegionId": "gu-용산구",
+      "spatialRelation": "historical_area_candidate",
+      "evidence": {
+        "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9B%90%ED%9A%A8%EB%A1%9C2%EA%B0%80",
+        "locator": "서울 지명사전 > 원효로2가 > 행정 변천",
+        "method": "existing_content_review",
+        "checkedOn": "2026-10-22"
+      },
+      "note": "기존 공식 원문 대조 완료 본문의 대응을 사용. 정목 숫자를 생략하거나 다른 정 이름의 일부와 일치시켜 연결하지 않음.",
+      "selectedRecordCount": 3
+    }
+  ],
+  "records": [
+    {
+      "id": "HPNR-fd9c26fd51bab4b3",
+      "providerId": "RITEM:1310377:200301559711:000000000007",
+      "title": "경성부명치정2정목소재잡종재산매불에따른대부료추징의건(도면첨부)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559711&rc_ritem_no=000000000007",
+      "productionYear": "1939",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-022"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "명동2가"
+      ],
+      "query": "경성부 명치정2정목",
+      "queriedAt": "2026-10-22T21:01:04.695Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-167813f6ce1a2222",
+      "providerId": "RITEM:1310377:200301559707:000000000019",
+      "title": "경성부본정2정목외2개정소재폐도폐구부지의신규등록및양여에관한건(도면첨부)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559707&rc_ritem_no=000000000019",
+      "productionYear": "1939",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-023"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "충무로2가"
+      ],
+      "query": "경성부 본정2정목",
+      "queriedAt": "2026-10-22T21:01:05.016Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-0dce2659a2471a89",
+      "providerId": "RITEM:1310377:200301559713:000000000011",
+      "title": "경성부본정2정목외남산정수정소재의폐도폐구부지인신규등록및양여에관한건(도면)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559713&rc_ritem_no=000000000011",
+      "productionYear": "1939",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-023"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "충무로2가"
+      ],
+      "query": "경성부 본정2정목",
+      "queriedAt": "2026-10-22T21:01:05.016Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-07e3a5c6df5af1e5",
+      "providerId": "RITEM:1310377:200301534351:000000000004",
+      "title": "황금정6정목소재경전버스건물매수서류-경성부황금정6정목(부유재산)(도면첨부)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534351&rc_ritem_no=000000000004",
+      "productionYear": "1931",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-020"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "을지로6가"
+      ],
+      "query": "경성부 황금정",
+      "queriedAt": "2026-10-22T20:58:14.520Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-c5e913ae0954ef30",
+      "providerId": "RITEM:1310377:200300299830:000000000001",
+      "title": "경기도 고양군 독도면 동독도리-0",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299830&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-002"
+      ],
+      "districts": [
+        "성동구"
+      ],
+      "currentDongs": [
+        "성수동2가"
+      ],
+      "query": "고양군 동독도리",
+      "queriedAt": "2026-10-22T21:06:11.756Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-3ea6231eac4d1a48",
+      "providerId": "RITEM:1310377:200300299847:000000000009",
+      "title": "경기도 고양군 독도면 동독도리-017 0282-19",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299847&rc_ritem_no=000000000009",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-002"
+      ],
+      "districts": [
+        "성동구"
+      ],
+      "currentDongs": [
+        "성수동2가"
+      ],
+      "query": "고양군 동독도리",
+      "queriedAt": "2026-10-22T21:06:11.756Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-ccaa5c3121373d2e",
+      "providerId": "RITEM:1310377:200300299847:000000000001",
+      "title": "경기도 고양군 독도면 동독도리-017 0282-2",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299847&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-002"
+      ],
+      "districts": [
+        "성동구"
+      ],
+      "currentDongs": [
+        "성수동2가"
+      ],
+      "query": "고양군 동독도리",
+      "queriedAt": "2026-10-22T21:06:11.756Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-d5ed73f76f3ce295",
+      "providerId": "RITEM:1310377:200300299880:000000000001",
+      "title": "경기도 고양군 독도면 서독도리-0",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299880&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-001"
+      ],
+      "districts": [
+        "성동구"
+      ],
+      "currentDongs": [
+        "성수동1가"
+      ],
+      "query": "고양군 서독도리",
+      "queriedAt": "2026-10-22T21:06:11.748Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-0d8b4e481372497a",
+      "providerId": "RITEM:1310377:200300299881:000000000001",
+      "title": "경기도 고양군 독도면 서독도리-001 0001-0",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299881&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-001"
+      ],
+      "districts": [
+        "성동구"
+      ],
+      "currentDongs": [
+        "성수동1가"
+      ],
+      "query": "고양군 서독도리",
+      "queriedAt": "2026-10-22T21:06:11.748Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-2d29725fd8127108",
+      "providerId": "RITEM:1310377:200300299881:000000000002",
+      "title": "경기도 고양군 독도면 서독도리-001 0002-0",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300299881&rc_ritem_no=000000000002",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-001"
+      ],
+      "districts": [
+        "성동구"
+      ],
+      "currentDongs": [
+        "성수동1가"
+      ],
+      "query": "고양군 서독도리",
+      "queriedAt": "2026-10-22T21:06:11.748Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-d6e570cfb72a6b97",
+      "providerId": "RITEM:1310377:200701512706:000000000001",
+      "title": "경기도 고양군 연희면 남가좌리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512706&rc_ritem_no=000000000001",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-010"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "남가좌동"
+      ],
+      "query": "경기도 고양군 연희면 남가좌리",
+      "queriedAt": "2026-10-22T21:02:46.163Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-e9ae91a35b7e9565",
+      "providerId": "RITEM:1310377:200701512706:000000000002",
+      "title": "경기도 고양군 연희면 남가좌리 보안림 조사지도-002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512706&rc_ritem_no=000000000002",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-010"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "남가좌동"
+      ],
+      "query": "경기도 고양군 연희면 남가좌리",
+      "queriedAt": "2026-10-22T21:02:46.163Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-816f001f2e8bc371",
+      "providerId": "RITEM:1310377:200701512706:000000000003",
+      "title": "경기도 고양군 연희면 남가좌리 보안림 조사지도-003",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512706&rc_ritem_no=000000000003",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-010"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "남가좌동"
+      ],
+      "query": "경기도 고양군 연희면 남가좌리",
+      "queriedAt": "2026-10-22T21:02:46.163Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-179781f9bb84949b",
+      "providerId": "RITEM:1310377:200701512698:000000000001",
+      "title": "경기도 고양군 연희면 대현리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512698&rc_ritem_no=000000000001",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-004"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "대현동"
+      ],
+      "query": "경기도 고양군 연희면 대현리",
+      "queriedAt": "2026-10-22T20:57:58.011Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-88c686ac3dc62bd8",
+      "providerId": "RITEM:1310377:200701512698:000000000002",
+      "title": "경기도 고양군 연희면 대현리 보안림 조사지도-002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512698&rc_ritem_no=000000000002",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-004"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "대현동"
+      ],
+      "query": "경기도 고양군 연희면 대현리",
+      "queriedAt": "2026-10-22T20:57:58.011Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-90bfb0d6ea80ad9a",
+      "providerId": "RITEM:1310377:200701512698:000000000003",
+      "title": "경기도 고양군 연희면 대현리 보안림 조사지도-003",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512698&rc_ritem_no=000000000003",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-004"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "대현동"
+      ],
+      "query": "경기도 고양군 연희면 대현리",
+      "queriedAt": "2026-10-22T20:57:58.011Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-2fd8f28f528fdd9f",
+      "providerId": "RITEM:1310377:200701512702:000000000001",
+      "title": "경기도 고양군 연희면 봉원리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512702&rc_ritem_no=000000000001",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-005"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "봉원동"
+      ],
+      "query": "경기도 고양군 연희면 봉원리",
+      "queriedAt": "2026-10-22T20:57:57.987Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-e917bdd28d415b1a",
+      "providerId": "RITEM:1310377:200701512704:000000000001",
+      "title": "경기도 고양군 연희면 북가좌리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512704&rc_ritem_no=000000000001",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-011"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "북가좌동"
+      ],
+      "query": "경기도 고양군 연희면 북가좌리",
+      "queriedAt": "2026-10-22T21:02:46.211Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-20264aa0a9c45c9a",
+      "providerId": "RITEM:1310377:200701512704:000000000002",
+      "title": "경기도 고양군 연희면 북가좌리 보안림 조사지도-002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512704&rc_ritem_no=000000000002",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-011"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "북가좌동"
+      ],
+      "query": "경기도 고양군 연희면 북가좌리",
+      "queriedAt": "2026-10-22T21:02:46.211Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-069b32e4ad36ba88",
+      "providerId": "RITEM:1310377:200701512704:000000000003",
+      "title": "경기도 고양군 연희면 북가좌리 보안림 조사지도-003",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512704&rc_ritem_no=000000000003",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-011"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "북가좌동"
+      ],
+      "query": "경기도 고양군 연희면 북가좌리",
+      "queriedAt": "2026-10-22T21:02:46.211Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-7092bac75abace06",
+      "providerId": "RITEM:1310377:200701512713:000000000001",
+      "title": "경기도 고양군 연희면 신촌리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512713&rc_ritem_no=000000000001",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-003"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "신촌동"
+      ],
+      "query": "경기도 고양군 연희면 신촌리",
+      "queriedAt": "2026-10-22T20:57:52.684Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-4c11e4f5c596d12d",
+      "providerId": "RITEM:1310377:200701512713:000000000002",
+      "title": "경기도 고양군 연희면 신촌리 보안림 조사지도-002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512713&rc_ritem_no=000000000002",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-003"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "신촌동"
+      ],
+      "query": "경기도 고양군 연희면 신촌리",
+      "queriedAt": "2026-10-22T20:57:52.684Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-69f6cd69b3f9163a",
+      "providerId": "RITEM:1310377:200701512711:000000000001",
+      "title": "경기도 고양군 연희면 신촌리 창전리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512711&rc_ritem_no=000000000001",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-003"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "신촌동"
+      ],
+      "query": "경기도 고양군 연희면 신촌리",
+      "queriedAt": "2026-10-22T20:57:52.684Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-e359bb45b5671b6e",
+      "providerId": "RITEM:1310377:200701512695:000000000001",
+      "title": "경기도 고양군 연희면 연희리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512695&rc_ritem_no=000000000001",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-007"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "연희동"
+      ],
+      "query": "경기도 고양군 연희면 연희리",
+      "queriedAt": "2026-10-22T20:57:58.428Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-ded3212fd788b3e4",
+      "providerId": "RITEM:1310377:200701512696:000000000001",
+      "title": "경기도 고양군 연희면 연희리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512696&rc_ritem_no=000000000001",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-007"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "연희동"
+      ],
+      "query": "경기도 고양군 연희면 연희리",
+      "queriedAt": "2026-10-22T20:57:58.428Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-d3205988abb40a39",
+      "providerId": "RITEM:1310377:200701512695:000000000002",
+      "title": "경기도 고양군 연희면 연희리 보안림 조사지도-002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512695&rc_ritem_no=000000000002",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-007"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "연희동"
+      ],
+      "query": "경기도 고양군 연희면 연희리",
+      "queriedAt": "2026-10-22T20:57:58.428Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-a98379cc6204be2c",
+      "providerId": "RITEM:1310377:200701512736:000000000001",
+      "title": "경기도 고양군 은평면 홍제내리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512736&rc_ritem_no=000000000001",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-008"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "홍제동"
+      ],
+      "query": "경기도 고양군 은평면 홍제내리",
+      "queriedAt": "2026-10-22T20:58:03.550Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-dc315ed4c52b3a25",
+      "providerId": "RITEM:1310377:200701512737:000000000001",
+      "title": "경기도 고양군 은평면 홍제내리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512737&rc_ritem_no=000000000001",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-008"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "홍제동"
+      ],
+      "query": "경기도 고양군 은평면 홍제내리",
+      "queriedAt": "2026-10-22T20:58:03.550Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-df38fb9aa032f877",
+      "providerId": "RITEM:1310377:200701512740:000000000001",
+      "title": "경기도 고양군 은평면 홍제내리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701512740&rc_ritem_no=000000000001",
+      "productionYear": "1916",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-008"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "홍제동"
+      ],
+      "query": "경기도 고양군 은평면 홍제내리",
+      "queriedAt": "2026-10-22T20:58:03.550Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-8a5044972f12d83f",
+      "providerId": "RITEM:1310377:200701511928:000000000001",
+      "title": "경기도 고양군 은평면 홍제외리 녹반리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701511928&rc_ritem_no=000000000001",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-009"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "홍은동"
+      ],
+      "query": "경기도 고양군 은평면 홍제외리",
+      "queriedAt": "2026-10-22T21:02:40.598Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-1911d7224f1beb7a",
+      "providerId": "RITEM:1310377:200701511932:000000000001",
+      "title": "경기도 고양군 은평면 홍제외리 보안림 조사지도-001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701511932&rc_ritem_no=000000000001",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-009"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "홍은동"
+      ],
+      "query": "경기도 고양군 은평면 홍제외리",
+      "queriedAt": "2026-10-22T21:02:40.598Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-0b0ce7524cf2d7b4",
+      "providerId": "RITEM:1310377:200701511932:000000000002",
+      "title": "경기도 고양군 은평면 홍제외리 보안림 조사지도-002",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200701511932&rc_ritem_no=000000000002",
+      "productionYear": "1915",
+      "producer": "경기도",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-009"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "홍은동"
+      ],
+      "query": "경기도 고양군 은평면 홍제외리",
+      "queriedAt": "2026-10-22T21:02:40.598Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-70afe4e3c0393b41",
+      "providerId": "RITEM:1310377:200301559686:000000000009",
+      "title": "경성부원정2정목외1개정소재국유지를도로부지에조체의건(도면첨부)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559686&rc_ritem_no=000000000009",
+      "productionYear": "1937",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-027"
+      ],
+      "districts": [
+        "용산구"
+      ],
+      "currentDongs": [
+        "원효로2가"
+      ],
+      "query": "경성부 원정2정목",
+      "queriedAt": "2026-10-22T21:01:18.379Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-ef0e1cb9e14ee608",
+      "providerId": "RITEM:1310377:200301559707:000000000006",
+      "title": "경성부명치정1정목소재잡종재산을애국부인회에양여의건",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559707&rc_ritem_no=000000000006",
+      "productionYear": "1939",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-021"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "명동1가"
+      ],
+      "query": "경성부 명치정1정목",
+      "queriedAt": "2026-10-22T21:01:06.181Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-ac4cefb0a61d36a3",
+      "providerId": "RITEM:1310377:200301559707:000000000007",
+      "title": "경성부명치정1정목소재잡종재산을애국부인회에양여의건",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559707&rc_ritem_no=000000000007",
+      "productionYear": "1939",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-021"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "명동1가"
+      ],
+      "query": "경성부 명치정1정목",
+      "queriedAt": "2026-10-22T21:01:06.181Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-33bb7e5d6be86059",
+      "providerId": "RITEM:1310377:200301559736:000000000013",
+      "title": "경성부본정4정목소재공동변소부지무상계속대부에관한건",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559736&rc_ritem_no=000000000013",
+      "productionYear": "1944",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-024"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "충무로4가"
+      ],
+      "query": "경성부 본정4정목",
+      "queriedAt": "2026-10-22T21:01:12.366Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-7df2d2a792620f48",
+      "providerId": "RITEM:1310377:200301559704:000000000019",
+      "title": "경성부청엽정2정목소재폐도양여원에관한건",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559704&rc_ritem_no=000000000019",
+      "productionYear": "1938",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-025"
+      ],
+      "districts": [
+        "용산구"
+      ],
+      "currentDongs": [
+        "청파동2가"
+      ],
+      "query": "경성부 청엽정2정목",
+      "queriedAt": "2026-10-22T21:01:12.362Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-19de3f7f05a9435b",
+      "providerId": "RITEM:1310377:200301559690:000000000031",
+      "title": "경성부황금정6정목소재잡종재산을경성공립여자실업학교및동대문소학교외통로용지로",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301559690&rc_ritem_no=000000000031",
+      "productionYear": "1928",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-020"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "을지로6가"
+      ],
+      "query": "경성부 황금정6정목",
+      "queriedAt": "2026-10-22T21:00:58.727Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-8e39d3e6f3b2b1f9",
+      "providerId": "RITEM:1310377:200300863210:000000000040",
+      "title": "국유토지양여통지서-경기도양주군노해면월계리-노해면",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300863210&rc_ritem_no=000000000040",
+      "productionYear": "1919",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-015"
+      ],
+      "districts": [
+        "노원구"
+      ],
+      "currentDongs": [
+        "월계동"
+      ],
+      "query": "경기도 양주군 노해면 월계리",
+      "queriedAt": "2026-10-22T20:58:08.993Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-df9bdccf5673c276",
+      "providerId": "RITEM:1310377:200301557340:000000000002",
+      "title": "용지매수하조서-경성부원정2정목",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557340&rc_ritem_no=000000000002",
+      "productionYear": "1940",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-027"
+      ],
+      "districts": [
+        "용산구"
+      ],
+      "currentDongs": [
+        "원효로2가"
+      ],
+      "query": "경성부 원정2정목",
+      "queriedAt": "2026-10-22T21:01:18.379Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-e59302aadb073f51",
+      "providerId": "RITEM:1310377:200301557334:000000000002",
+      "title": "토지매도증서(매수자-조선총독부)-경성부원정2정목",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557334&rc_ritem_no=000000000002",
+      "productionYear": "1940",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-027"
+      ],
+      "districts": [
+        "용산구"
+      ],
+      "currentDongs": [
+        "원효로2가"
+      ],
+      "query": "경성부 원정2정목",
+      "queriedAt": "2026-10-22T21:01:18.379Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-74e83333ef0da075",
+      "providerId": "RITEM:1310377:200300301991:000000000001",
+      "title": "경기도 고양군 연희면 봉원리-0",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301991&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-005"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "봉원동"
+      ],
+      "query": "경기도 고양군 연희면 봉원리",
+      "queriedAt": "2026-10-22T20:57:57.987Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-1d7c4681911ca9ec",
+      "providerId": "RITEM:1310377:200300301992:000000000001",
+      "title": "경기도 고양군 연희면 봉원리-001 0001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301992&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-005"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "봉원동"
+      ],
+      "query": "경기도 고양군 연희면 봉원리",
+      "queriedAt": "2026-10-22T20:57:57.987Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-43331c8b3767ec63",
+      "providerId": "RITEM:1310377:200300301940:000000000001",
+      "title": "경기도 고양군 연희면 창천리-0",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301940&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-006"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "창천동"
+      ],
+      "query": "경기도 고양군 연희면 창천리",
+      "queriedAt": "2026-10-22T20:58:03.528Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-4ce0511981e4e96f",
+      "providerId": "RITEM:1310377:200300301941:000000000001",
+      "title": "경기도 고양군 연희면 창천리-001 0001",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301941&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-006"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "창천동"
+      ],
+      "query": "경기도 고양군 연희면 창천리",
+      "queriedAt": "2026-10-22T20:58:03.528Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-a4a164cc1417330a",
+      "providerId": "RITEM:1310377:200300301942:000000000001",
+      "title": "경기도 고양군 연희면 창천리-002 0002-0",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300301942&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-006"
+      ],
+      "districts": [
+        "서대문구"
+      ],
+      "currentDongs": [
+        "창천동"
+      ],
+      "query": "경기도 고양군 연희면 창천리",
+      "queriedAt": "2026-10-22T20:58:03.528Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-cae17c6a7a65891a",
+      "providerId": "RITEM:1310377:200300326843:000000000001",
+      "title": "경기도 시흥군 신동면 방배리-004",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300326843&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-017"
+      ],
+      "districts": [
+        "서초구"
+      ],
+      "currentDongs": [
+        "방배동"
+      ],
+      "query": "경기도 시흥군 신동면 방배리",
+      "queriedAt": "2026-10-22T21:03:05.704Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-51933c7a9027e1cb",
+      "providerId": "RITEM:1310377:200300326844:000000000001",
+      "title": "경기도 시흥군 신동면 방배리-005",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300326844&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-017"
+      ],
+      "districts": [
+        "서초구"
+      ],
+      "currentDongs": [
+        "방배동"
+      ],
+      "query": "경기도 시흥군 신동면 방배리",
+      "queriedAt": "2026-10-22T21:03:05.704Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-01bc831a59149821",
+      "providerId": "RITEM:1310377:200300326846:000000000001",
+      "title": "경기도 시흥군 신동면 방배리-007",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300326846&rc_ritem_no=000000000001",
+      "productionYear": "1924",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-017"
+      ],
+      "districts": [
+        "서초구"
+      ],
+      "currentDongs": [
+        "방배동"
+      ],
+      "query": "경기도 시흥군 신동면 방배리",
+      "queriedAt": "2026-10-22T21:03:05.704Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-bbd680c68f4a929a",
+      "providerId": "RITEM:1310377:200300357959:000000000001",
+      "title": "경기도 양주군 노해면 월계리-0",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300357959&rc_ritem_no=000000000001",
+      "productionYear": "1914",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-015"
+      ],
+      "districts": [
+        "노원구"
+      ],
+      "currentDongs": [
+        "월계동"
+      ],
+      "query": "경기도 양주군 노해면 월계리",
+      "queriedAt": "2026-10-22T20:58:08.993Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-259f721988dcbc41",
+      "providerId": "RITEM:1310377:200300357961:000000000003",
+      "title": "경기도 양주군 노해면 월계리-002 0011-0",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300357961&rc_ritem_no=000000000003",
+      "productionYear": "1914",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-015"
+      ],
+      "districts": [
+        "노원구"
+      ],
+      "currentDongs": [
+        "월계동"
+      ],
+      "query": "경기도 양주군 노해면 월계리",
+      "queriedAt": "2026-10-22T20:58:08.993Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-0726cdd7883873cb",
+      "providerId": "RITEM:1310377:200301531548:000000000035",
+      "title": "경기도경성부청엽정2정목산1-7",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301531548&rc_ritem_no=000000000035",
+      "productionYear": "1917",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-025"
+      ],
+      "districts": [
+        "용산구"
+      ],
+      "currentDongs": [
+        "청파동2가"
+      ],
+      "query": "경성부 청엽정",
+      "queriedAt": "2026-10-22T20:58:19.935Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-dd9d36b52c09f5fb",
+      "providerId": "RITEM:1310377:200301531548:000000000036",
+      "title": "경기도경성부청엽정3정목산1-9",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301531548&rc_ritem_no=000000000036",
+      "productionYear": "1917",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-026"
+      ],
+      "districts": [
+        "용산구"
+      ],
+      "currentDongs": [
+        "청파동3가"
+      ],
+      "query": "경성부 청엽정",
+      "queriedAt": "2026-10-22T20:58:19.935Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-34287e770af1fa57",
+      "providerId": "RITEM:1310377:200301531549:000000000018",
+      "title": "경기도시흥군신동면서초리산1-194",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301531549&rc_ritem_no=000000000018",
+      "productionYear": "1917",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-016"
+      ],
+      "districts": [
+        "서초구"
+      ],
+      "currentDongs": [
+        "서초동"
+      ],
+      "query": "경기도 시흥군 신동면 서초리",
+      "queriedAt": "2026-10-22T21:03:00.006Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-ec9c5b7dd48007bf",
+      "providerId": "RITEM:1310377:200301531550:000000000045",
+      "title": "경기도양주군노해면하계리산1-56",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301531550&rc_ritem_no=000000000045",
+      "productionYear": "1917",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-012"
+      ],
+      "districts": [
+        "노원구"
+      ],
+      "currentDongs": [
+        "하계동"
+      ],
+      "query": "경기도 양주군 노해면 하계리",
+      "queriedAt": "2026-10-22T21:02:46.379Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-5408160cd9b684d5",
+      "providerId": "RITEM:1310377:200301534366:000000000019",
+      "title": "도로용지권리증서철-경성부남부본정2정목(관유재산)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534366&rc_ritem_no=000000000019",
+      "productionYear": "1919",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-023"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "충무로2가"
+      ],
+      "query": "경성부 본정2정목",
+      "queriedAt": "2026-10-22T21:01:05.016Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-b4a94c54f999a512",
+      "providerId": "RITEM:1310377:200301534366:000000000003",
+      "title": "도로용지권리증서철-경성부남부본정4정목(관유재산)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534366&rc_ritem_no=000000000003",
+      "productionYear": "1919",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-024"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "충무로4가"
+      ],
+      "query": "경성부 본정4정목",
+      "queriedAt": "2026-10-22T21:01:12.366Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-009936d792b33a91",
+      "providerId": "RITEM:1310377:200301534366:000000000024",
+      "title": "도로용지권리증서철-경성부남부황금정2정목(관유재산)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534366&rc_ritem_no=000000000024",
+      "productionYear": "1919",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-019"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "을지로2가"
+      ],
+      "query": "경성부 황금정2정목",
+      "queriedAt": "2026-10-22T21:00:57.179Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-bd6a8d3868881eae",
+      "providerId": "RITEM:1310377:200301534366:000000000004",
+      "title": "도로용지권리증서철-경성부남부황금정6정목(관유재산)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534366&rc_ritem_no=000000000004",
+      "productionYear": "1919",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-020"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "을지로6가"
+      ],
+      "query": "경성부 황금정6정목",
+      "queriedAt": "2026-10-22T21:00:58.727Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-0103e997478c8525",
+      "providerId": "RITEM:1310377:200801821489:000000000097",
+      "title": "임야세명기장(경기도 경성부 본정 4정목)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200801821489&rc_ritem_no=000000000097",
+      "productionYear": "1933",
+      "producer": "경기도 평택시",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-024"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "충무로4가"
+      ],
+      "query": "경성부 본정",
+      "queriedAt": "2026-10-22T20:58:19.957Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-d8074b50715b7a00",
+      "providerId": "RITEM:1310377:200302660359:000000000122",
+      "title": "지세명기장(경기도 경성부 명치정 2정목)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200302660359&rc_ritem_no=000000000122",
+      "productionYear": "1943",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-022"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "명동2가"
+      ],
+      "query": "경성부 명치정",
+      "queriedAt": "2026-10-22T20:58:19.966Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-17df3ccc81eb9592",
+      "providerId": "RITEM:1310377:200302660361:000000000101",
+      "title": "지세명기장(경기도 경성부 명치정 2정목)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200302660361&rc_ritem_no=000000000101",
+      "productionYear": "1943",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-022"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "명동2가"
+      ],
+      "query": "경성부 명치정",
+      "queriedAt": "2026-10-22T20:58:19.966Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-9a97047966bd9296",
+      "providerId": "RITEM:1310377:200302977944:000000000011",
+      "title": "지세명기장(경기도 경성부 황금정 2정목)",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200302977944&rc_ritem_no=000000000011",
+      "productionYear": "1933",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 열람 가능",
+      "aliasIds": [
+        "HPN-019"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "을지로2가"
+      ],
+      "query": "경성부 황금정",
+      "queriedAt": "2026-10-22T20:58:14.520Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-09c2ccfba20af83f",
+      "providerId": "RITEM:1310377:200301557388:000000000065",
+      "title": "지장물건이전승낙서-경성부청엽정3정목",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557388&rc_ritem_no=000000000065",
+      "productionYear": "1940",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-026"
+      ],
+      "districts": [
+        "용산구"
+      ],
+      "currentDongs": [
+        "청파동3가"
+      ],
+      "query": "경성부 청엽정3정목",
+      "queriedAt": "2026-10-22T21:01:12.355Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-c8effae01a85e232",
+      "providerId": "RITEM:1310377:200301557388:000000000067",
+      "title": "지장물건이전승낙서-경성부청엽정3정목",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557388&rc_ritem_no=000000000067",
+      "productionYear": "1940",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-026"
+      ],
+      "districts": [
+        "용산구"
+      ],
+      "currentDongs": [
+        "청파동3가"
+      ],
+      "query": "경성부 청엽정3정목",
+      "queriedAt": "2026-10-22T21:01:12.355Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-066d83434fbaff7e",
+      "providerId": "RITEM:1310377:200301557388:000000000081",
+      "title": "토지매도증서-경성부청엽정2정목",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301557388&rc_ritem_no=000000000081",
+      "productionYear": "1940",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-025"
+      ],
+      "districts": [
+        "용산구"
+      ],
+      "currentDongs": [
+        "청파동2가"
+      ],
+      "query": "경성부 청엽정2정목",
+      "queriedAt": "2026-10-22T21:01:12.362Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-70a964a70dc7c8d9",
+      "providerId": "RITEM:1310377:200301534337:000000000025",
+      "title": "하수용지권리증서철-경성부남부명치정1정목",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534337&rc_ritem_no=000000000025",
+      "productionYear": "1919",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-021"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "명동1가"
+      ],
+      "query": "경성부 명치정1정목",
+      "queriedAt": "2026-10-22T21:01:06.181Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    },
+    {
+      "id": "HPNR-dacda598aa64e9ac",
+      "providerId": "RITEM:1310377:200301534337:000000000029",
+      "title": "하수용지권리증서철-경성부남부황금정1정목",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301534337&rc_ritem_no=000000000029",
+      "productionYear": "1919",
+      "producer": "조선총독부",
+      "recordType": "건",
+      "openness": "공개",
+      "onlineReading": "온라인 원문 미제공",
+      "aliasIds": [
+        "HPN-018"
+      ],
+      "districts": [
+        "중구"
+      ],
+      "currentDongs": [
+        "을지로1가"
+      ],
+      "query": "경성부 황금정1정목",
+      "queriedAt": "2026-10-22T21:00:57.848Z",
+      "verification": "official_api_metadata_checked",
+      "originalFileRetrieved": false,
+      "parcelVerified": false
+    }
+  ],
+  "queries": [
+    {
+      "query": "경기도 고양군 뚝도면 서뚝도리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:02:40.593Z"
+    },
+    {
+      "query": "경기도 고양군 뚝도면 동뚝도리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:02:41.477Z"
+    },
+    {
+      "query": "경기도 고양군 은평면 홍제외리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 415,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:02:40.598Z"
+    },
+    {
+      "query": "경기도 고양군 연희면 남가좌리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 332,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:02:46.163Z"
+    },
+    {
+      "query": "경기도 고양군 연희면 북가좌리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 225,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:02:46.211Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 하계리",
+      "page": 5,
+      "httpStatus": 200,
+      "providerTotal": 385,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:02:46.379Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 하계리",
+      "page": 15,
+      "httpStatus": 200,
+      "providerTotal": 385,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 양주군 노해면 하계리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T21:02:52.154Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 중계리",
+      "page": 5,
+      "httpStatus": 200,
+      "providerTotal": 625,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:02:52.146Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 중계리",
+      "page": 15,
+      "httpStatus": 200,
+      "providerTotal": 625,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 양주군 노해면 중계리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T21:02:52.170Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 상계리",
+      "page": 5,
+      "httpStatus": 200,
+      "providerTotal": 1294,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:02:59.986Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 상계리",
+      "page": 15,
+      "httpStatus": 200,
+      "providerTotal": 1294,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 양주군 노해면 상계리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T21:02:59.994Z"
+    },
+    {
+      "query": "경기도 시흥군 신동면 서초리",
+      "page": 5,
+      "httpStatus": 200,
+      "providerTotal": 1304,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:03:00.006Z"
+    },
+    {
+      "query": "경기도 시흥군 신동면 서초리",
+      "page": 15,
+      "httpStatus": 200,
+      "providerTotal": 1304,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 시흥군 신동면 서초리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T21:03:05.713Z"
+    },
+    {
+      "query": "경기도 시흥군 신동면 방배리",
+      "page": 5,
+      "httpStatus": 200,
+      "providerTotal": 750,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:03:05.704Z"
+    },
+    {
+      "query": "경기도 시흥군 신동면 방배리",
+      "page": 15,
+      "httpStatus": 200,
+      "providerTotal": 750,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 시흥군 신동면 방배리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T21:03:05.682Z"
+    },
+    {
+      "query": "경기도 고양군 연희면 신촌리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 159,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:57:52.684Z"
+    },
+    {
+      "query": "경기도 고양군 연희면 대현리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 162,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:57:58.011Z"
+    },
+    {
+      "query": "경기도 고양군 연희면 봉원리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 56,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:57:57.987Z"
+    },
+    {
+      "query": "경기도 고양군 연희면 연희리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 547,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:57:58.428Z"
+    },
+    {
+      "query": "경기도 고양군 연희면 창천리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 115,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:58:03.528Z"
+    },
+    {
+      "query": "경기도 고양군 은평면 홍제내리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 374,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:58:03.550Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 하계리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 385,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 양주군 노해면 하계리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T20:58:03.473Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 중계리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 625,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 양주군 노해면 중계리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T20:58:09.000Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 상계리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 1294,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 양주군 노해면 상계리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T20:58:08.973Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 월계리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 936,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:58:08.993Z"
+    },
+    {
+      "query": "경기도 시흥군 신동면 서초리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 1304,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 시흥군 신동면 서초리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T20:58:14.510Z"
+    },
+    {
+      "query": "경기도 시흥군 신동면 방배리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 750,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": {
+        "query": "경기도 시흥군 신동면 방배리",
+        "page": 5
+      },
+      "queriedAt": "2026-10-22T20:58:14.529Z"
+    },
+    {
+      "query": "경성부 황금정",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 4486,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:58:14.520Z"
+    },
+    {
+      "query": "경성부 명치정",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 875,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:58:19.966Z"
+    },
+    {
+      "query": "경성부 본정",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 3643,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:58:19.957Z"
+    },
+    {
+      "query": "경성부 청엽정",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 613,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:58:19.935Z"
+    },
+    {
+      "query": "경성부 원정",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 2277,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T20:58:27.291Z"
+    },
+    {
+      "query": "경기도 고양군 독도면",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 6724,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:06:11.737Z"
+    },
+    {
+      "query": "고양군 서독도리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 707,
+      "returned": 8,
+      "outsideOmitted": 0,
+      "unknownOmitted": 2,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:06:11.748Z"
+    },
+    {
+      "query": "고양군 동독도리",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 864,
+      "returned": 8,
+      "outsideOmitted": 0,
+      "unknownOmitted": 2,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:06:11.756Z"
+    },
+    {
+      "query": "고양군 서뚝도",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:06:17.199Z"
+    },
+    {
+      "query": "고양군 동뚝도",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:06:17.206Z"
+    },
+    {
+      "query": "노해면 상계리 지적도",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:06:18.269Z"
+    },
+    {
+      "query": "노해면 상계리 임야",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:06:24.354Z"
+    },
+    {
+      "query": "경성부 黃金町",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:06:24.339Z"
+    },
+    {
+      "query": "경성부 明治町",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:06:24.333Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 하계리 토지",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:00:40.429Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 중계리 토지",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:00:40.544Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 상계리 토지",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:00:40.775Z"
+    },
+    {
+      "query": "경기도 양주군 노해면 월계리 토지",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 1,
+      "returned": 1,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:00:49.400Z"
+    },
+    {
+      "query": "경기도 시흥군 신동면 서초리 토지",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:00:49.488Z"
+    },
+    {
+      "query": "경기도 시흥군 신동면 방배리 토지",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 0,
+      "returned": 0,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:00:49.377Z"
+    },
+    {
+      "query": "경성부 황금정1정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 1283,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:00:57.848Z"
+    },
+    {
+      "query": "경성부 황금정2정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 214,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:00:57.179Z"
+    },
+    {
+      "query": "경성부 황금정6정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 94,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:00:58.727Z"
+    },
+    {
+      "query": "경성부 명치정1정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 848,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:01:06.181Z"
+    },
+    {
+      "query": "경성부 명치정2정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 119,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:01:04.695Z"
+    },
+    {
+      "query": "경성부 본정2정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 119,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:01:05.016Z"
+    },
+    {
+      "query": "경성부 본정4정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 162,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:01:12.366Z"
+    },
+    {
+      "query": "경성부 청엽정2정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 513,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:01:12.362Z"
+    },
+    {
+      "query": "경성부 청엽정3정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 171,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:01:12.355Z"
+    },
+    {
+      "query": "경성부 원정2정목",
+      "page": 1,
+      "httpStatus": 200,
+      "providerTotal": 119,
+      "returned": 10,
+      "outsideOmitted": 0,
+      "unknownOmitted": 0,
+      "duplicateOf": null,
+      "queriedAt": "2026-10-22T21:01:18.379Z"
+    }
+  ]
+}

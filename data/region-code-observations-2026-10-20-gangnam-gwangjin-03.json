@@ -1,0 +1,535 @@
+{
+  "date": "2026-10-20",
+  "phase": "regions",
+  "batch": "regions-20261020-gangnam-gwangjin-03",
+  "before": {
+    "total": 467,
+    "withCode": 89,
+    "reviewed": 87,
+    "addressObserved": 87,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "after": {
+    "total": 467,
+    "withCode": 139,
+    "reviewed": 137,
+    "addressObserved": 137,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "districts": {
+    "gu-강남구": 14,
+    "gu-강동구": 9,
+    "gu-강북구": 4,
+    "gu-강서구": 13,
+    "gu-관악구": 3,
+    "gu-광진구": 7
+  },
+  "results": [
+    {
+      "id": "dong-강남구-개포동",
+      "code": "1168010300",
+      "revision": 1,
+      "reviewId": "dbc0fc80-45fd-428a-9621-a11b59c9447d",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:39:55.110Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-논현동",
+      "code": "1168010800",
+      "revision": 1,
+      "reviewId": "53b50a9b-88f2-426b-818b-2daca5dfae6d",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:39:56.290Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-대치동",
+      "code": "1168010600",
+      "revision": 1,
+      "reviewId": "a498b69e-5273-44db-9f16-35dde932ad24",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:39:57.444Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-도곡동",
+      "code": "1168011800",
+      "revision": 1,
+      "reviewId": "4f447527-3cc8-4c60-93b6-d23546932c70",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:39:58.621Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-삼성동",
+      "code": "1168010500",
+      "revision": 1,
+      "reviewId": "1ec88cd9-cfe4-4c8f-b365-bf58fcce9786",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:39:59.791Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-세곡동",
+      "code": "1168011100",
+      "revision": 1,
+      "reviewId": "1a1f6afe-5ba6-4bfd-865b-8ac750334349",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:00.956Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-수서동",
+      "code": "1168011500",
+      "revision": 1,
+      "reviewId": "07c6acbe-57fb-4632-b890-532663430ba2",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:02.145Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-신사동",
+      "code": "1168010700",
+      "revision": 1,
+      "reviewId": "2acc9eee-56ff-46e3-ab15-50bb209e3931",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:03.823Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-압구정동",
+      "code": "1168011000",
+      "revision": 1,
+      "reviewId": "4d07c79c-9c56-4321-87eb-0b309d31987f",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:04.981Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-역삼동",
+      "code": "1168010100",
+      "revision": 1,
+      "reviewId": "e9a78316-dc90-480c-ad82-9f5cbc253eec",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:06.159Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-율현동",
+      "code": "1168011300",
+      "revision": 1,
+      "reviewId": "aeed4e57-7716-4a29-9423-3609de7d499d",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:07.333Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-일원동",
+      "code": "1168011400",
+      "revision": 1,
+      "reviewId": "a05d36d6-8208-49f1-b834-a9e1b92e4f81",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:08.502Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-자곡동",
+      "code": "1168011200",
+      "revision": 1,
+      "reviewId": "5b5fa9a7-3147-4d97-af3b-e1be84752017",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:09.683Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강남구-청담동",
+      "code": "1168010400",
+      "revision": 1,
+      "reviewId": "69d7e368-8789-478c-8d53-4aafd7fa3ab6",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:10.847Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강동구-강일동",
+      "code": "1174011000",
+      "revision": 1,
+      "reviewId": "1bce1b0e-a6cb-419a-8a39-050ee3b0e730",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:12.002Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강동구-고덕동",
+      "code": "1174010200",
+      "revision": 1,
+      "reviewId": "ff43a735-5da9-41e8-8dd9-94f818795e61",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:13.294Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강동구-길동",
+      "code": "1174010500",
+      "revision": 1,
+      "reviewId": "c20f680e-1539-495a-91ee-56be5cbf25f0",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:14.444Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강동구-둔촌동",
+      "code": "1174010600",
+      "revision": 1,
+      "reviewId": "4109c670-f118-45bb-a260-e5906f6704ad",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:15.607Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강동구-명일동",
+      "code": "1174010100",
+      "revision": 1,
+      "reviewId": "49f4910d-18f0-41df-bb59-40d6e5e2f0a0",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:16.770Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강동구-상일동",
+      "code": "1174010300",
+      "revision": 1,
+      "reviewId": "a436736c-1a7b-4909-9666-049d534892c9",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:17.928Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강동구-성내동",
+      "code": "1174010800",
+      "revision": 1,
+      "reviewId": "aa64aef4-a064-4303-9af6-8333400321d4",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:19.140Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강동구-암사동",
+      "code": "1174010700",
+      "revision": 1,
+      "reviewId": "5a6aa6da-1c20-415b-8322-21bf1c0253c4",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:20.310Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강동구-천호동",
+      "code": "1174010900",
+      "revision": 1,
+      "reviewId": "ccb3aaf7-32e6-4ebe-82ca-96f23b884ae2",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:21.475Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강북구-미아동",
+      "code": "1130510100",
+      "revision": 1,
+      "reviewId": "2d3c2afa-c5ec-47d9-977f-be60fbe64c80",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:22.629Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강북구-번동",
+      "code": "1130510200",
+      "revision": 1,
+      "reviewId": "6995061f-6d38-48fe-8d16-a4c549423d5a",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:23.791Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강북구-수유동",
+      "code": "1130510300",
+      "revision": 1,
+      "reviewId": "89488b9c-26b9-4408-8ec6-557f9b87a1d7",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:24.985Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강북구-우이동",
+      "code": "1130510400",
+      "revision": 1,
+      "reviewId": "a71c5d03-4604-461c-9a01-1644ef688e83",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:26.152Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-가양동",
+      "code": "1150010400",
+      "revision": 1,
+      "reviewId": "6012d2c3-de0f-472f-a710-80686db22b74",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:27.319Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-개화동",
+      "code": "1150011000",
+      "revision": 1,
+      "reviewId": "47cf9e74-4dc6-42dc-ae0f-a84c45cd12a6",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:28.530Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-공항동",
+      "code": "1150010800",
+      "revision": 1,
+      "reviewId": "c3214936-8dd4-4d9a-a8de-ce498c172d3b",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:29.700Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-과해동",
+      "code": "1150011100",
+      "revision": 1,
+      "reviewId": "8b4994c5-2882-4299-89dc-817b913773fc",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:30.858Z",
+      "matched": 9
+    },
+    {
+      "id": "dong-강서구-내발산동",
+      "code": "1150010600",
+      "revision": 1,
+      "reviewId": "bd888871-6f8c-4998-a6c2-f96a76e97e3c",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:32.028Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-등촌동",
+      "code": "1150010200",
+      "revision": 1,
+      "reviewId": "40c65891-7dfe-4989-b30d-1ee6f370ff55",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:33.193Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-마곡동",
+      "code": "1150010500",
+      "revision": 1,
+      "reviewId": "f445e570-6f5f-4f9a-b098-1bf8a8111457",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:34.349Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-방화동",
+      "code": "1150010900",
+      "revision": 1,
+      "reviewId": "c7dfd13d-83b0-45f0-9ba4-3dc5808e54d3",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:35.522Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-염창동",
+      "code": "1150010100",
+      "revision": 1,
+      "reviewId": "0553f5a5-cc42-47ef-9a5c-ebe490630b53",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:36.797Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-오곡동",
+      "code": "1150011200",
+      "revision": 1,
+      "reviewId": "af5f15fc-27b8-4435-a61f-52c5a9b436ad",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:37.946Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-오쇠동",
+      "code": "1150011300",
+      "revision": 1,
+      "reviewId": "77cf5df0-d8f7-4248-b06c-5d17837692d4",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:39.106Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-외발산동",
+      "code": "1150010700",
+      "revision": 1,
+      "reviewId": "e0445e69-cc5d-4501-94d3-9933c2dce7ad",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:40.280Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-강서구-화곡동",
+      "code": "1150010300",
+      "revision": 1,
+      "reviewId": "da4b582a-d970-4035-83fc-e807570d18db",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:41.440Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-관악구-남현동",
+      "code": "1162010300",
+      "revision": 1,
+      "reviewId": "999bf2c8-e872-40de-8847-459e549d841a",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:42.598Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-관악구-봉천동",
+      "code": "1162010100",
+      "revision": 1,
+      "reviewId": "44719a4a-f158-47cf-9655-9966b0da5be4",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:43.764Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-관악구-신림동",
+      "code": "1162010200",
+      "revision": 1,
+      "reviewId": "9e83ad76-eabb-4152-9dc2-4838e6417a07",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:44.926Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-광진구-광장동",
+      "code": "1121510400",
+      "revision": 1,
+      "reviewId": "819bc6c7-eae4-438c-8038-27389f479b27",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:46.073Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-광진구-구의동",
+      "code": "1121510300",
+      "revision": 1,
+      "reviewId": "60b20490-30d8-456f-bfe5-b46a7bdff650",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:47.235Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-광진구-군자동",
+      "code": "1121510900",
+      "revision": 1,
+      "reviewId": "ea8c6f50-b128-49d7-937b-e9de7af9e5d6",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:48.391Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-광진구-능동",
+      "code": "1121510200",
+      "revision": 1,
+      "reviewId": "ac14bfc9-98eb-4fa7-88da-38f6ed76adda",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:49.545Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-광진구-자양동",
+      "code": "1121510500",
+      "revision": 1,
+      "reviewId": "4617a9b4-9230-47a0-8d22-b55cf0e961d0",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:50.722Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-광진구-중곡동",
+      "code": "1121510100",
+      "revision": 1,
+      "reviewId": "b08f824e-b0c6-4e60-b32f-f72c3778468c",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:51.886Z",
+      "matched": 10
+    },
+    {
+      "id": "dong-광진구-화양동",
+      "code": "1121510700",
+      "revision": 1,
+      "reviewId": "32d8ff78-ecfe-4e89-8659-518bc57ded02",
+      "status": "address_observed",
+      "checkedAt": "2026-10-20T05:40:53.047Z",
+      "matched": 10
+    }
+  ],
+  "validation": {
+    "all50ReadBack": true,
+    "allEvidenceFieldsChecked": true,
+    "replayUnchanged": 3,
+    "replayReviewIdsPreserved": true,
+    "immutableRegionFieldsPreserved": true,
+    "unselectedRegionsUnchanged": true,
+    "unchangedStats": {
+      "sources": 524,
+      "districts": 25,
+      "dongs": 467,
+      "historicalAreas": 43,
+      "passages": 638,
+      "facts": 21,
+      "assets": 20,
+      "originalSources": 123,
+      "rightsChecked": 136,
+      "versions": 524,
+      "pending": 350,
+      "unknownRights": 388,
+      "storage": "D1",
+      "coverageNote": "지역 목록 수는 역사 설명 확보 수와 다릅니다. 지역 분류는 건물·부지의 동일성 검증이 아닙니다."
+    },
+    "coverageLinked": 467,
+    "tests": 94,
+    "typecheck": "passed",
+    "appCodeChanged": false,
+    "redeployed": false
+  },
+  "source": {
+    "url": "https://business.juso.go.kr/addrlink/addrLinkApi.do",
+    "locator": "results.juso[].siNm·sggNm·emdNm·admCd 및 roadAddr·jibunAddr",
+    "checkedDate": "2026-10-20",
+    "rightsNote": "공식 주소 응답의 식별 사실만 보존. 역사 원문·사진 재사용 허락 아님."
+  },
+  "officialLifecycle": {
+    "status": "not_checked",
+    "attempts": [
+      {
+        "url": "https://www.code.go.kr/stdcode/regCodeL.do",
+        "httpStatus": 503
+      },
+      {
+        "url": "https://code.go.kr/stdcode/regCodeL.do",
+        "httpStatus": 503
+      }
+    ],
+    "webReadResult": "공식 목록 첫 화면만 열람. 이번 50개 항목의 현존·폐지 값은 확인하지 못함."
+  },
+  "issues": [
+    "최초 기본 네트워크 프록시 연결 실패 및 직접 fetch DNS 오류는 표준 프록시 curl로 복구",
+    "긴 stdin 요청의 터미널 길이 제한은 입력 모드 수정 후 재시도; 최초 요청은 JSON 구문검사에서 종료되어 데이터 변경 없음"
+  ],
+  "nextCursor": "regions: review_revision=0 중 dong-구로구-가리봉동부터 정렬된 다음 25~50개. 미대조 330개. 공식 현존·폐지 상태 별도 미완료. 본문 검토로 이동하지 않음."
+}

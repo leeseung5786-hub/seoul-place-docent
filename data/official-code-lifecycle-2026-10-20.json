@@ -1,0 +1,4239 @@
+{
+  "version": 1,
+  "sourceUrl": "https://www.code.go.kr/stdcode/regCodeL.do",
+  "downloadUrl": "https://www.code.go.kr/stdcode/regCodeFileDown.do?cPage=1&pageSize=2000",
+  "method": "POST",
+  "parameters": {
+    "sidoCd": "11",
+    "disuseAt": "ALL",
+    "chkWantCnt": "2",
+    "chkCrtDt": "0",
+    "chkClsDt": "0"
+  },
+  "retrievedAt": "2026-10-20T10:41:31.000Z",
+  "sourceAsOf": null,
+  "asOfNote": "공식 시스템의 2026-10-20 공개 조회 결과. 원문에 전체 데이터 갱신일은 없으며 조회일을 법령 시행일 또는 개별 생성일로 대체하지 않음.",
+  "fileName": "법정동코드 조회자료.xlsx",
+  "sheetName": "Sheet0",
+  "zipSha256": "d5dd60146799664f0ccd857704b6f597955673dc627c2e90d3b88c095866d774",
+  "fileSha256": "00e482e0f2cc862a49a6d28ae511a81df70ac2f6e4935f8bc1142fb832271bf9",
+  "fileBytes": 34512,
+  "sourceRows": 1112,
+  "sourceStates": {
+    "현존": 493,
+    "폐지": 619
+  },
+  "columns": [
+    "법정동코드",
+    "법정동명",
+    "폐지구분",
+    "생성일",
+    "폐지일"
+  ],
+  "rightsNote": "인증 없이 공개되는 법정동 식별 사실만 추출. 역사 원문·사진·영상의 보관 또는 재사용 허락을 의미하지 않음. 원본 파일 재배포는 하지 않음.",
+  "entries": [
+    {
+      "id": "dong-강남구-개포동",
+      "row": 1041,
+      "code": "1168010300",
+      "name": "서울특별시 강남구 개포동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-논현동",
+      "row": 1046,
+      "code": "1168010800",
+      "name": "서울특별시 강남구 논현동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-대치동",
+      "row": 1044,
+      "code": "1168010600",
+      "name": "서울특별시 강남구 대치동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-도곡동",
+      "row": 1055,
+      "code": "1168011800",
+      "name": "서울특별시 강남구 도곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-삼성동",
+      "row": 1043,
+      "code": "1168010500",
+      "name": "서울특별시 강남구 삼성동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-세곡동",
+      "row": 1048,
+      "code": "1168011100",
+      "name": "서울특별시 강남구 세곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-수서동",
+      "row": 1052,
+      "code": "1168011500",
+      "name": "서울특별시 강남구 수서동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-신사동",
+      "row": 1045,
+      "code": "1168010700",
+      "name": "서울특별시 강남구 신사동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-압구정동",
+      "row": 1047,
+      "code": "1168011000",
+      "name": "서울특별시 강남구 압구정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-역삼동",
+      "row": 1039,
+      "code": "1168010100",
+      "name": "서울특별시 강남구 역삼동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-율현동",
+      "row": 1050,
+      "code": "1168011300",
+      "name": "서울특별시 강남구 율현동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-일원동",
+      "row": 1051,
+      "code": "1168011400",
+      "name": "서울특별시 강남구 일원동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-자곡동",
+      "row": 1049,
+      "code": "1168011200",
+      "name": "서울특별시 강남구 자곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강남구-청담동",
+      "row": 1042,
+      "code": "1168010400",
+      "name": "서울특별시 강남구 청담동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강동구-강일동",
+      "row": 1113,
+      "code": "1174011000",
+      "name": "서울특별시 강동구 강일동",
+      "state": "현존",
+      "created": "20061229",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강동구-고덕동",
+      "row": 1105,
+      "code": "1174010200",
+      "name": "서울특별시 강동구 고덕동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강동구-길동",
+      "row": 1108,
+      "code": "1174010500",
+      "name": "서울특별시 강동구 길동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강동구-둔촌동",
+      "row": 1109,
+      "code": "1174010600",
+      "name": "서울특별시 강동구 둔촌동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강동구-명일동",
+      "row": 1104,
+      "code": "1174010100",
+      "name": "서울특별시 강동구 명일동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강동구-상일동",
+      "row": 1106,
+      "code": "1174010300",
+      "name": "서울특별시 강동구 상일동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강동구-성내동",
+      "row": 1111,
+      "code": "1174010800",
+      "name": "서울특별시 강동구 성내동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강동구-암사동",
+      "row": 1110,
+      "code": "1174010700",
+      "name": "서울특별시 강동구 암사동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강동구-천호동",
+      "row": 1112,
+      "code": "1174010900",
+      "name": "서울특별시 강동구 천호동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강북구-미아동",
+      "row": 506,
+      "code": "1130510100",
+      "name": "서울특별시 강북구 미아동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강북구-번동",
+      "row": 507,
+      "code": "1130510200",
+      "name": "서울특별시 강북구 번동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강북구-수유동",
+      "row": 508,
+      "code": "1130510300",
+      "name": "서울특별시 강북구 수유동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강북구-우이동",
+      "row": 509,
+      "code": "1130510400",
+      "name": "서울특별시 강북구 우이동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-가양동",
+      "row": 745,
+      "code": "1150010400",
+      "name": "서울특별시 강서구 가양동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-개화동",
+      "row": 751,
+      "code": "1150011000",
+      "name": "서울특별시 강서구 개화동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-공항동",
+      "row": 749,
+      "code": "1150010800",
+      "name": "서울특별시 강서구 공항동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-과해동",
+      "row": 752,
+      "code": "1150011100",
+      "name": "서울특별시 강서구 과해동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-내발산동",
+      "row": 747,
+      "code": "1150010600",
+      "name": "서울특별시 강서구 내발산동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-등촌동",
+      "row": 743,
+      "code": "1150010200",
+      "name": "서울특별시 강서구 등촌동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-마곡동",
+      "row": 746,
+      "code": "1150010500",
+      "name": "서울특별시 강서구 마곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-방화동",
+      "row": 750,
+      "code": "1150010900",
+      "name": "서울특별시 강서구 방화동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-염창동",
+      "row": 742,
+      "code": "1150010100",
+      "name": "서울특별시 강서구 염창동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-오곡동",
+      "row": 753,
+      "code": "1150011200",
+      "name": "서울특별시 강서구 오곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-오쇠동",
+      "row": 754,
+      "code": "1150011300",
+      "name": "서울특별시 강서구 오쇠동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-외발산동",
+      "row": 748,
+      "code": "1150010700",
+      "name": "서울특별시 강서구 외발산동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-강서구-화곡동",
+      "row": 744,
+      "code": "1150010300",
+      "name": "서울특별시 강서구 화곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-관악구-남현동",
+      "row": 952,
+      "code": "1162010300",
+      "name": "서울특별시 관악구 남현동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-관악구-봉천동",
+      "row": 950,
+      "code": "1162010100",
+      "name": "서울특별시 관악구 봉천동",
+      "state": "현존",
+      "created": "20000101",
+      "abolished": ""
+    },
+    {
+      "id": "dong-관악구-신림동",
+      "row": 951,
+      "code": "1162010200",
+      "name": "서울특별시 관악구 신림동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-광진구-광장동",
+      "row": 338,
+      "code": "1121510400",
+      "name": "서울특별시 광진구 광장동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-광진구-구의동",
+      "row": 337,
+      "code": "1121510300",
+      "name": "서울특별시 광진구 구의동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-광진구-군자동",
+      "row": 343,
+      "code": "1121510900",
+      "name": "서울특별시 광진구 군자동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-광진구-능동",
+      "row": 336,
+      "code": "1121510200",
+      "name": "서울특별시 광진구 능동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-광진구-자양동",
+      "row": 339,
+      "code": "1121510500",
+      "name": "서울특별시 광진구 자양동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-광진구-중곡동",
+      "row": 335,
+      "code": "1121510100",
+      "name": "서울특별시 광진구 중곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-광진구-화양동",
+      "row": 341,
+      "code": "1121510700",
+      "name": "서울특별시 광진구 화양동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-가리봉동",
+      "row": 770,
+      "code": "1153010300",
+      "name": "서울특별시 구로구 가리봉동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-개봉동",
+      "row": 774,
+      "code": "1153010700",
+      "name": "서울특별시 구로구 개봉동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-고척동",
+      "row": 773,
+      "code": "1153010600",
+      "name": "서울특별시 구로구 고척동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-구로동",
+      "row": 769,
+      "code": "1153010200",
+      "name": "서울특별시 구로구 구로동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-궁동",
+      "row": 776,
+      "code": "1153010900",
+      "name": "서울특별시 구로구 궁동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-신도림동",
+      "row": 768,
+      "code": "1153010100",
+      "name": "서울특별시 구로구 신도림동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-오류동",
+      "row": 775,
+      "code": "1153010800",
+      "name": "서울특별시 구로구 오류동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-온수동",
+      "row": 777,
+      "code": "1153011000",
+      "name": "서울특별시 구로구 온수동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-천왕동",
+      "row": 778,
+      "code": "1153011100",
+      "name": "서울특별시 구로구 천왕동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-구로구-항동",
+      "row": 779,
+      "code": "1153011200",
+      "name": "서울특별시 구로구 항동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-금천구-가산동",
+      "row": 809,
+      "code": "1154510100",
+      "name": "서울특별시 금천구 가산동",
+      "state": "현존",
+      "created": "20000101",
+      "abolished": ""
+    },
+    {
+      "id": "dong-금천구-독산동",
+      "row": 810,
+      "code": "1154510200",
+      "name": "서울특별시 금천구 독산동",
+      "state": "현존",
+      "created": "20000101",
+      "abolished": ""
+    },
+    {
+      "id": "dong-금천구-시흥동",
+      "row": 811,
+      "code": "1154510300",
+      "name": "서울특별시 금천구 시흥동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-노원구-공릉동",
+      "row": 553,
+      "code": "1135010300",
+      "name": "서울특별시 노원구 공릉동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-노원구-상계동",
+      "row": 555,
+      "code": "1135010500",
+      "name": "서울특별시 노원구 상계동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-노원구-월계동",
+      "row": 552,
+      "code": "1135010200",
+      "name": "서울특별시 노원구 월계동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-노원구-중계동",
+      "row": 556,
+      "code": "1135010600",
+      "name": "서울특별시 노원구 중계동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-노원구-하계동",
+      "row": 554,
+      "code": "1135010400",
+      "name": "서울특별시 노원구 하계동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-도봉구-도봉동",
+      "row": 523,
+      "code": "1132010800",
+      "name": "서울특별시 도봉구 도봉동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-도봉구-방학동",
+      "row": 521,
+      "code": "1132010600",
+      "name": "서울특별시 도봉구 방학동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-도봉구-쌍문동",
+      "row": 520,
+      "code": "1132010500",
+      "name": "서울특별시 도봉구 쌍문동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-도봉구-창동",
+      "row": 522,
+      "code": "1132010700",
+      "name": "서울특별시 도봉구 창동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-답십리동",
+      "row": 371,
+      "code": "1123010500",
+      "name": "서울특별시 동대문구 답십리동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-신설동",
+      "row": 367,
+      "code": "1123010100",
+      "name": "서울특별시 동대문구 신설동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-용두동",
+      "row": 368,
+      "code": "1123010200",
+      "name": "서울특별시 동대문구 용두동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-이문동",
+      "row": 376,
+      "code": "1123011000",
+      "name": "서울특별시 동대문구 이문동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-장안동",
+      "row": 372,
+      "code": "1123010600",
+      "name": "서울특별시 동대문구 장안동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-전농동",
+      "row": 370,
+      "code": "1123010400",
+      "name": "서울특별시 동대문구 전농동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-제기동",
+      "row": 369,
+      "code": "1123010300",
+      "name": "서울특별시 동대문구 제기동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-청량리동",
+      "row": 373,
+      "code": "1123010700",
+      "name": "서울특별시 동대문구 청량리동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-회기동",
+      "row": 374,
+      "code": "1123010800",
+      "name": "서울특별시 동대문구 회기동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동대문구-휘경동",
+      "row": 375,
+      "code": "1123010900",
+      "name": "서울특별시 동대문구 휘경동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동작구-노량진동",
+      "row": 916,
+      "code": "1159010100",
+      "name": "서울특별시 동작구 노량진동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동작구-대방동",
+      "row": 923,
+      "code": "1159010800",
+      "name": "서울특별시 동작구 대방동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동작구-동작동",
+      "row": 921,
+      "code": "1159010600",
+      "name": "서울특별시 동작구 동작동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동작구-본동",
+      "row": 919,
+      "code": "1159010400",
+      "name": "서울특별시 동작구 본동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동작구-사당동",
+      "row": 922,
+      "code": "1159010700",
+      "name": "서울특별시 동작구 사당동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동작구-상도1동",
+      "row": 918,
+      "code": "1159010300",
+      "name": "서울특별시 동작구 상도1동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동작구-상도동",
+      "row": 917,
+      "code": "1159010200",
+      "name": "서울특별시 동작구 상도동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동작구-신대방동",
+      "row": 924,
+      "code": "1159010900",
+      "name": "서울특별시 동작구 신대방동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-동작구-흑석동",
+      "row": 920,
+      "code": "1159010500",
+      "name": "서울특별시 동작구 흑석동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-공덕동",
+      "row": 681,
+      "code": "1144010200",
+      "name": "서울특별시 마포구 공덕동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-구수동",
+      "row": 692,
+      "code": "1144011300",
+      "name": "서울특별시 마포구 구수동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-노고산동",
+      "row": 689,
+      "code": "1144011000",
+      "name": "서울특별시 마포구 노고산동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-당인동",
+      "row": 697,
+      "code": "1144011800",
+      "name": "서울특별시 마포구 당인동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-대흥동",
+      "row": 687,
+      "code": "1144010800",
+      "name": "서울특별시 마포구 대흥동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-도화동",
+      "row": 683,
+      "code": "1144010400",
+      "name": "서울특별시 마포구 도화동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-동교동",
+      "row": 700,
+      "code": "1144012100",
+      "name": "서울특별시 마포구 동교동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-마포동",
+      "row": 686,
+      "code": "1144010700",
+      "name": "서울특별시 마포구 마포동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-망원동",
+      "row": 702,
+      "code": "1144012300",
+      "name": "서울특별시 마포구 망원동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-상수동",
+      "row": 694,
+      "code": "1144011500",
+      "name": "서울특별시 마포구 상수동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-상암동",
+      "row": 706,
+      "code": "1144012700",
+      "name": "서울특별시 마포구 상암동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-서교동",
+      "row": 699,
+      "code": "1144012000",
+      "name": "서울특별시 마포구 서교동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-성산동",
+      "row": 704,
+      "code": "1144012500",
+      "name": "서울특별시 마포구 성산동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-신공덕동",
+      "row": 682,
+      "code": "1144010300",
+      "name": "서울특별시 마포구 신공덕동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-신수동",
+      "row": 690,
+      "code": "1144011100",
+      "name": "서울특별시 마포구 신수동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-신정동",
+      "row": 696,
+      "code": "1144011700",
+      "name": "서울특별시 마포구 신정동",
+      "state": "현존",
+      "created": "20050325",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-아현동",
+      "row": 680,
+      "code": "1144010100",
+      "name": "서울특별시 마포구 아현동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-연남동",
+      "row": 703,
+      "code": "1144012400",
+      "name": "서울특별시 마포구 연남동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-염리동",
+      "row": 688,
+      "code": "1144010900",
+      "name": "서울특별시 마포구 염리동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-용강동",
+      "row": 684,
+      "code": "1144010500",
+      "name": "서울특별시 마포구 용강동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-중동",
+      "row": 705,
+      "code": "1144012600",
+      "name": "서울특별시 마포구 중동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-창전동",
+      "row": 693,
+      "code": "1144011400",
+      "name": "서울특별시 마포구 창전동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-토정동",
+      "row": 685,
+      "code": "1144010600",
+      "name": "서울특별시 마포구 토정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-하중동",
+      "row": 695,
+      "code": "1144011600",
+      "name": "서울특별시 마포구 하중동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-합정동",
+      "row": 701,
+      "code": "1144012200",
+      "name": "서울특별시 마포구 합정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-마포구-현석동",
+      "row": 691,
+      "code": "1144011200",
+      "name": "서울특별시 마포구 현석동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-남가좌동",
+      "row": 656,
+      "code": "1141012000",
+      "name": "서울특별시 서대문구 남가좌동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-냉천동",
+      "row": 641,
+      "code": "1141010500",
+      "name": "서울특별시 서대문구 냉천동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-대신동",
+      "row": 649,
+      "code": "1141011300",
+      "name": "서울특별시 서대문구 대신동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-대현동",
+      "row": 648,
+      "code": "1141011200",
+      "name": "서울특별시 서대문구 대현동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-미근동",
+      "row": 640,
+      "code": "1141010400",
+      "name": "서울특별시 서대문구 미근동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-봉원동",
+      "row": 651,
+      "code": "1141011500",
+      "name": "서울특별시 서대문구 봉원동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-북가좌동",
+      "row": 655,
+      "code": "1141011900",
+      "name": "서울특별시 서대문구 북가좌동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-북아현동",
+      "row": 646,
+      "code": "1141011000",
+      "name": "서울특별시 서대문구 북아현동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-신촌동",
+      "row": 650,
+      "code": "1141011400",
+      "name": "서울특별시 서대문구 신촌동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-연희동",
+      "row": 653,
+      "code": "1141011700",
+      "name": "서울특별시 서대문구 연희동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-영천동",
+      "row": 644,
+      "code": "1141010800",
+      "name": "서울특별시 서대문구 영천동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-옥천동",
+      "row": 643,
+      "code": "1141010700",
+      "name": "서울특별시 서대문구 옥천동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-창천동",
+      "row": 652,
+      "code": "1141011600",
+      "name": "서울특별시 서대문구 창천동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-천연동",
+      "row": 642,
+      "code": "1141010600",
+      "name": "서울특별시 서대문구 천연동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-충정로2가",
+      "row": 637,
+      "code": "1141010100",
+      "name": "서울특별시 서대문구 충정로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-충정로3가",
+      "row": 638,
+      "code": "1141010200",
+      "name": "서울특별시 서대문구 충정로3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-합동",
+      "row": 639,
+      "code": "1141010300",
+      "name": "서울특별시 서대문구 합동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-현저동",
+      "row": 645,
+      "code": "1141010900",
+      "name": "서울특별시 서대문구 현저동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-홍은동",
+      "row": 654,
+      "code": "1141011800",
+      "name": "서울특별시 서대문구 홍은동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서대문구-홍제동",
+      "row": 647,
+      "code": "1141011100",
+      "name": "서울특별시 서대문구 홍제동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-내곡동",
+      "row": 987,
+      "code": "1165010900",
+      "name": "서울특별시 서초구 내곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-반포동",
+      "row": 985,
+      "code": "1165010700",
+      "name": "서울특별시 서초구 반포동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-방배동",
+      "row": 979,
+      "code": "1165010100",
+      "name": "서울특별시 서초구 방배동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-서초동",
+      "row": 986,
+      "code": "1165010800",
+      "name": "서울특별시 서초구 서초동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-신원동",
+      "row": 989,
+      "code": "1165011100",
+      "name": "서울특별시 서초구 신원동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-양재동",
+      "row": 980,
+      "code": "1165010200",
+      "name": "서울특별시 서초구 양재동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-염곡동",
+      "row": 988,
+      "code": "1165011000",
+      "name": "서울특별시 서초구 염곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-우면동",
+      "row": 981,
+      "code": "1165010300",
+      "name": "서울특별시 서초구 우면동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-원지동",
+      "row": 982,
+      "code": "1165010400",
+      "name": "서울특별시 서초구 원지동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-서초구-잠원동",
+      "row": 984,
+      "code": "1165010600",
+      "name": "서울특별시 서초구 잠원동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-금호동1가",
+      "row": 296,
+      "code": "1120010900",
+      "name": "서울특별시 성동구 금호동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-금호동2가",
+      "row": 297,
+      "code": "1120011000",
+      "name": "서울특별시 성동구 금호동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-금호동3가",
+      "row": 298,
+      "code": "1120011100",
+      "name": "서울특별시 성동구 금호동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-금호동4가",
+      "row": 299,
+      "code": "1120011200",
+      "name": "서울특별시 성동구 금호동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-도선동",
+      "row": 291,
+      "code": "1120010400",
+      "name": "서울특별시 성동구 도선동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-마장동",
+      "row": 292,
+      "code": "1120010500",
+      "name": "서울특별시 성동구 마장동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-사근동",
+      "row": 293,
+      "code": "1120010600",
+      "name": "서울특별시 성동구 사근동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-상왕십리동",
+      "row": 288,
+      "code": "1120010100",
+      "name": "서울특별시 성동구 상왕십리동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-성수동1가",
+      "row": 301,
+      "code": "1120011400",
+      "name": "서울특별시 성동구 성수동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-성수동2가",
+      "row": 302,
+      "code": "1120011500",
+      "name": "서울특별시 성동구 성수동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-송정동",
+      "row": 305,
+      "code": "1120011800",
+      "name": "서울특별시 성동구 송정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-옥수동",
+      "row": 300,
+      "code": "1120011300",
+      "name": "서울특별시 성동구 옥수동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-용답동",
+      "row": 309,
+      "code": "1120012200",
+      "name": "서울특별시 성동구 용답동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-응봉동",
+      "row": 295,
+      "code": "1120010800",
+      "name": "서울특별시 성동구 응봉동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-하왕십리동",
+      "row": 289,
+      "code": "1120010200",
+      "name": "서울특별시 성동구 하왕십리동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-행당동",
+      "row": 294,
+      "code": "1120010700",
+      "name": "서울특별시 성동구 행당동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성동구-홍익동",
+      "row": 290,
+      "code": "1120010300",
+      "name": "서울특별시 성동구 홍익동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-길음동",
+      "row": 473,
+      "code": "1129013400",
+      "name": "서울특별시 성북구 길음동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-돈암동",
+      "row": 442,
+      "code": "1129010300",
+      "name": "서울특별시 성북구 돈암동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동선동1가",
+      "row": 455,
+      "code": "1129011600",
+      "name": "서울특별시 성북구 동선동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동선동2가",
+      "row": 456,
+      "code": "1129011700",
+      "name": "서울특별시 성북구 동선동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동선동3가",
+      "row": 457,
+      "code": "1129011800",
+      "name": "서울특별시 성북구 동선동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동선동4가",
+      "row": 458,
+      "code": "1129011900",
+      "name": "서울특별시 성북구 동선동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동선동5가",
+      "row": 459,
+      "code": "1129012000",
+      "name": "서울특별시 성북구 동선동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동소문동1가",
+      "row": 443,
+      "code": "1129010400",
+      "name": "서울특별시 성북구 동소문동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동소문동2가",
+      "row": 444,
+      "code": "1129010500",
+      "name": "서울특별시 성북구 동소문동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동소문동3가",
+      "row": 445,
+      "code": "1129010600",
+      "name": "서울특별시 성북구 동소문동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동소문동4가",
+      "row": 446,
+      "code": "1129010700",
+      "name": "서울특별시 성북구 동소문동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동소문동5가",
+      "row": 447,
+      "code": "1129010800",
+      "name": "서울특별시 성북구 동소문동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동소문동6가",
+      "row": 448,
+      "code": "1129010900",
+      "name": "서울특별시 성북구 동소문동6가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-동소문동7가",
+      "row": 449,
+      "code": "1129011000",
+      "name": "서울특별시 성북구 동소문동7가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-보문동1가",
+      "row": 469,
+      "code": "1129013000",
+      "name": "서울특별시 성북구 보문동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-보문동2가",
+      "row": 470,
+      "code": "1129013100",
+      "name": "서울특별시 성북구 보문동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-보문동3가",
+      "row": 471,
+      "code": "1129013200",
+      "name": "서울특별시 성북구 보문동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-보문동4가",
+      "row": 465,
+      "code": "1129012600",
+      "name": "서울특별시 성북구 보문동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-보문동5가",
+      "row": 466,
+      "code": "1129012700",
+      "name": "서울특별시 성북구 보문동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-보문동6가",
+      "row": 467,
+      "code": "1129012800",
+      "name": "서울특별시 성북구 보문동6가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-보문동7가",
+      "row": 468,
+      "code": "1129012900",
+      "name": "서울특별시 성북구 보문동7가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-삼선동1가",
+      "row": 450,
+      "code": "1129011100",
+      "name": "서울특별시 성북구 삼선동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-삼선동2가",
+      "row": 451,
+      "code": "1129011200",
+      "name": "서울특별시 성북구 삼선동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-삼선동3가",
+      "row": 452,
+      "code": "1129011300",
+      "name": "서울특별시 성북구 삼선동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-삼선동4가",
+      "row": 453,
+      "code": "1129011400",
+      "name": "서울특별시 성북구 삼선동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-삼선동5가",
+      "row": 454,
+      "code": "1129011500",
+      "name": "서울특별시 성북구 삼선동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-상월곡동",
+      "row": 476,
+      "code": "1129013700",
+      "name": "서울특별시 성북구 상월곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-석관동",
+      "row": 478,
+      "code": "1129013900",
+      "name": "서울특별시 성북구 석관동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-성북동",
+      "row": 440,
+      "code": "1129010100",
+      "name": "서울특별시 성북구 성북동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-성북동1가",
+      "row": 441,
+      "code": "1129010200",
+      "name": "서울특별시 성북구 성북동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-안암동1가",
+      "row": 460,
+      "code": "1129012100",
+      "name": "서울특별시 성북구 안암동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-안암동2가",
+      "row": 461,
+      "code": "1129012200",
+      "name": "서울특별시 성북구 안암동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-안암동3가",
+      "row": 462,
+      "code": "1129012300",
+      "name": "서울특별시 성북구 안암동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-안암동4가",
+      "row": 463,
+      "code": "1129012400",
+      "name": "서울특별시 성북구 안암동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-안암동5가",
+      "row": 464,
+      "code": "1129012500",
+      "name": "서울특별시 성북구 안암동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-장위동",
+      "row": 477,
+      "code": "1129013800",
+      "name": "서울특별시 성북구 장위동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-정릉동",
+      "row": 472,
+      "code": "1129013300",
+      "name": "서울특별시 성북구 정릉동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-종암동",
+      "row": 474,
+      "code": "1129013500",
+      "name": "서울특별시 성북구 종암동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-성북구-하월곡동",
+      "row": 475,
+      "code": "1129013600",
+      "name": "서울특별시 성북구 하월곡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-가락동",
+      "row": 1081,
+      "code": "1171010700",
+      "name": "서울특별시 송파구 가락동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-거여동",
+      "row": 1087,
+      "code": "1171011300",
+      "name": "서울특별시 송파구 거여동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-마천동",
+      "row": 1088,
+      "code": "1171011400",
+      "name": "서울특별시 송파구 마천동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-문정동",
+      "row": 1082,
+      "code": "1171010800",
+      "name": "서울특별시 송파구 문정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-방이동",
+      "row": 1085,
+      "code": "1171011100",
+      "name": "서울특별시 송파구 방이동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-삼전동",
+      "row": 1080,
+      "code": "1171010600",
+      "name": "서울특별시 송파구 삼전동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-석촌동",
+      "row": 1079,
+      "code": "1171010500",
+      "name": "서울특별시 송파구 석촌동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-송파동",
+      "row": 1078,
+      "code": "1171010400",
+      "name": "서울특별시 송파구 송파동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-신천동",
+      "row": 1076,
+      "code": "1171010200",
+      "name": "서울특별시 송파구 신천동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-오금동",
+      "row": 1086,
+      "code": "1171011200",
+      "name": "서울특별시 송파구 오금동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-잠실동",
+      "row": 1075,
+      "code": "1171010100",
+      "name": "서울특별시 송파구 잠실동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-장지동",
+      "row": 1083,
+      "code": "1171010900",
+      "name": "서울특별시 송파구 장지동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-송파구-풍납동",
+      "row": 1077,
+      "code": "1171010300",
+      "name": "서울특별시 송파구 풍납동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-양천구-목동",
+      "row": 720,
+      "code": "1147010200",
+      "name": "서울특별시 양천구 목동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-양천구-신월동",
+      "row": 721,
+      "code": "1147010300",
+      "name": "서울특별시 양천구 신월동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-양천구-신정동",
+      "row": 719,
+      "code": "1147010100",
+      "name": "서울특별시 양천구 신정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-당산동",
+      "row": 876,
+      "code": "1156011700",
+      "name": "서울특별시 영등포구 당산동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-당산동1가",
+      "row": 870,
+      "code": "1156011100",
+      "name": "서울특별시 영등포구 당산동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-당산동2가",
+      "row": 871,
+      "code": "1156011200",
+      "name": "서울특별시 영등포구 당산동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-당산동3가",
+      "row": 872,
+      "code": "1156011300",
+      "name": "서울특별시 영등포구 당산동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-당산동4가",
+      "row": 873,
+      "code": "1156011400",
+      "name": "서울특별시 영등포구 당산동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-당산동5가",
+      "row": 874,
+      "code": "1156011500",
+      "name": "서울특별시 영등포구 당산동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-당산동6가",
+      "row": 875,
+      "code": "1156011600",
+      "name": "서울특별시 영등포구 당산동6가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-대림동",
+      "row": 892,
+      "code": "1156013300",
+      "name": "서울특별시 영등포구 대림동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-도림동",
+      "row": 877,
+      "code": "1156011800",
+      "name": "서울특별시 영등포구 도림동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-문래동1가",
+      "row": 878,
+      "code": "1156011900",
+      "name": "서울특별시 영등포구 문래동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-문래동2가",
+      "row": 879,
+      "code": "1156012000",
+      "name": "서울특별시 영등포구 문래동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-문래동3가",
+      "row": 880,
+      "code": "1156012100",
+      "name": "서울특별시 영등포구 문래동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-문래동4가",
+      "row": 881,
+      "code": "1156012200",
+      "name": "서울특별시 영등포구 문래동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-문래동5가",
+      "row": 882,
+      "code": "1156012300",
+      "name": "서울특별시 영등포구 문래동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-문래동6가",
+      "row": 883,
+      "code": "1156012400",
+      "name": "서울특별시 영등포구 문래동6가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-신길동",
+      "row": 891,
+      "code": "1156013200",
+      "name": "서울특별시 영등포구 신길동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-양평동",
+      "row": 893,
+      "code": "1156013400",
+      "name": "서울특별시 영등포구 양평동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-양평동1가",
+      "row": 884,
+      "code": "1156012500",
+      "name": "서울특별시 영등포구 양평동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-양평동2가",
+      "row": 885,
+      "code": "1156012600",
+      "name": "서울특별시 영등포구 양평동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-양평동3가",
+      "row": 886,
+      "code": "1156012700",
+      "name": "서울특별시 영등포구 양평동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-양평동4가",
+      "row": 887,
+      "code": "1156012800",
+      "name": "서울특별시 영등포구 양평동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-양평동5가",
+      "row": 888,
+      "code": "1156012900",
+      "name": "서울특별시 영등포구 양평동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-양평동6가",
+      "row": 889,
+      "code": "1156013000",
+      "name": "서울특별시 영등포구 양평동6가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-양화동",
+      "row": 890,
+      "code": "1156013100",
+      "name": "서울특별시 영등포구 양화동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-여의도동",
+      "row": 869,
+      "code": "1156011000",
+      "name": "서울특별시 영등포구 여의도동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-영등포동",
+      "row": 860,
+      "code": "1156010100",
+      "name": "서울특별시 영등포구 영등포동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-영등포동1가",
+      "row": 861,
+      "code": "1156010200",
+      "name": "서울특별시 영등포구 영등포동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-영등포동2가",
+      "row": 862,
+      "code": "1156010300",
+      "name": "서울특별시 영등포구 영등포동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-영등포동3가",
+      "row": 863,
+      "code": "1156010400",
+      "name": "서울특별시 영등포구 영등포동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-영등포동4가",
+      "row": 864,
+      "code": "1156010500",
+      "name": "서울특별시 영등포구 영등포동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-영등포동5가",
+      "row": 865,
+      "code": "1156010600",
+      "name": "서울특별시 영등포구 영등포동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-영등포동6가",
+      "row": 866,
+      "code": "1156010700",
+      "name": "서울특별시 영등포구 영등포동6가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-영등포동7가",
+      "row": 867,
+      "code": "1156010800",
+      "name": "서울특별시 영등포구 영등포동7가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-영등포구-영등포동8가",
+      "row": 868,
+      "code": "1156010900",
+      "name": "서울특별시 영등포구 영등포동8가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-갈월동",
+      "row": 190,
+      "code": "1117010400",
+      "name": "서울특별시 용산구 갈월동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-남영동",
+      "row": 191,
+      "code": "1117010500",
+      "name": "서울특별시 용산구 남영동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-도원동",
+      "row": 206,
+      "code": "1117012000",
+      "name": "서울특별시 용산구 도원동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-동빙고동",
+      "row": 218,
+      "code": "1117013200",
+      "name": "서울특별시 용산구 동빙고동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-동자동",
+      "row": 193,
+      "code": "1117010700",
+      "name": "서울특별시 용산구 동자동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-문배동",
+      "row": 208,
+      "code": "1117012200",
+      "name": "서울특별시 용산구 문배동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-보광동",
+      "row": 222,
+      "code": "1117013600",
+      "name": "서울특별시 용산구 보광동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-산천동",
+      "row": 201,
+      "code": "1117011500",
+      "name": "서울특별시 용산구 산천동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-서계동",
+      "row": 194,
+      "code": "1117010800",
+      "name": "서울특별시 용산구 서계동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-서빙고동",
+      "row": 219,
+      "code": "1117013300",
+      "name": "서울특별시 용산구 서빙고동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-신계동",
+      "row": 209,
+      "code": "1117012300",
+      "name": "서울특별시 용산구 신계동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-신창동",
+      "row": 200,
+      "code": "1117011400",
+      "name": "서울특별시 용산구 신창동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-용문동",
+      "row": 207,
+      "code": "1117012100",
+      "name": "서울특별시 용산구 용문동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-용산동1가",
+      "row": 192,
+      "code": "1117010600",
+      "name": "서울특별시 용산구 용산동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-용산동2가",
+      "row": 188,
+      "code": "1117010200",
+      "name": "서울특별시 용산구 용산동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-용산동3가",
+      "row": 212,
+      "code": "1117012600",
+      "name": "서울특별시 용산구 용산동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-용산동4가",
+      "row": 189,
+      "code": "1117010300",
+      "name": "서울특별시 용산구 용산동4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-용산동5가",
+      "row": 213,
+      "code": "1117012700",
+      "name": "서울특별시 용산구 용산동5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-용산동6가",
+      "row": 221,
+      "code": "1117013500",
+      "name": "서울특별시 용산구 용산동6가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-원효로1가",
+      "row": 198,
+      "code": "1117011200",
+      "name": "서울특별시 용산구 원효로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-원효로2가",
+      "row": 199,
+      "code": "1117011300",
+      "name": "서울특별시 용산구 원효로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-원효로3가",
+      "row": 203,
+      "code": "1117011700",
+      "name": "서울특별시 용산구 원효로3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-원효로4가",
+      "row": 204,
+      "code": "1117011800",
+      "name": "서울특별시 용산구 원효로4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-이촌동",
+      "row": 215,
+      "code": "1117012900",
+      "name": "서울특별시 용산구 이촌동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-이태원동",
+      "row": 216,
+      "code": "1117013000",
+      "name": "서울특별시 용산구 이태원동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-주성동",
+      "row": 220,
+      "code": "1117013400",
+      "name": "서울특별시 용산구 주성동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-청암동",
+      "row": 202,
+      "code": "1117011600",
+      "name": "서울특별시 용산구 청암동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-청파동1가",
+      "row": 195,
+      "code": "1117010900",
+      "name": "서울특별시 용산구 청파동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-청파동2가",
+      "row": 196,
+      "code": "1117011000",
+      "name": "서울특별시 용산구 청파동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-청파동3가",
+      "row": 197,
+      "code": "1117011100",
+      "name": "서울특별시 용산구 청파동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-한강로1가",
+      "row": 210,
+      "code": "1117012400",
+      "name": "서울특별시 용산구 한강로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-한강로2가",
+      "row": 211,
+      "code": "1117012500",
+      "name": "서울특별시 용산구 한강로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-한강로3가",
+      "row": 214,
+      "code": "1117012800",
+      "name": "서울특별시 용산구 한강로3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-한남동",
+      "row": 217,
+      "code": "1117013100",
+      "name": "서울특별시 용산구 한남동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-효창동",
+      "row": 205,
+      "code": "1117011900",
+      "name": "서울특별시 용산구 효창동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-용산구-후암동",
+      "row": 187,
+      "code": "1117010100",
+      "name": "서울특별시 용산구 후암동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-갈현동",
+      "row": 579,
+      "code": "1138010400",
+      "name": "서울특별시 은평구 갈현동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-구산동",
+      "row": 580,
+      "code": "1138010500",
+      "name": "서울특별시 은평구 구산동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-녹번동",
+      "row": 577,
+      "code": "1138010200",
+      "name": "서울특별시 은평구 녹번동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-대조동",
+      "row": 581,
+      "code": "1138010600",
+      "name": "서울특별시 은평구 대조동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-불광동",
+      "row": 578,
+      "code": "1138010300",
+      "name": "서울특별시 은평구 불광동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-수색동",
+      "row": 576,
+      "code": "1138010100",
+      "name": "서울특별시 은평구 수색동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-신사동",
+      "row": 584,
+      "code": "1138010900",
+      "name": "서울특별시 은평구 신사동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-역촌동",
+      "row": 583,
+      "code": "1138010800",
+      "name": "서울특별시 은평구 역촌동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-응암동",
+      "row": 582,
+      "code": "1138010700",
+      "name": "서울특별시 은평구 응암동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-증산동",
+      "row": 585,
+      "code": "1138011000",
+      "name": "서울특별시 은평구 증산동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-은평구-진관동",
+      "row": 589,
+      "code": "1138011400",
+      "name": "서울특별시 은평구 진관동",
+      "state": "현존",
+      "created": "20070813",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-가회동",
+      "row": 49,
+      "code": "1111014600",
+      "name": "서울특별시 종로구 가회동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-견지동",
+      "row": 32,
+      "code": "1111012900",
+      "name": "서울특별시 종로구 견지동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-경운동",
+      "row": 37,
+      "code": "1111013400",
+      "name": "서울특별시 종로구 경운동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-계동",
+      "row": 51,
+      "code": "1111014800",
+      "name": "서울특별시 종로구 계동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-공평동",
+      "row": 30,
+      "code": "1111012700",
+      "name": "서울특별시 종로구 공평동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-관수동",
+      "row": 58,
+      "code": "1111015500",
+      "name": "서울특별시 종로구 관수동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-관철동",
+      "row": 38,
+      "code": "1111013500",
+      "name": "서울특별시 종로구 관철동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-관훈동",
+      "row": 31,
+      "code": "1111012800",
+      "name": "서울특별시 종로구 관훈동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-교남동",
+      "row": 79,
+      "code": "1111017600",
+      "name": "서울특별시 종로구 교남동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-교북동",
+      "row": 83,
+      "code": "1111018000",
+      "name": "서울특별시 종로구 교북동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-구기동",
+      "row": 85,
+      "code": "1111018200",
+      "name": "서울특별시 종로구 구기동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-궁정동",
+      "row": 6,
+      "code": "1111010300",
+      "name": "서울특별시 종로구 궁정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-권농동",
+      "row": 34,
+      "code": "1111013100",
+      "name": "서울특별시 종로구 권농동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-낙원동",
+      "row": 40,
+      "code": "1111013700",
+      "name": "서울특별시 종로구 낙원동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-내수동",
+      "row": 21,
+      "code": "1111011800",
+      "name": "서울특별시 종로구 내수동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-내자동",
+      "row": 17,
+      "code": "1111011400",
+      "name": "서울특별시 종로구 내자동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-누상동",
+      "row": 12,
+      "code": "1111010900",
+      "name": "서울특별시 종로구 누상동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-누하동",
+      "row": 13,
+      "code": "1111011000",
+      "name": "서울특별시 종로구 누하동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-당주동",
+      "row": 20,
+      "code": "1111011700",
+      "name": "서울특별시 종로구 당주동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-도렴동",
+      "row": 19,
+      "code": "1111011600",
+      "name": "서울특별시 종로구 도렴동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-돈의동",
+      "row": 56,
+      "code": "1111015300",
+      "name": "서울특별시 종로구 돈의동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-동숭동",
+      "row": 71,
+      "code": "1111016800",
+      "name": "서울특별시 종로구 동숭동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-명륜1가",
+      "row": 73,
+      "code": "1111017000",
+      "name": "서울특별시 종로구 명륜1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-명륜2가",
+      "row": 74,
+      "code": "1111017100",
+      "name": "서울특별시 종로구 명륜2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-명륜3가",
+      "row": 76,
+      "code": "1111017300",
+      "name": "서울특별시 종로구 명륜3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-명륜4가",
+      "row": 75,
+      "code": "1111017200",
+      "name": "서울특별시 종로구 명륜4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-묘동",
+      "row": 54,
+      "code": "1111015100",
+      "name": "서울특별시 종로구 묘동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-무악동",
+      "row": 90,
+      "code": "1111018700",
+      "name": "서울특별시 종로구 무악동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-봉익동",
+      "row": 55,
+      "code": "1111015200",
+      "name": "서울특별시 종로구 봉익동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-부암동",
+      "row": 87,
+      "code": "1111018400",
+      "name": "서울특별시 종로구 부암동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-사간동",
+      "row": 47,
+      "code": "1111014400",
+      "name": "서울특별시 종로구 사간동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-사직동",
+      "row": 18,
+      "code": "1111011500",
+      "name": "서울특별시 종로구 사직동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-삼청동",
+      "row": 43,
+      "code": "1111014000",
+      "name": "서울특별시 종로구 삼청동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-서린동",
+      "row": 26,
+      "code": "1111012300",
+      "name": "서울특별시 종로구 서린동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-세종로",
+      "row": 22,
+      "code": "1111011900",
+      "name": "서울특별시 종로구 세종로",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-소격동",
+      "row": 45,
+      "code": "1111014200",
+      "name": "서울특별시 종로구 소격동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-송월동",
+      "row": 81,
+      "code": "1111017800",
+      "name": "서울특별시 종로구 송월동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-송현동",
+      "row": 48,
+      "code": "1111014500",
+      "name": "서울특별시 종로구 송현동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-수송동",
+      "row": 27,
+      "code": "1111012400",
+      "name": "서울특별시 종로구 수송동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-숭인동",
+      "row": 78,
+      "code": "1111017500",
+      "name": "서울특별시 종로구 숭인동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-신교동",
+      "row": 5,
+      "code": "1111010200",
+      "name": "서울특별시 종로구 신교동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-신문로1가",
+      "row": 23,
+      "code": "1111012000",
+      "name": "서울특별시 종로구 신문로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-신문로2가",
+      "row": 24,
+      "code": "1111012100",
+      "name": "서울특별시 종로구 신문로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-신영동",
+      "row": 89,
+      "code": "1111018600",
+      "name": "서울특별시 종로구 신영동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-안국동",
+      "row": 44,
+      "code": "1111014100",
+      "name": "서울특별시 종로구 안국동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-연건동",
+      "row": 69,
+      "code": "1111016600",
+      "name": "서울특별시 종로구 연건동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-연지동",
+      "row": 63,
+      "code": "1111016000",
+      "name": "서울특별시 종로구 연지동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-예지동",
+      "row": 61,
+      "code": "1111015800",
+      "name": "서울특별시 종로구 예지동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-옥인동",
+      "row": 14,
+      "code": "1111011100",
+      "name": "서울특별시 종로구 옥인동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-와룡동",
+      "row": 33,
+      "code": "1111013000",
+      "name": "서울특별시 종로구 와룡동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-운니동",
+      "row": 35,
+      "code": "1111013200",
+      "name": "서울특별시 종로구 운니동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-원남동",
+      "row": 62,
+      "code": "1111015900",
+      "name": "서울특별시 종로구 원남동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-원서동",
+      "row": 52,
+      "code": "1111014900",
+      "name": "서울특별시 종로구 원서동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-이화동",
+      "row": 68,
+      "code": "1111016500",
+      "name": "서울특별시 종로구 이화동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-익선동",
+      "row": 36,
+      "code": "1111013300",
+      "name": "서울특별시 종로구 익선동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-인사동",
+      "row": 39,
+      "code": "1111013600",
+      "name": "서울특별시 종로구 인사동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-인의동",
+      "row": 60,
+      "code": "1111015700",
+      "name": "서울특별시 종로구 인의동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-장사동",
+      "row": 57,
+      "code": "1111015400",
+      "name": "서울특별시 종로구 장사동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-재동",
+      "row": 50,
+      "code": "1111014700",
+      "name": "서울특별시 종로구 재동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-적선동",
+      "row": 10,
+      "code": "1111010700",
+      "name": "서울특별시 종로구 적선동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-종로1가",
+      "row": 29,
+      "code": "1111012600",
+      "name": "서울특별시 종로구 종로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-종로2가",
+      "row": 41,
+      "code": "1111013800",
+      "name": "서울특별시 종로구 종로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-종로3가",
+      "row": 59,
+      "code": "1111015600",
+      "name": "서울특별시 종로구 종로3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-종로4가",
+      "row": 64,
+      "code": "1111016100",
+      "name": "서울특별시 종로구 종로4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-종로5가",
+      "row": 66,
+      "code": "1111016300",
+      "name": "서울특별시 종로구 종로5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-종로6가",
+      "row": 67,
+      "code": "1111016400",
+      "name": "서울특별시 종로구 종로6가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-중학동",
+      "row": 28,
+      "code": "1111012500",
+      "name": "서울특별시 종로구 중학동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-창성동",
+      "row": 8,
+      "code": "1111010500",
+      "name": "서울특별시 종로구 창성동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-창신동",
+      "row": 77,
+      "code": "1111017400",
+      "name": "서울특별시 종로구 창신동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-청운동",
+      "row": 4,
+      "code": "1111010100",
+      "name": "서울특별시 종로구 청운동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-청진동",
+      "row": 25,
+      "code": "1111012200",
+      "name": "서울특별시 종로구 청진동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-체부동",
+      "row": 15,
+      "code": "1111011200",
+      "name": "서울특별시 종로구 체부동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-충신동",
+      "row": 70,
+      "code": "1111016700",
+      "name": "서울특별시 종로구 충신동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-통의동",
+      "row": 9,
+      "code": "1111010600",
+      "name": "서울특별시 종로구 통의동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-통인동",
+      "row": 11,
+      "code": "1111010800",
+      "name": "서울특별시 종로구 통인동",
+      "state": "현존",
+      "created": "20050224",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-팔판동",
+      "row": 42,
+      "code": "1111013900",
+      "name": "서울특별시 종로구 팔판동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-평동",
+      "row": 80,
+      "code": "1111017700",
+      "name": "서울특별시 종로구 평동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-평창동",
+      "row": 86,
+      "code": "1111018300",
+      "name": "서울특별시 종로구 평창동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-필운동",
+      "row": 16,
+      "code": "1111011300",
+      "name": "서울특별시 종로구 필운동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-행촌동",
+      "row": 84,
+      "code": "1111018100",
+      "name": "서울특별시 종로구 행촌동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-혜화동",
+      "row": 72,
+      "code": "1111016900",
+      "name": "서울특별시 종로구 혜화동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-홍지동",
+      "row": 88,
+      "code": "1111018500",
+      "name": "서울특별시 종로구 홍지동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-홍파동",
+      "row": 82,
+      "code": "1111017900",
+      "name": "서울특별시 종로구 홍파동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-화동",
+      "row": 46,
+      "code": "1111014300",
+      "name": "서울특별시 종로구 화동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-효자동",
+      "row": 7,
+      "code": "1111010400",
+      "name": "서울특별시 종로구 효자동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-효제동",
+      "row": 65,
+      "code": "1111016200",
+      "name": "서울특별시 종로구 효제동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-종로구-훈정동",
+      "row": 53,
+      "code": "1111015000",
+      "name": "서울특별시 종로구 훈정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-광희동1가",
+      "row": 145,
+      "code": "1114014500",
+      "name": "서울특별시 중구 광희동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-광희동2가",
+      "row": 146,
+      "code": "1114014600",
+      "name": "서울특별시 중구 광희동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남대문로1가",
+      "row": 106,
+      "code": "1114010600",
+      "name": "서울특별시 중구 남대문로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남대문로2가",
+      "row": 115,
+      "code": "1114011500",
+      "name": "서울특별시 중구 남대문로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남대문로3가",
+      "row": 116,
+      "code": "1114011600",
+      "name": "서울특별시 중구 남대문로3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남대문로4가",
+      "row": 117,
+      "code": "1114011700",
+      "name": "서울특별시 중구 남대문로4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남대문로5가",
+      "row": 118,
+      "code": "1114011800",
+      "name": "서울특별시 중구 남대문로5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남산동1가",
+      "row": 128,
+      "code": "1114012800",
+      "name": "서울특별시 중구 남산동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남산동2가",
+      "row": 129,
+      "code": "1114012900",
+      "name": "서울특별시 중구 남산동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남산동3가",
+      "row": 130,
+      "code": "1114013000",
+      "name": "서울특별시 중구 남산동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남창동",
+      "row": 112,
+      "code": "1114011200",
+      "name": "서울특별시 중구 남창동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-남학동",
+      "row": 140,
+      "code": "1114014000",
+      "name": "서울특별시 중구 남학동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-다동",
+      "row": 102,
+      "code": "1114010200",
+      "name": "서울특별시 중구 다동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-만리동1가",
+      "row": 173,
+      "code": "1114017300",
+      "name": "서울특별시 중구 만리동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-만리동2가",
+      "row": 174,
+      "code": "1114017400",
+      "name": "서울특별시 중구 만리동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-명동1가",
+      "row": 126,
+      "code": "1114012600",
+      "name": "서울특별시 중구 명동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-명동2가",
+      "row": 127,
+      "code": "1114012700",
+      "name": "서울특별시 중구 명동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-무교동",
+      "row": 101,
+      "code": "1114010100",
+      "name": "서울특별시 중구 무교동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-무학동",
+      "row": 164,
+      "code": "1114016400",
+      "name": "서울특별시 중구 무학동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-묵정동",
+      "row": 136,
+      "code": "1114013600",
+      "name": "서울특별시 중구 묵정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-방산동",
+      "row": 153,
+      "code": "1114015300",
+      "name": "서울특별시 중구 방산동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-봉래동1가",
+      "row": 119,
+      "code": "1114011900",
+      "name": "서울특별시 중구 봉래동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-봉래동2가",
+      "row": 120,
+      "code": "1114012000",
+      "name": "서울특별시 중구 봉래동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-북창동",
+      "row": 113,
+      "code": "1114011300",
+      "name": "서울특별시 중구 북창동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-산림동",
+      "row": 157,
+      "code": "1114015700",
+      "name": "서울특별시 중구 산림동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-삼각동",
+      "row": 107,
+      "code": "1114010700",
+      "name": "서울특별시 중구 삼각동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-서소문동",
+      "row": 166,
+      "code": "1114016600",
+      "name": "서울특별시 중구 서소문동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-소공동",
+      "row": 111,
+      "code": "1114011100",
+      "name": "서울특별시 중구 소공동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-수표동",
+      "row": 110,
+      "code": "1114011000",
+      "name": "서울특별시 중구 수표동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-수하동",
+      "row": 108,
+      "code": "1114010800",
+      "name": "서울특별시 중구 수하동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-순화동",
+      "row": 168,
+      "code": "1114016800",
+      "name": "서울특별시 중구 순화동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-신당동",
+      "row": 162,
+      "code": "1114016200",
+      "name": "서울특별시 중구 신당동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-쌍림동",
+      "row": 147,
+      "code": "1114014700",
+      "name": "서울특별시 중구 쌍림동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-예관동",
+      "row": 135,
+      "code": "1114013500",
+      "name": "서울특별시 중구 예관동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-예장동",
+      "row": 142,
+      "code": "1114014200",
+      "name": "서울특별시 중구 예장동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-오장동",
+      "row": 154,
+      "code": "1114015400",
+      "name": "서울특별시 중구 오장동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-을지로1가",
+      "row": 104,
+      "code": "1114010400",
+      "name": "서울특별시 중구 을지로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-을지로2가",
+      "row": 105,
+      "code": "1114010500",
+      "name": "서울특별시 중구 을지로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-을지로3가",
+      "row": 155,
+      "code": "1114015500",
+      "name": "서울특별시 중구 을지로3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-을지로4가",
+      "row": 150,
+      "code": "1114015000",
+      "name": "서울특별시 중구 을지로4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-을지로5가",
+      "row": 151,
+      "code": "1114015100",
+      "name": "서울특별시 중구 을지로5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-을지로6가",
+      "row": 148,
+      "code": "1114014800",
+      "name": "서울특별시 중구 을지로6가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-을지로7가",
+      "row": 149,
+      "code": "1114014900",
+      "name": "서울특별시 중구 을지로7가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-의주로1가",
+      "row": 169,
+      "code": "1114016900",
+      "name": "서울특별시 중구 의주로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-의주로2가",
+      "row": 172,
+      "code": "1114017200",
+      "name": "서울특별시 중구 의주로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-인현동1가",
+      "row": 160,
+      "code": "1114016000",
+      "name": "서울특별시 중구 인현동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-인현동2가",
+      "row": 134,
+      "code": "1114013400",
+      "name": "서울특별시 중구 인현동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-입정동",
+      "row": 156,
+      "code": "1114015600",
+      "name": "서울특별시 중구 입정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-장교동",
+      "row": 109,
+      "code": "1114010900",
+      "name": "서울특별시 중구 장교동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-장충동1가",
+      "row": 143,
+      "code": "1114014300",
+      "name": "서울특별시 중구 장충동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-장충동2가",
+      "row": 144,
+      "code": "1114014400",
+      "name": "서울특별시 중구 장충동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-저동1가",
+      "row": 131,
+      "code": "1114013100",
+      "name": "서울특별시 중구 저동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-저동2가",
+      "row": 161,
+      "code": "1114016100",
+      "name": "서울특별시 중구 저동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-정동",
+      "row": 167,
+      "code": "1114016700",
+      "name": "서울특별시 중구 정동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-주교동",
+      "row": 152,
+      "code": "1114015200",
+      "name": "서울특별시 중구 주교동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-주자동",
+      "row": 141,
+      "code": "1114014100",
+      "name": "서울특별시 중구 주자동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-중림동",
+      "row": 171,
+      "code": "1114017100",
+      "name": "서울특별시 중구 중림동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-초동",
+      "row": 159,
+      "code": "1114015900",
+      "name": "서울특별시 중구 초동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-충무로1가",
+      "row": 124,
+      "code": "1114012400",
+      "name": "서울특별시 중구 충무로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-충무로2가",
+      "row": 125,
+      "code": "1114012500",
+      "name": "서울특별시 중구 충무로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-충무로3가",
+      "row": 158,
+      "code": "1114015800",
+      "name": "서울특별시 중구 충무로3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-충무로4가",
+      "row": 132,
+      "code": "1114013200",
+      "name": "서울특별시 중구 충무로4가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-충무로5가",
+      "row": 133,
+      "code": "1114013300",
+      "name": "서울특별시 중구 충무로5가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-충정로1가",
+      "row": 170,
+      "code": "1114017000",
+      "name": "서울특별시 중구 충정로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-태평로1가",
+      "row": 103,
+      "code": "1114010300",
+      "name": "서울특별시 중구 태평로1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-태평로2가",
+      "row": 114,
+      "code": "1114011400",
+      "name": "서울특별시 중구 태평로2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-필동1가",
+      "row": 137,
+      "code": "1114013700",
+      "name": "서울특별시 중구 필동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-필동2가",
+      "row": 138,
+      "code": "1114013800",
+      "name": "서울특별시 중구 필동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-필동3가",
+      "row": 139,
+      "code": "1114013900",
+      "name": "서울특별시 중구 필동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-황학동",
+      "row": 165,
+      "code": "1114016500",
+      "name": "서울특별시 중구 황학동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-회현동1가",
+      "row": 121,
+      "code": "1114012100",
+      "name": "서울특별시 중구 회현동1가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-회현동2가",
+      "row": 122,
+      "code": "1114012200",
+      "name": "서울특별시 중구 회현동2가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-회현동3가",
+      "row": 123,
+      "code": "1114012300",
+      "name": "서울특별시 중구 회현동3가",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중구-흥인동",
+      "row": 163,
+      "code": "1114016300",
+      "name": "서울특별시 중구 흥인동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중랑구-망우동",
+      "row": 406,
+      "code": "1126010500",
+      "name": "서울특별시 중랑구 망우동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중랑구-면목동",
+      "row": 402,
+      "code": "1126010100",
+      "name": "서울특별시 중랑구 면목동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중랑구-묵동",
+      "row": 405,
+      "code": "1126010400",
+      "name": "서울특별시 중랑구 묵동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중랑구-상봉동",
+      "row": 403,
+      "code": "1126010200",
+      "name": "서울특별시 중랑구 상봉동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중랑구-신내동",
+      "row": 407,
+      "code": "1126010600",
+      "name": "서울특별시 중랑구 신내동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    },
+    {
+      "id": "dong-중랑구-중화동",
+      "row": 404,
+      "code": "1126010300",
+      "name": "서울특별시 중랑구 중화동",
+      "state": "현존",
+      "created": "",
+      "abolished": ""
+    }
+  ]
+}

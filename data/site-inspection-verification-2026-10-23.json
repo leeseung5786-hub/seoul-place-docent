@@ -1,0 +1,73 @@
+{
+  "verifiedAt": "2026-10-22T20:51:32.772036+00:00",
+  "site": "https://seoul-place-history.xeonire.chatgpt.site",
+  "deploymentId": "appgdep_6ada76c601888191b2ab1adac915d2e0",
+  "deploymentStatus": "succeeded",
+  "deployedSourceCommit": "c54ce18df747045ad4a36d3ddbb86d50a9d00ef1",
+  "automatedTests": 165,
+  "typecheck": "passed",
+  "build": "passed",
+  "deletedStoredRecords": 0,
+  "liveDataUnchanged": {
+    "sources": 525,
+    "passages": 638,
+    "facts": 21,
+    "assets": 20,
+    "versions": 525,
+    "rightsChecked": 137,
+    "unknownRights": 388
+  },
+  "nationalArchiveProbe": {
+    "seongsuPage1": {
+      "outsideScopeOmitted": 9,
+      "unconfirmedOmitted": 1,
+      "items": 0
+    },
+    "gyeonggiSuwonPage1": {
+      "allowedItems": 10,
+      "providerTotal": 682
+    }
+  },
+  "responses": [
+    {
+      "path": "/api/records?provider=national&q=%EC%84%B1%EC%88%98%EB%8F%99&page=1",
+      "status": 200
+    },
+    {
+      "path": "/api/records?provider=national&q=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%88%98%EC%9B%90%EC%8B%9C&page=1",
+      "status": 200
+    },
+    {
+      "path": "/api/records?provider=photos&q=%EC%84%B1%EC%88%98",
+      "status": 200
+    },
+    {
+      "path": "/api/archive/stats",
+      "status": 200
+    },
+    {
+      "path": "/api/archive/document-research?table=sources",
+      "status": 200
+    },
+    {
+      "path": "/api/archive/photo-research",
+      "status": 200
+    },
+    {
+      "path": "/api/archive/reports/city-history",
+      "status": 200
+    },
+    {
+      "path": "/favicon.ico",
+      "status": 308
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200
+    }
+  ],
+  "visualVerification": {
+    "completed": false,
+    "reason": "Browser URL policy rejected page observation. No browser-policy workaround attempted."
+  }
+}

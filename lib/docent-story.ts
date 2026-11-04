@@ -1,0 +1,82 @@
+import {photoResearchThumbnail, photoResearchText, type PhotoResearchBundle, type PhotoResearchItem} from './photo-research';
+import {documentContext, safeDocumentUrl, type DocumentBundle} from './document-research';
+import {matchRegions, sources} from './history';
+export type StoryEvidence = {title:string;url:string|null;institution:string;locator?:string;note?:string};
+export type StoryScene = {id:string;kind:'photo'|'document';date:string;year:number|null;order:number;title:string;text:string;scope:'dong'|'district';photos:PhotoResearchItem[];cutCount:number;evidence:StoryEvidence[]};
+export type DocentStory = {district:string;dong:string;scenes:StoryScene[];total:number;photoRecords:number;photoGroups:number;unpictured:number;version:string};
+/** Presentation only: original claims and evidence IDs remain in the downloadable archive. */
+export function readingText(value:string, maxSentences=3) {
+  const clean=photoResearchText(value).replace(/\[(?:E\d{3,}(?:\s*[,·]\s*E\d{3,})*|원문 설명|관찰|추정|해석)\]/g,'').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
+  // Never truncate in the middle of a claim or drop qualifiers at the end of a sentence.
+  const sentences=clean.match(/.*?(?:[.!?。！？](?=\s|$)|$)/g)?.filter(s=>s.trim())||[];
+  return sentences.slice(0,maxSentences).map(s=>s.trim()).join(' ').trim();
+}
+export function historicalDate(values:Record<string,string>) {
+  const historical=values['역사적대상시기']||'';
+  const shot=values['촬영·제작일']||'';
+  const raw=!historical||/^(미상|미확인|불명|알 수 없)/.test(historical.trim())?shot:historical;
+  if(/^(미상|미확인|불명|알 수 없)/.test(raw.trim())||/기원전/.test(raw)) return {label:'시기 미상',year:null,order:Infinity};
+  const match=raw.match(/(?<!\d)((?:1[0-9]|20)\d{2})(?!\d)/);
+  if(!match)return {label:raw&&raw.length<60?raw:'시기 미상',year:null,order:Infinity};
+  const year=Number(match[1]);
+  const shotMatch=shot.match(/^(\d{4})[-.](\d{1,2})(?:[-.](\d{1,2}))?/);
+  // A specific shooting date refines a single historical year, never a range or approximate date.
+  const precise=shotMatch&&Number(shotMatch[1])===year&&/^\d{4}년?$/.test(historical.trim());
+  const historicalParts=raw.match(/(?:1[0-9]|20)\d{2}(?:년\s*|[-.])(\d{1,2})(?:월\s*|[-.])?(\d{1,2})?/);
+  const decadeOffset=/년대\s*(후반|말)/.test(raw)?7:/년대\s*(중반|중기)/.test(raw)?4:0;
+  const parts=precise?shotMatch:historicalParts;
+  const month=parts?Number(precise?parts[2]:parts[1]):0;
+  const day=parts?Number((precise?parts[3]:parts[2])||0):0;
+  const detail=month>=1&&month<=12&&day<=31?month*100+day:0;
+  return {label:precise?`${year}년 ${Number(shotMatch[2])}월${shotMatch[3]?' '+Number(shotMatch[3])+'일':''}`:raw,year,order:(year+decadeOffset)*10000+detail};
+}
+function recordKey(item:PhotoResearchItem) {
+  const explicit=item.values['중복대표자료ID'];
+  if(explicit&&!/^(미|없|해당)/.test(explicit)) return 'id:'+explicit;
+  if(item.sourceUrl&&item.sourceLinkType==='record'){
+    try{const u=new URL(item.sourceUrl); const fid=u.searchParams.get('fileId');if(fid)return u.hostname+':'+fid;
+      u.hash='';['utm_source','utm_medium','utm_campaign','fileSn','w','h'].forEach(k=>u.searchParams.delete(k));u.searchParams.sort();return 'source:'+u.href;}catch{}
+  }
+  return 'id:'+item.id;
+}
+export function groupStoryPhotos(items:PhotoResearchItem[]) {
+  const groups=new Map<string,PhotoResearchItem[]>();
+  for(const item of items){const key=recordKey(item);const rows=groups.get(key)||[];rows.push(item);groups.set(key,rows);}
+  // A reused preview also denotes a duplicate, but shared collection URLs alone do not.
+  const previewOwner=new Map<string,string>();
+  for(const [key,rows] of groups){const image=rows[0].previewUrl;if(!image)continue;const previous=previewOwner.get(image);if(previous&&groups.has(previous)){groups.get(previous)!.push(...rows);groups.delete(key);}else previewOwner.set(image,key);}
+  return [...groups.values()];
+}
+export function buildDocentStory(photos:PhotoResearchBundle, documents:DocumentBundle, district:string,dong:string):DocentStory {
+  const eligible=photos.items.filter(item=>item.recordType==='visual'&&!item.candidate&&!item.correctionOf&&!item.conflictMentioned);
+  const localBatchIds=new Set(photos.meta.files.filter(f=>f.collectionScope==='dong'&&f.district===district&&f.dong===dong).map(f=>f.id));
+  const local=eligible.filter(i=>localBatchIds.has(i.batchId)||i.regionLinks?.some(l=>l['자치구']===district&&l['법정동']===dong&&l['조사단계']==='법정동'));
+  const districtBatchIds=new Set(photos.meta.files.filter(f=>f.collectionScope==='district'&&f.district===district).map(f=>f.id));
+  const scope=local.length?'dong':'district';
+  const rows=local.length?local:eligible.filter(i=>districtBatchIds.has(i.batchId));
+  const pictured=rows.filter(i=>photoResearchThumbnail(i));
+  const groups=groupStoryPhotos(pictured);
+  const scenes:StoryScene[]=groups.map(cuts=>{
+    const item=cuts.find(i=>i.values['내용설명'])||cuts[0];const time=historicalDate(item.values);
+    const unique=[...new Map(cuts.map(i=>[photoResearchThumbnail(i),i])).values()];
+    return {id:item.id,kind:'photo',date:time.label,year:time.year,order:time.order,title:readingText(item.values['자료명']||item.id),text:readingText(item.values['사이트용캡션초안']||item.values['내용설명']||'이 시각자료의 내용은 제공기관 원문에서 확인할 수 있어요.'),scope,photos:unique.slice(0,20),cutCount:cuts.length,evidence:cuts.slice(0,20).map(i=>({title:photoResearchText(i.values['자료명']||i.id),url:i.sourceUrl,institution:i.values['제공기관·채널']||i.provider,locator:i.values['페이지·도판번호'],note:i.metadataWarnings?.join(' · ')||i.values['주소관계근거']||i.relation}))};
+  });
+  const exact=documents.targets.filter(t=>t.district===district&&t.level==='법정동'&&t.name===dong);const ids=new Set(exact.map(t=>t.id));
+  const timeline=documents.tables.timeline.filter(r=>r.targetIds.some(id=>ids.has(id))&&!r.issues.length&&!/상충 확인/.test(r.status));
+  for(const row of timeline){const context=documentContext(documents,[row]);if(!context.sources.some(s=>s.url))continue;
+    const time=historicalDate({'역사적대상시기':row.values['시기표기']||''});
+    scenes.push({id:'doc:'+row.id,kind:'document',date:time.label,year:time.year,order:time.order,title:readingText(row.values['사건']),text:readingText(context.claims.map(c=>c.text).join(' ')),scope:'dong',photos:[],cutCount:0,evidence:context.sources.map(s=>({title:s.title,url:s.url,institution:'문헌 원문',note:row.values['상충·주의사항']}))});
+  }
+  const usedClaims=new Set(timeline.flatMap(r=>r.evidenceIds));
+  const claims=documents.tables.claims.filter(r=>r.targetIds.some(id=>ids.has(id))&&!usedClaims.has(r.id)&&!r.issues.length&&!/상충 확인/.test(r.status)).slice(0,30);
+  for(const row of claims){const sourceRows=documents.tables.sources.filter(s=>row.sourceIds.includes(s.id));const evidence=sourceRows.map(s=>({title:s.values['자료명'],url:safeDocumentUrl(s.values['원문URL']),institution:s.values['제공기관·채널']||'문헌 원문',locator:row.values['원문위치'],note:row.values['근거유형']==='추정·해석'?'원문의 추정·해석이며 확정 사실과 구분해 읽어 주세요.':'동네 범위의 문헌 기록입니다.'})).filter(s=>s.url);if(!evidence.length)continue;
+    const time=historicalDate({'역사적대상시기':row.values['시기표기']||''});
+    scenes.push({id:'claim:'+row.id,kind:'document',date:time.label,year:time.year,order:time.order,title:readingText(row.values['주제']||row.label).replace(/^[①-⑳]\s*/,''),text:readingText(row.values['역사적주장']||''),scope:'dong',photos:[],cutCount:0,evidence});
+  }
+  for(const region of matchRegions(district,dong)){for(const [i,event] of region.events.entries()){
+    if(scenes.some(s=>s.title===event.title))continue;
+    scenes.push({id:region.id+':'+i,kind:'document',date:event.time,year:event.from,order:event.from*10000,title:event.title,text:readingText(event.text),scope:'dong',photos:[],cutCount:0,evidence:[{title:sources.find(s=>s.id===event.sourceId)?.title||region.name,url:safeDocumentUrl(region.url),institution:'서울역사박물관',note:region.matching==='area-candidate'?'역사적 권역의 설명입니다. 현재 법정동 전체의 포함 여부는 추가 확인이 필요합니다.':'동네 기록으로, 입력 건물·필지와의 일치는 미확인입니다.'}]});
+  }}
+  scenes.sort((a,b)=>a.order-b.order||a.id.localeCompare(b.id));
+  return {district,dong,scenes,total:scenes.length,photoRecords:pictured.length,photoGroups:groups.length,unpictured:rows.length-pictured.length,version:'docent-20261102-2'};
+}

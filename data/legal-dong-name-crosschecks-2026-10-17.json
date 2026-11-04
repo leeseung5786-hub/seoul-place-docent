@@ -1,0 +1,50 @@
+[
+  {
+    "regionId": "dong-종로구-명륜1가",
+    "dictionaryName": "명륜동1가",
+    "currentName": "명륜1가",
+    "officialCode": "1111017000",
+    "jibunAddr": "서울특별시 종로구 명륜1가 7-85",
+    "roadAddr": "서울특별시 종로구 명륜7길 52 (명륜1가)",
+    "source": "주소기반산업지원서비스",
+    "sourceUrl": "https://business.juso.go.kr/addrlink/openApi/searchApi.do",
+    "checkedAt": "2026-10-17",
+    "note": "개별 주소 후보의 emdNm·admCd·지번주소 대조. 사전 명칭과의 대응은 종로문화플랫폼 주소 표기도 함께 대조. 지역 전체 경계 검증 아님."
+  },
+  {
+    "regionId": "dong-종로구-명륜2가",
+    "dictionaryName": "명륜동2가",
+    "currentName": "명륜2가",
+    "officialCode": "1111017100",
+    "jibunAddr": "서울특별시 종로구 명륜2가 86-37 젬스톤빌리지",
+    "roadAddr": "서울특별시 종로구 창경궁로33길 45-13 (명륜2가, 젬스톤빌리지)",
+    "source": "주소기반산업지원서비스",
+    "sourceUrl": "https://business.juso.go.kr/addrlink/openApi/searchApi.do",
+    "checkedAt": "2026-10-17",
+    "note": "개별 주소 후보의 emdNm·admCd·지번주소 대조. 사전 명칭과의 대응은 종로문화플랫폼 주소 표기도 함께 대조. 지역 전체 경계 검증 아님."
+  },
+  {
+    "regionId": "dong-종로구-명륜3가",
+    "dictionaryName": "명륜동3가",
+    "currentName": "명륜3가",
+    "officialCode": "1111017300",
+    "jibunAddr": "서울특별시 종로구 명륜3가 1-1426",
+    "roadAddr": "서울특별시 종로구 명륜9길 36 (명륜3가)",
+    "source": "주소기반산업지원서비스",
+    "sourceUrl": "https://business.juso.go.kr/addrlink/openApi/searchApi.do",
+    "checkedAt": "2026-10-17",
+    "note": "개별 주소 후보의 emdNm·admCd·지번주소 대조. 사전 명칭과의 대응은 종로문화플랫폼 주소 표기도 함께 대조. 지역 전체 경계 검증 아님."
+  },
+  {
+    "regionId": "dong-종로구-명륜4가",
+    "dictionaryName": "명륜동4가",
+    "currentName": "명륜4가",
+    "officialCode": "1111017200",
+    "jibunAddr": "서울특별시 종로구 명륜4가 46-1",
+    "roadAddr": "서울특별시 종로구 대명길 19-2 (명륜4가)",
+    "source": "주소기반산업지원서비스",
+    "sourceUrl": "https://business.juso.go.kr/addrlink/openApi/searchApi.do",
+    "checkedAt": "2026-10-17",
+    "note": "개별 주소 후보의 emdNm·admCd·지번주소 대조. 사전 명칭과의 대응은 종로문화플랫폼 주소 표기도 함께 대조. 지역 전체 경계 검증 아님."
+  }
+]

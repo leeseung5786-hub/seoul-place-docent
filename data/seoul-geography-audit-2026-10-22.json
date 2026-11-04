@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-21T16:03:12.598Z",
+  "site": "https://seoul-place-history.xeonire.chatgpt.site",
+  "liveVersion": 22,
+  "method": "Sites read_database_overview/read_database_table_rows; followed returned next_offset to null for each table; no production writes",
+  "counts": {
+    "sources": 525,
+    "passages": 638,
+    "regions": 536,
+    "legalDongs": 467
+  },
+  "legalDongsOutsideSeoulCode": [],
+  "confirmedNonSeoulSourceIds": [],
+  "deletedStoredSources": 0,
+  "deletedStoredPassages": 0,
+  "bodyProjectionLimits": [
+    {
+      "passageId": "c4a71878-9bbd-4dde-bb51-9516d0e11c3c",
+      "sourceId": "572edee2-cc44-4afd-9145-9b87f58f49ac",
+      "locator": "상세 자료 > 내용 항목 · 『도심 속 상공인 마을; 도심 상공인들의 생활문화』(2010), 15쪽",
+      "note": "Long cell partly omitted by database reader; not treated as a full body re-review."
+    },
+    {
+      "passageId": "d961b6f6-af38-4236-bdfe-d6fe444e2418",
+      "sourceId": "a7acb010-f568-4f81-9d19-ee100f68399a",
+      "locator": "상세 자료 > 내용 항목 · 『도심 속 상공인 마을; 도심 상공인들의 생활문화』(2010), 15쪽",
+      "note": "Long cell partly omitted by database reader; not treated as a full body re-review."
+    }
+  ],
+  "notes": [
+    "All 525 source titles/summaries were read without cell truncation. Subject locations were checked against stored Seoul source context; no confirmed non-Seoul catalog source was found.",
+    "Six of 215 uploaded report fragments mention Incheon/Busan in routes connected to Seoul. They remain document fragments, not matched dong histories.",
+    "Historical Gwangju-gun/Yangju-gun references describe places now in Seoul; no keyword-only deletion.",
+    "Changes concern live National Archives/photo queries and future source validation. This does not complete the separate original-content review task."
+  ]
+}

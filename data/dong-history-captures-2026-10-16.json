@@ -1,0 +1,1880 @@
+[
+  {
+    "source": {
+      "title": "금천구 동명의 유래",
+      "institution": "금천구청",
+      "providerId": "",
+      "url": "https://www.geumcheon.go.kr/portal/contents.do?key=442",
+      "kind": "web",
+      "summary": "금천구의 동명 유래·연혁 확인 자료. 본문 3개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-금천구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "금천구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "가산이라는 이름은 가리봉·독산의 한 글자씩을 결합한 것이다. 1995년 금천구가 신설될 때 이전 행정동 명칭을 다시 사용했다는 설명이다.",
+        "locator": "동명 유래 > 가산동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-금천구-가산동"
+        ],
+        "regionLabel": "가산동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 가산동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "구청은 나무가 없는 산의 모습을 독산이라는 지명과 연결한다. 지명 설명과 당시의 산림 상태에 관한 해석은 원전 대조가 필요하다.",
+        "locator": "동명 유래 > 독산동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-금천구-독산동"
+        ],
+        "regionLabel": "독산동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 독산동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "구청은 시흥의 뜻을 지역의 옛 이름인 잉벌노와 관련지어 해석한다. 옛 지명의 어원에 관한 설명으로, 현재 건물의 연혁을 뜻하지 않는다.",
+        "locator": "동명 유래 > 시흥동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-금천구-시흥동"
+        ],
+        "regionLabel": "시흥동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 시흥동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "동명 유래",
+    "attribution": "금천구청 · 금천구 동명의 유래 · https://www.geumcheon.go.kr/portal/contents.do?key=442 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T07:58:23.652071+00:00",
+    "pageHash": "11e913bbe70efd58b7cf5c93df3c28dc2a547ec62f051b2e5bc18b9133edba33"
+  },
+  {
+    "source": {
+      "title": "노원구 동명유래",
+      "institution": "노원구청",
+      "providerId": "",
+      "url": "https://www.nowon.kr/www/intrcn/intrcn1/intrcn1_05.jsp",
+      "kind": "web",
+      "summary": "노원구의 동명 유래·연혁 확인 자료. 본문 5개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-노원구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "노원구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "지명은 하천으로 둘러싸인 지역의 반달 같은 모습 및 물에 비친 달과 관련된 것으로 설명된다.",
+        "locator": "동명 유래 > 월계동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-노원구-월계동"
+        ],
+        "regionLabel": "월계동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 월계동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "공덕리와 태릉에서 각각 글자를 가져온 이름이라는 설명이다. 서울 편입 당시의 동명 협의 과정도 소개한다.",
+        "locator": "동명 유래 > 공릉동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-노원구-공릉동"
+        ],
+        "regionLabel": "공릉동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 공릉동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "한천의 하류 쪽에 놓인 데서 이름을 설명한다. 1914년에는 양주군 노해면 하계리로 편제되었다고 기록한다.",
+        "locator": "동명 유래 > 하계동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-노원구-하계동"
+        ],
+        "regionLabel": "하계동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 하계동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "한천의 중간에 자리한 위치가 이름의 배경으로 제시된다. 1914년 행정구역 개편 뒤 노해면 중계리가 되었다는 설명이다.",
+        "locator": "동명 유래 > 중계동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-노원구-중계동"
+        ],
+        "regionLabel": "중계동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 중계동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "하천 상류 쪽 여러 마을의 위치를 이름과 연결한다. 원터·간촌·당고개 등 자연마을을 함께 소개한다.",
+        "locator": "동명 유래 > 상계동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-노원구-상계동"
+        ],
+        "regionLabel": "상계동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 상계동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "동명 유래",
+    "attribution": "노원구청 · 노원구 동명유래 · https://www.nowon.kr/www/intrcn/intrcn1/intrcn1_05.jsp · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T07:59:22.264843+00:00",
+    "pageHash": "af5badc88985a71bf6f9687a812c23fa1a50006bf3e3376dbf2775241a892120"
+  },
+  {
+    "source": {
+      "title": "도봉구 동명유래",
+      "institution": "도봉구청",
+      "providerId": "",
+      "url": "https://tour.dobong.go.kr/Contents.asp?code=10001578",
+      "kind": "web",
+      "summary": "도봉구의 동명 유래·연혁 확인 자료. 본문 4개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-도봉구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "도봉구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "구청은 두 효자문 등에서 이름을 찾는 여러 전승을 소개한다. 하나의 유래로 단정하지 않는다.",
+        "locator": "동명 유래 > 쌍문동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-도봉구-쌍문동"
+        ],
+        "regionLabel": "쌍문동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 쌍문동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "학과 지세에 관한 이야기, 방아골의 음을 한자로 옮겼다는 설명 등이 함께 실려 있다. 1963년 서울에 편입되었다.",
+        "locator": "동명 유래 > 방학동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-도봉구-방학동"
+        ],
+        "regionLabel": "방학동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 방학동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "조선시대 곡물 저장시설과 관련된 이름으로 설명된다. 창골·유만 등 자연마을이 지역 형성의 배경으로 소개된다.",
+        "locator": "동명 유래 > 창동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-도봉구-창동"
+        ],
+        "regionLabel": "창동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 창동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "도봉산에서 가져온 지명이다. 1914년 여러 마을을 합쳐 도봉리를 설치했고, 1963년 서울 편입 뒤 도봉동이 되었다는 설명이다.",
+        "locator": "동명 유래 > 도봉동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-도봉구-도봉동"
+        ],
+        "regionLabel": "도봉동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 도봉동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "동명 유래",
+    "attribution": "도봉구청 · 도봉구 동명유래 · https://tour.dobong.go.kr/Contents.asp?code=10001578 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T07:59:19.795087+00:00",
+    "pageHash": "e2f76d233845c976c02660145f9894ad76192c7fa96a17a908c364881448adab"
+  },
+  {
+    "source": {
+      "title": "성북구 동명유래",
+      "institution": "성북구청",
+      "providerId": "",
+      "url": "https://www.sb.go.kr/www/contents.do?key=5964",
+      "kind": "web",
+      "summary": "성북구의 동명 유래·연혁 확인 자료. 본문 12개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-성북구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "성북구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "1765년 어영청 북둔 설치가 지명 설명의 근거로 제시된다.",
+        "locator": "동명 유래 > 성북동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-성북구-성북동"
+        ],
+        "regionLabel": "성북동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 성북동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "삼선평에서 이름을 찾는다. 세 신선과 옥녀 이야기는 지명 전승으로 소개된다.",
+        "locator": "동명 유래 > 삼선동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "gu-성북구"
+        ],
+        "regionLabel": "삼선동",
+        "relation": "district_context",
+        "basis": "공식자료의 공통 동명 표기. 세부 법정동별 서술로 확대하지 않음."
+      },
+      {
+        "text": "1949년 지역을 나누면서 동소문·삼선의 첫 글자를 결합한 이름이다.",
+        "locator": "동명 유래 > 동선동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "gu-성북구"
+        ],
+        "regionLabel": "동선동",
+        "relation": "district_context",
+        "basis": "공식자료의 공통 동명 표기. 세부 법정동별 서술로 확대하지 않음."
+      },
+      {
+        "text": "되너미고개와 돈암현이라는 고개 이름이 동명의 배경으로 제시된다.",
+        "locator": "동명 유래 > 돈암동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-성북구-돈암동"
+        ],
+        "regionLabel": "돈암동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 돈암동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "1949년 성북구 신설 당시 보문사의 이름을 동명으로 삼았다는 설명이다.",
+        "locator": "동명 유래 > 보문동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "gu-성북구"
+        ],
+        "regionLabel": "보문동",
+        "relation": "district_context",
+        "basis": "공식자료의 공통 동명 표기. 세부 법정동별 서술로 확대하지 않음."
+      },
+      {
+        "text": "사람들이 앉아 쉬던 큰 바위에 관한 이야기가 지명 유래로 전해진다.",
+        "locator": "동명 유래 > 안암동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "gu-성북구"
+        ],
+        "regionLabel": "안암동",
+        "relation": "district_context",
+        "basis": "공식자료의 공통 동명 표기. 세부 법정동별 서술로 확대하지 않음."
+      },
+      {
+        "text": "신덕왕후의 정릉에서 가져온 이름이다.",
+        "locator": "동명 유래 > 정릉동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-성북구-정릉동"
+        ],
+        "regionLabel": "정릉동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 정릉동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "기리묵골이라는 골짜기 지명 및 맑은 물소리에 관한 설명을 함께 소개한다.",
+        "locator": "동명 유래 > 길음동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-성북구-길음동"
+        ],
+        "regionLabel": "길음동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 길음동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "북 모양의 큰 바위가 이름의 배경으로 제시된다.",
+        "locator": "동명 유래 > 종암동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-성북구-종암동"
+        ],
+        "regionLabel": "종암동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 종암동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "반달 같은 산세와 달밤의 소 거래 이야기가 함께 전한다. 어느 하나로 확정하지 않는다.",
+        "locator": "동명 유래 > 월곡동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "gu-성북구"
+        ],
+        "regionLabel": "월곡동",
+        "relation": "district_context",
+        "basis": "공식자료의 공통 동명 표기. 세부 법정동별 서술로 확대하지 않음."
+      },
+      {
+        "text": "옛 인물 또는 산 이름에 연결하는 해석이 소개된다. 1960년경 토지 매각과 주택지 전환도 설명한다.",
+        "locator": "동명 유래 > 장위동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-성북구-장위동"
+        ],
+        "regionLabel": "장위동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 장위동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "돌곶이라는 옛 지명을 한자로 옮긴 이름으로 설명한다.",
+        "locator": "동명 유래 > 석관동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-성북구-석관동"
+        ],
+        "regionLabel": "석관동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 석관동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "동명 유래",
+    "attribution": "성북구청 · 성북구 동명유래 · https://www.sb.go.kr/www/contents.do?key=5964 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T07:58:23.209111+00:00",
+    "pageHash": "18edfcf30558c9f380baafc112dd1778b0af84bf148a9738f1025854a71eccd7"
+  },
+  {
+    "source": {
+      "title": "송파구 동명유래",
+      "institution": "송파구청",
+      "providerId": "",
+      "url": "https://www.songpa.go.kr/www/contents.do?key=2367",
+      "kind": "web",
+      "summary": "송파구의 동명 유래·연혁 확인 자료. 본문 13개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-송파구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "송파구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "가락골과 1925년 홍수 뒤 이주에 관한 설명이 함께 전한다. 어원은 확실하지 않다고 명시한다.",
+        "locator": "동명 유래 > 가락동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-가락동"
+        ],
+        "regionLabel": "가락동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 가락동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "거암리라는 옛 이름의 변화에서 유래를 설명한다. 1963년 서울에 편입되었다.",
+        "locator": "동명 유래 > 거여동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-거여동"
+        ],
+        "regionLabel": "거여동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 거여동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "마산이라는 산 이름 및 백마에 관한 전승을 함께 소개한다.",
+        "locator": "동명 유래 > 마천동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-마천동"
+        ],
+        "regionLabel": "마천동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 마천동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "문씨 주민과 우물에 관한 이야기가 동명 유래로 전한다.",
+        "locator": "동명 유래 > 문정동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-문정동"
+        ],
+        "regionLabel": "문정동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 문정동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "병자호란 관련 전승 및 1914년 무렵 한자 표기를 바꾸었다는 이야기를 소개한다. 전승의 사실 여부는 별도 검토 대상이다.",
+        "locator": "동명 유래 > 방이동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-방이동"
+        ],
+        "regionLabel": "방이동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 방이동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "세 밭에 관한 지명 설명과 옛 삼전도 나루의 역할을 함께 소개한다.",
+        "locator": "동명 유래 > 삼전동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-삼전동"
+        ],
+        "regionLabel": "삼전동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 삼전동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "돌마리라는 이름에서 한자 지명이 형성되었다는 설명이다.",
+        "locator": "동명 유래 > 석촌동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-석촌동"
+        ],
+        "regionLabel": "석촌동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 석촌동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "나루 이름의 음 변화와 소나무 언덕 등 여러 유래를 소개한다.",
+        "locator": "동명 유래 > 송파동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-송파동"
+        ],
+        "regionLabel": "송파동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 송파동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "새내라는 하천 이름을 한자로 옮긴 지명이다. 1925년 홍수와 강줄기 변화도 설명한다.",
+        "locator": "동명 유래 > 신천동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-신천동"
+        ],
+        "regionLabel": "신천동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 신천동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "나무·악기 또는 인조의 피란에 연결한 여러 전승이 있다.",
+        "locator": "동명 유래 > 오금동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-오금동"
+        ],
+        "regionLabel": "오금동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 오금동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "조선의 양잠 시설이 지명 배경이다. 1971년 물막이 공사로 섬이 육지와 이어졌다고 설명한다.",
+        "locator": "동명 유래 > 잠실동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-잠실동"
+        ],
+        "regionLabel": "잠실동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 잠실동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "길게 뻗은 마을 또는 버드나무에 연결하는 유래를 함께 전한다.",
+        "locator": "동명 유래 > 장지동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-장지동"
+        ],
+        "regionLabel": "장지동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 장지동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "바람드리라는 옛 이름과 토성의 관계를 설명한다.",
+        "locator": "동명 유래 > 풍납동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-송파구-풍납동"
+        ],
+        "regionLabel": "풍납동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 풍납동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "동명 유래",
+    "attribution": "송파구청 · 송파구 동명유래 · https://www.songpa.go.kr/www/contents.do?key=2367 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:01:03.041217+00:00",
+    "pageHash": "0987a97e26bee79b3f149c2cd414adfbf7524baf9ece24eb316365658cfdb0fd"
+  },
+  {
+    "source": {
+      "title": "양천구 변천사 · 법정동 이름의 유래",
+      "institution": "양천구청",
+      "providerId": "",
+      "url": "https://archives.yangcheon.go.kr/mokdong-history/ch1-yangcheon.html",
+      "kind": "web",
+      "summary": "양천구의 동명 유래·연혁 확인 자료. 본문 3개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-양천구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "양천구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "목장으로 사용되던 곳이라는 설명과 함께 牧洞에서 木洞으로 표기가 달라졌으리라는 추정을 제시한다.",
+        "locator": "양천구 동의 변화 > 법정동 이름의 유래 > 목동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-양천구-목동"
+        ],
+        "regionLabel": "목동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 목동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "마을의 반달 모양과 관련지어 이름을 설명하는 전승을 소개한다.",
+        "locator": "양천구 동의 변화 > 법정동 이름의 유래 > 신월동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-양천구-신월동"
+        ],
+        "regionLabel": "신월동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 신월동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "신기와 은행정에서 한 글자씩을 취한 이름이다. 신트리라는 옛 마을 이름도 함께 설명한다.",
+        "locator": "양천구 동의 변화 > 법정동 이름의 유래 > 신정동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-양천구-신정동"
+        ],
+        "regionLabel": "신정동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 신정동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "양천구 동의 변화 > 법정동 이름의 유래",
+    "attribution": "양천구청 · 양천구 변천사 · 법정동 이름의 유래 · https://archives.yangcheon.go.kr/mokdong-history/ch1-yangcheon.html · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:01:03.077044+00:00",
+    "pageHash": "b3477a56c18e939c42ca48bb76eba933faa3d99e778afa4d3c2a07a3d55b2bdd"
+  },
+  {
+    "source": {
+      "title": "강서구 동이름 유래",
+      "institution": "강서구청",
+      "providerId": "",
+      "url": "https://www.gangseo.seoul.kr/kids/kids010501",
+      "kind": "web",
+      "summary": "강서구의 동명 유래·연혁 확인 자료. 본문 13개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-강서구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "강서구",
+      "확인방법": "공식 페이지의 검색 색인 본문 확인. 직접 조회 HTTP 502로 페이지 지문은 미기록 · 원문 재조회 필요",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "소금 저장시설이 지명의 배경으로 소개된다.",
+        "locator": "동명 유래 > 염창동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-염창동"
+        ],
+        "regionLabel": "염창동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 염창동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "옛 등촌리에서 이어진 이름으로 설명된다.",
+        "locator": "동명 유래 > 등촌동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-등촌동"
+        ],
+        "regionLabel": "등촌동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 등촌동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "벼농사가 잘되던 골짜기의 모습과 관련된 이름이다.",
+        "locator": "동명 유래 > 화곡동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-화곡동"
+        ],
+        "regionLabel": "화곡동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 화곡동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "양천현의 관아와 향교가 있던 행정 중심 지역으로 소개된다.",
+        "locator": "동명 유래 > 가양동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-가양동"
+        ],
+        "regionLabel": "가양동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 가양동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "삼 재배 및 옛 나루 마을과 관련된 지명으로 설명된다.",
+        "locator": "동명 유래 > 마곡동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-마곡동"
+        ],
+        "regionLabel": "마곡동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 마곡동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "밥그릇 모양에 빗댄 발산의 안쪽 마을이라는 설명이다.",
+        "locator": "동명 유래 > 내발산동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-내발산동"
+        ],
+        "regionLabel": "내발산동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 내발산동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "같은 발산의 바깥쪽 마을을 구분한 이름으로 설명된다.",
+        "locator": "동명 유래 > 외발산동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-외발산동"
+        ],
+        "regionLabel": "외발산동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 외발산동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "송정리였던 지역에 비행장이 들어선 이후의 명칭이다.",
+        "locator": "동명 유래 > 공항동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-공항동"
+        ],
+        "regionLabel": "공항동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 공항동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "개화산 곁에 있다는 위치가 이름의 배경이다.",
+        "locator": "동명 유래 > 방화동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-방화동"
+        ],
+        "regionLabel": "방화동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 방화동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "개화산 아래 형성된 마을의 이름이다.",
+        "locator": "동명 유래 > 개화동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-개화동"
+        ],
+        "regionLabel": "개화동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 개화동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "바다로 길게 뻗은 오이 모양의 지세에 연결하는 설명이 전한다.",
+        "locator": "동명 유래 > 과해동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-과해동"
+        ],
+        "regionLabel": "과해동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 과해동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "다섯 골짜기 사이 마을이라는 뜻으로 소개된다.",
+        "locator": "동명 유래 > 오곡동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-오곡동"
+        ],
+        "regionLabel": "오곡동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 오곡동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      },
+      {
+        "text": "쇠뇌 제작자 다섯 사람에 관한 전승이 실려 있다.",
+        "locator": "동명 유래 > 오쇠동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-강서구-오쇠동"
+        ],
+        "regionLabel": "오쇠동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 오쇠동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "동명 유래",
+    "attribution": "강서구청 · 강서구 동이름 유래 · https://www.gangseo.seoul.kr/kids/kids010501 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:07:46.627243+00:00",
+    "pageHash": ""
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 신도림동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2127&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "기존 도림리와 구분하면서 신도림이라는 이름을 사용하게 되었다. 1949년 서울 편입과 1950년 동명 변경 과정을 소개한다.",
+        "locator": "연혁 및 동명의 유래 > 신도림동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-신도림동"
+        ],
+        "regionLabel": "신도림동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 신도림동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 신도림동 · https://www.guro.go.kr/www/contents.do?key=2127& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:02:30.732051+00:00",
+    "pageHash": "5453d2eb3290baf2fdd44d7c795ca63cf33981df68041150175ef853c8ab05cf"
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 구로동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2128&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "아홉 노인 이야기는 지명 전승이다. 이 지역은 1949년 서울에 편입되었고 이듬해 구로동이라는 명칭을 사용했다.",
+        "locator": "연혁 및 동명의 유래 > 구로동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-구로동"
+        ],
+        "regionLabel": "구로동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 구로동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 구로동 · https://www.guro.go.kr/www/contents.do?key=2128& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:02:30.732129+00:00",
+    "pageHash": "e7fdaf1d29600f8e032b27634ddf0a07806348ef6b1b7d5cd9cc3c10dd0fd7be"
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 가리봉동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2129&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "작은 봉우리 또는 갈라진 지형에서 이름을 찾는 설명이 함께 있다. 1995년 분구로 일부 지역이 금천구에 들어갔다.",
+        "locator": "연혁 및 동명의 유래 > 가리봉동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-가리봉동"
+        ],
+        "regionLabel": "가리봉동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 가리봉동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 가리봉동 · https://www.guro.go.kr/www/contents.do?key=2129& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:02:41.459059+00:00",
+    "pageHash": "67bf5ec2cde9c6e6702b2572990f3b27c1f5886f7f1fc6f6da94b2e543d6f779"
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 고척동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2130&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "높은 마을인 고좌리 또는 긴 자를 이용한 물물교환에서 이름을 찾는 두 해석이 소개된다. 1963년 서울에 편입되었다.",
+        "locator": "연혁 및 동명의 유래 > 고척동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-고척동"
+        ],
+        "regionLabel": "고척동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 고척동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 고척동 · https://www.guro.go.kr/www/contents.do?key=2130& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:02:40.847902+00:00",
+    "pageHash": "089b7f2529386ac1ed535d4b45233a7fa2b9c1c361b95eda9d0acd61b4708d4b"
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 개봉동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2131&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "개웅산과 매봉산의 한 글자씩을 결합한 이름으로 설명된다. 1963년 서울 편입 뒤 개봉동이라는 명칭을 사용했다.",
+        "locator": "연혁 및 동명의 유래 > 개봉동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-개봉동"
+        ],
+        "regionLabel": "개봉동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 개봉동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 개봉동 · https://www.guro.go.kr/www/contents.do?key=2131& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:02:52.112435+00:00",
+    "pageHash": "f1f700b6818b0938c938bb0fec08bfaeaeccaa7dd7293ed27080a39772af257e"
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 오류동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2132&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "1963년 서울에 편입될 때 오류출장소의 관할 지역에 포함되었다. 출장소가 폐지된 1968년에는 영등포구가 직접 관할했다.",
+        "locator": "연혁 및 동명의 유래 > 오류동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-오류동"
+        ],
+        "regionLabel": "오류동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 오류동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 오류동 · https://www.guro.go.kr/www/contents.do?key=2132& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:02:51.124995+00:00",
+    "pageHash": "995fa2609c4b35b816c50f2ae5a3d2ba6034de802ce1f14c7cffc21591452cc1"
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 천왕동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2133&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "천왕사라는 절 아래 마을이라는 설명에서 이름을 찾는다. 1963년 서울에 편입되었다.",
+        "locator": "연혁 및 동명의 유래 > 천왕동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-천왕동"
+        ],
+        "regionLabel": "천왕동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 천왕동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 천왕동 · https://www.guro.go.kr/www/contents.do?key=2133& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:03:01.804019+00:00",
+    "pageHash": "9c70cec8a8d915bb0863f9a5eafa93120b4754d95992a691bce93096fdb39beb"
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 항동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2134&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "배 모양 지세에 관한 해석과 물에 관련된 전승이 소개된다. 1963년 서울에 편입되었다.",
+        "locator": "연혁 및 동명의 유래 > 항동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-항동"
+        ],
+        "regionLabel": "항동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 항동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 항동 · https://www.guro.go.kr/www/contents.do?key=2134& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:03:01.697667+00:00",
+    "pageHash": "9b70021d89f8f5ab0d0572e1f9cda93e02f7b70854cdee805fa00092d79de3d4"
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 온수동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2135&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "따뜻한 물과 관련된 온수골이라는 옛 이름이 배경이다. 구청도 전승의 불확실성을 언급한다.",
+        "locator": "연혁 및 동명의 유래 > 온수동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-온수동"
+        ],
+        "regionLabel": "온수동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 온수동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 온수동 · https://www.guro.go.kr/www/contents.do?key=2135& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:03:12.582558+00:00",
+    "pageHash": "e850898c13e22cfb3565ceed342f37095237681caa9b56b7b45e3155e5556386"
+  },
+  {
+    "source": {
+      "title": "구로구 동별역사 · 궁동",
+      "institution": "구로구청",
+      "providerId": "",
+      "url": "https://www.guro.go.kr/www/contents.do?key=2136&",
+      "kind": "web",
+      "summary": "구로구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-구로구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "구로구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "정선옹주가 살았던 큰집과 관련된 이름이다. 1963년 서울 편입 뒤 오류출장소가 관할했다.",
+        "locator": "연혁 및 동명의 유래 > 궁동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-구로구-궁동"
+        ],
+        "regionLabel": "궁동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 궁동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "연혁 및 동명의 유래",
+    "attribution": "구로구청 · 구로구 동별역사 · 궁동 · https://www.guro.go.kr/www/contents.do?key=2136& · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:03:13.234403+00:00",
+    "pageHash": "d0586ea4c59487abeaa6d3ba932200bb45dec663b95770cc0933e11c666224cc"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 녹번동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=3880",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "녹을 나누던 고개 이야기와 푸른 광물에서 이름을 찾는 해석이 함께 소개된다. 1949년 서울에 편입되었다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 녹번동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-녹번동"
+        ],
+        "regionLabel": "녹번동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 녹번동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 녹번동 · https://www.ep.go.kr/dong/contents.do?key=3880 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:03:22.059912+00:00",
+    "pageHash": "295ca27240ef1347a90e14b45385c151c452223ecc97831e4386b024fd2900a6"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 불광동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=3916",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "북한산 자락의 사찰과 바위 풍경에 연결하는 지명 설명이다. 1914년 불광리, 1950년 불광동으로 명칭이 바뀌는 과정을 소개한다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 불광동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-불광동"
+        ],
+        "regionLabel": "불광동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 불광동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 불광동 · https://www.ep.go.kr/dong/contents.do?key=3916 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:03:21.932009+00:00",
+    "pageHash": "e25d2cdfe7402f43da321d318ade60a114e1e7b37b6a32fc560352a45889174e"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 갈현동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=3988",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "칡과 고개에 연결된 갈고개가 이름의 배경으로 설명된다. 구산동과의 분동 및 1989년 행정동 분리도 소개한다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 갈현동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-갈현동"
+        ],
+        "regionLabel": "갈현동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 갈현동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 갈현동 · https://www.ep.go.kr/dong/contents.do?key=3988 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:04:50.686627+00:00",
+    "pageHash": "ac08e2a598a2827b821e86e836e90aff66f073adb03d08aa835ff189ff58ba84"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 구산동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=4060",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "거북 같은 산 모양과 인조별서유기비의 받침을 지명에 연결한다. 1914년 구산리와 1949년 서울 편입 과정을 기록한다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 구산동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-구산동"
+        ],
+        "regionLabel": "구산동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 구산동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 구산동 · https://www.ep.go.kr/dong/contents.do?key=4060 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:04:41.158804+00:00",
+    "pageHash": "ac9821781114d903664f50a87b789716bbb37f8d393727b3ee2c3b2d99d06897"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 대조동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=4096",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "큰 마을과 대추나무에 연결하는 어원 설명이 함께 실려 있다. 1950년 대조동으로 이름을 고쳤다는 연혁을 제시한다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 대조동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-대조동"
+        ],
+        "regionLabel": "대조동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 대조동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 대조동 · https://www.ep.go.kr/dong/contents.do?key=4096 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:04:59.842753+00:00",
+    "pageHash": "cb20e7e07d719686c64f8f281c7f74da95233e9cb304dc863ea58bb494b8d47f"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 응암동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=4168",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "백련산의 매처럼 생긴 바위와 관련된 지명이다. 포수발·와산동 등 옛 이름과 1949년 서울 편입을 소개한다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 응암동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-응암동"
+        ],
+        "regionLabel": "응암동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 응암동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 응암동 · https://www.ep.go.kr/dong/contents.do?key=4168 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:05:09.299538+00:00",
+    "pageHash": "07448216a6ada7732025e3440d34edf2030503c342ac5e444486974e1597746a"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 역촌동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=4240",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "여행 중 말을 쉬게 하던 역이 있어 역말이라 불렸다는 설명이다. 1970년대 토지구획정리 이후 주거지 조성도 소개한다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 역촌동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-역촌동"
+        ],
+        "regionLabel": "역촌동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 역촌동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 역촌동 · https://www.ep.go.kr/dong/contents.do?key=4240 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:05:19.000112+00:00",
+    "pageHash": "6bbd3019d2959a7f8e73d741586c2e27a81d74459537f22aecb8f65c331563c8"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 신사동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=4276",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "새절과 관련된 이름으로 설명하되 절의 정확한 시기·위치는 알 수 없다고 명시한다. 옛 지도의 신사동계 표기도 근거로 든다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 신사동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-신사동"
+        ],
+        "regionLabel": "신사동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 신사동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 신사동 · https://www.ep.go.kr/dong/contents.do?key=4276 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:05:28.263744+00:00",
+    "pageHash": "90197c376aa36c9bc968183ce45562ff040139c4f131d58e3567f78d6b8d5092"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 증산동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=4348",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "시루뫼라는 옛 이름을 산의 모양 또는 물 빠짐에 연결하는 이야기가 전한다. 한자 표기 변화도 전승으로 소개한다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 증산동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-증산동"
+        ],
+        "regionLabel": "증산동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 증산동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 증산동 · https://www.ep.go.kr/dong/contents.do?key=4348 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:05:37.604716+00:00",
+    "pageHash": "6b78cc694974e35a1c633ad5ebe8e711edb98830075fa5b98294cc45d70d96af"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 수색동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=4384",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "물치·무르치라는 이름의 변화와 한자 표기에서 유래를 설명한다. 1949년 서울 편입 및 1950년 동명 변경을 소개한다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 수색동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-수색동"
+        ],
+        "regionLabel": "수색동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 수색동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 수색동 · https://www.ep.go.kr/dong/contents.do?key=4384 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:05:37.519877+00:00",
+    "pageHash": "234e3206d3b9612d41bb2f4568781b7e4ffd33aae7b6541f71e45549022321da"
+  },
+  {
+    "source": {
+      "title": "은평구 지명유래 · 진관동",
+      "institution": "은평구청",
+      "providerId": "",
+      "url": "https://www.ep.go.kr/dong/contents.do?key=4420",
+      "kind": "web",
+      "summary": "은평구의 동명 유래·연혁 확인 자료. 본문 1개를 사실 요약으로 분리했으며 원문 전사는 포함하지 않음.",
+      "publicationDate": "",
+      "subjectPeriod": "여러 시기 · 동명 유래와 지역 연혁",
+      "rights": "unknown",
+      "rightsUrl": "",
+      "rightsNote": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+      "storageAllowed": false,
+      "reuseAllowed": false,
+      "reviewStatus": "needs_review",
+      "regionIds": [
+        "gu-은평구"
+      ]
+    },
+    "metadata": {
+      "자료유형": "구청 동명 유래·지역 연혁",
+      "대상지역": "은평구",
+      "확인방법": "공식 웹페이지 직접 조회 · HTML 지문 기록",
+      "시기": "",
+      "원문보관": "미허용 · 전사·이미지 미적재",
+      "작성범위": "지명·연혁의 짧은 사실 요약 · 전승은 전승으로 표기",
+      "원문대조": "추가 내용 검토 대기"
+    },
+    "description": "",
+    "sections": [
+      {
+        "text": "진관사에서 지명을 가져왔다. 1973년 서울 편입과 2007년 구파발동·진관내동·진관외동의 통합을 설명한다.",
+        "locator": "우리동이야기 > 동 유래·동 역사 > 진관동",
+        "textKind": "paraphrase",
+        "regionIds": [
+          "dong-은평구-진관동"
+        ],
+        "regionLabel": "진관동",
+        "relation": "exact_name",
+        "basis": "공식 본문의 지역명 진관동 확인. 법정동 명칭과 일치하나 경계·개별 부지 일치는 미검증."
+      }
+    ],
+    "sourceLocator": "우리동이야기 > 동 유래·동 역사",
+    "attribution": "은평구청 · 은평구 지명유래 · 진관동 · https://www.ep.go.kr/dong/contents.do?key=4420 · 2026-10-16 확인 · 원문과 별도로 작성한 사실 요약",
+    "rightsEvidence": "개별 자료의 원문 복제·변형 허락 미확인. 원문·이미지 보관과 재사용 허용은 설정하지 않음. 확인한 지명·연혁 사실을 짧게 새 문장으로 정리했으며, 전승·추정은 확정 사실과 구분. AI 작성만으로 원자료 이용조건이 소멸하지 않음.",
+    "capturedAt": "2026-10-16T08:04:35.590274+00:00",
+    "pageHash": "8e04bbd4471b25ab048ba54aceb050bf924a0776139b2c979f547fb2456fd777"
+  }
+]

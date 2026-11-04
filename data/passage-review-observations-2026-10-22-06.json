@@ -1,0 +1,4141 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-21T21:52:17.012719+00:00",
+  "siteProjectId": "appgprj_6acd53ff39588191b6c07a038ece0771",
+  "siteUrl": "https://seoul-place-history.xeonire.chatgpt.site",
+  "sourceBaseCommit": "dde3ba2d204244ec1625e038d834b91b0d9665af",
+  "deployedFeatureCommit": "4a51344860ec707201293aff463f914913f2c92b",
+  "siteVersionBefore": 24,
+  "siteVersion": 24,
+  "codeChanged": false,
+  "republished": false,
+  "access": {
+    "mode": "custom",
+    "ownerCount": 1,
+    "editors": 0,
+    "groups": 0,
+    "externalVisitors": 0,
+    "policyRevision": 1
+  },
+  "checks": {
+    "inputValidation": 30,
+    "productionWrites": 30,
+    "writeFailures": 0,
+    "revisionConflicts": 0,
+    "duplicateWrites": 0,
+    "readback": "passed",
+    "idempotentReplay": 3,
+    "priorNativeReviewRowsPreserved": 135,
+    "newNativeReviewRows": 30,
+    "captionTranscriptionComparisons": 4,
+    "codeTests": "not rerun; no application code change",
+    "types": "not rerun; no application code change",
+    "build": "not rerun; no application code change",
+    "browserVisualQA": "not performed",
+    "allCurrentPassageFingerprints": "unchanged"
+  },
+  "verificationLimitations": [
+    "대조 완료는 선택 본문과 등록 원문의 일치 및 한정 표현 검토다. 원문 페이지의 모든 역사 주장을 독립 사료로 확증했다는 뜻이 아니다.",
+    "박물관 4개는 설명문 전사를 대조했다. 원사진·원도면·책의 인용 쪽을 독립적으로 열람하거나 현재 주소·필지·건물 위치를 판독하지 않았다.",
+    "성북구 동선동·안암동은 기존 자치구 맥락으로만 검토했다. 세부 법정동 각 가의 연혁이나 경계에 대한 검토 완료가 아니다.",
+    "원문의 상대적 현재·최근과 게시일·기록 시기·책 표제 연도·역사 사건일은 구별했다. 화면 시각 검증과 전체 서비스 시나리오는 후속 단계다."
+  ],
+  "accessIssues": [
+    "용두동·신당동·명일동의 일반 공개 GET은 HTTP 503이었다. 정확한 등록 URL의 웹 원문을 열람해 대조했으며 직접 원문 파일 해시는 null로 남겼다. 이후 같은 URL 재열람 중 일부 시간 초과가 있었으나 앞선 실제 열람의 근거와 실패 관측을 구분했다.",
+    "성북구 웹 도구의 시간 초과와 별개로 일반 공개 GET으로 받은 실제 한국어 원문을 열람했다. 별도 로그인·접근 제한 우회는 없었다."
+  ],
+  "allPlanCriteriaComplete": false,
+  "batch": "passage-review-20261022-06",
+  "before": {
+    "currentPassages": 638,
+    "reviewed": 134,
+    "contentChecked": 78,
+    "needsReview": 56,
+    "unreviewed": 504,
+    "remaining": 560
+  },
+  "after": {
+    "currentPassages": 638,
+    "reviewed": 164,
+    "contentChecked": 107,
+    "needsReview": 57,
+    "unreviewed": 474,
+    "remaining": 531
+  },
+  "processed": 30,
+  "contentCheckedWrites": 29,
+  "newHolds": 1,
+  "holdReasons": {
+    "dohwaResidentialChronologyUnresolved": 1
+  },
+  "immutableCurrentPassages": 638,
+  "nonselectedUnchanged": 608,
+  "sourceDetailsUnchanged": 28,
+  "sourceStatsUnchanged": true,
+  "sourceCounts": {
+    "sources": 525,
+    "passages": 638,
+    "versions": 525,
+    "facts": 21,
+    "assets": 20
+  },
+  "regionVerification": {
+    "total": 467,
+    "withCode": 467,
+    "reviewed": 467,
+    "addressObserved": 464,
+    "addressUnconfirmed": 3,
+    "officialCodeOnly": 3,
+    "lifecycleChecked": 467,
+    "verifiedCurrent": 467,
+    "verifiedAbolished": 0,
+    "unconfirmed": 0,
+    "conflicts": 0
+  },
+  "legalDongReviewedCountIncrements": 23,
+  "districtContextReviews": 2,
+  "transcriptionComparisons": [
+    {
+      "passageId": "3ff1aa2c-e573-432e-83bc-1a86e8f754af",
+      "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY475&fileId=H-TRNS-85657-477&fileSn=300&type=A&upperNodeId=CTGRY477",
+      "sourceHash": "21e1c098c57102e1944c1e8bdccd3d873387366c91739cfd02fcfa061af1816e",
+      "normalizedTranscriptionMatches": true
+    },
+    {
+      "passageId": "40df2cce-6174-4513-bf8c-c600d7fb51a1",
+      "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84662-436&fileSn=300&type=A&upperNodeId=CTGRY436",
+      "sourceHash": "a2f4607ef6b695f1897f6611bed7b1986fef9360550008ba26f8b61f3e7cc20d",
+      "normalizedTranscriptionMatches": true
+    },
+    {
+      "passageId": "41caa42a-376a-4347-b3c5-5ca4c6321872",
+      "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY360&fileId=H-TRNS-70531-362&fileSn=300&type=A&upperNodeId=CTGRY362",
+      "sourceHash": "86c897adc7f6e9e1b6e806da0b80ce5f44a0564660eb8e75b031356cd7d63eb0",
+      "normalizedTranscriptionMatches": true
+    },
+    {
+      "passageId": "43bfd155-b5f6-42ba-800c-164b869d2c8e",
+      "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY986&fileId=dc14116e-5eba-43df-9b8f-d517b7a8cc7f&fileSn=502&type=A&upperNodeId=CTGRY993",
+      "sourceHash": "87ddb3e76641ef20df6197c5b786e0be169ddfcff02fa157dcaec82fb983cd1d",
+      "normalizedTranscriptionMatches": true
+    }
+  ],
+  "records": [
+    {
+      "passageId": "3b2adc85-6692-4e5d-82c1-9cf17a93a497",
+      "sourceId": "a5e4b9f5-e60b-45ea-aa75-1fbcec661710",
+      "versionId": "aad8cf65-e07c-4485-bcdd-ce9beb2689e6",
+      "sourceVersion": 1,
+      "label": "서초동",
+      "locator": "서초동 지명유래 > 첫 문단·옛 마을",
+      "textKind": "paraphrase",
+      "fingerprint": "6c94b48d2e51fc766ca639b9820aebc8fcf0e0d441d12e9c8727329d6c013a3a",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "58be4ebe-5bd6-497e-a9df-cd2a0adac9f0",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:47:42.801Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.seocho.go.kr/site/seocho/05/10502040200002015070810.jsp",
+        "sourceLocator": "서초동 지명유래 > 첫 문단·옛 마을",
+        "observedAt": "2026-10-21T21:41:06.500794+00:00",
+        "sourceHash": "ca19f17230ed80ea9ffa0de704ad17365bbc3845179c40c09f33cec04314d45e",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "과천군·시흥군은 현재 서울 서초동의 편입 전 연혁이다. 서초구소개 > 서초동 본문과 네 자연마을 표제가 공간 근거다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "서리풀·상초리 유래, 과천군 서초리·명달리→시흥군 신동면→1963년 서울 편입과 네 자연마을 명칭을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 서초동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1963년 서울 편입을 대조했다. 원문 안의 현재라는 마을 현황과 수치는 2026년 현황으로 옮기지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 왕촌 전승의 존재만 마을명으로 언급하며 왕건의 꿈 등 세부 이야기를 사실로 옮기지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "서리풀·상초리 유래, 과천군 서초리·명달리→시흥군 신동면→1963년 서울 편입과 네 자연마을 명칭을 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "과천군·시흥군은 현재 서울 서초동의 편입 전 연혁이다. 서초구소개 > 서초동 본문과 네 자연마을 표제가 공간 근거다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "3b83261f-956c-4b39-813e-29281e782a0c",
+      "sourceId": "4e404a12-e3e8-4ee2-a6d1-6896abf385cb",
+      "versionId": "930ade68-01f7-4815-80d5-1156b1b55424",
+      "sourceVersion": 1,
+      "label": "용두동",
+      "locator": "용두동 > 지명·하천·빨래터",
+      "textKind": "paraphrase",
+      "fingerprint": "e4a7d51de6564347e684beb7bb143c7780e573dab4f16b6e2a0ea8daf13b0d41",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "15d18924-24a9-477e-a5c6-1fb092aa908e",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:47:45.923Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "web_original_read",
+      "evidence": {
+        "sourceUrl": "https://www.ddm.go.kr/tour/contents.do?key=2076",
+        "sourceLocator": "용두동 > 지명·하천·빨래터 / 웹 원문 용두동 > 본문 294~299행",
+        "observedAt": "2026-10-21T21:44:11Z",
+        "sourceHash": null,
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "왕산로·하정로와 신설동 경계, 동대문구 용두동 본문을 대조했다. 현재 개별 시설·필지 동일성은 미검증이다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "정확한 등록 원문에서 용머리 산세·홍릉천 등 하천·빨래터·찬우물 설명을 읽었다. 오래된 시설의 현재 표현을 현황으로 옮기지 않은 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 용두동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에 사건 연대는 없다. 원문의 미도파백화점·공원 조성 예정 등 표현은 작성 시점의 상대 표현으로만 읽는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "용머리 지형과 찬우물의 명성은 원문의 유래·전언으로 보존했다. 독립 사료로 전설을 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "정확한 등록 원문에서 용머리 산세·홍릉천 등 하천·빨래터·찬우물 설명을 읽었다. 오래된 시설의 현재 표현을 현황으로 옮기지 않은 요약과 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "왕산로·하정로와 신설동 경계, 동대문구 용두동 본문을 대조했다. 현재 개별 시설·필지 동일성은 미검증이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "3b83952d-589a-42e3-afd2-a2397bf6ab4e",
+      "sourceId": "d4e34937-ec9f-43d9-8fc5-669b3511ce1d",
+      "versionId": "f5d3bb77-2b5c-4db2-b9bd-36bd7bfd060b",
+      "sourceVersion": 1,
+      "label": "원효로2가",
+      "locator": "서울지명사전 > 법정동 > 원효로2가(元曉路2街) > 말미 1914년 및 1946년 개칭 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "f778fe54e3a9207d582f0b89d9603ac24474aa4e22bcab0117ef7533d95c9663",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "c7c6e224-358a-446e-b841-4ab5cc3aacac",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:47:49.553Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9B%90%ED%9A%A8%EB%A1%9C2%EA%B0%80",
+        "sourceLocator": "서울지명사전 > 법정동 > 원효로2가(元曉路2街) > 말미 1914년 및 1946년 개칭 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-21T21:41:06.502316+00:00",
+        "sourceHash": "8fe983f250a170ff0eea53cb81290b4d0bebb064ee10ba8392e1fef17a342355",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "용산구 원효로2가의 독립 표제와 관할 연혁을 대조했다. 원효로 공통 설명을 다른 가의 개별 연혁으로 확대하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "동문외→1914년 원정2정목→1946년 원효로2가라는 선택 요약을 개별 법정동 항목과 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 원효로2가 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 4월 1일과 1946년 10월 1일의 명칭 변천을 원문에서 확인했다. 법령 원본을 따로 열람했다는 뜻은 아니다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 행정 명칭 변천으로 전승·가설을 새 사실로 더하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "동문외→1914년 원정2정목→1946년 원효로2가라는 선택 요약을 개별 법정동 항목과 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "용산구 원효로2가의 독립 표제와 관할 연혁을 대조했다. 원효로 공통 설명을 다른 가의 개별 연혁으로 확대하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "3bd3ffa1-1b99-447b-b42f-9343be04b324",
+      "sourceId": "28a44ca3-95ed-447e-bcec-a851a003021e",
+      "versionId": "fa32be6e-8f16-4738-8850-9d21933dab53",
+      "sourceVersion": 1,
+      "label": "정동",
+      "locator": "법정동 명칭검색 «정동» > 정동(貞洞) > 연혁 문단 / 본문 구간 (txt-box9)",
+      "textKind": "paraphrase",
+      "fingerprint": "92977bfa688c1af2a636baf9031ed13fa7ee58bbd29c2b8b322d110d2ffd06ec",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "844fa1d3-caf4-4efe-a3c9-f9a9c65af0e0",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:47:52.610Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A0%95%EB%8F%99",
+        "sourceLocator": "법정동 명칭검색 «정동» > 정동(貞洞) > 연혁 문단 / 본문 구간 (txt-box9)",
+        "observedAt": "2026-10-21T21:41:10.444091+00:00",
+        "sourceHash": "a708d9281c33885c4c5e803af579a20ba6aacd30e88dc82a8bcf771c4b8c69cd",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "동명 검색의 txt-box9 정동(貞洞)과 중구 편입 문장을 선택했다. 검색에 함께 나오는 다른 정동 항목은 사용하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "정릉동의 준말인 정동, 정동정의 1946년 개칭과 1975년 중구 편입이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 정동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1946년 10월 1일·1975년 10월 1일을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "신덕왕후 정릉에서 동명을 설명하는 원문 귀속을 보존했다. 현재 성북구 정릉동의 개별 본문과 혼동하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "정릉동의 준말인 정동, 정동정의 1946년 개칭과 1975년 중구 편입이 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "동명 검색의 txt-box9 정동(貞洞)과 중구 편입 문장을 선택했다. 검색에 함께 나오는 다른 정동 항목은 사용하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "3c5389b5-cb7e-49ab-88e5-df1d82c30cb3",
+      "sourceId": "df85724f-62e5-49c0-bbc3-ccf28936f815",
+      "versionId": "b3e13bc6-4aae-45ec-9e80-74de00b459f8",
+      "sourceVersion": 1,
+      "label": "저동2가",
+      "locator": "법정동 명칭검색 «저동2가» > 저동2가(苧洞2街) > 연혁 문단 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "bee0fc2a921146817b7258f0504d683eafcb2d408092a10c0eaf2107c1473186",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "b9f6f43f-dd89-4143-aa4c-0f25d4ac1cfe",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:47:55.427Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A0%80%EB%8F%992%EA%B0%80",
+        "sourceLocator": "법정동 명칭검색 «저동2가» > 저동2가(苧洞2街) > 연혁 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-21T21:41:10.536944+00:00",
+        "sourceHash": "7cc5590b3098b1f1a5b306f4824d487a32ba254e6f0f90661c8c06bb0d939997",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "중구 저동2가 독립 표제를 대조했다. 저동의 다른 가나 시전 터 개별 필지로 확장하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "1914년 죽동·이동·냉정동·궁기동 일부 병합과 영락정2정목→1946년 저동2가 개칭이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 저동2가 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 4월 1일·1946년 10월 1일을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 명칭·구역 변천이며 추가 전승을 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "1914년 죽동·이동·냉정동·궁기동 일부 병합과 영락정2정목→1946년 저동2가 개칭이 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "중구 저동2가 독립 표제를 대조했다. 저동의 다른 가나 시전 터 개별 필지로 확장하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "3dd26389-1024-447b-a159-c12df9b0a9d6",
+      "sourceId": "aa31103e-542b-4b2d-928f-436cd31dafac",
+      "versionId": "927982bf-6c7d-4b08-83b8-14019160baca",
+      "sourceVersion": 1,
+      "label": "창성동",
+      "locator": "서울 지명사전 > 법정동 > 창성동(昌成洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "fd0230699bab6d0537791e70d4e87f23d61e8ca0f1701cbc8973123af1d6cfeb",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "00ec74f1-bf70-49b4-8600-922e318b9151",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:47:58.316Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B0%BD%EC%84%B1%EB%8F%99",
+        "sourceLocator": "서울 지명사전 > 법정동 > 창성동(昌成洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-21T21:41:12.948856+00:00",
+        "sourceHash": "00d355f033d7f36d1dc2346c86701fd232526726db81ea35ce877ac2532c575a",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "종로구 창성동 독립 표제·관할 연혁을 대조했다. 동명 일치만으로 타지역이나 개별 건물을 연결하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "조선시대 북부 순화방 창성동에서 이어진 이름과 사재감계 연혁을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 창성동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "순화방·사재감계의 시기별 문헌 소개를 대조했다. 태조실록·도성삼군문분계총록 자체를 이번에 읽었다는 뜻은 아니다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 원문의 명칭·관할 설명으로 다른 설을 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "조선시대 북부 순화방 창성동에서 이어진 이름과 사재감계 연혁을 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "종로구 창성동 독립 표제·관할 연혁을 대조했다. 동명 일치만으로 타지역이나 개별 건물을 연결하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "3efb47a9-5294-449f-bccf-2d8736abfccb",
+      "sourceId": "77c15c93-8adf-4f86-a83d-678cf192743a",
+      "versionId": "630bb531-65b9-47ab-8b52-50b9c2ebfda5",
+      "sourceVersion": 1,
+      "label": "응암동",
+      "locator": "우리동이야기 > 동 유래·동 역사 > 응암동",
+      "textKind": "paraphrase",
+      "fingerprint": "7c980458c4f0b90a3a8f063ad05e50e10289c44a90ed7ec58d268c4c666935ec",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "e70535fb-eb4d-4764-98ed-43d77714a858",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:01.968Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.ep.go.kr/dong/contents.do?key=4168",
+        "sourceLocator": "우리동이야기 > 동 유래·동 역사 > 응암동",
+        "observedAt": "2026-10-21T21:41:13.215263+00:00",
+        "sourceHash": "43ddfcbfa3953d5aa898292bd63c608c55f3041235c23bb9aa6d421cb8c892c3",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "응암2동 페이지의 응암동 공통 유래 문단만 대조했다. 행정동 응암2동 전체 경계를 법정동 응암동과 동일시하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "백련산 기슭 매 모양 바위, 포수발·와산동과 1949년 서울 편입을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 응암동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "동 역사 표의 1949년 편입과 행정동 응암2·3·4동의 후대 변화는 별개로 구분했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "매바위 유래와 포수발 설명은 원문의 지명 이야기로 귀속한다. 왕의 매사냥 전승·매바위 크기 추정·현재 제례는 선택 요약의 확정 사실로 더하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "백련산 기슭 매 모양 바위, 포수발·와산동과 1949년 서울 편입을 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "응암2동 페이지의 응암동 공통 유래 문단만 대조했다. 행정동 응암2동 전체 경계를 법정동 응암동과 동일시하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "3f93a281-3739-45f6-b7eb-7141b9d2e565",
+      "sourceId": "cc38d69c-92f0-40e1-90a2-e2efaf28afdc",
+      "versionId": "d573de0b-30dc-44be-93f0-7a30d464ce86",
+      "sourceVersion": 1,
+      "label": "용산동6가",
+      "locator": "서울지명사전 > 법정동 > 용산동6가(龍山洞6街) > 말미 둔지정 분할·1946년 개칭 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "e51ab5875ef9cb9c3ec977768d26b905cf197da6c52f0fd3336c14849a5a7d71",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "772f1018-3e5d-4df0-9382-f3c3784fc7c7",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:07.233Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9A%A9%EC%82%B0%EB%8F%996%EA%B0%80",
+        "sourceLocator": "서울지명사전 > 법정동 > 용산동6가(龍山洞6街) > 말미 둔지정 분할·1946년 개칭 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-21T21:41:13.824983+00:00",
+        "sourceHash": "dfbb91b45bffec0fccc458fa2088acbbca5faaaa5c3b17495309a14094186cb6",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "용산구 용산동6가 독립 표제를 대조했다. 고양군 한지면은 현재 용산동6가의 편입 전 연혁으로만 읽는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "둔지정의 용산정4·6정목 분할과 1946년 용산동6가 개칭이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 용산동6가 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1943년 구제 및 분할 설명과 1946년 10월 개칭을 분리해 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 명칭·관할 변천이며 원문 앞부분 용 형상 유래를 개별 가의 새 전승으로 더하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "둔지정의 용산정4·6정목 분할과 1946년 용산동6가 개칭이 요약과 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "용산구 용산동6가 독립 표제를 대조했다. 고양군 한지면은 현재 용산동6가의 편입 전 연혁으로만 읽는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "3fb2ec2b-c08f-45e6-b49f-74f0814d4264",
+      "sourceId": "63033178-8062-4563-b484-274e8b58dba5",
+      "versionId": "3d23dbce-6554-4a56-bbc5-b814d0a17bad",
+      "sourceVersion": 1,
+      "label": "신당동",
+      "locator": "유래 및 연혁 > 신당동 동명·1946년 문단",
+      "textKind": "paraphrase",
+      "fingerprint": "dca60921d78f8dbd5e6460d67c541170b412aa51b307474d0cf668db8a36ae51",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "987d77aa-730a-45f2-a272-72882a214107",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:11.673Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "web_original_read",
+      "evidence": {
+        "sourceUrl": "https://www.junggu.seoul.kr/dong/sindang/content.do?cmsid=13568",
+        "sourceLocator": "유래 및 연혁 > 신당동 동명·1946년 문단 / 웹 원문 유래 및 연혁 > 120~125행",
+        "observedAt": "2026-10-21T21:44:11Z",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "옛 신당1동을 소개하는 주민센터 페이지의 공통 신당동 연혁으로 한정한다. 현재 행정동 신당동 경계를 법정동 전체와 같다고 판정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "신령을 모신 신당의 동명, 갑오개혁 때 한자 변경과 1946년 신당동 명칭을 등록 원문에서 읽었다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 신당동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1894년 한자 변경·1946년 10월 1일 개칭을 대조했다. 현황 표의 2026년 6월 30일 기준은 역사 사건일과 다르다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 원문에 귀속한 지명 설명이며 신령의 존재나 효험을 사실로 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "신령을 모신 신당의 동명, 갑오개혁 때 한자 변경과 1946년 신당동 명칭을 등록 원문에서 읽었다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "옛 신당1동을 소개하는 주민센터 페이지의 공통 신당동 연혁으로 한정한다. 현재 행정동 신당동 경계를 법정동 전체와 같다고 판정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "3ff1aa2c-e573-432e-83bc-1a86e8f754af",
+      "sourceId": "4bfe60bb-e260-43a4-8c9f-d5ddbf520969",
+      "versionId": "fd094595-8dd5-4c3a-937d-e6fbdc596990",
+      "sourceVersion": 1,
+      "label": "3층 학원 복도",
+      "locator": "상세 자료 > 내용 항목 · 『대치동; 사교육 1번지』(2018), 143쪽",
+      "textKind": "transcription",
+      "fingerprint": "f1eb93b78ed66f6433cbc4a359c7825a7ef257ab51b8460b4aa7a3b68d990efd",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "77333c59-eb18-4d9d-a8e1-b02c8828d9ae",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:14.591Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY475&fileId=H-TRNS-85657-477&fileSn=300&type=A&upperNodeId=CTGRY477",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『대치동; 사교육 1번지』(2018), 143쪽",
+        "observedAt": "2026-10-21T21:41:16.650253+00:00",
+        "sourceHash": "21e1c098c57102e1944c1e8bdccd3d873387366c91739cfd02fcfa061af1816e",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "개별 자료의 장소 값 서울특별시 강남구 대치2동과 설명문을 대조했다. 기존 빈 지역 연결은 유지하고 상가 개별 주소나 현재 3층 배치를 검증 완료로 올리지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "등록 원문의 내용 항목과 저장 전사가 공백 정규화 후 일치한다. 대치동 은마종합상가 3층 복도라는 제공기관 설명을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 3층 학원 복도 표제와 선택 요약의 명칭을 대조했다. 원문 식별자·비공개 표기를 유지한다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "메타데이터 시기 2017과 자료출처 책의 2018년을 구별했다. 실제 사진 촬영일을 독립 확인하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "전사는 설명문 그대로의 귀속이며 원사진의 위치·현황을 독립 판독했다는 뜻은 아니다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "등록 원문의 내용 항목과 저장 전사가 공백 정규화 후 일치한다. 대치동 은마종합상가 3층 복도라는 제공기관 설명을 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "해당 개별 자료 제목 뒤의 공공누리 제1유형(출처표시) 표시를 이번에 읽었다. 기존 KOGL1·권리 URL·보관/재사용 값은 유지하며 외부 원사진·도면을 새로 복제하거나 제3자 권리로 확대하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "개별 자료의 장소 값 서울특별시 강남구 대치2동과 설명문을 대조했다. 기존 빈 지역 연결은 유지하고 상가 개별 주소나 현재 3층 배치를 검증 완료로 올리지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "400cc612-0274-46bf-bee9-444e08e14bb9",
+      "sourceId": "8d583911-4d64-4b9b-8f11-5316e8959adc",
+      "versionId": "dfc27c80-15c1-42ab-a1c5-b432bbb0ced5",
+      "sourceVersion": 1,
+      "label": "대현동",
+      "locator": "서울지명사전 > 법정동 > 대현동(大峴洞) 항목 본문(p.txt-box) / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "32cfe93a62b4244be2adcc99a3bc53bdd9c0733e2e3d94e3b46c5c17ad634b2f",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "ce6fc50e-12b3-403e-b2d0-2eda3c848f77",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:17.461Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%8C%80%ED%98%84%EB%8F%99",
+        "sourceLocator": "서울지명사전 > 법정동 > 대현동(大峴洞) 항목 본문(p.txt-box) / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-21T21:41:17.269957+00:00",
+        "sourceHash": "30f56911f480fec9aab6828aa3023db3c6e47e7c3df2a212801324af990d591f",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "서대문구 대현동 독립 항목과 마포구 대흥동으로의 일부 편입 문장을 대조했다. 역사 경계를 현재 필지로 변환하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "큰 고개 유래, 1962년 대신동 신설과 1964년 구획정리 뒤 구역 변화가 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 대현동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1962년 12월 28일·1964년 6월 1일을 대조했다. 구획정리 완료와 신촌로 개설·확장을 분리해 읽었다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 원문 지명·행정 설명이며 독립적인 경계 복원이나 법령 판정은 아니다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "큰 고개 유래, 1962년 대신동 신설과 1964년 구획정리 뒤 구역 변화가 요약과 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "서대문구 대현동 독립 항목과 마포구 대흥동으로의 일부 편입 문장을 대조했다. 역사 경계를 현재 필지로 변환하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "40df2cce-6174-4513-bf8c-c600d7fb51a1",
+      "sourceId": "4ba32ef2-a239-45b7-a80d-51fed5cebd3a",
+      "versionId": "c049687f-59df-40b9-826e-6739cf2c0566",
+      "sourceVersion": 1,
+      "label": "1927년 토지임시조사부 지적도의 일부",
+      "locator": "상세 자료 > 내용 항목 · 『신촌; 청년문화를 품은 개척지』(2017), 269쪽",
+      "textKind": "transcription",
+      "fingerprint": "2df7ffe298fec5dd078da4c2ac39483cdefea06631593d6dbf43a63c77e96548",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "017a25f4-7356-4dc6-85fd-074e08e27d0d",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:21.155Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84662-436&fileSn=300&type=A&upperNodeId=CTGRY436",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『신촌; 청년문화를 품은 개척지』(2017), 269쪽",
+        "observedAt": "2026-10-21T21:41:18.926501+00:00",
+        "sourceHash": "a2f4607ef6b695f1897f6611bed7b1986fef9360550008ba26f8b61f3e7cc20d",
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "개별 자료 장소 서울특별시 및 설명문의 신촌·대현지구 맥락을 확인했다. 실제 도면 경계를 현재 필지에 겹치거나 새 지역 연결을 만들지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "등록 페이지의 내용과 기존 전사가 공백 정규화 후 일치한다. 대현지구·연세로·복개 봉원천에 관한 제공기관의 해석을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 1927년 토지임시조사부 지적도의 일부 표제와 선택 요약의 명칭을 대조했다. 원문 식별자·비공개 표기를 유지한다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "도면 표제·시기 1927과 출처 책의 2017년을 구별했다. 원도면의 성립 연대와 원전 책 269쪽을 별도로 검증하지 않았다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "토착민의 작은 마을이라는 추측된다와 구획정리 제외로 보인다는 표현이 그대로 남아 있다. 해당 해석을 확정 사실로 바꾸지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "등록 페이지의 내용과 기존 전사가 공백 정규화 후 일치한다. 대현지구·연세로·복개 봉원천에 관한 제공기관의 해석을 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "해당 개별 자료 제목 뒤의 공공누리 제1유형(출처표시) 표시를 이번에 읽었다. 기존 KOGL1·권리 URL·보관/재사용 값은 유지하며 외부 원사진·도면을 새로 복제하거나 제3자 권리로 확대하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "개별 자료 장소 서울특별시 및 설명문의 신촌·대현지구 맥락을 확인했다. 실제 도면 경계를 현재 필지에 겹치거나 새 지역 연결을 만들지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "41b4c8c0-82cd-43bf-8294-ec2bb8ccb26b",
+      "sourceId": "2b267858-db15-40fe-8460-5944f4dbae72",
+      "versionId": "bc9b2d7d-fe8b-4247-989e-102215fe0579",
+      "sourceVersion": 1,
+      "label": "화동",
+      "locator": "서울 지명사전 > 법정동 > 화동(花洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box8)",
+      "textKind": "paraphrase",
+      "fingerprint": "8c8c91bbdb74e7c0ae5f8e47297a487dfc024bcb27f16d7d6afa06d856e6f4d4",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "783eed2a-1ec6-42f1-9b2e-e74ff700cfe9",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:23.957Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%99%94%EB%8F%99",
+        "sourceLocator": "서울 지명사전 > 법정동 > 화동(花洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box8)",
+        "observedAt": "2026-10-21T21:41:19.857206+00:00",
+        "sourceHash": "1206c8b1ee61a7fb0d2e0bc7a51707c72b2b12754643b83807affaee83e4e6c2",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "검색의 txt-box8 화동(花洞)과 종로구 관할 연혁을 선택했다. 동명 검색의 다른 항목을 사용하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "화개동의 준말인 화동과 장원서·화약고·화기도감의 두 유래 설명이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 화동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약의 조선시대 배경과 원문의 문헌 소개를 구분했다. 고문헌 원본을 별도로 열람한 것으로 기록하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "장원서 유래와 화기 음이 비슷하다는 다른 설을 함께 소개하는 한정이 보존돼 있다. 하나의 확정 어원으로 합치지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "화개동의 준말인 화동과 장원서·화약고·화기도감의 두 유래 설명이 요약과 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "검색의 txt-box8 화동(花洞)과 종로구 관할 연혁을 선택했다. 동명 검색의 다른 항목을 사용하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "41caa42a-376a-4347-b3c5-5ca4c6321872",
+      "sourceId": "89f9ea8d-19c5-4cdb-8560-2f1c993a6eeb",
+      "versionId": "01c138c3-ae8b-4a38-a2a3-37babedc652f",
+      "sourceVersion": 1,
+      "label": "000-00 주택 1층 평면도",
+      "locator": "상세 자료 > 내용 항목 · 『후암동; 두텁바위가 품은 역사, 문화주택에 담긴 삶』(2016), 155쪽",
+      "textKind": "transcription",
+      "fingerprint": "4aba725549e948baa5b4436a83bd309ae056d43a84c5b92bd56dfda2820b8f0c",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "e520aeaa-71c9-46a2-b05e-f816dbe8a898",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:27.099Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY360&fileId=H-TRNS-70531-362&fileSn=300&type=A&upperNodeId=CTGRY362",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『후암동; 두텁바위가 품은 역사, 문화주택에 담긴 삶』(2016), 155쪽",
+        "observedAt": "2026-10-21T21:41:20.538300+00:00",
+        "sourceHash": "86c897adc7f6e9e1b6e806da0b80ce5f44a0564660eb8e75b031356cd7d63eb0",
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 장소 서울특별시 용산구 후암동을 대조했다. 비공개 주소를 추정하거나 식별하지 않고 기존 빈 지역 연결을 유지한다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "개별 원문의 내용과 저장 전사가 공백 정규화 후 일치한다. 000-00 주소 비공개 표기와 건축 시기 추정을 그대로 보존했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 000-00 주택 1층 평면도 표제와 선택 요약의 명칭을 대조했다. 원문 식별자·비공개 표기를 유지한다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "주택지 조성 1932년·건축 추정 1930년대 말~1940년대 초·기록 시기 2015·책 2016년을 구별했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "건축 시기를 추정된다고 한정한 원문 표현이 남아 있다. 실측도나 건축물대장으로 건축 연도를 확정하지 않았다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "개별 원문의 내용과 저장 전사가 공백 정규화 후 일치한다. 000-00 주소 비공개 표기와 건축 시기 추정을 그대로 보존했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "해당 개별 자료 제목 뒤의 공공누리 제1유형(출처표시) 표시를 이번에 읽었다. 기존 KOGL1·권리 URL·보관/재사용 값은 유지하며 외부 원사진·도면을 새로 복제하거나 제3자 권리로 확대하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 장소 서울특별시 용산구 후암동을 대조했다. 비공개 주소를 추정하거나 식별하지 않고 기존 빈 지역 연결을 유지한다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "41da029c-c80d-49c8-8c62-b7240aca997f",
+      "sourceId": "bd3de094-d8eb-4a5e-a669-fcf62dac630b",
+      "versionId": "32452390-c566-4bbe-948c-67bb7a3a64a9",
+      "sourceVersion": 1,
+      "label": "신원동",
+      "locator": "신원동 지명유래 > 첫 문단·평촌",
+      "textKind": "paraphrase",
+      "fingerprint": "e243a0efb07f54f09b536f442cdda4472534cb6c601277dcab9c0dcb6dc76cfa",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "eb164c17-7038-4d8a-b89d-0d535b8a65a7",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:30.080Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.seocho.go.kr/site/seocho/05/10502041100002015070810.jsp",
+        "sourceLocator": "신원동 지명유래 > 첫 문단·평촌",
+        "observedAt": "2026-10-21T21:41:20.578096+00:00",
+        "sourceHash": "e82f013737b9b291ddeb59be93e4cd062bf9172ca90d1a97d7da8b7d0edea399",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "광주군 언주면은 현재 서울 서초구 신원동의 편입 전 연혁이다. 현재 다른 지역의 신원동으로 확대하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "원터 아래 새원에서 온 이름, 1914년 신원리·1963년 서울 편입·1988년 서초구 관할과 벌말·평촌을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 신원동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문이 법률 공포일 1962년 11월 21일과 편입 시행일 1963년 1월 1일을 나누는 것을 확인했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 마을명·연혁 설명으로 원문의 김진사댁 숙박 전언을 확정 역사로 더하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "원터 아래 새원에서 온 이름, 1914년 신원리·1963년 서울 편입·1988년 서초구 관할과 벌말·평촌을 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "광주군 언주면은 현재 서울 서초구 신원동의 편입 전 연혁이다. 현재 다른 지역의 신원동으로 확대하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "42e0d443-87dd-4659-af8c-effd9ea59ee9",
+      "sourceId": "d9fcd6af-5956-4f7b-8cfa-21aeae344906",
+      "versionId": "e99497f5-6b91-4dbb-af2d-12c6a27d43ed",
+      "sourceVersion": 1,
+      "label": "홍익동",
+      "locator": "서울지명사전 > 법정동 > 홍익동(弘益洞) 항목 본문(p.txt-box) / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "17283ac5a0e7df009f9875f8fee76e45d95a4b793b536e9f57548d4435a869e5",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "7ae24d6b-59e5-47a9-b455-99e065ad0f83",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:32.836Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%99%8D%EC%9D%B5%EB%8F%99",
+        "sourceLocator": "서울지명사전 > 법정동 > 홍익동(弘益洞) 항목 본문(p.txt-box) / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-21T21:41:22.889243+00:00",
+        "sourceHash": "9c3bb880adca3f45ee7888c570412d44b8b422be5d19340491e0b83f860d720c",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "성동구 홍익동 독립 표제와 관할 연혁을 대조했다. 다른 지역 홍익 명칭과 혼동하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "홍익인간에서 온 이름과 1964년 하왕십리동에서 도선동과 함께 분리되어 법정동이 된 설명이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 홍익동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1964년 9월 28일 분동·법정동 신설을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "홍익인간을 이름의 출전으로 소개하는 것이며 단군의 역사적 실재를 이번 검토로 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "홍익인간에서 온 이름과 1964년 하왕십리동에서 도선동과 함께 분리되어 법정동이 된 설명이 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "성동구 홍익동 독립 표제와 관할 연혁을 대조했다. 다른 지역 홍익 명칭과 혼동하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "43bfd155-b5f6-42ba-800c-164b869d2c8e",
+      "sourceId": "90c293b5-9622-4809-a604-6e3ee8cb0d30",
+      "versionId": "891b62ca-ed9a-4a8c-ad9b-062fa598adef",
+      "sourceVersion": 1,
+      "label": "'관리'를 강조하는 노량진 공무원학원",
+      "locator": "상세 자료 > 내용 항목 · 『노량진(2021)』, p. 337.",
+      "textKind": "transcription",
+      "fingerprint": "690a959338a3d7970a573c457c2d8f38d40b9f823e62fa6ee42c4737e92b660c",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "source_captured",
+      "reviewId": "e78f612c-d186-4bc7-9c55-03bced0eaf32",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:35.771Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY986&fileId=dc14116e-5eba-43df-9b8f-d517b7a8cc7f&fileSn=502&type=A&upperNodeId=CTGRY993",
+        "sourceLocator": "상세 자료 > 내용 항목 · 『노량진(2021)』, p. 337.",
+        "observedAt": "2026-10-21T21:41:23.224199+00:00",
+        "sourceHash": "87ddb3e76641ef20df6197c5b786e0be169ddfcff02fa157dcaec82fb983cd1d",
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "제공기관의 장소 서울시 동작구와 설명문의 노량진 학원 맥락을 대조했다. 실제 학원 건물 주소·사진 위치를 독립 확인하지 않고 빈 지역 연결을 유지한다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "개별 원문의 내용 항목과 전사가 공백 정규화 후 일치한다. 현수막 문구와 인터넷 강의·관리 시스템에 관한 제공기관 설명을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 '관리'를 강조하는 노량진 공무원학원 표제와 선택 요약의 명칭을 대조했다. 원문 식별자·비공개 표기를 유지한다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "개별 메타데이터 시기 2022-02-09·설명문 2022년·출처 표기 노량진(2021)을 그대로 구별했다. 책의 괄호 연도를 촬영일로 대체하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "인터넷 강의와 관리 수요의 관계는 제공기관의 해석이며 독립 인과 검증이 아니다. 최근이라는 원문의 상대 시점을 2026년 현황으로 바꾸지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "개별 원문의 내용 항목과 전사가 공백 정규화 후 일치한다. 현수막 문구와 인터넷 강의·관리 시스템에 관한 제공기관 설명을 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "해당 개별 자료 제목 뒤의 공공누리 제1유형(출처표시) 표시를 이번에 읽었다. 기존 KOGL1·권리 URL·보관/재사용 값은 유지하며 외부 원사진·도면을 새로 복제하거나 제3자 권리로 확대하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "제공기관의 장소 서울시 동작구와 설명문의 노량진 학원 맥락을 대조했다. 실제 학원 건물 주소·사진 위치를 독립 확인하지 않고 빈 지역 연결을 유지한다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "43f0e0d5-2dc9-4446-bc00-b892a3100fce",
+      "sourceId": "e6ae27d2-d196-4d7d-9d4c-2b9431063210",
+      "versionId": "ef3f79fd-7298-46ce-80a2-316364392462",
+      "sourceVersion": 1,
+      "label": "신계동",
+      "locator": "서울지명사전 > 법정동 > 신계동(新契洞) > 첫 문장·말미 1914년 및 1946년 개칭 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "bcb9dc6e17eb63af7244e8a9e296175b020296fd95f23c24e66e65a6501089f4",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "750b87f4-a3ce-4690-9c31-d141445094cd",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:38.959Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%8B%A0%EA%B3%84%EB%8F%99",
+        "sourceLocator": "서울지명사전 > 법정동 > 신계동(新契洞) > 첫 문장·말미 1914년 및 1946년 개칭 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-21T21:41:23.678337+00:00",
+        "sourceHash": "bed2ba78e97292da225df50dfb2224d9726a2c7fe17d3a083e329ad15e432c06",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "용산구 신계동 독립 표제와 관할 연혁을 대조했다. 다른 지역의 동명 자료로 연결하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "일본인 거주로 새로 생긴 동네라는 이름 설명과 1914년 영정·1946년 신계동 개칭을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 신계동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1914년 3월 부령·4월 고시와 1946년 10월 개칭을 나누어 읽었다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 원문 귀속의 지명·행정 설명이며 추정이나 전승을 새로 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "일본인 거주로 새로 생긴 동네라는 이름 설명과 1914년 영정·1946년 신계동 개칭을 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "용산구 신계동 독립 표제와 관할 연혁을 대조했다. 다른 지역의 동명 자료로 연결하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "44450fd0-acd2-4798-bce7-feef5d4f1484",
+      "sourceId": "81b80382-8496-4859-96c2-d4a851a171d8",
+      "versionId": "2835f737-b48f-4d0d-835a-e54a3b7c2c38",
+      "sourceVersion": 1,
+      "label": "대방동",
+      "locator": "대방동 > 첫 문단·높은절이·번댕이",
+      "textKind": "paraphrase",
+      "fingerprint": "e421a7dbcc2b03e58f713ceb88321ba34015b9eaceeae6cce05a3d1f35121bde",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "b0ff3c1b-b82a-42b0-b1a1-6c755b1b1e5b",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:41.905Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200756",
+        "sourceLocator": "대방동 > 첫 문단·높은절이·번댕이",
+        "observedAt": "2026-10-21T21:41:25.717282+00:00",
+        "sourceHash": "c0c646d790556db563e9dba1146d149f8c24dfbb4e021775176503a517434c4e",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "원문의 대방동·노량진동·상도동 경계와 높은절이·번댕이 문단은 동네 맥락이다. 현재 개별 건물·부지 동일성은 미검증이다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "높은절이·번댕이→일제 때 번대방리→광복 후 대방동, 사찰·묘역·연못 이야기가 원문과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 대방동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 약 350년 전은 게시·집필 시점이 특정되지 않은 상대 시점이다. 현재로부터 정확한 연도를 계산하지 않고 일제·광복 후의 상대 순서만 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "청련암의 사패지·계동궁 연못 등은 원문의 전언으로 보존했다. 왕의 하사나 사찰·묘역의 실제 위치를 독립 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "높은절이·번댕이→일제 때 번대방리→광복 후 대방동, 사찰·묘역·연못 이야기가 원문과 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "원문의 대방동·노량진동·상도동 경계와 높은절이·번댕이 문단은 동네 맥락이다. 현재 개별 건물·부지 동일성은 미검증이다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "444d5d72-f2e4-426a-9875-b1d57a54bfa1",
+      "sourceId": "ceb355e1-3e2e-41cb-8833-625ca7f9390b",
+      "versionId": "ad8c5d0a-5b6d-495c-bed8-2dcb65f9e3b0",
+      "sourceVersion": 1,
+      "label": "동선동 공통 동명",
+      "locator": "동명 유래 > 동선동",
+      "textKind": "paraphrase",
+      "fingerprint": "fcbb57bb85057fc7508eb6c0e9d8a4995fc450a80d050234e601aaca331178c1",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "9e21275f-aa28-4ac9-b576-565807d7dcff",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:45.796Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.sb.go.kr/www/contents.do?key=5964",
+        "sourceLocator": "동명 유래 > 동선동",
+        "observedAt": "2026-10-21T21:41:25.853693+00:00",
+        "sourceHash": "61356724a90ed282b6eaf69b124bd08ef59d3c0960f0f1ea16ff92a5d8ad3694",
+        "classification": "factual",
+        "spatialScope": "district",
+        "scopeNote": "기존 연결은 성북구 district_context다. 공통 동선동 이름의 자치구 맥락만 확인하며 행정동·법정동의 각 가 경계나 개별 연혁으로 확대하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "성북구 동선동 문단에서 1949년 돈암동 분리 때 동소문동·삼선동 첫 글자로 명명했다는 요약을 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 동선동 공통 동명 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문 1949년을 대조했다. 현재 동선동1~5가 각각의 신설 연도로 확대하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 합성 동명의 원문 설명이며 새 전승을 보태지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "성북구 동선동 문단에서 1949년 돈암동 분리 때 동소문동·삼선동 첫 글자로 명명했다는 요약을 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "기존 연결은 성북구 district_context다. 공통 동선동 이름의 자치구 맥락만 확인하며 행정동·법정동의 각 가 경계나 개별 연혁으로 확대하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "45596c23-5093-4519-8a01-d57fe50b4f9f",
+      "sourceId": "def8854c-9b27-468f-82a6-3c0bacc800dc",
+      "versionId": "bdedaa5e-dc9f-4d8f-bcad-55265af457ae",
+      "sourceVersion": 1,
+      "label": "녹번동",
+      "locator": "우리동이야기 > 동 유래·동 역사 > 녹번동",
+      "textKind": "paraphrase",
+      "fingerprint": "0b128db2f49faf1d890b1a71719347adaf16651e77466da368156403369bd26b",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "e94738ba-bc59-44d0-8fe8-32dbcba51cd1",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:49.299Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.ep.go.kr/dong/contents.do?key=3880",
+        "sourceLocator": "우리동이야기 > 동 유래·동 역사 > 녹번동",
+        "observedAt": "2026-10-21T21:41:26.797033+00:00",
+        "sourceHash": "c58b8f159238e6a3c12ea66b85b5faca50251eb8de0fe0933ea6ce58ea34b058",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "녹번동 주민센터의 지명유래 본문과 편입 표를 대조했다. 고양군은 현재 녹번동의 편입 전 연혁으로만 읽는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "녹을 고개에 놓은 이야기와 푸른 광물 해석을 모두 소개하고 1949년 서울 편입을 적은 요약이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 녹번동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "동 역사 표의 1949년 편입을 대조했다. 1979년 은평구 승격과 같은 연도로 혼동하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문의 두 유래설을 병기한 요약의 이야기·해석 한정이 보존돼 있다. 관청 녹봉 전승이나 광물 기원을 유일한 사실로 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "녹을 고개에 놓은 이야기와 푸른 광물 해석을 모두 소개하고 1949년 서울 편입을 적은 요약이 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "녹번동 주민센터의 지명유래 본문과 편입 표를 대조했다. 고양군은 현재 녹번동의 편입 전 연혁으로만 읽는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "456ce6d6-ccec-415e-8c5e-2aec4df04afb",
+      "sourceId": "ceb355e1-3e2e-41cb-8833-625ca7f9390b",
+      "versionId": "ad8c5d0a-5b6d-495c-bed8-2dcb65f9e3b0",
+      "sourceVersion": 1,
+      "label": "안암동 공통 동명",
+      "locator": "동명 유래 > 안암동",
+      "textKind": "paraphrase",
+      "fingerprint": "497e3e8cb1eeed8a0366a304fc2b66e0c559525f606d96e1c6f6435ba01d0d9f",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "07d7bf74-345e-40dd-8c57-91176d4ca90c",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:52.383Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.sb.go.kr/www/contents.do?key=5964",
+        "sourceLocator": "동명 유래 > 안암동",
+        "observedAt": "2026-10-21T21:41:25.853693+00:00",
+        "sourceHash": "61356724a90ed282b6eaf69b124bd08ef59d3c0960f0f1ea16ff92a5d8ad3694",
+        "classification": "tradition",
+        "spatialScope": "district",
+        "scopeNote": "기존 성북구 district_context를 유지한다. 안암동3가 언급은 원문 안의 위치 설명이며 법정동 각 가 전체나 개별 아파트·부지 연결로 승격하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "성북구 원문의 안암동 문단에서 여러 사람이 앉아 쉴 큰 바위·앉일바위 유래를 읽었다. 저장 요약이 전해진다고 한정한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 안암동 공통 동명 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에는 연대가 없다. 원문의 1395년 언급을 바위의 성립 연도나 개별 건물 연대로 채택하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "안암이라는 이름의 바위 이야기를 전승으로 보존했다. 풍수 설명이나 현장 바위의 실재·위치를 이번 검토로 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "성북구 원문의 안암동 문단에서 여러 사람이 앉아 쉴 큰 바위·앉일바위 유래를 읽었다. 저장 요약이 전해진다고 한정한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "기존 성북구 district_context를 유지한다. 안암동3가 언급은 원문 안의 위치 설명이며 법정동 각 가 전체나 개별 아파트·부지 연결로 승격하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "45c48aaf-df27-47de-ac42-ddea44dec954",
+      "sourceId": "ceb355e1-3e2e-41cb-8833-625ca7f9390b",
+      "versionId": "ad8c5d0a-5b6d-495c-bed8-2dcb65f9e3b0",
+      "sourceVersion": 1,
+      "label": "길음동",
+      "locator": "동명 유래 > 길음동",
+      "textKind": "paraphrase",
+      "fingerprint": "6f30f95ffc8b8417edc4541f21ff9a3cc05f9616eaa0efbdadecf67ad0deb64d",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "c2972e0f-aa20-44bd-addf-c44ac26ee1f3",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:55.481Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.sb.go.kr/www/contents.do?key=5964",
+        "sourceLocator": "동명 유래 > 길음동",
+        "observedAt": "2026-10-21T21:41:25.853693+00:00",
+        "sourceHash": "61356724a90ed282b6eaf69b124bd08ef59d3c0960f0f1ea16ff92a5d8ad3694",
+        "classification": "tradition",
+        "spatialScope": "neighborhood",
+        "scopeNote": "원문의 미아리고개 북쪽 마을·정릉천 골짜기와 길음동 표제를 대조했다. 현재 하천·필지 경계를 확정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "기리묵골·기레미골의 긴 골짜기 설명과 정릉천의 고운 물소리 유래를 함께 소개한 요약이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 길음동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에 사건 연대는 없고 어원 설명만 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문이 두 설명을 전하는 형식을 유지했다. 맑은 물소리가 명명의 확정 원인이라는 독립 사실로 바꾸지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "기리묵골·기레미골의 긴 골짜기 설명과 정릉천의 고운 물소리 유래를 함께 소개한 요약이 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "원문의 미아리고개 북쪽 마을·정릉천 골짜기와 길음동 표제를 대조했다. 현재 하천·필지 경계를 확정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "4670dc79-97a7-40c9-851d-2df4a2abd90e",
+      "sourceId": "976d7e98-6415-4df2-9821-63b326c4167f",
+      "versionId": "f7019bbd-b659-45e7-ac89-a1d7823181c5",
+      "sourceVersion": 1,
+      "label": "평동",
+      "locator": "서울 지명사전 > 법정동 > 평동(平洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box9)",
+      "textKind": "paraphrase",
+      "fingerprint": "43bc07eaebff5aaf17ef6760a846d8bba67e5ae7140bb70d7a1b85445504a086",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "12c45648-8657-4081-bfe9-d4215f6a800e",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:48:58.580Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%8F%89%EB%8F%99",
+        "sourceLocator": "서울 지명사전 > 법정동 > 평동(平洞) > 동명 유래·행정 변천 문단 / 본문 구간 (txt-box9)",
+        "observedAt": "2026-10-21T21:41:29.980960+00:00",
+        "sourceHash": "8c4baa6da3de7bc472a28558c04595ef6ef50a232b6a027d87eac9ea6a86dff6",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "txt-box9 평동(平洞)의 종로구 연혁을 선택했다. 동명 검색의 다른 평동이나 타지역을 연결하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "안산·인왕산 사이 낮고 평탄한 분지와 거평동의 준말이라는 설명이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 평동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에는 특정 연대가 없다. 원문 관할 변천의 1975년 종로구 편입은 현재 서울 지역 판별의 맥락으로 읽었다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문 어원 설명의 귀속을 유지하며 풍수 효험을 새 사실로 더하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "안산·인왕산 사이 낮고 평탄한 분지와 거평동의 준말이라는 설명이 요약과 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "txt-box9 평동(平洞)의 종로구 연혁을 선택했다. 동명 검색의 다른 평동이나 타지역을 연결하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "46cdfa42-0feb-4578-8d39-c1f8c1f778c2",
+      "sourceId": "53b6fd0b-34cf-40b1-a21b-260f7223f664",
+      "versionId": "018463c4-591c-4687-80d8-5a2363d67e2e",
+      "sourceVersion": 1,
+      "label": "내곡동",
+      "locator": "내곡동 지명유래 > 내곡동·샘마을",
+      "textKind": "paraphrase",
+      "fingerprint": "26d08148f0ab6e2f787d19397c95128eaeb8e0a23646f8d48dfaa3af7735ad08",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "a343ddf8-3513-44e2-ae6b-03ade9c254ff",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:49:01.939Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.seocho.go.kr/site/seocho/05/10502040900002015070810.jsp",
+        "sourceLocator": "내곡동 지명유래 > 내곡동·샘마을",
+        "observedAt": "2026-10-21T21:41:30.364004+00:00",
+        "sourceHash": "71ad4cf927a6b8b29b2a0a30b9c4b3066aab91ba98e538a34899e3bf860605d9",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "서초구 내곡동과 성남시 경계를 원문에서 구분했다. 옛 언주면과 현재 내곡동의 연결 근거가 있으며 성남시 자료를 서울로 편입하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "안골·안말 유래, 헌릉·인릉과 자연마을 맥락 및 샘마을의 1972년 와룡동 철거민 이주·1979년 취락구조개선이 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 내곡동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1972년 이주와 1979년 자리 이동·취락구조개선의 서로 다른 사건을 대조했다. 현재라는 원문 표현을 2026년 현황으로 확대하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 자연마을 배경이며 호랑이·여우 출몰 전언 등을 별도의 확정 사건으로 더하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "안골·안말 유래, 헌릉·인릉과 자연마을 맥락 및 샘마을의 1972년 와룡동 철거민 이주·1979년 취락구조개선이 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "서초구 내곡동과 성남시 경계를 원문에서 구분했다. 옛 언주면과 현재 내곡동의 연결 근거가 있으며 성남시 자료를 서울로 편입하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "46d26fd1-ed92-44e7-8fe0-a4898445b69d",
+      "sourceId": "86b47996-afd5-424c-9062-ceaa7e16069e",
+      "versionId": "3c2bd096-b31e-4ed4-a53b-3bdd2e3cb9bc",
+      "sourceVersion": 1,
+      "label": "미근동",
+      "locator": "서울지명사전 > 법정동 > 미근동(渼芹洞) 항목 본문(p.txt-box) / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "a0f4d51de7018051f107e31b99cd3d02fb2f6fc3f63a032ab69b5893aae663bc",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "0d8ff07d-3d78-4445-9f02-e1c1c087e292",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:49:05.204Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AF%B8%EA%B7%BC%EB%8F%99",
+        "sourceLocator": "서울지명사전 > 법정동 > 미근동(渼芹洞) 항목 본문(p.txt-box) / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-21T21:41:33.059969+00:00",
+        "sourceHash": "785c586ce01cc105555f3637056979cd4354e735e70284a92a7d351f179cd0ef",
+        "classification": "mixed",
+        "spatialScope": "neighborhood",
+        "scopeNote": "서대문구 미근동 독립 표제·연혁과 지역 연결을 대조했다. 옛 미동·근동을 현행 별도 동이나 필지로 새 연결하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "미동·근동의 이름 합성, 尾를 渼로 바꾼 설명 및 1914·1936·1946년 명칭 변천이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 미근동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "1914년 미근동·1936년 미근정·1946년 미근동을 순서대로 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "원문은 합성 어원 외에 미나리밭 유래라는 다른 설명도 싣는다. 선택 요약은 원문의 한 설명에 귀속하며 유일한 어원으로 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "미동·근동의 이름 합성, 尾를 渼로 바꾼 설명 및 1914·1936·1946년 명칭 변천이 요약과 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "서대문구 미근동 독립 표제·연혁과 지역 연결을 대조했다. 옛 미동·근동을 현행 별도 동이나 필지로 새 연결하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "47444cd9-57a1-45ca-b011-21af40398bb8",
+      "sourceId": "3916bc4a-8f99-43ee-8cd8-53617baaa697",
+      "versionId": "517558c7-fa12-46ca-93aa-8b295b163e8c",
+      "sourceVersion": 1,
+      "label": "명일동",
+      "locator": "명일동 > 유래",
+      "textKind": "paraphrase",
+      "fingerprint": "201dd395452fb069e750c8965e6777a68c9a4810f737363890910a47c7b8abcd",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "3c48895e-9152-4021-adef-2b0d73f4e550",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:49:08.580Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "web_original_read",
+      "evidence": {
+        "sourceUrl": "https://www.gangdong.go.kr/web/culture/contents/gdc020_020_020",
+        "sourceLocator": "명일동 > 유래 / 웹 원문 지명유래 > 명일동 유래 304~327행·이용조건 465행",
+        "observedAt": "2026-10-21T21:44:11Z",
+        "sourceHash": null,
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "강동구 지명유래의 명일동 표제와 옛지명 표를 선택했다. 명일원 부지를 현재 주소로 특정하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "등록 강동문화포털의 명일동 유래 문단에서 명일원 숙소와 여행자 편의 설명을 읽어 선택 요약과 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 명일동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "선택 요약에 연대는 없다. 원문의 고려 성종 11년(994) 병기는 별도 연대 대조 대상으로 남기며 선택 요약에 전재하거나 확정하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 원문의 숙소 유래 소개로 귀속한다. 명일원 실제 부지나 왕대·연대의 독립 확정은 아니다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "등록 강동문화포털의 명일동 유래 문단에서 명일원 숙소와 여행자 편의 설명을 읽어 선택 요약과 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "등록 원문 하단 공공누리 제4유형(출처표시·변경금지·상업적 이용금지)을 이번에 읽었다. 기존 unknown·보관 0·재사용 0을 유지하며 새 복제·변형·상업적 이용 허락을 부여하지 않는다. 기존 짧은 자체 요약과 원문 복제·권리 허락은 구분한다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "강동구 지명유래의 명일동 표제와 옛지명 표를 선택했다. 명일원 부지를 현재 주소로 특정하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "47855ed0-a5d5-4d2a-9cf3-c9c31e34fa90",
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "versionId": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+      "sourceVersion": 1,
+      "label": "도화동",
+      "locator": "동이름의 유래 > 도화동",
+      "textKind": "paraphrase",
+      "fingerprint": "e012e6f8670e58bf8958991da6ce37472c389ae900eac7faf1193b9733d2f0d9",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "bb7b05f5-5ea8-4f59-8444-18f8bff4230b",
+      "revision": 1,
+      "status": "needs_review",
+      "checkedAt": "2026-10-21T21:49:11.644Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.mapo.go.kr/site/culture/content/culture0302",
+        "sourceLocator": "동이름의 유래 > 도화동",
+        "observedAt": "2026-10-21T21:41:35.093534+00:00",
+        "sourceHash": "7229763ff5f0882c5ee5a9681661fd809ccaea47e5e10a5bf083de7e3813dddf",
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "마포구 페이지 도화동 표제와 마포나루·주변 동 맥락을 대조했다. 원문 속 현재 아파트 일대를 현재 필지 경계로 복원하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "복숭아꽃·복사골의 이름 설명은 원문과 일치하지만, 기존 요약이 유보한 주거지 형성 연대·철도 설명은 미해결이다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 도화동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "unresolved",
+            "note": "원문은 1905년 경원선을 기점으로 주거지가 생겼다고 쓰지만 연대·노선 근거를 제시하지 않는다. 기존 요약도 추가 검토를 명시하므로 독립 원문 근거 대조 전까지 chronology를 미해결로 남긴다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "복숭아꽃 어원은 원문의 설명이며 실제 경작·개화 시기나 주거지 형성의 인과를 이번에 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "unresolved",
+            "note": "복숭아꽃·복사골의 이름 설명은 원문과 일치하지만, 기존 요약이 유보한 주거지 형성 연대·철도 설명은 미해결이다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "마포구 페이지 도화동 표제와 마포나루·주변 동 맥락을 대조했다. 원문 속 현재 아파트 일대를 현재 필지 경계로 복원하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "47b62f1d-1cff-4183-81c8-4651b9ffa160",
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "versionId": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+      "sourceVersion": 1,
+      "label": "거여동",
+      "locator": "동명 유래 > 거여동",
+      "textKind": "paraphrase",
+      "fingerprint": "75e1c0577dcd138e42b2ba9657a7067e417463c0a13efe7ddb8fccd1ace22cc6",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "3173ee3a-c138-4d5f-bfbd-3ac12b1ee461",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:49:14.342Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://www.songpa.go.kr/www/contents.do?key=2367",
+        "sourceLocator": "동명 유래 > 거여동",
+        "observedAt": "2026-10-21T21:41:35.888628+00:00",
+        "sourceHash": "d10d876a20d624fb9d397e69bdc2e4eefe62b26dfae58d2c543e555089ac87e3",
+        "classification": "factual",
+        "spatialScope": "neighborhood",
+        "scopeNote": "송파구 페이지의 거여동(巨餘洞) 개별 문단을 선택했다. 현 서울 거여동과 직접 관련된 편입 연혁으로 읽고 타지역 동명으로 확장하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "거암리 명칭 변화와 거여리→1963년 서울 편입·거여동 설명이 요약과 일치한다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 거여동 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문의 1963년 1월 1일 서울 편입을 대조했다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "선택 요약은 원문 이름 변화의 설명이다. 거암이라는 인물의 실재와 인근 동의 임경업 전설 등을 독립 확정하지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "거암리 명칭 변화와 거여리→1963년 서울 편입·거여동 설명이 요약과 일치한다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문에 공공누리 표기 지정안됨이 표시돼 있다. 개별 이용허락으로 간주하지 않고 기존 unknown·보관 0·재사용 0을 유지한다. 별도 짧은 자체 요약만 대조하고 원문·사진·파일을 새로 적재하지 않는다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "송파구 페이지의 거여동(巨餘洞) 개별 문단을 선택했다. 현 서울 거여동과 직접 관련된 편입 연혁으로 읽고 타지역 동명으로 확장하지 않는다."
+          }
+        }
+      }
+    },
+    {
+      "passageId": "47e5921a-92a7-400b-acb9-f8288d78f47f",
+      "sourceId": "37097c7e-d671-4b26-a135-23ab9c001b6c",
+      "versionId": "df35fbb6-95dd-4641-93c5-871aea18e68b",
+      "sourceVersion": 1,
+      "label": "문래동1가",
+      "locator": "법정동 분류 > 문래동1가(文來洞1街) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0)",
+      "textKind": "paraphrase",
+      "fingerprint": "05cd446cf226d97f7461214479f765f7f601aea7a183a2cec19f055eb8717182",
+      "previousReviewId": null,
+      "previousRevision": 0,
+      "previousStatus": "pending",
+      "reviewId": "017c82b2-f1b5-41ee-af43-bcc102296e48",
+      "revision": 1,
+      "status": "content_checked",
+      "checkedAt": "2026-10-21T21:49:17.617Z",
+      "actor": "scheduled-private-service",
+      "accessMode": "public_get",
+      "evidence": {
+        "sourceUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AC%B8%EB%9E%98%EB%8F%991%EA%B0%80",
+        "sourceLocator": "법정동 분류 > 문래동1가(文來洞1街) > 동명 유래·행정 변천 본문 / 본문 구간 (txt-box0)",
+        "observedAt": "2026-10-21T21:41:38.188505+00:00",
+        "sourceHash": "fc82ecf8b11a16283ecdf17a4fab49356eb36dd9f36a2f28418728e4ec3582f7",
+        "classification": "inference",
+        "spatialScope": "neighborhood",
+        "scopeNote": "영등포구 문래동1가 독립 표제와 관할 설명을 대조했다. 공통 문래동·다른 가의 연혁을 개별 필지 역사로 확대하지 않는다. 기존 ID·본문·자료 및 본문 버전·권리·지역 연결은 유지한다. 건물·부지 동일성이나 원자료 자체의 역사적 진위를 독립 확정한 기록은 아니다.",
+        "summary": "문래동 분리와 구획정리사업·광복·전쟁 후 인구 증가라는 배경을 원문에서 대조했다.",
+        "checks": {
+          "names": {
+            "result": "checked",
+            "note": "등록 원문의 문래동1가 표제와 선택 요약의 명칭을 대조했다. 현재 서울 지역과 해당 자치구의 개별 문단을 선택했다."
+          },
+          "chronology": {
+            "result": "checked",
+            "note": "원문 서두의 1952년 설명과 1953년 이전이라는 문헌 해석은 함께 보존했다. 선택 요약은 특정 분동 연도를 단정하지 않는다."
+          },
+          "tradition": {
+            "result": "checked",
+            "note": "문래동1가 분할 배경은 원문이 서울시세일람 표기를 해석한 설명이다. 원 자료를 이번에 직접 읽거나 인과·정확한 경계 시행일을 독립 확정한 것으로 올리지 않는다."
+          },
+          "consistency": {
+            "result": "checked",
+            "note": "문래동 분리와 구획정리사업·광복·전쟁 후 인구 증가라는 배경을 원문에서 대조했다. 선택 본문 밖의 다른 원문 주장 전체를 승인하는 판정은 아니다."
+          },
+          "rights": {
+            "result": "checked",
+            "note": "원문 페이지와 기존 권리 제한을 대조했다. 개별 복제·변형 이용허락이 확인되지 않은 unknown 및 보관 0·재사용 0을 유지한다. 짧은 자체 요약의 검토이며 원문·이미지·영상의 신규 적재나 이용허락 부여가 아니다."
+          },
+          "spatial": {
+            "result": "checked",
+            "note": "영등포구 문래동1가 독립 표제와 관할 설명을 대조했다. 공통 문래동·다른 가의 연혁을 개별 필지 역사로 확대하지 않는다."
+          }
+        }
+      }
+    }
+  ],
+  "auditRecords": [
+    {
+      "sourceId": "ba92c965-a182-47a2-9da6-30595b9b10a2",
+      "reviewId": "bb7b05f5-5ea8-4f59-8444-18f8bff4230b",
+      "passageId": "47855ed0-a5d5-4d2a-9cf3-c9c31e34fa90",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:49:11.644Z"
+    },
+    {
+      "sourceId": "d9fcd6af-5956-4f7b-8cfa-21aeae344906",
+      "reviewId": "7ae24d6b-59e5-47a9-b455-99e065ad0f83",
+      "passageId": "42e0d443-87dd-4659-af8c-effd9ea59ee9",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:32.836Z"
+    },
+    {
+      "sourceId": "3916bc4a-8f99-43ee-8cd8-53617baaa697",
+      "reviewId": "3c48895e-9152-4021-adef-2b0d73f4e550",
+      "passageId": "47444cd9-57a1-45ca-b011-21af40398bb8",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:49:08.580Z"
+    },
+    {
+      "sourceId": "89f9ea8d-19c5-4cdb-8560-2f1c993a6eeb",
+      "reviewId": "e520aeaa-71c9-46a2-b05e-f816dbe8a898",
+      "passageId": "41caa42a-376a-4347-b3c5-5ca4c6321872",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:27.099Z"
+    },
+    {
+      "sourceId": "37097c7e-d671-4b26-a135-23ab9c001b6c",
+      "reviewId": "017c82b2-f1b5-41ee-af43-bcc102296e48",
+      "passageId": "47e5921a-92a7-400b-acb9-f8288d78f47f",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:49:17.617Z"
+    },
+    {
+      "sourceId": "81b80382-8496-4859-96c2-d4a851a171d8",
+      "reviewId": "b0ff3c1b-b82a-42b0-b1a1-6c755b1b1e5b",
+      "passageId": "44450fd0-acd2-4798-bce7-feef5d4f1484",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:41.905Z"
+    },
+    {
+      "sourceId": "def8854c-9b27-468f-82a6-3c0bacc800dc",
+      "reviewId": "e94738ba-bc59-44d0-8fe8-32dbcba51cd1",
+      "passageId": "45596c23-5093-4519-8a01-d57fe50b4f9f",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:49.299Z"
+    },
+    {
+      "sourceId": "536fc3d5-87bb-4b2e-bfb3-6e33860ab479",
+      "reviewId": "3173ee3a-c138-4d5f-bfbd-3ac12b1ee461",
+      "passageId": "47b62f1d-1cff-4183-81c8-4651b9ffa160",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:49:14.342Z"
+    },
+    {
+      "sourceId": "d4e34937-ec9f-43d9-8fc5-669b3511ce1d",
+      "reviewId": "c7c6e224-358a-446e-b841-4ab5cc3aacac",
+      "passageId": "3b83952d-589a-42e3-afd2-a2397bf6ab4e",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:47:49.553Z"
+    },
+    {
+      "sourceId": "4e404a12-e3e8-4ee2-a6d1-6896abf385cb",
+      "reviewId": "15d18924-24a9-477e-a5c6-1fb092aa908e",
+      "passageId": "3b83261f-956c-4b39-813e-29281e782a0c",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:47:45.923Z"
+    },
+    {
+      "sourceId": "e6ae27d2-d196-4d7d-9d4c-2b9431063210",
+      "reviewId": "750b87f4-a3ce-4690-9c31-d141445094cd",
+      "passageId": "43f0e0d5-2dc9-4446-bc00-b892a3100fce",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:38.959Z"
+    },
+    {
+      "sourceId": "28a44ca3-95ed-447e-bcec-a851a003021e",
+      "reviewId": "844fa1d3-caf4-4efe-a3c9-f9a9c65af0e0",
+      "passageId": "3bd3ffa1-1b99-447b-b42f-9343be04b324",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:47:52.610Z"
+    },
+    {
+      "sourceId": "86b47996-afd5-424c-9062-ceaa7e16069e",
+      "reviewId": "0d8ff07d-3d78-4445-9f02-e1c1c087e292",
+      "passageId": "46d26fd1-ed92-44e7-8fe0-a4898445b69d",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:49:05.204Z"
+    },
+    {
+      "sourceId": "a5e4b9f5-e60b-45ea-aa75-1fbcec661710",
+      "reviewId": "58be4ebe-5bd6-497e-a9df-cd2a0adac9f0",
+      "passageId": "3b2adc85-6692-4e5d-82c1-9cf17a93a497",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:47:42.801Z"
+    },
+    {
+      "sourceId": "2b267858-db15-40fe-8460-5944f4dbae72",
+      "reviewId": "783eed2a-1ec6-42f1-9b2e-e74ff700cfe9",
+      "passageId": "41b4c8c0-82cd-43bf-8294-ec2bb8ccb26b",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:23.957Z"
+    },
+    {
+      "sourceId": "4bfe60bb-e260-43a4-8c9f-d5ddbf520969",
+      "reviewId": "77333c59-eb18-4d9d-a8e1-b02c8828d9ae",
+      "passageId": "3ff1aa2c-e573-432e-83bc-1a86e8f754af",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:14.591Z"
+    },
+    {
+      "sourceId": "bd3de094-d8eb-4a5e-a669-fcf62dac630b",
+      "reviewId": "eb164c17-7038-4d8a-b89d-0d535b8a65a7",
+      "passageId": "41da029c-c80d-49c8-8c62-b7240aca997f",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:30.080Z"
+    },
+    {
+      "sourceId": "cc38d69c-92f0-40e1-90a2-e2efaf28afdc",
+      "reviewId": "772f1018-3e5d-4df0-9382-f3c3784fc7c7",
+      "passageId": "3f93a281-3739-45f6-b7eb-7141b9d2e565",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:07.233Z"
+    },
+    {
+      "sourceId": "4ba32ef2-a239-45b7-a80d-51fed5cebd3a",
+      "reviewId": "017a25f4-7356-4dc6-85fd-074e08e27d0d",
+      "passageId": "40df2cce-6174-4513-bf8c-c600d7fb51a1",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:21.155Z"
+    },
+    {
+      "sourceId": "df85724f-62e5-49c0-bbc3-ccf28936f815",
+      "reviewId": "b9f6f43f-dd89-4143-aa4c-0f25d4ac1cfe",
+      "passageId": "3c5389b5-cb7e-49ab-88e5-df1d82c30cb3",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:47:55.427Z"
+    },
+    {
+      "sourceId": "90c293b5-9622-4809-a604-6e3ee8cb0d30",
+      "reviewId": "e78f612c-d186-4bc7-9c55-03bced0eaf32",
+      "passageId": "43bfd155-b5f6-42ba-800c-164b869d2c8e",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:35.771Z"
+    },
+    {
+      "sourceId": "63033178-8062-4563-b484-274e8b58dba5",
+      "reviewId": "987d77aa-730a-45f2-a272-72882a214107",
+      "passageId": "3fb2ec2b-c08f-45e6-b49f-74f0814d4264",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:11.673Z"
+    },
+    {
+      "sourceId": "aa31103e-542b-4b2d-928f-436cd31dafac",
+      "reviewId": "00ec74f1-bf70-49b4-8600-922e318b9151",
+      "passageId": "3dd26389-1024-447b-a159-c12df9b0a9d6",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:47:58.316Z"
+    },
+    {
+      "sourceId": "ceb355e1-3e2e-41cb-8833-625ca7f9390b",
+      "reviewId": "c2972e0f-aa20-44bd-addf-c44ac26ee1f3",
+      "passageId": "45c48aaf-df27-47de-ac42-ddea44dec954",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:55.481Z"
+    },
+    {
+      "sourceId": "ceb355e1-3e2e-41cb-8833-625ca7f9390b",
+      "reviewId": "07d7bf74-345e-40dd-8c57-91176d4ca90c",
+      "passageId": "456ce6d6-ccec-415e-8c5e-2aec4df04afb",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:52.383Z"
+    },
+    {
+      "sourceId": "ceb355e1-3e2e-41cb-8833-625ca7f9390b",
+      "reviewId": "9e21275f-aa28-4ac9-b576-565807d7dcff",
+      "passageId": "444d5d72-f2e4-426a-9875-b1d57a54bfa1",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:45.796Z"
+    },
+    {
+      "sourceId": "77c15c93-8adf-4f86-a83d-678cf192743a",
+      "reviewId": "e70535fb-eb4d-4764-98ed-43d77714a858",
+      "passageId": "3efb47a9-5294-449f-bccf-2d8736abfccb",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:01.968Z"
+    },
+    {
+      "sourceId": "976d7e98-6415-4df2-9821-63b326c4167f",
+      "reviewId": "12c45648-8657-4081-bfe9-d4215f6a800e",
+      "passageId": "4670dc79-97a7-40c9-851d-2df4a2abd90e",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:58.580Z"
+    },
+    {
+      "sourceId": "8d583911-4d64-4b9b-8f11-5316e8959adc",
+      "reviewId": "ce6fc50e-12b3-403e-b2d0-2eda3c848f77",
+      "passageId": "400cc612-0274-46bf-bee9-444e08e14bb9",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:48:17.461Z"
+    },
+    {
+      "sourceId": "53b6fd0b-34cf-40b1-a21b-260f7223f664",
+      "reviewId": "a343ddf8-3513-44e2-ae6b-03ade9c254ff",
+      "passageId": "46cdfa42-0feb-4578-8d39-c1f8c1f778c2",
+      "revision": 1,
+      "action": "passage_content_review",
+      "createdAt": "2026-10-21T21:49:01.939Z"
+    }
+  ],
+  "replays": [
+    {
+      "id": "444d5d72-f2e4-426a-9875-b1d57a54bfa1",
+      "reviewId": "9e21275f-aa28-4ac9-b576-565807d7dcff",
+      "revision": 1,
+      "status": "content_checked",
+      "unchanged": true
+    },
+    {
+      "id": "47855ed0-a5d5-4d2a-9cf3-c9c31e34fa90",
+      "reviewId": "bb7b05f5-5ea8-4f59-8444-18f8bff4230b",
+      "revision": 1,
+      "status": "needs_review",
+      "unchanged": true
+    },
+    {
+      "id": "41caa42a-376a-4347-b3c5-5ca4c6321872",
+      "reviewId": "e520aeaa-71c9-46a2-b05e-f816dbe8a898",
+      "revision": 1,
+      "status": "content_checked",
+      "unchanged": true
+    }
+  ],
+  "nativeDatabaseVerification": {
+    "beforeRows": 135,
+    "afterRows": 165,
+    "previousRowsPreserved": 135,
+    "newRows": 30,
+    "terminalNextOffset": null,
+    "pages": 42,
+    "postReplayVerified": true,
+    "rows": [
+      {
+        "id": "009527f8-f295-49af-8ee8-f85b5a3699fa",
+        "passage_id": "200743c5-6bd0-40a5-96ee-c782b7b63a11",
+        "version_id": "c06be598-984c-492b-a823-161f26bcfd72",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "6d41a99abb20f35aaba231bb87d7105f3ca2327ed5b35cc86ea525c5ff7ff8ec",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:18.634Z"
+      },
+      {
+        "id": "00ec74f1-bf70-49b4-8600-922e318b9151",
+        "passage_id": "3dd26389-1024-447b-a159-c12df9b0a9d6",
+        "version_id": "927982bf-6c7d-4b08-83b8-14019160baca",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "fd0230699bab6d0537791e70d4e87f23d61e8ca0f1701cbc8973123af1d6cfeb",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:47:58.316Z"
+      },
+      {
+        "id": "017a25f4-7356-4dc6-85fd-074e08e27d0d",
+        "passage_id": "40df2cce-6174-4513-bf8c-c600d7fb51a1",
+        "version_id": "c049687f-59df-40b9-826e-6739cf2c0566",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "2df7ffe298fec5dd078da4c2ac39483cdefea06631593d6dbf43a63c77e96548",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:21.155Z"
+      },
+      {
+        "id": "017c82b2-f1b5-41ee-af43-bcc102296e48",
+        "passage_id": "47e5921a-92a7-400b-acb9-f8288d78f47f",
+        "version_id": "df35fbb6-95dd-4641-93c5-871aea18e68b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "05cd446cf226d97f7461214479f765f7f601aea7a183a2cec19f055eb8717182",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:49:17.617Z"
+      },
+      {
+        "id": "030ee688-c270-4fb0-b074-94c5cbf1acdb",
+        "passage_id": "224166ff-c5c6-4033-ab99-cb3e279b9596",
+        "version_id": "748f406f-90ec-418c-89af-6b5f2341d6d4",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e049b5efeb88f401e1374fd2c26430c3e59235b1d896cd9bdfff41911df769f1",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:48.738Z"
+      },
+      {
+        "id": "040f5b16-b655-4620-8eaf-91ff37853f84",
+        "passage_id": "0b7276ab-4c8e-4296-8bf4-3053a720c32f",
+        "version_id": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "dbadccd00a7b10d981cfa54fe9dfe1a672a81bcf8fe5f2babd68b699d8c5151c",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:22.825Z"
+      },
+      {
+        "id": "043b0602-6b0c-4753-86a7-7c080d9c4fde",
+        "passage_id": "28f659ad-dc49-4396-8847-4332ef1ffc89",
+        "version_id": "87863e8b-6536-4b66-bfb1-2dbf1353c4c1",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d31808fe25cdf1691d6dc15ca2cbd06ccfdaea94fdd9702c18e36e1db4d17fd8",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:27.581Z"
+      },
+      {
+        "id": "05225261-71bc-48c9-990c-c7b4588c97ff",
+        "passage_id": "07b61220-05a2-4f56-9dc5-802a24c25cf6",
+        "version_id": "8d0807b2-57dc-4dea-a5b7-0bc7385c4939",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "46ddd0fa3a93497ad4b2c65d63073159d3c525493c5ed9feea9209fb73a7861d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:53.901Z"
+      },
+      {
+        "id": "06682072-778a-4650-bf66-1c2521102f18",
+        "passage_id": "386c69f6-e53e-4894-ad70-e9f85c19c265",
+        "version_id": "168ddf5f-7296-4293-9347-5c2f33fba699",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "12b3e01d1b6c9d50e5ea9ef6434750b23c429ba01aaecd880ce81e9a52ff81f1",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:19:38.585Z"
+      },
+      {
+        "id": "07d7bf74-345e-40dd-8c57-91176d4ca90c",
+        "passage_id": "456ce6d6-ccec-415e-8c5e-2aec4df04afb",
+        "version_id": "ad8c5d0a-5b6d-495c-bed8-2dcb65f9e3b0",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "497e3e8cb1eeed8a0366a304fc2b66e0c559525f606d96e1c6f6435ba01d0d9f",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:52.383Z"
+      },
+      {
+        "id": "091ed50b-7059-4fec-a5c6-b05971d9eb9c",
+        "passage_id": "31e60dc1-e580-4bfb-9930-7fb6dca94bb5",
+        "version_id": "ec1f6699-daf9-4808-8b9f-1d541bb158f3",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "49395fd376122f0b1df60fd33b500a6cbacbfc03dde4ea24542c6bdd5373d0f0",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:18:23.779Z"
+      },
+      {
+        "id": "093e8e5a-592f-4ac4-9e1f-d6d9827b90bf",
+        "passage_id": "20afc738-a582-43f4-b4c8-d71c5c07132b",
+        "version_id": "7bff810d-33d6-4c7f-bd2c-0161fed937b6",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "ed1083ef84722b41bc2a9eee2d8f7c24019ba9a14794f4b1c0e8f6f753b4facd",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:25.003Z"
+      },
+      {
+        "id": "0d8ff07d-3d78-4445-9f02-e1c1c087e292",
+        "passage_id": "46d26fd1-ed92-44e7-8fe0-a4898445b69d",
+        "version_id": "3c2bd096-b31e-4ed4-a53b-3bdd2e3cb9bc",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "a0f4d51de7018051f107e31b99cd3d02fb2f6fc3f63a032ab69b5893aae663bc",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:49:05.204Z"
+      },
+      {
+        "id": "0dfcdfaf-520f-48ce-8244-a8e2ebe1f754",
+        "passage_id": "0500c694-967e-49f6-8401-d21cab1af0c0",
+        "version_id": "53a5970c-fa46-481f-8d14-860b2dc5fb33",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "af09420d9cb85575540f3f7da02b56514c06f94a7381690b2d638aba0e2c1e93",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:23:56.550Z"
+      },
+      {
+        "id": "10840dbe-32f3-4a96-8efe-138cb3664dbb",
+        "passage_id": "108b95ba-d85f-4193-bde3-5290437d5839",
+        "version_id": "0d25102a-8b7e-4a61-8d6c-22ad42bea314",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "dc818bc3d98975ea4714a860cf0d6fdfb700a13a22635f6044bcf4547c6fad3d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:28.179Z"
+      },
+      {
+        "id": "10cd2472-0418-4c37-9642-77440b8e0b0a",
+        "passage_id": "36dda4df-56b4-4f1a-adb6-6cc7d2d9069c",
+        "version_id": "81ba0e07-a696-4df0-8f13-c72f83682835",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e3d0fc84904846a7b7a5236790567e4c9992870f53d51c9806eac1abb8f4c143",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:19:32.566Z"
+      },
+      {
+        "id": "10f32886-c925-4e4f-aa15-9a967d8b7c0a",
+        "passage_id": "03dd211e-e9fb-4ce0-8d5c-efb179af97a4",
+        "version_id": "e5b01767-4c92-4d6f-b317-d0b3df026530",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "3d9de689952283034d0563f193aa8cd758b3ddce12d89fedaba9b641ef39014d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:30.196Z"
+      },
+      {
+        "id": "115839bf-2f61-4c5a-8436-7c67a7f48ec5",
+        "passage_id": "00f0f9b8-802b-4476-968b-a6d437d7b8a7",
+        "version_id": "d5273483-5441-4492-8249-21f317966478",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "8bf77dbb223e431a05c501ff7f4d0cb339e944cf1572e9d3808ca9a23a8d119a",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:23:51.228Z"
+      },
+      {
+        "id": "1178be29-08db-4b9b-ba96-8328c45ce008",
+        "passage_id": "30d8c975-f907-41f0-8300-4f96fd57e31c",
+        "version_id": "ec17942f-d347-4fc9-a3b3-7295eb6ad2aa",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "a67e1e5a68532c061d062624e0c7a6830077351b31efe70a36a90e2f4fd14db9",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:18:09.782Z"
+      },
+      {
+        "id": "12c45648-8657-4081-bfe9-d4215f6a800e",
+        "passage_id": "4670dc79-97a7-40c9-851d-2df4a2abd90e",
+        "version_id": "f7019bbd-b659-45e7-ac89-a1d7823181c5",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "43bc07eaebff5aaf17ef6760a846d8bba67e5ae7140bb70d7a1b85445504a086",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:58.580Z"
+      },
+      {
+        "id": "1390423b-dfda-4d68-9028-4e5f3cffa67c",
+        "passage_id": "1e9c689e-5ee3-4edd-a442-5de8209abb6f",
+        "version_id": "4aaeef7c-9172-4e37-b90b-4e26b6ce4718",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "f34a6fc4ba7ce6b0cb8ff3ca4b740d9228f827829c89ce0f687a11fcc98626e7",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:50:50.859Z"
+      },
+      {
+        "id": "13a9bef3-899d-4b90-8793-e1c44c892428",
+        "passage_id": "126899f7-ba3d-4c56-8064-40a32f20d045",
+        "version_id": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "0270c8aa23f4b500185468dcd2b39f2c5a962f199c641e611ce3b205e035b003",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:39.238Z"
+      },
+      {
+        "id": "1413fd13-c4a1-4a4b-9b94-d7ebb6c0db88",
+        "passage_id": "2f591a9d-cf8b-4174-bc03-afb056f02d55",
+        "version_id": "47886efa-7f45-471d-a663-31a06b637433",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "8598bed607403b94026f6b7525a536528aae5de1b63275a85d71b8c7863e000e",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:17:48.751Z"
+      },
+      {
+        "id": "15d18924-24a9-477e-a5c6-1fb092aa908e",
+        "passage_id": "3b83261f-956c-4b39-813e-29281e782a0c",
+        "version_id": "930ade68-01f7-4815-80d5-1156b1b55424",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e4a7d51de6564347e684beb7bb143c7780e573dab4f16b6e2a0ea8daf13b0d41",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:47:45.923Z"
+      },
+      {
+        "id": "16575f4a-3930-4268-ab39-8826d6a6e09e",
+        "passage_id": "18a70e5f-ffcd-4717-a807-80185301e395",
+        "version_id": "115bb2d5-9d29-48d3-a5cf-5e3958db6a51",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "3bd3ea240f6b03445b527155c0306cda840c7e4a43edf7c0a44083168ddb6c9b",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:49.670Z"
+      },
+      {
+        "id": "169df623-cfda-4c9e-b52d-52509c518082",
+        "passage_id": "3917cf26-bf8a-4446-b043-71a3505b0495",
+        "version_id": "c06be598-984c-492b-a823-161f26bcfd72",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "21cca0173ad424489253628abc61c43337afcf3ddf17a8e286193b65313b1a03",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:19:52.386Z"
+      },
+      {
+        "id": "16bb24c2-6b40-4437-a890-ea3927943850",
+        "passage_id": "1b6dae95-358a-476b-b17d-d940a62b8efe",
+        "version_id": "16189b19-d2a8-4c9c-b024-22e79959669a",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "7a45492f60cc607a25907dbcbb3c2ad80a99377a49a6fe1fce91d84e76ba3a78",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:43.703Z"
+      },
+      {
+        "id": "19dbcc4e-16b2-4e5b-b934-b77879d876ab",
+        "passage_id": "38f8e4ce-c621-4ebd-aed0-51465117abd8",
+        "version_id": "7104d756-efc5-4f46-944f-fb19a61900be",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "7f232625199103f9205d7f9b3ce94efff465ecd357b1103489869a0a5f70c918",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:19:44.965Z"
+      },
+      {
+        "id": "1f5f157d-d25c-4e6f-9943-76b7bceb98bd",
+        "passage_id": "2a579cec-5eda-465c-b63c-ffb0b90d0a13",
+        "version_id": "98568fa2-1e5a-4265-8cee-56905f3c0a6b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d3f60d86cb61b3c420e9cb09e802de9cb211d205e58e39227b918c5122cd7694",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:30.874Z"
+      },
+      {
+        "id": "22f06f77-1d39-475c-8041-b54a3198e7d7",
+        "passage_id": "21b3c35a-6249-471a-ace1-d9112542ea66",
+        "version_id": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "cba3531afbb40d29599927237ca95bb30b2a93dd4f8e4ca4797e5523ba1abfa7",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:41.377Z"
+      },
+      {
+        "id": "250bb940-ce64-4497-b812-a120b1c48d28",
+        "passage_id": "0e4368d3-2b77-46e0-a0fc-66e883d8d234",
+        "version_id": "89d11a18-d3d6-4a78-9395-3b97e2878de9",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "303c657cc50469f1e8cc983df3f44babe7fa67bcb47f406636278ef40cf3018a",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:11.353Z"
+      },
+      {
+        "id": "252f96f8-a17d-4898-b311-567718cdb4fd",
+        "passage_id": "17430dd5-1703-4908-8e99-09c2657bcf4e",
+        "version_id": "551f8ded-18c8-4a80-9723-6c4a1f3f4c4b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "bc35b86fca6280344947805997be3c552a2d662e94d43a0cb7882d8a3d0bd427",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:27.653Z"
+      },
+      {
+        "id": "26fe3def-fb2f-4481-80e2-1ba9430b9d49",
+        "passage_id": "15a60883-68b7-45fd-a72d-e208b13eb2ae",
+        "version_id": "4f10ddae-bd84-4739-a8e9-e62b605d3127",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "a6c9ca6fcae478d4881208dcc54b5790c558d6bceb52814ba568c3a89cd99892",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:10.146Z"
+      },
+      {
+        "id": "278fed5e-98a9-40ba-a13f-1a6b134852ae",
+        "passage_id": "3131e550-0baf-442c-93ae-2b5f340cd0cf",
+        "version_id": "2704bd34-170a-4331-9657-8d4f6ba3713d",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "655673c4deb669ee1146d7beb52cc5ea557b8c28c42475bc9a9d62bacd317784",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:18:16.491Z"
+      },
+      {
+        "id": "2b2208fe-0075-4fc1-baa4-f15beda73ccc",
+        "passage_id": "328dbdc3-9412-4974-9c5d-a016c4e3e4d2",
+        "version_id": "fca5acd7-2328-4e03-8541-8ca922c06e4c",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "3dfb6f65b602274b6cfebfe664ead897d72393fab1833662bde7a61b11d5a138",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:18:44.046Z"
+      },
+      {
+        "id": "303d12d6-b822-4a03-b797-b2206491efbd",
+        "passage_id": "1d8383f3-f22d-4755-9e28-7bf9502662e0",
+        "version_id": "28640c0c-d557-4e61-8cda-9f9ba9b01244",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "bf8d7092ff03432ac5ab7485f1898090e9a9b1f3b8ad2631b6d49001651b662f",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:54:16.910Z"
+      },
+      {
+        "id": "3150308f-a959-416d-b3f6-9dc9aebc99f4",
+        "passage_id": "328f6961-e99d-444b-8fa9-fc5f644f9ae9",
+        "version_id": "83efc733-e6d1-4f33-924e-7405bc7ddb98",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "7777ff2873af9a72fd077b1f2e1cc90d02cde83af4fbc30100d271046aa81334",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:18:50.867Z"
+      },
+      {
+        "id": "3173ee3a-c138-4d5f-bfbd-3ac12b1ee461",
+        "passage_id": "47b62f1d-1cff-4183-81c8-4651b9ffa160",
+        "version_id": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "75e1c0577dcd138e42b2ba9657a7067e417463c0a13efe7ddb8fccd1ace22cc6",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:49:14.342Z"
+      },
+      {
+        "id": "34769d2c-09fc-4970-8236-eb6d041cf52c",
+        "passage_id": "08db3d87-e6c8-4491-989a-c013293f4f3e",
+        "version_id": "d1c92df2-0d2e-4958-ab21-ba1928a9e0f5",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "905765e061a7b52bbc73ae8128a9e8b7aa018576c26df2186a9eb09d1f0276b3",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:12.368Z"
+      },
+      {
+        "id": "3621ee37-4445-4773-8806-0adef18fd7eb",
+        "passage_id": "0e4ea211-2039-474d-8cc9-1431aaf07edd",
+        "version_id": "d7993b57-5435-48c4-b75c-e15214b7ee9f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "5043ef151c13639f563b4a1b7b29edc4667053c3cf36f5031bf2ab00d7ada9f7",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:16.637Z"
+      },
+      {
+        "id": "36633cea-a3e1-42fb-be29-cb86d3c2b65a",
+        "passage_id": "1c13a5f5-22d2-4daf-9670-f6d23c936a0e",
+        "version_id": "d2a0374f-ba6f-482b-a1b8-67aa6b69d270",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "1892d3a2f90ca9af9d91b405daf6d081d76675d9486adaaa224117653f83f0d2",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:52.284Z"
+      },
+      {
+        "id": "37c712c9-8216-4fba-b200-df5f3d350d1b",
+        "passage_id": "22473ad5-bc06-41b7-834a-ea15b225e63c",
+        "version_id": "e994d90e-1e30-41f1-b3b8-587ea579f594",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "6542458868da7181b9349d8c7b2bcfb8f189cda3260fb81b156cbf66aafd8ee3",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:52.100Z"
+      },
+      {
+        "id": "3a8df946-a68e-41ba-a8dc-caca48549a3d",
+        "passage_id": "0530d93c-1e81-464f-9798-e1f6886bfb94",
+        "version_id": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "14ccb00fc13cfd63ab8d74d8650d8aed03e179928cdb9fc2c82825750e00187d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:37.591Z"
+      },
+      {
+        "id": "3c48895e-9152-4021-adef-2b0d73f4e550",
+        "passage_id": "47444cd9-57a1-45ca-b011-21af40398bb8",
+        "version_id": "517558c7-fa12-46ca-93aa-8b295b163e8c",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "201dd395452fb069e750c8965e6777a68c9a4810f737363890910a47c7b8abcd",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:49:08.580Z"
+      },
+      {
+        "id": "3c48b2c9-89d7-4f21-abf2-d748ce77737c",
+        "passage_id": "2d9613ec-5dd8-4f0e-850b-b1c4a3291d98",
+        "version_id": "adcf1bb8-cdbd-4268-8fd4-984d17367388",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "53ed9ada48c6d974ce62b8cd34309fa3e2a7d8e341a681a3d3bd7c05fca9d444",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:17:21.488Z"
+      },
+      {
+        "id": "3cf9f97f-a7aa-45c7-bc32-b39a7800f418",
+        "passage_id": "0f6867d0-e340-4a8c-aab1-91a65d4afe14",
+        "version_id": "b571a817-3739-4650-98c3-d476898e58d5",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "906ba0d2a51c8b6b814c6cb3a1031878b037bcfd3e8f979dab54f9f074d8eea1",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:21.954Z"
+      },
+      {
+        "id": "3d6287cd-b22c-4f80-9125-4bafd39a79bc",
+        "passage_id": "1f947d9e-663a-4022-b401-f907594b7adc",
+        "version_id": "a8b9f037-2679-4b01-b2d3-e1cbb9c4f37f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "022f57fd719473d44ae3da454630c86714f7fef624e20fd8e9c94fc8506dd595",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:07.418Z"
+      },
+      {
+        "id": "4061ad82-2595-4ef9-ba27-a712cdb8dced",
+        "passage_id": "2d937a77-fbb7-4421-be4d-8e81f7304e92",
+        "version_id": "a0c8e999-6d21-4c89-a18c-1bf9fc4d8958",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d708ebce5b5859a020fa4f7fe4b907ba5868cd65aca540c2ee4f3a63687abe7d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:17:14.641Z"
+      },
+      {
+        "id": "43853fac-e2de-4de9-8b92-99874ecb0da0",
+        "passage_id": "1c6b1947-274c-4d39-a0d6-dbe8d2b26fe5",
+        "version_id": "4f743cd3-64e4-4b52-aa0b-dc8d75e33e6e",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "35f09e1da35c69aa3fc519bebd79674abcfb197aea999692f38b85f351eda4a2",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:54:07.054Z"
+      },
+      {
+        "id": "43e7ba8d-d815-48cf-b906-f3b98f517174",
+        "passage_id": "2caa183a-1f09-42e8-9647-054bbd6ab6d5",
+        "version_id": "e2d96f41-f134-40bb-bb91-afd0289e9c42",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "020c16c6164c4bf2a31c8b4f5e8ddb840c3c935ab86e52c2333111e1b13aacaa",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:17:07.878Z"
+      },
+      {
+        "id": "45b07ec7-0a8d-4010-98b6-a824eaab9491",
+        "passage_id": "03602be0-3ae9-45ab-af5a-536e2404a67f",
+        "version_id": "2fef8c5a-0936-413d-88ee-7af77a919808",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "55f22a6c34f1743d5fb2ca29dcdca16704eff26fcd9c00459ce862b81c9759d9",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:27.462Z"
+      },
+      {
+        "id": "48b2eb63-e829-466d-9453-a7a7d95a5ecf",
+        "passage_id": "098cbb1c-17dd-4e2d-a0af-c3b5305d64de",
+        "version_id": "4b00e8a7-0938-479c-8957-6dd2e24dd5b2",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "5472d18ad052ed95991760f9ac086821a2794d54727e511efd0494e8b438b0ba",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:17.813Z"
+      },
+      {
+        "id": "49e84d98-5ba1-43e9-a2f2-c0194d808f5f",
+        "passage_id": "1fe6f01f-39cf-4a84-a200-a9a11281f19b",
+        "version_id": "559ec013-4c42-40e9-a933-d071eb189f9b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "53e1ad3995d4aad0c55eb9e2b7a9d760ccd96ef812f658a9de271c98b5d62ef1",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:15.163Z"
+      },
+      {
+        "id": "4a311998-4b3f-412d-940d-31d61c205279",
+        "passage_id": "02fdfe34-cfa3-425e-8f31-c75c66de993c",
+        "version_id": "a1c26902-e9ee-461f-9009-9dfc58f6e88b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "04844f4be80bbc9248525b13bdd64cd9bbb81d1c71d220678fc692a956a58905",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:23.987Z"
+      },
+      {
+        "id": "4b1ac0a5-0801-4d9b-b4e4-8c16ae0233d0",
+        "passage_id": "16b57095-e664-415a-b410-6974767970a6",
+        "version_id": "99f2f8cb-c748-47aa-b3ad-1d0d256b562d",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e59057c8236c42d7585ecceb0423ad6b0aa482013a9f3ca143afeeefc23aa26a",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:24.111Z"
+      },
+      {
+        "id": "4b5ba1af-3e55-4c11-8872-0848a24f2023",
+        "passage_id": "1b2347ff-5fc7-430a-9ca1-b3d835e7847e",
+        "version_id": "0e4109d8-42f9-40f8-98c9-f69c8894dba0",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "ce4ca75e0753aba97df28570aca9cf89b32fccb3129d0fc34fa4148905947695",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:40.099Z"
+      },
+      {
+        "id": "4bf4de48-180e-47cb-918d-da2cd53626f4",
+        "passage_id": "1c0353f0-29b1-40b2-b0a7-1a3b1f24d5d1",
+        "version_id": "0395cb97-8b22-4840-8f1d-6185ca894037",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "f1a4685958373db646edaf88e80384d68e9d7d49003f1415fcc69cc96f3271f2",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:47.627Z"
+      },
+      {
+        "id": "50419343-fc17-4989-983b-58db7e776af1",
+        "passage_id": "35ff8772-ef87-4522-b415-1d8e4cd996a8",
+        "version_id": "8e9664e4-5d1c-4a10-bcd9-1ee4cf384745",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "290215f0cd37fe723ec12f9bd192c9e7d5661a0859ee4f6e393ab95e28bfa371",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:19:18.338Z"
+      },
+      {
+        "id": "50bc7ca6-e416-45ec-9907-1a7fef308957",
+        "passage_id": "15af301c-651a-435b-82f4-321345e8f4ad",
+        "version_id": "3c5601af-1feb-4012-8692-9167ac9161a1",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "47ae40ee8d76a49882033943bb2e18246d692fceb487f172ac2502734c34773c",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:14.754Z"
+      },
+      {
+        "id": "58be4ebe-5bd6-497e-a9df-cd2a0adac9f0",
+        "passage_id": "3b2adc85-6692-4e5d-82c1-9cf17a93a497",
+        "version_id": "aad8cf65-e07c-4485-bcdd-ce9beb2689e6",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "6c94b48d2e51fc766ca639b9820aebc8fcf0e0d441d12e9c8727329d6c013a3a",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:47:42.801Z"
+      },
+      {
+        "id": "5ae4d849-270b-46d7-a73c-5126b4b32a9f",
+        "passage_id": "343986f1-bbde-47fe-9b8c-241db3f9c41d",
+        "version_id": "4f9f12b4-40a9-4ea3-906a-957888f5e7b0",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "522fb9662386b9978e76bc7e1054352b067d6afa870572b7b59976c74d577217",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:18:57.965Z"
+      },
+      {
+        "id": "5e03405f-885b-4f04-8a9f-3b1d468b9229",
+        "passage_id": "3b01ce81-14f9-4803-89a1-0b03472d1354",
+        "version_id": "bd3c78b5-bfd0-4c63-ba87-4e237f5a466b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "a669ec50d04c89635e375e93dafc73c82e820daac06d2c6b8dcc49f9ff23e018",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:20:11.642Z"
+      },
+      {
+        "id": "62b85f42-e952-4774-bf57-0f33863c1d8b",
+        "passage_id": "2e8226f1-5532-4a79-98ba-76538092f5e6",
+        "version_id": "c2585ede-6d43-435f-983f-cf168b0d6f01",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d1c45738a56ff539d6bf543d3f006002c4edc36eecbbf32787c23337ba176159",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:17:34.948Z"
+      },
+      {
+        "id": "6510ef07-ca57-4dc7-90af-293f816c5230",
+        "passage_id": "1f76254b-8a48-43f0-83ef-ebe3f619714e",
+        "version_id": "0afe0790-5944-406d-8bc7-4b199c3b3277",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "0fb373472614226f5c5d0e23e0bdf490f800d3bce7ea659dbe387b2ba6f9898f",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:02.284Z"
+      },
+      {
+        "id": "653b2194-35be-44c0-9177-3150ad88cad8",
+        "passage_id": "1795bf62-9372-4264-97e5-e391dc00989a",
+        "version_id": "7aee7dd5-992a-425b-b925-bf133a8bb74f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "743354313a5efa40dd17b08e43790b391efab762a7cf0e6494102b061b5c511d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:31.962Z"
+      },
+      {
+        "id": "6779e298-d4ea-4c45-b62f-f63214f009a7",
+        "passage_id": "34d9d7cb-4c23-4e43-b1a3-ae8f49fac06b",
+        "version_id": "9cfe2afa-92d7-42a6-be2e-8faed921c911",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "947be2ea36dfa113f5dc5bf513ec24b1129d7bd3d7cedecf4bc3cbd9aa7409f0",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:19:04.798Z"
+      },
+      {
+        "id": "6bb204c2-2025-4a75-b1cc-828426b6dd10",
+        "passage_id": "2c991b2b-6b03-4996-9272-665f9eda76c2",
+        "version_id": "d352a057-859a-469f-9d1a-11a4f1308e38",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "50c9b9ae14cc7d83c44a914f290991c42eb71b5bf4c2ca1aebda3bebd2e123f4",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:17:01.194Z"
+      },
+      {
+        "id": "6bee097f-be39-4acb-a082-66abab5026fd",
+        "passage_id": "0c6106f5-e28e-4cbe-be5e-e1be3306fc87",
+        "version_id": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "cd15d468745e71fb68ece4eafbb83dba31fa2d51f72a3ba98520d288332fa51f",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:45.317Z"
+      },
+      {
+        "id": "6c387ada-50c3-4d21-a257-d66099f824da",
+        "passage_id": "06f984d5-7932-462e-9bed-289949de9905",
+        "version_id": "3583fea7-2364-4161-91fe-8ffa0b72b1c2",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "b5f6c2b7f06454857ba4519dd10071721daec3cb6027e4486fc4a1bbaa4bf364",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:44.682Z"
+      },
+      {
+        "id": "6d592373-3f7e-40e2-a219-8884717d3b1d",
+        "passage_id": "18812dd3-6c7a-4c8b-8554-d776aed2893e",
+        "version_id": "dc9fa0c1-9eef-4e3d-a61d-62df66961c77",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "0858c466adde4e070415b67edb08c788d30207572c8bb428aa4d2d01b7fcf947",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:45.196Z"
+      },
+      {
+        "id": "72cfb5be-cd37-4913-9d0c-f4b06fb1d956",
+        "passage_id": "143b51f0-cd71-48ad-81e2-ea13185b5216",
+        "version_id": "4089b265-38d8-4646-a3d2-73efa600541a",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "724ff8f5b6f441df764a2a48b8fb937478f5fe89bd38066713b781c3c2f8d952",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:26:13.394Z"
+      },
+      {
+        "id": "734f541a-37e7-42fd-99a8-4582040c2b91",
+        "passage_id": "22d92fa9-4fa2-4ba2-b43c-947aaf9742a5",
+        "version_id": "dc9359f2-7e87-4c04-9809-5e86c7ac2bad",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "8b5310472c2a71a4926fdada7841577caf008066f8b7f9d9e630d12a48dc8dad",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:06.318Z"
+      },
+      {
+        "id": "74a11da6-a495-4d30-81e6-28cad35fa518",
+        "passage_id": "1e844ef2-37af-47f9-916a-6a37f0ba325c",
+        "version_id": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "ef68262fabc9494ed5ac8d4d89b5904981ac8372b088530ff26ccd3e70145964",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:54:20.062Z"
+      },
+      {
+        "id": "750b87f4-a3ce-4690-9c31-d141445094cd",
+        "passage_id": "43f0e0d5-2dc9-4446-bc00-b892a3100fce",
+        "version_id": "ef3f79fd-7298-46ce-80a2-316364392462",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "bcb9dc6e17eb63af7244e8a9e296175b020296fd95f23c24e66e65a6501089f4",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:38.959Z"
+      },
+      {
+        "id": "7568c08e-875e-41d0-ad05-862fe195e8ca",
+        "passage_id": "0d1830bb-5db6-4765-8cba-bd342f87c140",
+        "version_id": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "2b6d3df032c80f23feb4fb9ea5bbe14995d1acaa20690b5e8331f52efed81a27",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:55.589Z"
+      },
+      {
+        "id": "772f1018-3e5d-4df0-9382-f3c3784fc7c7",
+        "passage_id": "3f93a281-3739-45f6-b7eb-7141b9d2e565",
+        "version_id": "d573de0b-30dc-44be-93f0-7a30d464ce86",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e51ab5875ef9cb9c3ec977768d26b905cf197da6c52f0fd3336c14849a5a7d71",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:07.233Z"
+      },
+      {
+        "id": "77333c59-eb18-4d9d-a8e1-b02c8828d9ae",
+        "passage_id": "3ff1aa2c-e573-432e-83bc-1a86e8f754af",
+        "version_id": "fd094595-8dd5-4c3a-937d-e6fbdc596990",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "f1eb93b78ed66f6433cbc4a359c7825a7ef257ab51b8460b4aa7a3b68d990efd",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:14.591Z"
+      },
+      {
+        "id": "78003713-6fb2-40b9-ac4f-b13eab0efa98",
+        "passage_id": "1d1b051c-c13a-45fc-a050-d2df6b2cf7d6",
+        "version_id": "b4681be2-d832-496d-9322-89e1666b0f3d",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "03c2dccb92d2eebbafbfff981af19b3bad2793ca4d47084d2b59ff027630136e",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:54:12.442Z"
+      },
+      {
+        "id": "783eed2a-1ec6-42f1-9b2e-e74ff700cfe9",
+        "passage_id": "41b4c8c0-82cd-43bf-8294-ec2bb8ccb26b",
+        "version_id": "bc9b2d7d-fe8b-4247-989e-102215fe0579",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "8c8c91bbdb74e7c0ae5f8e47297a487dfc024bcb27f16d7d6afa06d856e6f4d4",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:23.957Z"
+      },
+      {
+        "id": "7ae24d6b-59e5-47a9-b455-99e065ad0f83",
+        "passage_id": "42e0d443-87dd-4659-af8c-effd9ea59ee9",
+        "version_id": "e99497f5-6b91-4dbb-af2d-12c6a27d43ed",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "17283ac5a0e7df009f9875f8fee76e45d95a4b793b536e9f57548d4435a869e5",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:32.836Z"
+      },
+      {
+        "id": "7d1df4ca-ffcc-4fe1-b075-1279484dd314",
+        "passage_id": "146b5144-ce8b-475b-b8d3-e3c1546bb3d1",
+        "version_id": "6a39577a-8d72-4b18-be98-1c0a34230b47",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "3cc32e21b3f9e7f9c6b0759ed51a914ec3f67b9227c6524f54c27701049ba84d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:26:18.147Z"
+      },
+      {
+        "id": "7dce627f-a4ac-40ab-ab37-047acb06e502",
+        "passage_id": "0cc0c432-ffdc-4847-8fc1-99179e3cc9a8",
+        "version_id": "f3947f32-1c74-44bd-ba8e-da2c92db8f2d",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "806023cd88c80a1b493b3067a56c489b65abd72b6d0bb1fc9e3a97574c297c19",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:49.997Z"
+      },
+      {
+        "id": "7ded7fc4-6e75-494e-b3d8-b333c32b88b5",
+        "passage_id": "22c264ec-8fc1-4ea6-960c-e9563f8f4a35",
+        "version_id": "74c10cae-c6c1-49de-893c-558083da178d",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "c6448dd28f2e50ee977e769d87dd091535b87506044396fc12cf92cd935ddfc1",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:59.508Z"
+      },
+      {
+        "id": "821fd843-994b-4db0-b078-e57fc9398aca",
+        "passage_id": "2f9c33a6-5ccb-42fe-a14f-4d46694bd6be",
+        "version_id": "6a39577a-8d72-4b18-be98-1c0a34230b47",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "5bfd778fdd08a085673f4a9539e893dc1e4c57223e74ad5d06a1a22513870437",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:17:56.046Z"
+      },
+      {
+        "id": "82ec26ab-6d5f-426c-8fe1-31b9baadd53f",
+        "passage_id": "28a27c01-0174-4a50-a64c-6d98348e1574",
+        "version_id": "bec8636a-70bd-4e02-baba-9b35250f71d1",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "5ac60722d89d0d17efaf63730a5c5ed3f4b32bd9fb8f596263135d41b59a388b",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:24.271Z"
+      },
+      {
+        "id": "83d21ead-c046-4e8e-9256-f7287ae97add",
+        "passage_id": "31f948cd-6101-4d29-b811-8e32256da053",
+        "version_id": "8a7de464-90db-4c13-a939-c674790d5afc",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "72cedd9e41e69cac88e98cdf4acc81e5d37a81b463d3c20cf197188d455a7489",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:18:30.544Z"
+      },
+      {
+        "id": "841b2e34-63c9-46bc-a11a-f1d1a5b45c30",
+        "passage_id": "19fe5317-e026-43c6-b72a-66d909773a78",
+        "version_id": "cc328536-b0ca-4988-8fb9-e41cb1507a37",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "583c789bcf1644324042509cf6edf454cb88fb2f3b40fcf222a5ce75e6131ab7",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:10.951Z"
+      },
+      {
+        "id": "844fa1d3-caf4-4efe-a3c9-f9a9c65af0e0",
+        "passage_id": "3bd3ffa1-1b99-447b-b42f-9343be04b324",
+        "version_id": "fa32be6e-8f16-4738-8850-9d21933dab53",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "92977bfa688c1af2a636baf9031ed13fa7ee58bbd29c2b8b322d110d2ffd06ec",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:47:52.610Z"
+      },
+      {
+        "id": "84b057fd-9aae-4ca8-943c-629046818373",
+        "passage_id": "0058c299-f6b4-4656-8938-40694f8ace18",
+        "version_id": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "0fe0e6148e9f974a53595129264b69336d5585fab99a6ba6d24e270f48e33159",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:13.261Z"
+      },
+      {
+        "id": "8666adcb-dcab-496c-be0f-c8784fa5114a",
+        "passage_id": "1c53577b-1d84-4896-900b-8e94bc3d075c",
+        "version_id": "92d3bdb6-49e6-4401-a87c-b659fefbb5a8",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "7bbfbd8a7d6b84bb0007c97f55f662a7c3b5e7c5ce6330d504f412a77bf328aa",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:54:04.043Z"
+      },
+      {
+        "id": "886f690d-041e-46d8-9322-9752390a64cc",
+        "passage_id": "2dcd0cdb-5985-43e0-aa46-e47c2c1f09ef",
+        "version_id": "48847fdd-b001-4afb-b2b9-a2aad3a8c135",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "b67711ddfe6134218386a5b4d9ef1c7d9402efd0dcab2604de12bb778bb019b4",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:17:28.127Z"
+      },
+      {
+        "id": "88a5fe8a-f5b7-414f-aa5f-6029f7d446fc",
+        "passage_id": "07e1c8f0-7b31-4ede-9fcc-2f8203f1df93",
+        "version_id": "83e11cb1-a7ea-462a-aa5d-ca3d4b1ee946",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "c9d7f39a2b34bb18d35f0cd1862352d707c277cf76ccfeb6cfcee9259e72ffbf",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:57.107Z"
+      },
+      {
+        "id": "8b068d50-940d-4f04-ab7e-63041772b8c9",
+        "passage_id": "0d2db043-6544-4403-b627-1a1b0752e517",
+        "version_id": "26684335-ecd3-4d57-898c-0af8bde330b6",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "f01b48ad0833dcccc743cb47bb509104d49fd850e952390a85ebb7ccd0431650",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:00.339Z"
+      },
+      {
+        "id": "8df06c21-f824-4b9c-8dc1-0665467d14a6",
+        "passage_id": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+        "version_id": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+        "source_version": 1,
+        "revision": 2,
+        "status": "content_checked",
+        "content_hash": "3172edcf0e8b43134071ad5de6e047cd42a6788b8eb1fb5a2fda66eadadc9c4d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:26:31.201Z"
+      },
+      {
+        "id": "8e8db197-c362-414f-9fdb-897e9b58ed11",
+        "passage_id": "12e2be50-6141-4ac8-8fbd-15027f1a46c6",
+        "version_id": "a1b40f86-68eb-44c7-a50a-c51fa103f503",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "c86687cf7158e0d8b4aaf539fa6de41c5b71cf003bfe09c6fd2a140f12fbaec9",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:49.853Z"
+      },
+      {
+        "id": "8f41c2ce-b196-436f-a6e6-25e66c9a8851",
+        "passage_id": "2edc28d9-ab41-4c45-9414-073fc6c27efd",
+        "version_id": "c06be598-984c-492b-a823-161f26bcfd72",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "75b421ccb49f0b184d5c348a72f15ad7584e10e2de4ca5519e5e4ecd93114dee",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:17:41.947Z"
+      },
+      {
+        "id": "90746e80-c8be-473f-af31-ba72c419dcb4",
+        "passage_id": "2aa74d13-44ee-474a-8411-bfcbc5dc3fe1",
+        "version_id": "d49cdb81-7a60-4606-a507-ce495e23227d",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "063499b62dfa284b7e00da1c3603dd7a93e6f25db738ec585f6723522491dff8",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:34.422Z"
+      },
+      {
+        "id": "918d9eac-a2a7-44ec-b5d9-113ed7ba0176",
+        "passage_id": "0c16002c-a686-43a3-b7f8-948ca474330e",
+        "version_id": "e94fbe2e-e62c-4d9b-bf8f-b5215b819783",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "708a7710fd41e4e6c568df0032f77129da0f35facdaed2135717fb05ff7a5a52",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:34.924Z"
+      },
+      {
+        "id": "933e70e7-ad59-4d83-9fb2-138a15e34ed8",
+        "passage_id": "14ead080-7d26-4387-ae46-b84d27557eaf",
+        "version_id": "ee9a9120-410e-4407-94a4-1cfc97c28c1f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "671621ab736cdd74308df295c1cf1adab4cf034ff8d423aa9e75b63d04e66403",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:26:23.978Z"
+      },
+      {
+        "id": "9535297a-6750-4f97-8eb0-65b24fd08ffa",
+        "passage_id": "1b1fed63-90a5-4172-b0c3-9bbb2693454d",
+        "version_id": "4d6ab267-cce3-45a2-ac53-eacf91824775",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "2296acb5638fd4498d4ddfacebe31fdf0fe27c4577eb1d9c6125214a11fbb694",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:36.411Z"
+      },
+      {
+        "id": "987d77aa-730a-45f2-a272-72882a214107",
+        "passage_id": "3fb2ec2b-c08f-45e6-b49f-74f0814d4264",
+        "version_id": "3d23dbce-6554-4a56-bbc5-b814d0a17bad",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "dca60921d78f8dbd5e6460d67c541170b412aa51b307474d0cf668db8a36ae51",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:11.673Z"
+      },
+      {
+        "id": "988d7891-fa20-4478-bb44-e4ad7ce89b3a",
+        "passage_id": "19f0a93a-7ca9-41e1-b50d-356550eac352",
+        "version_id": "31b3d261-f43f-4d40-824e-4c3e303cda40",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d220ad76f351812cc91ce308c0888afe46e6d2837112572cef6a603f34184c07",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:05.483Z"
+      },
+      {
+        "id": "99774571-778f-4187-8f50-287433f260b2",
+        "passage_id": "05bb5e27-2e67-480c-bec6-7739138d06f8",
+        "version_id": "0957de5a-5ffb-48df-bcc9-2da9f95494da",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "7423da9f561869da7c885ba85dd58f97954d0ceb34da51dee0a791a2e789d8b5",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:40.574Z"
+      },
+      {
+        "id": "9a1dc0fa-ca94-43da-89ed-8697eeea2461",
+        "passage_id": "1a54fef1-32a2-45ee-a461-8d1c9db68a41",
+        "version_id": "25eff275-ca76-493b-b7d0-d63f90e04b4a",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "86e4c3255c2e025de853d5624eed6e9365cccd939c0737d075c8cb95ffd869dd",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:14.669Z"
+      },
+      {
+        "id": "9a6683b2-f009-4b6d-91ff-5238aee8c040",
+        "passage_id": "00362713-cda4-4055-a056-cb2db67ee3a3",
+        "version_id": "a1c26902-e9ee-461f-9009-9dfc58f6e88b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d3fc2864155413448c0ce9f8eb5e1171a070b7baa19b0e4bbab70e851de03f17",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:09.924Z"
+      },
+      {
+        "id": "9b5cccb4-d182-4f58-adbd-a4dc11562403",
+        "passage_id": "20bbd788-e864-4718-9576-dbb166498f40",
+        "version_id": "915377b0-4139-4bbf-a7d0-6534b252ab7c",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "20d18d60b70264c819bc04b71432c6ab69e3bb6a74885759d69f1c02e16e2756",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:28.591Z"
+      },
+      {
+        "id": "9e21275f-aa28-4ac9-b576-565807d7dcff",
+        "passage_id": "444d5d72-f2e4-426a-9875-b1d57a54bfa1",
+        "version_id": "ad8c5d0a-5b6d-495c-bed8-2dcb65f9e3b0",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "fcbb57bb85057fc7508eb6c0e9d8a4995fc450a80d050234e601aaca331178c1",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:45.796Z"
+      },
+      {
+        "id": "9f5f7749-c6ac-48d4-94f5-958772731036",
+        "passage_id": "3a80d4a6-83f0-4f61-912b-7f96f0882141",
+        "version_id": "8fe10668-6660-45e2-83ce-05988443586f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "437ea4beef0152eafddaa27bb5fbf176f0c0e9d63c68e734d62b1b700757ce69",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:20:05.654Z"
+      },
+      {
+        "id": "a2632ff2-55dd-4b52-bdfb-d8d1a15b449d",
+        "passage_id": "143145dc-e4bb-4c6c-854b-22602c8e19c3",
+        "version_id": "99f2f8cb-c748-47aa-b3ad-1d0d256b562d",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "c4f088b249207cdd68fe43b678de09d45ebff3a7d82d836418f2b82c53953fbf",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:26:07.580Z"
+      },
+      {
+        "id": "a343ddf8-3513-44e2-ae6b-03ade9c254ff",
+        "passage_id": "46cdfa42-0feb-4578-8d39-c1f8c1f778c2",
+        "version_id": "018463c4-591c-4687-80d8-5a2363d67e2e",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "26d08148f0ab6e2f787d19397c95128eaeb8e0a23646f8d48dfaa3af7735ad08",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:49:01.939Z"
+      },
+      {
+        "id": "a46adbc0-bc9b-4f65-b041-e0fbad47d0e9",
+        "passage_id": "185e8615-61dc-4ec6-a12d-aed1cb3bc0b5",
+        "version_id": "7b170774-ac8b-4195-acdc-94342aeb69d6",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "ae9f6eca834ace633c2880ca6d1a9b83f61bf9a5349ce9cb958382efeeace074",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:40.293Z"
+      },
+      {
+        "id": "a6ea71ff-29aa-4b61-ba97-3a420068ada5",
+        "passage_id": "20286fdf-62f9-4277-9f3a-5060ff069391",
+        "version_id": "874d165b-3f9d-4850-aeba-cd0553d9f0f0",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "c6ddf6191a68b556af9a97eb862d157efc4dc0837773e18e55638ec49d25902b",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:21.654Z"
+      },
+      {
+        "id": "b05dabab-5c37-4694-8374-b3eb937eddcc",
+        "passage_id": "12012271-f988-4fb9-8e0b-80a5654fd6cb",
+        "version_id": "c3046cd4-4cab-40e0-884f-5726d50310c4",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "826d6ace48d02d6382d9a93eadeb03037ec3c0b2a2d1cbf6b5a85b0a1682607c",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:33.294Z"
+      },
+      {
+        "id": "b0ff3c1b-b82a-42b0-b1a1-6c755b1b1e5b",
+        "passage_id": "44450fd0-acd2-4798-bce7-feef5d4f1484",
+        "version_id": "2835f737-b48f-4d0d-835a-e54a3b7c2c38",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e421a7dbcc2b03e58f713ceb88321ba34015b9eaceeae6cce05a3d1f35121bde",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:41.905Z"
+      },
+      {
+        "id": "b15c75cf-c97c-4f39-8277-905d516150ef",
+        "passage_id": "029ba00c-8104-4e68-ad38-d8caedabc806",
+        "version_id": "71336c19-1c58-45d7-92d8-e0a52ac80f15",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "975e0c37f21082b36e8fc0b972dcf8d14c0d9aac6eeca7c8c5f9b66b82d9e608",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:20.148Z"
+      },
+      {
+        "id": "b1904b3b-bc36-49b6-b97d-b1442bba3c2d",
+        "passage_id": "167249fb-af06-4161-b75e-f8e2a2a44d80",
+        "version_id": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "659e75441f181d6540c6da921555c6159d20f508c3b913407a75be7ba5a6ac8e",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:19.395Z"
+      },
+      {
+        "id": "b880f9c0-109a-448d-9d86-e3682c9077b9",
+        "passage_id": "1f615542-adb4-45e0-9248-bec481a1c302",
+        "version_id": "9648e26a-84c6-441a-bbb2-303c51c61c1c",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "dff516ac60fd18d7b9041c6ebc51dc49d8c637ab5fe3409c2174dba0966bc4fe",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:50:55.332Z"
+      },
+      {
+        "id": "b9f6f43f-dd89-4143-aa4c-0f25d4ac1cfe",
+        "passage_id": "3c5389b5-cb7e-49ab-88e5-df1d82c30cb3",
+        "version_id": "b3e13bc6-4aae-45ec-9e80-74de00b459f8",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "bee0fc2a921146817b7258f0504d683eafcb2d408092a10c0eaf2107c1473186",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:47:55.427Z"
+      },
+      {
+        "id": "bb4d8964-3c31-4dee-9516-92de131f2656",
+        "passage_id": "22880548-387e-494c-b131-a59691f3d1c7",
+        "version_id": "83efc733-e6d1-4f33-924e-7405bc7ddb98",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "5b5825963b3f4fbe5d50e50ec813d8f46b3491421e841b64aa871ad99bcb79e8",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:56.235Z"
+      },
+      {
+        "id": "bb7b05f5-5ea8-4f59-8444-18f8bff4230b",
+        "passage_id": "47855ed0-a5d5-4d2a-9cf3-c9c31e34fa90",
+        "version_id": "4747d7c1-63b0-4b11-8a75-f463f12de31f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "e012e6f8670e58bf8958991da6ce37472c389ae900eac7faf1193b9733d2f0d9",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:49:11.644Z"
+      },
+      {
+        "id": "bbac4481-a1c7-4cb0-8268-023daf5827d3",
+        "passage_id": "1acc8e6c-c289-4080-94be-801620179e1d",
+        "version_id": "a28ed29f-7016-411d-bfc5-35b3a2e24b92",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "305f9c41d092804a7b79765e5ff33fa222a0743813d9287a48b1b2cf000053c3",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:21.762Z"
+      },
+      {
+        "id": "c04847bd-902c-4cb8-a0a9-f4a3af0541f0",
+        "passage_id": "21188931-ee8f-4790-98a2-783d279a0de3",
+        "version_id": "5634179e-3b92-41ac-9f0b-f9fb84052d47",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "0a8189e8861cb4f6847c17ea3bb9bad1c4af687fa6a7ce6bd94ef16501808404",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:33.019Z"
+      },
+      {
+        "id": "c0a8a653-8311-456f-95ec-557d5e009326",
+        "passage_id": "0522b86a-d6aa-47f8-9899-e8af0ec80d29",
+        "version_id": "7dc72788-0dcb-4196-8725-7fdf69be9a5e",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "2228d7b830b9b136a23a577e9424e6c8223ad35e0c8efd598312eb4115ab3ffa",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:07.724Z"
+      },
+      {
+        "id": "c15b1d4f-a355-49b1-a22b-1a25eb768238",
+        "passage_id": "071098eb-e31e-4a08-8679-a3342a7ae44f",
+        "version_id": "6309bc9e-8c48-464e-b6a5-066fb1e0a2cd",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "817ba949ba9f46cb91f3c6b4004eaa4e3c99a89a51d17777e664e1c176c6e058",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:50.459Z"
+      },
+      {
+        "id": "c20236c2-d0f8-47db-837a-6c64deee2a0f",
+        "passage_id": "1f6af1f6-e908-4bbe-aa40-bd7487357ec2",
+        "version_id": "b33ae4bd-0ea4-4911-8b92-199903f21215",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "9499ea01cd5edc6e0339739f41dcc91371d0b8e8e425d5b26bde6dabb900fc61",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:50:58.926Z"
+      },
+      {
+        "id": "c2057745-e9d7-4c1d-9001-7c5836767333",
+        "passage_id": "129aebb6-349a-443d-adcb-afde487d7df4",
+        "version_id": "b4a5cb17-a5df-4518-bb01-135727ac00d5",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "61fdfd40d4e1d518b1bcc5696d929367255e9d202daf064fdf3bac359cad1016",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:45.283Z"
+      },
+      {
+        "id": "c2972e0f-aa20-44bd-addf-c44ac26ee1f3",
+        "passage_id": "45c48aaf-df27-47de-ac42-ddea44dec954",
+        "version_id": "ad8c5d0a-5b6d-495c-bed8-2dcb65f9e3b0",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "6f30f95ffc8b8417edc4541f21ff9a3cc05f9616eaa0efbdadecf67ad0deb64d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:55.481Z"
+      },
+      {
+        "id": "c7c6e224-358a-446e-b841-4ab5cc3aacac",
+        "passage_id": "3b83952d-589a-42e3-afd2-a2397bf6ab4e",
+        "version_id": "f5d3bb77-2b5c-4db2-b9bd-36bd7bfd060b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "f778fe54e3a9207d582f0b89d9603ac24474aa4e22bcab0117ef7533d95c9663",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:47:49.553Z"
+      },
+      {
+        "id": "ce6fc50e-12b3-403e-b2d0-2eda3c848f77",
+        "passage_id": "400cc612-0274-46bf-bee9-444e08e14bb9",
+        "version_id": "dfc27c80-15c1-42ab-a1c5-b432bbb0ced5",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "32cfe93a62b4244be2adcc99a3bc53bdd9c0733e2e3d94e3b46c5c17ad634b2f",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:17.461Z"
+      },
+      {
+        "id": "d01de7b9-bd32-49f0-ba6c-db1d211da5b2",
+        "passage_id": "22d86fad-d710-47e9-8135-55d666f86690",
+        "version_id": "536417b8-94f1-4726-8b13-94eaaf232fcc",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "6910667e95b64545d61ef40ed62cf4eb4adcd84bd4ec9fc03143dabc1e0dbd69",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:02.622Z"
+      },
+      {
+        "id": "d18cb081-80fa-450a-8f33-cce185700783",
+        "passage_id": "23e1a9dc-44ae-45ff-89e2-28ba37b181b2",
+        "version_id": "889ed5fa-8e7b-4ee5-b79a-4b34ad16f12b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "81f74ccacf9df54e511a4fcd20d3cb4c80f7ba17ff266ea45bf6699f8632b353",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:09.915Z"
+      },
+      {
+        "id": "d51029ce-e3a5-4b6f-b240-61ec1a8bb9a8",
+        "passage_id": "1fb5484f-25c5-4654-8cd9-e4e34761f6ec",
+        "version_id": "1afed746-987f-4258-ac7d-8fc8c78f60c1",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "8761e504da1735d4f405763a6aae514d5401528c2bf41ad271249eba649c2454",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:11.769Z"
+      },
+      {
+        "id": "d5f1eb75-af96-449e-a4ba-cde8bd8f625b",
+        "passage_id": "1394eb1d-788d-40ac-ad8a-f8f57b5246bd",
+        "version_id": "83efc733-e6d1-4f33-924e-7405bc7ddb98",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "554ae990104ec5fcd9da40eb318747affd813c0a3ab8e710d92da88340195db1",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:54.621Z"
+      },
+      {
+        "id": "d7d7896c-8df4-40ed-8cbf-fa586c37ca07",
+        "passage_id": "3964f69a-6616-44f6-84a1-2ce7c21919da",
+        "version_id": "20ab4f5d-b0e5-4d7d-ac84-90c46c8a6e46",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "37637ec52753c91481bf6cb2265468cab00c6cd0deee850b0e9bfc6d8491357e",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:19:58.609Z"
+      },
+      {
+        "id": "d898b602-81d6-43a2-b36f-825bde504d75",
+        "passage_id": "34eebecb-9e94-487e-9e1d-cf5c264914d1",
+        "version_id": "c1f8c312-cf37-4968-a4c1-c7b573ee76ee",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "a2b510368b84eb4c0ab4a6194078fdc66fae5f84b92878849b6f7e2e77ec7777",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:19:11.537Z"
+      },
+      {
+        "id": "d8be2b48-3551-4117-b7f3-36ac76daeb6e",
+        "passage_id": "3611d30d-0310-4431-afa1-b466d7842064",
+        "version_id": "3583fea7-2364-4161-91fe-8ffa0b72b1c2",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "bb767c2287a33f0beb02168779fcc0634acdb8a258869427929b0ea4e0480f95",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:19:26.503Z"
+      },
+      {
+        "id": "d8e0184a-8341-453b-bb0d-78366424db59",
+        "passage_id": "2699f077-4d1e-4e57-b59c-5549b02a7cf3",
+        "version_id": "a6d37929-1777-42b0-a0f8-223448328577",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "f9d3b0697f509e6cb2a46561fc7176363fff7f87fef05cdcc6203922578fe3b3",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:17.708Z"
+      },
+      {
+        "id": "daee726b-e987-40af-99d2-a2d78204c3ce",
+        "passage_id": "217f21ce-13a8-44ea-90f8-27f7488b4d1e",
+        "version_id": "2598151a-d816-414c-9d09-23e498b75033",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e600b5f8d9d97293c5fc56ff94fd42ab6a49971d8317689c5dee83c7dc50bbee",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:37.093Z"
+      },
+      {
+        "id": "db31c417-32e2-48ca-91c4-c2c8ef64c62c",
+        "passage_id": "0b748839-d377-4306-a580-483c0c6c4cdb",
+        "version_id": "d7388fa6-2ec1-4d76-8c74-dcd931215c99",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "014b25fc4cc0f28043234b3c4126aa83068d3686da8b1d767291f50fe0b50a11",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:27.750Z"
+      },
+      {
+        "id": "dbd11d78-1ccb-4acc-8236-d0c9e5932d3c",
+        "passage_id": "1aed16ea-3912-496b-bdb1-5cba84eb8004",
+        "version_id": "f68ec653-212c-46df-8164-9b35dba11d5d",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "a56e6dba717fa405edbd31be13fa237f5410dabed13a0026805f58720010dacb",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:25.146Z"
+      },
+      {
+        "id": "dc6d7055-4331-437d-829c-f66878fb9904",
+        "passage_id": "2ff48298-dd45-4487-b0bb-e9df25d62a38",
+        "version_id": "8971735c-be29-4bc0-a76f-05dddee54614",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "ac9d3e7084c89a9982d656730ab86558feff9e4c4585b5b482a6922ba6b6bde9",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:18:03.004Z"
+      },
+      {
+        "id": "de3334c2-e650-4f25-b7f5-f87ded4789a5",
+        "passage_id": "21c70212-6313-4524-a002-6804ff0be74e",
+        "version_id": "290bf252-eecb-443d-a53f-891d71607f5b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "53a1a86324aab3bf14b0b2c8f3a93a2e568b86345b7ca0dddcf5bee7dd3bfdbb",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:51:45.124Z"
+      },
+      {
+        "id": "e213afe6-d93b-49ea-9eab-3e6d9c1a813f",
+        "passage_id": "0ddd9b33-3cf7-4012-b55b-75295886dba3",
+        "version_id": "659e0550-c15b-41db-9649-9f164617b189",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "61677e41125278c28c5a1d8e0b92dea720e1718efbc7bb2782cd23e2f86a287b",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:25:05.823Z"
+      },
+      {
+        "id": "e265cb43-13f2-4536-9858-99f8e3fef463",
+        "passage_id": "183f11cf-b029-42e4-b0e0-bf4ff59080d8",
+        "version_id": "d5e072b0-4937-4043-bec8-78791f2cd668",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "78ead793299120c46614a64dd88f0e2b2823208458052a3293da1217494b0e8d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:36.444Z"
+      },
+      {
+        "id": "e2ec4e82-959e-4b84-bf18-5d45c105d14d",
+        "passage_id": "19cb9836-5cc3-48c6-a0c8-9671134cab06",
+        "version_id": "3a8b5a55-6058-415d-8429-e64c821607ee",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "d34bc73e6f14e14a3555fa4106ebd846ddf5c6dc7f17b72185b2946252f6ecc8",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:00.102Z"
+      },
+      {
+        "id": "e30bada6-0aa9-4f07-9871-a49ab7917f95",
+        "passage_id": "1a7a551b-c906-4d67-ad15-e9baff5834b6",
+        "version_id": "0a2f0b04-10c8-4ed1-bd92-d8009f48ce40",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e28effcf0b3361faea6fd288aed4fa0d833e95f7fc5e74b3cfb601b3861654dc",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:18.187Z"
+      },
+      {
+        "id": "e3d6e3ff-063e-4fe1-bde2-7e63bc7b1c57",
+        "passage_id": "13cb057f-fdbf-46ee-a5cb-e9b4c1e4c48a",
+        "version_id": "8e357722-0bfa-4f1d-9e04-f68f2ea7b647",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "3509e0d03574c3f6f95a73e7186572d853d16737bc58cded2bba0515982a57a0",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:26:01.253Z"
+      },
+      {
+        "id": "e4b86415-eb60-4db9-bc53-526b7b5eef7e",
+        "passage_id": "0c23df8f-b85c-4cd0-9edb-b071a8a1c03e",
+        "version_id": "336e9b0e-99d5-47aa-84c6-879fc4a72db8",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "73300c0b25f4a0e8fd0759ff4bbd1f0549c31d1c653150bf8d1a3549412b8441",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:39.572Z"
+      },
+      {
+        "id": "e520aeaa-71c9-46a2-b05e-f816dbe8a898",
+        "passage_id": "41caa42a-376a-4347-b3c5-5ca4c6321872",
+        "version_id": "01c138c3-ae8b-4a38-a2a3-37babedc652f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "4aba725549e948baa5b4436a83bd309ae056d43a84c5b92bd56dfda2820b8f0c",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:27.099Z"
+      },
+      {
+        "id": "e70535fb-eb4d-4764-98ed-43d77714a858",
+        "passage_id": "3efb47a9-5294-449f-bccf-2d8736abfccb",
+        "version_id": "630bb531-65b9-47ab-8b52-50b9c2ebfda5",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "7c980458c4f0b90a3a8f063ad05e50e10289c44a90ed7ec58d268c4c666935ec",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:01.968Z"
+      },
+      {
+        "id": "e7367275-ab47-4f18-be86-5bb49017030f",
+        "passage_id": "2b8ac548-81a1-4d20-ab90-c7bbe0b89d7d",
+        "version_id": "7b5c106d-33c3-44e4-9387-240996445f98",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "0fc3e3e5f26cca104210cf3d3c0f456245e1379a45964aa6a48edde34219bed1",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:16:54.425Z"
+      },
+      {
+        "id": "e78f612c-d186-4bc7-9c55-03bced0eaf32",
+        "passage_id": "43bfd155-b5f6-42ba-800c-164b869d2c8e",
+        "version_id": "891b62ca-ed9a-4a8c-ad9b-062fa598adef",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "690a959338a3d7970a573c457c2d8f38d40b9f823e62fa6ee42c4737e92b660c",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:35.771Z"
+      },
+      {
+        "id": "e94738ba-bc59-44d0-8fe8-32dbcba51cd1",
+        "passage_id": "45596c23-5093-4519-8a01-d57fe50b4f9f",
+        "version_id": "bdedaa5e-dc9f-4d8f-bcad-55265af457ae",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "0b128db2f49faf1d890b1a71719347adaf16651e77466da368156403369bd26b",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:49.299Z"
+      },
+      {
+        "id": "eb164c17-7038-4d8a-b89d-0d535b8a65a7",
+        "passage_id": "41da029c-c80d-49c8-8c62-b7240aca997f",
+        "version_id": "32452390-c566-4bbe-948c-67bb7a3a64a9",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "e243a0efb07f54f09b536f442cdda4472534cb6c601277dcab9c0dcb6dc76cfa",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T21:48:30.080Z"
+      },
+      {
+        "id": "ebc79310-c3fb-4ad6-adef-2fac82f46748",
+        "passage_id": "050f914f-48d7-4932-853e-b4326078776c",
+        "version_id": "4980c8d3-acb6-4423-b796-e05f37aa2d61",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "27a90b27cdfac8ef9cf7c5c562c2733c4b0a3099acad7e34d4a86efd7deda9aa",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:24:03.323Z"
+      },
+      {
+        "id": "eecfef9c-ee3f-4013-9e40-7c5493da155d",
+        "passage_id": "2886b754-944b-49e7-b858-bca85f4a31cb",
+        "version_id": "453f40fc-eaee-49b6-ba28-c6c4c7431d9f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "6095a19d5406ffdaf9b00b73e40409e68d0861275be6628481f55cbb205cec81",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:20.944Z"
+      },
+      {
+        "id": "efcb710b-79a0-4cd5-9881-90683141adbf",
+        "passage_id": "044c9fd2-e3e6-4724-a413-46bfe6365060",
+        "version_id": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "b2c9db9db70c666da6357a0265dcc1350ffd051edb3bbb9c132afb3b14a74e8f",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:34.381Z"
+      },
+      {
+        "id": "f096815d-0d49-4ef7-8d69-246f4fe8e374",
+        "passage_id": "089aacfc-c096-42c6-ba2a-a3b9e59befdc",
+        "version_id": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "7bae475b10310c457a34c0afefdbf062e71bc290ec0609a21161b9d4e45440f7",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:59.976Z"
+      },
+      {
+        "id": "f1c5e5fc-9efa-4ebd-893c-39f29cfbe9b1",
+        "passage_id": "023b4b13-2066-42e4-9b18-f3bdee7a7c2d",
+        "version_id": "6f2c3166-066a-4f8c-9dc9-3598fc376e4b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "3172edcf0e8b43134071ad5de6e047cd42a6788b8eb1fb5a2fda66eadadc9c4d",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T12:10:17.343Z"
+      },
+      {
+        "id": "f2431ed2-69a7-45a0-8a4e-8389af32b4fc",
+        "passage_id": "320e886d-6a7f-44e3-b2da-13d17442bcda",
+        "version_id": "3b6b99e3-0cac-48aa-95df-7c54a67ed1e8",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "764db6e6769efb16dd921e4d38b52679a67c6e99e7897743d8390c8f7c73d40c",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T19:18:37.301Z"
+      },
+      {
+        "id": "f39bac68-34b8-4035-bdfe-b1e78bba6b20",
+        "passage_id": "1c45e9a0-ac88-47cd-b3f9-e756ac8fe4f2",
+        "version_id": "9db4fb5d-2368-42c3-9491-743a84220b7b",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "c186ce4c405decce872b7fc1e3b391c89df8e86660669e9a8bbba41ef78e1241",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:56.215Z"
+      },
+      {
+        "id": "f7bb97ff-2d8d-4fc8-b4fa-cf46eca1b184",
+        "passage_id": "193f9416-ba22-454e-bfa1-ae0413d07a52",
+        "version_id": "d72d6f9b-3160-4523-8f16-6d90bf4fe449",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "195daab2d72433352681360972d85fbd61461bd28915195d143ff7bd628e62ef",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:52:54.724Z"
+      },
+      {
+        "id": "f87803f1-4167-4116-b771-7065e6c1c60a",
+        "passage_id": "1c484de6-bbcc-4c13-bd8d-eab2a104b60e",
+        "version_id": "88df4d55-f3d4-4c00-85b6-cdea8b7184f5",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "75668a6cf42f7f57439571c266a4764fe22c3690711432965eabdfd5d15a1d33",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T14:53:59.872Z"
+      },
+      {
+        "id": "fa9b80f2-6060-4c29-b862-319d76cb4691",
+        "passage_id": "2570d734-c981-43af-aebd-2309260dfea2",
+        "version_id": "b256d5d8-5624-4e44-9706-084cdd49cf0f",
+        "source_version": 1,
+        "revision": 1,
+        "status": "needs_review",
+        "content_hash": "3fd0e67510810781ae316bc4fc35a9f686f370709272e0e761fcf05f4c445c1e",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:52:13.969Z"
+      },
+      {
+        "id": "fb37094b-bc71-4a7c-b44a-73a033665e98",
+        "passage_id": "1ec91d52-21e4-4df9-a73e-f372b93df1de",
+        "version_id": "25d7b85e-1351-42fc-8395-c2ddd0a05e3a",
+        "source_version": 1,
+        "revision": 1,
+        "status": "content_checked",
+        "content_hash": "58420215985aaedf1e3fc0687791d1a381c85dbbb39549f4c5cd80c611cda1b6",
+        "actor": "scheduled-private-service",
+        "checked_at": "2026-10-21T16:50:45.127Z"
+      }
+    ],
+    "note": "Native long evidence/snapshot cells may be truncated; full fields verified through production API."
+  },
+  "originalProvenance": [
+    {
+      "url": "https://www.seocho.go.kr/site/seocho/05/10502040200002015070810.jsp",
+      "status": 200,
+      "finalUrl": "https://www.seocho.go.kr/site/seocho/05/10502040200002015070810.jsp",
+      "observedAt": "2026-10-21T21:41:06.500794+00:00",
+      "sha256": "ca19f17230ed80ea9ffa0de704ad17365bbc3845179c40c09f33cec04314d45e",
+      "bytes": 194447,
+      "title": "서초동의 지명유래-서초구청"
+    },
+    {
+      "url": "https://www.ddm.go.kr/tour/contents.do?key=2076",
+      "status": 503,
+      "observedAt": "2026-10-21T21:41:06.501727+00:00",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9B%90%ED%9A%A8%EB%A1%9C2%EA%B0%80",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9B%90%ED%9A%A8%EB%A1%9C2%EA%B0%80",
+      "observedAt": "2026-10-21T21:41:06.502316+00:00",
+      "sha256": "8fe983f250a170ff0eea53cb81290b4d0bebb064ee10ba8392e1fef17a342355",
+      "bytes": 22370,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A0%95%EB%8F%99",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A0%95%EB%8F%99",
+      "observedAt": "2026-10-21T21:41:10.444091+00:00",
+      "sha256": "a708d9281c33885c4c5e803af579a20ba6aacd30e88dc82a8bcf771c4b8c69cd",
+      "bytes": 43920,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A0%80%EB%8F%992%EA%B0%80",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%A0%80%EB%8F%992%EA%B0%80",
+      "observedAt": "2026-10-21T21:41:10.536944+00:00",
+      "sha256": "7cc5590b3098b1f1a5b306f4824d487a32ba254e6f0f90661c8c06bb0d939997",
+      "bytes": 22244,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B0%BD%EC%84%B1%EB%8F%99",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%B0%BD%EC%84%B1%EB%8F%99",
+      "observedAt": "2026-10-21T21:41:12.948856+00:00",
+      "sha256": "00d355f033d7f36d1dc2346c86701fd232526726db81ea35ce877ac2532c575a",
+      "bytes": 23043,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://www.ep.go.kr/dong/contents.do?key=4168",
+      "status": 200,
+      "finalUrl": "https://www.ep.go.kr/dong/contents.do?key=4168",
+      "observedAt": "2026-10-21T21:41:13.215263+00:00",
+      "sha256": "43ddfcbfa3953d5aa898292bd63c608c55f3041235c23bb9aa6d421cb8c892c3",
+      "bytes": 274513,
+      "title": "\n        \n        \n        \n        지명유래 - 우리동이야기 - 응암2동 - 동주민센터\n        \n        \n        \n    "
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9A%A9%EC%82%B0%EB%8F%996%EA%B0%80",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%9A%A9%EC%82%B0%EB%8F%996%EA%B0%80",
+      "observedAt": "2026-10-21T21:41:13.824983+00:00",
+      "sha256": "dfbb91b45bffec0fccc458fa2088acbbca5faaaa5c3b17495309a14094186cb6",
+      "bytes": 22753,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://www.junggu.seoul.kr/dong/sindang/content.do?cmsid=13568",
+      "status": 503,
+      "observedAt": "2026-10-21T21:41:15.869037+00:00",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY475&fileId=H-TRNS-85657-477&fileSn=300&type=A&upperNodeId=CTGRY477",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY475&fileId=H-TRNS-85657-477&fileSn=300&type=A&upperNodeId=CTGRY477",
+      "observedAt": "2026-10-21T21:41:16.650253+00:00",
+      "sha256": "21e1c098c57102e1944c1e8bdccd3d873387366c91739cfd02fcfa061af1816e",
+      "bytes": 538958,
+      "title": "아카이브 상세 | 대치동 | 서울역사아카이브"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%8C%80%ED%98%84%EB%8F%99",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%8C%80%ED%98%84%EB%8F%99",
+      "observedAt": "2026-10-21T21:41:17.269957+00:00",
+      "sha256": "30f56911f480fec9aab6828aa3023db3c6e47e7c3df2a212801324af990d591f",
+      "bytes": 22701,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84662-436&fileSn=300&type=A&upperNodeId=CTGRY436",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY433&fileId=H-TRNS-84662-436&fileSn=300&type=A&upperNodeId=CTGRY436",
+      "observedAt": "2026-10-21T21:41:18.926501+00:00",
+      "sha256": "a2f4607ef6b695f1897f6611bed7b1986fef9360550008ba26f8b61f3e7cc20d",
+      "bytes": 542028,
+      "title": "아카이브 상세 | 신촌 | 서울역사아카이브"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%99%94%EB%8F%99",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%99%94%EB%8F%99",
+      "observedAt": "2026-10-21T21:41:19.857206+00:00",
+      "sha256": "1206c8b1ee61a7fb0d2e0bc7a51707c72b2b12754643b83807affaee83e4e6c2",
+      "bytes": 43491,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY360&fileId=H-TRNS-70531-362&fileSn=300&type=A&upperNodeId=CTGRY362",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY360&fileId=H-TRNS-70531-362&fileSn=300&type=A&upperNodeId=CTGRY362",
+      "observedAt": "2026-10-21T21:41:20.538300+00:00",
+      "sha256": "86c897adc7f6e9e1b6e806da0b80ce5f44a0564660eb8e75b031356cd7d63eb0",
+      "bytes": 543132,
+      "title": "아카이브 상세 | 후암동 | 서울역사아카이브"
+    },
+    {
+      "url": "https://www.seocho.go.kr/site/seocho/05/10502041100002015070810.jsp",
+      "status": 200,
+      "finalUrl": "https://www.seocho.go.kr/site/seocho/05/10502041100002015070810.jsp",
+      "observedAt": "2026-10-21T21:41:20.578096+00:00",
+      "sha256": "e82f013737b9b291ddeb59be93e4cd062bf9172ca90d1a97d7da8b7d0edea399",
+      "bytes": 193902,
+      "title": "신원동의 지명유래-서초구청"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%99%8D%EC%9D%B5%EB%8F%99",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%99%8D%EC%9D%B5%EB%8F%99",
+      "observedAt": "2026-10-21T21:41:22.889243+00:00",
+      "sha256": "9c3bb880adca3f45ee7888c570412d44b8b422be5d19340491e0b83f860d720c",
+      "bytes": 22625,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY986&fileId=dc14116e-5eba-43df-9b8f-d517b7a8cc7f&fileSn=502&type=A&upperNodeId=CTGRY993",
+      "status": 200,
+      "finalUrl": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY986&fileId=dc14116e-5eba-43df-9b8f-d517b7a8cc7f&fileSn=502&type=A&upperNodeId=CTGRY993",
+      "observedAt": "2026-10-21T21:41:23.224199+00:00",
+      "sha256": "87ddb3e76641ef20df6197c5b786e0be169ddfcff02fa157dcaec82fb983cd1d",
+      "bytes": 540959,
+      "title": "아카이브 상세 | 노량진 | 서울역사아카이브"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%8B%A0%EA%B3%84%EB%8F%99",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EC%8B%A0%EA%B3%84%EB%8F%99",
+      "observedAt": "2026-10-21T21:41:23.678337+00:00",
+      "sha256": "bed2ba78e97292da225df50dfb2224d9726a2c7fe17d3a083e329ad15e432c06",
+      "bytes": 22298,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200756",
+      "status": 200,
+      "finalUrl": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200756",
+      "observedAt": "2026-10-21T21:41:25.717282+00:00",
+      "sha256": "c0c646d790556db563e9dba1146d149f8c24dfbb4e021775176503a517434c4e",
+      "bytes": 398275,
+      "title": "대방동 < 지명유래 < 역사 < 문화/관광/체육 < 분야별정보 < 포털사이트"
+    },
+    {
+      "url": "https://www.sb.go.kr/www/contents.do?key=5964",
+      "status": 200,
+      "finalUrl": "https://www.sb.go.kr/www/contents.do?key=5964",
+      "observedAt": "2026-10-21T21:41:25.853693+00:00",
+      "sha256": "61356724a90ed282b6eaf69b124bd08ef59d3c0960f0f1ea16ff92a5d8ad3694",
+      "bytes": 236632,
+      "title": "동명유래 - 성북구청"
+    },
+    {
+      "url": "https://www.ep.go.kr/dong/contents.do?key=3880",
+      "status": 200,
+      "finalUrl": "https://www.ep.go.kr/dong/contents.do?key=3880",
+      "observedAt": "2026-10-21T21:41:26.797033+00:00",
+      "sha256": "c58b8f159238e6a3c12ea66b85b5faca50251eb8de0fe0933ea6ce58ea34b058",
+      "bytes": 274639,
+      "title": "\n        \n        \n        \n        지명유래 - 우리동이야기 - 녹번동 - 동주민센터\n        \n        \n        \n    "
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%8F%89%EB%8F%99",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%ED%8F%89%EB%8F%99",
+      "observedAt": "2026-10-21T21:41:29.980960+00:00",
+      "sha256": "8c4baa6da3de7bc472a28558c04595ef6ef50a232b6a027d87eac9ea6a86dff6",
+      "bytes": 40711,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://www.seocho.go.kr/site/seocho/05/10502040900002015070810.jsp",
+      "status": 200,
+      "finalUrl": "https://www.seocho.go.kr/site/seocho/05/10502040900002015070810.jsp",
+      "observedAt": "2026-10-21T21:41:30.364004+00:00",
+      "sha256": "71ad4cf927a6b8b29b2a0a30b9c4b3066aab91ba98e538a34899e3bf860605d9",
+      "bytes": 193505,
+      "title": "내곡동의 지명유래-서초구청"
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AF%B8%EA%B7%BC%EB%8F%99",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AF%B8%EA%B7%BC%EB%8F%99",
+      "observedAt": "2026-10-21T21:41:33.059969+00:00",
+      "sha256": "785c586ce01cc105555f3637056979cd4354e735e70284a92a7d351f179cd0ef",
+      "bytes": 22956,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://www.gangdong.go.kr/web/culture/contents/gdc020_020_020",
+      "status": 503,
+      "observedAt": "2026-10-21T21:41:34.850397+00:00",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.mapo.go.kr/site/culture/content/culture0302",
+      "status": 200,
+      "finalUrl": "https://www.mapo.go.kr/site/culture/content/culture0302",
+      "observedAt": "2026-10-21T21:41:35.093534+00:00",
+      "sha256": "7229763ff5f0882c5ee5a9681661fd809ccaea47e5e10a5bf083de7e3813dddf",
+      "bytes": 95583,
+      "title": "동이름의 유래 | 마포의 역사/문화 | 역사/문화 |  우리동 이름은   어떻게 만들어진 것일까?  사람들의 이름에도 그 뜻이 담겨있듯이 우리가 살고 있는 동에도 그 의미와 뜻이 있습니다. 슬프기도, 아름답기도 한 그 유래를 알아봐요.     # 우리동네 # 그동안 몰랐던 유래     마포의역사  동부  중부  서부            공덕동 # 동부 공덕이라... | 문화관광"
+    },
+    {
+      "url": "https://www.songpa.go.kr/www/contents.do?key=2367",
+      "status": 200,
+      "finalUrl": "https://www.songpa.go.kr/www/contents.do?key=2367",
+      "observedAt": "2026-10-21T21:41:35.888628+00:00",
+      "sha256": "d10d876a20d624fb9d397e69bdc2e4eefe62b26dfae58d2c543e555089ac87e3",
+      "bytes": 488035,
+      "title": ""
+    },
+    {
+      "url": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AC%B8%EB%9E%98%EB%8F%991%EA%B0%80",
+      "status": 200,
+      "finalUrl": "https://history.seoul.go.kr/archive/ggdic/list.do?key=2211220002&pageIndex=1&sc=sc_nameKor&sc_alphabet=&sc_cate=1&sc_scndcode=1&sw=%EB%AC%B8%EB%9E%98%EB%8F%991%EA%B0%80",
+      "observedAt": "2026-10-21T21:41:38.188505+00:00",
+      "sha256": "fc82ecf8b11a16283ecdf17a4fab49356eb36dd9f36a2f28418728e4ec3582f7",
+      "bytes": 22403,
+      "title": "서울역사편찬원- 서울 지명사전"
+    },
+    {
+      "url": "https://www.ddm.go.kr/tour/contents.do?key=2076",
+      "observedAt": "2026-10-21T21:44:11Z",
+      "accessMode": "web_original_read",
+      "reference": "turn10view0",
+      "locator": "용두동 > 본문 294~299행",
+      "sha256": null,
+      "note": "직접 GET은 503. 정확한 등록 URL의 웹 원문을 실제 읽었으며 HTTP 200이나 파일 해시를 주장하지 않는다."
+    },
+    {
+      "url": "https://www.junggu.seoul.kr/dong/sindang/content.do?cmsid=13568",
+      "observedAt": "2026-10-21T21:44:11Z",
+      "accessMode": "web_original_read",
+      "reference": "turn8view1",
+      "locator": "유래 및 연혁 > 120~125행",
+      "sha256": null,
+      "note": "직접 GET은 503. 정확한 등록 URL의 웹 원문을 실제 읽었으며 HTTP 200이나 파일 해시를 주장하지 않는다."
+    },
+    {
+      "url": "https://www.gangdong.go.kr/web/culture/contents/gdc020_020_020",
+      "observedAt": "2026-10-21T21:44:11Z",
+      "accessMode": "web_original_read",
+      "reference": "turn10view1",
+      "locator": "지명유래 > 명일동 유래 304~327행·이용조건 465행",
+      "sha256": null,
+      "note": "직접 GET은 503. 정확한 등록 URL의 웹 원문을 실제 읽었으며 HTTP 200이나 파일 해시를 주장하지 않는다."
+    }
+  ],
+  "nextPassageId": "4819d2b0-bfac-4239-a9ec-54034486315d",
+  "nextCursor": "/api/archive/task?view=passages&unreviewed=true&limit=30&after="
+}
