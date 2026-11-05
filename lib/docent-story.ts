@@ -47,13 +47,15 @@ export function groupStoryPhotos(items:PhotoResearchItem[]) {
   for(const [key,rows] of groups){const image=rows[0].previewUrl;if(!image)continue;const previous=previewOwner.get(image);if(previous&&groups.has(previous)){groups.get(previous)!.push(...rows);groups.delete(key);}else previewOwner.set(image,key);}
   return [...groups.values()];
 }
-export function buildDocentStory(photos:PhotoResearchBundle, documents:DocumentBundle, district:string,dong:string):DocentStory {
+export function buildDocentStory(photos:PhotoResearchBundle, documents:DocumentBundle, district:string,dong:string, manual:PhotoResearchItem[]=[]):DocentStory {
   const eligible=photos.items.filter(item=>item.recordType==='visual'&&!item.candidate&&!item.correctionOf&&!item.conflictMentioned);
   const localBatchIds=new Set(photos.meta.files.filter(f=>f.collectionScope==='dong'&&f.district===district&&f.dong===dong).map(f=>f.id));
   const local=eligible.filter(i=>localBatchIds.has(i.batchId)||i.regionLinks?.some(l=>l['자치구']===district&&l['법정동']===dong&&l['조사단계']==='법정동'));
   const districtBatchIds=new Set(photos.meta.files.filter(f=>f.collectionScope==='district'&&f.district===district).map(f=>f.id));
-  const scope=local.length?'dong':'district';
-  const rows=local.length?local:eligible.filter(i=>districtBatchIds.has(i.batchId));
+  const manualLocal=manual.filter(i=>i.district===district&&i.dong===dong);
+  const manualDistrict=manual.filter(i=>i.district===district&&!i.dong);
+  const scope=local.length||manualLocal.length?'dong':'district';
+  const rows=local.length||manualLocal.length?[...local,...manualLocal]:[...eligible.filter(i=>districtBatchIds.has(i.batchId)),...manualDistrict];
   const pictured=rows.filter(i=>photoResearchThumbnail(i));
   const groups=groupStoryPhotos(pictured);
   const scenes:StoryScene[]=groups.map(cuts=>{

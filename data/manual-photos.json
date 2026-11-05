@@ -1,0 +1,16 @@
+[
+  {
+    "_안내": "사진 한 장 = 항목 한 개입니다. docs/add-photos.md 를 먼저 읽어 주세요. allowDisplay 가 true 이고 라이선스·출처가 모두 있을 때만 사이트에 나옵니다.",
+    "district": "성북구",
+    "dong": "삼선동2가",
+    "title": "예시: 사진 제목을 적어 주세요",
+    "date": "1970년대",
+    "imageUrl": "https://example.org/photo.jpg",
+    "sourceUrl": "https://example.org/원문-페이지",
+    "institution": "제공 기관 이름",
+    "credit": "제공 기관 · 촬영자",
+    "license": "공공누리 제1유형 등 이용조건",
+    "description": "사진이 보여 주는 내용을 한두 문장으로 적어 주세요.",
+    "allowDisplay": false
+  }
+]
