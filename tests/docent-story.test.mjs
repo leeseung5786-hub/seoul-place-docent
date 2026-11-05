@@ -47,3 +47,20 @@ test('translation validation keeps IDs and years and rejects inserted historical
  const scene={id:'s',title:'1975년의 거리',text:'사진 속 장소는 미확인입니다.'};assert.equal(validateSceneTranslations({scenes:[{id:'s',title:'The street in 1975',text:'The exact location is unverified.'}]},[scene]).length,1);
  assert.throws(()=>validateSceneTranslations({scenes:[{id:'s',title:'The street in 1980',text:'Unknown.'}]},[scene]));
 });
+import {manualPhotoItems} from '../lib/manual-photos.ts';
+const manualOk={district:'성북구',dong:'삼선동2가',title:'삼선교 일대',date:'1970년대',imageUrl:'https://example.org/a.jpg',sourceUrl:'https://example.org/page',institution:'테스트기관',license:'공공누리 제1유형',allowDisplay:true};
+test('manual photos need display permission, https links, a license and an institution',()=>{
+ assert.equal(manualPhotoItems([manualOk]).length,1);
+ assert.equal(manualPhotoItems([{...manualOk,allowDisplay:false}]).length,0);
+ assert.equal(manualPhotoItems([{...manualOk,license:''}]).length,0);
+ assert.equal(manualPhotoItems([{...manualOk,imageUrl:'http://example.org/a.jpg'}]).length,0);
+ assert.equal(manualPhotoItems([{...manualOk,imageUrl:'https://example.org/page'}]).length,0);
+ assert.equal(manualPhotoItems([{...manualOk,sourceUrl:'javascript:alert(1)'}]).length,0);
+ assert.equal(manualPhotoItems({}).length,0);
+});
+test('a manually registered photo becomes a dong-level photo scene for a dong without photo data',()=>{
+ const story=getDocentStory('성북구','삼선동2가');assert.equal(story.scenes.some(s=>s.photos.length),false);
+ const manual=manualPhotoItems([manualOk,{...manualOk,title:'다른 동',dong:'동선동1가'}]);
+ const withManual=buildDocentStory({meta:{files:[]},items:[]},{targets:[],tables:{timeline:[],claims:[],sources:[]}},'성북구','삼선동2가',manual);
+ const scene=withManual.scenes.find(s=>s.photos.length);assert.ok(scene);assert.equal(scene.title,'삼선교 일대');assert.equal(scene.scope,'dong');assert.equal(withManual.scenes.filter(s=>s.photos.length).length,1);
+});
