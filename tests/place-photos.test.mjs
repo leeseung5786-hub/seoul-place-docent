@@ -12,8 +12,8 @@ test('rejects unclear licences, non-free and non-image',()=>{
   assert.equal(commonsPhoto(page({mime:'application/pdf'}),1,'nearby'),null);
   assert.equal(commonsPhoto(page({thumburl:'http://evil.example/a.jpg',url:'http://evil.example/a.jpg'}),1,'nearby'),null);
 });
-test('rank: nearby and dated first, deduped',()=>{const a=commonsPhoto(page(),50,'nearby'),b={...a,id:'b',year:null,distance:5},c={...a,id:'c',year:1950,distance:300},n={...a,id:'n',match:'neighborhood'};
-  assert.deepEqual(rankPhotos([b,n,c,a,a]).map(p=>p.id),['pp:commons:1','c','b','n']);});
+test('rank: old dated first, then nearest, deduped',()=>{const a=commonsPhoto(page(),50,'nearby'),b={...a,id:'b',year:null,distance:5},c={...a,id:'c',year:1950,distance:300},n={...a,id:'n',match:'neighborhood'};
+  assert.deepEqual(rankPhotos([b,n,c,a,a]).map(p=>p.id),['pp:commons:1','c','n','b']);});
 test('scene is displayable by existing photo pipeline',()=>{const s=placePhotoScene(commonsPhoto(page(),18,'nearby'),'중구','소공동');assert.equal(s.year,1904);assert.ok(photoResearchThumbnail(s.photos[0]));assert.match(s.text,/18m/);assert.match(s.photos[0].values['필수출처표시문구'],/Public domain/);});
 test('findPlacePhotos works with fixtures, retries 429, and does not cache total failure',async()=>{
   let calls=0,fail=true;const fetcher=async url=>{calls++;const u=new URL(url);const list=u.searchParams.get('list');
