@@ -1,12 +1,14 @@
 import {ServiceError,buildings,normalizeRoad} from './providers';
 import type {Address,Secrets,Building} from './providers';
 import {regions,sources,matchRegions} from './history';
+import {readStoredSummary,summaryCacheId,writeStoredSummary} from './ai-summary-store';
 import type {Region} from './history';
 export type AIScope='현재 건물'|'동네';
 export type Evidence={id:string;title:string;scope:AIScope;text:string;url:string;relation:string;checkedAt:string};
 export type AISentence={text:string;evidenceId:string;quote:string;scope:AIScope;sourceTitle:string;sourceUrl:string;relation:string};
 export type AISummary={sentences:AISentence[];questions:string[];evidence:Evidence[];model:string;generatedAt:string;cached:boolean;omitted:number;limitations:string[]};
-export type AISecrets=Secrets & {OPENAI_API_KEY?:string;OPENAI_MODEL?:string};
+export type AISecrets=Secrets & {OPENAI_API_KEY?:string;OPENAI_MODEL?:string;DB?:D1Database};
+export type AIOptions={refresh?:boolean;beforeRequest?:()=>void};
 function prettyDay(s:string){return /^\d{8}$/.test(s)?s.replace(/(\d{4})(\d{2})(\d{2})/,'$1.$2.$3'):'';}
 export function buildEvidence(area:Region[],address?:Address,building?:Building,queriedAt=''):Evidence[]{
  const evidence:Evidence[]=[];
@@ -50,13 +52,16 @@ export async function requestAISummary(evidence:Evidence[],secrets:AISecrets):Pr
  return {...validateAISentences(parsed,evidence),evidence,model,generatedAt:new Date().toISOString()};
 }
 const cache=new Map<string,{expires:number;value:AISummary}>();
-export async function generateAISummary(input:{address?:Address;regionId?:string;buildingId?:string},secrets:AISecrets):Promise<AISummary>{
+export async function generateAISummary(input:{address?:Address;regionId?:string;buildingId?:string},secrets:AISecrets,options:AIOptions={}):Promise<AISummary>{
  if(!secrets.OPENAI_API_KEY)throw new ServiceError('AI_KEY_MISSING','AI 설명 연결을 준비 중입니다.',503);
  let area:Region[]=[];let building:Building|undefined;let queriedAt=new Date().toISOString();const limitations=['개별 건물·부지의 과거 연혁과 거리 기반 주변 기록은 미검증','검색 목록과 사진 컬렉션 제목을 사건 근거로 사용하지 않음','AI 설명은 검토할 초안이며 각 문장의 원문 출처를 확인해야 함'];
  if(input.address){area=matchRegions(input.address.sggNm,input.address.emdNm);try{const b=await buildings(input.address,secrets);queriedAt=b.queriedAt;building=input.buildingId?b.items.find(x=>x.id===input.buildingId):b.items.length===1?b.items[0]:undefined;if(input.buildingId&&!building)throw new ServiceError('AI_BUILDING_MISMATCH','선택한 건축물과 현재 주소의 일치를 확인하지 못했습니다.',400);}catch(e){if(e instanceof ServiceError&&e.code==='AI_BUILDING_MISMATCH')throw e;limitations.push('이번 생성에서는 현재 건축물대장을 조회하지 못해 대장 내용을 사용하지 않음');}}
  else{const r=regions.find(r=>r.id===input.regionId);if(!r)throw new ServiceError('AI_REGION','수록된 지역을 선택하거나 주소를 검색해 주세요.',400);area=[r];limitations.push('동네 둘러보기 상태 · 특정 주소의 정보가 아님');}
  const evidence=buildEvidence(area,input.address,building,queriedAt);
  const cacheKey=JSON.stringify({model:secrets.OPENAI_MODEL||'gpt-5.4-mini',evidence:evidence.map(({checkedAt,...e})=>e)});
- const prev=cache.get(cacheKey);if(prev&&prev.expires>Date.now())return {...prev.value,cached:true};
- const value={...await requestAISummary(evidence,secrets),cached:false,limitations};if(cache.size>=40)cache.delete(cache.keys().next().value!);cache.set(cacheKey,{value,expires:Date.now()+10*60*1000});return value;
+ const prev=cache.get(cacheKey);if(!options.refresh&&prev&&prev.expires>Date.now())return {...prev.value,cached:true};
+ const storedId=await summaryCacheId(cacheKey);
+ if(!options.refresh){const stored=await readStoredSummary(secrets.DB,storedId);if(stored){if(cache.size>=40)cache.delete(cache.keys().next().value!);cache.set(cacheKey,{value:stored,expires:Date.now()+10*60*1000});return stored;}}
+ options.beforeRequest?.();
+ const value={...await requestAISummary(evidence,secrets),cached:false,limitations};if(cache.size>=40)cache.delete(cache.keys().next().value!);cache.set(cacheKey,{value,expires:Date.now()+10*60*1000});await writeStoredSummary(secrets.DB,storedId,value);return value;
 }
