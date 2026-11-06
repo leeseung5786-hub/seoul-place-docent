@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {archiveQueries,archiveUsable,parseArchiveItem,parseArchiveList,seoulArchivesPhotos} from '../lib/seoul-archives.ts';
+import {placePhotoScene} from '../lib/place-photos.ts';
+import {photoResearchThumbnail} from '../lib/photo-research.ts';
+const list=readFileSync(new URL('./fixtures/seoul-archives-list.html',import.meta.url),'utf8');
+const item=readFileSync(new URL('./fixtures/seoul-archives-item.html',import.meta.url),'utf8');
+test('parses the photo list',()=>{const r=parseArchiveList(list);assert.equal(r.total,23);assert.equal(r.cards[0].id,'1818');assert.equal(r.cards[0].title,'중앙청 앞 군악대 연주');assert.match(r.cards[0].thumb,/^https:\/\/archives-files\.seoul\.go\.kr\/.+450_/);});
+test('parses item metadata and rights',()=>{const i=parseArchiveItem('1818',item);assert.equal(i.title,'중앙청 앞 군악대 연주');assert.equal(i.date,'1958-08-19');assert.equal(i.year,1958);assert.equal(i.description,'중앙청 앞 세종로에서 군악대가 공연이 펼쳐졌다.');assert.equal(i.access,'공개');assert.equal(i.use,'제한없음');assert.match(i.creator,/공보과/);assert.ok(i.places.some(p=>/종로구/.test(p)));assert.match(i.image,/2000_/);assert.ok(archiveUsable(i));});
+test('rejects restricted items',()=>{const i=parseArchiveItem('1',item.replace('<div class="leftH">이용유형</div><div class="rightH">제한없음</div>','<div class="leftH">이용유형</div><div class="rightH">제한</div>'));assert.equal(archiveUsable(i),false);});
+test('queries from dong and road',()=>{assert.deepEqual(archiveQueries('삼선동2가','동소문로','성북구').map(x=>x.q+':'+x.scope),['삼선동2가:dong','삼선동:dong','동소문로:dong','성북:district']);assert.deepEqual(archiveQueries('여의도동').map(x=>x.q),['여의도동','여의도']);assert.deepEqual(archiveQueries('세종로').map(x=>x.q),['세종로']);});
+test('end to end with fixtures becomes a displayable scene',async()=>{const fetcher=async url=>new Response(String(url).includes('/photo/list')?list:item);const photos=await seoulArchivesPhotos('세종로','',fetcher,3);assert.equal(photos.length,3);const sc=placePhotoScene(photos[0],'종로구','세종로');assert.equal(sc.year,1958);assert.ok(photoResearchThumbnail(sc.photos[0]));assert.match(sc.text,/서울기록원/);assert.doesNotMatch(sc.text,/검증되지/);});
