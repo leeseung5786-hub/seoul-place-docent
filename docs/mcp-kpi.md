@@ -8,7 +8,12 @@
 
 처리 순서는 질문 → 의도·장소 범위 분류 → 주소 후보 확인 → MCP 조회 → 근거 대조 → 답변 또는 추가 질문이다.
 
-이번 MCP 서버는 search_place, get_place_history, get_archive_stats를 제공한다. 분류·답변 생성은 연결된 AI 클라이언트의 역할이다. 별도 분류 모델 학습, 서버 내부 자연어 질의 API, 평가 이벤트 자동 수집은 후속 구현 대상이다. 기존 홈페이지의 AI 설명 기능과 MCP 클라이언트의 분류·생성을 구분해 평가한다.
+MCP 서버는 search_place, get_place_history, get_archive_stats와 함께 서버 AI 도구 generate_place_answer, get_answer_stats를 제공한다(PR #12, docs/mcp.md).
+
+- generate_place_answer: 서버가 질문 유형 분류 → 관련 기록 선택 → 설명 작성 → 문단별 근거·숫자 검증 → D1 저장까지 수행하고 완성된 설명을 반환한다. 생성 비용은 운영자 API 계정, 같은 질문·기록의 재요청은 D1 저장본으로 응답한다.
+- get_answer_stats: D1 place_answer_log에서 요청 수, 저장 재사용률, 성공률, 평균 생성 시간, 검증 탈락 문단 비율, 질문 유형 분포를 집계한다.
+
+따라서 분류·생성 KPI는 두 경로로 나눠 측정한다. (1) 서버 경로: generate_place_answer의 분류(question_type)와 답변을 평가 세트로 채점한다. (2) 클라이언트 경로: AI 클라이언트가 get_place_history로 받은 자료로 직접 분류·작성한 결과를 채점한다. 서버 경로의 question_type 6종(동네 역사, 시대별 모습, 특정 장소·건물, 사진 찾기, 지명 유래, 기타)은 아래 라벨과 대응표를 두어 같은 평가 세트로 비교한다. 별도 분류 모델 학습과 평가 이벤트 전체(아래 측정 기록 항목)의 자동 수집은 여전히 후속 구현 대상이다.
 
 ## 분류 기준
 
@@ -59,7 +64,7 @@
 
 question_id, dataset_version, data_commit, classifier_model, classifier_prompt_version, expected_intents, predicted_intents, expected_scope, predicted_scope, requires_clarification, selected_tools, tool_success, tool_latency_ms, end_to_end_latency_ms, retrieved_scene_ids, cited_urls, supported_claim_count, total_claim_count, false_place_link_count, answer_complete, abstention_correct, provider_error_code, input_tokens, output_tokens, api_cost, cache_source, reviewer_ids.
 
-운영 지표에는 요청 ID·시간·도구·상태·지연시간을 기록한다. 질문 원문·정확한 주소·주소 token·API 인증 키를 기본 로그에 저장하지 않는다. 평가 데이터는 팀이 작성한 공개 장소 질문을 사용한다. 현재 서버에는 위 이벤트의 영구 수집 기능이 없으므로 첫 평가는 테스트 클라이언트의 실행 기록과 수동 채점으로 진행한다.
+운영 지표에는 요청 ID·시간·도구·상태·지연시간을 기록한다. 질문 원문·정확한 주소·주소 token·API 인증 키를 기본 로그에 저장하지 않는다. 평가 데이터는 팀이 작성한 공개 장소 질문을 사용한다. 서버 경로는 place_answer_log가 시간·재사용·생성 시간·검증 탈락·질문 유형을 자동 기록한다(질문 원문·주소는 저장하지 않음). 나머지 항목은 첫 평가에서 테스트 클라이언트 실행 기록과 수동 채점으로 진행한다.
 
 ## 호스팅 완료 조건
 
