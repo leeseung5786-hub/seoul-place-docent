@@ -9,6 +9,8 @@ export type McpToolResult = {content: McpContent[]; isError?: boolean};
 type Execute = (name: string, args: Record<string, unknown>) => Promise<McpToolResult>;
 
 export const MCP_VERSION = '2026-07-28';
+export const MCP_LEGACY_VERSIONS = ['2025-11-25', '2025-06-18', '2025-03-26'] as const;
+export const MCP_SUPPORTED_VERSIONS = [MCP_VERSION, ...MCP_LEGACY_VERSIONS];
 export function isObject(value: unknown): value is Record<string, unknown> {
   return value !== null && typeof value === 'object' && !Array.isArray(value);
 }
@@ -37,19 +39,20 @@ export async function handleMcpMessage(value: unknown, tools: readonly McpTool[]
   switch (value.method) {
     case 'server/discover':
       result = {
-        supportedVersions: [MCP_VERSION],
+        supportedVersions: MCP_SUPPORTED_VERSIONS,
         capabilities: {tools: {}},
-        serverInfo: {name: 'seoul-place-docent', version: '1.0.0'},
+        serverInfo: {name: 'seoul-place-docent', version: '2.0.0'},
       };
       break;
     case 'initialize':
-      if (params.protocolVersion !== MCP_VERSION) {
-        return rpcError(id, -32602, 'Supported protocol version: ' + MCP_VERSION);
-      }
+      if (typeof params.protocolVersion !== 'string') return rpcError(id, -32602, 'protocolVersion is required');
+      // Legacy initialize negotiates a supported version rather than rejecting older clients.
+      const negotiated = MCP_SUPPORTED_VERSIONS.includes(params.protocolVersion) ? params.protocolVersion : MCP_LEGACY_VERSIONS[0];
       result = {
-        protocolVersion: MCP_VERSION,
+        protocolVersion: negotiated,
+        instructions: '주소 또는 실제 GPS를 확인한 다음 prepare_place_answer로 근거를 조회하세요. 질문 분류와 최종 도슨트 작성은 호출한 AI가 수행합니다. 서버는 모델 API를 호출하지 않습니다.',
         capabilities: {tools: {}},
-        serverInfo: {name: 'seoul-place-docent', version: '1.0.0'},
+        serverInfo: {name: 'seoul-place-docent', version: '2.0.0'},
       };
       break;
     case 'ping':
