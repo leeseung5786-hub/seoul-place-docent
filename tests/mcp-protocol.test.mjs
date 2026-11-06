@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {handleMcpMessage, MCP_VERSION, textResult} from '../lib/mcp-protocol.ts';
+import {handleMcpMessage, MCP_VERSION, MCP_SUPPORTED_VERSIONS, textResult} from '../lib/mcp-protocol.ts';
 
 const tools = [{name: 'read_records', description: 'Read records', inputSchema: {type: 'object'}}];
 const call = (method, params = {}, id = 1) => ({jsonrpc: '2.0', id, method, params});
@@ -9,7 +9,7 @@ const execute = async (_name, args) => textResult(args);
 test('discovery advertises the Sites protocol and tools capability', async () => {
   const response = await handleMcpMessage(call('server/discover'), tools, execute);
   assert.equal(response.id, 1);
-  assert.deepEqual(response.result.supportedVersions, [MCP_VERSION]);
+  assert.deepEqual(response.result.supportedVersions, MCP_SUPPORTED_VERSIONS);
   assert.deepEqual(response.result.capabilities, {tools: {}});
 });
 test('tools are discoverable and calls return MCP content blocks', async () => {
@@ -46,7 +46,12 @@ test('unexpected tool failures are safe MCP errors without internal exception te
   assert.equal(response.result.isError, true);
   assert.equal(JSON.stringify(response).includes('secret database details'), false);
 });
-test('initialize requires the advertised protocol version', async () => {
+test('initialize negotiates supported legacy versions and supplies client AI instructions', async () => {
   assert.equal((await handleMcpMessage(call('initialize', {protocolVersion: MCP_VERSION}), tools, execute)).result.protocolVersion, MCP_VERSION);
-  assert.equal((await handleMcpMessage(call('initialize', {protocolVersion: 'unsupported'}), tools, execute)).error.code, -32602);
+  for(const version of ['2025-11-25','2025-06-18','2025-03-26']){
+    const r=await handleMcpMessage(call('initialize',{protocolVersion:version}),tools,execute);
+    assert.equal(r.result.protocolVersion,version);assert.ok(r.result.instructions.includes('호출한 AI'));
+  }
+  assert.equal((await handleMcpMessage(call('initialize', {protocolVersion: 'unsupported'}), tools, execute)).result.protocolVersion, '2025-11-25');
+  assert.equal((await handleMcpMessage(call('initialize'), tools, execute)).error.code,-32602);
 });
