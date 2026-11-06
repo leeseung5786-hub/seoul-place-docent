@@ -47,6 +47,19 @@ export function groupStoryPhotos(items:PhotoResearchItem[]) {
   for(const [key,rows] of groups){const image=rows[0].previewUrl;if(!image)continue;const previous=previewOwner.get(image);if(previous&&groups.has(previous)){groups.get(previous)!.push(...rows);groups.delete(key);}else previewOwner.set(image,key);}
   return [...groups.values()];
 }
+/** Research workflow notes (what the researcher did not verify) belong in "자료 보기", not in the visitor-facing story. */
+const RESEARCH_NOTE=/이미지를 직접 보지|관찰 내용 없음|원문 (?:설명|정보)만 확인|미확인|확인되지 않았|(?:추가|별도) 확인(?:이)? 필요|확인이 필요|원문이 .{1,40}(?:으로|로) 분류한 (?:장면|경관)|원문 대상지|원문 촬영장소|원문에 없다|본 조사에서|대조해야 합니다|자료\.$/;
+export function splitVisitorText(value:string){
+  const sentences=value.replace(/([.!?。])\s*\((?:\d{4}|\d{2})[\d.\s~·-]*\)/g,'$1 ').match(/.*?(?:[.!?。](?=\s|$)|$)/g)?.map(x=>x.trim()).filter(Boolean)||[];
+  const keep:string[]=[],notes:string[]=[];
+  for(const raw of sentences){const sentence=raw.replace(/^\(\d{4}[^)]*\)\s*/,'').replace(/^조사 소개는\s*/,'기록은 ');(RESEARCH_NOTE.test(sentence)?notes:keep).push(sentence);}
+  return {text:keep.join(' ').replace(/\s+/g,' ').trim(),notes};
+}
+function visitorScene(scene:StoryScene):StoryScene{
+  const {text:clean,notes}=splitVisitorText(scene.text);const text=readingText(clean,3);if(!notes.length)return {...scene,text};
+  const note=notes.join(' ');
+  return {...scene,text:text||(scene.kind==='photo'?'이 사진의 자세한 설명은 ‘자료 보기’의 원문에서 확인할 수 있어요.':'자세한 내용은 ‘자료 보기’의 원문에서 확인할 수 있어요.'),evidence:scene.evidence.map((e,i)=>i===0?{...e,note:[e.note,note].filter(Boolean).join(' ')}:e)};
+}
 export function buildDocentStory(photos:PhotoResearchBundle, documents:DocumentBundle, district:string,dong:string, manual:PhotoResearchItem[]=[]):DocentStory {
   const eligible=photos.items.filter(item=>item.recordType==='visual'&&!item.candidate&&!item.correctionOf&&!item.conflictMentioned);
   const localBatchIds=new Set(photos.meta.files.filter(f=>f.collectionScope==='dong'&&f.district===district&&f.dong===dong).map(f=>f.id));
@@ -61,24 +74,25 @@ export function buildDocentStory(photos:PhotoResearchBundle, documents:DocumentB
   const scenes:StoryScene[]=groups.map(cuts=>{
     const item=cuts.find(i=>i.values['내용설명'])||cuts[0];const time=historicalDate(item.values);
     const unique=[...new Map(cuts.map(i=>[photoResearchThumbnail(i),i])).values()];
-    return {id:item.id,kind:'photo',date:time.label,year:time.year,order:time.order,title:readingText(item.values['자료명']||item.id),text:readingText(item.values['사이트용캡션초안']||item.values['내용설명']||'이 시각자료의 내용은 제공기관 원문에서 확인할 수 있어요.'),scope,photos:unique.slice(0,20),cutCount:cuts.length,evidence:cuts.slice(0,20).map(i=>({title:photoResearchText(i.values['자료명']||i.id),url:i.sourceUrl,institution:i.values['제공기관·채널']||i.provider,locator:i.values['페이지·도판번호'],note:i.metadataWarnings?.join(' · ')||i.values['주소관계근거']||i.relation}))};
+    return {id:item.id,kind:'photo',date:time.label,year:time.year,order:time.order,title:readingText(item.values['자료명']||item.id),text:readingText(item.values['사이트용캡션초안']||item.values['내용설명']||'이 시각자료의 내용은 제공기관 원문에서 확인할 수 있어요.',50),scope,photos:unique.slice(0,20),cutCount:cuts.length,evidence:cuts.slice(0,20).map(i=>({title:photoResearchText(i.values['자료명']||i.id),url:i.sourceUrl,institution:i.values['제공기관·채널']||i.provider,locator:i.values['페이지·도판번호'],note:i.metadataWarnings?.join(' · ')||i.values['주소관계근거']||i.relation}))};
   });
   const exact=documents.targets.filter(t=>t.district===district&&t.level==='법정동'&&t.name===dong);const ids=new Set(exact.map(t=>t.id));
   const timeline=documents.tables.timeline.filter(r=>r.targetIds.some(id=>ids.has(id))&&!r.issues.length&&!/상충 확인/.test(r.status));
   for(const row of timeline){const context=documentContext(documents,[row]);if(!context.sources.some(s=>s.url))continue;
     const time=historicalDate({'역사적대상시기':row.values['시기표기']||''});
-    scenes.push({id:'doc:'+row.id,kind:'document',date:time.label,year:time.year,order:time.order,title:readingText(row.values['사건']),text:readingText(context.claims.map(c=>c.text).join(' ')),scope:'dong',photos:[],cutCount:0,evidence:context.sources.map(s=>({title:s.title,url:s.url,institution:'문헌 원문',note:row.values['상충·주의사항']}))});
+    scenes.push({id:'doc:'+row.id,kind:'document',date:time.label,year:time.year,order:time.order,title:readingText(row.values['사건']),text:readingText(context.claims.map(c=>c.text).join(' '),50),scope:'dong',photos:[],cutCount:0,evidence:context.sources.map(s=>({title:s.title,url:s.url,institution:'문헌 원문',note:row.values['상충·주의사항']}))});
   }
   const usedClaims=new Set(timeline.flatMap(r=>r.evidenceIds));
   const claims=documents.tables.claims.filter(r=>r.targetIds.some(id=>ids.has(id))&&!usedClaims.has(r.id)&&!r.issues.length&&!/상충 확인/.test(r.status)).slice(0,30);
   for(const row of claims){const sourceRows=documents.tables.sources.filter(s=>row.sourceIds.includes(s.id));const evidence=sourceRows.map(s=>({title:s.values['자료명'],url:safeDocumentUrl(s.values['원문URL']),institution:s.values['제공기관·채널']||'문헌 원문',locator:row.values['원문위치'],note:row.values['근거유형']==='추정·해석'?'원문의 추정·해석이며 확정 사실과 구분해 읽어 주세요.':'동네 범위의 문헌 기록입니다.'})).filter(s=>s.url);if(!evidence.length)continue;
     const time=historicalDate({'역사적대상시기':row.values['시기표기']||''});
-    scenes.push({id:'claim:'+row.id,kind:'document',date:time.label,year:time.year,order:time.order,title:readingText(row.values['주제']||row.label).replace(/^[①-⑳]\s*/,''),text:readingText(row.values['역사적주장']||''),scope:'dong',photos:[],cutCount:0,evidence});
+    scenes.push({id:'claim:'+row.id,kind:'document',date:time.label,year:time.year,order:time.order,title:readingText(row.values['주제']||row.label).replace(/^[①-⑳]\s*/,''),text:readingText(row.values['역사적주장']||'',50),scope:'dong',photos:[],cutCount:0,evidence});
   }
   for(const region of matchRegions(district,dong)){for(const [i,event] of region.events.entries()){
     if(scenes.some(s=>s.title===event.title))continue;
-    scenes.push({id:region.id+':'+i,kind:'document',date:event.time,year:event.from,order:event.from*10000,title:event.title,text:readingText(event.text),scope:'dong',photos:[],cutCount:0,evidence:[{title:sources.find(s=>s.id===event.sourceId)?.title||region.name,url:safeDocumentUrl(region.url),institution:'서울역사박물관',note:region.matching==='area-candidate'?'역사적 권역의 설명입니다. 현재 법정동 전체의 포함 여부는 추가 확인이 필요합니다.':'동네 기록으로, 입력 건물·필지와의 일치는 미확인입니다.'}]});
+    scenes.push({id:region.id+':'+i,kind:'document',date:event.time,year:event.from,order:event.from*10000,title:event.title,text:readingText(event.text,50),scope:'dong',photos:[],cutCount:0,evidence:[{title:sources.find(s=>s.id===event.sourceId)?.title||region.name,url:safeDocumentUrl(region.url),institution:'서울역사박물관',note:region.matching==='area-candidate'?'역사적 권역의 설명입니다. 현재 법정동 전체의 포함 여부는 추가 확인이 필요합니다.':'동네 기록으로, 입력 건물·필지와의 일치는 미확인입니다.'}]});
   }}
   scenes.sort((a,b)=>a.order-b.order||a.id.localeCompare(b.id));
-  return {district,dong,scenes,total:scenes.length,photoRecords:pictured.length,photoGroups:groups.length,unpictured:rows.length-pictured.length,version:'docent-20261102-2'};
+  const visible=scenes.map(visitorScene);
+  return {district,dong,scenes:visible,total:scenes.length,photoRecords:pictured.length,photoGroups:groups.length,unpictured:rows.length-pictured.length,version:'docent-20261106-1'};
 }

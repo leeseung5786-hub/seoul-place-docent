@@ -96,7 +96,7 @@ export function photoResearchText(value: string) {
 export function photoResearchCredit(item: PhotoResearchItem) {
   const creator = item.values['촬영자·제작자'];
   return photoResearchText(item.values['필수출처표시문구'] || [item.values['제공기관·채널'] || item.provider,
-    creator && !/^미상/.test(creator) ? creator : ''].filter(Boolean).join(' · '));
+    creator && !/^(?:미상|미확인|불명|작자\s*미상)/.test(creator.trim()) ? creator : ''].filter(Boolean).join(' · '));
 }
 export function placePhotoResearch(bundle: PhotoResearchBundle, district: string, dongs: string[], visualPage = 1) {
   const batches = bundle.meta.files.filter(f => f.collectionScope === 'dong' && f.district === district && dongs.includes(f.dong));
