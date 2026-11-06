@@ -1,7 +1,8 @@
 import type {PhotoResearchItem} from './photo-research';
 import type {StoryScene} from './docent-story';
+import {seoulArchivesPhotos} from './seoul-archives';
 /** Nearby historical photos from open-licensed sources with clear provenance. Fail-open; presentation only. */
-export type PlacePhoto = {id:string;provider:string;title:string;year:number|null;date:string;description:string;imageUrl:string;fullUrl:string;sourceUrl:string;creator:string;license:string;licenseUrl:string|null;distance:number|null;match:'nearby'|'place'|'neighborhood';via?:string};
+export type PlacePhoto = {id:string;provider:string;title:string;year:number|null;date:string;description:string;imageUrl:string;fullUrl:string;sourceUrl:string;creator:string;license:string;licenseUrl:string|null;distance:number|null;match:'nearby'|'place'|'neighborhood';via?:string;scope?:'dong'|'district'};
 export type PlacePhotoResult = {photos:PlacePhoto[];providers:{id:string;name:string;ok:boolean;count:number}[]};
 const UA='SeoulPlaceDocent/1.0 (https://github.com/xeonica/seoul-place-docent)';
 const COMMONS='https://commons.wikimedia.org/w/api.php';
@@ -60,7 +61,7 @@ export async function commonsNeighborhood(district:string,dong:string,fetcher:ty
   return pages.map(p=>commonsPhoto(p,null,'neighborhood')).filter((p):p is PlacePhoto=>!!p);
 }
 const MATCH_ORDER={nearby:0,place:1,neighborhood:2};
-export function rankPhotos(photos:PlacePhoto[],limit=36){
+export function rankPhotos(photos:PlacePhoto[],limit=48){
   const seen=new Set<string>();const out:PlacePhoto[]=[];
   for(const p of photos){if(seen.has(p.id))continue;seen.add(p.id);out.push(p);}
   // Older dated photos first (the point is history), then other dated, then nearest.
@@ -68,10 +69,10 @@ export function rankPhotos(photos:PlacePhoto[],limit=36){
   return out.slice(0,limit);
 }
 const cache=new Map<string,{at:number;value:PlacePhotoResult}>();const TTL=6*3600e3;
-export async function findPlacePhotos(x:number|null,y:number|null,district:string,dong:string,fetcher:typeof fetch=fetch):Promise<PlacePhotoResult>{
+export async function findPlacePhotos(x:number|null,y:number|null,district:string,dong:string,fetcher:typeof fetch=fetch,road=''):Promise<PlacePhotoResult>{
   const hasPoint=x!==null&&y!==null;
-  const key=`${hasPoint?x.toFixed(4)+','+y.toFixed(4):'-'}:${district}:${dong}`;const hit=cache.get(key);if(hit&&Date.now()-hit.at<TTL)return hit.value;
-  const named=[{id:'commons-name',name:'Wikimedia Commons · 동네 이름',run:()=>commonsNeighborhood(district,dong,fetcher)},{id:'commons-historic',name:'Wikimedia Commons · 옛 사진 검색',run:()=>commonsHistoric(district,dong,fetcher)}];
+  const key=`${hasPoint?x.toFixed(4)+','+y.toFixed(4):'-'}:${district}:${dong}:${road}`;const hit=cache.get(key);if(hit&&Date.now()-hit.at<TTL)return hit.value;
+  const named=[{id:'seoul-archives',name:'서울기록원 · 서울사진아카이브',run:()=>seoulArchivesPhotos(dong,road,fetcher,12,20000,district)},{id:'commons-name',name:'Wikimedia Commons · 동네 이름',run:()=>commonsNeighborhood(district,dong,fetcher)},{id:'commons-historic',name:'Wikimedia Commons · 옛 사진 검색',run:()=>commonsHistoric(district,dong,fetcher)}];
   const located=hasPoint?[{id:'commons-nearby',name:'Wikimedia Commons · 위치 태그',run:()=>commonsNearby(x,y,fetcher)},{id:'commons-categories',name:'Wikimedia Commons · 근처 장소 분류',run:()=>commonsPlaceCategories(x,y,fetcher)},{id:'wikipedia-nearby',name:'한국어 위키백과 · 근처 문서 대표 사진',run:()=>wikipediaNearby(x,y,fetcher)}]:[];
   const tasks=[...located,...named];
   const settled=await Promise.allSettled(tasks.map(t=>t.run()));
@@ -86,11 +87,12 @@ export async function findPlacePhotos(x:number|null,y:number|null,district:strin
 /** Wrap a found photo as a story scene so it flows through the same card, timeline and credit UI. */
 export function placePhotoScene(p:PlacePhoto,district:string,dong:string):StoryScene{
   const near=p.match==='nearby';const place=p.match==='place';
-  const item:PhotoResearchItem={id:p.id,batchId:'place-photos',district,dong,dataRow:0,collectionScope:'dong',recordType:'visual',mediaType:'사진',correctionOf:null,correctionIds:[],sourceUrl:p.sourceUrl,sourceKey:p.id,sourceLinkType:'record',previewUrl:p.imageUrl,provider:p.provider,reviewStatus:'자동 수집',relation:near?'근처 위치 태그':place?'근처 장소':'동네 이름 검색',scope:'동',candidate:false,conflictMentioned:false,sameSourceCount:1,samePreviewCount:1,
-    values:{'자료명':p.title,'제공기관·채널':p.provider,'촬영자·제작자':p.creator,'필수출처표시문구':`${p.provider} · ${p.creator} · ${p.license}`,'이용조건':`${p.license}${p.licenseUrl?' ('+p.licenseUrl+')':''} — 이용 조건을 지켜 표시합니다.`,'내용설명':p.description,'촬영·제작일':p.date}};
-  const where=p.match==='neighborhood'&&p.year!==null&&!p.distance&&!near&&!place?`‘${dong}’·${district}과(와) 관련해 검색된 옛 사진이에요.`:place?`근처 장소 ‘${p.via||''}’와(과) 관련된 사진이에요.`:near?(p.distance!=null?`이 주소에서 약 ${Math.round(p.distance)}m 안에 위치가 표시된 사진이에요.`:'이 주소 근처에 위치가 표시된 사진이에요.'):`‘${dong}’이(가) 언급된 사진이에요.`;
-  const text=[p.description,where,'정확한 부지와 일치하는지는 검증되지 않았어요. 출처 페이지에서 확인해 주세요.'].filter(Boolean).join(' ');
-  return {id:p.id,kind:'photo',date:p.date,year:p.year,order:p.year===null?Infinity:p.year*10000,title:p.title,text,scope:'dong',photos:[item],cutCount:1,evidence:[{title:p.title,url:p.sourceUrl,institution:p.provider,note:`${p.license} · ${p.creator}`}]};
+  const item:PhotoResearchItem={id:p.id,batchId:'place-photos',district,dong,dataRow:0,collectionScope:'dong',recordType:'visual',mediaType:'사진',correctionOf:null,correctionIds:[],sourceUrl:p.sourceUrl,sourceKey:p.id,sourceLinkType:'record',previewUrl:p.imageUrl,provider:p.provider,reviewStatus:'자동 수집',relation:p.provider==='서울기록원'?'기관 기록 검색':near?'근처 위치 태그':place?'근처 장소':'동네 이름 검색',scope:'동',candidate:false,conflictMentioned:false,sameSourceCount:1,samePreviewCount:1,
+    values:{'자료명':p.title,'제공기관·채널':p.provider,'촬영자·제작자':p.creator,'필수출처표시문구':p.provider==='서울기록원'?`서울기록원 · ${p.creator}`:`${p.provider} · ${p.creator} · ${p.license}`,'이용조건':`${p.license}${p.licenseUrl?' ('+p.licenseUrl+')':''} — 이용 조건을 지켜 표시합니다.`,'내용설명':p.description,'촬영·제작일':p.date}};
+  const archive=p.provider==='서울기록원';
+  const where=archive?(p.scope==='district'?`${district} 전체를 다룬 서울기록원 기록이에요. 이 동네를 직접 찍은 사진은 아닐 수 있어요.`:`서울기록원 서울사진아카이브에서 ‘${p.via||dong}’(으)로 찾은 기록이에요.`):p.match==='neighborhood'&&p.year!==null&&!p.distance&&!near&&!place?`‘${dong}’·${district}과(와) 관련해 검색된 옛 사진이에요.`:place?`근처 장소 ‘${p.via||''}’와(과) 관련된 사진이에요.`:near?(p.distance!=null?`이 주소에서 약 ${Math.round(p.distance)}m 안에 위치가 표시된 사진이에요.`:'이 주소 근처에 위치가 표시된 사진이에요.'):`‘${dong}’이(가) 언급된 사진이에요.`;
+  const text=[p.description,where,archive?'':'정확한 부지와 일치하는지는 검증되지 않았어요. 출처 페이지에서 확인해 주세요.'].filter(Boolean).join(' ');
+  return {id:p.id,kind:'photo',date:p.date,year:p.year,order:p.year===null?Infinity:p.year*10000,title:p.title,text,scope:p.scope==='district'?'district':'dong',photos:[item],cutCount:1,evidence:[{title:p.title,url:p.sourceUrl,institution:p.provider,note:`${p.license} · ${p.creator}`}]};
 }
 
 // City- or district-wide categories say nothing about this particular place.
