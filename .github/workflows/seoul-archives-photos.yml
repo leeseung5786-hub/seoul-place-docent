@@ -1,0 +1,27 @@
+name: 서울기록원 사진 갱신
+# Monthly: picks up newly published 서울기록원 photos, rebuilds the per-dong index and opens a pull request.
+on:
+  schedule:
+    - cron: '17 18 1 * *'   # 매월 2일 03:17 (KST)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - run: node --experimental-transform-types --import ./tests/ts-resolver.mjs scripts/harvest-seoul-archives.mjs --refresh-list --concurrency 8
+      - run: node scripts/build-seoul-archives-photos.mjs
+      - name: Open pull request when something changed
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: |
+          if git diff --quiet; then echo "no change"; exit 0; fi
+          branch=chore/seoul-archives-$(date +%Y%m%d)
+          git config user.name github-actions && git config user.email github-actions@users.noreply.github.com
+          git checkout -b "$branch" && git add data/seoul-archives && git commit -m "data: 서울기록원 사진 갱신" && git push -u origin "$branch"
+          gh pr create --title "서울기록원 사진 월간 갱신" --body "자동 수집 결과입니다. 확인 후 합쳐 주세요." --base main --head "$branch"
