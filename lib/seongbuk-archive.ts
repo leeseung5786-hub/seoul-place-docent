@@ -1,6 +1,6 @@
 /** 성북마을아카이브 (archive.sb.go.kr, 성북구청·성북문화원). Only records that carry 공공누리 or CCL are reusable (site policy). */
 export const SEONGBUK='https://archive.sb.go.kr';
-const decode=(v:string)=>v.replace(/<!--[\s\S]*?-->/g,'').replace(/<[^>]*>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#0?39;/g,"'").replace(/\s+/g,' ').trim();
+const decode=(v:string)=>v.replace(/<!--[\s\S]*?-->/g,'').replace(/<[^>]*>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#0?39;|&#x27;/gi,"'").replace(/&#x([0-9a-f]+);/gi,(_,h)=>String.fromCodePoint(parseInt(h,16))).replace(/\s+/g,' ').trim();
 export function seongbukListUrl(page:number){return `${SEONGBUK}/item?searchType=NAME&page=${page}&size=100&sort=CREATED_AT&direction=DESC&view=list&types=PHOTOGRAPH`;}
 export function parseSeongbukList(html:string){return [...new Set([...html.matchAll(/href="\/item\/(\d+)/g)].map(m=>m[1]))];}
 export type SeongbukItem={id:string;title:string;description:string;image:string|null;date:string;year:number|null;place:string;creator:string;license:string;access:string;keywords:string[]};

@@ -41,3 +41,13 @@ export function capPerDong(entries,cap=60){
   }
   return out;
 }
+
+/** A record's date, falling back to a year or decade written in its title ("1950년대 …", "…(1976)"). */
+export function dateOf(date,title=''){
+  // A year the title states explicitly is the shooting year; the record date is often when it was registered.
+  const stated=title.match(/\((1[89]\d{2}|20[0-2]\d)\)/)||title.match(/^(1[89]\d0|20[0-2]0)년대/);if(stated)return stated[0].replace(/[()]/g,'');
+  if(date&&/(1[5-9]\d{2}|20[0-2]\d)/.test(date))return date;
+  const decade=title.match(/(1[89]\d0|20[0-2]0)년대/);if(decade)return decade[1]+'년대';
+  const year=title.match(/(?<!\d)(1[89]\d{2}|20[0-2]\d)(?!\d)/);if(year)return year[1];
+  return date||'시기 미상';
+}

@@ -80,3 +80,4 @@ body{background:var(--docent-paper)}
 .place-gallery-status{display:flex;align-items:center;gap:6px;font-size:13px;color:#5d7469;margin:0 0 14px}
 .story-rail>.docent-scene .scene-document-art small{display:none}
 .place-gallery{max-width:100%;width:100%;box-sizing:border-box;overflow:hidden}.place-gallery-row{max-width:100%}
+.scene-photo-note{font-size:12.5px;color:#5d7469;border-left:2px solid #c9dccb;padding-left:8px;margin-top:6px}

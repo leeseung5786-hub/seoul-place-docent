@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {getDocentStory} from '../lib/docent-data.ts';
+import {getFullDocentStory as getDocentStory} from '../lib/docent-data.ts';
 import {generatePlaceAnswer,pickScenes,placeAnswerStats,validateAnswer,DOCENT_RULES} from '../lib/place-answer.ts';
 const story=getDocentStory('종로구','세종로');
 const address={roadAddr:'서울특별시 종로구 사직로 161',jibunAddr:'세종로 1-1',sggNm:'종로구',emdNm:'세종로'};
