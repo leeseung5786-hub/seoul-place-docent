@@ -2,16 +2,38 @@ import {env} from '@/lib/runtime-env';
 import {z} from 'zod';
 import {archiveStats, database} from '@/lib/archive-db';
 import {getDocentStory, getFullDocentStory} from '@/lib/docent-data';
+import {mapAddress} from '@/lib/map-address';
 import {photoResearchThumbnail} from '@/lib/photo-research';
 import {searchAddresses, ServiceError, verifyAddress} from '@/lib/providers';
-import {generatePlaceAnswer, placeAnswerStats} from '@/lib/place-answer';
+import {generatePlaceAnswer, placeAnswerStats, pickScenes, validateAnswer, sceneSource, logClientDocent, QUESTION_TYPES} from '@/lib/place-answer';
 import {handleMcpMessage, rpcError, textResult, type McpTool, type McpToolResult} from '@/lib/mcp-protocol';
 
 export const dynamic = 'force-dynamic';
-const MAX_BODY_BYTES = 16384;
+const MAX_BODY_BYTES = 32768;
 const headers = {'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff'};
 
 const tools: McpTool[] = [
+  {
+    name:'resolve_photo_location',
+    description:'사진 EXIF 또는 사용자가 공유한 실제 GPS 좌표를 서울 주소 후보로 변환합니다. latitude=위도, longitude=경도입니다. 사진을 보고 좌표를 추측하지 마세요. GPS가 전달되지 않았다면 빈 입력으로 안내를 받거나 주소를 요청하세요. 후보는 사용자가 확인한 후 token으로 조회하세요. 촬영 위치는 피사체의 건물·부지 동일성을 증명하지 않습니다.',
+    inputSchema:{type:'object',properties:{latitude:{type:'number',minimum:-90,maximum:90},longitude:{type:'number',minimum:-180,maximum:180}},additionalProperties:false},
+    annotations:{readOnlyHint:true,destructiveHint:false,openWorldHint:true}
+  },
+  {
+    name:'prepare_place_answer',
+    description:'사용자 자신의 AI가 분류·도슨트 작성에 사용할 사진·역사·출처와 작성 지침을 반환합니다. 서버 AI 호출은 0회입니다. 먼저 질문 유형을 분류해 questionType에 넣고, 반환된 근거로 당신이 최종 답변을 작성하세요. token 또는 address 중 하나가 필요합니다. 장소와 동네를 구분하고 문단당 근거를 연결하세요.',
+    inputSchema:{type:'object',properties:{token:{type:'string',minLength:1,maxLength:6000},address:{type:'string',minLength:2,maxLength:100},question:{type:'string',maxLength:300},questionType:{type:'string',enum:[...QUESTION_TYPES]}},oneOf:[{required:['token']},{required:['address']}],additionalProperties:false},
+    annotations:{readOnlyHint:true,destructiveHint:false,openWorldHint:true}
+  },
+  {
+    name:'validate_place_answer',
+    description:'당신이 작성한 설명 JSON을 같은 token·question의 근거 기록과 기계적으로 대조합니다. 미등록 근거 id·추가 숫자·과도한 문장 길이를 걸러 냅니다. AI를 호출하지 않으며 의미적 사실 전체를 보증하지 않습니다. 거절된 문단은 수정하거나 보류하세요.',
+    inputSchema:{type:'object',properties:{
+      token:{type:'string',minLength:1,maxLength:6000},question:{type:'string',maxLength:300},
+      answer:{type:'object',properties:{question_type:{type:'string',enum:[...QUESTION_TYPES]},paragraphs:{type:'array',minItems:1,maxItems:6,items:{type:'object',properties:{heading:{type:'string',maxLength:40},text:{type:'string',minLength:1,maxLength:600},evidence_ids:{type:'array',minItems:1,maxItems:14,items:{type:'string',maxLength:200}}},required:['heading','text','evidence_ids'],additionalProperties:false}},held:{type:'array',maxItems:4,items:{type:'string',maxLength:200}}},required:['question_type','paragraphs','held'],additionalProperties:false}
+    },required:['token','answer'],additionalProperties:false},
+    annotations:{readOnlyHint:true,destructiveHint:false,openWorldHint:false}
+  },
   {
     name: 'search_place',
     description: '서울 도로명·지번 주소를 검색합니다. 후보의 token을 get_place_history에 전달하세요. 후보가 여러 개면 사용자가 장소를 선택하도록 하세요.',
@@ -43,7 +65,7 @@ const tools: McpTool[] = [
   },
   {
     name: 'generate_place_answer',
-    description: '서버의 AI가 이 사이트의 역사·사진 기록만으로 도슨트 설명을 완성해 돌려줍니다. 질문 분류 → 관련 기록 선택 → 설명 작성 → 문단별 근거·숫자 검증 → D1 저장 순으로 처리하며, 같은 동네·질문·기록이면 저장된 설명을 바로 반환합니다. 결과의 paragraphs를 그대로 보여 주고 sources의 출처·사진 이용조건을 함께 안내하세요. held는 기록으로 확인되지 않아 답하지 않은 내용입니다. token(search_place 결과) 또는 address 중 하나가 필요합니다.',
+    description: '호환용 이름입니다. prepare_place_answer와 같은 근거 묶음을 반환합니다. 서버는 답변을 생성하지 않습니다. 호출한 당신의 AI가 질문을 분류하고 사진·출처를 포함한 도슨트 답변을 작성하세요.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -57,7 +79,7 @@ const tools: McpTool[] = [
   },
   {
     name: 'get_answer_stats',
-    description: '서버 AI 설명 파이프라인의 KPI(요청 수, 저장 재사용률, 성공률, 평균 생성 시간, 검증에서 빠진 문단 비율, 질문 유형 분포)를 D1에서 집계합니다.',
+    description: '클라이언트 AI 도슨트 흐름의 검색 성공률·P95 지연·기계적 근거 검증 통계와 KPI 목표를 조회합니다. 사용자 토큰·최종 답변 완료·의미적 정확도는 관측할 수 없어 미측정으로 표시합니다.',
     inputSchema: {type: 'object', properties: {days: {type: 'integer', minimum: 1, maximum: 365, default: 30}}, additionalProperties: false},
     annotations: {readOnlyHint: true, destructiveHint: false, openWorldHint: false},
   },
@@ -83,23 +105,40 @@ const answerInput = z.object({
   token: z.string().min(1).max(6000).optional(),
   address: z.string().trim().min(2).max(100).optional(),
   question: z.string().trim().max(300).optional(),
-}).strict().refine(v => v.token || v.address, {message: 'token 또는 address가 필요합니다'});
-// Fresh generations spend the operator's API budget; stored answers are free and unlimited.
-const generations = new Map<string, number[]>();
-const PER_USER_PER_MINUTE = 6;
-const ALL_PER_HOUR = 120;
-function spend(user: string) {
-  const now = Date.now();
-  const mine = (generations.get(user) ?? []).filter(t => now - t < 60000);
-  const all = [...generations.values()].flat().filter(t => now - t < 3600000);
-  if (mine.length >= PER_USER_PER_MINUTE || all.length >= ALL_PER_HOUR) throw new ServiceError('ANSWER_RATE', '새 설명 요청이 많아 잠시 후 다시 시도해 주세요. 저장된 설명은 계속 받을 수 있어요.', 429);
-  mine.push(now);
-  generations.set(user, mine);
-}
+  questionType: z.enum(QUESTION_TYPES).optional(),
+}).strict().refine(v => Boolean(v.token) !== Boolean(v.address), {message: 'token 또는 address 중 하나만 필요합니다'});
 
-async function execute(name: string, args: Record<string, unknown>, user = 'anonymous'): Promise<McpToolResult> {
+const locationInput=z.object({latitude:z.number().finite().min(-90).max(90).optional(),longitude:z.number().finite().min(-180).max(180).optional()}).strict()
+  .refine(v=>(v.latitude===undefined)===(v.longitude===undefined),{message:'위도와 경도를 함께 전달하세요'});
+const validationInput=z.object({
+  token:z.string().min(1).max(6000),question:z.string().trim().max(300).optional(),
+  answer:z.object({question_type:z.enum(QUESTION_TYPES),
+    paragraphs:z.array(z.object({heading:z.string().max(40),text:z.string().min(1).max(600),evidence_ids:z.array(z.string().max(200)).min(1).max(14)}).strict()).min(1).max(6),
+    held:z.array(z.string().max(200)).max(4)}).strict()
+}).strict();
+
+async function execute(name: string, args: Record<string, unknown>): Promise<McpToolResult> {
+  const startedAt=Date.now();
   try {
     switch (name) {
+      case 'resolve_photo_location': {
+        const input=locationInput.parse(args);
+        if(input.latitude===undefined||input.longitude===undefined)return textResult({status:'needs_location',nextAction:'주소 입력 또는 위치 공유를 요청하세요.',note:'AI 앱에서 사진 GPS가 전달되지 않을 수 있습니다. 이미지 모습으로 위치를 추측하지 마세요.'});
+        const result=await mapAddress(input.longitude,input.latitude,env);
+        return textResult({...result,status:result.candidates.length?'confirm_address':'needs_address',needsConfirmation:true,note:'좌표는 촬영 위치입니다. 피사체의 위치 또는 건물 역사로 단정하지 마세요. 주소 후보를 확인한 뒤 token을 사용하세요.'});
+      }
+      case 'validate_place_answer': {
+        const started=Date.now();const input=validationInput.parse(args);
+        const address=await verifyAddress(input.token,env);
+        const story=getFullDocentStory(address.sggNm,address.emdNm);
+        const question=input.question||story.dong+'의 시간을 안내해 주세요.';
+        const scenes=pickScenes(story,question);
+        const checked=validateAnswer(input.answer,scenes);
+        await logClientDocent(env.DB,{event:'validation',ms:Date.now()-started,ok:checked.omitted===0,records:scenes.length,type:checked.questionType,kept:checked.paragraphs.length,omitted:checked.omitted});
+        const used=new Set(checked.paragraphs.flatMap(p=>p.evidenceIds));
+        return textResult({...checked,sources:scenes.filter(s=>used.has(s.id)).map(sceneSource),valid:checked.paragraphs.length>0&&checked.omitted===0,
+          verification:'mechanical_only',note:'근거 id·숫자·길이 검사입니다. 의미적 사실 일치와 장소 동일성은 별도로 확인해야 합니다.'});
+      }
       case 'search_place': {
         const input = searchInput.parse(args);
         return textResult(await searchAddresses(input.query, input.page, env));
@@ -136,7 +175,8 @@ async function execute(name: string, args: Record<string, unknown>, user = 'anon
             scenes,
             total: story.total,
             offset: input.offset,
-            nextOffset: nextOffset < story.total ? nextOffset : null,
+            nextOffset: nextOffset < story.scenes.length ? nextOffset : null,
+            sceneCount: story.scenes.length,
             photoRecords: story.photoRecords,
             photoGroups: story.photoGroups,
             unpictured: story.unpictured,
@@ -144,19 +184,22 @@ async function execute(name: string, args: Record<string, unknown>, user = 'anon
           note: '장면은 동네 또는 자치구 범위의 기록입니다. 입력한 건물·부지와의 동일성을 뜻하지 않습니다. 출처별 확인 범위를 함께 읽어 주세요.',
         });
       }
+      case 'prepare_place_answer':
       case 'generate_place_answer': {
         const input = answerInput.parse(args);
         let token = input.token;
         if (!token) {
           const found = await searchAddresses(input.address!, 1, env);
-          if (found.candidates.length !== 1) {
+          if (found.candidates.length !== 1 || found.total !== 1) {
             return textResult({needsChoice: true, note: found.candidates.length ? '주소 후보가 여러 개예요. 사용자가 고른 후보의 token으로 다시 호출하세요.' : '서울 주소를 찾지 못했어요. 도로명과 건물번호를 확인해 주세요.', candidates: found.candidates.slice(0, 10).map(c => ({roadAddr: c.roadAddr, jibunAddr: c.jibunAddr, token: c.token}))});
           }
           token = found.candidates[0].token;
         }
         const address = await verifyAddress(token, env);
         const story = getFullDocentStory(address.sggNm, address.emdNm);
-        return textResult(await generatePlaceAnswer({address, story, question: input.question}, env, {beforeRequest: () => spend(user)}));
+        const packet=await generatePlaceAnswer({address,story,question:input.question,questionType:input.questionType});
+        await logClientDocent(env.DB,{event:'retrieval',ms:Date.now()-startedAt,ok:packet.status==='ready',records:packet.neighborhood.selected,type:input.questionType});
+        return textResult(packet);
       }
       case 'get_answer_stats': {
         const input = z.object({days: z.number().int().min(1).max(365).default(30)}).strict().parse(args);
@@ -173,6 +216,7 @@ async function execute(name: string, args: Record<string, unknown>, user = 'anon
         throw new Error('Unknown tool');
     }
   } catch (error) {
+    if(name==='prepare_place_answer'||name==='generate_place_answer')await logClientDocent(env.DB,{event:'retrieval',ms:Date.now()-startedAt,ok:false,records:0});
     if (error instanceof z.ZodError) {
       return {content: [{type: 'text', text: '도구 입력 형식을 확인해 주세요. ' + error.issues.map(issue => issue.path.join('.') + ': ' + issue.message).join(' / ')}], isError: true};
     }
@@ -221,8 +265,7 @@ export async function POST(request: Request) {
   } catch {
     return Response.json(rpcError(null, -32700, 'Parse error'), {status: 400, headers});
   }
-  const user = request.headers.get('oai-authenticated-user-id') ?? 'anonymous';
-  const response = await handleMcpMessage(message, tools, (name, args) => execute(name, args, user));
+  const response = await handleMcpMessage(message, tools, (name, args) => execute(name, args));
   if (response === undefined) return new Response(null, {status: 202, headers});
   return Response.json(response, {headers});
 }

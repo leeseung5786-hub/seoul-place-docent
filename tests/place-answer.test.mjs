@@ -1,32 +1,70 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
 import {getFullDocentStory as getDocentStory} from '../lib/docent-data.ts';
-import {generatePlaceAnswer,pickScenes,placeAnswerStats,validateAnswer,DOCENT_RULES} from '../lib/place-answer.ts';
+import {generatePlaceAnswer,preparePlaceAnswer,pickScenes,placeAnswerStats,validateAnswer,DOCENT_RULES,logClientDocent} from '../lib/place-answer.ts';
 const story=getDocentStory('종로구','세종로');
 const address={roadAddr:'서울특별시 종로구 사직로 161',jibunAddr:'세종로 1-1',sggNm:'종로구',emdNm:'세종로'};
-/** Minimal in-memory D1: enough SQL shapes for the cache and the log. */
-function fakeD1(){const cache=new Map(),log=[];const stmt=sql=>({bind:(...a)=>({
-  first:async()=>{if(/FROM place_answer_cache/.test(sql)){const r=cache.get(a[0]);return r?{payload:r.payload,created_at:r.created_at}:null;}
-    const rows=log.filter(r=>r[0]>=a[0]);const n=rows.length,sum=i=>rows.reduce((s,r)=>s+(r[i]||0),0),avg=f=>{const x=rows.filter(f);return x.length?x.reduce((s,r)=>s+r[3],0)/x.length:null;};
-    return {n,cached:sum(1),ok:sum(7),gen_ms:avg(r=>!r[1]&&r[7]),cache_ms:avg(r=>r[1]),paragraphs:sum(4),omitted:sum(5),held:sum(6)};},
-  all:async()=>{const m=new Map();for(const r of log)if(r[0]>=a[0]&&r[7])m.set(r[2],(m.get(r[2])||0)+1);return {results:[...m].map(([t,n])=>({t,n}))};},
-  run:async()=>{if(/INSERT OR REPLACE INTO place_answer_cache/.test(sql))cache.set(a[0],{payload:a[1],created_at:a[2]});else if(/INSERT INTO place_answer_log/.test(sql))log.push(a);}})});
-  return {cache,log,prepare:stmt,batch:async()=>[]};}
-function mockOpenAI(make){const orig=globalThis.fetch;let calls=0;globalThis.fetch=async(url,init)=>{calls++;const body=JSON.parse(init.body);const records=JSON.parse(body.input).RECORDS;return Response.json({output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(make(records,body))}]}]});};return {get calls(){return calls;},restore(){globalThis.fetch=orig;}};}
-test('question words pull matching records forward, the rest is spread through time',()=>{const picked=pickScenes(story,'세종로 지하도 공사는 언제 했나요?',6);assert.ok(picked.some(s=>/지하도/.test(s.title)));assert.ok(picked.length<=6);});
-test('paragraphs citing unknown records or new numbers are dropped',()=>{const scenes=pickScenes(story,'지하도',4);const id=scenes.find(s=>/지하도/.test(s.title)).id;
-  const r=validateAnswer({question_type:'동네 역사',paragraphs:[{heading:'지하도',text:'세종로에 지하도를 만들었어요.',evidence_ids:[id]},{heading:'없는 근거',text:'무언가 있었어요.',evidence_ids:['nope']},{heading:'숫자',text:'1999년에 완공했어요.',evidence_ids:[id]}],held:['건물 자체의 역사']},scenes);
-  assert.equal(r.paragraphs.length,1);assert.equal(r.omitted,2);assert.deepEqual(r.held,['건물 자체의 역사']);assert.equal(r.questionType,'동네 역사');});
-test('generate → verify → store in D1 → reuse without a second AI call, with KPI',async()=>{
-  const db=fakeD1();const ai=mockOpenAI(records=>({question_type:'시대별 모습',paragraphs:[{heading:records[0].title,text:'이 기록은 동네의 오래된 모습을 보여 줘요.',evidence_ids:[records[0].id]}],held:['이 건물 자체의 연혁']}));
-  try{const env={OPENAI_API_KEY:'k',DB:db};let spent=0;
-    const a=await generatePlaceAnswer({address,story,question:'옛날 모습이 궁금해요'},env,{beforeRequest:()=>spent++});
-    assert.equal(a.cached,false);assert.equal(a.paragraphs.length,1);assert.equal(a.sources.length,1);assert.equal(a.questionType,'시대별 모습');assert.equal(spent,1);
-    const b=await generatePlaceAnswer({address,story,question:'옛날 모습이 궁금해요'},env,{beforeRequest:()=>spent++});
-    assert.equal(b.cached,true);assert.equal(ai.calls,1);assert.equal(spent,1);assert.deepEqual(b.paragraphs,a.paragraphs);
-    const kpi=await placeAnswerStats(db);assert.equal(kpi.requests,2);assert.equal(kpi.cacheHitRate,0.5);assert.equal(kpi.successRate,1);assert.deepEqual(kpi.questionTypes,[{type:'시대별 모습',count:2}]);
-  }finally{ai.restore();}
+function fakeD1(){const rows=[];return {rows,
+ prepare(sql){return {async run(){},bind(...args){return {
+  async run(){if(sql.startsWith('INSERT'))rows.push({at:args[0],event:args[1],ms:args[2],ok:args[3],records:args[4],question_type:args[5],kept:args[6],omitted:args[7]});},
+  async all(){return {results:rows.filter(r=>r.at>=args[0]).slice().reverse().slice(0,10001)};}
+ };}};}};}
+test('question words select matching records within a bounded chronological packet',()=>{
+ const scenes=pickScenes(story,'세종로 지하도 공사는 언제 했나요?',6);
+ assert.ok(scenes.some(s=>/지하도/.test(s.title)));assert.ok(scenes.length<=6);
+ assert.ok(scenes.every((s,i)=>i===0||scenes[i-1].order<=s.order));
 });
-test('an answer with no verifiable paragraph is refused, not shown',async()=>{const ai=mockOpenAI(()=>({question_type:'기타',paragraphs:[{heading:'x',text:'근거 없는 이야기예요.',evidence_ids:[]}],held:[]}));
-  try{await assert.rejects(generatePlaceAnswer({address,story,question:'?'},{OPENAI_API_KEY:'k'}),/근거와 맞는 설명/);}finally{ai.restore();}});
-test('docent rules cover place vs neighborhood, 3 sentences, holding unverified content and per-paragraph sources',()=>{for(const k of ['장소와 동네를 구분','1~3문장','held','evidence_ids'])assert.ok(DOCENT_RULES.includes(k),k);});
+test('legacy generation returns evidence without any model request or old answer cache',async()=>{
+ const original=globalThis.fetch;let calls=0;globalThis.fetch=async()=>{calls++;throw new Error('model must not be called');};
+ try{
+  const db=fakeD1();
+  const packet=await generatePlaceAnswer({address,story,question:'옛날 모습',questionType:'시대별 모습'},{DB:db,OPENAI_API_KEY:'must-not-be-used'});
+  assert.equal(calls,0);assert.equal(packet.mode,'client_ai');assert.equal(packet.generation.serverAiCalls,0);
+  assert.equal(packet.generation.executor,'calling_client_ai');assert.equal(packet.classification.questionType,'시대별 모습');
+  assert.equal('paragraphs' in packet,false);assert.ok(packet.neighborhood.records.length>0);
+  assert.deepEqual(packet.place.records,[]);assert.equal(packet.place.status,'unverified');
+  assert.ok(packet.neighborhood.records.every(r=>r.evidence&&r.source));
+  assert.equal(db.rows.length,1);assert.equal(db.rows[0].event,'retrieval');
+ }finally{globalThis.fetch=original;}
+});
+test('no evidence returns honest no_records, never a fabricated story',()=>{
+ const p=preparePlaceAnswer({address,story:{...story,scenes:[]}});
+ assert.equal(p.status,'no_records');assert.deepEqual(p.neighborhood.records,[]);
+ assert.equal(p.classification.questionType,null);
+});
+test('unknown citations including mixed known/unknown, unsupported numbers and long scenes are rejected',()=>{
+ const scenes=pickScenes(story,'지하도',4),id=scenes.find(s=>/지하도/.test(s.title)).id;
+ const row=(text,evidence_ids)=>({heading:'지하도',text,evidence_ids});
+ const result=validateAnswer({question_type:'동네 역사',paragraphs:[
+ row('세종로에 지하도를 만들었어요.',[id]),
+ row('이야기예요.',[id,'unknown']),
+ row('1999년에 완공했어요.',[id]),
+ row('하나예요. 둘이에요. 셋이에요. 넷이에요.',[id])
+ ],held:['건물 자체의 역사']},scenes);
+ assert.equal(result.paragraphs.length,1);assert.equal(result.omitted,3);
+ assert.deepEqual(result.held,['건물 자체의 역사']);
+});
+test('KPI separates retrieval from validation and never invents client completion or token usage',async()=>{
+ const db=fakeD1();
+ for(const ms of [100,200,300,400,500])await logClientDocent(db,{event:'retrieval',ms,ok:true,records:3});
+ await logClientDocent(db,{event:'retrieval',ms:600,ok:false,records:0});
+ await logClientDocent(db,{event:'validation',ms:20,ok:false,records:3,kept:2,omitted:1});
+ const k=await placeAnswerStats(db);
+ assert.equal(k.retrievalRequests,6);assert.equal(k.retrievalSuccessRate,5/6);
+ assert.equal(k.retrievalP95Ms,500);assert.equal(k.validationRequests,1);
+ assert.equal(k.mechanicalParagraphAcceptanceRate,2/3);assert.equal(k.clientTokenUsage,null);
+ assert.ok(k.unmeasured.includes('사용자 AI의 실제 답변 완료율'));
+ assert.equal(k.clientCompatibility.Gemini,'requires_live_test');
+ assert.equal((await placeAnswerStats()).available,false);
+ await assert.rejects(()=>placeAnswerStats(db,0));
+});
+test('metrics failure does not block evidence retrieval',async()=>{
+ const db={prepare(){throw new Error('db offline');}};
+ const p=await generatePlaceAnswer({address,story},{DB:db});assert.equal(p.status,'ready');
+});
+test('MCP module has no model-provider capability or answer cache reuse',()=>{
+ const source=readFileSync(new URL('../lib/place-answer.ts',import.meta.url),'utf8');
+ for(const forbidden of ['openaiFetch','api.openai.com','OPENAI_API_KEY','place_answer_cache'])assert.equal(source.includes(forbidden),false,forbidden);
+ for(const rule of ['장소와 동네를 구분','1~3문장','held','evidence_ids'])assert.ok(DOCENT_RULES.includes(rule));
+});
