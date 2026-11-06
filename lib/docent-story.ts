@@ -50,15 +50,52 @@ export function groupStoryPhotos(items:PhotoResearchItem[]) {
 /** Research workflow notes (what the researcher did not verify) belong in "자료 보기", not in the visitor-facing story. */
 const RESEARCH_NOTE=/이미지를 직접 보지|관찰 내용 없음|원문 (?:설명|정보)만 확인|미확인|확인되지 않았|(?:추가|별도) 확인(?:이)? 필요|확인이 필요|원문이 .{1,40}(?:으로|로) 분류한 (?:장면|경관)|원문 대상지|원문 촬영장소|원문에 없다|본 조사에서|대조해야 합니다|자료\.$/;
 export function splitVisitorText(value:string){
+  const tags=value.match(/\[[^\]]*(?:인용|작성|출처)[^\]]*\]/g)||[];value=value.replace(/\s*\[[^\]]*(?:인용|작성|출처)[^\]]*\]/g,'');
   const sentences=value.replace(/([.!?。])\s*\((?:\d{4}|\d{2})[\d.\s~·-]*\)/g,'$1 ').match(/.*?(?:[.!?。](?=\s|$)|$)/g)?.map(x=>x.trim()).filter(Boolean)||[];
   const keep:string[]=[],notes:string[]=[];
   for(const raw of sentences){const sentence=raw.replace(/^\(\d{4}[^)]*\)\s*/,'').replace(/^조사 소개는\s*/,'기록은 ');(RESEARCH_NOTE.test(sentence)?notes:keep).push(sentence);}
-  return {text:keep.join(' ').replace(/\s+/g,' ').trim(),notes};
+  return {text:keep.join(' ').replace(/\s+/g,' ').trim(),notes:[...notes,...tags.map(t=>t.slice(1,-1))]};
 }
 function visitorScene(scene:StoryScene):StoryScene{
   const {text:clean,notes}=splitVisitorText(scene.text);const text=readingText(clean,3);if(!notes.length)return {...scene,text};
   const note=notes.join(' ');
   return {...scene,text:text||(scene.kind==='photo'?'이 사진의 자세한 설명은 ‘자료 보기’의 원문에서 확인할 수 있어요.':'자세한 내용은 ‘자료 보기’의 원문에서 확인할 수 있어요.'),evidence:scene.evidence.map((e,i)=>i===0?{...e,note:[e.note,note].filter(Boolean).join(' ')}:e)};
+}
+const norm=(t:string)=>t.replace(/[^가-힣a-zA-Z0-9]/g,'').slice(0,60);
+// The same subject across years ("2011 삼선동 선녀축제(3)", "2013 삼선동 선녀축제(1)") counts as one photo series.
+const seriesKey=(t:string)=>t.replace(/\s*[\(\[]?\d+[\)\]]?\s*$/,'').replace(/(?:^|\s)(?:1[89]|20)\d{2}년?(?:대)?(?=\s|$)/g,' ').replace(/\s+/g,'');
+/**
+ * One scene per year, told as a docent story: the written record carries the explanation, a photo from the same
+ * year supports it. Records mentioning a focus name (the searched building, e.g. 한성대학교) are chosen first.
+ * The same photo (file or numbered series) and the same text never appear twice.
+ */
+export function composeByYear(scenes:StoryScene[],focus:string[]=[]):StoryScene[]{
+  const terms=focus.map(f=>f.replace(/\s+/g,'')).filter(f=>f.length>=2).flatMap(f=>[f,f.replace(/(대학교|학교|초등학교|중학교|고등학교)$/,'')]).filter(f=>f.length>=2);
+  const hit=(s:StoryScene)=>terms.length&&terms.some(t=>(s.title+s.text).replace(/\s+/g,'').includes(t))?1:0;
+  const key=(s:StoryScene)=>s.year===null?'undated':s.date.includes('년대')&&!/\d{4}[-.년]\s*\d/.test(s.date)?Math.floor(s.year/10)*10+'s':String(s.year);
+  const groups=new Map<string,StoryScene[]>();for(const s of scenes){const k=key(s);groups.set(k,[...(groups.get(k)||[]),s]);}
+  const usedPhoto=new Set<string>(),usedText=new Set<string>(),out:StoryScene[]=[];let ceremonies=0;
+  const photoKey=(s:StoryScene)=>[photoResearchThumbnail(s.photos[0])||s.photos[0]?.id||'',seriesKey(s.title)];
+  // Street and neighborhood views explain an era better than official ceremonies or inspections.
+  const view=(s:StoryScene)=>/전경|모습|일대|거리|골목|풍경|마을|한옥|시장|길|천|산|공원/.test(s.title)?1:0;
+  const ceremony=(s:StoryScene)=>/시찰|순시|업무|발대식|교육|기공식|준공식|개관식|개장|시상|회의|방문|위촉|임명/.test(s.title)?1:0;
+  const rank=(a:StoryScene,b:StoryScene)=>hit(b)-hit(a)||(ceremony(a)-ceremony(b))||(view(b)-view(a))||(a.scope==='dong'?0:1)-(b.scope==='dong'?0:1)||b.text.length-a.text.length;
+  for(const [k,list] of [...groups].sort((a,b)=>a[0].localeCompare(b[0]))){
+    if(k==='undated')continue;
+    const docs=list.filter(s=>!s.photos.length&&!usedText.has(norm(s.text))).sort(rank);
+    const pics=list.filter(s=>s.photos.length&&!photoKey(s).some(x=>x&&usedPhoto.has(x))).sort(rank);
+    const story=docs[0],pic=pics[0];
+    // Years with nothing but official ceremonies: keep only a couple, so the walk stays about the neighborhood.
+    if(!story&&pic&&ceremony(pic)&&!hit(pic)){if(ceremonies>=2)continue;ceremonies++;}
+    if(!story&&!pic)continue;
+    const base=story||pic;const text=story?story.text:pic.text;if(usedText.has(norm(text)))continue;
+    usedText.add(norm(text));if(pic){for(const x of photoKey(pic))if(x)usedPhoto.add(x);usedText.add(norm(pic.text));}
+    const date=base.date.replace(/^(.+?)\s*[-~]\s*\1$/,'$1');
+    out.push({...base,id:base.id,date,kind:pic?'photo':'document',title:story&&!(pic&&hit(pic)>hit(story))?story.title:pic.title,text:story&&pic&&hit(pic)>hit(story)?pic.text:text,photos:pic?pic.photos:[],cutCount:pic?pic.cutCount:0,evidence:[...(story?.evidence||[]),...(pic&&pic!==story?pic.evidence:[])],scope:(story?.scope==='dong'||pic?.scope==='dong')?'dong':'district'});
+  }
+  // Undated records only when nothing dated exists, and never repeating what is already shown.
+  if(!out.length)for(const s of (groups.get('undated')||[]).sort(rank).slice(0,6))if(!usedText.has(norm(s.text))){usedText.add(norm(s.text));out.push(s);}
+  return out.sort((a,b)=>a.order-b.order||a.id.localeCompare(b.id));
 }
 export function buildDocentStory(photos:PhotoResearchBundle, documents:DocumentBundle, district:string,dong:string, manual:PhotoResearchItem[]=[]):DocentStory {
   const eligible=photos.items.filter(item=>item.recordType==='visual'&&!item.candidate&&!item.correctionOf&&!item.conflictMentioned);
@@ -98,5 +135,5 @@ export function buildDocentStory(photos:PhotoResearchBundle, documents:DocumentB
   }}
   scenes.sort((a,b)=>a.order-b.order||a.id.localeCompare(b.id));
   const visible=scenes.map(visitorScene);
-  return {district,dong,scenes:visible,total:scenes.length,photoRecords:pictured.length,photoGroups:groups.length,unpictured:rows.length-pictured.length,version:'docent-20261106-1'};
+  return {district,dong,scenes:visible,total:scenes.length,photoRecords:pictured.length,photoGroups:groups.length,unpictured:rows.length-pictured.length,version:'docent-20261106-2'};
 }

@@ -59,8 +59,18 @@ test('manual photos need display permission, https links, a license and an insti
  assert.equal(manualPhotoItems({}).length,0);
 });
 test('a manually registered photo becomes a dong-level photo scene for a dong without photo data',()=>{
- const story=getDocentStory('성북구','삼선동2가');assert.equal(story.scenes.some(s=>s.photos.length&&s.scope==='dong'),false);assert.ok(story.scenes.some(s=>s.photos.length&&s.scope==='district'),'falls back to district photos');
  const manual=manualPhotoItems([manualOk,{...manualOk,title:'다른 동',dong:'동선동1가'}]);
  const withManual=buildDocentStory({meta:{files:[]},items:[]},{targets:[],tables:{timeline:[],claims:[],sources:[]}},'성북구','삼선동2가',manual);
  const scene=withManual.scenes.find(s=>s.photos.length);assert.ok(scene);assert.equal(scene.title,'삼선교 일대');assert.equal(scene.scope,'dong');assert.equal(withManual.scenes.filter(s=>s.photos.length).length,1);
+});
+
+test('one scene per year, no repeated photo or text, focus records first',async()=>{
+ const {getDocentStory:story}=await import('../lib/docent-data.ts');const {photoResearchThumbnail}=await import('../lib/photo-research.ts');
+ const s=story('성북구','삼선동2가',['한성대학교']);
+ const years=s.scenes.filter(x=>x.year!==null).map(x=>x.date.includes('년대')&&!/\d{4}[-.년]\s*\d/.test(x.date)?Math.floor(x.year/10)+'s':x.year);
+ assert.equal(years.length,new Set(years).size,'one scene per year');
+ const imgs=s.scenes.filter(x=>x.photos.length).map(x=>photoResearchThumbnail(x.photos[0]));assert.equal(imgs.length,new Set(imgs).size,'no repeated photo');
+ const texts=s.scenes.map(x=>x.text.slice(0,40));assert.equal(texts.length,new Set(texts).size,'no repeated text');
+ assert.ok(s.scenes.some(x=>x.year===1976&&/한성/.test(x.title)),'the 1976 scene shows 한성여중');
+ assert.ok(s.scenes.every(x=>!/\[[^\]]*(인용|작성)\]/.test(x.text)),'research tags moved out of the text');
 });

@@ -1,7 +1,7 @@
 import {env} from 'cloudflare:workers';
 import {z} from 'zod';
 import {archiveStats, database} from '@/lib/archive-db';
-import {getDocentStory} from '@/lib/docent-data';
+import {getDocentStory, getFullDocentStory} from '@/lib/docent-data';
 import {photoResearchThumbnail} from '@/lib/photo-research';
 import {searchAddresses, ServiceError, verifyAddress} from '@/lib/providers';
 import {generatePlaceAnswer, placeAnswerStats} from '@/lib/place-answer';
@@ -107,7 +107,7 @@ async function execute(name: string, args: Record<string, unknown>, user = 'anon
       case 'get_place_history': {
         const input = historyInput.parse(args);
         const address = await verifyAddress(input.token, env);
-        const story = getDocentStory(address.sggNm, address.emdNm);
+        const story = getDocentStory(address.sggNm, address.emdNm, [address.bdNm].filter(Boolean));
         const scenes = story.scenes.slice(input.offset, input.offset + input.limit).map(scene => ({
           id: scene.id,
           kind: scene.kind,
@@ -155,7 +155,7 @@ async function execute(name: string, args: Record<string, unknown>, user = 'anon
           token = found.candidates[0].token;
         }
         const address = await verifyAddress(token, env);
-        const story = getDocentStory(address.sggNm, address.emdNm);
+        const story = getFullDocentStory(address.sggNm, address.emdNm);
         return textResult(await generatePlaceAnswer({address, story, question: input.question}, env, {beforeRequest: () => spend(user)}));
       }
       case 'get_answer_stats': {

@@ -63,11 +63,15 @@ export function filterPhotoResearch(bundle: PhotoResearchBundle, filters: PhotoR
   });
 }
 /** Provider endpoints were checked against the image links in their public source pages. */
+/** Image servers that serve photos without a file extension (성북마을아카이브 files). */
+export function trustedImageHost(url: string) {
+  try { const u = new URL(url); return u.protocol === 'https:' && u.hostname === 'archive-file.sb.go.kr' && /^\/files\/(?:service|upload)File\/archive\/item\//.test(u.pathname); } catch { return false; }
+}
 export function photoResearchImageCandidates(item: PhotoResearchItem) {
   if (['사이트표시가능여부', '썸네일표시가능여부'].some(key => /^불가(?:$|[\s(（·:])/.test(item.values[key] || ''))) return [];
   const images: string[] = [];
   const supplied = photoResearchUrl(item.previewUrl || undefined);
-  if (supplied?.startsWith('https://') && /\.(?:avif|gif|jpe?g|png|webp|tmb)$/i.test(new URL(supplied).pathname)) images.push(supplied);
+  if (supplied?.startsWith('https://') && (/\.(?:avif|gif|jpe?g|png|webp|tmb)$/i.test(new URL(supplied).pathname) || trustedImageHost(supplied))) images.push(supplied);
   const source = photoResearchUrl(item.sourceUrl || undefined);
   if (source) {
     const url = new URL(source);
