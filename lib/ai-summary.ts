@@ -1,3 +1,4 @@
+import {openaiFetch} from './openai-fetch';
 import {ServiceError,buildings,normalizeRoad} from './providers';
 import type {Address,Secrets,Building} from './providers';
 import {regions,sources,matchRegions} from './history';
@@ -41,7 +42,7 @@ export async function requestAISummary(evidence:Evidence[],secrets:AISecrets):Pr
  if(!evidence.length)throw new ServiceError('AI_NO_EVIDENCE','이 장소에는 AI 설명에 사용할 검증된 근거가 아직 없습니다.',400);
  const model=secrets.OPENAI_MODEL||'gpt-5.4-mini';
  const schema={type:'object',properties:{sentences:{type:'array',items:{type:'object',properties:{text:{type:'string'},evidence_id:{type:'string',enum:evidence.map(e=>e.id)},evidence_quote:{type:'string'}},required:['text','evidence_id','evidence_quote'],additionalProperties:false}},follow_up_questions:{type:'array',items:{type:'string'}}},required:['sentences','follow_up_questions'],additionalProperties:false};
- let r:Response;try{r=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${secrets.OPENAI_API_KEY}`,'Content-Type':'application/json'},body:JSON.stringify({model,instructions:AI_INSTRUCTIONS,input:JSON.stringify({task:'현재 정보와 동네의 역사를 출처 범위 안에서 설명',EVIDENCE:evidence}),store:false,reasoning:{effort:'low'},text:{format:{type:'json_schema',name:'seoul_place_summary',strict:true,schema}},max_output_tokens:2300}),signal:AbortSignal.timeout(50000)});}catch{throw new ServiceError('AI_TIMEOUT','AI 응답이 지연되었습니다. 잠시 후 다시 시도해 주세요.',504);}
+ let r:Response;try{r=await openaiFetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${secrets.OPENAI_API_KEY}`,'Content-Type':'application/json'},body:JSON.stringify({model,instructions:AI_INSTRUCTIONS,input:JSON.stringify({task:'현재 정보와 동네의 역사를 출처 범위 안에서 설명',EVIDENCE:evidence}),store:false,reasoning:{effort:'low'},text:{format:{type:'json_schema',name:'seoul_place_summary',strict:true,schema}},max_output_tokens:2300}),signal:AbortSignal.timeout(50000)});}catch{throw new ServiceError('AI_TIMEOUT','AI 응답이 지연되었습니다. 잠시 후 다시 시도해 주세요.',504);}
  const body=await r.json() as Record<string,any>;
  if(!r.ok){const code=body.error?.code;if(r.status===401||r.status===403)throw new ServiceError('AI_AUTH','OpenAI 인증 또는 모델 접근 권한을 확인해야 합니다.',502);if(code==='insufficient_quota')throw new ServiceError('AI_QUOTA','OpenAI API 사용 잔액 또는 프로젝트 이용 한도를 확인해야 합니다.',503);if(r.status===429)throw new ServiceError('AI_RATE_LIMIT','AI 요청이 많아 잠시 대기해야 합니다. 이후 다시 시도해 주세요.',429);if(r.status===404)throw new ServiceError('AI_MODEL','설정한 AI 모델의 사용 권한을 확인해야 합니다.',503);throw new ServiceError('AI_PROVIDER','AI 제공기관이 요청을 처리하지 못했습니다. 잠시 후 다시 시도해 주세요.');}
  if(body.status==='incomplete')throw new ServiceError('AI_INCOMPLETE','AI 설명이 완료되지 않았습니다. 다시 시도해 주세요.');

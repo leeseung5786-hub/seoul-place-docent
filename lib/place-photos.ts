@@ -21,11 +21,13 @@ export function commonsPhoto(page:Page,distance:number|null,match:PlacePhoto['ma
   if(String(meta.NonFree?.value||'').toLowerCase()==='true'||String(meta.Restrictions?.value||'').trim()&&/trademark|personality|insignia|nonfree/i.test(String(meta.Restrictions?.value)))return null;
   const full=info.url||'';const thumb=info.thumburl||full;
   if(!/^https:\/\/upload\.wikimedia\.org\//.test(thumb)||!/^image\/(?:jpeg|png|webp|gif|tiff)$/i.test(info.mime||''))return null;
+  if(/\b(?:flag|logo|emblem|seal|icon|signature|coat of arms|banner)\b|국기|로고|휘장|어새|인장/i.test(page.title))return null;
   const description=stripHtml(meta.ImageDescription?.value);const dateText=stripHtml(meta.DateTimeOriginal?.value)||stripHtml(meta.DateTime?.value);
   const title=page.title.replace(/^File:/,'').replace(/\.[a-z0-9]+$/i,'').replace(/_/g,' ');
-  const year=parseYear(dateText)??parseYear(title)??parseYear(description);
-  const creator=stripHtml(meta.Artist?.value)||stripHtml(meta.Credit?.value)||'작성자 미상';
-  return {id:'pp:commons:'+page.pageid,provider:'Wikimedia Commons',title,year,date:dateText&&dateText.length<40?dateText:year?String(year):'시기 미상',description:description.slice(0,400),imageUrl:thumb,fullUrl:full||thumb,sourceUrl:info.descriptionurl||'https://commons.wikimedia.org/wiki/'+encodeURIComponent(page.title.replace(/ /g,'_')),creator:creator.slice(0,120),license,licenseUrl:/^https?:\/\//.test(stripHtml(meta.LicenseUrl?.value))?stripHtml(meta.LicenseUrl?.value):null,distance,match};
+  // Upload/scan dates often stand in for the shooting date; a year written in the title is usually the real one.
+  const years=[parseYear(dateText),parseYear(title)].filter((y):y is number=>y!==null);const year=years.length?Math.min(...years):parseYear(description);
+  const rawCreator=stripHtml(meta.Artist?.value)||stripHtml(meta.Credit?.value);const creator=!rawCreator||/^(?:unknown|anonymous|author unknown|작자\s*미상|미상)/i.test(rawCreator)?'작성자 미상':rawCreator;
+  return {id:'pp:commons:'+page.pageid,provider:'Wikimedia Commons',title,year,date:year!==null&&parseYear(dateText)===year&&dateText.length<40?dateText:year!==null?String(year):'시기 미상',description:description.slice(0,400),imageUrl:thumb,fullUrl:full||thumb,sourceUrl:info.descriptionurl||'https://commons.wikimedia.org/wiki/'+encodeURIComponent(page.title.replace(/ /g,'_')),creator:creator.slice(0,120),license,licenseUrl:/^https?:\/\//.test(stripHtml(meta.LicenseUrl?.value))?stripHtml(meta.LicenseUrl?.value):null,distance,match};
 }
 async function getJson(url:string,fetcher:typeof fetch,tries=3):Promise<unknown>{
   let last:unknown;
@@ -66,9 +68,12 @@ export function rankPhotos(photos:PlacePhoto[],limit=36){
   return out.slice(0,limit);
 }
 const cache=new Map<string,{at:number;value:PlacePhotoResult}>();const TTL=6*3600e3;
-export async function findPlacePhotos(x:number,y:number,district:string,dong:string,fetcher:typeof fetch=fetch):Promise<PlacePhotoResult>{
-  const key=`${x.toFixed(4)},${y.toFixed(4)}:${district}:${dong}`;const hit=cache.get(key);if(hit&&Date.now()-hit.at<TTL)return hit.value;
-  const tasks=[{id:'commons-nearby',name:'Wikimedia Commons · 위치 태그',run:()=>commonsNearby(x,y,fetcher)},{id:'commons-name',name:'Wikimedia Commons · 동네 이름',run:()=>commonsNeighborhood(district,dong,fetcher)},{id:'commons-categories',name:'Wikimedia Commons · 근처 장소 분류',run:()=>commonsPlaceCategories(x,y,fetcher)},{id:'commons-historic',name:'Wikimedia Commons · 옛 사진 검색',run:()=>commonsHistoric(district,dong,fetcher)},{id:'wikipedia-nearby',name:'한국어 위키백과 · 근처 문서 대표 사진',run:()=>wikipediaNearby(x,y,fetcher)}];
+export async function findPlacePhotos(x:number|null,y:number|null,district:string,dong:string,fetcher:typeof fetch=fetch):Promise<PlacePhotoResult>{
+  const hasPoint=x!==null&&y!==null;
+  const key=`${hasPoint?x.toFixed(4)+','+y.toFixed(4):'-'}:${district}:${dong}`;const hit=cache.get(key);if(hit&&Date.now()-hit.at<TTL)return hit.value;
+  const named=[{id:'commons-name',name:'Wikimedia Commons · 동네 이름',run:()=>commonsNeighborhood(district,dong,fetcher)},{id:'commons-historic',name:'Wikimedia Commons · 옛 사진 검색',run:()=>commonsHistoric(district,dong,fetcher)}];
+  const located=hasPoint?[{id:'commons-nearby',name:'Wikimedia Commons · 위치 태그',run:()=>commonsNearby(x,y,fetcher)},{id:'commons-categories',name:'Wikimedia Commons · 근처 장소 분류',run:()=>commonsPlaceCategories(x,y,fetcher)},{id:'wikipedia-nearby',name:'한국어 위키백과 · 근처 문서 대표 사진',run:()=>wikipediaNearby(x,y,fetcher)}]:[];
+  const tasks=[...located,...named];
   const settled=await Promise.allSettled(tasks.map(t=>t.run()));
   const providers=settled.map((r,i)=>({id:tasks[i].id,name:tasks[i].name,ok:r.status==='fulfilled',count:r.status==='fulfilled'?r.value.length:0}));
   const photos=rankPhotos(settled.flatMap(r=>r.status==='fulfilled'?r.value:[]));
@@ -88,11 +93,13 @@ export function placePhotoScene(p:PlacePhoto,district:string,dong:string):StoryS
   return {id:p.id,kind:'photo',date:p.date,year:p.year,order:p.year===null?Infinity:p.year*10000,title:p.title,text,scope:'dong',photos:[item],cutCount:1,evidence:[{title:p.title,url:p.sourceUrl,institution:p.provider,note:`${p.license} · ${p.creator}`}]};
 }
 
+// City- or district-wide categories say nothing about this particular place.
+const BROAD_CATEGORY=/^(?:Keij[oō]|Seoul|Hanseong|Hanyang|Gyeongseong|Korea|South Korea|Joseon|Korean Empire|Government-General of Ch[oō]sen|[A-Z][a-z]+(?:-gu| District(?:, Seoul)?))$/i;
 /** Files in categories whose coordinates are near the address (e.g. a market, palace, station or street category). */
-export async function commonsPlaceCategories(x:number,y:number,fetcher:typeof fetch=fetch,radius=1500):Promise<PlacePhoto[]>{
+export async function commonsPlaceCategories(x:number,y:number,fetcher:typeof fetch=fetch,radius=800):Promise<PlacePhoto[]>{
   const g=new URLSearchParams({action:'query',format:'json',formatversion:'2',list:'geosearch',gscoord:`${y}|${x}`,gsradius:String(radius),gslimit:'8',gsnamespace:'14',origin:'*'});
   const d=await getJson(COMMONS+'?'+g,fetcher) as {query?:{geosearch?:{title:string;dist:number}[]}};
-  const cats=(d.query?.geosearch||[]).slice(0,5);const out:PlacePhoto[]=[];
+  const cats=(d.query?.geosearch||[]).filter(c=>{const n=c.title.replace(/^Category:/,'');return !BROAD_CATEGORY.test(n)&&!/\b(?:rule|history|era|period|war|people|persons|events?|culture|politics|occupation|dynasty|empire|in \d{4}|\d{4}s)\b/i.test(n);}).slice(0,5);const out:PlacePhoto[]=[];
   const lists=await Promise.allSettled(cats.map(async c=>{
     const m=new URLSearchParams({action:'query',format:'json',formatversion:'2',list:'categorymembers',cmtitle:c.title,cmtype:'file',cmlimit:'25',origin:'*'});
     const r=await getJson(COMMONS+'?'+m,fetcher) as {query?:{categorymembers?:{pageid:number}[]}};
@@ -103,7 +110,7 @@ export async function commonsPlaceCategories(x:number,y:number,fetcher:typeof fe
   return out;
 }
 /** Lead photos of nearby Korean Wikipedia articles (landmarks, stations, markets) — files are re-checked against Commons licences. */
-export async function wikipediaNearby(x:number,y:number,fetcher:typeof fetch=fetch,radius=1500):Promise<PlacePhoto[]>{
+export async function wikipediaNearby(x:number,y:number,fetcher:typeof fetch=fetch,radius=800):Promise<PlacePhoto[]>{
   const g=new URLSearchParams({action:'query',format:'json',formatversion:'2',generator:'geosearch',ggscoord:`${y}|${x}`,ggsradius:String(radius),ggslimit:'12',prop:'pageimages|coordinates',piprop:'name',pilimit:'12',colimit:'12',origin:'*'});
   const d=await getJson('https://ko.wikipedia.org/w/api.php?'+g,fetcher) as {query?:{pages?:{title:string;pageimage?:string;coordinates?:{lat:number;lon:number}[]}[]}};
   const arts=(d.query?.pages||[]).filter(a=>a.pageimage);if(!arts.length)return [];
