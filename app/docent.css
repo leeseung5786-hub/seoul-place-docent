@@ -66,3 +66,10 @@ body{background:var(--docent-paper)}
 }
 @media(min-width:900px) and (prefers-reduced-motion:reduce){.story-rail{scroll-behavior:auto}}
 .story-photo-status{font-size:.78rem;opacity:.85;margin-top:.25rem}
+.place-gallery{margin:0 0 18px;padding:14px 16px;background:#f3f7f2;border:1px solid #d5e3d6;border-radius:14px;min-width:0}
+.place-gallery h3{font-size:15px;margin:0 0 10px;color:#173c35}
+.place-gallery-row{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:6px}
+.place-gallery-row figure{flex:0 0 200px;margin:0;scroll-snap-align:start}
+.place-gallery-row figure .research-photo-preview{height:140px;border-radius:10px;overflow:hidden}
+.place-gallery-row figcaption{font-size:12px;line-height:1.4;margin-top:6px;color:#2b4a42}
+.place-gallery-row figcaption small{display:block;color:#6d8479;margin-top:2px}
