@@ -1,13 +1,19 @@
 # 사진 출처 연결 방식
 
-## 1. 미리 모아 둔 서울기록원 사진 (주력)
-서울기록원 서울사진아카이브 전체(약 9,300건)를 한 번에 모아 법정동별로 나눠 둡니다. 방문자가 주소를 고르면 기다림 없이 바로 이야기 카드와 사진 띠에 나옵니다.
+## 1. 미리 모아 둔 기관 아카이브 사진 (주력)
+아래 세 곳의 사진을 미리 모아 법정동별로 나눠 둡니다. 방문자가 주소를 고르면 기다림 없이 이야기 카드와 사진 띠에 바로 나옵니다.
 
-- 수집: `node --experimental-transform-types --import ./tests/ts-resolver.mjs scripts/harvest-seoul-archives.mjs --refresh-list` → `data/seoul-archives/raw.jsonl` (이미 받은 기록은 건너뜀)
-- 동별 정리: `node scripts/build-seoul-archives-photos.mjs` → `data/seoul-archives/photos.json`
-- 자동 갱신: `.github/workflows/seoul-archives-photos.yml`이 매달 2일 새 사진을 받아 PR을 엽니다. 확인 후 합치고 재배포하면 됩니다.
-- 표시 조건: 접근유형 **공개**, 이용유형 **제한없음**인 기록만.
-- 동 매칭: 제목·설명·키워드·연관 장소에 동 이름이 나오면 그 동에 넣습니다(삼선동→삼선동1~5가, 여의도→여의도동). 두 구에 같은 이름이 있는 동(신사동·신정동)과 일반 단어와 겹치는 두 글자 동(합동·정동)은 구 이름도 함께 나와야 합니다. 동에 사진이 없으면 그 구의 사진 24장을 "자치구 배경"으로 보여 줍니다.
+| 출처 | 수집 스크립트 → 정리 스크립트 | 표시 조건 |
+|---|---|---|
+| 서울기록원 서울사진아카이브 | `harvest-seoul-archives.mjs` → `build-seoul-archives-photos.mjs` | 접근유형 공개 · 이용유형 제한없음 |
+| 서울역사박물관 서울역사아카이브 (서울시정사진·근현대서울사진·생활문화자료조사·발굴기록) | `harvest-seoul-museum.mjs` (법정동 이름마다 검색) → `build-seoul-museum-photos.mjs` | 자료마다 표시된 공공누리 1~4유형 |
+| 성북마을아카이브 (성북구청·성북문화원) | `harvest-seongbuk-archive.mjs` → `build-seongbuk-photos.mjs` | 저작권 유형이 공공누리 또는 CCL인 기록만 (사이트 저작권 정책) |
+
+- 실행: `node --experimental-transform-types --import ./tests/ts-resolver.mjs scripts/<수집 스크립트>` 다음 `node scripts/<정리 스크립트>`. 이미 받은 기록은 건너뜁니다.
+- 자동 갱신: `.github/workflows/archive-photos.yml`이 매달 2일 세 곳을 다시 확인하고 PR을 엽니다. 확인 후 합치고 재배포하면 됩니다.
+- 동 매칭 규칙(`scripts/lib/dong-match.mjs`): 제목·설명·장소에 동 이름이 나오면 그 동에 넣습니다(삼선동→삼선동1~5가, 여의도→여의도동). "영등포구"는 영등포동으로 치지 않고, 두 구에 같은 이름이 있는 동(신사동·신정동)과 일반 단어와 겹치는 두 글자 동(합동·정동)은 구 이름도 함께 나와야 합니다. 동에 사진이 없으면 그 구의 사진을 "자치구 배경"으로 보여 줍니다.
+- 팀 조사 자료와 같은 사진(같은 썸네일·같은 원문)은 하나로 묶입니다.
+- 다른 자치구: 성북처럼 공개된 디지털 마을아카이브를 찾지 못했습니다. 새로 생기면 같은 방식(수집 스크립트 + 정리 스크립트)으로 추가하면 됩니다.
 
 ## 2. 실시간 검색 (보충)
 

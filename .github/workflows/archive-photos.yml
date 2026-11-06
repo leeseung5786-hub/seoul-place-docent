@@ -1,0 +1,32 @@
+name: 기관 아카이브 사진 갱신
+# Monthly: picks up newly published photos from 서울기록원, 서울역사아카이브 and 성북마을아카이브,
+# rebuilds the per-dong photo lists and opens a pull request. Already collected records are skipped.
+on:
+  schedule:
+    - cron: '17 18 1 * *'   # 매월 2일 03:17 (KST)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - name: 서울기록원
+        run: node --experimental-transform-types --import ./tests/ts-resolver.mjs scripts/harvest-seoul-archives.mjs --refresh-list --concurrency 8 && node scripts/build-seoul-archives-photos.mjs
+      - name: 서울역사아카이브
+        run: node --experimental-transform-types --import ./tests/ts-resolver.mjs scripts/harvest-seoul-museum.mjs --refresh-search --concurrency 8 && node --experimental-transform-types --import ./tests/ts-resolver.mjs scripts/build-seoul-museum-photos.mjs
+      - name: 성북마을아카이브
+        run: node --experimental-transform-types --import ./tests/ts-resolver.mjs scripts/harvest-seongbuk-archive.mjs --refresh-list --concurrency 8 && node scripts/build-seongbuk-photos.mjs
+      - name: Open pull request when something changed
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: |
+          if git diff --quiet -- data; then echo "no change"; exit 0; fi
+          branch=chore/archive-photos-$(date +%Y%m%d)
+          git config user.name github-actions && git config user.email github-actions@users.noreply.github.com
+          git checkout -b "$branch" && git add data/seoul-archives data/seoul-museum data/seongbuk-archive && git commit -m "data: 기관 아카이브 사진 월간 갱신" && git push -u origin "$branch"
+          gh pr create --title "기관 아카이브 사진 월간 갱신" --body "자동 수집 결과입니다. 확인 후 합쳐 주세요." --base main --head "$branch"
