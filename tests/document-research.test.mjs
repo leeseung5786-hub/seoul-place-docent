@@ -6,9 +6,9 @@ import bundle from '../data/document-research/bundle.json';
 import {filterDocumentRows, documentContext, documentPlaceResearch, safeDocumentUrl} from '../lib/document-research.ts';
 import {GET} from '../app/api/archive/document-research/route.ts';
 
-test('all eight uploaded tables are preserved with byte-identical original downloads', () => {
- assert.deepEqual(bundle.meta.counts, {targets:493,sources:261,links:983,claims:1025,drafts:50,timeline:833,leads:282,progress:42});
- assert.equal(bundle.meta.totalRecords,3969);
+test('all eight accumulated tables have matching download counts and hashes', () => {
+ assert.deepEqual(bundle.meta.counts, {targets:493,sources:279,links:1013,claims:1070,drafts:53,timeline:857,leads:297,progress:42});
+ assert.equal(bundle.meta.totalRecords,4104);
  for(const file of bundle.meta.files){
   const bytes=readFileSync(new URL('../public'+file.path,import.meta.url));
   assert.equal(bytes.length,file.sizeBytes);
@@ -16,8 +16,8 @@ test('all eight uploaded tables are preserved with byte-identical original downl
   assert.equal(bundle.tables[file.key].length,file.count);
   assert.equal(new Set(bundle.tables[file.key].map(r=>r.id)).size,file.count);
  }
- assert.equal(new Set(bundle.tables.sources.map(r=>r.values['원문URL'])).size,129);
- assert.equal(bundle.meta.sourceUrlCount,129);
+ assert.equal(new Set(bundle.tables.sources.map(r=>r.values['원문URL'])).size,147);
+ assert.equal(bundle.meta.sourceUrlCount,147);
  assert.equal(bundle.targets.filter(r=>r.level==='법정동').length,467);
 });
 
@@ -75,8 +75,8 @@ test('address context requires the exact district and legal dong and labels dist
 
 test('API paginates, validates table/target, and exports all rows matching the current filters',async()=>{
  const query=p=>GET(new Request('https://example.test/api/archive/document-research?'+p));
- const paged=await query('table=claims&page=2').json();assert.equal(paged.total,1025);assert.equal(paged.rows.length,20);assert.equal(paged.page,2);assert.notEqual(paged.rows[0].id,bundle.tables.claims[0].id);
- const capped=await query('table=claims&page=99999').json();assert.equal(capped.page,52);assert.equal(capped.rows.length,5);
+ const paged=await query('table=claims&page=2').json();assert.equal(paged.total,1070);assert.equal(paged.rows.length,20);assert.equal(paged.page,2);assert.notEqual(paged.rows[0].id,bundle.tables.claims[0].id);
+ const capped=await query('table=claims&page=99999').json();assert.equal(capped.page,54);assert.equal(capped.rows.length,10);
  assert.equal(query('table=invalid').status,400);assert.equal(query('target=invalid').status,400);assert.equal(query('mode=place&district=부산').status,400);
  const response=query('table=timeline&district=강남구&download=1');assert.match(response.headers.get('content-disposition'),/^attachment;/);assert.match(response.headers.get('cache-control'),/private/);
  const exported=await response.json();assert.ok(exported.rows.length>20);assert.ok(exported.rows.every(r=>r.district==='강남구'));assert.equal(exported.provenance.id,bundle.meta.id);

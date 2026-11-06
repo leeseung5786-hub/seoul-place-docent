@@ -38,7 +38,7 @@ export default function VideoResearch({report}: {report: Report}) {
     document.getElementById('research-results')?.scrollIntoView({behavior: 'smooth', block: 'start'});
   }
 
-  return <main className="research-page">
+  return <div className="research-page">
     <a href="#research-content" className="skip-link">본문으로 건너뛰기</a>
     <header className="research-top">
       <a href="/archive"><ArrowLeft size={16}/>역사자료 DB</a>
@@ -123,5 +123,5 @@ export default function VideoResearch({report}: {report: Report}) {
     </section>}
 
     <footer className="research-footer"><a href="/archive/photo-research">사진 조사자료 보기<ArrowUpRight size={14}/></a><a href="/archive">역사자료 DB로 돌아가기<ChevronRight size={14}/></a><span>영상 원본 확인 전 조사자료 · 첨부 문서의 출처와 불확실성을 함께 보존합니다.</span></footer>
-  </main>;
+  </div>;
 }
