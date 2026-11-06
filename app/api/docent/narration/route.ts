@@ -1,4 +1,4 @@
-import {env} from 'cloudflare:workers';
+import {env} from '@/lib/runtime-env';
 import {getDocentStory} from '@/lib/docent-data';
 import {narrateScenes} from '@/lib/docent-narration';
 import {errorResponse,ServiceError} from '@/lib/providers';

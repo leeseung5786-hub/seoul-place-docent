@@ -1,4 +1,4 @@
-import { env } from 'cloudflare:workers';
+import { env } from '@/lib/runtime-env';
 import {verifyAddress,buildings,coordinates,floors,errorResponse,ServiceError} from '@/lib/providers';
 import {matchRegions} from '@/lib/history';
 export async function POST(request:Request){try{if(Number(request.headers.get('content-length')??0)>9000)throw new ServiceError('SIZE','요청이 너무 큽니다.',413);const data=await request.json();if(!data||typeof data!=='object')throw new ServiceError('INVALID_REQUEST','주소 후보를 먼저 선택해 주세요.',400);const {token,buildingId}=data as {token?:unknown;buildingId?:unknown};if(typeof token!=='string')throw new ServiceError('INVALID_TOKEN','주소 후보를 먼저 선택해 주세요.',400);const address=await verifyAddress(token,env);if(buildingId!==undefined){if(typeof buildingId!=='string'||buildingId.length>100)throw new ServiceError('INVALID_BUILDING','건축물 선택을 확인해 주세요.',400);return Response.json(await floors(address,env,buildingId),{headers:{'Cache-Control':'no-store'}});}

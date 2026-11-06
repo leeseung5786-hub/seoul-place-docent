@@ -1,4 +1,4 @@
-import {env} from 'cloudflare:workers';
+import {env} from '@/lib/runtime-env';
 import {database,requireArchiveAdmin,readArchiveJson} from '@/lib/archive-db';
 import {importArchiveCaptures} from '@/lib/archive-capture';
 import {errorResponse} from '@/lib/providers';

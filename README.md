@@ -1,3 +1,9 @@
+# Vercel 배포 안내
+
+Vercel에서는 `pnpm run build:vercel`로 실제 Next.js 산출물(`.next`)을 생성합니다. Node.js는 `22.x`로 고정했습니다. 로컬 개발은 `pnpm run dev:vercel`을 사용합니다.
+
+환경변수와 배포 절차: [Vercel 배포 안내](docs/vercel-deployment.md). MCP도 앱과 함께 `/mcp` 경로로 배포됩니다.
+
 # vinext-starter
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.

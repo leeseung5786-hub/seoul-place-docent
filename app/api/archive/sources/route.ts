@@ -1,4 +1,4 @@
-import {env} from 'cloudflare:workers';
+import {env} from '@/lib/runtime-env';
 import {database,listArchiveSources,saveArchiveSource,requireArchiveAdmin,readArchiveJson} from '@/lib/archive-db';
 import {errorResponse} from '@/lib/providers';
 export async function GET(request:Request){try{return Response.json(await listArchiveSources(database(env),new URL(request.url).searchParams),{headers:{'Cache-Control':'no-store'}});}catch(e){return errorResponse(e);}}
