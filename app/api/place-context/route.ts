@@ -1,4 +1,4 @@
-import {env} from 'cloudflare:workers';
+import {env} from '@/lib/runtime-env';
 import {closedBuildings, currentParcel, type ContextSection} from '@/lib/place-context';
 import {verifyAddress, errorResponse, ServiceError} from '@/lib/providers';
 export async function POST(request: Request) {

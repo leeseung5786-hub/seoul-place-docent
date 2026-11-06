@@ -1,4 +1,4 @@
-import {env} from 'cloudflare:workers';
+import {env} from '@/lib/runtime-env';
 import {mapAddress} from '@/lib/map-address';
 import {errorResponse, ServiceError} from '@/lib/providers';
 export async function GET(request: Request) {

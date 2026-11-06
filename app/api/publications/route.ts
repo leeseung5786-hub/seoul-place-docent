@@ -1,4 +1,4 @@
-import {env} from 'cloudflare:workers';
+import {env} from '@/lib/runtime-env';
 import {museumPublications} from '@/lib/place-context';
 import {errorResponse} from '@/lib/providers';
 export async function GET(request: Request) {

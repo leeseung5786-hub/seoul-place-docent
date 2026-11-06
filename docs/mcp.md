@@ -1,6 +1,6 @@
 # MCP 연결 안내
 
-사이트 안에 MCP 서버가 함께 있습니다. 따로 Vercel에 올릴 필요가 없고, 사이트를 배포하면 함께 배포됩니다.
+사이트 안에 MCP 서버가 함께 있습니다. 사이트를 배포하면 같은 호스트의 `/mcp`도 함께 배포됩니다. Vercel에 배포할 때는 [Vercel 배포 안내](vercel-deployment.md)에 따라 Next.js 빌드와 서버 환경변수를 설정합니다. 별도 예제 MCP 서버를 배포할 필요는 없습니다.
 
 - 주소: `https://<사이트 주소>/mcp` (예: `https://seoul-place-history.xeonire.chatgpt.site/mcp`)
 - 방식: HTTP POST(JSON-RPC). 예전 SSE 방식이 아니라 요청마다 HTTP로 주고받는 방식입니다.
