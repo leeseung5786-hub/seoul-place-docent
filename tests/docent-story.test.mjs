@@ -59,7 +59,7 @@ test('manual photos need display permission, https links, a license and an insti
  assert.equal(manualPhotoItems({}).length,0);
 });
 test('a manually registered photo becomes a dong-level photo scene for a dong without photo data',()=>{
- const story=getDocentStory('성북구','삼선동2가');assert.equal(story.scenes.some(s=>s.photos.length),false);
+ const story=getDocentStory('성북구','삼선동2가');assert.equal(story.scenes.some(s=>s.photos.length&&s.scope==='dong'),false);assert.ok(story.scenes.some(s=>s.photos.length&&s.scope==='district'),'falls back to district photos');
  const manual=manualPhotoItems([manualOk,{...manualOk,title:'다른 동',dong:'동선동1가'}]);
  const withManual=buildDocentStory({meta:{files:[]},items:[]},{targets:[],tables:{timeline:[],claims:[],sources:[]}},'성북구','삼선동2가',manual);
  const scene=withManual.scenes.find(s=>s.photos.length);assert.ok(scene);assert.equal(scene.title,'삼선교 일대');assert.equal(scene.scope,'dong');assert.equal(withManual.scenes.filter(s=>s.photos.length).length,1);

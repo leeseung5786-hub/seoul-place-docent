@@ -67,10 +67,14 @@ export function buildDocentStory(photos:PhotoResearchBundle, documents:DocumentB
   const districtBatchIds=new Set(photos.meta.files.filter(f=>f.collectionScope==='district'&&f.district===district).map(f=>f.id));
   const manualLocal=manual.filter(i=>i.district===district&&i.dong===dong);
   const manualDistrict=manual.filter(i=>i.district===district&&!i.dong);
-  const scope=local.length||manualLocal.length?'dong':'district';
-  const rows=local.length||manualLocal.length?[...local,...manualLocal]:[...eligible.filter(i=>districtBatchIds.has(i.batchId)),...manualDistrict];
+  // Fall back to district photos when the neighborhood has records but none with a displayable image.
+  const localRows=[...local,...manualLocal];const localPictured=localRows.filter(i=>photoResearchThumbnail(i));
+  const scope=localPictured.length?'dong':'district';
+  const rows=localPictured.length?localRows:[...eligible.filter(i=>districtBatchIds.has(i.batchId)),...manualDistrict];
   const pictured=rows.filter(i=>photoResearchThumbnail(i));
-  const groups=groupStoryPhotos(pictured);
+  const allGroups=groupStoryPhotos(pictured);
+  // District background is context, not the story: keep at most 24 photos, spread evenly through time.
+  const groups=scope==='district'&&allGroups.length>24?(()=>{const dated=[...allGroups].sort((a,b)=>historicalDate(a[0].values).order-historicalDate(b[0].values).order);const step=dated.length/24;return Array.from({length:24},(_,k)=>dated[Math.floor(k*step)]);})():allGroups;
   const scenes:StoryScene[]=groups.map(cuts=>{
     const item=cuts.find(i=>i.values['내용설명'])||cuts[0];const time=historicalDate(item.values);
     const unique=[...new Map(cuts.map(i=>[photoResearchThumbnail(i),i])).values()];

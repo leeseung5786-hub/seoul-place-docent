@@ -1,6 +1,5 @@
 import type {PhotoResearchItem} from './photo-research';
 import type {StoryScene} from './docent-story';
-import {seoulArchivesPhotos} from './seoul-archives';
 /** Nearby historical photos from open-licensed sources with clear provenance. Fail-open; presentation only. */
 export type PlacePhoto = {id:string;provider:string;title:string;year:number|null;date:string;description:string;imageUrl:string;fullUrl:string;sourceUrl:string;creator:string;license:string;licenseUrl:string|null;distance:number|null;match:'nearby'|'place'|'neighborhood';via?:string;scope?:'dong'|'district'};
 export type PlacePhotoResult = {photos:PlacePhoto[];providers:{id:string;name:string;ok:boolean;count:number}[]};
@@ -72,7 +71,7 @@ const cache=new Map<string,{at:number;value:PlacePhotoResult}>();const TTL=6*360
 export async function findPlacePhotos(x:number|null,y:number|null,district:string,dong:string,fetcher:typeof fetch=fetch,road=''):Promise<PlacePhotoResult>{
   const hasPoint=x!==null&&y!==null;
   const key=`${hasPoint?x.toFixed(4)+','+y.toFixed(4):'-'}:${district}:${dong}:${road}`;const hit=cache.get(key);if(hit&&Date.now()-hit.at<TTL)return hit.value;
-  const named=[{id:'seoul-archives',name:'서울기록원 · 서울사진아카이브',run:()=>seoulArchivesPhotos(dong,road,fetcher,12,20000,district)},{id:'commons-name',name:'Wikimedia Commons · 동네 이름',run:()=>commonsNeighborhood(district,dong,fetcher)},{id:'commons-historic',name:'Wikimedia Commons · 옛 사진 검색',run:()=>commonsHistoric(district,dong,fetcher)}];
+  const named=[{id:'commons-name',name:'Wikimedia Commons · 동네 이름',run:()=>commonsNeighborhood(district,dong,fetcher)},{id:'commons-historic',name:'Wikimedia Commons · 옛 사진 검색',run:()=>commonsHistoric(district,dong,fetcher)}];
   const located=hasPoint?[{id:'commons-nearby',name:'Wikimedia Commons · 위치 태그',run:()=>commonsNearby(x,y,fetcher)},{id:'commons-categories',name:'Wikimedia Commons · 근처 장소 분류',run:()=>commonsPlaceCategories(x,y,fetcher)},{id:'wikipedia-nearby',name:'한국어 위키백과 · 근처 문서 대표 사진',run:()=>wikipediaNearby(x,y,fetcher)}]:[];
   const tasks=[...located,...named];
   const settled=await Promise.allSettled(tasks.map(t=>t.run()));
