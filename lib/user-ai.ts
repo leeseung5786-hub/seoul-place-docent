@@ -1,0 +1,9 @@
+export const aiServices = {
+ ChatGPT:{url:'https://chatgpt.com/',support:'원격 MCP 지원',conditions:'웹에서 사용자 MCP 추가 권한이 필요합니다. 워크스페이스 정책·보안 제한이 적용되며, 계정 화면에서 제공 여부를 확인하세요. 요금제별 전체 제공 범위는 미확인입니다.',steps:['Plugins에서 + → Add custom MCP server를 선택합니다.','이름과 아래 서버 URL을 입력하고 공개 서버는 No authentication을 선택합니다.','생성한 플러그인을 설치한 뒤 대화에서 @로 선택하고 질문을 붙여넣습니다.'],docs:'https://developers.openai.com/api/docs/guides/custom-mcp-server'},
+ Claude:{url:'https://claude.ai/',support:'원격 MCP 지원',conditions:'Free(사용자 커넥터 1개), Pro·Max·Ultra·Team·Enterprise. 조직 계정은 소유자 또는 해당 관리 권한이 있는 담당자의 등록이 먼저 필요합니다.',steps:['Customize → Connectors에서 사용자 웹 커넥터를 추가합니다.','서버 URL을 입력합니다. 공개 서버는 No sign in을 선택합니다.','대화에서 커넥터를 활성화하고 복사한 질문을 입력합니다.'],docs:'https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp'},
+ Gemini:{url:'https://gemini.google.com/',support:'원격 MCP 지원 · 지역/계정 제한',conditions:'공식 안내 기준 미국의 만 18세 이상 개인 Google 계정, 영어, Keep Activity 켜짐이 필요합니다. 직장·학교 계정은 미지원이며 한국 계정에서의 제공은 확인되지 않았습니다. 구독 요금제별 보장은 없습니다.',steps:['웹 Settings → Connected Apps → Custom apps에서 앱을 추가합니다.','서버 URL을 입력하고 화면의 연결 안내를 따릅니다. 로그인 없는 공개 서버 연결 완료 여부는 미검증입니다.','연결 후 @로 앱을 선택하고 질문을 붙여넣습니다. 메뉴가 없으면 계정/지역 조건을 확인하세요.'],docs:'https://support.google.com/gemini/answer/17209137?hl=en-VU'},
+} as const;
+export function historyQuestion(address:string) {
+ const place=address.trim().slice(0,100)||'사용자가 지정할 서울 주소';
+ return `${place}에 대해 서울 장소 역사 도슨트 MCP 서버를 사용하여 역사와 공간 변화를 조사해 줘. 먼저 search_place를 실제 호출하고, 후보가 여러 개면 내가 선택하도록 물어봐. 선택한 token으로 prepare_place_answer를 호출해 공식 자료와 출처를 가져와. 웹 검색만으로 대신하지 말고 MCP 연결이 없으면 연결이 필요하다고 알려 줘. 반환된 근거만으로 네가 최종 해설을 작성하고 건물 자체의 역사와 주변 동네 역사를 구분해 줘. 가능한 경우 같은 token과 question으로 validate_place_answer를 호출해 기계적으로 검증해 줘. 출처·자료의 시기·검증 범위·미확인 사항을 표시하고, 사실 전체가 검증됐다고 단정하지 마. 도구 결과의 요청 ID도 보여 줘.`;
+}
