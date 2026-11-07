@@ -60,3 +60,5 @@ __pycache__/
 
 # Generated lossless Worker provenance representation
 /data/video-workbooks/records-packed.json
+
+/public/research/video-records/

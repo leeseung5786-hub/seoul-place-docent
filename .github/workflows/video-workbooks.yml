@@ -1,7 +1,7 @@
 name: Video workbook catalog
 on:
   pull_request:
-    paths: ['data/video-workbooks/**', 'lib/video-catalog*.ts', 'scripts/import-video-workbooks.py', 'scripts/requirements-video.txt', 'app/components/VideoResearchPanel.tsx', 'app/components/video-research-panel.css', 'app/api/archive/video-research/**', 'app/archive/video-research/**', 'tests/video-*', '.github/workflows/video-workbooks.yml']
+    paths: ['data/video-workbooks/**', 'lib/video-catalog*.ts', 'lib/video-records*.ts', 'scripts/pack-video-records.mjs', 'scripts/import-video-workbooks.py', 'scripts/requirements-video.txt', 'app/components/VideoResearchPanel.tsx', 'app/components/video-research-panel.css', 'app/api/archive/video-research/**', 'app/archive/video-research/**', 'tests/video-*', '.github/workflows/video-workbooks.yml']
 permissions:
   contents: read
 jobs:
