@@ -18,6 +18,7 @@ const managedLinux = readExecutionProfile() === "managed-linux";
 const localBindingConfig = {
   main: "./build/sites-worker.ts",
   compatibility_flags: ["nodejs_compat"],
+  assets: {binding: "ASSETS"},
   d1_databases: d1
     ? [
         {
@@ -53,7 +54,7 @@ export default defineConfig(async ({ command }) => {
   const { cloudflare } = await import("@cloudflare/vite-plugin");
 
   return {
-    resolve: {alias: {"@/lib/runtime-env": fileURLToPath(new URL("./lib/runtime-env.cloudflare.ts", import.meta.url))}},
+    resolve: {alias: {"@/lib/video-records-asset": fileURLToPath(new URL("./lib/video-records-asset.cloudflare.ts", import.meta.url)), "@/lib/runtime-env": fileURLToPath(new URL("./lib/runtime-env.cloudflare.ts", import.meta.url))}},
     server: {
       ...(managedLinux
         ? { host: "0.0.0.0", allowedHosts: ["terminal.local"] }

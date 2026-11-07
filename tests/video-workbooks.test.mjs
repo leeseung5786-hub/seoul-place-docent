@@ -12,6 +12,9 @@ const uploaded=records.filter(r=>!r.ref.startsWith('legacy:'));
 const query=async params=>{const r=await GET(new Request('https://example.test/api/archive/video-research?dataset=combined&'+params));return {status:r.status,body:await r.json()};};
 
 test('every packed video preserves all original provenance and keeps decoded shards bounded',async()=>{
+ const manifest=readFileSync(new URL('../data/video-workbooks/records-packed.json',import.meta.url));
+ assert.ok(manifest.byteLength<256*1024,'Worker contains only a small video-to-asset manifest');
+ assert.equal(JSON.parse(manifest).shards,undefined,'gzip payloads belong to static assets, not Worker code');
  for(const item of videoCatalog.items){
   const shard=await loadVideoRecords(item.id);assert.ok(shard);
   for(const ref of item.refs){

@@ -82,7 +82,7 @@ pnpm run build:vercel
 이번 변경은 원본 파일을 정적 데이터로 변환하므로 운영 DB 초기화·마이그레이션이나 새 유료 API·환경변수는 필요 없다. 작업 브랜치와 PR로 검토하며 main 병합·운영 배포는 소유자의 승인 후 진행한다.
 # Sites Worker 크기 제한
 
-전체 원본 행은 `data/video-workbooks/records.json`에 그대로 보존합니다. 서버는 이 25MiB 파일을 코드에 직접 포함하지 않고 `records-packed.json`의 무손실 gzip 묶음에서 요청 영상에 필요한 부분만 풉니다. 한 묶음은 최대 64개 영상·해제 후 2MiB 이내이며, 메모리에는 최근 묶음 하나만 유지합니다. 네트워크 또는 추가 API 키가 필요하지 않습니다.
+전체 원본 행은 `data/video-workbooks/records.json`에 그대로 보존합니다. 서버는 이 25MiB 파일을 코드에 직접 포함하지 않고 정적 자산 `public/research/video-records/`의 무손실 gzip 묶음에서 요청 영상에 필요한 부분만 풉니다. 한 묶음은 최대 64개 영상·해제 후 2MiB 이내이며, 메모리에는 최근 묶음 하나만 유지합니다. Cloudflare는 ASSETS 바인딩, Next.js는 배포 파일 시스템으로 읽으며 추가 API 키나 외부 서비스 요청이 필요하지 않습니다. `records-packed.json`에는 영상과 묶음 번호 대응만 보관합니다.
 
 원본 재수집 시 가져오기 스크립트가 압축본도 갱신합니다. 원본 JSON을 직접 수정했다면 `node scripts/pack-video-records.mjs`를 실행하세요. 테스트는 모든 영상의 문헌·구간·원본 행이 압축 전과 같은지 비교합니다.
 
