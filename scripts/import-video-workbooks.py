@@ -171,6 +171,9 @@ def run(archive):
  meta['note']='같은 상세 URL·영상 ID만 통합했습니다. 실제 재생·위치·권리는 독립 검증 전입니다.'
  meta['possibleDuplicateTitleGroups']=sum(len(v)>1 for v in titles.values())
  dump(out/'index.json',{'meta':meta,'files':files,'sheets':sheets,'items':items});dump(out/'records.json',{'records':{r['ref']:r for r in records},'rows':allrows})
+ # Keep the bounded Worker representation in sync with the complete provenance.
+ import subprocess
+ subprocess.run(['node',str(ROOT/'scripts/pack-video-records.mjs')],check=True)
  url_ids={i['url']:i['id'] for i in items if i['url']}
  dump(out/'pdf-references.json',{'references':[{**link,'videoId':url_ids.get(link['url'])} for link in pdf_links],'note':'PDF 페이지에 같은 URL이 나타난 관계만 표시합니다. 문서의 주장·재생 확인 표기는 사이트 검증 결과가 아니며 엑셀 행과 자동 병합하지 않았습니다.'})
  dump(assets/'import-audit.json',{'meta':meta,'files':files,'sheets':sheets})

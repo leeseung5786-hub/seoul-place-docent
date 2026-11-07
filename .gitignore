@@ -57,3 +57,6 @@ next-env.d.ts
 /work/
 __pycache__/
 *.pyc
+
+# Generated lossless Worker provenance representation
+/data/video-workbooks/records-packed.json
