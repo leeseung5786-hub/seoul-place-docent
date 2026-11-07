@@ -1,8 +1,10 @@
 import raw from '../../../../data/consolidated-video-research.json';
 import {filterResearchVideos, type ResearchVideo} from '../../../../lib/video-research';
+import {videoCatalogResponse} from '../../../../lib/video-catalog-api';
 const items = raw.items as ResearchVideo[];
 export function GET(request: Request) {
   const params = new URL(request.url).searchParams;
+  if(params.get('dataset')==='combined')return videoCatalogResponse(request);
   const filters = {query: (params.get('q') || '').slice(0, 150), district: params.get('district') || '', dong: params.get('dong') || '', group: params.get('group') || 'A'};
   if (!['A', 'B', 'all'].includes(filters.group)) return Response.json({error: '영상 분류를 확인해 주세요.'}, {status: 400});
   if (filters.group === 'all') filters.group = '';

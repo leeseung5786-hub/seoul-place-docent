@@ -1,0 +1,29 @@
+name: Video workbook catalog
+on:
+  pull_request:
+    paths: ['data/video-workbooks/**', 'lib/video-catalog*.ts', 'scripts/import-video-workbooks.py', 'scripts/requirements-video.txt', 'app/components/VideoResearchPanel.tsx', 'app/components/video-research-panel.css', 'app/api/archive/video-research/**', 'app/archive/video-research/**', 'tests/video-*', '.github/workflows/video-workbooks.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: pnpm/action-setup@v4
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r scripts/requirements-video.txt
+      - run: python tests/video-import.test.py
+      - name: Reimport exact original archive and verify reproducibility
+        run: |
+          python scripts/import-video-workbooks.py public/research/video-workbooks/original.zip
+          git diff --exit-code -- data/video-workbooks public/research/video-workbooks
+      - run: node --experimental-transform-types --import ./tests/ts-resolver.mjs --test tests/video-workbooks.test.mjs
+      - run: pnpm typecheck
+      - run: pnpm run build:vercel
