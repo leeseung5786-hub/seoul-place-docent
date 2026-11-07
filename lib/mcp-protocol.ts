@@ -5,7 +5,7 @@ export type McpTool = {
   annotations?: Record<string, boolean>;
 };
 export type McpContent = {type: 'text'; text: string};
-export type McpToolResult = {content: McpContent[]; isError?: boolean};
+export type McpToolResult = {content: McpContent[]; isError?: boolean; errorType?:string; _meta?:Record<string,unknown>};
 type Execute = (name: string, args: Record<string, unknown>) => Promise<McpToolResult>;
 
 export const MCP_VERSION = '2026-07-28';
@@ -21,11 +21,11 @@ export function textResult(value: unknown): McpToolResult {
   return {content: [{type: 'text', text: JSON.stringify(value)}]};
 }
 
-/** Stateless MCP messages. Authentication is enforced by Sites dispatch. */
+/** Public, stateless evidence tools; admin data uses a separate authenticated API. */
 export async function handleMcpMessage(value: unknown, tools: readonly McpTool[], execute: Execute) {
   if (!isObject(value)) return rpcError(null, -32600, 'Invalid Request');
   const hasId = Object.prototype.hasOwnProperty.call(value, 'id');
-  const id = typeof value.id === 'string' || (typeof value.id === 'number' && Number.isFinite(value.id)) ? value.id : null;
+  const id = typeof value.id === 'string' || (typeof value.id === 'number' && Number.isSafeInteger(value.id)) ? value.id : null;
   if (value.jsonrpc !== '2.0' || typeof value.method !== 'string' || (hasId && id === null)) {
     return rpcError(null, -32600, 'Invalid Request');
   }
@@ -40,6 +40,8 @@ export async function handleMcpMessage(value: unknown, tools: readonly McpTool[]
     case 'server/discover':
       result = {
         supportedVersions: MCP_SUPPORTED_VERSIONS,
+        _meta: {'io.modelcontextprotocol/serverInfo': {name: 'seoul-place-docent', version: '2.0.0'}},
+        instructions: 'search_place로 주소 후보를 조회하고 복수 후보는 사용자가 선택하게 하세요. prepare_place_answer로 근거를 받은 뒤 호출한 AI가 출처와 시기를 붙여 최종 해설을 작성하세요. 같은 token·question으로 validate_place_answer를 호출할 수 있습니다. 건물과 동네 역사를 구분하고 미확인 사항을 표시하세요. 서버는 모델 API를 호출하지 않습니다.',
         capabilities: {tools: {}},
         serverInfo: {name: 'seoul-place-docent', version: '2.0.0'},
       };
@@ -80,5 +82,6 @@ export async function handleMcpMessage(value: unknown, tools: readonly McpTool[]
     default:
       return rpcError(id, -32601, 'Method not found');
   }
+  if(isObject(result)&&(value.method==='server/discover'||isObject(params._meta)&&params._meta['io.modelcontextprotocol/protocolVersion']===MCP_VERSION))result={...result,resultType:'complete',_meta:{...(isObject(result._meta)?result._meta:{}),'io.modelcontextprotocol/serverInfo':{name:'seoul-place-docent',version:'2.0.0'}}};
   return {jsonrpc: '2.0', id, result};
 }

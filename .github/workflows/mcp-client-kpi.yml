@@ -3,7 +3,7 @@ on:
   push:
     branches: [main, 'fix/client-ai-docent-kpi']
   pull_request:
-    paths: ['app/mcp/**', 'lib/place-answer.ts', 'lib/map-address.ts', 'tests/**', '.github/workflows/mcp-client-kpi.yml']
+    paths: ['app/mcp/**', 'app/api/admin/mcp-stats/**', 'app/admin/mcp/**', 'app/components/UserAIConnect.tsx', 'lib/mcp-*.ts', 'lib/user-ai.ts', 'lib/place-answer.ts', 'lib/map-address.ts', 'tests/**', '.github/workflows/mcp-client-kpi.yml']
 permissions:
   contents: read
 jobs:
@@ -15,8 +15,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - uses: pnpm/action-setup@v4
+      - run: pnpm install --frozen-lockfile
       - name: MCP, evidence, GPS and KPI tests
-        run: node --experimental-transform-types --import ./tests/ts-resolver.mjs --test tests/place-answer.test.mjs tests/mcp-client-contract.test.mjs tests/mcp-protocol.test.mjs tests/map-address.test.mjs
+        run: node --experimental-transform-types --import ./tests/ts-resolver.mjs --test tests/place-answer.test.mjs tests/mcp-client-contract.test.mjs tests/mcp-protocol.test.mjs tests/mcp-http-audit.test.mjs tests/map-address.test.mjs
   types:
     runs-on: ubuntu-latest
     timeout-minutes: 15

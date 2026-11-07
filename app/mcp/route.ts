@@ -7,6 +7,8 @@ import {photoResearchThumbnail} from '@/lib/photo-research';
 import {searchAddresses, ServiceError, verifyAddress} from '@/lib/providers';
 import {generatePlaceAnswer, placeAnswerStats, pickScenes, validateAnswer, sceneSource, logClientDocent, QUESTION_TYPES} from '@/lib/place-answer';
 import {handleMcpMessage, rpcError, textResult, type McpTool, type McpToolResult} from '@/lib/mcp-protocol';
+import {auditedCall,clientHint} from '@/lib/mcp-audit';
+import {originError,acceptError,protocolError,allowMcpRequest,unsupportedMcpMethod} from '@/lib/mcp-http';
 
 export const dynamic = 'force-dynamic';
 const MAX_BODY_BYTES = 32768;
@@ -218,10 +220,10 @@ async function execute(name: string, args: Record<string, unknown>): Promise<Mcp
   } catch (error) {
     if(name==='prepare_place_answer'||name==='generate_place_answer')await logClientDocent(env.DB,{event:'retrieval',ms:Date.now()-startedAt,ok:false,records:0});
     if (error instanceof z.ZodError) {
-      return {content: [{type: 'text', text: '도구 입력 형식을 확인해 주세요. ' + error.issues.map(issue => issue.path.join('.') + ': ' + issue.message).join(' / ')}], isError: true};
+      return {content: [{type: 'text', text: '도구 입력 형식을 확인해 주세요.'}], isError: true,errorType:'invalid_input'};
     }
     if (error instanceof ServiceError) {
-      return {content: [{type: 'text', text: error.code + ': ' + error.message}], isError: true};
+      return {content: [{type: 'text', text: error.message}], isError: true,errorType:'service_error'};
     }
     throw error;
   }
@@ -229,6 +231,9 @@ async function execute(name: string, args: Record<string, unknown>): Promise<Mcp
 
 /** Bound streamed bodies as well as requests with Content-Length. */
 export async function POST(request: Request) {
+  const rejected=originError(request)??acceptError(request);
+  if(rejected)return rejected;
+  if(!allowMcpRequest())return Response.json(rpcError(null,-31000,'Too many requests'),{status:429,headers:{...headers,'Retry-After':'60'}});
   if (!/^application\/json(?:\s*;|$)/i.test(request.headers.get('content-type') ?? '')) {
     return Response.json(rpcError(null, -32600, 'Content-Type must be application/json'), {status: 415, headers});
   }
@@ -265,7 +270,14 @@ export async function POST(request: Request) {
   } catch {
     return Response.json(rpcError(null, -32700, 'Parse error'), {status: 400, headers});
   }
-  const response = await handleMcpMessage(message, tools, (name, args) => execute(name, args));
+  const invalidProtocol=protocolError(request,message);
+  if(invalidProtocol)return invalidProtocol;
+  const response = await handleMcpMessage(message, tools, (name, args) => auditedCall(env.DB,name,clientHint(request),()=>execute(name, args)));
   if (response === undefined) return new Response(null, {status: 202, headers});
-  return Response.json(response, {headers});
+  return Response.json(response, {headers,status:'error' in response?(response.error.code===-32601?404:400):200});
 }
+
+export const GET=unsupportedMcpMethod;
+export const DELETE=unsupportedMcpMethod;
+export const HEAD=unsupportedMcpMethod;
+export function OPTIONS(request:Request){return originError(request)??new Response(null,{status:204,headers:{...headers,Allow:'POST, OPTIONS'}});}

@@ -72,3 +72,17 @@ MCP 도슨트는 모델 API를 호출하지 않습니다. 사용자 자신의 AI
 각 서비스에서 원격 MCP를 연결할 수 있는 클라이언트·요금제·인증 경로를 확인해야 합니다. 코드 변경만으로 세 서비스의 지원이 보장되지 않습니다. 2026-07-28 discovery를 유지하며 2025-11-25·2025-06-18·2025-03-26 initialize 협상을 지원합니다. initialize의 알 수 없는 버전에는 지원하는 2025-11-25를 제안합니다. 실제 앱 연결·인증 호환은 별도 실증 대상입니다. [버전 협상 규칙](https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle)을 따릅니다.
 
 대표 주소 3~5곳으로 다음을 각각 확인하고 결과를 기록하세요: 주소 단일 후보, 복수 후보 선택, GPS 있음, GPS 없음, 서울 외 좌표, 직접 장소 기록 없음, 자료 없음, 출처 연결, 추가 질문. 현재 세 서비스의 실증 상태는 requires_live_test입니다.
+
+## 홈페이지 연결 안내와 관리자 감사 (2026-11-07)
+
+상단 메뉴의 **AI 안내**로 `/ai-guide`에 이동해 서비스별 안내와 질문을 복사합니다. 주소 선택 후 **내 AI로 이 장소의 역사 알아보기**도 같은 페이지로 이동하며 선택한 주소를 반영합니다. 실제 계정 연결 완료 여부를 홈페이지가 자동 판별하지는 않습니다. [서비스별 조건·검증 보고서](user-ai-implementation.md)를 확인하세요. 특히 Gemini 일반 웹 연결은 공식 문서상 미국·성인·개인 계정·영어 등의 조건이 있어 한국 계정에서 사용할 수 있다고 보장하지 않습니다.
+
+HTTP 요청에는 `Content-Type: application/json`, `Accept: application/json, text/event-stream`을 보냅니다. 본문은 32KiB 이하입니다. [2026-07-28 전송 규격](https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/streamable-http)에 따라 현대 버전은 `MCP-Protocol-Version`, `Mcp-Method`, 도구 실행의 `Mcp-Name`을 검사하며 버전은 `params._meta["io.modelcontextprotocol/protocolVersion"]`와 일치해야 합니다. 알 수 없는 버전은 HTTP 400/-32022, 헤더 불일치는 400/-32020입니다. 기존 initialize 기반 버전도 유지합니다. 버전 헤더 생략은 2025-03-26 하위 호환 요청으로 처리합니다.
+
+현대 버전은 `params._meta["io.modelcontextprotocol/clientCapabilities"]` 객체도 필수입니다(사용 기능이 없으면 `{}`). 필수 메타데이터 누락은 400/-32602로 거절합니다. 결과에는 `resultType:"complete"` 및 서버 정보 메타데이터를 포함합니다. [공통 메시지 규격](https://modelcontextprotocol.io/specification/2026-07-28/basic/index), [discovery 규격](https://modelcontextprotocol.io/specification/2026-07-28/server/discover)을 참고하세요.
+
+응답은 JSON이며 GET/DELETE는 405, 알림은 본문 없는 202입니다. 세션을 발급하지 않습니다. 동일 origin 또는 Origin 없는 서버 간 요청만 허용하며 별도 cross-origin 브라우저 CORS는 제공하지 않습니다. 인스턴스당 분당 120개 POST를 넘으면 429/Retry-After를 반환합니다. 배포 전체 제한은 WAF에서 추가해야 합니다.
+
+각 실행 결과의 `_meta.requestId` 및 추가 텍스트 `serverReceipt.requestId`는 서버가 만든 UUID입니다. 관리자는 `/admin/mcp`에서 `ARCHIVE_ADMIN_TOKEN`으로 조회합니다. `/api/admin/mcp-stats`는 인증 전에는 로그를 반환하지 않습니다. `get_answer_stats`는 기존 공개 집계만 제공하고 새 요청별 로그는 노출하지 않습니다.
+
+새 `mcp_tool_call_log`는 기존 KPI 테이블과 독립적이며 주소·질문·사진·GPS·API 키·AI 대화를 저장하지 않습니다. D1 저장 실패/미설정은 `auditPersisted:false`이며 구조화 호스팅 로그로 대체합니다. 요청 ID는 실제 저장된 로그와 대조해야 합니다. 클라이언트 종류는 미인증 추정이며 최종 답변 생성·토큰 소비·자료 사용을 증명하지 않습니다.

@@ -1,5 +1,11 @@
 # Vercel 배포
 
+## 사용자 AI MCP 추가 운영 설정
+
+`/mcp`는 로그인 없는 공개 자료 조회용입니다. 외부 AI에서 접근할 HTTPS URL을 연결하고 배포 보호가 로그인 HTML을 반환하지 않는지 확인하세요. 새 연결 UI가 현재 호스트의 `/mcp` URL을 표시합니다. `ARCHIVE_ADMIN_TOKEN`으로 `/admin/mcp`의 비공개 통계를 조회합니다. 관리자 키는 MCP 클라이언트에 입력하지 않습니다.
+
+D1 연결 시 `mcp_tool_call_log`와 시간 인덱스를 자동으로 추가합니다(CREATE IF NOT EXISTS, 기존 데이터 변경 없음). D1 API 토큰은 읽기/쓰기 및 초기 테이블 생성 권한이 필요합니다. 연결이 없거나 저장이 실패하면 도구 결과에 `auditPersisted:false`가 표시되고 개인정보 없는 호스팅 로그가 기록됩니다. 영구 통계 저장 성공과 혼동하지 마세요. `/mcp` 속도 제한은 인스턴스 단위이므로 Vercel WAF에도 배포 전체 제한을 구성하세요. [구현·검증 보고서](user-ai-implementation.md)에 서비스별 연결 조건, 테스트, 비용 범위가 있습니다.
+
 ## 이번 오류의 원인
 
 `NEXT_NO_ROUTES_MANIFEST`는 Vercel이 Next.js 산출물 `.next/routes-manifest.json`을 찾는데 기존 `pnpm build`가 Vinext/Cloudflare Worker 산출물을 `dist/`에 만들었기 때문에 발생했다. `dist/`를 Vercel 출력 폴더로 지정하거나 빈 manifest를 만들어서는 API가 동작하지 않는다.
