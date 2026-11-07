@@ -1,5 +1,6 @@
 import raw from '../data/video-workbooks/index.json';
 import pdfReferences from '../data/video-workbooks/pdf-references.json';
+import {loadVideoRecords} from './video-records';
 
 import type {CatalogVideo,VideoSource,VideoRelation,CatalogRecord,RawVideoRow} from './video-catalog-types';
 export const videoCatalog={...raw,items:raw.items as CatalogVideo[],files:raw.files as VideoSource[]};
@@ -39,8 +40,8 @@ export function filterVideoCatalog(items:CatalogVideo[],filters:{query?:string;d
 export function catalogOptions(){return {districts:Object.keys(videoCatalog.meta.districtRows).filter(Boolean).sort(),providers:[...new Set(videoCatalog.items.flatMap(i=>i.providers))].sort()};}
 export async function videoDetails(id:string){
  const item=videoCatalog.items.find(i=>i.id===id);if(!item)return null;
- const source=await import('../data/video-workbooks/records.json');
- const data=source.default as unknown as {records:Record<string,CatalogRecord>;rows:Record<string,RawVideoRow>};
+ const data=await loadVideoRecords(id);
+ if(!data)throw new Error('Video provenance shard is missing');
  const records=item.refs.map(ref=>data.records[ref]);
  const refs=[...new Set(records.flatMap(r=>[r.ref,...r.supportingRefs]))];
  const rows=refs.map(ref=>data.rows[ref]).filter(Boolean);

@@ -6,9 +6,23 @@ import {videoCatalog,videoDetails,filterVideoCatalog,videoRelation} from '../lib
 import {GET} from '../app/api/archive/video-research/route.ts';
 import legacy from '../data/consolidated-video-research.json';
 import original from '../data/video-workbooks/records.json';
+import {loadVideoRecords} from '../lib/video-records.ts';
 const records=Object.values(original.records);
 const uploaded=records.filter(r=>!r.ref.startsWith('legacy:'));
 const query=async params=>{const r=await GET(new Request('https://example.test/api/archive/video-research?dataset=combined&'+params));return {status:r.status,body:await r.json()};};
+
+test('every packed video preserves all original provenance and keeps decoded shards bounded',async()=>{
+ for(const item of videoCatalog.items){
+  const shard=await loadVideoRecords(item.id);assert.ok(shard);
+  for(const ref of item.refs){
+   assert.deepEqual(shard.records[ref],original.records[ref]);
+   for(const row of [ref,...original.records[ref].supportingRefs])if(original.rows[row])assert.deepEqual(shard.rows[row],original.rows[row]);
+  }
+ }
+ assert.equal(await loadVideoRecords('missing'),null);
+ const source=readFileSync(new URL('../lib/video-catalog.ts',import.meta.url),'utf8');
+ assert.doesNotMatch(source,/import\(['"]\.\.\/data\/video-workbooks\/records\.json/);
+});
 
 test('all 26 workbooks, 25 districts and actual single PDF retain byte-identical originals',()=>{
  assert.equal(videoCatalog.meta.workbookCount,26);assert.equal(videoCatalog.meta.districtCount,25);assert.equal(videoCatalog.meta.pdfCount,1);
