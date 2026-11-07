@@ -1,6 +1,4 @@
 import type {Metadata} from 'next';
-import report from '@/data/uploaded-city-history-report-2026-10-20.json';
-import VideoResearch from './video-research';
 import VideoResearchPanel from '@/app/components/VideoResearchPanel';
 import './video-research.css';
 
@@ -10,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function VideoResearchPage() {
-  return <main><a href="/">서울 장소 도슨트로 돌아가기</a><VideoResearchPanel archive/><details className="legacy-video-report"><summary>이전 PDF 조사 항목 215개 보기</summary><VideoResearch report={report}/></details></main>;
+  return <main><a href="/">서울 장소 도슨트로 돌아가기</a><VideoResearchPanel archive/></main>;
 }
