@@ -86,3 +86,12 @@ HTTP 요청에는 `Content-Type: application/json`, `Accept: application/json, t
 각 실행 결과의 `_meta.requestId` 및 추가 텍스트 `serverReceipt.requestId`는 서버가 만든 UUID입니다. 관리자는 `/admin/mcp`에서 `ARCHIVE_ADMIN_TOKEN`으로 조회합니다. `/api/admin/mcp-stats`는 인증 전에는 로그를 반환하지 않습니다. `get_answer_stats`는 기존 공개 집계만 제공하고 새 요청별 로그는 노출하지 않습니다.
 
 새 `mcp_tool_call_log`는 기존 KPI 테이블과 독립적이며 주소·질문·사진·GPS·API 키·AI 대화를 저장하지 않습니다. D1 저장 실패/미설정은 `auditPersisted:false`이며 구조화 호스팅 로그로 대체합니다. 요청 ID는 실제 저장된 로그와 대조해야 합니다. 클라이언트 종류는 미인증 추정이며 최종 답변 생성·토큰 소비·자료 사용을 증명하지 않습니다.
+
+### 스마트폰 사진으로 시작하기
+
+- 모바일 웹에서 GPS가 저장된 **JPEG 또는 HEIC/HEIF 원본(20MB 이하)**을 선택합니다. 사진 파일과 이미지 픽셀은 브라우저에 남고, 주소를 찾을 때 좌표만 기존 지도 주소 API로 보냅니다.
+- 웹에서 촬영 위치에 해당하는 주소 후보를 고르면 기존 장소 화면에서 역사 이야기, 출처가 있는 사진과 관련 영상을 볼 수 있습니다. 주소 후보가 없고 법정동을 확인했으면 동네 기록을 표시합니다. GPS가 없거나 조회에 실패하면 주소를 입력하거나 지도에서 위치를 선택할 수 있습니다.
+- **내 AI로 이 장소의 역사 알아보기**에서 확인한 주소가 담긴 질문을 복사해 MCP를 연결한 AI에 붙여넣습니다. AI가 원본 GPS를 실제로 전달할 수 있는 환경에서는 `resolve_photo_location`부터 시작하고, 반환된 후보를 사용자에게 확인합니다. 지원 여부는 AI 앱과 업로드 경로에 따라 달라집니다.
+- `prepare_place_answer`의 `videos.records`는 기존 영상 카탈로그에서 찾은 최대 3개 후보입니다. 구간에는 원자료 시간 및 확인 상태가 포함됩니다. 구간이 기재되지 않은 경우와 구간 자료를 읽지 못한 경우는 `segmentStatus`로 구분합니다. 영상은 참고자료이며 문단의 기계적 검증에는 기존 역사 기록 ID를 사용합니다.
+
+사진/현재 위치 결과의 운영자 AI 생성은 버튼으로 실행합니다. `videos.records[].verifiedSegments`만 검증된 시간 링크이며, 없으면 `playbackStatus`에 재생구간 미검증을 표시합니다. 기존 원자료 시간과 혼동하지 마세요. [사진 기반 구현·검증 보고서](photo-docent-implementation.md)를 참고하세요.
