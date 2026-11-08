@@ -1,9 +1,11 @@
 import test from 'node:test';
+import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
 import app from '../.mcp-public/api/public-mcp.mjs';
 const request=(method,params={})=>new Request('https://package.test/mcp',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json, text/event-stream'},body:JSON.stringify({jsonrpc:'2.0',id:1,method,params})});
 const data=r=>JSON.parse(r.result.content[0].text);
 test('deployable package resolves photo coordinates and prepares and validates evidence without a model',async()=>{
+ const originalCwd=process.cwd();process.chdir(fileURLToPath(new URL('../.mcp-public/',import.meta.url)));
  const saved={...process.env},original=globalThis.fetch,info=console.info;const calls=[];console.info=()=>{};
  process.env.JUSO_API_KEY='fixture-key';process.env.KAKAO_REST_API_KEY='fixture-map-key';process.env.OPENAI_API_KEY='must-not-be-used';delete process.env.CLOUDFLARE_ACCOUNT_ID;
  const address={roadAddr:'서울특별시 종로구 사직로 161',jibunAddr:'서울특별시 종로구 세종로 1-1',siNm:'서울특별시',sggNm:'종로구',emdNm:'세종로',admCd:'1111011900',bdMgtSn:'fixture',bdNm:'경복궁',lnbrMnnm:'1',lnbrSlno:'1',mtYn:'0',zipNo:'03045'};
@@ -31,11 +33,11 @@ test('deployable package resolves photo coordinates and prepares and validates e
   const packet=await call('prepare_place_answer',{token,question,questionType:'동네 역사'});
   assert.equal(packet.mode,'client_ai');assert.equal(packet.generation.serverAiCalls,0);
   assert.ok(packet.neighborhood.records.length>0);
-  assert.ok(packet.videos.records.length>0);
+  assert.ok(packet.videos.records.length>0);assert.ok(packet.videos.records.every(r=>r.sources.length>0&&Array.isArray(r.verifiedSegments)));
   assert.ok(packet.videos.records.every(record=>record.segmentStatus!=='unavailable'));
   const record=packet.neighborhood.records[0];
   const validated=await call('validate_place_answer',{token,question,answer:{question_type:'동네 역사',paragraphs:[{heading:'기록',text:'자료가 남아 있어요.',evidence_ids:[record.id]}],held:[]}});
   assert.equal(validated.valid,true);
   assert.deepEqual(calls.sort(),['business.juso.go.kr','dapi.kakao.com','dapi.kakao.com']);
- }finally{globalThis.fetch=original;console.info=info;for(const k of Object.keys(process.env))if(!(k in saved))delete process.env[k];Object.assign(process.env,saved);}
+ }finally{process.chdir(originalCwd);globalThis.fetch=original;console.info=info;for(const k of Object.keys(process.env))if(!(k in saved))delete process.env[k];Object.assign(process.env,saved);}
 });

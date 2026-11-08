@@ -9,10 +9,10 @@ export function readPhotoGps(buffer:ArrayBuffer):{x:number;y:number}|null{
     const u16=(p:number)=>{if(p<start||p+2>end)throw Error();return v.getUint16(p,little);};const u32=(p:number)=>{if(p<start||p+4>end)throw Error();return v.getUint32(p,little);};if(u16(start+2)!==42)return null;
     const ifd=start+u32(start+4),count=u16(ifd);if(count>1024)return null;let gps=0;
     for(let i=0;i<count;i++){const p=ifd+2+i*12;if(u16(p)===0x8825&&u16(p+2)===4&&u32(p+4)===1)gps=start+u32(p+8);}
-    if(!gps)return null;const n=u16(gps);if(n>64)return null;let lat:number[]|undefined,lon:number[]|undefined,ns='',ew='';
+    if(!gps){pos+=2+size;continue;}const n=u16(gps);if(n>64)return null;let lat:number[]|undefined,lon:number[]|undefined,ns='',ew='';
     for(let i=0;i<n;i++){const p=gps+2+i*12,tag=u16(p),type=u16(p+2),cnt=u32(p+4);if([1,3].includes(tag)&&type===2&&cnt===2){const char=String.fromCharCode(v.getUint8(p+8));if(tag===1)ns=char;else ew=char;}
      if([2,4].includes(tag)&&type===5&&cnt===3){const at=start+u32(p+8),a=[];for(let j=0;j<3;j++){const denominator=u32(at+j*8+4);if(!denominator)return null;a.push(u32(at+j*8)/denominator);}if(tag===2)lat=a;else lon=a;}}
-    if(!lat||!lon||!['N','S'].includes(ns)||!['E','W'].includes(ew)||lat[1]>=60||lat[2]>=60||lon[1]>=60||lon[2]>=60)return null;
+    if(!lat||!lon||!['N','S'].includes(ns)||!['E','W'].includes(ew)||lat[0]>90||lon[0]>180||lat[1]>=60||lat[2]>=60||lon[1]>=60||lon[2]>=60)return null;
     const y=(lat[0]+lat[1]/60+lat[2]/3600)*(ns==='S'?-1:1),x=(lon[0]+lon[1]/60+lon[2]/3600)*(ew==='W'?-1:1);
     return Number.isFinite(x)&&Number.isFinite(y)&&Math.abs(x)<=180&&Math.abs(y)<=90?{x,y}:null;
    }pos+=2+size;
@@ -43,4 +43,20 @@ export async function readPhonePhotoGps(buffer: ArrayBuffer): Promise<{x: number
  } catch {
   return null;
  }
+}
+
+export const MAX_PHOTO_BYTES=20*1024*1024;
+export type PhotoLocationResult={status:'ready';point:{x:number;y:number}}|{status:'empty'|'too_large'|'unsupported'|'no_gps'|'outside_seoul'};
+/** Inspect only supported file bytes on the user's device; never upload a photo. */
+export async function inspectPhonePhotoLocation(buffer:ArrayBuffer):Promise<PhotoLocationResult>{
+ if(!buffer.byteLength)return {status:'empty'};
+ if(buffer.byteLength>MAX_PHOTO_BYTES)return {status:'too_large'};
+ const v=new DataView(buffer);
+ const jpeg=v.byteLength>=2&&v.getUint16(0)===0xffd8;
+ const heif=v.byteLength>=16&&v.getUint32(0)>=16&&v.getUint32(4)===0x66747970&&/heic|heix|hevc|hevx|mif1|msf1/.test(new TextDecoder().decode(new Uint8Array(buffer,8,Math.min(v.getUint32(0)-8,v.byteLength-8))));
+ if(!jpeg&&!heif)return {status:'unsupported'};
+ const point=await readPhonePhotoGps(buffer);
+ if(!point)return {status:'no_gps'};
+ if(point.x<126.7||point.x>127.3||point.y<37.4||point.y>37.8)return {status:'outside_seoul'};
+ return {status:'ready',point};
 }

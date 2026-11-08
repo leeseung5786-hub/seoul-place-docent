@@ -203,7 +203,7 @@ async function execute(name: string, args: Record<string, unknown>): Promise<Mcp
         const packet=await generatePlaceAnswer({address,story,question:input.question,questionType:input.questionType});
         await logClientDocent(env.DB,{event:'retrieval',ms:Date.now()-startedAt,ok:packet.status==='ready',records:packet.neighborhood.selected,type:input.questionType});
         const videos=await getDocentVideoCandidates(address.sggNm,address.emdNm);
-        return textResult({...packet,videos,instructions:packet.instructions+'\n10) 관련 영상은 별도 참고자료로 안내하세요. 역사 서술의 검증 근거에는 neighborhood 기록 ID를 사용하세요. 원자료 시간과 독립 검증 상태를 구분하세요.'});
+        return textResult({...packet,videos,instructions:packet.instructions+'\n10) 관련 영상은 별도 참고자료로 안내하세요. 역사 서술의 검증 근거에는 neighborhood 기록 ID를 사용하세요. 원자료 시간과 독립 검증 상태를 구분하세요. verifiedSegments만 검증된 시간 링크이며 비어 있으면 playbackStatus의 재생구간 미검증을 명시하세요. 영상 후보를 입력 건물의 과거 모습으로 단정하지 마세요.'});
       }
       case 'get_answer_stats': {
         const input = z.object({days: z.number().int().min(1).max(365).default(30)}).strict().parse(args);
