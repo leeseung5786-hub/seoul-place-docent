@@ -1,4 +1,25 @@
-/** Read JPEG EXIF GPS locally. No image pixels or file bytes leave the browser. */
+import exifr from 'exifr';
+
+export type PhotoGpsInspection = {status:'ok';format:'jpeg'|'heic'|'png';exifPresent:true;gpsPresent:true;point:{x:number;y:number}} | {status:'gps_missing'|'exif_corrupt'|'invalid_coordinates'|'format_mismatch'|'unsupported_format';format:string;exifPresent:boolean;gpsPresent:boolean};
+
+/** Inspect real file content and read GPS in the browser. Never uploads or stores image bytes. */
+export async function inspectPhotoGps(file:Pick<File,'name'|'type'|'arrayBuffer'>):Promise<PhotoGpsInspection>{
+ const b=new Uint8Array(await file.arrayBuffer());const ascii=(a:number,z:number)=>String.fromCharCode(...b.slice(a,z));let format:string='unknown';
+ if(b.length>=3&&b[0]===255&&b[1]===216&&b[2]===255)format='jpeg';
+ else if(b.length>=12&&ascii(4,8)==='ftyp'){const brand=ascii(8,12);if(['heic','heix','hevc','hevx','mif1','msf1'].includes(brand))format='heic';}
+ else if(b.length>=8&&[137,80,78,71,13,10,26,10].every((v,i)=>b[i]===v))format='png';
+ const ext=file.name.split('.').pop()?.toLowerCase()||'';const declared=file.type.toLowerCase();const extensionMismatch=(format==='jpeg'&&!['jpg','jpeg'].includes(ext))||(format==='heic'&&!['heic','heif'].includes(ext))||(format==='png'&&ext!=='png');const mimeMismatch=!!declared&&!((format==='jpeg'&&declared==='image/jpeg')||(format==='heic'&&['image/heic','image/heif','image/heic-sequence','image/heif-sequence','application/octet-stream'].includes(declared))||(format==='png'&&declared==='image/png'));
+ if(format==='unknown')return {status:'unsupported_format',format,exifPresent:false,gpsPresent:false};
+ if(extensionMismatch||mimeMismatch)return {status:'format_mismatch',format,exifPresent:false,gpsPresent:false};
+ if(format==='png')return {status:'gps_missing',format,exifPresent:false,gpsPresent:false};
+ try{const tags=await exifr.parse(b,{tiff:true,exif:true,gps:true,xmp:false,icc:false,iptc:false});if(!tags)return {status:'gps_missing',format,exifPresent:false,gpsPresent:false};
+  const gps=await exifr.gps(b);if(!tags.GPSLatitude&&!tags.GPSLongitude)return {status:'gps_missing',format,exifPresent:true,gpsPresent:false};
+  const {latitude,longitude}=gps||{};if(!Number.isFinite(latitude)||!Number.isFinite(longitude)||Math.abs(latitude)>90||Math.abs(longitude)>180)return {status:'invalid_coordinates',format,exifPresent:true,gpsPresent:true};
+  return {status:'ok',format:format as 'jpeg'|'heic',exifPresent:true,gpsPresent:true,point:{x:longitude,y:latitude}};
+ }catch{return {status:'exif_corrupt',format,exifPresent:true,gpsPresent:false};}
+}
+
+/** Legacy strict JPEG GPS reader retained for existing callers. */
 export function readPhotoGps(buffer:ArrayBuffer):{x:number;y:number}|null{
  try{
   const v=new DataView(buffer);if(v.byteLength<4||v.getUint16(0)!==0xffd8)return null;
