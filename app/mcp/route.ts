@@ -8,7 +8,7 @@ import {searchAddresses, ServiceError, verifyAddress} from '@/lib/providers';
 import {generatePlaceAnswer, placeAnswerStats, pickScenes, validateAnswer, sceneSource, logClientDocent, QUESTION_TYPES} from '@/lib/place-answer';
 import {handleMcpMessage, rpcError, textResult, type McpTool, type McpToolResult} from '@/lib/mcp-protocol';
 import {auditedCall,clientHint} from '@/lib/mcp-audit';
-import {originError,acceptError,protocolError,allowMcpRequest,unsupportedMcpMethod} from '@/lib/mcp-http';
+import {originError,configuredMcpOrigins,acceptError,protocolError,allowMcpRequest,unsupportedMcpMethod} from '@/lib/mcp-http';
 
 export const dynamic = 'force-dynamic';
 const MAX_BODY_BYTES = 32768;
@@ -231,7 +231,7 @@ async function execute(name: string, args: Record<string, unknown>): Promise<Mcp
 
 /** Bound streamed bodies as well as requests with Content-Length. */
 export async function POST(request: Request) {
-  const rejected=originError(request)??acceptError(request);
+  const rejected=originError(request,configuredMcpOrigins(env.MCP_ALLOWED_ORIGINS))??acceptError(request);
   if(rejected)return rejected;
   if(!allowMcpRequest())return Response.json(rpcError(null,-31000,'Too many requests'),{status:429,headers:{...headers,'Retry-After':'60'}});
   if (!/^application\/json(?:\s*;|$)/i.test(request.headers.get('content-type') ?? '')) {
@@ -277,7 +277,7 @@ export async function POST(request: Request) {
   return Response.json(response, {headers,status:'error' in response?(response.error.code===-32601?404:400):200});
 }
 
-export const GET=unsupportedMcpMethod;
-export const DELETE=unsupportedMcpMethod;
-export const HEAD=unsupportedMcpMethod;
-export function OPTIONS(request:Request){return originError(request)??new Response(null,{status:204,headers:{...headers,Allow:'POST, OPTIONS'}});}
+export function GET(request:Request){return unsupportedMcpMethod(request,configuredMcpOrigins(env.MCP_ALLOWED_ORIGINS));}
+export const DELETE=GET;
+export const HEAD=GET;
+export function OPTIONS(request:Request){return originError(request,configuredMcpOrigins(env.MCP_ALLOWED_ORIGINS))??new Response(null,{status:204,headers:{...headers,Allow:'POST, OPTIONS'}});}

@@ -1,0 +1,15 @@
+import {execFileSync} from 'node:child_process';
+import {cp,mkdir} from 'node:fs/promises';
+const sha=process.env.SOURCE_COMMIT;
+if(!/^[a-f0-9]{40}$/.test(sha||''))throw new Error('SOURCE_COMMIT must be an exact verified GitHub commit SHA');
+const run=(bin,args,options={})=>execFileSync(bin,args,{stdio:'inherit',...options});
+run('git',['init','source']);
+run('git',['remote','add','origin','https://github.com/xeonica/seoul-place-docent.git'],{cwd:'source'});
+run('git',['fetch','--depth','1','origin',sha],{cwd:'source'});
+run('git',['checkout','--detach','FETCH_HEAD'],{cwd:'source'});
+const actual=execFileSync('git',['rev-parse','HEAD'],{cwd:'source',encoding:'utf8'}).trim();
+if(actual!==sha)throw new Error('Source commit mismatch');
+run('corepack',['pnpm','install','--frozen-lockfile'],{cwd:'source'});
+run('corepack',['pnpm','run','build:mcp-public:vercel'],{cwd:'source'});
+await mkdir('.vercel',{recursive:true});
+await cp('source/.vercel/output','.vercel/output',{recursive:true});
