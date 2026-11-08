@@ -20,7 +20,7 @@ import MuseumPublicationsPanel from './MuseumPublicationsPanel';
 import ClosedBuildingsPanel from './ClosedBuildingsPanel';
 import DocentStory from './DocentStory';
 import VideoResearchPanel from './VideoResearchPanel';
-import {inspectPhonePhotoLocation} from '@/lib/photo-gps';
+import {inspectPhotoGps} from '@/lib/photo-gps';
 import '../docent.css';
 import type {PlaceContext, MuseumPublications} from '@/lib/place-context';
 type Result = {selectionMode?:'map';address:Address;history:Region[];building:{status:string;message?:string;data?:{items:Building[];parcelCandidates:Building[];total:number;truncated:boolean;queriedAt:string;sourceUrl:string}};coordinates:{status:string;message?:string;data?:{status:string;message?:string;x?:number;y?:number;administrativeDong?:string;queriedAt?:string}};queriedAt:string};
@@ -101,20 +101,25 @@ export default function Home({language='ko'}:{language?:'ko'|'en'}){
   const version=++requestVersion.current;setPendingNeighborhood(null);
   setPhotoLoading(true);
   try{
-   setPhotoMessage(en?'Reading GPS on your device…':'기기 안에서 GPS를 읽고 있어요…');
-   const checked=await inspectPhonePhotoLocation(await file.arrayBuffer());
+   setPhotoMessage(en?'Reading GPS on your device…':'기기 안에서 EXIF와 GPS를 검사하고 있어요…');
+   const checked=await inspectPhotoGps(file);
    if(version!==requestVersion.current)return;
-   if(checked.status!=='ready'){
-    const messages={empty:'빈 파일이에요. 카메라 원본을 선택해 주세요.',too_large:'20MB 이하의 사진을 선택해 주세요.',unsupported:'JPEG 또는 HEIC/HEIF 원본을 선택해 주세요.',no_gps:'GPS를 찾지 못했거나 EXIF가 손상됐어요. 원본 사진·주소·지도·현재 위치를 이용해 주세요.',outside_seoul:'사진 GPS가 서울 지원 범위를 벗어나 있어요. 서울 주소나 지도를 이용해 주세요.'};
+   if(checked.status!=='ok'){
+    const messages={gps_missing:'사진에 GPS 위치정보가 없어요. EXIF가 남은 원본을 선택하거나 주소·지도·현재 위치를 이용해 주세요.',exif_corrupt:'사진 EXIF가 손상되어 읽을 수 없어요. 원본을 다시 복사해 주세요.',invalid_coordinates:'사진의 GPS 좌표가 유효하지 않아요. 원본을 다시 확인해 주세요.',format_mismatch:'파일 확장자 또는 MIME 형식과 실제 사진 형식이 달라요. 카메라 원본을 선택해 주세요.',unsupported_format:'지원하지 않는 사진 형식이에요. JPEG 또는 HEIC/HEIF를 선택해 주세요.'};
     setPhotoMessage(en?'GPS unavailable. Use an original GPS JPEG/HEIC, a Seoul address, the map, or current location.':messages[checked.status]);
     document.getElementById('address')?.focus();
     return;
    }
+   const {point}=checked;
+   if(point.x<126.7||point.x>127.3||point.y<37.4||point.y>37.8){
+    setPhotoMessage(en?'This photo’s GPS is outside the supported Seoul area.':'사진의 GPS가 서울 지원 범위를 벗어나 있어요. 서울 주소나 지도를 이용해 주세요.');
+    return;
+   }
    setPhotoMessage(en?'GPS found. Looking up the camera location.':'GPS를 찾았어요. 촬영 위치의 주소를 확인할게요.');
-   await pickMap(checked.point,true);
+   await pickMap(point,true);
   }catch{
    if(version===requestVersion.current)setPhotoMessage(en?'Unable to read this photo. Pick a map point or enter an address.':'사진을 읽지 못했어요. 지도에서 위치를 고르거나 주소를 입력해 주세요.');
-  }finally{setPhotoLoading(false);}
+  }finally{setPhotoLoading(false);if(photoInput.current)photoInput.current.value='';}
  }
  function confirmNeighborhood(){
   const location=pendingNeighborhood;if(!location)return;setPendingNeighborhood(null);setPhotoMessage('');
