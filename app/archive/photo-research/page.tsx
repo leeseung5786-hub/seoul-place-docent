@@ -1,5 +1,5 @@
 import type {Metadata} from 'next';
-import summary from '@/data/photo-research/combined-summary.json';
+import summary from '@/data/archive-workbook/summary.json';
 import PhotoResearch from './photo-research';
 import type {PhotoResearchMeta} from '@/lib/photo-research';
 import './photo-research.css';
