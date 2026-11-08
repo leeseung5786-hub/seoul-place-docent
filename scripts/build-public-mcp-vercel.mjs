@@ -1,0 +1,12 @@
+import './build-public-mcp.mjs';
+import {mkdir,rm,copyFile,writeFile} from 'node:fs/promises';
+const output=new URL('../.vercel/output/',import.meta.url);
+await rm(output,{recursive:true,force:true});
+await mkdir(new URL('functions/mcp.func/',output),{recursive:true});
+await mkdir(new URL('static/',output),{recursive:true});
+await copyFile(new URL('../.mcp-public/api/public-mcp.mjs',import.meta.url),new URL('functions/mcp.func/app.mjs',output));
+await copyFile(new URL('../.mcp-public/public/index.html',import.meta.url),new URL('static/index.html',output));
+await copyFile(new URL('../deploy/public-mcp/node-handler.mjs',import.meta.url),new URL('functions/mcp.func/index.mjs',output));
+await writeFile(new URL('functions/mcp.func/.vc-config.json',output),JSON.stringify({runtime:'nodejs22.x',handler:'index.mjs',launcherType:'Nodejs',maxDuration:60}));
+await writeFile(new URL('config.json',output),JSON.stringify({version:3,routes:[{src:'/health',dest:'/mcp?__route=health'},{handle:'filesystem'},{src:'/.*',status:404}]}));
+console.log('Vercel Build Output API package prepared.');

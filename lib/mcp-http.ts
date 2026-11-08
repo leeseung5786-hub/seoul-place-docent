@@ -1,9 +1,15 @@
 import {isObject,MCP_VERSION,MCP_SUPPORTED_VERSIONS,rpcError} from './mcp-protocol';
 
 export const mcpHeaders={'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'};
-export function originError(request:Request) {
+export function originError(request:Request,allowedOrigins:string[] = []) {
  const origin=request.headers.get('origin');
- if(origin&&origin!==new URL(request.url).origin)return Response.json(rpcError(null,-32600,'Origin not allowed'),{status:403,headers:mcpHeaders});
+ if(origin&&origin!==new URL(request.url).origin&&!allowedOrigins.includes(origin))return Response.json(rpcError(null,-32600,'Origin not allowed'),{status:403,headers:mcpHeaders});
+}
+/** Explicit HTTPS origins only, never a wildcard or proof of caller identity. */
+export function configuredMcpOrigins(value:string|undefined):string[]{
+ return [...new Set((value||'').split(',').map(v=>v.trim()).filter(v=>{
+  try {const u=new URL(v);return u.protocol==='https:'&&u.origin===v&&!u.username&&!u.password;}catch{return false;}
+ }))];
 }
 // Instance-wide bound: no stored IP/identity and no spoofable per-user quota.
 // Multi-instance/global abuse limits must additionally be configured at the edge.
@@ -38,6 +44,6 @@ export function protocolError(request:Request,message:unknown) {
   if(version!==bodyVersion||!version||request.headers.get('mcp-method')!==method||(['tools/call','resources/read','prompts/get'].includes(String(method))&&decodeName(request.headers.get('mcp-name'))!==(params.name??params.uri)))return Response.json(rpcError(id,-32020,'Missing or mismatched MCP metadata headers'),{status:400,headers:mcpHeaders});
  }
 }
-export function unsupportedMcpMethod(request:Request) {
- return originError(request)??new Response(null,{status:405,headers:{...mcpHeaders,Allow:'POST, OPTIONS'}});
+export function unsupportedMcpMethod(request:Request,allowedOrigins:string[] = []) {
+ return originError(request,allowedOrigins)??new Response(null,{status:405,headers:{...mcpHeaders,Allow:'POST, OPTIONS'}});
 }

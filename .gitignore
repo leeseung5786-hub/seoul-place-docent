@@ -62,3 +62,7 @@ __pycache__/
 /data/video-workbooks/records-packed.json
 
 /public/research/video-records/
+
+# Isolated public MCP deployment and private test receipts
+/.mcp-public/
+/.mcp-test-results/

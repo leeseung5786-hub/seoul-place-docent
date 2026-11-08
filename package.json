@@ -16,7 +16,9 @@
     "dev:vercel": "node scripts/pack-video-records.mjs && next dev",
     "start:vercel": "next start",
     "test": "node scripts/pack-video-records.mjs && node --experimental-transform-types --import ./tests/ts-resolver.mjs --test tests/*.test.mjs",
-    "typecheck": "node scripts/pack-video-records.mjs && tsc --noEmit --incremental false"
+    "typecheck": "node scripts/pack-video-records.mjs && tsc --noEmit --incremental false",
+    "build:mcp-public": "node scripts/build-public-mcp.mjs",
+    "build:mcp-public:vercel": "node scripts/build-public-mcp-vercel.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
