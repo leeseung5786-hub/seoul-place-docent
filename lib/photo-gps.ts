@@ -19,3 +19,28 @@ export function readPhotoGps(buffer:ArrayBuffer):{x:number;y:number}|null{
   }return null;
  }catch{return null;}
 }
+
+/** Keep the existing JPEG parser; load the HEIF metadata reader only for ISO BMFF files. */
+export async function readPhonePhotoGps(buffer: ArrayBuffer): Promise<{x: number; y: number} | null> {
+ const view = new DataView(buffer);
+ if (view.byteLength < 12 || view.getUint32(4) !== 0x66747970) return readPhotoGps(buffer);
+ // Reject malformed top-level boxes before handing the file to the HEIF parser.
+ let offset = 0;
+ while (offset + 8 <= view.byteLength) {
+  const size = view.getUint32(offset);
+  if (size < 8 || offset + size > view.byteLength) return null;
+  if (view.getUint32(offset + 4) === 0x6d657461) break;
+  offset += size;
+ }
+ if (offset + 12 > view.byteLength || view.getUint32(offset) < 12) return null;
+ try {
+  const {default: exifr} = await import('exifr');
+  const coordinates = await exifr.gps(buffer);
+  if (!coordinates) return null;
+  const {latitude, longitude} = coordinates;
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || Math.abs(latitude) > 90 || Math.abs(longitude) > 180) return null;
+  return {x: longitude, y: latitude};
+ } catch {
+  return null;
+ }
+}

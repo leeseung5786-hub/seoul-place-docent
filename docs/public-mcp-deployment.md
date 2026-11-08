@@ -14,7 +14,7 @@ pnpm run build:mcp-public
 vercel deploy .mcp-public --prod
 ```
 
-`.mcp-public`은 별도 Vercel 프로젝트로 배포할 완성 패키지입니다. 자체 `vercel.json`은 framework=null이고 Node 22 Web Standard Function을 사용합니다. 기존 루트 `vercel.json`은 수정하지 않습니다. 함수는 단일 파일로 번들링돼 Node 런타임의 tsconfig 경로 매핑 미지원 문제를 피합니다. 패키지에는 키·토큰을 저장하지 않습니다. GitHub 원본은 버전 관리하며 생성 패키지는 제외합니다.
+`.mcp-public`은 별도 Vercel 프로젝트로 배포할 완성 패키지입니다. 자체 `vercel.json`은 framework=null이고 Node 22 Web Standard Function을 사용합니다. 기존 루트 `vercel.json`은 수정하지 않습니다. 함수 코드는 단일 파일로 번들링해 Node 런타임의 tsconfig 경로 매핑 미지원 문제를 피합니다. 빌드는 영상 구간 조회에 필요한 기존 영상 자료 샤드도 함께 묶습니다. 패키지에는 키·토큰을 저장하지 않습니다. GitHub 원본은 버전 관리하며 생성 패키지는 제외합니다.
 
 기존 홈페이지의 Vercel 프로젝트에 덮어쓰지 말고 전용 프로젝트를 만드세요. 배포 후 **안정적인 Production 도메인**을 사용하세요. 임시 Preview URL에 걸린 로그인 보호나 자동화 우회 토큰을 일반 사용자에게 나눠주지 않습니다. 공개 MCP 전용 프로젝트의 Production에 Vercel Authentication/Password Protection이 걸려 있으면 무인증 연결이 실패합니다. 공개 프로젝트의 보호 설정은 계정에서 별도로 설정해야 하며 vercel.json의 public 옵션으로 해결된다고 가정하지 않습니다.
 

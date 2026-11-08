@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {historicalDate,readingText,groupStoryPhotos,buildDocentStory} from '../lib/docent-story.ts';
 import {getDocentStory} from '../lib/docent-data.ts';
-import {readPhotoGps} from '../lib/photo-gps.ts';
+import {readPhonePhotoGps,readPhotoGps} from '../lib/photo-gps.ts';
 import {validateSceneTranslations} from '../lib/docent-translation.ts';
 test('historical date takes precedence over capture/publication date and keeps uncertainty',()=>{
  assert.equal(historicalDate({'역사적대상시기':'1930년경','촬영·제작일':'2014-01-01','게시·발행일':'2026'}).year,1930);
@@ -42,6 +42,28 @@ function jpegGps(little=true){
 test('local GPS parser supports both TIFF byte orders and safely rejects no-GPS/malformed files',()=>{
  for(const little of [true,false]){const gps=readPhotoGps(jpegGps(little));assert.ok(Math.abs(gps.y-(37+34/60))<1e-9);assert.ok(Math.abs(gps.x-(126+58/60))<1e-9);}
  assert.equal(readPhotoGps(new ArrayBuffer(5)),null);assert.equal(readPhotoGps(jpegGps().slice(0,90)),null);
+});
+test('phone flow reads JPEG and HEIC GPS and rejects truncated metadata',async()=>{
+ const box=(type,...data)=>{
+  const header=Buffer.alloc(8);
+  header.writeUInt32BE(8+data.reduce((size,item)=>size+item.length,0));
+  header.write(type,4);
+  return Buffer.concat([header,...data]);
+ };
+ const exif=Buffer.concat([Buffer.alloc(4),Buffer.from(jpegGps()).subarray(12)]);
+ const ftyp=box('ftyp',Buffer.from('heic'),Buffer.alloc(4),Buffer.from('mif1heic'));
+ const entry=box('infe',Buffer.from([2,0,0,0,0,1,0,0]),Buffer.from('Exif'),Buffer.alloc(1));
+ const info=box('iinf',Buffer.from([0,0,0,0,0,1]),entry);
+ const loc=Buffer.from([0,0,0,0,0x44,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0]);
+ const meta=()=>box('meta',Buffer.alloc(4),info,box('iloc',loc));
+ loc.writeUInt32BE(ftyp.length+meta().length+8,14);
+ loc.writeUInt32BE(exif.length,18);
+ const heic=Uint8Array.from(Buffer.concat([ftyp,meta(),box('mdat',exif)])).buffer;
+ const expected=readPhotoGps(jpegGps());
+ assert.deepEqual(await readPhonePhotoGps(jpegGps()),expected);
+ assert.deepEqual(await readPhonePhotoGps(heic),expected);
+ assert.equal(await readPhonePhotoGps(heic.slice(0,70)),null);
+ assert.equal(await readPhonePhotoGps(new ArrayBuffer(4)),null);
 });
 test('translation validation keeps IDs and years and rejects inserted historical dates',()=>{
  const scene={id:'s',title:'1975년의 거리',text:'사진 속 장소는 미확인입니다.'};assert.equal(validateSceneTranslations({scenes:[{id:'s',title:'The street in 1975',text:'The exact location is unverified.'}]},[scene]).length,1);

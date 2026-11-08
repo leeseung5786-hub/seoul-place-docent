@@ -22,9 +22,16 @@ const numbers=(s:string)=>new Set((s.match(/\d[\d,.]*\d|\d/g)||[]).map(n=>n.repl
 const tokens=(s:string)=>s.replace(/[^가-힣a-zA-Z0-9]+/g,' ').split(' ').filter(w=>w.length>=2);
 
 /** Choose up to `max` records: those sharing words with the question first, then spread across time. */
-export function pickScenes(story:DocentStory,question:string,max=14):StoryScene[]{
+export function pickScenes(story:DocentStory,question:string,max=14,placeName=''):StoryScene[]{
   const q=new Set(tokens(question).map(w=>w.replace(/(은|는|이|가|을|를|의|에|에서|로|으로|와|과|도)$/,'')));
+  const compact=(value:string)=>value.normalize('NFKC').toLowerCase().replace(/[^가-힣a-z0-9]/g,'');
+  const name=compact(placeName);
   const score=(s:StoryScene)=>{const words=tokens(s.title+' '+s.text+' '+s.date);let n=0;for(const w of words)for(const t of q)if(t.length>=2&&w.includes(t))n++;
+    // A place-name match raises relevance, but does not verify a building or parcel match.
+    if(name.length>=3){
+      if(compact(s.title).includes(name))n+=12;
+      else if(compact(s.text).includes(name))n+=8;
+    }
     if(/사진|모습|풍경/.test(question)&&s.photos.length)n+=2;const decade=question.match(/(1[89]\d|20[0-2])\d?0?\s*년대/);if(decade&&s.year&&String(s.year).startsWith(decade[1].slice(0,3)))n+=3;return n;};
   const ranked=story.scenes.map(s=>({s,n:score(s)})).sort((a,b)=>b.n-a.n);
   const hits=ranked.filter(r=>r.n>0).slice(0,max).map(r=>r.s);
@@ -44,7 +51,7 @@ export function validateAnswer(raw:unknown,scenes:StoryScene[]){
   for(const row of body.paragraphs.slice(0,6)){const p=row as Record<string,unknown>;
     const ids=Array.isArray(p.evidence_ids)?[...new Set(p.evidence_ids.filter((x):x is string=>typeof x==='string'&&byId.has(x)))]:[];
     const text=typeof p.text==='string'?p.text.trim():'';const heading=typeof p.heading==='string'?p.heading.trim().slice(0,40):'';
-    const sentences=text.split(/(?<=[.!?요다])\s+/).filter(Boolean).length;
+    const sentences=text.split(/(?<=[.!?])\s+/).filter(Boolean).length;
     if(!Array.isArray(p.evidence_ids)||p.evidence_ids.some(id=>typeof id!=='string'||!byId.has(id))||!ids.length||!text||text.length>600||sentences>3){omitted++;continue;}
     const allowed=numbers(ids.map(id=>{const s=byId.get(id)!;return [s.date,s.title,s.text].join(' ');}).join(' '));
     if([...numbers(heading+' '+text)].some(n=>!allowed.has(n))){omitted++;continue;}
@@ -59,7 +66,7 @@ export function validateAnswer(raw:unknown,scenes:StoryScene[]){
 export type ClientQuestionType=QuestionType;
 export function preparePlaceAnswer(input:{address:Address;story:DocentStory;question?:string;questionType?:QuestionType}){
   const question=(input.question||'').trim().slice(0,300)||input.story.dong+'의 시간을 안내해 주세요.';
-  const scenes=pickScenes(input.story,question);
+  const scenes=pickScenes(input.story,question,14,input.address.bdNm);
   return {
     version:ANSWER_VERSION,mode:'client_ai' as const,status:scenes.length?'ready':'no_records',
     generation:{executor:'calling_client_ai',classification:'calling_client_ai',serverAiCalls:0,operatorAiTokens:0,clientUsage:'호출한 AI 서비스의 이용 한도·요금 정책 적용. 서버는 사용자 토큰 잔액이나 실제 과금을 조회하지 않습니다.'},

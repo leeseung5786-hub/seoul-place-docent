@@ -68,3 +68,16 @@ test('MCP module has no model-provider capability or answer cache reuse',()=>{
  for(const forbidden of ['openaiFetch','api.openai.com','OPENAI_API_KEY','place_answer_cache'])assert.equal(source.includes(forbidden),false,forbidden);
  for(const rule of ['장소와 동네를 구분','1~3문장','held','evidence_ids'])assert.ok(DOCENT_RULES.includes(rule));
 });
+
+test('address wording still prioritizes Hanseong place records without upgrading their scope',()=>{
+ const address={roadAddr:'서울특별시 성북구 삼선교로16길 116',bdNm:'한성대학교',sggNm:'성북구',emdNm:'삼선동2가'};
+ const story=getDocentStory(address.sggNm,address.emdNm);
+ const question=address.roadAddr+'의 건물 자체의 역사와 주변 동네의 역사 및 공간 변화를 설명해 줘.';
+ const packet=preparePlaceAnswer({address,story,question});
+ const records=packet.neighborhood.records;
+ assert.ok(records.some(r=>r.id==='seongbuk-688'));
+ assert.ok(records.some(r=>r.id==='seongbuk-690'));
+ assert.ok(records.some(r=>r.id==='seongbuk-660'));
+ assert.ok(records.every(r=>r.scope==='dong'||r.scope==='district'));
+ assert.deepEqual(records.map(r=>r.id),pickScenes(story,question,14,address.bdNm).map(r=>r.id));
+});
