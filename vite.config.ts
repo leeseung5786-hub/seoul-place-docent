@@ -5,6 +5,7 @@ import hostingConfig from "./.openai/hosting.json";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { sites } from "./build/sites-vite-plugin";
 import { connectorPreview } from "./build/connector-preview-plugin.mjs";
+import {sitesScanData} from './build/sites-scan-data';
 import {sitesNativeRuntime} from './build/sites-native-runtime';
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
@@ -55,6 +56,7 @@ export default defineConfig(async ({ command }) => {
   const { cloudflare } = await import("@cloudflare/vite-plugin");
 
   return {
+    json: {stringify: true, namedExports: false},
     resolve: {alias: {"@/lib/video-records-asset": fileURLToPath(new URL("./lib/video-records-asset.cloudflare.ts", import.meta.url)), "@/lib/runtime-env": fileURLToPath(new URL("./lib/runtime-env.cloudflare.ts", import.meta.url))}},
     server: {
       ...(managedLinux
@@ -65,6 +67,7 @@ export default defineConfig(async ({ command }) => {
         : {}),
     },
     plugins: [
+      sitesScanData(),
       sitesNativeRuntime(),
       vinext(),
       sites({ mockAuth: !managedLinux }),
