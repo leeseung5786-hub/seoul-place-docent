@@ -1,3 +1,4 @@
+import {sendMcpAudit} from './mcp-audit-remote';
 import {isObject, type McpToolResult} from './mcp-protocol';
 
 export type AuditRow = {requestId:string; tool:string; at:number; ok:boolean; records:number; ms:number; errorType:string|null; client:string; validation:boolean};
@@ -27,7 +28,7 @@ export function returnedRecords(result:McpToolResult):number {
  return 0;
 }
 export async function recordMcpCall(db:D1Database|undefined,row:AuditRow) {
- if(!db)return false;
+ if(!db)return sendMcpAudit(row);
  try {
   await ensureMcpAudit(db);
   await db.prepare('INSERT INTO mcp_tool_call_log (request_id,tool,at,ok,records,ms,error_type,client,validation) VALUES (?,?,?,?,?,?,?,?,?)')

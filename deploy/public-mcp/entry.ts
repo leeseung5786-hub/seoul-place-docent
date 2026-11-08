@@ -11,7 +11,7 @@ export default {async fetch(request:Request):Promise<Response>{
  if(path==='/health'||['/mcp','/api/public-mcp'].includes(path)&&url.searchParams.get('__route')==='health'){
   if(request.method!=='GET'&&request.method!=='HEAD')return new Response(null,{status:405,headers:{Allow:'GET, HEAD'}});
   const configured=!!env.JUSO_API_KEY;
-  return Response.json({status:configured?'ready':'not_configured',service:'seoul-place-docent-public-mcp',auth:'none',addressConfigured:configured,auditConfigured:!!env.DB,modelCalls:0,mcpPath:'/mcp'}, {status:configured?200:503,headers:mcpHeaders});
+  return Response.json({status:configured?'ready':'not_configured',service:'seoul-place-docent-public-mcp',auth:'none',addressConfigured:configured,auditConfigured:!!env.DB||!!(env.MCP_AUDIT_URL&&env.MCP_AUDIT_TOKEN),auditStorage:env.DB?'d1':env.MCP_AUDIT_URL&&env.MCP_AUDIT_TOKEN?'https-receiver':'none',modelCalls:0,mcpPath:'/mcp'}, {status:configured?200:503,headers:mcpHeaders});
  }
  if(!['/mcp','/api/public-mcp'].includes(path))return new Response('Not found',{status:404,headers:mcpHeaders});
  const handler=({POST,GET,HEAD,DELETE,OPTIONS} as Record<string,(r:Request)=>Response|Promise<Response>>)[request.method];
