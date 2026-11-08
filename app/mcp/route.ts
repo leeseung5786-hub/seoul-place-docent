@@ -2,6 +2,7 @@ import {env} from '@/lib/runtime-env';
 import {z} from 'zod';
 import {archiveStats, database} from '@/lib/archive-db';
 import {getDocentStory, getFullDocentStory} from '@/lib/docent-data';
+import {getDocentVideoCandidates} from '@/lib/docent-videos';
 import {mapAddress} from '@/lib/map-address';
 import {photoResearchThumbnail} from '@/lib/photo-research';
 import {searchAddresses, ServiceError, verifyAddress} from '@/lib/providers';
@@ -23,7 +24,7 @@ const tools: McpTool[] = [
   },
   {
     name:'prepare_place_answer',
-    description:'사용자 자신의 AI가 분류·도슨트 작성에 사용할 사진·역사·출처와 작성 지침을 반환합니다. 서버 AI 호출은 0회입니다. 먼저 질문 유형을 분류해 questionType에 넣고, 반환된 근거로 당신이 최종 답변을 작성하세요. token 또는 address 중 하나가 필요합니다. 장소와 동네를 구분하고 문단당 근거를 연결하세요.',
+    description:'사용자 자신의 AI가 분류·도슨트 작성에 사용할 사진·영상 후보·역사·출처와 작성 지침을 반환합니다. 서버 AI 호출은 0회입니다. 먼저 질문 유형을 분류해 questionType에 넣고, 반환된 근거로 당신이 최종 답변을 작성하세요. token 또는 address 중 하나가 필요합니다. 장소와 동네를 구분하고 문단당 근거를 연결하세요.',
     inputSchema:{type:'object',properties:{token:{type:'string',minLength:1,maxLength:6000},address:{type:'string',minLength:2,maxLength:100},question:{type:'string',maxLength:300},questionType:{type:'string',enum:[...QUESTION_TYPES]}},oneOf:[{required:['token']},{required:['address']}],additionalProperties:false},
     annotations:{readOnlyHint:true,destructiveHint:false,openWorldHint:true}
   },
@@ -125,7 +126,7 @@ async function execute(name: string, args: Record<string, unknown>): Promise<Mcp
     switch (name) {
       case 'resolve_photo_location': {
         const input=locationInput.parse(args);
-        if(input.latitude===undefined||input.longitude===undefined)return textResult({status:'needs_location',nextAction:'주소 입력 또는 위치 공유를 요청하세요.',note:'AI 앱에서 사진 GPS가 전달되지 않을 수 있습니다. 이미지 모습으로 위치를 추측하지 마세요.'});
+        if(input.latitude===undefined||input.longitude===undefined)return textResult({status:'needs_location',nextAction:'주소 입력 또는 위치 공유를 요청하세요. 사진만 있다면 도슨트 웹에서 원본 사진을 선택해 주소를 확인할 수 있습니다.',note:'AI 앱에서 사진 GPS가 전달되지 않을 수 있습니다. 이미지 모습으로 위치를 추측하지 마세요.'});
         const result=await mapAddress(input.longitude,input.latitude,env);
         return textResult({...result,status:result.candidates.length?'confirm_address':'needs_address',needsConfirmation:true,note:'좌표는 촬영 위치입니다. 피사체의 위치 또는 건물 역사로 단정하지 마세요. 주소 후보를 확인한 뒤 token을 사용하세요.'});
       }
@@ -134,7 +135,7 @@ async function execute(name: string, args: Record<string, unknown>): Promise<Mcp
         const address=await verifyAddress(input.token,env);
         const story=getFullDocentStory(address.sggNm,address.emdNm);
         const question=input.question||story.dong+'의 시간을 안내해 주세요.';
-        const scenes=pickScenes(story,question);
+        const scenes=pickScenes(story,question,14,address.bdNm);
         const checked=validateAnswer(input.answer,scenes);
         await logClientDocent(env.DB,{event:'validation',ms:Date.now()-started,ok:checked.omitted===0,records:scenes.length,type:checked.questionType,kept:checked.paragraphs.length,omitted:checked.omitted});
         const used=new Set(checked.paragraphs.flatMap(p=>p.evidenceIds));
@@ -201,7 +202,8 @@ async function execute(name: string, args: Record<string, unknown>): Promise<Mcp
         const story = getFullDocentStory(address.sggNm, address.emdNm);
         const packet=await generatePlaceAnswer({address,story,question:input.question,questionType:input.questionType});
         await logClientDocent(env.DB,{event:'retrieval',ms:Date.now()-startedAt,ok:packet.status==='ready',records:packet.neighborhood.selected,type:input.questionType});
-        return textResult(packet);
+        const videos=await getDocentVideoCandidates(address.sggNm,address.emdNm);
+        return textResult({...packet,videos,instructions:packet.instructions+'\n10) 관련 영상은 별도 참고자료로 안내하세요. 역사 서술의 검증 근거에는 neighborhood 기록 ID를 사용하세요. 원자료 시간과 독립 검증 상태를 구분하세요.'});
       }
       case 'get_answer_stats': {
         const input = z.object({days: z.number().int().min(1).max(365).default(30)}).strict().parse(args);
