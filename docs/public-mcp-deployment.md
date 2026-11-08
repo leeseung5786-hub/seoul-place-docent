@@ -57,3 +57,9 @@ HTTP 프로브, 기존 Sites의 인증된 플러그인 호출, 로컬 fixture �
 ## 기존 홈페이지 안내 연결
 
 공개 배포와 HTTP/계정 검사를 마친 실제 URL을 기존 홈페이지의 서버 환경변수 `MCP_PUBLIC_URL`에 설정하고 최신 소스를 게시합니다. `/api/mcp-connection`은 검증된 HTTPS `/mcp` 주소만 반환하며 자격증명·query token·Sites 주소는 거절합니다. 공개 주소가 없는 Sites 화면은 잘못된 No authentication URL을 복사하게 하지 않고 인증 제한을 알립니다.
+
+## 기존 Sites D1으로 통계 전송
+
+Vercel에 `MCP_AUDIT_URL=https://seoul-place-history.xeonire.chatgpt.site/api/internal/mcp-audit`와 전용 Secret `MCP_AUDIT_TOKEN`을 설정합니다. 같은 Secret을 Sites에 설정하고 수신 API를 배포합니다. 관리자 키와 구분한 통계 쓰기 전용 키입니다. 임의 SQL·자료 내용·사용자 주소·질문은 전송하지 않습니다. 인증, 엄격한 스키마, 크기 제한, 시각 검사를 통과한 호출 메타데이터만 기존 D1에 저장합니다. 실제 저장 응답을 받은 경우에만 `auditPersisted=true`를 반환합니다.
+
+로컬 D1이 있으면 그 D1을 우선합니다. 전송 실패 시에도 자료 조회는 계속되고 `auditPersisted=false`와 구조화 로그가 남습니다. 자동 재전송·과거 로그 소급 저장은 없습니다. `/health`의 auditConfigured는 설정 존재 여부이고, 실제 저장 성공은 MCP 응답 receipt와 관리자 화면의 requestId를 대조해 확인합니다.
